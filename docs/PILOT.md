@@ -337,6 +337,29 @@ Muse-generates split still holds for sitcoms. Also fixed: multi-season
 Wikipedia pages (both seasons listed on one page) are now split by episode
 table.
 
+## Is Muse Spark's weakness our prompting? 2026-09-08
+
+Tested both halves separately, all on Breaking Bad S4, all for cents.
+
+**Generation.** A "generate generously, the audit rejects" prompt (v2) moved
+Muse from 21 to 23 candidates (Opus: 44) and on The Gentlemen S1 from 9 to 12
+(Opus: 27), still leaving episodes empty it was told not to. On The Office it
+had matched Opus. Conclusion: on serialized drama the ~50% ceiling is the
+model's disposition, not the wording. Rule: Muse for sitcoms, Opus for
+anything with a plot.
+
+**Audit.** `pipeline/eval_consequence.py` scores a consequence prompt against
+Opus's own verdicts as labels (20 leaks, 22 safe). Muse with the shipped
+yes/no prompt: leak recall 30%, no false alarms. Its reasoning matches the
+checklist word for word ("no death, arrest or betrayal is stated") rather
+than asking what a viewer who has not seen the episode would learn. A
+list-what-it-reveals-then-judge prompt (v2) scored 10%, missing a car crash.
+Conclusion: the counterfactual judgement the consequence check needs is a
+model limit here. The audit stays on Opus.
+
+The eval is reusable: any future model or prompt for the consequence check
+can be scored the same way before it touches shipped data.
+
 ## Cost
 
 ~75 episodes × (1 generation + ~5 audit calls). Pennies to a few dollars.

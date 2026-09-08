@@ -1,0 +1,212 @@
+{
+  "show": "The Gentlemen",
+  "slug": "the-gentlemen",
+  "season": 1,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Gentlemen (2024 TV series)",
+    "revid": 1373879856,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Gentlemen_%282024_TV_series%29&oldid=1373879856",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Refined Aggression",
+      "candidates": [
+        {
+          "text": "A United Nations army officer serving on the Turkish-Syrian border travels back home to England.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "an army officer of the United Nations stationed at the border between Turkey and Syria, returns home to England",
+          "grounded_ok": true
+        },
+        {
+          "text": "In the estate cellar, a large collection of wine bottles is being sold off for cash.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "selling the estate wine collection to Johnston",
+          "grounded_ok": true
+        },
+        {
+          "text": "A slick and deceptive bookmaker handles a major wager placed by the family's irresponsible elder brother.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "a major bet placed by Freddy with Sticky Pete, a deceptive bookmaker",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 3692,
+        "out": 5266,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "Tackle Tommy Woo Woo",
+      "candidates": [
+        {
+          "text": "Tommy's brother arrives at the country estate with his henchmen asking after the missing Tommy.",
+          "specificity": 5,
+          "characters_named": [
+            "Tommy"
+          ],
+          "grounded_in": "arrives at the estate with his henchmen, looking for the missing Tommy",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie reluctantly attends a glittering formal gala hosted by Johnston with Susie at his side.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Johnston",
+            "Susie"
+          ],
+          "grounded_in": "attend a gala hosted by Johnston",
+          "grounded_ok": true
+        },
+        {
+          "text": "Susie's father is held in a luxury open-air prison reflecting his wealth and influence.",
+          "specificity": 3,
+          "characters_named": [
+            "Susie"
+          ],
+          "grounded_in": "imprisoned in a luxury, open-air prison due to his wealth and influence",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 2685,
+        "out": 7149,
+        "cache_read": 1009,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Where's My Weed At?",
+      "candidates": [
+        {
+          "text": "Eddie is tasked with stealing a Lamborghini Huracan as a favour for an inconvenienced customer.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "They want to steal a Lamborghini Huracan, and the task is delegated to Eddie.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie meets a chop shop owner and suspects the man hides more violent tendencies.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "It belongs to Mercy, a chop shop owner, who Eddie soon suspects of hiding more violent tendencies.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie's mother worries openly about the impact of growing criminality on the family.",
+          "specificity": 2,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "although Eddie's mother, Lady Sabrina, worries about the impact of growing criminality on the family.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 3695,
+        "out": 11119,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "An Unsympathetic Gentleman",
+      "candidates": [
+        {
+          "text": "Lady Sabrina meets a local sheep farmer introduced by the estate gamekeeper.",
+          "specificity": 5,
+          "characters_named": [
+            "Lady Sabrina"
+          ],
+          "grounded_in": "a local sheep farmer",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 3695,
+        "out": 6232,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "I've Hundreds of Cousins",
+      "candidates": [],
+      "note": "Every concrete moment in the summary is framed as a theft, betrayal, reveal, or new alliance, leaving no inconsequential texture to probe.",
+      "usage": {
+        "in": 2685,
+        "out": 2729,
+        "cache_read": 1009,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "All Eventualities",
+      "candidates": [
+        {
+          "text": "Eddie spends the evening at a crowded boxing party, mingling ringside among the cheering crowd.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "At a boxing party, Eddie meets Henry Collins",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 3692,
+        "out": 5508,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Not Without Danger",
+      "candidates": [
+        {
+          "text": "Pregnant Charlotte arrives back from university, surprising her family with an unexpected homecoming.",
+          "specificity": 5,
+          "characters_named": [
+            "Charlotte"
+          ],
+          "grounded_in": "a pregnant Charlotte returns from university, surprising the family and Geoff.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 3691,
+        "out": 6607,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Gospel According to Bobby Glass",
+      "candidates": [],
+      "note": "Episode 8 summary is all climax: wakes, deals, bids, arrests, murders and ruses. Every concrete beat leads to or results from a forbidden outcome, so no inconsequential probe remains.",
+      "usage": {
+        "in": 3694,
+        "out": 4039,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

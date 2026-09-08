@@ -1,0 +1,399 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 4,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "Breaking Bad season 4",
+    "revid": 1365318951,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_4&oldid=1365318951",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Box Cutter",
+      "candidates": [
+        {
+          "text": "Hank, laid up at home after his injury, has taken up collecting and cataloguing minerals.",
+          "specificity": 5,
+          "characters_named": [
+            "Hank"
+          ],
+          "grounded_in": "becoming more preoccupied with collecting and cataloging minerals",
+          "grounded_ok": true
+        },
+        {
+          "text": "A visibly paranoid Saul sits in his office with a newly hired personal bodyguard standing nearby.",
+          "specificity": 5,
+          "characters_named": [
+            "Saul"
+          ],
+          "grounded_in": "a paranoid Saul hires a personal bodyguard",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler grows fearful at home when her repeated calls to Walt go unanswered and she cannot reach him.",
+          "specificity": 3,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler fears the worst when she cannot contact Walt",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7581,
+        "out": 4473,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "Thirty-Eight Snub",
+      "candidates": [
+        {
+          "text": "Jesse has bought a huge new stereo system, and the party with Badger and Skinny Pete just keeps going.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse",
+            "Badger",
+            "Skinny Pete"
+          ],
+          "grounded_in": "buys an elaborate stereo system and throws an ongoing party with Badger and Skinny Pete",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andrea visits Jesse at his house, and Jesse presses a thick stack of cash on her for Brock.",
+          "specificity": 5,
+          "characters_named": [
+            "Andrea",
+            "Jesse",
+            "Brock"
+          ],
+          "grounded_in": "hands her a large stack of cash for Brock's future",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank continues his physical therapy sessions at home while Marie struggles with his deepening depression.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank",
+            "Marie"
+          ],
+          "grounded_in": "Marie struggles with Hank's deepening depression as he continues his physical therapy sessions at home",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7584,
+        "out": 6218,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Open House",
+      "candidates": [
+        {
+          "text": "Jesse tosses piles of cash into the crowd during a chaotic round-the-clock party at his house.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "deliberately throwing piles of money in the midst of the chaos",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt glares up at a motion-detecting surveillance camera newly mounted on the lab wall.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "motion-detecting surveillance camera installed in the lab",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7580,
+        "out": 3937,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Bullet Points",
+      "candidates": [
+        {
+          "text": "Skyler makes Walt painstakingly rehearse a supposedly spontaneous admission, correcting his tone each time.",
+          "specificity": 5,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler makes Walt meticulously rehearse their \"spontaneous\" admission of his problem.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7580,
+        "out": 4788,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Shotgun",
+      "candidates": [
+        {
+          "text": "Mike drives Jesse around New Mexico to make multiple collections together during the day.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Jesse"
+          ],
+          "grounded_in": "he takes Jesse on multiple collections throughout New Mexico",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7580,
+        "out": 8195,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Cornered",
+      "candidates": [
+        {
+          "text": "Walt gives in to Walt Jr.'s pleas and buys him a shiny new Dodge Challenger.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt",
+            "Walt Jr."
+          ],
+          "grounded_in": "buys him a Dodge Challenger",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7580,
+        "out": 4410,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Problem Dog",
+      "candidates": [
+        {
+          "text": "Skyler stares at Walt's towering stacks of cash and doubts the car wash can launder it all.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "taken aback by the amount of money Walt makes, is unsure how she will launder all of it through the car wash successfully",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7580,
+        "out": 6419,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Hermanos",
+      "candidates": [
+        {
+          "text": "At Hank's request, Walt crouches under Gus's car to attach an illegal tracking device.",
+          "specificity": 5,
+          "characters_named": [
+            "Hank",
+            "Walt",
+            "Gus"
+          ],
+          "grounded_in": "Hank enlists Walt to plant an illegal tracking device on Gus' car",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt goes to plant the tracker on Gus's car and sees Mike standing nearby.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Gus",
+            "Mike"
+          ],
+          "grounded_in": "Walt sees Mike is present",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7581,
+        "out": 8508,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Bug",
+      "candidates": [
+        {
+          "text": "Skyler climbs into the cramped crawl space beneath her house, where stacks of cash are stashed.",
+          "specificity": 5,
+          "characters_named": [
+            "Skyler"
+          ],
+          "grounded_in": "Skyler later ventures into the crawl space underneath her home, where she has been storing Walt's cash.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse spends the day helping scrub clean and haul boxes of product out of a depot.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "forcing Jesse to help clean and move all the product out of it",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7579,
+        "out": 4882,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Salud",
+      "candidates": [
+        {
+          "text": "Ted is showing off a brand-new leased Mercedes instead of using the cash to pay his back taxes.",
+          "specificity": 5,
+          "characters_named": [
+            "Ted"
+          ],
+          "grounded_in": "Ted promptly leases a Mercedes",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler has Saul invent a fake inheritance story to hand Ted money for his back taxes.",
+          "specificity": 5,
+          "characters_named": [
+            "Skyler",
+            "Saul",
+            "Ted"
+          ],
+          "grounded_in": "Saul concoct a story about an inheritance to give Ted enough money to pay off his back taxes",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt is missing from his son's birthday party, leaving the family to celebrate without him.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt misses his son's birthday party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ted says he wants to get his business running again and hire a tax lawyer for a better deal.",
+          "specificity": 4,
+          "characters_named": [
+            "Ted"
+          ],
+          "grounded_in": "hire a tax lawyer to try and negotiate a \"better deal\" with the IRS",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 7580,
+        "out": 4990,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Crawl Space",
+      "candidates": [],
+      "note": "Every concrete moment stated in this summary leads to or results from injury, death threats, firing, discovery or another turning point, leaving no inconsequential texture to probe.",
+      "usage": {
+        "in": 7581,
+        "out": 4141,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "End Times",
+      "candidates": [
+        {
+          "text": "Skyler, Walt Jr., and Holly are staying at Hank and Marie's house under DEA protection.",
+          "specificity": 5,
+          "characters_named": [
+            "Skyler",
+            "Walt Jr.",
+            "Holly",
+            "Hank",
+            "Marie"
+          ],
+          "grounded_in": "Skyler, Walt Jr., and Holly go under DEA protection at Hank and Marie's home.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gomez is searching the industrial laundromat on Hank's orders, checking the building thoroughly.",
+          "specificity": 5,
+          "characters_named": [
+            "Gomez",
+            "Hank"
+          ],
+          "grounded_in": "Hank sends Gomez to search the industrial laundromat",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the summary is poisoning, death threats and bomb plot, leaving few inconsequential moments.",
+      "usage": {
+        "in": 7580,
+        "out": 5809,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Face Off",
+      "candidates": [
+        {
+          "text": "Detectives question Jesse about Brock, and Saul steps in to intervene on his behalf.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse",
+            "Brock",
+            "Saul"
+          ],
+          "grounded_in": "Detectives question Jesse about Brock, but Saul intervenes.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this finale leads to or reveals a death or the poisoning reveal, leaving almost no inconsequential texture.",
+      "usage": {
+        "in": 7580,
+        "out": 4307,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

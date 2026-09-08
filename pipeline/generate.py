@@ -33,7 +33,7 @@ def load_env():
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)
                 os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
-PROMPT = (ROOT / "pipeline/prompts/generate.md").read_text()
+PROMPT = (ROOT / "pipeline/prompts/generate.md").read_text()   # overridden by --prompt
 
 
 class Probe(BaseModel):
@@ -116,6 +116,10 @@ def with_retry(fn, *, tries=7, base=5.0):
             time.sleep(wait)
 
 
+def pathlib_read(p):
+    return (ROOT / p).read_text() if not p.startswith("/") else Path(p).read_text()
+
+
 def slugify(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
@@ -178,6 +182,8 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="Print the prompt for the first target and exit")
     ap.add_argument("--model", default=None, help="default: claude-opus-5, or muse-spark-1.3-contributor with --provider meta")
     ap.add_argument("--provider", default="anthropic", choices=["anthropic", "meta"])
+    ap.add_argument("--prompt", help="alternative prompt file (default pipeline/prompts/generate.md)")
+    ap.add_argument("--tag", help="output file tag (default: provider name for meta, none for anthropic)")
     ap.add_argument("--effort", default="high", choices=["low", "medium", "high", "xhigh", "max"])
     ap.add_argument("--force", action="store_true", help="Regenerate episodes that already have candidates")
     a = ap.parse_args()
@@ -202,8 +208,11 @@ def main():
         return
 
     a.model = a.model or ("muse-spark-1.3-contributor" if a.provider == "meta" else "claude-opus-5")
+    global PROMPT
+    if a.prompt:
+        PROMPT = pathlib_read(a.prompt)
     client = make_client(a.provider)
-    tag = "" if a.provider == "anthropic" else f".{a.provider}"
+    tag = f".{a.tag}" if a.tag else ("" if a.provider == "anthropic" else f".{a.provider}")
     out_path = ROOT / f"data/probes/{slug}/s{a.season:02d}{tag}.candidates.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     results = json.loads(out_path.read_text()) if out_path.exists() else {"show": a.show, "slug": slug,
