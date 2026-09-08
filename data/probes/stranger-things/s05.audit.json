@@ -143,6 +143,774 @@
           "rejected": null
         }
       ]
+    },
+    "2": {
+      "title": "Chapter Two: The Vanishing of Holly Wheeler",
+      "candidates": [
+        {
+          "text": "Tension boils over as Jonathan accuses Steve of quietly competing with him for Nancy's attention.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only depicts interpersonal friction over an already-established romantic tension, without resolving the love triangle or disclosing any plot outcome."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a pending romantic conflict/love triangle coming to a head between Jonathan and Steve over Nancy, a turning point in their relationships that the viewer hasn't yet seen surface."
+                }
+              ],
+              "reason": "It reveals a pending romantic conflict/love triangle coming to a head between Jonathan and Steve over Nancy, a turning point in their relationships that the viewer hasn't yet seen surface."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a pending romantic conflict/love triangle coming to a head between Jonathan and Steve over Nancy, a turning point in their relationships that the viewer hasn't yet seen surface."
+        },
+        {
+          "text": "Lucas keeps up his bedside vigil beside the comatose Max, still hoping that she will wake up.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Max's coma and Lucas's devotion are already established at the end of the previous season, and the sentence discloses no new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It simply continues the known status quo of Max's coma and Lucas's devotion, revealing no new outcome or answer."
+                }
+              ],
+              "reason": "Max's coma and Lucas's devotion are already established at the end of the previous season, and the sentence discloses no new outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Robin floats the idea of putting Will's telepathic link to the hive mind to practical use.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Will can sense Vecna through his link; Robin merely proposing to use it is a plan suggestion rather than an outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Will's sensitivity to the hive mind is already established, and a character merely proposing to use it is planning/texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "The viewer already knows Will can sense Vecna through his link; Robin merely proposing to use it is a plan suggestion rather than an outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eleven and Hopper pick their way through the Upside Down side by side, searching as they go.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows two characters whose survival and reunion are already known engaging in an unspecified search, revealing no outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows two already-alive characters travelling and searching together in a location the story has long established, without disclosing any outcome, discovery, or answer."
+                }
+              ],
+              "reason": "It shows two characters whose survival and reunion are already known engaging in an unspecified search, revealing no outcome, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Chapter Three: The Turnbow Trap",
+      "candidates": [
+        {
+          "text": "Erica is enlisted to drug a bullying classmate and his entire family at their home.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary scheme/activity detail with no outcome, death, or reveal attached to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a scheming activity/character texture with no revealed outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is an ordinary scheme/activity detail with no outcome, death, or reveal attached to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The group hauls an unconscious family out to an abandoned barn and lays them out there.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies the outcome of the cliffhanger attack on the Wheeler home\ni.e. that a family is found incapacitated and then moved/hidden, resolving the pending threat to Holly's household."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Rescuing/relocating unconscious people to a barn is logistical texture without identifying an outcome, death, or reveal tied to the pending Demogorgon attack."
+                }
+              ],
+              "reason": "It implies the outcome of the cliffhanger attack on the Wheeler home\ni.e. that a family is found incapacitated and then moved/hidden, resolving the pending threat to Holly's household."
+            }
+          },
+          "rejected": "consequence (1/2): It implies the outcome of the cliffhanger attack on the Wheeler home\ni.e. that a family is found incapacitated and then moved/hidden, resolving the pending threat to Holly's household."
+        },
+        {
+          "text": "The teenagers unpack a stash of weapons that Murray smuggled past the quarantine into Hawkins.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Preparing/unpacking smuggled weapons is ordinary logistical texture and doesn't disclose any outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Ordinary preparation/logistics texture — a weapons cache being unpacked doesn't disclose any outcome, death, or reveal about the pending Demogorgon/Holly situation."
+                }
+              ],
+              "reason": "Preparing/unpacking smuggled weapons is ordinary logistical texture and doesn't disclose any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hopper and Eleven work at the enormous wall ringing Hawkins, trying to find a way through it.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Hopper safely gets out of the Upside Down after the failed crawl and rejoins Eleven, resolving the cliffhanger of him being trapped there."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary activity and the established quarantine setting without disclosing any outcome, discovery, or resolution of the episode's cliffhangers."
+                }
+              ],
+              "reason": "It implies Hopper safely gets out of the Upside Down after the failed crawl and rejoins Eleven, resolving the cliffhanger of him being trapped there."
+            }
+          },
+          "rejected": "consequence (1/2): It implies Hopper safely gets out of the Upside Down after the failed crawl and rejoins Eleven, resolving the cliffhanger of him being trapped there."
+        },
+        {
+          "text": "A suburban house is rigged and rearranged into a trap, with the kids waiting inside for the Demogorgon.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes a setup/activity (preparing a trap and waiting) without revealing the outcome of the Demogorgon threat or Holly's fate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the kids setting up a plan/trap, which is situational setup rather than the outcome of the Demogorgon confrontation or any reveal."
+                }
+              ],
+              "reason": "It describes a setup/activity (preparing a trap and waiting) without revealing the outcome of the Demogorgon threat or Holly's fate."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Chapter Four: Sorcerer",
+      "candidates": [
+        {
+          "text": "Soldiers move through Hawkins rounding up children who might be next, holding them at the base camp.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a significant plot turn — the military's mass roundup and detention of Hawkins children — an escalation not yet known to the viewer."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a military crackdown/roundup of children as a new development, effectively answering how the authorities respond to Holly's abduction and Will's discovery of Henry's targets."
+                }
+              ],
+              "reason": "It reveals a significant plot turn — the military's mass roundup and detention of Hawkins children — an escalation not yet known to the viewer."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a significant plot turn — the military's mass roundup and detention of Hawkins children — an escalation not yet known to the viewer."
+        },
+        {
+          "text": "Holly has invented a name for the strange memory-world she and Max are stuck inside: \"Camazotz.\"",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Holly is alive in a memory-world and that the comatose Max is there with her, answering the open question of Holly's fate and Max's condition."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Holly is alive and that comatose Max is conscious inside a shared memory-world with her, answering the open questions of Holly's fate and Max's condition."
+                }
+              ],
+              "reason": "It reveals that Holly is alive in a memory-world and that the comatose Max is there with her, answering the open question of Holly's fate and Max's condition."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Holly is alive in a memory-world and that the comatose Max is there with her, answering the open question of Holly's fate and Max's condition."
+        },
+        {
+          "text": "Hopper and Eleven slip inside the military's base camp within the Upside Down, looking for who is being held there.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "placing the military base inside the Upside Down",
+                "their purpose being to find out who is held there rather than to kill Henry"
+              ]
+            }
+          },
+          "rejected": "faithful: placing the military base inside the Upside Down; their purpose being to find out who is held there rather than to kill Henry"
+        },
+        {
+          "text": "Dustin, Steve, Nancy, and Jonathan chase a Demogorgon away from the others and through a gate into the Upside Down.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an action beat consistent with the established threat and doesn't disclose an outcome, death, or answer to a pending question like Holly's fate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an action beat consistent with the established premise of Demogorgons and gates, and doesn't disclose an outcome, death, or answer to a pending question like Holly's fate."
+                }
+              ],
+              "reason": "This is an action beat consistent with the established threat and doesn't disclose an outcome, death, or answer to a pending question like Holly's fate."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Chapter Five: Shock Jock",
+      "candidates": [
+        {
+          "text": "The group runs voltage from the radio tower through a dead Demogorgon's body, trying to jolt it back to life.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the Demogorgon trap ends with the creature dead (rather than captured alive as intended), which is the outcome of the pending plan the viewer just saw unravel."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the cliffhanger confrontation — the Demogorgon ends up dead rather than tracked, forcing the group into a new revival plan."
+                }
+              ],
+              "reason": "It reveals that the Demogorgon trap ends with the creature dead (rather than captured alive as intended), which is the outcome of the pending plan the viewer just saw unravel."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the Demogorgon trap ends with the creature dead (rather than captured alive as intended), which is the outcome of the pending plan the viewer just saw unravel."
+        },
+        {
+          "text": "Max and Holly move through Henry's memories of Holly herself, hunting for a way out while Derek keeps him talking.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Max is alive/conscious in the Upside Down and allied with Holly navigating Henry's memories, and that Derek survives the Demogorgon trap encounter to stall Henry \\u2014 outcomes of the cliffhangers left open at the end of episode 3."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the group's trap failed and Derek ends up in Henry's clutches, and that Max is conscious/active inside Henry's mind-scape with Holly, answering the pending question of whether Derek would be taken."
+                }
+              ],
+              "reason": "It reveals that Max is alive/conscious in the Upside Down and allied with Holly navigating Henry's memories, and that Derek survives the Demogorgon trap encounter to stall Henry \\u2014 outcomes of the cliffhangers left open at the end of episode 3."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Max is alive/conscious in the Upside Down and allied with Holly navigating Henry's memories, and that Derek survives the Demogorgon trap encounter to stall Henry \\u2014 outcomes of the cliffhangers left open at the end of episode 3."
+        },
+        {
+          "text": "The kidnapped children wake up together, and most of them accept Henry's story that he rescued them.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Holly is not alone but among a group of kidnapped children being held and manipulated by Henry, answering the open question of what happens to Henry's abducted victims."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Henry has kidnapped multiple children (not just Holly) and is manipulating them with a rescuer story, answering the open question of what Henry is doing with his abducted victims."
+                }
+              ],
+              "reason": "It reveals that Holly is not alone but among a group of kidnapped children being held and manipulated by Henry, answering the open question of what happens to Henry's abducted victims."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Holly is not alone but among a group of kidnapped children being held and manipulated by Henry, answering the open question of what happens to Henry's abducted victims."
+        },
+        {
+          "text": "Nancy and Jonathan climb up onto the roof of Hawkins Lab and find something strange sitting there.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The sentence only shows Nancy and Jonathan going to a location and vaguely encountering \"something strange\"; it names no outcome, death, or answer to any pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a vague setup describing Nancy and Jonathan investigating a location; the \"something strange\" is unspecified and reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "The sentence only shows Nancy and Jonathan going to a location and vaguely encountering \"something strange\"; it names no outcome, death, or answer to any pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Chapter Six: Escape from Camazotz",
+      "candidates": [
+        {
+          "text": "Erica and Murray turn up at their old science teacher's door, hoping he can help pinpoint where Dustin's group is.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary logistical texture\ncharacters seeking help from a familiar figure\nwithout revealing any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a routine plot-progression beat (seeking Mr. Clarke's help) that reveals no outcome, death, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary logistical texture\ncharacters seeking help from a familiar figure\nwithout revealing any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dustin tries to walk a baffled Steve through his theory about what the Upside Down actually is.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The sentence describes a conversation without disclosing the theory's content or any outcome, so it reads as ordinary character texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The sentence describes a character conversation without disclosing the content of the theory or any outcome, so it reads as ordinary texture."
+                }
+              ],
+              "reason": "The sentence describes a conversation without disclosing the theory's content or any outcome, so it reads as ordinary character texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the hospital, Lucas and Robin keep watch over Max's bed, with Robin's girlfriend there too.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Max's comatose state and vigil at her bedside are already known, and Robin having a girlfriend is minor relationship texture consistent with her established arc rather than a plot outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Keeping vigil over the comatose Max is already-established status quo, and Robin having a girlfriend is minor character texture rather than a plot outcome."
+                }
+              ],
+              "reason": "Max's comatose state and vigil at her bedside are already known, and Robin having a girlfriend is minor relationship texture consistent with her established arc rather than a plot outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Max and Holly wander into one of Henry's old memories, a dark cave, while searching for a way out.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Max and Holly are together in Henry's memory realm, and wandering into a memory-cave is ordinary setting/activity without disclosing any outcome or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Max and Holly exploring Henry's memory landscape is consistent with their established situation in Camazotz and reveals no outcome, discovery, or turning point."
+                }
+              ],
+              "reason": "The viewer already knows Max and Holly are together in Henry's memory realm, and wandering into a memory-cave is ordinary setting/activity without disclosing any outcome or discovery."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Chapter Seven: The Bridge",
+      "candidates": [
+        {
+          "text": "Erica, Murray, and Mr. Clarke hunch over overlaid maps, pinpointing where Dustin's group sits on the other side.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Ordinary planning/logistics texture — characters consulting maps — without revealing any outcome, discovery, or answer to the cliffhanger about the sphere."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary planning/logistics texture showing characters coordinating map work, without revealing any outcome, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "Ordinary planning/logistics texture — characters consulting maps — without revealing any outcome, discovery, or answer to the cliffhanger about the sphere."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The group studies the radio station's tower, planning a climb, and readies a timer-rigged bomb to carry with them.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows the group preparing a plan (climbing the tower with a bomb), which is procedural setup rather than the outcome of any pending conflict or a reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the group preparing a new plan (climbing the tower with a bomb), which is setup and activity rather than the outcome of any pending conflict or an open question's answer."
+                }
+              ],
+              "reason": "It only shows the group preparing a plan (climbing the tower with a bomb), which is procedural setup rather than the outcome of any pending conflict or a reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eleven strains and forces open a rift in the air so the separated groups can regroup at last.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven succeeds in opening a rift and that the separated groups reunite, an outcome the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven regains/uses enough power to open a rift and that the separated groups (Hopper/Eleven and the Hawkins teens) successfully reunite, resolving the pending separation."
+                }
+              ],
+              "reason": "It reveals that Eleven succeeds in opening a rift and that the separated groups reunite, an outcome the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven succeeds in opening a rift and that the separated groups reunite, an outcome the viewer has not yet seen."
+        }
+      ]
+    },
+    "8": {
+      "title": "Chapter Eight: The Rightside Up",
+      "candidates": [
+        {
+          "text": "Eleven, Max and Kali go in together, travelling into Henry's mind side by side.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Max escapes her coma/Camazotz and is conscious again, and that Kali allies with the group for a joint psychic assault on Henry — outcomes still pending for the viewer."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Max escapes her comatose state and is reunited/allied with Eleven and Kali for a joint psychic assault on Henry, resolving the pending question of Max's fate and revealing a new alliance and turning point."
+                }
+              ],
+              "reason": "It reveals that Max escapes her coma/Camazotz and is conscious again, and that Kali allies with the group for a joint psychic assault on Henry — outcomes still pending for the viewer."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Max escapes her coma/Camazotz and is conscious again, and that Kali allies with the group for a joint psychic assault on Henry — outcomes still pending for the viewer."
+        },
+        {
+          "text": "Will finds himself watching scenes from Henry's childhood past unfold around him.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Will exploring Henry's memories is texture consistent with the established memory-realm mechanic and doesn't disclose an outcome or answer a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Will entering/observing Henry's memories is consistent with the established psychic-realm mechanic already shown with Max and Holly, and the sentence gives no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Will exploring Henry's memories is texture consistent with the established memory-realm mechanic and doesn't disclose an outcome or answer a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The rest of the group makes its way up and across toward the Abyss.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a vague, generic description of movement toward a location with no outcome, death, or reveal disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a vague description of the group traveling toward a location, with no outcome, reveal, or resolution disclosed."
+                }
+              ],
+              "reason": "This is a vague, generic description of movement toward a location with no outcome, death, or reveal disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 35327,
+    "out": 11619,
+    "cache_read": 423857,
+    "cache_write": 10293,
+    "calls": 126
+  },
+  "recheck_spend": {
+    "in": 1554,
+    "out": 4472,
+    "cache_read": 184266,
+    "cache_write": 0,
+    "calls": 36
   }
 }

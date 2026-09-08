@@ -1,0 +1,333 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 5,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Game of Thrones season 5",
+    "revid": 1371777340,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_5&oldid=1371777340",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Wars to Come",
+      "candidates": [
+        {
+          "text": "Missandei asks Grey Worm why some of the Unsullied still pay visits to brothels.",
+          "specificity": 4,
+          "characters_named": [
+            "Missandei",
+            "Grey Worm"
+          ],
+          "grounded_in": "Missandei asks Grey Worm about why some of the Unsullied visit brothels.",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a flashback, a girlish Cersei and a friend push into a swamp witch's hut in the woods.",
+          "specificity": 5,
+          "characters_named": [
+            "Cersei"
+          ],
+          "grounded_in": "In a flashback, a witch foretells a teenage Cersei",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion, drunk and miserable, is cooped up in a Pentos manse with Varys before they set out east.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Varys"
+          ],
+          "grounded_in": "In Pentos on Essos, a despondent Tyrion accompanies Varys to Meereen",
+          "grounded_ok": true
+        },
+        {
+          "text": "Littlefinger leaves young Robin in the keeping of a Vale lord before he and Sansa ride away.",
+          "specificity": 4,
+          "characters_named": [
+            "Littlefinger",
+            "Robin",
+            "Sansa"
+          ],
+          "grounded_in": "Littlefinger puts Robin in House Royce's care when he and Sansa depart",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys climbs down to the catacombs with a torch, and her two chained dragons snap at her.",
+          "specificity": 3,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Daenerys visits her two confined dragons, who act aggressively toward her.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1403,
+        "cache_read": 0,
+        "cache_write": 11769
+      }
+    },
+    "2": {
+      "title": "The House of Black and White",
+      "candidates": [
+        {
+          "text": "Newly arrived in Braavos, Arya makes her way to a building the locals call the House of Black and White.",
+          "specificity": 5,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "Arya arrives in Braavos and is accepted into the \"House of Black and White\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jaime seeks out Bronn and asks him to sail south to Dorne with him.",
+          "specificity": 4,
+          "characters_named": [
+            "Jaime",
+            "Bronn"
+          ],
+          "grounded_in": "Jaime recruits Bronn to travel to Dorne with him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Littlefinger and Sansa break their journey at a crowded roadside tavern, where other travellers are eating and drinking.",
+          "specificity": 3,
+          "characters_named": [
+            "Littlefinger",
+            "Sansa"
+          ],
+          "grounded_in": "Podrick recognises Littlefinger and Sansa in a tavern",
+          "grounded_ok": true
+        },
+        {
+          "text": "Brienne and Podrick ride off on their own again, keeping their distance behind another party on the road.",
+          "specificity": 3,
+          "characters_named": [
+            "Brienne",
+            "Podrick"
+          ],
+          "grounded_in": "she refuses and escapes with Podrick, then secretly follows Sansa",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats are outcomes barred by rule 1 (the Lord Commander vote and Aemon's tie-breaking ballot, Stannis's offer to Jon, Daenerys's public execution and the riot, Drogon's reappearance, Brienne's rebuffed offer), so the usable material is thin.",
+      "usage": {
+        "in": 42,
+        "out": 1870,
+        "cache_read": 11769,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "High Sparrow",
+      "candidates": [
+        {
+          "text": "Arya throws her clothes and belongings into the Braavosi harbour, but slips Needle into a hiding place among rocks.",
+          "specificity": 5,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "Arya tosses her personal effects into the harbor, but hides Needle in a pile of rocks",
+          "grounded_ok": true
+        },
+        {
+          "text": "Brienne puts Podrick through sword drills, correcting his grip and stance as they travel.",
+          "specificity": 3,
+          "characters_named": [
+            "Brienne",
+            "Podrick"
+          ],
+          "grounded_in": "Brienne trains Podrick in swordsmanship",
+          "grounded_ok": true
+        },
+        {
+          "text": "Newly married, Margaery hints to Tommen that his mother might be happier back at Casterly Rock.",
+          "specificity": 4,
+          "characters_named": [
+            "Margaery",
+            "Tommen"
+          ],
+          "grounded_in": "Margaery, newly wed to King Tommen Baratheon, manipulates him to consider sending Cersei to Casterly Rock",
+          "grounded_ok": true
+        },
+        {
+          "text": "Assuming command at Castle Black, Jon names Alliser Thorne as the Watch's First Ranger.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Alliser Thorne"
+          ],
+          "grounded_in": "At Castle Black, Jon names Thorne First Ranger",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1457,
+        "cache_read": 11769,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Sons of the Harpy",
+      "candidates": [
+        {
+          "text": "Melisandre comes to Jon at Castle Black and tries to seduce him into riding south with Stannis.",
+          "specificity": 4,
+          "characters_named": [
+            "Melisandre",
+            "Jon",
+            "Stannis"
+          ],
+          "grounded_in": "Melisandre attempts to seduce Jon as a means to convince him to accompany Stannis to Winterfell.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jaime and Bronn come ashore secretly on the Dornish coast, there to retrieve Myrcella without anyone's knowledge.",
+          "specificity": 4,
+          "characters_named": [
+            "Jaime",
+            "Bronn",
+            "Myrcella"
+          ],
+          "grounded_in": "Bronn and Jaime secretly land in Dorne to retrieve Myrcella",
+          "grounded_ok": true
+        },
+        {
+          "text": "Before riding for King's Landing, Littlefinger talks Sansa out of her misgivings about the marriage arranged for her.",
+          "specificity": 3,
+          "characters_named": [
+            "Littlefinger",
+            "Sansa"
+          ],
+          "grounded_in": "before Littlefinger heads to King's Landing, he dispels Sansa's misgivings about marrying Ramsay",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hizdahr zo Loraq presses Daenerys once again to reopen Meereen's fighting pits as an old local tradition.",
+          "specificity": 3,
+          "characters_named": [
+            "Hizdahr zo Loraq",
+            "Daenerys"
+          ],
+          "grounded_in": "Hizdahr zo Loraq again appeals to Daenerys to reopen the fighting pits, a local tradition",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 44,
+        "out": 2089,
+        "cache_read": 11769,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Kill the Boy",
+      "candidates": [
+        {
+          "text": "Tyrion and Jorah sail in a small boat through the drowned ruins of Valyria, a dragon passing overhead.",
+          "specificity": 5,
+          "characters_named": [
+            "Tyrion",
+            "Jorah"
+          ],
+          "grounded_in": "Tyrion and Jorah sail through Valyria, seeing Drogon flying overhead",
+          "grounded_ok": true
+        },
+        {
+          "text": "Missandei keeps watch at Grey Worm's bedside while he lies recovering from his wounds in Meereen.",
+          "specificity": 4,
+          "characters_named": [
+            "Missandei",
+            "Grey Worm"
+          ],
+          "grounded_in": "as Grey Worm recuperates, he and Misandei develop romantic feelings",
+          "grounded_ok": true
+        },
+        {
+          "text": "Brienne and Podrick take a room at an inn within sight of Winterfell and quietly get word inside.",
+          "specificity": 4,
+          "characters_named": [
+            "Brienne",
+            "Podrick"
+          ],
+          "grounded_in": "Brienne and Podrick arrive at an inn near Winterfell and smuggle a message to Sansa",
+          "grounded_ok": true
+        },
+        {
+          "text": "Stannis breaks camp at the Wall, his army marching out with his family and the red priestess in tow.",
+          "specificity": 4,
+          "characters_named": [
+            "Stannis"
+          ],
+          "grounded_in": "Stannis's army leaves for Winterfell, taking his family and Melisandre with them",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1243,
+        "cache_read": 11769,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Unbowed, Unbent, Unbroken",
+      "candidates": [
+        {
+          "text": "Arya is led down into a vast chamber where the faces of the dead hang mounted on pillars.",
+          "specificity": 5,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "Jaqen takes Arya to a chamber filled with the faces of dead people.','','' ,",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jaime and Bronn move quietly through the pools and terraces of the Dornish Water Gardens.",
+          "specificity": 4,
+          "characters_named": [
+            "Jaime",
+            "Bronn"
+          ],
+          "grounded_in": "Jaime and Bronn reach the Water Gardens",
+          "grounded_ok": true
+        },
+        {
+          "text": "Olenna arrives in King's Landing and sits down with Cersei to talk bluntly about the Tyrell alliance.",
+          "specificity": 4,
+          "characters_named": [
+            "Olenna",
+            "Cersei"
+          ],
+          "grounded_in": "Olenna Tyrell arrives in King's Landing and warns Cersei",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion and Jorah, shackled together, stand on a shore while slavers haggle over what they are worth.",
+          "specificity": 3,
+          "characters_named": [
+            "Tyrion",
+            "Jorah"
+          ],
+          "grounded_in": "Jorah and Tyrion are captured by pirates.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 51,
+        "out": 1816,
+        "cache_read": 11769,
+        "cache_write": 0
+      }
+    }
+  }
+}

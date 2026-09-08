@@ -27,7 +27,8 @@
           "specificity": 5,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "The Lion and the Rose",
@@ -47,7 +48,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "3": {
       "title": "Breaker of Chains",
@@ -67,7 +69,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "4": {
       "title": "Oathkeeper",
@@ -82,7 +85,8 @@
           "specificity": 2,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "5": {
       "title": "First of His Name",
@@ -92,7 +96,92 @@
           "specificity": 5,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "The Laws of Gods and Men",
+      "probes": [
+        {
+          "text": "In Meereen, a goatherd stands before Daenerys's court complaining that her dragons burned his flock.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A wealthy Meereenese man petitions Daenerys for permission to take down and bury his crucified father.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Davos and Stannis sit across a long table from bankers in Braavos, arguing their case for a loan.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Mockingbird",
+      "probes": [
+        {
+          "text": "At a roadside inn, Brienne and Podrick come across Hot Pie, who chatters away about his cooking.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "With the Wildling host drawing near, Jon argues that the tunnel under the Wall should be sealed up.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Daenerys dispatches Daario to deal with the slavers who have regained their footing in Yunkai.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "The Mountain and the Viper",
+      "probes": [
+        {
+          "text": "In Meereen, Grey Worm and Missandei find themselves quietly growing closer.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A crowd fills an open courtyard in King's Landing as the trial by combat is about to begin.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "The Hound and Arya ride up to the gatehouse at the foot of the road to the Eyrie.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "The Watchers on the Wall",
+      "probes": [
+        {
+          "text": "The brothers of the Night's Watch spend the night readying Castle Black's gate and the top of the Wall.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Climbers hack their way up the sheer ice in darkness while defenders peer down from the Wall's edge.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "The Children",
+      "probes": [],
+      "fine_only": []
     }
   }
 }

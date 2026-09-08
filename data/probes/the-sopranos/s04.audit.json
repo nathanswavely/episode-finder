@@ -1,0 +1,1065 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 4,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "For All Debts Public and Private",
+      "candidates": [
+        {
+          "text": "In session, Tony says the only ways out of his line of work are dead or in the can.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A generic reflection in therapy about his lifestyle that reveals no outcome, event, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A general philosophical remark in therapy about the nature of his life; it reveals no outcome, death, or plot turn."
+                }
+              ],
+              "reason": "A generic reflection in therapy about his lifestyle that reveals no outcome, event, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Paulie works a prison payphone, grumbling to Johnny that Tony has shown him barely any concern.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Paulie ends up incarcerated and that his secret courtship of Johnny Sac against Tony continues, an outcome the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Paulie has been arrested/jailed and that his secret back-channel alliance with Johnny Sacrimoni is continuing, plus a rift with Tony."
+                }
+              ],
+              "reason": "It reveals that Paulie ends up incarcerated and that his secret courtship of Johnny Sac against Tony continues, an outcome the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Paulie ends up incarcerated and that his secret courtship of Johnny Sac against Tony continues, an outcome the viewer hasn't seen."
+        },
+        {
+          "text": "Chris sits with his mother in her kitchen, the talk turning to his long-dead father.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An ordinary domestic conversation between Chris and his mother is character texture and does not disclose any outcome or answer a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A domestic conversation with his mother about a long-dead father is ordinary character texture and reveals no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "An ordinary domestic conversation between Chris and his mother is character texture and does not disclose any outcome or answer a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Ralphie and Rosalie are among the guests at a dinner in the Soprano house.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "Rosalie being present as a guest at the Soprano house dinner"
+              ]
+            }
+          },
+          "rejected": "faithful: Rosalie being present as a guest at the Soprano house dinner"
+        }
+      ]
+    },
+    "2": {
+      "title": "No Show",
+      "candidates": [
+        {
+          "text": "Meadow drifts around the house with no motivation, and Melfi recommends a therapist for her to Tony.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Meadow's post-funeral moping and a therapist referral are ordinary character texture, not an outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary aftermath texture of Meadow's grief and a therapy referral, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Meadow's post-funeral moping and a therapist referral are ordinary character texture, not an outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Meadow's new therapist encourages her talk of taking a year off college and travelling in Europe.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Meadow in a therapy session discussing vague future plans, which is character texture rather than a decided outcome, death, reveal or resolution of a pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Meadow enters therapy and is planning to drop out/travel, an outcome stemming from her unresolved grief over Jackie's death."
+                }
+              ],
+              "reason": "It reveals that Meadow enters therapy and is planning to drop out/travel, an outcome stemming from her unresolved grief over Jackie's death."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Meadow enters therapy and is planning to drop out/travel, an outcome stemming from her unresolved grief over Jackie's death."
+        },
+        {
+          "text": "Paulie, still inside, receives a visit from his nephew, who repeats gossip he heard on the outside.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Paulie is incarcerated, an arrest/imprisonment development the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Paulie is incarcerated, an arrest/imprisonment outcome the viewer has no knowledge of."
+                }
+              ],
+              "reason": "It discloses that Paulie is incarcerated, an arrest/imprisonment development the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses that Paulie is incarcerated, an arrest/imprisonment development the viewer has not yet seen."
+        }
+      ]
+    },
+    "3": {
+      "title": "Christopher",
+      "candidates": [
+        {
+          "text": "At a pro-Italian luncheon, the guest speaker's jabs at mobbed-up Italians leave the wives at the table insulted.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary social texture at a luncheon with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A social luncheon scene with characters being offended is ordinary texture, not an outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary social texture at a luncheon with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A Native American group picketing the local Columbus Day parade has Tony's crew taking the whole thing personally.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This merely sets up a new episode's situation/premise (a parade protest annoying the crew) without revealing any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes an ordinary situational premise/setting for the episode rather than any outcome, death, reveal or answer to a pending question."
+                }
+              ],
+              "reason": "This merely sets up a new episode's situation/premise (a parade protest annoying the crew) without revealing any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Silvio keeps grousing about disrespect toward Italians until Tony snaps at the whole idea of victimized groups.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character banter and thematic texture with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character banter and texture, revealing no outcome, death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is character banter and thematic texture with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Ralphie tries leaning on the man organizing the protest, hoping threats will get the demonstration called off.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary mob-business texture involving an unresolved protest storyline; it discloses no outcome, death, reveal or betrayal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary mob-business texture involving a protest subplot; it states an attempt, not an outcome, and doesn't reveal any pending conflict's resolution."
+                }
+              ],
+              "reason": "This is ordinary mob-business texture involving an unresolved protest storyline; it discloses no outcome, death, reveal or betrayal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony sits down with a supposed chief who turns out to be a white man with barely any Native blood.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A brief satirical encounter with a fake chief is character/plot texture and doesn't disclose any outcome, death, or reveal the viewer is awaiting."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a comedic character encounter and situational texture, revealing no outcome, death, betrayal, or answer to a pending question."
+                }
+              ],
+              "reason": "A brief satirical encounter with a fake chief is character/plot texture and doesn't disclose any outcome, death, or reveal the viewer is awaiting."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "The Weight",
+      "candidates": [
+        {
+          "text": "Furio throws a housewarming party at his newly bought house, with guests dancing to Italian music.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A housewarming party with dancing is ordinary social texture and does not disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A housewarming party with dancing is ordinary social texture and reveals no outcome, death, or plot turn."
+                }
+              ],
+              "reason": "A housewarming party with dancing is ordinary social texture and does not disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Carmela goes along to look at houses with Furio, offering opinions on what he should buy.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "House-hunting with Furio is ordinary character texture and doesn't disclose any outcome, reveal or turning point the viewer hasn't seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "House-hunting with Furio is ordinary character texture and doesn't disclose an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "House-hunting with Furio is ordinary character texture and doesn't disclose any outcome, reveal or turning point the viewer hasn't seen."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Elliot Kupferberg crosses paths with Tony outside the office, with no idea who the man is.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "Elliot Kupferberg is the one who bumps into Tony; the summary attributes that encounter to Melfi's son"
+              ]
+            }
+          },
+          "rejected": "faithful: Elliot Kupferberg is the one who bumps into Tony; the summary attributes that encounter to Melfi's son"
+        },
+        {
+          "text": "Melfi tells Kupferberg that her son has started acting out while away at college.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A minor detail about Melfi's off-screen family life in therapy discussion; it resolves no pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A minor detail about Melfi's family life shared in therapy, which is ordinary character texture rather than an outcome or answer to any open question."
+                }
+              ],
+              "reason": "A minor detail about Melfi's off-screen family life in therapy discussion; it resolves no pending conflict or open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony and Carmela have another round of arguing about money in the house.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A generic domestic argument about money is ordinary character texture and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A generic domestic argument about money is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A generic domestic argument about money is ordinary character texture and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Pie-O-My",
+      "candidates": [
+        {
+          "text": "Janice keeps turning up at Bobby's house, pressing him to finally eat the ziti his wife left behind.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        },
+        {
+          "text": "Late at night Tony sits alone in the stall with the ailing racehorse, murmuring to keep her calm.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Tony quietly tending a sick racehorse, a new setting/character-texture beat that doesn't disclose any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Tony in a quiet, caretaking moment with a horse—new setting/character texture that doesn't resolve any pending conflict (Ralphie's joke, Junior's trial) or reveal a death, betrayal, or discovery."
+                }
+              ],
+              "reason": "It shows Tony quietly tending a sick racehorse, a new setting/character-texture beat that doesn't disclose any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Ralphie's racehorse keeps crossing the line first, and Tony keeps asking for a bigger share of the winnings.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes ordinary business texture \\u2014 a racehorse winning and Tony haggling over shares \\u2014 without disclosing any death, betrayal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture about a new business venture and routine friction between Tony and Ralphie, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "It describes ordinary business texture \\u2014 a racehorse winning and Tony haggling over shares \\u2014 without disclosing any death, betrayal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Janice inserts herself into Bobby's household, warning that Junior will drop him if he stays lost in grief.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Janice pursuing/inserting herself into Bobby's grieving household is a natural continuation of her already-established interest and involves no new outcome, death, or revelation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Janice's growing involvement with the grieving Bobby is a natural continuation of her established sympathy for him after Karen's death and reveals no outcome, only ongoing character texture."
+                }
+              ],
+              "reason": "Janice pursuing/inserting herself into Bobby's grieving household is a natural continuation of her already-established interest and involves no new outcome, death, or revelation."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "With the horse sick and Ralphie short of cash, the vet ends up handed Tony's phone number instead.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The horse falling ill and a billing detail is ordinary situational texture, with no outcome, death or reveal disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's ordinary texture \\u2014 a sick racehorse and Tony picking up the vet bill \\u2014 without revealing any death, arrest, betrayal or the resolution of a pending conflict."
+                }
+              ],
+              "reason": "The horse falling ill and a billing detail is ordinary situational texture, with no outcome, death or reveal disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Everybody Hurts",
+      "candidates": [
+        {
+          "text": "A.J. visits his new girlfriend's house for the first time and takes in how wealthy her family is.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "A.J.'s friends ask why his family doesn't have \"Don Corleone money,\" and he can only shrug it off.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "Tony spends the week doing uncharacteristically generous favors and kindnesses for various people in his life.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is vague character texture about Tony's behavior over a week, without disclosing any outcome, death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes general character behaviour over a week without disclosing any outcome, death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is vague character texture about Tony's behavior over a week, without disclosing any outcome, death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Watching Too Much Television",
+      "candidates": [
+        {
+          "text": "Paulie walks out of prison sore that Tony never once reached out to him while he was inside.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the resolution of Paulie's incarceration on the gun charge \ruhe gets out of prison \ruand confirms his festering grudge against Tony is unresolved."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Paulie's pending gun-charge incarceration — his release — which the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals the resolution of Paulie's incarceration on the gun charge \ruhe gets out of prison \ruand confirms his festering grudge against Tony is unresolved."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the resolution of Paulie's incarceration on the gun charge \ruhe gets out of prison \ruand confirms his festering grudge against Tony is unresolved."
+        },
+        {
+          "text": "A group of armed teenagers is sent to frighten the occupants out of a run-down house.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes a criminal errand in progress without disclosing any outcome, death, reveal or resolution of a pending conflict the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary mob-activity beat (likely a real-estate/intimidation scheme) with no stated outcome, death, betrayal or answer to a pending question."
+                }
+              ],
+              "reason": "This describes a criminal errand in progress without disclosing any outcome, death, reveal or resolution of a pending conflict the viewer is tracking."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A relative of Carmela's pitches Tony on a real estate scheme he could get a piece of.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A business pitch is ordinary character/plot texture and doesn't resolve any pending conflict or open question the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A business pitch is ordinary plot texture and doesn't disclose any pending outcome, death, or reveal."
+                }
+              ],
+              "reason": "A business pitch is ordinary character/plot texture and doesn't resolve any pending conflict or open question the viewer is tracking."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Mergers and Acquisitions",
+      "candidates": [
+        {
+          "text": "Paulie's mother moves into a retirement community, where a clique of the other residents gives her the cold shoulder.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about a minor domestic subplot, revealing no outcome, death, betrayal or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about a minor domestic situation, with no outcome, reveal, or resolution of any pending conflict the viewer knows about."
+                }
+              ],
+              "reason": "This is ordinary character texture about a minor domestic subplot, revealing no outcome, death, betrayal or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A portrait of Tony posing with the racehorse Pie-O-My is commissioned from a painter.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Commissioning a portrait is ordinary character texture and doesn't disclose any outcome, death, reveal or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A commissioned portrait is ordinary character texture involving an already-established relationship between Tony and the horse, with no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Commissioning a portrait is ordinary character texture and doesn't disclose any outcome, death, reveal or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Furio flies back to Naples for his father's funeral and spends time with his uncle there.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A trip home for a family funeral is ordinary character texture and doesn't disclose any outcome of the pending Carmela-Furio attraction or other open threads."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A trip home for a family funeral is ordinary character texture and does not disclose any outcome of the pending Furio-Carmela attraction or other open threads."
+                }
+              ],
+              "reason": "A trip home for a family funeral is ordinary character texture and doesn't disclose any outcome of the pending Carmela-Furio attraction or other open threads."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Whoever Did This",
+      "candidates": [
+        {
+          "text": "Junior starts playing up a memory problem, shuffling and acting vague and forgetful ahead of his court dates.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Junior's new courtroom strategy of feigning dementia, a plot development in the pending RICO trial the viewer knows is underway."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Junior adopts a feigned-dementia strategy for his pending RICO trial, a plot development the viewer hasn't yet seen and which bears on the trial's outcome."
+                }
+              ],
+              "reason": "It reveals Junior's new courtroom strategy of feigning dementia, a plot development in the pending RICO trial the viewer knows is underway."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Junior's new courtroom strategy of feigning dementia, a plot development in the pending RICO trial the viewer knows is underway."
+        },
+        {
+          "text": "Tony floats an idea about pretending to be forgetful, and Junior passes it along to his trial investigator.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows a legal tactic being suggested for Junior's ongoing trial, not the trial's outcome or any death, arrest or revelation."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point in Junior's pending RICO trial \\u2014 the adoption of a feigned-dementia defense strategy \\u2014 which the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals a turning point in Junior's pending RICO trial \\u2014 the adoption of a feigned-dementia defense strategy \\u2014 which the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a turning point in Junior's pending RICO trial \\u2014 the adoption of a feigned-dementia defense strategy \\u2014 which the viewer has not yet seen."
+        }
+      ]
+    },
+    "10": {
+      "title": "The Strong, Silent Type",
+      "candidates": [
+        {
+          "text": "Paulie hangs the horse portrait in his own home, having it repainted so Tony wears a Napoleon-like uniform.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's comic character texture about Paulie's vanity and the painting's decor; it doesn't disclose any death, betrayal, or the outcome of the pending Tony/Ralphie or Carmela/Furio conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Paulie repainting and displaying the commissioned portrait is comedic character texture; it discloses no death, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "It's comic character texture about Paulie's vanity and the painting's decor; it doesn't disclose any death, betrayal, or the outcome of the pending Tony/Ralphie or Carmela/Furio conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A new home nurse turns up to look after Junior, arranged through Svetlana Kirilenko.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A caregiver arriving for Junior is ordinary setup consistent with his known illness and Svetlana's established role, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A caretaker arriving to help the ailing Junior is ordinary setup and character texture, not an outcome or reveal."
+                }
+              ],
+              "reason": "A caregiver arriving for Junior is ordinary setup consistent with his known illness and Svetlana's established role, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Furio is back from Italy, and Carmela keeps inventing reasons to drop by and see him.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Furio's return and Carmela's continuing attraction are already established texture, with no new outcome disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Furio's return and Carmela's attraction to him are already established texture, revealing no new outcome or turning point."
+                }
+              ],
+              "reason": "Furio's return and Carmela's continuing attraction are already established texture, with no new outcome disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Calling All Cars",
+      "candidates": [
+        {
+          "text": "A.J., stuck minding Bobby's kids, stages a fake séance that leaves the children terrified of a ghost.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "Janice sits Bobby's frightened children down with an ouija board, which does nothing to calm them.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Janice interacting with Bobby's children merely continues her already-established insertion into his home life and reveals no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Janice using an ouija board with Bobby's kids is character texture consistent with her already-established insertion into his home life, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Janice interacting with Bobby's children merely continues her already-established insertion into his home life and reveals no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a dream, Tony stands outside a strange house, telling someone he is there about a stonemason job.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A surreal dream image with no outcome, reveal or plot resolution attached; it is atmospheric texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A surreal dream image with no concrete outcome, reveal, or resolution of any pending plotline."
+                }
+              ],
+              "reason": "A surreal dream image with no outcome, reveal or plot resolution attached; it is atmospheric texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony dreams of Carmela behind the wheel of Johnny Soprano's old car, with passengers in the back.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A surreal dream image with no clear outcome, revelation, or plot resolution attached; it reads as atmospheric character texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A dream image of Carmela driving an old car is atmospheric character texture and doesn't disclose any death, reveal, or plot outcome."
+                }
+              ],
+              "reason": "A surreal dream image with no clear outcome, revelation, or plot resolution attached; it reads as atmospheric character texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony flies down to Miami to talk business with Carmine's son at his place in the sun.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A business trip to Miami is ordinary setting/activity texture and doesn't disclose any outcome, death, discovery, or answer to a pending question like the fallout from Ralphie's murder."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A trip to Miami for a business meeting is ordinary setting and activity, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "A business trip to Miami is ordinary setting/activity texture and doesn't disclose any outcome, death, discovery, or answer to a pending question like the fallout from Ralphie's murder."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  }
+}

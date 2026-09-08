@@ -1,0 +1,187 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 4,
+  "source": {
+    "title": "The Sopranos season 4",
+    "revid": 1355206797,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_4&oldid=1355206797",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "For All Debts Public and Private",
+      "probes": [
+        {
+          "text": "In session, Tony says the only ways out of his line of work are dead or in the can.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris sits with his mother in her kitchen, the talk turning to his long-dead father.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "No Show",
+      "probes": [
+        {
+          "text": "Meadow drifts around the house with no motivation, and Melfi recommends a therapist for her to Tony.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Christopher",
+      "probes": [
+        {
+          "text": "At a pro-Italian luncheon, the guest speaker's jabs at mobbed-up Italians leave the wives at the table insulted.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A Native American group picketing the local Columbus Day parade has Tony's crew taking the whole thing personally.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Silvio keeps grousing about disrespect toward Italians until Tony snaps at the whole idea of victimized groups.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "The Weight",
+      "probes": [
+        {
+          "text": "Furio throws a housewarming party at his newly bought house, with guests dancing to Italian music.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Carmela goes along to look at houses with Furio, offering opinions on what he should buy.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Melfi tells Kupferberg that her son has started acting out while away at college.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Pie-O-My",
+      "probes": [
+        {
+          "text": "Late at night Tony sits alone in the stall with the ailing racehorse, murmuring to keep her calm.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Ralphie's racehorse keeps crossing the line first, and Tony keeps asking for a bigger share of the winnings.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Janice inserts herself into Bobby's household, warning that Junior will drop him if he stays lost in grief.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Everybody Hurts",
+      "probes": [
+        {
+          "text": "Tony spends the week doing uncharacteristically generous favors and kindnesses for various people in his life.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "Watching Too Much Television",
+      "probes": [
+        {
+          "text": "A group of armed teenagers is sent to frighten the occupants out of a run-down house.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A relative of Carmela's pitches Tony on a real estate scheme he could get a piece of.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "Mergers and Acquisitions",
+      "probes": [
+        {
+          "text": "Paulie's mother moves into a retirement community, where a clique of the other residents gives her the cold shoulder.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A portrait of Tony posing with the racehorse Pie-O-My is commissioned from a painter.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Furio flies back to Naples for his father's funeral and spends time with his uncle there.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "Whoever Did This",
+      "probes": []
+    },
+    "10": {
+      "title": "The Strong, Silent Type",
+      "probes": [
+        {
+          "text": "Paulie hangs the horse portrait in his own home, having it repainted so Tony wears a Napoleon-like uniform.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A new home nurse turns up to look after Junior, arranged through Svetlana Kirilenko.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Furio is back from Italy, and Carmela keeps inventing reasons to drop by and see him.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "11": {
+      "title": "Calling All Cars",
+      "probes": [
+        {
+          "text": "Janice sits Bobby's frightened children down with an ouija board, which does nothing to calm them.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In a dream, Tony stands outside a strange house, telling someone he is there about a stonemason job.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony dreams of Carmela behind the wheel of Johnny Soprano's old car, with passengers in the back.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

@@ -27,7 +27,125 @@
           "specificity": 3,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Chapter Two: The Vanishing of Holly Wheeler",
+      "probes": [
+        {
+          "text": "Lucas keeps up his bedside vigil beside the comatose Max, still hoping that she will wake up.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Robin floats the idea of putting Will's telepathic link to the hive mind to practical use.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Eleven and Hopper pick their way through the Upside Down side by side, searching as they go.",
+          "specificity": 2,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Chapter Three: The Turnbow Trap",
+      "probes": [
+        {
+          "text": "Erica is enlisted to drug a bullying classmate and his entire family at their home.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The teenagers unpack a stash of weapons that Murray smuggled past the quarantine into Hawkins.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A suburban house is rigged and rearranged into a trap, with the kids waiting inside for the Demogorgon.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Chapter Four: Sorcerer",
+      "probes": [
+        {
+          "text": "Dustin, Steve, Nancy, and Jonathan chase a Demogorgon away from the others and through a gate into the Upside Down.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Chapter Five: Shock Jock",
+      "probes": [
+        {
+          "text": "Nancy and Jonathan climb up onto the roof of Hawkins Lab and find something strange sitting there.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Chapter Six: Escape from Camazotz",
+      "probes": [
+        {
+          "text": "Erica and Murray turn up at their old science teacher's door, hoping he can help pinpoint where Dustin's group is.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Dustin tries to walk a baffled Steve through his theory about what the Upside Down actually is.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "At the hospital, Lucas and Robin keep watch over Max's bed, with Robin's girlfriend there too.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Chapter Seven: The Bridge",
+      "probes": [
+        {
+          "text": "Erica, Murray, and Mr. Clarke hunch over overlaid maps, pinpointing where Dustin's group sits on the other side.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "The group studies the radio station's tower, planning a climb, and readies a timer-rigged bomb to carry with them.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Chapter Eight: The Rightside Up",
+      "probes": [
+        {
+          "text": "Will finds himself watching scenes from Henry's childhood past unfold around him.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "The rest of the group makes its way up and across toward the Abyss.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
     }
   }
 }

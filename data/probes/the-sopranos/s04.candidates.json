@@ -429,6 +429,191 @@
         "cache_read": 10956,
         "cache_write": 0
       }
+    },
+    "10": {
+      "title": "The Strong, Silent Type",
+      "candidates": [
+        {
+          "text": "Paulie hangs the horse portrait in his own home, having it repainted so Tony wears a Napoleon-like uniform.",
+          "specificity": 5,
+          "characters_named": [
+            "Paulie",
+            "Tony"
+          ],
+          "grounded_in": "Paulie saves it, hanging it on his wall and having it repainted to put Tony in a \"Napoleon-like\" uniform",
+          "grounded_ok": true
+        },
+        {
+          "text": "A new home nurse turns up to look after Junior, arranged through Svetlana Kirilenko.",
+          "specificity": 4,
+          "characters_named": [
+            "Junior",
+            "Svetlana Kirilenko"
+          ],
+          "grounded_in": "Junior's new nurse turns out to be supplied by Svetlana Kirilenko",
+          "grounded_ok": true
+        },
+        {
+          "text": "Furio is back from Italy, and Carmela keeps inventing reasons to drop by and see him.",
+          "specificity": 3,
+          "characters_named": [
+            "Furio",
+            "Carmela"
+          ],
+          "grounded_in": "Furio returns, and Carmela continually makes up excuses to see him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable set pieces (the dog, the intervention, the Melfi session, Svetlana) are either deaths, beatings or turning points, so the pool is thin.",
+      "usage": {
+        "in": 45,
+        "out": 1438,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Calling All Cars",
+      "candidates": [
+        {
+          "text": "A.J., stuck minding Bobby's kids, stages a fake séance that leaves the children terrified of a ghost.",
+          "specificity": 5,
+          "characters_named": [
+            "A.J.",
+            "Bobby"
+          ],
+          "grounded_in": "A.J. pranks them with a séance that leaves them terrified of Karen's ghost",
+          "grounded_ok": true
+        },
+        {
+          "text": "Janice sits Bobby's frightened children down with an ouija board, which does nothing to calm them.",
+          "specificity": 5,
+          "characters_named": [
+            "Janice",
+            "Bobby"
+          ],
+          "grounded_in": "Janice guides them to their ouija board, scaring them further",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a dream, Tony stands outside a strange house, telling someone he is there about a stonemason job.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "he arrives at a house, where he waits outside, claiming he is there for a stonemason job",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony dreams of Carmela behind the wheel of Johnny Soprano's old car, with passengers in the back.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Carmela",
+            "Johnny Soprano"
+          ],
+          "grounded_in": "Tony dreams about Carmela driving Johnny Soprano's car",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony flies down to Miami to talk business with Carmine's son at his place in the sun.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Carmine"
+          ],
+          "grounded_in": "He goes to Miami to deal with Carmine's son",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1248,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Eloise",
+      "candidates": [
+        {
+          "text": "Carmela and Meadow get into a heated argument about the homosexual themes in Billy Budd.",
+          "specificity": 5,
+          "characters_named": [
+            "Carmela",
+            "Meadow"
+          ],
+          "grounded_in": "argues with Meadow about the homosexual themes in Billy Budd",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meadow's birthday dinner turns tense as the same literary argument with her mother carries on at the table.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow"
+          ],
+          "grounded_in": "The arguing continues at Meadow's birthday dinner",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony asks Carmela whether she is happy about Meadow becoming an independent woman; she pauses before answering.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Carmela",
+            "Meadow"
+          ],
+          "grounded_in": "Tony asks if Carmela is happy with Meadow growing into an independent woman, she stays silent for a moment, then murmurs \"yes.\"",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (the juror, Paulie and the elderly friend, Furio and Carmela, the Johnny/Carmine meeting) is turning-point or violent-outcome content, so the safe probes cluster around the Carmela/Meadow storyline.",
+      "usage": {
+        "in": 39,
+        "out": 1097,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Whitecaps",
+      "candidates": [
+        {
+          "text": "Tony walks a waterfront Jersey Shore property with the family, taken with the view, and decides to buy the place.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony purchases a house on the Jersey Shore for his family from owner Alan Sapinsly",
+          "grounded_ok": true
+        },
+        {
+          "text": "The shore house sale is handled directly with its owner, a lawyer who has Tony sign a contract with a fee attached.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "he refuses to release Tony from his contract unless he pays a fee",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony has an enormous set of speakers installed on his boat.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony has speakers installed on his boat",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning points (the trial result, the Carmine plot, the marriage rupture), so the usable texture is limited to the shore-house material.",
+      "usage": {
+        "in": 41,
+        "out": 1553,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
     }
   }
 }
