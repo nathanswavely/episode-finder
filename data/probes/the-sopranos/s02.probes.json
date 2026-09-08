@@ -1,0 +1,213 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 2,
+  "source": {
+    "title": "The Sopranos season 2",
+    "revid": 1358084216,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_2&oldid=1358084216",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Guy Walks into a Psychiatrist's Office...",
+      "probes": [
+        {
+          "text": "Janice has come to town to look after Livia, and Tony is uneasy about her interest in their mother's house.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony phones Melfi to let her know it is safe for her to come out of hiding.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony has a panic attack behind the wheel while driving.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "2": {
+      "title": "Do Not Resuscitate",
+      "probes": [
+        {
+          "text": "Picketers turn up at one of Tony's construction sites, protesting that black workers aren't being given jobs.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony presses his uncle to make peace with Livia, telling him it's time the two of them talked.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Toodle-Fucking-Oo",
+      "probes": [
+        {
+          "text": "Meadow and her friends throw a party in her grandmother's empty house while the adults are away.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Melfi has a nightmare in which Tony passes out behind the wheel and crashes his car.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Melfi and Tony run into each other at a restaurant, and the encounter is painfully awkward for both.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Commendatori",
+      "probes": [
+        {
+          "text": "Paulie, thrilled to be visiting Italy for the first time, keeps finding that he does not fit in with the locals.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris talks about wanting to see Mount Vesuvius but ends up spending the whole trip in his hotel room.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony sits down with a Neapolitan crime family to haggle over the price of stolen cars.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Big Girls Don't Cry",
+      "probes": [
+        {
+          "text": "Adriana's birthday present to Chris is a place in an acting class, where he fidgets through the exercises.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris performs a scene from Rebel Without a Cause in front of his fellow acting students.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Furio has arrived from Naples and is settling into working life in New Jersey.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "6": {
+      "title": "The Happy Wanderer",
+      "probes": [
+        {
+          "text": "Tony has taken over the running of Junior's high-stakes card game.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Meadow is preparing a duet for her school's cabaret night, hoping for a solo instead.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "An old friend of Tony's from outside the life keeps pestering him to be let into the game.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "D-Girl",
+      "probes": [
+        {
+          "text": "Adriana admits she kept a copy of Chris's screenplay and pushes him to hand it to someone in the film business.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris spends his days trailing a visiting Hollywood filmmaker and a woman from the movie business instead of doing his own work.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "Full Leather Jacket",
+      "probes": [
+        {
+          "text": "Carmela asks her neighbour Jeannie whether her sister, a Georgetown alumna, might write Meadow a letter of recommendation.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Carmela turns up in person at the home of a woman she barely knows to discuss Meadow's college application.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Richie presents Tony with an old leather jacket that once belonged to a feared mobster, offering it as respect.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "From Where to Eternity",
+      "probes": [
+        {
+          "text": "Paulie, badly rattled, sits down with a psychic who tells him the dead are keeping watch on him.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Paulie complains to his priest that all the money he has given the church ought to buy him some protection.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Carmela raises the subject of a vasectomy with Tony, worried about children turning up outside their marriage.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "10": {
+      "title": "Bust Out",
+      "probes": [
+        {
+          "text": "Carmela pushes Tony to make things up to their son after he lets the boy down.",
+          "specificity": 2,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "11": {
+      "title": "House Arrest",
+      "probes": [
+        {
+          "text": "Confined at home again, Junior gets his hand caught in the kitchen sink disposal and stays stuck there for hours.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Outside the pork store, the men step out to gawk at a car crash in the street, then carry on with their day.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Told to keep his nose clean, Tony passes the days stuck at his no-show job, bored out of his mind.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

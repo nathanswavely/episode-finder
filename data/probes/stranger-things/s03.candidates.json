@@ -1,0 +1,416 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 3,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Stranger Things season 3",
+    "revid": 1371524327,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_3&oldid=1371524327",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: Suzie, Do You Copy?",
+      "candidates": [
+        {
+          "text": "Dustin gets back from summer camp and drags the others up a hill to assemble a huge homemade radio tower.",
+          "specificity": 5,
+          "characters_named": [
+            "Dustin"
+          ],
+          "grounded_in": "Dustin Henderson returns from summer camp and, with the help of Lucas Sinclair, Max Mayfield, and Will Byers, sets up a radio tower",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy and Jonathan are spending the summer as interns at the local newspaper, where the older men there belittle her.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy",
+            "Jonathan"
+          ],
+          "grounded_in": "Nancy Wheeler and Jonathan Byers work as interns for the Hawkins Post. Nancy experiences sexism from her older male staff.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The shiny new mall has drawn everyone away, shuttering shops downtown, and locals are furious about it.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "the popularity of the new Starcourt Mall has forced many local businesses to close, angering townspeople",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dustin sits alone at his transmitter after his friends wander off, and picks up a broadcast in Russian.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin"
+          ],
+          "grounded_in": "Dustin's friends leave, and he intercepts a Russian radio transmission.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 53,
+        "out": 918,
+        "cache_read": 0,
+        "cache_write": 10090
+      }
+    },
+    "2": {
+      "title": "Chapter Two: The Mall Rats",
+      "candidates": [
+        {
+          "text": "Dustin finds Steve working behind the counter of the ice cream parlour at the new mall.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin",
+            "Steve"
+          ],
+          "grounded_in": "Dustin reunites with Steve Harrington, who works at the mall's ice cream parlor",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven and Max spend the day shopping together at Starcourt Mall, trying on clothes to cheer themselves up.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven",
+            "Max"
+          ],
+          "grounded_in": "Eleven and Max bond, going shopping at Starcourt Mall to distract themselves from Mike and Lucas",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy and Jonathan visit an elderly woman's house, where she complains about rabid rats eating her fertilizer.",
+          "specificity": 5,
+          "characters_named": [
+            "Nancy",
+            "Jonathan"
+          ],
+          "grounded_in": "investigate the home of Mrs. Driscoll, an elderly woman concerned about rabid rats eating her fertilizer",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce notices magnets no longer stick at home or at work, and turns up at the science teacher's house.",
+          "specificity": 5,
+          "characters_named": [
+            "Joyce"
+          ],
+          "grounded_in": "Joyce tries to figure out why magnets at her home and workplace have stopped working",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 49,
+        "out": 1185,
+        "cache_read": 10090,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Chapter Three: The Case of the Missing Lifeguard",
+      "candidates": [
+        {
+          "text": "At a sleepover, Eleven playfully uses her powers to spy on Mike, Lucas, and Will from a distance.",
+          "specificity": 5,
+          "characters_named": [
+            "Eleven",
+            "Mike",
+            "Lucas",
+            "Will"
+          ],
+          "grounded_in": "While having a sleepover with Max, Eleven jokingly uses her powers to spy on Mike, Lucas, and Will.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Will tries to get the boys to sit down for a Dungeons and Dragons campaign like old times.",
+          "specificity": 4,
+          "characters_named": [
+            "Will"
+          ],
+          "grounded_in": "After his attempts to play Dungeons and Dragons like old times",
+          "grounded_ok": true
+        },
+        {
+          "text": "Upset with his friends, Will bikes off alone and retreats to Castle Byers in the woods.",
+          "specificity": 4,
+          "characters_named": [
+            "Will"
+          ],
+          "grounded_in": "He retreats to Castle Byers",
+          "grounded_ok": true
+        },
+        {
+          "text": "In the back room of the ice cream parlor, Robin works through the Russian message with Steve and Dustin.",
+          "specificity": 4,
+          "characters_named": [
+            "Robin",
+            "Steve",
+            "Dustin"
+          ],
+          "grounded_in": "Robin decodes the Russian communication",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven and Max drive around town trying to track down Heather, the lifeguard nobody has seen lately.",
+          "specificity": 3,
+          "characters_named": [
+            "Eleven",
+            "Max",
+            "Heather"
+          ],
+          "grounded_in": "She and Max discover that Heather has gone missing.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats are discoveries or confrontations; the safe texture is limited to the sleepover, D&D attempt, and Castle Byers.",
+      "usage": {
+        "in": 56,
+        "out": 1383,
+        "cache_read": 10090,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Chapter Four: The Sauna Test",
+      "candidates": [
+        {
+          "text": "Dustin, Steve and Robin creep around the mall's loading dock, with Lucas's little sister tagging along behind them.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin",
+            "Steve",
+            "Robin",
+            "Lucas"
+          ],
+          "grounded_in": "Dustin, Steve, and Robin, alongside Lucas' sister Erica, discover that the mall's loading dock is an elevator",
+          "grounded_ok": true
+        },
+        {
+          "text": "Will, Eleven, Mike, Lucas and Max huddle together at the deserted town pool after hours, working out a plan.",
+          "specificity": 4,
+          "characters_named": [
+            "Will",
+            "Eleven",
+            "Mike",
+            "Lucas",
+            "Max"
+          ],
+          "grounded_in": "They devise a plan to trap Billy in the pool's sauna",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper and Joyce turn up in the town mayor's office together and lean on him for answers.",
+          "specificity": 3,
+          "characters_named": [
+            "Hopper",
+            "Joyce"
+          ],
+          "grounded_in": "he and Joyce force Kline to reveal",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats are possessions, a firing, a discovery, or the sauna confrontation's outcome, all barred by rule 1; the mayor and Erica are new here so they are described rather than named.",
+      "usage": {
+        "in": 49,
+        "out": 2609,
+        "cache_read": 10090,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Chapter Five: The Flayed",
+      "candidates": [
+        {
+          "text": "Dustin, Steve, Robin, and Erica keep out of sight while soldiers unload crates from the elevator underground.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin",
+            "Steve",
+            "Robin",
+            "Erica"
+          ],
+          "grounded_in": "hide from Russian soldiers unloading crates from the elevator",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper and Joyce turn up at Murray's door because he is the only Russian speaker they know.",
+          "specificity": 4,
+          "characters_named": [
+            "Hopper",
+            "Joyce",
+            "Murray"
+          ],
+          "grounded_in": "Hopper and Joyce take him to Murray–the only Russian speaker they know–to translate",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper and Joyce search through one of the town's abandoned properties together.",
+          "specificity": 3,
+          "characters_named": [
+            "Hopper",
+            "Joyce"
+          ],
+          "grounded_in": "Hopper and Joyce search one of the abandoned properties",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy and Jonathan rejoin the younger kids, and the whole group heads for the hospital together.",
+          "specificity": 3,
+          "characters_named": [
+            "Nancy",
+            "Jonathan"
+          ],
+          "grounded_in": "Nancy and Jonathan regroup with Eleven, Mike, Lucas, Max, and Will",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 47,
+        "out": 1164,
+        "cache_read": 10090,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Chapter Six: E Pluribus Unum",
+      "candidates": [
+        {
+          "text": "At Murray's place, Hopper and Joyce question their Russian captive with Murray reluctantly translating back and forth.",
+          "specificity": 5,
+          "characters_named": [
+            "Murray",
+            "Hopper",
+            "Joyce"
+          ],
+          "grounded_in": "With Murray translating, Hopper and Joyce hold Alexei hostage, forcing him to reveal that the Russians are attempting to access the Upside Down",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mayor Kline is cornered by the Russian enforcer amid the crowds and rides of Hawkins' Independence Day fair.",
+          "specificity": 5,
+          "characters_named": [
+            "Kline"
+          ],
+          "grounded_in": "Grigori corners Kline at Hawkins' Independence Day fair, demanding he step up efforts to find Hopper",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce insists they drive straight back to Hawkins, afraid their kids are already caught up in this.",
+          "specificity": 3,
+          "characters_named": [
+            "Joyce"
+          ],
+          "grounded_in": "Joyce insists they return to Hawkins immediately, fearing that their kids may be involved",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper gets on a phone to Owens, trying to pass a warning up to the American government.",
+          "specificity": 4,
+          "characters_named": [
+            "Hopper",
+            "Owens"
+          ],
+          "grounded_in": "Hopper calls Owens to warn the U.S. Government of the threat",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 51,
+        "out": 1230,
+        "cache_read": 10090,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Chapter Seven: The Bite",
+      "candidates": [
+        {
+          "text": "Dustin and Erica park a woozy Steve and Robin in the seats of the mall's movie theater.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin",
+            "Erica",
+            "Steve",
+            "Robin"
+          ],
+          "grounded_in": "Dustin and Erica hide a drugged Steve and Robin in the Starcourt movie theater",
+          "grounded_ok": true
+        },
+        {
+          "text": "The kids break into a closed supermarket after hours, raiding the aisles for supplies.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Eleven's group breaks into a supermarket to help treat her wounds and gather more supplies",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dustin tries to explain everything over the walkie-talkie, but his batteries die mid-conversation.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin"
+          ],
+          "grounded_in": "Dustin contacts them over a walkie-talkie to try to explain the situation before he loses battery power",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper, Joyce and Murray push through the crowds at the Hawkins Fourth of July fairgrounds hunting for the kids.",
+          "specificity": 3,
+          "characters_named": [
+            "Hopper",
+            "Joyce",
+            "Murray"
+          ],
+          "grounded_in": "Hopper's group make their way to the fairgrounds in Hawkins to find the children",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 47,
+        "out": 1045,
+        "cache_read": 10090,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Chapter Eight: The Battle of Starcourt",
+      "candidates": [
+        {
+          "text": "Dustin and Erica perch at the hilltop radio tower, relaying directions over the airwaves to the adults far below.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin",
+            "Erica"
+          ],
+          "grounded_in": "with Dustin and Erica navigating them from his radio tower",
+          "grounded_ok": true
+        },
+        {
+          "text": "The kids haul out their stockpile of fireworks and set them off one after another inside the darkened mall.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "The others attack the Mind Flayer with fireworks",
+          "grounded_ok": true
+        },
+        {
+          "text": "The adults' car finally catches up with the kids at the mall, and plans are made to get everyone somewhere safe.",
+          "specificity": 2,
+          "characters_named": [],
+          "grounded_in": "Hopper's group arrives, and plans are made to take Eleven's group to safety.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every distinctive moment in this finale is a death, sacrifice, arrest, or the closing of the gate, so usable texture is thin.",
+      "usage": {
+        "in": 53,
+        "out": 1214,
+        "cache_read": 10090,
+        "cache_write": 0
+      }
+    }
+  }
+}

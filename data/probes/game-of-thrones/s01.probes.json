@@ -27,11 +27,13 @@
           "specificity": 4,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "The Kingsroad",
-      "probes": []
+      "probes": [],
+      "fine_only": []
     },
     "3": {
       "title": "Lord Snow",
@@ -51,7 +53,8 @@
           "specificity": 4,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "4": {
       "title": "Cripples, Bastards, and Broken Things",
@@ -66,11 +69,13 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "5": {
       "title": "The Wolf and the Lion",
-      "probes": []
+      "probes": [],
+      "fine_only": []
     },
     "6": {
       "title": "A Golden Crown",
@@ -90,7 +95,8 @@
           "specificity": 3,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "7": {
       "title": "You Win or You Die",
@@ -100,7 +106,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "8": {
       "title": "The Pointy End",
@@ -115,7 +122,29 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Baelor",
+      "probes": [
+        {
+          "text": "Catelyn goes alone into the hall of a crossing's elderly lord to bargain for passage over his land.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The Stark army halts before a castle guarding a river crossing, waiting while terms are discussed inside.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Fire and Blood",
+      "probes": [],
+      "fine_only": []
     }
   }
 }

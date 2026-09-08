@@ -1,0 +1,1115 @@
+{
+  "show": "Severance",
+  "slug": "severance",
+  "season": 2,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Hello, Ms. Cobel",
+      "candidates": [
+        {
+          "text": "Mark wakes at his desk to find strangers in his coworkers' chairs and the wellness room emptied out.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses the aftermath of the overtime-contingency cliffhanger \\u2014 that Mark's MDR team has been replaced by strangers and the wellness room (and thus Ms. Casey/Gemma) is gone, revealing the consequences of the rebellion."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the innies' rebellion cliffhanger — that Mark's coworkers (Helly, Irving, Dylan) have been removed/replaced and the wellness room (Gemma/Ms. Casey) is gone, answering the pending question of the consequences of the overtime contingency."
+                }
+              ],
+              "reason": "It discloses the aftermath of the overtime-contingency cliffhanger \\u2014 that Mark's MDR team has been replaced by strangers and the wellness room (and thus Ms. Casey/Gemma) is gone, revealing the consequences of the rebellion."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses the aftermath of the overtime-contingency cliffhanger \\u2014 that Mark's MDR team has been replaced by strangers and the wellness room (and thus Ms. Casey/Gemma) is gone, revealing the consequences of the rebellion."
+        },
+        {
+          "text": "Milchick introduces the severed floor's new deputy manager, who turns out to be a child.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Cobel is gone and Milchick has been elevated to run the severed floor, answering the open question of the fallout from her suspension, while also spoiling the surprise introduction of a new character."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a post-season-one personnel change on the severed floor and a notable twist (a child deputy manager) that the viewer hasn't yet seen."
+                }
+              ],
+              "reason": "It implies Cobel is gone and Milchick has been elevated to run the severed floor, answering the open question of the fallout from her suspension, while also spoiling the surprise introduction of a new character."
+            }
+          },
+          "rejected": "consequence (2/2): It implies Cobel is gone and Milchick has been elevated to run the severed floor, answering the open question of the fallout from her suspension, while also spoiling the surprise introduction of a new character."
+        },
+        {
+          "text": "Milchick leads the team into a completely renovated Break Room, promising far better working conditions from now on.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A renovated break room and vague promises of better conditions are workplace texture, not an outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary workplace scene of Milchick touring a redecorated room and making vague promises; no death, reveal, or resolution of the finale's cliffhangers is disclosed."
+                }
+              ],
+              "reason": "A renovated break room and vague promises of better conditions are workplace texture, not an outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Milchick tells Mark that five months have passed and that his old team became the face of severance reform.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the aftermath of the finale's overtime-contingency rebellion — a five-month time jump and that the team's protest made them the public face of severance reform, plus that the old team is no longer together."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a major time jump and the outcome of the innies' rebellion — that their protest succeeded in sparking public severance reform and that they are no longer his team."
+                }
+              ],
+              "reason": "It reveals the aftermath of the finale's overtime-contingency rebellion — a five-month time jump and that the team's protest made them the public face of severance reform, plus that the old team is no longer together."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the aftermath of the finale's overtime-contingency rebellion — a five-month time jump and that the team's protest made them the public face of severance reform, plus that the old team is no longer together."
+        }
+      ]
+    },
+    "2": {
+      "title": "Goodbye, Mrs. Selvig",
+      "candidates": [
+        {
+          "text": "Helena sits for the camera recording an apology, chalking up her outburst at the gala to being drunk.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the aftermath of Helly's gala speech—that Lumon/Helena publicly spins it as drunkenness—resolving the cliffhanger's immediate fallout."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the outcome/aftermath of Helly's gala speech — that Lumon publicly contains it via Helena's cover story — resolving the cliffhanger the viewer was left on."
+                }
+              ],
+              "reason": "It reveals the aftermath of Helly's gala speech—that Lumon/Helena publicly spins it as drunkenness—resolving the cliffhanger's immediate fallout."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the aftermath of Helly's gala speech—that Lumon/Helena publicly spins it as drunkenness—resolving the cliffhanger's immediate fallout."
+        },
+        {
+          "text": "Dylan goes out job hunting, and interviewers cool off the moment they learn he is severed.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about Dylan's outie seeking work, revealing no outcome, death, discovery or answer to a pending question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Dylan's outie is now aware of/dealing with his severance status and out of work, implying consequences from the overtime contingency finale and a change in his outside circumstances."
+                }
+              ],
+              "reason": "It reveals that Dylan's outie is now aware of/dealing with his severance status and out of work, implying consequences from the overtime contingency finale and a change in his outside circumstances."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Dylan's outie is now aware of/dealing with his severance status and out of work, implying consequences from the overtime contingency finale and a change in his outside circumstances."
+        },
+        {
+          "text": "Helena calls on Cobel at home, accompanied by a Lumon security man, and dangles a new title before her.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the resolution of Cobel's pending suspension \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \n\nby showing Lumon (via Helena) approaching her with an offer of a new title, plus that Helena is now personally involved with Cobel."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the resolution of Cobel's pending suspension \ne Lumon (via Helena personally) courting her back with a new title, plus that Helena is now dealing directly with Cobel after the gala."
+                }
+              ],
+              "reason": "It reveals the resolution of Cobel's pending suspension \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \n\nby showing Lumon (via Helena) approaching her with an offer of a new title, plus that Helena is now personally involved with Cobel."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the resolution of Cobel's pending suspension \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \ncrisis \n\nby showing Lumon (via Helena) approaching her with an offer of a new title, plus that Helena is now personally involved with Cobel."
+        },
+        {
+          "text": "Devon is uneasy, pressing Mark about the possibility that Gemma might still be alive somewhere.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It restates the cliffhanger the viewer already saw (Mark's innie saying \"she's alive\" about Gemma) without disclosing any new outcome or answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Mark said \"she's alive\" to Devon about Gemma, so Devon questioning it adds no new outcome or answer."
+                }
+              ],
+              "reason": "It restates the cliffhanger the viewer already saw (Mark's innie saying \"she's alive\" about Gemma) without disclosing any new outcome or answer."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Who Is Alive?",
+      "candidates": [
+        {
+          "text": "Mark and Helly walk the severed floor's corridors handing out missing-persons posters of Ms. Casey to other departments.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary in-world activity consistent with Mark's known search for Ms. Casey/Gemma, without revealing any outcome, discovery, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary activity—canvassing the floor for information about Ms. Casey—that follows naturally from what Mark already told the team, without disclosing any outcome, discovery or reveal."
+                }
+              ],
+              "reason": "It shows an ordinary in-world activity consistent with Mark's known search for Ms. Casey/Gemma, without revealing any outcome, discovery, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Irving carries one of the posters down to O&D, bringing along his sketch of the dark hallway.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character activity—Irving visiting another department with his sketch—without revealing any outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character activity—Irving visiting O&D with items already known to the viewer (the posters and his hallway paintings)—without disclosing any outcome or discovery."
+                }
+              ],
+              "reason": "This is ordinary character activity—Irving visiting another department with his sketch—without revealing any outcome, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a darkened room, Mark and Devon try burning an afterimage into his retinas, hoping it carries inside.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an in-progress attempt by two already-allied siblings to message his innie, without disclosing any outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that outie Mark is now aware and actively conspiring with Devon to smuggle a message across the severance barrier to his innie, a new alliance and plan the viewer doesn't yet know exists after Mark's outie reportedly chose to return to Lumon."
+                }
+              ],
+              "reason": "It reveals that outie Mark is now aware and actively conspiring with Devon to smuggle a message across the severance barrier to his innie, a new alliance and plan the viewer doesn't yet know exists after Mark's outie reportedly chose to return to Lumon."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that outie Mark is now aware and actively conspiring with Devon to smuggle a message across the severance barrier to his innie, a new alliance and plan the viewer doesn't yet know exists after Mark's outie reportedly chose to return to Lumon."
+        },
+        {
+          "text": "A woman from Lumon approaches Ricken about producing a special edition of his self-help book for innies.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Lumon soliciting Ricken for an innie edition of his book is a new premise/setup rather than an outcome, reveal or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a setup/premise beat with no outcome revealed — a Lumon representative pitching Ricken on a book edition is ordinary situational texture that doesn't answer any pending question."
+                }
+              ],
+              "reason": "Lumon soliciting Ricken for an innie edition of his book is a new premise/setup rather than an outcome, reveal or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Wandering unfamiliar hallways, Mark and Helly meet hostile animal handlers from a department nobody in MDR knew existed.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a discovery — the existence of a previously unknown animal-handling department that Mark and Helly encounter while exploring Lumon's halls."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Mark and Helly leave MDR and discover a previously unknown animal-handling department, a plot discovery about Lumon's hidden operations."
+                }
+              ],
+              "reason": "It reveals a discovery — the existence of a previously unknown animal-handling department that Mark and Helly encounter while exploring Lumon's halls."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a discovery — the existence of a previously unknown animal-handling department that Mark and Helly encounter while exploring Lumon's halls."
+        }
+      ]
+    },
+    "4": {
+      "title": "Woe's Hollow",
+      "candidates": [
+        {
+          "text": "The team wakes on a frozen lake in the outside world, in winter coats, with no idea how they got there.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the innies are taken outside Lumon to a frozen lake — a major plot turning point the viewer hasn't yet learned about."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a new setting/situation the team finds itself in rather than resolving any pending conflict or revealing a death, discovery, or answer to an open question."
+                }
+              ],
+              "reason": "It reveals that the innies are taken outside Lumon to a frozen lake — a major plot turning point the viewer hasn't yet learned about."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that the innies are taken outside Lumon to a frozen lake — a major plot turning point the viewer hasn't yet learned about."
+        },
+        {
+          "text": "A prerecorded message from Milchick greets the team and announces an outdoor team-building retreat away from the severed floor.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a new activity and setting (a team-building outing) without disclosing any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An announcement of a team-building outing is ordinary setup and situational texture, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It only sets up a new activity and setting (a team-building outing) without disclosing any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Along the way the group is directed by strange costumed doppelgängers of themselves.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Costumed doppelg\\u00e4ngers directing the group is odd texture/setting detail without disclosing any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes surreal set dressing/atmosphere of an outing rather than any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Costumed doppelg\\u00e4ngers directing the group is odd texture/setting detail without disclosing any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Milchick and Miss Huang have set up a campsite for the group beside a waterfall.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A campsite outing beside a waterfall is setting and activity texture, not an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A camping/outing setting with the manager and deputy is ordinary situational texture and does not disclose any outcome or reveal."
+                }
+              ],
+              "reason": "A campsite outing beside a waterfall is setting and activity texture, not an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Irving sleeps outdoors on the ground away from the others, and has strange dreams during the night.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes ordinary activity and atmosphere (sleeping outdoors, vague dreams) without disclosing any outcome, reveal, or resolution of a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric character texture \"Irving sleeping apart and dreaming\" without disclosing any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This describes ordinary activity and atmosphere (sleeping outdoors, vague dreams) without disclosing any outcome, reveal, or resolution of a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Trojan's Horse",
+      "candidates": [
+        {
+          "text": "Ricken sits down to rework his book into a Lumon edition, stuffed with company-approved language, while Devon looks on unhappily.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Ricken working on the Lumon edition is a natural continuation of the already-established adaptation offer and carries no outcome or reveal beyond character texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Ricken working on the innie adaptation is a natural continuation of the already-established Natalie pitch and reveals no outcome, only character texture."
+                }
+              ],
+              "reason": "Ricken working on the Lumon edition is a natural continuation of the already-established adaptation offer and carries no outcome or reveal beyond character texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Milchick sits through his first performance review as department head, his kindness reforms picked apart point by point.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A performance review scene is ordinary workplace texture for Milchick's new managerial role and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A workplace performance review is ordinary character texture for Milchick's new role and doesn't disclose any outcome, reveal, or answer to a pending question like Gemma's fate or Mark's reintegration."
+                }
+              ],
+              "reason": "A performance review scene is ordinary workplace texture for Milchick's new managerial role and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Irving's outie catches sight of Burt watching him from a distance outside.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Burt is surveilling/approaching Irving on the outside, a new development in their unresolved storyline that the viewer has not seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Burt is surveilling/approaching Irving's outie in the outside world, a new development answering the open thread of Irving's investigation and his relationship with Burt."
+                }
+              ],
+              "reason": "It reveals that Burt is surveilling/approaching Irving on the outside, a new development in their unresolved storyline that the viewer has not seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Burt is surveilling/approaching Irving on the outside, a new development in their unresolved storyline that the viewer has not seen."
+        },
+        {
+          "text": "Dylan gets the office ceremony he demanded, with the team gathered indoors to mark a colleague's departure.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies a colleague departs/leaves the severed floor (a farewell ceremony), revealing an outcome not yet known to the viewer."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies a colleague departs/leaves the severed floor, revealing an outcome not yet known to the viewer."
+                }
+              ],
+              "reason": "It implies a colleague departs/leaves the severed floor (a farewell ceremony), revealing an outcome not yet known to the viewer."
+            }
+          },
+          "rejected": "consequence (2/2): It implies a colleague departs/leaves the severed floor (a farewell ceremony), revealing an outcome not yet known to the viewer."
+        }
+      ]
+    },
+    "6": {
+      "title": "Attila",
+      "candidates": [
+        {
+          "text": "Milchick takes time off from the floor to work through his listed infractions, leaving the child deputy manager in charge.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Milchick taking time off and Miss Huang covering the floor is ordinary workplace texture that doesn't disclose any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is workplace texture about Milchick handling his performance review and delegating to Miss Huang, with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Milchick taking time off and Miss Huang covering the floor is ordinary workplace texture that doesn't disclose any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Irving sits down to dinner at Burt and Fields' home, and the conversation turns stiff and awkward.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary, tense social scene between characters whose outside connection the viewer already knows about, without disclosing any outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that outie Irving makes contact with Burt and his partner in person, an outcome/turning point not yet established, since Irving was just fired and returned to his outie."
+                }
+              ],
+              "reason": "It reveals that outie Irving makes contact with Burt and his partner in person, an outcome/turning point not yet established, since Irving was just fired and returned to his outie."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that outie Irving makes contact with Burt and his partner in person, an outcome/turning point not yet established, since Irving was just fired and returned to his outie."
+        }
+      ]
+    },
+    "7": {
+      "title": "Chikhai Bardo",
+      "candidates": [
+        {
+          "text": "A flashback shows Mark and Gemma first meeting while lying side by side at a blood drive.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A tender flashback of how Mark and Gemma first met is character texture and background, not an outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A tender flashback of how Mark and Gemma first met is character backstory/texture and doesn't disclose any pending outcome, death, or reveal."
+                }
+              ],
+              "reason": "A tender flashback of how Mark and Gemma first met is character texture and background, not an outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Long stretches of the episode play out in flashback, following Mark and Gemma through the early years of their marriage.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Flashbacks to Mark and Gemma's marriage are background texture about an already-established relationship and don't disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Flashbacks to Mark and Gemma's marriage are background texture about an already-established relationship and don't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Flashbacks to Mark and Gemma's marriage are background texture about an already-established relationship and don't disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In flashback, Mark and Gemma sit through an appointment at a fertility clinic after months of trying for a baby.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It is backstory texture about Mark and Gemma's marriage that doesn't resolve any pending conflict or open question the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A flashback to a mundane fertility clinic visit is backstory texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It is backstory texture about Mark and Gemma's marriage that doesn't resolve any pending conflict or open question the viewer is tracking."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Devon keeps watch at her brother's bedside while Reghabi lingers uneasily in the house.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary bedside/waiting texture consistent with the already-known reintegration procedure at Mark's house, and reveals no outcome, discovery, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the already-established situation of Mark's ongoing reintegration at home with Devon and Reghabi present, without disclosing any outcome."
+                }
+              ],
+              "reason": "This is ordinary bedside/waiting texture consistent with the already-known reintegration procedure at Mark's house, and reveals no outcome, discovery, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Sweet Vitriol",
+      "candidates": [
+        {
+          "text": "Cobel returns to the rundown seaside town of her childhood, where the shuttered Lumon ether factory once supported everyone.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes a setting and background texture for Cobel's origins, without disclosing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes a new setting and backstory texture for Cobel's origins, without disclosing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It only establishes a setting and background texture for Cobel's origins, without disclosing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Cobel walks into a small-town restaurant looking for an old friend, who then quietly drives her out to her family house.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts Cobel travelling and meeting an old friend—ordinary setting and character texture that doesn't resolve any pending conflict or reveal an outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and travel texture for Cobel, revealing no outcome, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "It depicts Cobel travelling and meeting an old friend—ordinary setting and character texture that doesn't resolve any pending conflict or reveal an outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Cobel pushes past a protesting relative into her childhood home and ends up crying herself to sleep on an old bed.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Cobel visiting her childhood home and grieving privately \ncharacter texture and setting, without disclosing any outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows only character texture and setting—Cobel visiting a childhood home and an emotional moment—without resolving any pending conflict or open question like Mark's reintegration or Gemma's fate."
+                }
+              ],
+              "reason": "It shows Cobel visiting her childhood home and grieving privately \ncharacter texture and setting, without disclosing any outcome, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Cobel and an old friend sit together in her childhood house taking ether.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a character-texture scene establishing Cobel's past and a personal habit, without disclosing any outcome, reveal, or resolution to pending questions like Mark's collapse or the Exports Hall plan."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an atmospheric scene of Cobel visiting her hometown with an old friend, revealing no outcome, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "This is a character-texture scene establishing Cobel's past and a personal habit, without disclosing any outcome, reveal, or resolution to pending questions like Mark's collapse or the Exports Hall plan."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The woman keeping Cobel's family home is a fervent Lumon devotee who does not want her there.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is setting and character texture about a minor figure at Cobel's family home, with no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It introduces a new minor character and setting detail about Cobel's background without revealing any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is setting and character texture about a minor figure at Cobel's family home, with no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "The After Hours",
+      "candidates": [
+        {
+          "text": "Milchick marks the end of the child deputy manager's stint on the severed floor and sends her away.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Miss Huang's tenure ends and she is removed from the severed floor, a character departure the viewer hasn't yet seen coming."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses a plot development the viewer hasn't seen — Miss Huang's tenure ending and her being sent off the severed floor, i.e., a character's exit."
+                }
+              ],
+              "reason": "It reveals that Miss Huang's tenure ends and she is removed from the severed floor, a character departure the viewer hasn't yet seen coming."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Miss Huang's tenure ends and she is removed from the severed floor, a character departure the viewer hasn't yet seen coming."
+        },
+        {
+          "text": "Mark phones in sick, telling Milchick he will definitely be in at work the following day.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mark calling in sick is ordinary logistical texture; his survival and continued employment are already established at the end of the previous episode."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A mundane phone call about attendance; it discloses no outcome, reveal, or answer to a pending question beyond what the viewer already knows."
+                }
+              ],
+              "reason": "Mark calling in sick is ordinary logistical texture; his survival and continued employment are already established at the end of the previous episode."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Cold Harbor",
+      "candidates": [
+        {
+          "text": "Milchick leads a marching band through the corridors of the severed floor, staging an elaborate celebration for the department.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ornate company ceremony on the severed floor without disclosing any outcome, reveal, or resolution of pending threads like Cold Harbor or Gemma's fate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts a ceremonial Lumon spectacle consistent with the show's established corporate rituals, without stating any outcome, reveal, or resolution of pending conflicts."
+                }
+              ],
+              "reason": "It describes an ornate company ceremony on the severed floor without disclosing any outcome, reveal, or resolution of pending threads like Cold Harbor or Gemma's fate."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Drummond summons Lorne up from the Mammalians department, and she arrives carrying a goat for a ceremony.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It answers the long-standing open question of what the Mammalians Nurturable department's goats are actually for by showing them being delivered for a ceremony at Drummond's order."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that the long-mysterious goat department has a ritual purpose and that Lorne is summoned off her floor by Drummond, answering an open question about the goats and signalling a plot turn."
+                }
+              ],
+              "reason": "It answers the long-standing open question of what the Mammalians Nurturable department's goats are actually for by showing them being delivered for a ceremony at Drummond's order."
+            }
+          },
+          "rejected": "consequence (2/2): It answers the long-standing open question of what the Mammalians Nurturable department's goats are actually for by showing them being delivered for a ceremony at Drummond's order."
+        },
+        {
+          "text": "In a cabin far from the office, Mark's innie sits watching video recordings his outie made for him.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Mark's innie is successfully awakened outside Lumon and that the two selves manage to communicate via recordings — the outcome of the pending reintegration/message-smuggling storyline."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Mark's innie is successfully awakened in the outside world and that innie and outie establish communication, resolving the pending reintegration/message-smuggling question."
+                }
+              ],
+              "reason": "It reveals that Mark's innie is successfully awakened outside Lumon and that the two selves manage to communicate via recordings — the outcome of the pending reintegration/message-smuggling storyline."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Mark's innie is successfully awakened outside Lumon and that the two selves manage to communicate via recordings — the outcome of the pending reintegration/message-smuggling storyline."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 41779,
+    "out": 13838,
+    "cache_read": 545823,
+    "cache_write": 11419,
+    "calls": 152
+  },
+  "recheck": [
+    {
+      "episode": 1,
+      "text": "Milchick leads the team into a completely renovated Break Room, promising far better working conditions from now on.",
+      "reason": "It answers the cliffhanger question of what happens to the innies after the rebellion by showing the MDR team intact and back at work, with Lumon responding via reforms and concessions rather than punishment or dissolution."
+    },
+    {
+      "episode": 5,
+      "text": "Ricken sits down to rework his book into a Lumon edition, stuffed with company-approved language, while Devon looks on unhappily.",
+      "reason": "It confirms Ricken accepts Natalie's offer and proceeds with the innie adaptation of his book, resolving the pending question raised by that proposal, and also indicates Devon's disapproving stance toward it."
+    },
+    {
+      "episode": 7,
+      "text": "In flashback, Mark and Gemma sit through an appointment at a fertility clinic after months of trying for a baby.",
+      "reason": "It reveals a previously undisclosed piece of Mark and Gemma's backstory—their struggle with infertility—answering open questions about their pre-Lumon marriage."
+    }
+  ],
+  "recheck_spend": {
+    "in": 1626,
+    "out": 5144,
+    "cache_read": 199980,
+    "cache_write": 0,
+    "calls": 38
+  }
+}

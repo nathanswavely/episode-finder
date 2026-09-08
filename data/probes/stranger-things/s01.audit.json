@@ -669,6 +669,226 @@
           "rejected": "consequence (2/2): It implies Eleven has gone missing/separated from the boys, revealing a turning point the viewer hasn't yet seen."
         }
       ]
+    },
+    "7": {
+      "title": "Chapter Seven: The Bathtub",
+      "candidates": [
+        {
+          "text": "After fleeing on their bikes, the kids hole up in a junkyard to wait things out.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows the kids hiding out in a junkyard, ordinary situational texture with no outcome, reveal, or resolution of pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Hiding out in a junkyard is ordinary setting/texture and doesn't disclose any death, discovery, or resolution of the pending storylines."
+                }
+              ],
+              "reason": "It only shows the kids hiding out in a junkyard, ordinary situational texture with no outcome, reveal, or resolution of pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "For the first time the kids, the teenagers and the adults are all crowded together inside the Byers' house.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Nancy escapes the Upside Down and that the three separate storylines converge into a single alliance at the Byers' house, resolving pending conflicts and separations."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the three separate storylines converge into one alliance at the Byers' house, implying Nancy escapes the Upside Down and that the kids, teens and adults all survive to join forces."
+                }
+              ],
+              "reason": "It reveals that Nancy escapes the Upside Down and that the three separate storylines converge into a single alliance at the Byers' house, resolving pending conflicts and separations."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Nancy escapes the Upside Down and that the three separate storylines converge into a single alliance at the Byers' house, resolving pending conflicts and separations."
+        },
+        {
+          "text": "Nancy and Jonathan sneak through the police station to get back the gear they bought earlier.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Nancy escapes the Upside Down alive and reunites with Jonathan, resolving the cliffhanger of her being trapped as the gate closed, and implies they get arrested/detained over their weapons purchase."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Nancy escapes the Upside Down and the Demogorgon alive (resolving the cliffhanger) and that she and Jonathan end up detained at the police station with weapons they've acquired."
+                }
+              ],
+              "reason": "It reveals that Nancy escapes the Upside Down alive and reunites with Jonathan, resolving the cliffhanger of her being trapped as the gate closed, and implies they get arrested/detained over their weapons purchase."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Nancy escapes the Upside Down alive and reunites with Jonathan, resolving the cliffhanger of her being trapped as the gate closed, and implies they get arrested/detained over their weapons purchase."
+        },
+        {
+          "text": "Government vans pursue the boys and Eleven through town as they pedal hard down the road.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven, who ran off after the fight, is back with the boys and that the government agents have located them, answering pending questions from the previous episode."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven, who ran off after the fight, is back with the boys and that the government agents have located them — outcomes of pending threads."
+                }
+              ],
+              "reason": "It reveals that Eleven, who ran off after the fight, is back with the boys and that the government agents have located them, answering pending questions from the previous episode."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven, who ran off after the fight, is back with the boys and that the government agents have located them, answering pending questions from the previous episode."
+        },
+        {
+          "text": "In the middle school, the group rigs up a makeshift tank of salt water for Eleven.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven returns to and reunites with the boys after running off, and that they resolve to recreate the sensory-deprivation tank to find Will."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven, who fled after the fight with Lucas, is reunited and working with the boys again, and that they progress to using a sensory-deprivation tank as their plan."
+                }
+              ],
+              "reason": "It reveals that Eleven returns to and reunites with the boys after running off, and that they resolve to recreate the sensory-deprivation tank to find Will."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven returns to and reunites with the boys after running off, and that they resolve to recreate the sensory-deprivation tank to find Will."
+        }
+      ]
+    },
+    "8": {
+      "title": "Chapter Eight: The Upside Down",
+      "candidates": [
+        {
+          "text": "Steve drives out to the Byers house, carrying his apology to Jonathan for their earlier fight.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the resolution of the pending Steve\ninJonathan conflict \nin Steve has a change of heart and comes to apologize, a turning point in his arc and a step toward joining the group at the Byers house."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals Steve's change of heart and move toward reconciliation with Jonathan, the outcome of their unresolved conflict, and places him at the Byers house."
+                }
+              ],
+              "reason": "It reveals the resolution of the pending Steve\ninJonathan conflict \nin Steve has a change of heart and comes to apologize, a turning point in his arc and a step toward joining the group at the Byers house."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the resolution of the pending Steve\ninJonathan conflict \nin Steve has a change of heart and comes to apologize, a turning point in his arc and a step toward joining the group at the Byers house."
+        },
+        {
+          "text": "Inside the Byers house, Nancy and Jonathan each draw a blade across their palm.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Nancy and Jonathan enacting the blood-lure plan the viewer already knows they devised, without revealing whether it works or any outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the pair enacting the blood-lure plan the viewer already knows about, without revealing whether the trap works or what happens next."
+                }
+              ],
+              "reason": "It shows Nancy and Jonathan enacting the blood-lure plan the viewer already knows they devised, without revealing whether it works or any outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 40757,
+    "out": 15343,
+    "cache_read": 208344,
+    "cache_write": 7418,
+    "calls": 120
+  },
+  "recheck": [
+    {
+      "episode": 2,
+      "text": "The boys argue in Mike's basement about what to do with the girl they brought home.",
+      "reason": "It reveals that the boys discover and take in a mysterious girl, a key turning point the viewer has no knowledge of yet."
+    }
+  ],
+  "recheck_spend": {
+    "in": 4990,
+    "out": 3731,
+    "cache_read": 29650,
+    "cache_write": 0,
+    "calls": 24
   }
 }

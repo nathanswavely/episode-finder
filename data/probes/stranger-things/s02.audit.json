@@ -1,0 +1,1088 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 2,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Chapter One: MADMAX",
+      "candidates": [
+        {
+          "text": "Nancy and Steve sit through an awkward dinner with Barb's parents, who still speak about their daughter as missing.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Barb is dead and that Nancy and Steve are together, so an awkward dinner with her still-unaware parents is just situational texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with what the viewer already knows (Barb is dead, her parents unaware) and reveals no new outcome or turning point."
+                }
+              ],
+              "reason": "The viewer already knows Barb is dead and that Nancy and Steve are together, so an awkward dinner with her still-unaware parents is just situational texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joyce has started dating a man she knew back in high school, her first relationship since Will's return.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Joyce dating an old high-school acquaintance is new-season status-quo texture rather than the outcome of any pending conflict or open question from what the viewer has seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Introducing a new love interest for Joyce is ordinary character texture, not the outcome of any conflict or question left pending at the end of the previous season."
+                }
+              ],
+              "reason": "Joyce dating an old high-school acquaintance is new-season status-quo texture rather than the outcome of any pending conflict or open question from what the viewer has seen."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hopper crouches in a farmer's field where every pumpkin has rotted, inspecting the blackened crop himself.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        },
+        {
+          "text": "Dustin and Lucas are distracted all week by a new girl who has just transferred into their school.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A new classmate arriving and the boys being distracted is ordinary character texture, not an outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A new classmate arriving and drawing the boys' attention is ordinary character texture and doesn't resolve any pending conflict or open question."
+                }
+              ],
+              "reason": "A new classmate arriving and the boys being distracted is ordinary character texture, not an outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Around Hawkins, storefronts and houses are being decorated as the town gets ready for Halloween.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Seasonal setting texture with no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes seasonal setting and atmosphere, revealing no plot outcome or answer to an open question."
+                }
+              ],
+              "reason": "Seasonal setting texture with no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Chapter Two: Trick or Treat, Freak",
+      "candidates": [
+        {
+          "text": "Eleven asks Hopper if she can go trick-or-treating, and he tells her she has to stay in the cabin.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven survived her disappearance and is now secretly living with Hopper in a cabin, answering the season's cliffhanger about her fate."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven survived her disappearance and is now secretly living with Hopper in a cabin, answering the open question of her fate."
+                }
+              ],
+              "reason": "It reveals that Eleven survived her disappearance and is now secretly living with Hopper in a cabin, answering the season's cliffhanger about her fate."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven survived her disappearance and is now secretly living with Hopper in a cabin, answering the season's cliffhanger about her fate."
+        },
+        {
+          "text": "The boys are out trick-or-treating in costume when Max turns up and tags along with them.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows a Halloween outing with a new character joining the boys' group \"ordinary texture and character introduction rather than an outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Kids trick-or-treating and a new character joining the group is ordinary setting and character texture, not an outcome or reveal."
+                }
+              ],
+              "reason": "It only shows a Halloween outing with a new character joining the boys' group \"ordinary texture and character introduction rather than an outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nancy drinks far too much at a crowded high school Halloween party full of costumed teenagers.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Attending a Halloween party and getting drunk is ordinary situational texture with no revealed outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Attending a Halloween party and getting drunk is ordinary character texture; it discloses no outcome, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "Attending a Halloween party and getting drunk is ordinary situational texture with no revealed outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hopper crouches over another rotting pumpkin field, pulling up a handful of strange organic matter.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Hopper investigating an unexplained blight, which is atmospheric setup for a new mystery rather than an outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric setup showing Hopper investigating crop decay; it discloses no death, reveal, or resolution of any pending conflict the viewer knows about."
+                }
+              ],
+              "reason": "It shows Hopper investigating an unexplained blight, which is atmospheric setup for a new mystery rather than an outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike admits to Will that he has been trying to reach Eleven, still hoping she will answer.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mike's continued attempts to contact Eleven is emotional character texture that neither confirms her fate nor resolves any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike's continued attempts to contact Eleven is emotional character texture that neither confirms her fate nor resolves any pending conflict."
+                }
+              ],
+              "reason": "Mike's continued attempts to contact Eleven is emotional character texture that neither confirms her fate nor resolves any pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Chapter Three: The Pollywog",
+      "candidates": [
+        {
+          "text": "Dustin keeps the small slug-like animal in a cage, names it D'Artagnan, and shows it off to the other boys.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Dustin discovers and adopts a mysterious Upside Down creature, a new plot development that also implicitly connects to the slug Will coughed up."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Dustin discovers and keeps a creature from the Upside Down (the slug Will coughed up), a plot development the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Dustin discovers and adopts a mysterious Upside Down creature, a new plot development that also implicitly connects to the slug Will coughed up."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Dustin discovers and adopts a mysterious Upside Down creature, a new plot development that also implicitly connects to the slug Will coughed up."
+        },
+        {
+          "text": "Bob cheerfully encourages Will to face his fears head-on, with no idea what Will's episodes actually are.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with what the viewer already knows (Bob dating Joyce, Will's episodes) and discloses no new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with what the viewer already knows about Bob's ignorance and Will's episodes, revealing no outcome or new information."
+                }
+              ],
+              "reason": "This is character texture consistent with what the viewer already knows (Bob dating Joyce, Will's episodes) and discloses no new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Fed up with being cooped up, Eleven slips out and watches Mike at school from outside, mistaking an argument for flirting.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven leaves the cabin's secrecy and reconnects visually with Mike, resolving the pending question of her isolation and hidden survival."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven leaves the cabin's hiding place and reestablishes visual contact with Mike, a turning point in the open question of whether/when she reconnects with him."
+                }
+              ],
+              "reason": "It reveals that Eleven leaves the cabin's secrecy and reconnects visually with Mike, resolving the pending question of her isolation and hidden survival."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven leaves the cabin's secrecy and reconnects visually with Mike, resolving the pending question of her isolation and hidden survival."
+        },
+        {
+          "text": "Hopper confronts Owens, accusing him of letting the gate get away from him, and frets about the rotting pumpkin fields.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a conversation continuing threads the viewer already knows (the growing gate, the rotting pumpkins) without disclosing any outcome, death, or new revelation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is texture consistent with what the viewer already knows — the gate is growing and Hopper is investigating rotting pumpkins — and reveals no new outcome or answer."
+                }
+              ],
+              "reason": "This is a conversation continuing threads the viewer already knows (the growing gate, the rotting pumpkins) without disclosing any outcome, death, or new revelation."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Chapter Four: Will the Wise",
+      "candidates": [
+        {
+          "text": "Will sits scribbling furiously across sheet after sheet of paper, and insists the house be kept cold.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It signals a turning point in Will's arc \"\" his visions escalating into the Mind Flayer's influence over him (the compulsive drawings and craving for cold), which is an open question the viewer has only seen as \"hallucinations\" so far."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture/behaviour consistent with Will's already-established episodes, revealing no outcome or answer to an open question."
+                }
+              ],
+              "reason": "It signals a turning point in Will's arc \"\" his visions escalating into the Mind Flayer's influence over him (the compulsive drawings and craving for cold), which is an open question the viewer has only seen as \"hallucinations\" so far."
+            }
+          },
+          "rejected": "consequence (1/2): It signals a turning point in Will's arc \"\" his visions escalating into the Mind Flayer's influence over him (the compulsive drawings and craving for cold), which is an open question the viewer has only seen as \"hallucinations\" so far."
+        },
+        {
+          "text": "During a shouting match with Hopper in the cabin, Eleven blows out the windows in a fit of rage.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the simmering Eleven–Hopper conflict over her confinement, escalating into a violent rupture in which she unleashes her powers on the cabin."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It gives away that the simmering tension over Eleven being confined erupts into an explosive confrontation with Hopper, a turning point in their relationship rather than mere texture."
+                }
+              ],
+              "reason": "It reveals the outcome of the simmering Eleven–Hopper conflict over her confinement, escalating into a violent rupture in which she unleashes her powers on the cabin."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of the simmering Eleven–Hopper conflict over her confinement, escalating into a violent rupture in which she unleashes her powers on the cabin."
+        },
+        {
+          "text": "The morning after, Eleven cleans up the mess she made inside the cabin.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Eleven has a destructive outburst/confrontation in the cabin, revealing the outcome of her pending frustration with Hopper's confinement."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Eleven, whose homebound frustration with Hopper was building, has a blow-up/destructive outburst in the cabin, revealing the outcome of that pending conflict."
+                }
+              ],
+              "reason": "It implies Eleven has a destructive outburst/confrontation in the cabin, revealing the outcome of her pending frustration with Hopper's confinement."
+            }
+          },
+          "rejected": "consequence (2/2): It implies Eleven has a destructive outburst/confrontation in the cabin, revealing the outcome of her pending frustration with Hopper's confinement."
+        },
+        {
+          "text": "Lucas tries to get closer to Max, but her older stepbrother steps in and shuts it down.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about a new social dynamic, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about a budding friendship and a domineering stepbrother, not an outcome or reveal tied to the show's pending mysteries."
+                }
+              ],
+              "reason": "This is ordinary character texture about a new social dynamic, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joyce phones Hopper about her son's drawings, and the two lay the pages out until they line up.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Will's drawings are a coherent map/pattern discovered by Joyce and Hopper, a plot discovery the viewer hasn't reached."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Will's drawings form a connected map/pattern, a discovery about his visions that the viewer has not yet reached."
+                }
+              ],
+              "reason": "It reveals that Will's drawings are a coherent map/pattern discovered by Joyce and Hopper, a plot discovery the viewer hasn't reached."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Will's drawings are a coherent map/pattern discovered by Joyce and Hopper, a plot discovery the viewer hasn't reached."
+        }
+      ]
+    },
+    "5": {
+      "title": "Chapter Five: Dig Dug",
+      "candidates": [
+        {
+          "text": "Bob sits at the Byers' house poring over the pages of Will's crayon scribbles taped together across the floor.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely shows Bob examining Will's drawings, an ordinary activity that does not disclose the discovery he later makes or any outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Bob examining Will's drawings without disclosing what they mean or any outcome, so it reads as ordinary scene texture."
+                }
+              ],
+              "reason": "It merely shows Bob examining Will's drawings, an ordinary activity that does not disclose the discovery he later makes or any outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dustin shuts the creature inside his family's storm cellar, barricades the doors, and goes looking for help.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Dart turns dangerous enough that Dustin must trap and barricade it, resolving the pending question of whether the creature is harmless."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the open Dart storyline\ta/ that the creature turns dangerous enough that Dustin must trap it and seek help."
+                }
+              ],
+              "reason": "It reveals that Dart turns dangerous enough that Dustin must trap and barricade it, resolving the pending question of whether the creature is harmless."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Dart turns dangerous enough that Dustin must trap and barricade it, resolving the pending question of whether the creature is harmless."
+        },
+        {
+          "text": "Nancy and Jonathan play their recording for the conspiracy theorist Murray in his cluttered hideaway.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Nancy and Jonathan's plan to expose the lab \\u2014 that they obtain an incriminating recording and form a new alliance with Murray \\u2014 rather than their planned meeting with Barb's mother."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Nancy and Jonathan's plan to expose the truth about Barb has led them to obtain incriminating evidence and form an alliance with Murray, resolving the pending meeting storyline."
+                }
+              ],
+              "reason": "It reveals the outcome of Nancy and Jonathan's plan to expose the lab \\u2014 that they obtain an incriminating recording and form a new alliance with Murray \\u2014 rather than their planned meeting with Barb's mother."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Nancy and Jonathan's plan to expose the lab \\u2014 that they obtain an incriminating recording and form a new alliance with Murray \\u2014 rather than their planned meeting with Barb's mother."
+        },
+        {
+          "text": "Mike stays over at the Byers' house, sleeping on the floor to keep Will company while he recovers.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Will survives/recovers from the shadow monster's attack rather than being taken or transformed, resolving the cliffhanger tension of the previous episode."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Will survives/recovers from the shadow monster's attachment, resolving the cliffhanger tension of the previous episode."
+                }
+              ],
+              "reason": "It reveals that Will survives/recovers from the shadow monster's attack rather than being taken or transformed, resolving the cliffhanger tension of the previous episode."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Will survives/recovers from the shadow monster's attack rather than being taken or transformed, resolving the cliffhanger tension of the previous episode."
+        },
+        {
+          "text": "Lucas and Max sit together on a hillside overlooking Hawkins while he talks at length about last year.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Two characters sitting and talking about events the viewer already witnessed is character texture; no outcome, death, or new information is disclosed."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Lucas tells Max the truth about the previous year's events, revealing the pending outcome of whether the group lets the new girl in on their secret, plus their budding bond."
+                }
+              ],
+              "reason": "It implies Lucas tells Max the truth about the previous year's events, revealing the pending outcome of whether the group lets the new girl in on their secret, plus their budding bond."
+            }
+          },
+          "rejected": "consequence (1/2): It implies Lucas tells Max the truth about the previous year's events, revealing the pending outcome of whether the group lets the new girl in on their secret, plus their budding bond."
+        }
+      ]
+    },
+    "6": {
+      "title": "Chapter Six: The Spy",
+      "candidates": [
+        {
+          "text": "Steve leads the kids out to a junkyard, setting up a trap to lure Dart there.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Steve joining the kids and setting a trap is a setup activity with no outcome revealed, and Dart's identity as a Demodog is already known to the viewer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Steve joining the kids and setting a trap is a setup activity rather than an outcome, revealing no resolution to any pending question."
+                }
+              ],
+              "reason": "Steve joining the kids and setting a trap is a setup activity with no outcome revealed, and Dart's identity as a Demodog is already known to the viewer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Returning to the Byers' house, Nancy and Jonathan find Will's scribbled drawings spread across the floor.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Nancy and Jonathan arriving at the Byers' house and seeing Will's drawings, which the viewer already knows about, is ordinary texture with no new outcome revealed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows about Will's scribbled drawings; Nancy and Jonathan returning home reveals no new outcome."
+                }
+              ],
+              "reason": "Nancy and Jonathan arriving at the Byers' house and seeing Will's drawings, which the viewer already knows about, is ordinary texture with no new outcome revealed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nancy and Jonathan spend the night at Murray's cluttered place rather than driving back to Hawkins.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Nancy and Jonathan take their secret recording to conspiracy theorist Murray Bauman, forming a new alliance and answering the pending question of what they'll do with the evidence about Barb."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Staying over at Murray's is ordinary logistical texture; it discloses no outcome, discovery, or resolution of the pending questions about the tape or the Upside Down."
+                }
+              ],
+              "reason": "It reveals that Nancy and Jonathan take their secret recording to conspiracy theorist Murray Bauman, forming a new alliance and answering the pending question of what they'll do with the evidence about Barb."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Nancy and Jonathan take their secret recording to conspiracy theorist Murray Bauman, forming a new alliance and answering the pending question of what they'll do with the evidence about Barb."
+        },
+        {
+          "text": "Lucas and Max ride out to regroup with Dustin and Steve, the older boy now stuck babysitting them.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Steve joins forces with the kids (and that Max is now brought into the group), a new alliance the viewer hasn't seen form."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Steve joins forces with Dustin and the kids and that Max becomes part of the group \"in the know\" \\u2014 a new alliance the viewer hasn't yet seen form."
+                }
+              ],
+              "reason": "It reveals that Steve joins forces with the kids (and that Max is now brought into the group), a new alliance the viewer hasn't seen form."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Steve joins forces with the kids (and that Max is now brought into the group), a new alliance the viewer hasn't seen form."
+        }
+      ]
+    },
+    "7": {
+      "title": "Chapter Seven: The Lost Sister",
+      "candidates": [
+        {
+          "text": "Eleven rides a bus alone into Chicago, far from Hawkins, following a face from her mother's memories.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven leaves Hawkins entirely to pursue the other test subject from her mother's memories, answering the open question of what she does with that discovery."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven leaves Hawkins entirely to pursue the other test subject hinted at in the previous episode, a major turning point and an answer to the open question of whether she'll follow that lead."
+                }
+              ],
+              "reason": "It reveals that Eleven leaves Hawkins entirely to pursue the other test subject from her mother's memories, answering the open question of what she does with that discovery."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven leaves Hawkins entirely to pursue the other test subject from her mother's memories, answering the open question of what she does with that discovery."
+        },
+        {
+          "text": "In a rundown city hideout, Eleven is coached that channeling her anger is the key to stronger powers.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven finds and allies with the other trained girl (008/Kali), answering the open question raised when she learned another girl like her existed."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven finds and allies with the other test subject (008/Kali) in her hideout, answering the open question about the \"other girl\" and confirming a new alliance and training in her powers."
+                }
+              ],
+              "reason": "It reveals that Eleven finds and allies with the other trained girl (008/Kali), answering the open question raised when she learned another girl like her existed."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven finds and allies with the other trained girl (008/Kali), answering the open question raised when she learned another girl like her existed."
+        },
+        {
+          "text": "Eleven spends her days among a gang of young runaways living together in a city apartment far away.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven leaves Hawkins and finds/joins the other test subject's gang of runaways, answering the open question about \"the other girl\" and forming a new alliance."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven leaves Hawkins and joins 008's gang of runaways, answering the open thread about the other girl trained like her."
+                }
+              ],
+              "reason": "It reveals that Eleven leaves Hawkins and finds/joins the other test subject's gang of runaways, answering the open question about \"the other girl\" and forming a new alliance."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven leaves Hawkins and finds/joins the other test subject's gang of runaways, answering the open question about \"the other girl\" and forming a new alliance."
+        }
+      ]
+    },
+    "8": {
+      "title": "Chapter Eight: The Mind Flayer",
+      "candidates": [
+        {
+          "text": "Inside the darkened lab, the group shut themselves in a room after the power cuts out.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric siege texture consistent with the Demodogs already having entered the lab at the end of the previous episode, and reveals no outcome, death, or answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric texture consistent with the demodog incursion already shown at the end of the prior episode, and it discloses no outcome, casualty, or reveal."
+                }
+              ],
+              "reason": "This is atmospheric siege texture consistent with the Demodogs already having entered the lab at the end of the previous episode, and reveals no outcome, death, or answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Gathered around Will at the Byers' house, everyone takes turns recounting happy memories from his childhood.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Will survives the Demodog attack on the lab and is back home, and that the group is trying to reach him through his memories while he is possessed, resolving the cliffhanger the viewer was left on."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Will and the group survive the Demodog attack on the lab and that Will is brought back home, plus the turning point of the group using memories to reach the mind-controlled Will."
+                }
+              ],
+              "reason": "It reveals that Will survives the Demodog attack on the lab and is back home, and that the group is trying to reach him through his memories while he is possessed, resolving the cliffhanger the viewer was left on."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Will survives the Demodog attack on the lab and is back home, and that the group is trying to reach him through his memories while he is possessed, resolving the cliffhanger the viewer was left on."
+        },
+        {
+          "text": "Owens stays behind at a monitor, talking someone through the lab's darkened corridors over the radio.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary situational texture during the already-established Demodog incursion, revealing no outcome, death, or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a texture/setting beat showing Owens coordinating from a monitor during the ongoing lab attack, without revealing any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary situational texture during the already-established Demodog incursion, revealing no outcome, death, or new information."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Chapter Nine: The Gate",
+      "candidates": [
+        {
+          "text": "Mike, furious, confronts Hopper about having kept Eleven hidden away from him all this time.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Mike finally learns Eleven is alive and has been hidden by Hopper, resolving the pending question of their reunion and the exposure of Hopper's secret."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven returns and reunites with the group, and that Mike finally learns Hopper had been hiding her — the payoff to a season-long open thread."
+                }
+              ],
+              "reason": "It reveals that Mike finally learns Eleven is alive and has been hidden by Hopper, resolving the pending question of their reunion and the exposure of Hopper's secret."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Mike finally learns Eleven is alive and has been hidden by Hopper, resolving the pending question of their reunion and the exposure of Hopper's secret."
+        },
+        {
+          "text": "Billy turns up at the Byers house looking for Max, and Steve steps into his way.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a setup/confrontation beat consistent with established tensions (Billy's hostility, Steve as guardian of the kids) and doesn't disclose its outcome or any death, discovery, or reveal."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a pending confrontation between Billy and Steve at the Byers house, a plot turning point the viewer has not yet seen set up."
+                }
+              ],
+              "reason": "It reveals a pending confrontation between Billy and Steve at the Byers house, a plot turning point the viewer has not yet seen set up."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a pending confrontation between Billy and Steve at the Byers house, a plot turning point the viewer has not yet seen set up."
+        },
+        {
+          "text": "Against the agreed plan, Steve climbs down into the tunnels with Mike, Dustin, Max and Lucas.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes the group entering the tunnels together, an activity/setting beat that discloses no death, discovery or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows characters entering the tunnels together, an activity/setting beat that doesn't disclose any death, discovery or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It only describes the group entering the tunnels together, an activity/setting beat that discloses no death, discovery or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joyce, Jonathan and Nancy crank up the heat inside Hopper's cabin with an unconscious Will there.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the group escapes the lab and relocates to Hopper's cabin, and implies they've discovered heat as a strategy against the Mind Flayer's hold on an incapacitated Will, resolving the pending question of how they'll save him."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the group escapes the lab to Hopper's cabin and that they discover/deploy heat as a weapon against the Mind Flayer's possession of Will, answering the pending question of how Will's infection is confronted."
+                }
+              ],
+              "reason": "It reveals that the group escapes the lab and relocates to Hopper's cabin, and implies they've discovered heat as a strategy against the Mind Flayer's hold on an incapacitated Will, resolving the pending question of how they'll save him."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the group escapes the lab and relocates to Hopper's cabin, and implies they've discovered heat as a strategy against the Mind Flayer's hold on an incapacitated Will, resolving the pending question of how they'll save him."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 41969,
+    "out": 14434,
+    "cache_read": 556413,
+    "cache_write": 11527,
+    "calls": 149
+  },
+  "recheck": [
+    {
+      "episode": 3,
+      "text": "Hopper confronts Owens, accusing him of letting the gate get away from him, and frets about the rotting pumpkin fields.",
+      "reason": "It connects the two mysteries the viewer was left with by revealing that the expanding gate is the cause of the rotting pumpkin fields, and that Hopper knows about the gate's growth."
+    },
+    {
+      "episode": 6,
+      "text": "Steve leads the kids out to a junkyard, setting up a trap to lure Dart there.",
+      "reason": "It reveals that Steve joins forces with the kids (a new alliance the viewer hasn't seen form) and that Dustin's Demodog problem escalates into a group monster-hunting plan."
+    }
+  ],
+  "recheck_spend": {
+    "in": 1260,
+    "out": 4682,
+    "cache_read": 156668,
+    "cache_write": 0,
+    "calls": 30
+  }
+}

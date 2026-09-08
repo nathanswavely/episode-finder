@@ -753,6 +753,192 @@
           "rejected": "consequence (2/2): It reveals that Robb has raised an army and marched to war\ttoo, signalling the escalation into open conflict with the Lannisters that the viewer only knows as a pending fear."
         }
       ]
+    },
+    "9": {
+      "title": "Baelor",
+      "candidates": [
+        {
+          "text": "Jeor Mormont presents Jon with his own family's Valyrian steel sword, a gift of gratitude.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jon earns Mormont's gratitude by some heroic act (and receives Longclaw), signalling an outcome not yet seen and confirming Jon's standing/choice at the Wall."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jon performs some heroic deed for Mormont and is rewarded with the Valyrian sword Longclaw, an outcome and turning point in Jon's arc at the Wall."
+                }
+              ],
+              "reason": "It reveals that Jon earns Mormont's gratitude by some heroic act (and receives Longclaw), signalling an outcome not yet seen and confirming Jon's standing/choice at the Wall."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jon earns Mormont's gratitude by some heroic act (and receives Longclaw), signalling an outcome not yet seen and confirming Jon's standing/choice at the Wall."
+        },
+        {
+          "text": "Catelyn goes alone into the hall of a crossing's elderly lord to bargain for passage over his land.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes a negotiation setup with a new location and character without disclosing the terms, outcome, or any consequence of the bargain."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Catelyn entering a negotiation for passage, a situational setup without disclosing the terms, outcome, or any death, alliance or reveal."
+                }
+              ],
+              "reason": "It describes a negotiation setup with a new location and character without disclosing the terms, outcome, or any consequence of the bargain."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The Stark army halts before a castle guarding a river crossing, waiting while terms are discussed inside.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An army pausing at a river crossing while terms are negotiated is ordinary wartime texture; no outcome, death, or reveal is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary military travel texture with no outcome disclosed \"\" the negotiation's result and the war's course remain unknown."
+                }
+              ],
+              "reason": "An army pausing at a river crossing while terms are negotiated is ordinary wartime texture; no outcome, death, or reveal is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In the Dothraki camp, a slave woman insists everyone stay outside the tent while she works her blood magic.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It signals that Drogo is gravely wounded/ill and that the healer Mirri Maz Duur performs blood magic on him, revealing a major turning point in Daenerys' storyline not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that a blood-magic healing ritual takes place in Drogo's camp, implying a major turning point (grave harm to Drogo) that the viewer, who last saw him marching triumphantly on Westeros, has no reason to expect."
+                }
+              ],
+              "reason": "It signals that Drogo is gravely wounded/ill and that the healer Mirri Maz Duur performs blood magic on him, revealing a major turning point in Daenerys' storyline not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It signals that Drogo is gravely wounded/ill and that the healer Mirri Maz Duur performs blood magic on him, revealing a major turning point in Daenerys' storyline not yet seen."
+        }
+      ]
+    },
+    "10": {
+      "title": "Fire and Blood",
+      "candidates": [
+        {
+          "text": "A Night's Watch recruiter shears Arya's hair short so she can pass as a boy among his recruits.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Arya having her hair cut to disguise herself as a boy is character texture consistent with her already-established escape, and it does not disclose Ned's fate or any pending conflict's outcome."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the fugitive Arya evades capture in King's Landing and escapes the city disguised as a boy with a Night's Watch recruiting party, resolving her pending peril and setting her new path."
+                }
+              ],
+              "reason": "It reveals that the fugitive Arya evades capture in King's Landing and escapes the city disguised as a boy with a Night's Watch recruiting party, resolving her pending peril and setting her new path."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that the fugitive Arya evades capture in King's Landing and escapes the city disguised as a boy with a Night's Watch recruiting party, resolving her pending peril and setting her new path."
+        },
+        {
+          "text": "Jon saddles a horse in the dark and rides away alone from Castle Black.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jon deserts the Night's Watch \\u2014 a major turning point that also implies a catastrophic outcome for Ned in King's Landing prompting his flight."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It shows Jon deserting the Night's Watch, a major turning point that also implies Ned's fate has gone badly, answering the pending question of whether Ned is spared."
+                }
+              ],
+              "reason": "It reveals that Jon deserts the Night's Watch \\u2014 a major turning point that also implies a catastrophic outcome for Ned in King's Landing prompting his flight."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jon deserts the Night's Watch \\u2014 a major turning point that also implies a catastrophic outcome for Ned in King's Landing prompting his flight."
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 38672,
+    "out": 15021,
+    "cache_read": 233960,
+    "cache_write": 7586,
+    "calls": 125
+  },
+  "recheck_spend": {
+    "in": 4416,
+    "out": 5846,
+    "cache_read": 50586,
+    "cache_write": 0,
+    "calls": 32
   }
 }

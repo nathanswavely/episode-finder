@@ -1,0 +1,659 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 2,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Sopranos season 2",
+    "revid": 1358084216,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_2&oldid=1358084216",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Guy Walks into a Psychiatrist's Office...",
+      "candidates": [
+        {
+          "text": "Janice has come to town to look after Livia, and Tony is uneasy about her interest in their mother's house.",
+          "specificity": 4,
+          "characters_named": [
+            "Janice",
+            "Livia",
+            "Tony"
+          ],
+          "grounded_in": "Janice comes to town to take care of Livia, but Tony gets angry when he realizes she may be trying to profit off of his selling their mother's house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony phones Melfi to let her know it is safe for her to come out of hiding.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "He calls Melfi to tell her she can come out of hiding",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony has a panic attack behind the wheel while driving.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "when he has a panic attack while driving",
+          "grounded_ok": true
+        },
+        {
+          "text": "Months have passed, and Tony is arranging the sale of his mother's old house.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Four months after the events of the first season",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material is off-limits: a killing, a returning crew member's whereabouts being answered, and the outcome of Tony's attempt to resume therapy.",
+      "usage": {
+        "in": 54,
+        "out": 1365,
+        "cache_read": 0,
+        "cache_write": 10376
+      }
+    },
+    "2": {
+      "title": "Do Not Resuscitate",
+      "candidates": [
+        {
+          "text": "Picketers turn up at one of Tony's construction sites, protesting that black workers aren't being given jobs.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony deals with black workers demanding jobs at his construction sites",
+          "grounded_ok": true
+        },
+        {
+          "text": "Janice settles on staying put, planning to move into her mother's house once Livia is out of hospital.",
+          "specificity": 4,
+          "characters_named": [
+            "Janice",
+            "Livia"
+          ],
+          "grounded_in": "Janice decides to move in with Livia when she is released from the hospital.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior is fitted with an ankle monitor and confined to his house, free but not really free.",
+          "specificity": 3,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "Junior is released from prison and placed on house arrest.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony presses his uncle to make peace with Livia, telling him it's time the two of them talked.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "Livia"
+          ],
+          "grounded_in": "he urges him to make peace with his mother",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 45,
+        "out": 1190,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Toodle-Fucking-Oo",
+      "candidates": [
+        {
+          "text": "Meadow and her friends throw a party in her grandmother's empty house while the adults are away.",
+          "specificity": 5,
+          "characters_named": [
+            "Meadow"
+          ],
+          "grounded_in": "Meadow uses Livia's house for a party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melfi has a nightmare in which Tony passes out behind the wheel and crashes his car.",
+          "specificity": 5,
+          "characters_named": [
+            "Melfi",
+            "Tony"
+          ],
+          "grounded_in": "She later has a nightmare about him passing out while driving and dying in a car crash.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melfi and Tony run into each other at a restaurant, and the encounter is painfully awkward for both.",
+          "specificity": 4,
+          "characters_named": [
+            "Melfi",
+            "Tony"
+          ],
+          "grounded_in": "Melfi has an awkward encounter with Tony at a restaurant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony turns up at his mother's house to have the locks changed and finds Meadow scrubbing the floor inside.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Meadow"
+          ],
+          "grounded_in": "As Tony goes to Livia's to get the locks changed, he is perplexed to find a guilty Meadow cleaning the floor inside.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Janice and Carmela end up trading opinions about how Carmela raises her children.",
+          "specificity": 3,
+          "characters_named": [
+            "Janice",
+            "Carmela"
+          ],
+          "grounded_in": "causing an argument between her and Carmela about the latter's parenting",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1266,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Commendatori",
+      "candidates": [
+        {
+          "text": "Paulie, thrilled to be visiting Italy for the first time, keeps finding that he does not fit in with the locals.",
+          "specificity": 5,
+          "characters_named": [
+            "Paulie"
+          ],
+          "grounded_in": "Paulie, excited to go to Italy for the first time, is frustrated to find that he does not fit in.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris talks about wanting to see Mount Vesuvius but ends up spending the whole trip in his hotel room.",
+          "specificity": 5,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "Chris, determined to see Mount Vesuvius, instead spends the trip in his room, high on heroin.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony sits down with a Neapolitan crime family to haggle over the price of stolen cars.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony, Paulie and Chris go to Naples to negotiate the price of stolen cars with a crime family.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony comes home from his trip abroad and calls out to announce himself in the house.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony returns home and announces himself",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1047,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Big Girls Don't Cry",
+      "candidates": [
+        {
+          "text": "Adriana's birthday present to Chris is a place in an acting class, where he fidgets through the exercises.",
+          "specificity": 5,
+          "characters_named": [
+            "Adriana",
+            "Chris"
+          ],
+          "grounded_in": "Adriana enrolls Chris in an acting class as a birthday present. He struggles",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris performs a scene from Rebel Without a Cause in front of his fellow acting students.",
+          "specificity": 5,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "he performs the final scene of Rebel Without a Cause",
+          "grounded_ok": true
+        },
+        {
+          "text": "Furio has arrived from Naples and is settling into working life in New Jersey.",
+          "specificity": 4,
+          "characters_named": [
+            "Furio"
+          ],
+          "grounded_in": "Furio is brought to America",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kupferberg presses Melfi on what she actually gets out of her sessions with her most notorious patient.",
+          "specificity": 3,
+          "characters_named": [
+            "Kupferberg",
+            "Melfi"
+          ],
+          "grounded_in": "Kupferberg tries to get Melfi to see that she experiences a thrill from treating Tony",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 46,
+        "out": 1216,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "The Happy Wanderer",
+      "candidates": [
+        {
+          "text": "Tony tells Melfi that the sight of oblivious, happy people on the street fills him with rage.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "Tony admits to Melfi that he feels an innate anger towards absentmindedly happy people he sees on the street",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony has taken over the running of Junior's high-stakes card game.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Junior"
+          ],
+          "grounded_in": "He takes over Junior's gambling game",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meadow is preparing a duet for her school's cabaret night, hoping for a solo instead.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow"
+          ],
+          "grounded_in": "At her cabaret night, Eric refuses to perform with her, giving her the solo she had wanted earlier",
+          "grounded_ok": true
+        },
+        {
+          "text": "An old friend of Tony's from outside the life keeps pestering him to be let into the game.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "is accosted by his non-mob friend, David Scatino, asking to play",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 44,
+        "out": 960,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "D-Girl",
+      "candidates": [
+        {
+          "text": "Just before his confirmation, A.J. starts announcing that God probably doesn't exist, and gets an unhelpfully bleak talk from Livia.",
+          "specificity": 5,
+          "characters_named": [
+            "A.J.",
+            "Livia"
+          ],
+          "grounded_in": "A.J. begins to question the existence of God right before his confirmation, fueled when he has an existential talk with Livia.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Adriana admits she kept a copy of Chris's screenplay and pushes him to hand it to someone in the film business.",
+          "specificity": 5,
+          "characters_named": [
+            "Adriana",
+            "Chris"
+          ],
+          "grounded_in": "Adriana, having saved a copy of Chris's screenplay, encourages him to show it to Favreau",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris spends his days trailing a visiting Hollywood filmmaker and a woman from the movie business instead of doing his own work.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "Chris begins to ignore his duties towards Tony and spends more time with Favreau and Amy.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony catches A.J. smoking marijuana with his friends once the confirmation ceremony is over.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "A.J."
+          ],
+          "grounded_in": "Tony catches A.J. smoking marijuana after the ceremony",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1132,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Full Leather Jacket",
+      "candidates": [
+        {
+          "text": "Carmela asks her neighbour Jeannie whether her sister, a Georgetown alumna, might write Meadow a letter of recommendation.",
+          "specificity": 5,
+          "characters_named": [
+            "Carmela",
+            "Jeannie",
+            "Meadow"
+          ],
+          "grounded_in": "Carmela asks Jeannie Cusamano to get her Georgetown University alumna sister to write a letter of recommendation for Meadow.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela turns up in person at the home of a woman she barely knows to discuss Meadow's college application.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "Meadow"
+          ],
+          "grounded_in": "Carmela talks to her directly",
+          "grounded_ok": true
+        },
+        {
+          "text": "Richie presents Tony with an old leather jacket that once belonged to a feared mobster, offering it as respect.",
+          "specificity": 5,
+          "characters_named": [
+            "Richie",
+            "Tony"
+          ],
+          "grounded_in": "Richie gives Tony a leather jacket that belonged to a feared mobster as a sign of respect",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (the ambush on Chris, Adriana's departure and the proposal, Matt turning up at Richie's) is either a turning point or direct setup for one, so the safe pool is small.",
+      "usage": {
+        "in": 44,
+        "out": 1215,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "From Where to Eternity",
+      "candidates": [
+        {
+          "text": "Paulie, badly rattled, sits down with a psychic who tells him the dead are keeping watch on him.",
+          "specificity": 5,
+          "characters_named": [
+            "Paulie"
+          ],
+          "grounded_in": "going to a psychic who claims the spirits of those he killed are watching him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Paulie complains to his priest that all the money he has given the church ought to buy him some protection.",
+          "specificity": 5,
+          "characters_named": [
+            "Paulie"
+          ],
+          "grounded_in": "He complains to his priest that the donations he has made to the church should protect him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela raises the subject of a vasectomy with Tony, worried about children turning up outside their marriage.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "Tony"
+          ],
+          "grounded_in": "Carmela asks Tony to get a vasectomy to prevent any children out of marriage",
+          "grounded_ok": true
+        },
+        {
+          "text": "Talk of the afterlife spreads through the crew; Tony waves it off while Paulie cannot stop dwelling on it.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "Paulie"
+          ],
+          "grounded_in": "While Tony dismisses this, Paulie is deeply frightened by it",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1240,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Bust Out",
+      "candidates": [
+        {
+          "text": "Tony takes A.J. out on the boat and lets him steer, their wake tipping a smaller boat over.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "A.J."
+          ],
+          "grounded_in": "Tony takes A.J. out on their boat and lets him steer, their trajectory making a smaller boat capsize",
+          "grounded_ok": true
+        },
+        {
+          "text": "Feeling slighted that A.J. would rather be with his friends, Tony skips his son's swim meet.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J.",
+            "Tony"
+          ],
+          "grounded_in": "Feeling slighted when A.J. hangs out with his friends instead of him, Tony misses his swim meet",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony's crew works a scheme on Scatino's store, and comes away with a batch of scalped airline tickets.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Scatino"
+          ],
+          "grounded_in": "Tony's crew runs a fraud on Scatino's store, and they use him to get scalped airline tickets",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela pushes Tony to make things up to their son after he lets the boy down.",
+          "specificity": 2,
+          "characters_named": [
+            "Carmela",
+            "Tony"
+          ],
+          "grounded_in": "Pushed by Carmela to make it up to him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Much of this episode's summary is plot consequence (the witness, Richie and Junior, Carmela's flirtation with a character introduced here), so probes are limited to the A.J. subplot and the store scheme.",
+      "usage": {
+        "in": 40,
+        "out": 1590,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "House Arrest",
+      "candidates": [
+        {
+          "text": "Confined at home again, Junior gets his hand caught in the kitchen sink disposal and stays stuck there for hours.",
+          "specificity": 5,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "he gets his hand stuck down the kitchen disposal for hours",
+          "grounded_ok": true
+        },
+        {
+          "text": "Outside the pork store, the men step out to gawk at a car crash in the street, then carry on with their day.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "A car crash happens out front and the men observe it before going about their day.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Told to keep his nose clean, Tony passes the days stuck at his no-show job, bored out of his mind.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "he finds himself bored at his no-show job",
+          "grounded_ok": true
+        },
+        {
+          "text": "In session, Melfi floats the idea that Tony has an antisocial personality, and he just shrugs her off.",
+          "specificity": 4,
+          "characters_named": [
+            "Melfi",
+            "Tony"
+          ],
+          "grounded_in": "She suggests to Tony that he may have an antisocial personality",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melfi has a drink before Tony's appointments, brushing aside Kupferberg's warnings about continuing with him.",
+          "specificity": 4,
+          "characters_named": [
+            "Melfi",
+            "Tony",
+            "Kupferberg"
+          ],
+          "grounded_in": "Melfi begins drinking more before her sessions with Tony, but continues to treat him despite Kupferberg's warnings to stop.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1093,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "The Knight in White Satin Armor",
+      "candidates": [
+        {
+          "text": "Tony trips on his way out of his mother's house, and her crying turns to quiet laughter.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Her crying turns to quiet laughter when he trips while leaving the house.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela announces she is planning three weeks in Rome with Rosalie Aprile.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "Rosalie"
+          ],
+          "grounded_in": "Carmela announces her plans to go to Rome for three weeks with Rosalie",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony sits down with his mother for the first time in ages, and they argue about her parenting.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony speaks to Livia for the first time since he tried to kill her, during which they argue about her parenting",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning points (a shooting, an informant, a suicide attempt, a hit sanction), so the usable texture is thin.",
+      "usage": {
+        "in": 47,
+        "out": 1245,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Funhouse",
+      "candidates": [
+        {
+          "text": "Tony comes down with food poisoning and lies sweating through a series of vivid, delirious fever dreams.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "He contracts food poisoning, having a series of intense fever dreams.",
+          "grounded_ok": true
+        },
+        {
+          "text": "At his daughter's graduation party, Tony sits by himself smoking a cigar while the celebration goes on around him.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony smokes a cigar by himself at Meadow's party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meadow's high school graduation ceremony, where Tony notices Junior in the crowd chatting with her.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow",
+            "Tony",
+            "Junior"
+          ],
+          "grounded_in": "At Meadow's high school graduation, Tony ejects Junior when he spots him talking to Meadow",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning-point material (the boat killing, the arrest, the dream reveal), so probes are limited to the illness and the graduation.",
+      "usage": {
+        "in": 40,
+        "out": 1275,
+        "cache_read": 10376,
+        "cache_write": 0
+      }
+    }
+  }
+}

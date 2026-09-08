@@ -1,0 +1,190 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 2,
+  "source": {
+    "title": "Game of Thrones season 2",
+    "revid": 1365331600,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_2&oldid=1365331600",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The North Remembers",
+      "probes": [
+        {
+          "text": "Daenerys, her people starving and thirsty in a red wasteland, sends three riders out in different directions to scout.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tyrion turns up in King's Landing to take his seat as acting Hand, which delights Cersei not at all.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Beyond the Wall, the Night's Watch takes shelter in the cramped keep of a man surrounded by his many daughter-wives.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "The Night Lands",
+      "probes": [
+        {
+          "text": "Theon steps off a boat onto rain-lashed Pyke after nine years away, and his father sneers at his fine Northern clothes.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Sam takes an interest in one of Craster's pregnant wives and begs Jon to help her; Jon wants nothing to do with it.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "On a Dragonstone beach, Stannis's smuggler-turned-knight haggles with a boastful pirate captain to bring his fleet over.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "What Is Dead May Never Die",
+      "probes": [
+        {
+          "text": "Catelyn rides into Renly's sprawling camp of tents and banners, come to talk terms on Robb's behalf.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "At Renly's camp, two armored fighters batter each other in a practice duel while onlookers watch from the grass.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Garden of Bones",
+      "probes": [
+        {
+          "text": "Catelyn sits mounted in an open field while the two Baratheon brothers ride out to parley with each other.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Littlefinger turns up unannounced at Catelyn's tent in Renly's camp, all courtesy and old familiarity.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "The Ghost of Harrenhal",
+      "probes": [
+        {
+          "text": "The Night's Watch makes camp at an ancient ringfort on a hilltop beyond the Wall, the Fist of the First Men.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Jeor Mormont hands Jon over to a veteran ranger leading a small party up into the Frostfang mountains.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jorah argues that Daenerys should win the support of the common people of Westeros rather than buy an army.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "The Old Gods and the New",
+      "probes": [
+        {
+          "text": "In the aftermath of another battle, Robb walks the field and falls into conversation again with the healer Talisa.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "In Qarth, Daenerys keeps pressing for a ship to carry an army west while holding Xaro's attentions at arm's length.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "At Harrenhal, Arya lingers over Tywin's table pouring wine while the Lannister commanders pore over their maps.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "A Man Without Honor",
+      "probes": [
+        {
+          "text": "Cersei sits with Sansa and tells her the only people worth loving are one's own children.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jon marches his wildling prisoner across the snow, and she taunts him every step of the way.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "The Prince of Winterfell",
+      "probes": [
+        {
+          "text": "Yara turns up at Winterfell and mocks her brother for seizing a castle he has no men to hold.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Joffrey berates Varys for knowing so little about where the Stark armies actually are.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jorah agrees to go with Daenerys into the House of the Undying rather than let her enter alone.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "Blackwater",
+      "probes": [
+        {
+          "text": "Sansa, standing beside Joffrey before the fighting starts, urges him to ride out and lead his men himself.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tyrion, out in the streets beyond the gate, fights on foot among the Gold Cloaks.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "10": {
+      "title": "Valar Morghulis",
+      "probes": [
+        {
+          "text": "Melisandre stands with Stannis over the flames, telling him what glory she can see waiting there for him.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

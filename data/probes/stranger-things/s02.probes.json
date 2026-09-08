@@ -1,0 +1,143 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 2,
+  "source": {
+    "title": "Stranger Things season 2",
+    "revid": 1365368194,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_2&oldid=1365368194",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: MADMAX",
+      "probes": [
+        {
+          "text": "Nancy and Steve sit through an awkward dinner with Barb's parents, who still speak about their daughter as missing.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Joyce has started dating a man she knew back in high school, her first relationship since Will's return.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dustin and Lucas are distracted all week by a new girl who has just transferred into their school.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Chapter Two: Trick or Treat, Freak",
+      "probes": [
+        {
+          "text": "The boys are out trick-or-treating in costume when Max turns up and tags along with them.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nancy drinks far too much at a crowded high school Halloween party full of costumed teenagers.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hopper crouches over another rotting pumpkin field, pulling up a handful of strange organic matter.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Chapter Three: The Pollywog",
+      "probes": [
+        {
+          "text": "Bob cheerfully encourages Will to face his fears head-on, with no idea what Will's episodes actually are.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Hopper confronts Owens, accusing him of letting the gate get away from him, and frets about the rotting pumpkin fields.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "4": {
+      "title": "Chapter Four: Will the Wise",
+      "probes": [
+        {
+          "text": "Lucas tries to get closer to Max, but her older stepbrother steps in and shuts it down.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Chapter Five: Dig Dug",
+      "probes": [
+        {
+          "text": "Bob sits at the Byers' house poring over the pages of Will's crayon scribbles taped together across the floor.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Chapter Six: The Spy",
+      "probes": [
+        {
+          "text": "Returning to the Byers' house, Nancy and Jonathan find Will's scribbled drawings spread across the floor.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Steve leads the kids out to a junkyard, setting up a trap to lure Dart there.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "Chapter Seven: The Lost Sister",
+      "probes": [],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Chapter Eight: The Mind Flayer",
+      "probes": [
+        {
+          "text": "Inside the darkened lab, the group shut themselves in a room after the power cuts out.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Owens stays behind at a monitor, talking someone through the lab's darkened corridors over the radio.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Chapter Nine: The Gate",
+      "probes": [
+        {
+          "text": "Against the agreed plan, Steve climbs down into the tunnels with Mike, Dustin, Max and Lucas.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

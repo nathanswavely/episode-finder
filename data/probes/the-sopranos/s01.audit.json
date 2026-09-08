@@ -748,6 +748,494 @@
           "rejected": null
         }
       ]
+    },
+    "9": {
+      "title": "Boca",
+      "candidates": [
+        {
+          "text": "Meadow's soccer coach has been offered a better job elsewhere, and is making plans to leave town.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It introduces an ordinary new situation (a coach considering a job offer) without disclosing any outcome, death, or answer to a pending question from prior episodes."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary premise/setup — a coach considering a job offer — without revealing any outcome, discovery or reveal from a pending storyline."
+                }
+              ],
+              "reason": "It introduces an ordinary new situation (a coach considering a job offer) without disclosing any outcome, death, or answer to a pending question from prior episodes."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony and Carmela can't resist trading sly, thinly veiled jokes at Junior's expense whenever he's around.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only conveys ongoing family teasing dynamic without disclosing any specific discovery, outcome, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Family banter/teasing dynamics is character texture; it doesn't disclose any outcome, secret, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It only conveys ongoing family teasing dynamic without disclosing any specific discovery, outcome, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Junior's girlfriend has been happily bragging to her friends about his talents in bed, against his wishes.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a comedic subplot setup about Junior's private life rather than an outcome, death, betrayal or answer to any pending question the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is comedic setup/character texture about a subplot not yet in play; it doesn't disclose a death, reveal, or the outcome of any pending conflict the viewer knows about."
+                }
+              ],
+              "reason": "It's a comedic subplot setup about Junior's private life rather than an outcome, death, betrayal or answer to any pending question the viewer is tracking."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "A Hit Is a Hit",
+      "candidates": [
+        {
+          "text": "Tony's neighbor invites him out for a round of golf, where the other men pepper him with questions about mob life.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary social texture — a golf outing and small talk — with no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary social texture — a golf outing and small talk — with no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary social texture — a golf outing and small talk — with no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Chris sits down with a gangster rapper who is tangled up with Hesh over unpaid royalties.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A meeting with a rapper over a royalties dispute is ordinary situational texture that doesn't disclose any outcome or reveal pending from the episodes watched."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A meeting with a rapper over a royalties dispute is ordinary setup and character texture, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "A meeting with a rapper over a royalties dispute is ordinary situational texture that doesn't disclose any outcome or reveal pending from the episodes watched."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony tells Melfi about a boy with a cleft palate he and his childhood friends used to mock.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture from a therapy session, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A childhood anecdote shared in therapy is character texture and doesn't disclose any pending outcome or reveal."
+                }
+              ],
+              "reason": "This is ordinary character texture from a therapy session, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Chris tries to make Adriana's dream of working in music production happen, setting up her first recording.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Adriana"
+        },
+        {
+          "text": "Tony's crew sit around mocking the rapper for taking his dispute to lawyers and the courts instead.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary crew banter/character texture with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is only crew banter about a peripheral character's legal dispute, revealing no outcome, death, discovery or resolution of any pending storyline."
+                }
+              ],
+              "reason": "This is ordinary crew banter/character texture with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Nobody Knows Anything",
+      "candidates": [
+        {
+          "text": "Paulie takes Pussy to a bath house, but Pussy stays fully dressed, blaming his high blood pressure.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary outing with an offhand excuse; no outcome, death, arrest or reveal is stated, and the viewer has no pending question about Pussy that this answers."
+                },
+                {
+                  "reveals": true,
+                  "reason": "Pussy's refusal to undress at the bath house is the clue that he's wearing a wire, hinting at his role as an FBI informant\ba betrayal the viewer hasn't yet learned about."
+                }
+              ],
+              "reason": "Pussy's refusal to undress at the bath house is the clue that he's wearing a wire, hinting at his role as an FBI informant\ba betrayal the viewer hasn't yet learned about."
+            }
+          },
+          "rejected": "consequence (1/2): Pussy's refusal to undress at the bath house is the clue that he's wearing a wire, hinting at his role as an FBI informant\ba betrayal the viewer hasn't yet learned about."
+        },
+        {
+          "text": "Makazian, the detective in Tony's pocket, passes along a rumour he has picked up about one of Tony's own men.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It signals that Makazian delivers intelligence implicating one of Tony's own crew (the informant revelation), a betrayal/discovery turning point the viewer hasn't reached."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It signals the episode's key turning point\ntip that one of Tony's own crew is suspected of being an informant, a betrayal reveal the viewer has no knowledge of."
+                }
+              ],
+              "reason": "It signals that Makazian delivers intelligence implicating one of Tony's own crew (the informant revelation), a betrayal/discovery turning point the viewer hasn't reached."
+            }
+          },
+          "rejected": "consequence (2/2): It signals that Makazian delivers intelligence implicating one of Tony's own crew (the informant revelation), a betrayal/discovery turning point the viewer hasn't reached."
+        },
+        {
+          "text": "Federal agents burst in on one of the crew's card games mid-hand.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the anticipated FBI raid, which the crew has been preparing for, actually happens and catches them mid-game."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It depicts the anticipated FBI raid actually happening, resolving the pending question of whether the tipped-off crew gets caught."
+                }
+              ],
+              "reason": "It reveals that the anticipated FBI raid, which the crew has been preparing for, actually happens and catches them mid-game."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the anticipated FBI raid, which the crew has been preparing for, actually happens and catches them mid-game."
+        }
+      ]
+    },
+    "12": {
+      "title": "Isabella",
+      "candidates": [
+        {
+          "text": "Tony, listless and depressed, spends his days in bed, barely able to rouse himself.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Tony's depressive slump is character texture consistent with his ongoing struggles and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes Tony's depressed emotional state, ordinary character texture consistent with his established depression, without revealing any outcome, death, or plot turn."
+                }
+              ],
+              "reason": "Tony's depressive slump is character texture consistent with his ongoing struggles and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A young Italian exchange student is house-sitting for the neighbours next door while they are away.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely introduces a new character and an everyday situation next door, without revealing any outcome, twist, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only introduces a new character in an ordinary domestic situation, without disclosing any outcome, death, or answer to the pending threats against Tony."
+                }
+              ],
+              "reason": "It merely introduces a new character and an everyday situation next door, without revealing any outcome, twist, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony drifts into a sunlit old-country daydream of a young woman nursing an infant.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an atmospheric daydream/hallucination without disclosing any outcome, death, discovery or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A dreamy, atmospheric vision is character texture and doesn't disclose any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "It describes an atmospheric daydream/hallucination without disclosing any outcome, death, discovery or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "I Dream of Jeannie Cusamano",
+      "candidates": [
+        {
+          "text": "Carmela confronts the priest about his habit of getting close to lonely, 'spiritually thirsty' married women.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Carmela and Father Phil's ambiguous relationship, already established in Episode 5, and does not disclose any pending outcome such as the hit on Tony."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Carmela calling out Father Phil's behavior is character texture within an already-established dynamic and doesn't resolve any pending plot question like the hit on Tony or the informant."
+                }
+              ],
+              "reason": "This is character texture about Carmela and Father Phil's ambiguous relationship, already established in Episode 5, and does not disclose any pending outcome such as the hit on Tony."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A storm knocks the power out at the Soprano house, so the family goes out for dinner instead.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A power outage prompting a family dinner out is ordinary situational texture and doesn't disclose the outcome of the planned hit or any other pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A power outage prompting a family dinner out is ordinary domestic texture and doesn't disclose the fate of the pending hit or any other outcome."
+                }
+              ],
+              "reason": "A power outage prompting a family dinner out is ordinary situational texture and doesn't disclose the outcome of the planned hit or any other pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the restaurant table Tony tells his children to remember the little moments that were good.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "Showing Tony alive and dining calmly with his family implies he survives the hit Junior has just ordered, resolving the pending threat the viewer was left with."
+                },
+                {
+                  "reveals": true,
+                  "reason": "Showing Tony alive and reflective at a family dinner implicitly confirms he survives the assassination attempt that Junior has just ordered, resolving the pending cliffhanger."
+                }
+              ],
+              "reason": "Showing Tony alive and dining calmly with his family implies he survives the hit Junior has just ordered, resolving the pending threat the viewer was left with."
+            }
+          },
+          "rejected": "consequence (2/2): Showing Tony alive and dining calmly with his family implies he survives the hit Junior has just ordered, resolving the pending threat the viewer was left with."
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 46001,
+    "out": 16872,
+    "cache_read": 322153,
+    "cache_write": 7631,
+    "calls": 165
+  },
+  "recheck": [
+    {
+      "episode": 9,
+      "text": "Junior's girlfriend has been happily bragging to her friends about his talents in bed, against his wishes.",
+      "reason": "It sets up the gossip about Junior performing oral sex, a plot thread and source of humiliation the viewer hasn't yet encountered, revealing a new development rather than established texture."
+    },
+    {
+      "episode": 12,
+      "text": "Tony, listless and depressed, spends his days in bed, barely able to rouse himself.",
+      "reason": "It reveals a significant turning point in Tony's mental state — a collapse into severe depression — rather than ordinary character texture."
+    }
+  ],
+  "recheck_spend": {
+    "in": 6414,
+    "out": 8975,
+    "cache_read": 113526,
+    "cache_write": 0,
+    "calls": 60
   }
 }

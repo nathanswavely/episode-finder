@@ -1,0 +1,497 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 2,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Stranger Things season 2",
+    "revid": 1365368194,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_2&oldid=1365368194",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: MADMAX",
+      "candidates": [
+        {
+          "text": "Nancy and Steve sit through an awkward dinner with Barb's parents, who still speak about their daughter as missing.",
+          "specificity": 5,
+          "characters_named": [
+            "Nancy",
+            "Steve",
+            "Barb"
+          ],
+          "grounded_in": "Nancy and Steve have dinner with Barb's parents, who still believe their daughter to be missing",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce has started dating a man she knew back in high school, her first relationship since Will's return.",
+          "specificity": 4,
+          "characters_named": [
+            "Joyce",
+            "Will"
+          ],
+          "grounded_in": "Joyce is dating her old high school classmate Bob Newby.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper crouches in a farmer's field where every pumpkin has rotted, inspecting the blackened crop himself.",
+          "specificity": 3,
+          "characters_named": [
+            "Hopper"
+          ],
+          "grounded_in": "Hopper investigates a field of mysteriously rotting pumpkins",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dustin and Lucas are distracted all week by a new girl who has just transferred into their school.",
+          "specificity": 3,
+          "characters_named": [
+            "Dustin",
+            "Lucas"
+          ],
+          "grounded_in": "a new girl at school, captures Dustin and Lucas's attention",
+          "grounded_ok": true
+        },
+        {
+          "text": "Around Hawkins, storefronts and houses are being decorated as the town gets ready for Halloween.",
+          "specificity": 2,
+          "characters_named": [],
+          "grounded_in": "the townsfolk prepare for Halloween",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Several of this episode's most distinctive moments involve characters introduced here (Max, Bob, Owens, Murray, 008), so they had to be described obliquely or omitted.",
+      "usage": {
+        "in": 46,
+        "out": 1883,
+        "cache_read": 0,
+        "cache_write": 10418
+      }
+    },
+    "2": {
+      "title": "Chapter Two: Trick or Treat, Freak",
+      "candidates": [
+        {
+          "text": "Eleven asks Hopper if she can go trick-or-treating, and he tells her she has to stay in the cabin.",
+          "specificity": 5,
+          "characters_named": [
+            "Eleven",
+            "Hopper"
+          ],
+          "grounded_in": "Eleven asks Hopper if she can go trick-or-treating",
+          "grounded_ok": true
+        },
+        {
+          "text": "The boys are out trick-or-treating in costume when Max turns up and tags along with them.",
+          "specificity": 4,
+          "characters_named": [
+            "Max"
+          ],
+          "grounded_in": "The boys go trick-or-treating and are later joined by Max",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy drinks far too much at a crowded high school Halloween party full of costumed teenagers.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy"
+          ],
+          "grounded_in": "They attend a Halloween party where Nancy gets drunk",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper crouches over another rotting pumpkin field, pulling up a handful of strange organic matter.",
+          "specificity": 3,
+          "characters_named": [
+            "Hopper"
+          ],
+          "grounded_in": "More pumpkin fields rot across town and Hopper discovers an organic substance in the fields",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike admits to Will that he has been trying to reach Eleven, still hoping she will answer.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike",
+            "Will",
+            "Eleven"
+          ],
+          "grounded_in": "leading Mike to admit that he is trying to contact Eleven",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 53,
+        "out": 1617,
+        "cache_read": 10418,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Chapter Three: The Pollywog",
+      "candidates": [
+        {
+          "text": "Dustin keeps the small slug-like animal in a cage, names it D'Artagnan, and shows it off to the other boys.",
+          "specificity": 5,
+          "characters_named": [
+            "Dustin"
+          ],
+          "grounded_in": "The creature Dustin found in his trash can is a small, slug-like animal that he names D'Artagnan (\"Dart\"). He shows Dart to the other kids",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bob cheerfully encourages Will to face his fears head-on, with no idea what Will's episodes actually are.",
+          "specificity": 4,
+          "characters_named": [
+            "Bob",
+            "Will"
+          ],
+          "grounded_in": "Bob encourages Will to face his fears, not understanding the nature of Will's episodes",
+          "grounded_ok": true
+        },
+        {
+          "text": "Fed up with being cooped up, Eleven slips out and watches Mike at school from outside, mistaking an argument for flirting.",
+          "specificity": 5,
+          "characters_named": [
+            "Eleven",
+            "Mike"
+          ],
+          "grounded_in": "Frustrated with being stuck in the cabin, Eleven leaves to look for Mike; at the school, she sees him arguing with Max but thinks they are flirting",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper confronts Owens, accusing him of letting the gate get away from him, and frets about the rotting pumpkin fields.",
+          "specificity": 4,
+          "characters_named": [
+            "Hopper",
+            "Owens"
+          ],
+          "grounded_in": "Hopper accuses Owens of failing to keep the gate contained, becoming increasingly concerned about the pumpkin fields",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1398,
+        "cache_read": 10418,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Chapter Four: Will the Wise",
+      "candidates": [
+        {
+          "text": "Will sits scribbling furiously across sheet after sheet of paper, and insists the house be kept cold.",
+          "specificity": 5,
+          "characters_named": [
+            "Will"
+          ],
+          "grounded_in": "scribbling furiously on pieces of paper and demanding that the house be kept cold",
+          "grounded_ok": true
+        },
+        {
+          "text": "During a shouting match with Hopper in the cabin, Eleven blows out the windows in a fit of rage.",
+          "specificity": 5,
+          "characters_named": [
+            "Hopper",
+            "Eleven"
+          ],
+          "grounded_in": "argues with Hopper over her sneaking out, destroying the cabin's windows in a fit of rage",
+          "grounded_ok": true
+        },
+        {
+          "text": "The morning after, Eleven cleans up the mess she made inside the cabin.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "While cleaning up her mess the following morning",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lucas tries to get closer to Max, but her older stepbrother steps in and shuts it down.",
+          "specificity": 4,
+          "characters_named": [
+            "Lucas",
+            "Max"
+          ],
+          "grounded_in": "An infatuated Lucas tries to get closer to Max, but her violent older stepbrother Billy Hargrove intervenes",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce phones Hopper about her son's drawings, and the two lay the pages out until they line up.",
+          "specificity": 4,
+          "characters_named": [
+            "Joyce",
+            "Hopper"
+          ],
+          "grounded_in": "Joyce calls Hopper and together they discover that Will's scribbles line up",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1037,
+        "cache_read": 10418,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Chapter Five: Dig Dug",
+      "candidates": [
+        {
+          "text": "Bob sits at the Byers' house poring over the pages of Will's crayon scribbles taped together across the floor.",
+          "specificity": 4,
+          "characters_named": [
+            "Bob",
+            "Will"
+          ],
+          "grounded_in": "Bob identifies Will's drawings as a map of Hawkins and the pumpkin field as the place Hopper was going.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dustin shuts the creature inside his family's storm cellar, barricades the doors, and goes looking for help.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin"
+          ],
+          "grounded_in": "Dustin traps Dart in his storm cellar and enlists Steve's help to recapture it.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy and Jonathan play their recording for the conspiracy theorist Murray in his cluttered hideaway.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy",
+            "Jonathan",
+            "Murray"
+          ],
+          "grounded_in": "Nancy and Jonathan take the tape of Owens' admission to Murray",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike stays over at the Byers' house, sleeping on the floor to keep Will company while he recovers.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike",
+            "Will"
+          ],
+          "grounded_in": "Mike sleeps over at the Byers' house to help Will recover.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lucas and Max sit together on a hillside overlooking Hawkins while he talks at length about last year.",
+          "specificity": 3,
+          "characters_named": [
+            "Lucas",
+            "Max"
+          ],
+          "grounded_in": "Lucas reveals the truth of Will's disappearance to Max.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1773,
+        "cache_read": 10418,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Chapter Six: The Spy",
+      "candidates": [
+        {
+          "text": "Steve leads the kids out to a junkyard, setting up a trap to lure Dart there.",
+          "specificity": 4,
+          "characters_named": [
+            "Steve"
+          ],
+          "grounded_in": "the group attempt to lure Dart to a junkyard",
+          "grounded_ok": true
+        },
+        {
+          "text": "Returning to the Byers' house, Nancy and Jonathan find Will's scribbled drawings spread across the floor.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy",
+            "Jonathan",
+            "Will"
+          ],
+          "grounded_in": "Nancy and Jonathan discover Will's drawings upon returning to the Byers' house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy and Jonathan spend the night at Murray's cluttered place rather than driving back to Hawkins.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy",
+            "Jonathan",
+            "Murray"
+          ],
+          "grounded_in": "Nancy and Jonathan spend the night at Murray's",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lucas and Max ride out to regroup with Dustin and Steve, the older boy now stuck babysitting them.",
+          "specificity": 3,
+          "characters_named": [
+            "Lucas",
+            "Max",
+            "Dustin",
+            "Steve"
+          ],
+          "grounded_in": "Lucas and Max regroup with Dustin and Steve",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 46,
+        "out": 1187,
+        "cache_read": 10418,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Chapter Seven: The Lost Sister",
+      "candidates": [
+        {
+          "text": "Eleven rides a bus alone into Chicago, far from Hawkins, following a face from her mother's memories.",
+          "specificity": 5,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Eleven travels to Chicago, Illinois, and finds the other girl from Terry's memories, named Kali.",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a rundown city hideout, Eleven is coached that channeling her anger is the key to stronger powers.",
+          "specificity": 5,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Kali helps Eleven hone her abilities by demonstrating that channeling her anger is the key to strengthening her powers.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven spends her days among a gang of young runaways living together in a city apartment far away.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "leads a street gang to seek revenge on Brenner",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 50,
+        "out": 1503,
+        "cache_read": 10418,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Chapter Eight: The Mind Flayer",
+      "candidates": [
+        {
+          "text": "Inside the darkened lab, the group shut themselves in a room after the power cuts out.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "escape and take refuge in a room when the power goes out",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gathered around Will at the Byers' house, everyone takes turns recounting happy memories from his childhood.",
+          "specificity": 4,
+          "characters_named": [
+            "Will"
+          ],
+          "grounded_in": "telling him good memories of his childhood",
+          "grounded_ok": true
+        },
+        {
+          "text": "Owens stays behind at a monitor, talking someone through the lab's darkened corridors over the radio.",
+          "specificity": 3,
+          "characters_named": [
+            "Owens"
+          ],
+          "grounded_in": "with Owens staying to guide Bob",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is consequence: a death, a deduction, and a return. Probes limited to the blackout, the radio guidance, and the memory-sharing.",
+      "usage": {
+        "in": 51,
+        "out": 1215,
+        "cache_read": 10418,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Chapter Nine: The Gate",
+      "candidates": [
+        {
+          "text": "Mike, furious, confronts Hopper about having kept Eleven hidden away from him all this time.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Hopper",
+            "Eleven"
+          ],
+          "grounded_in": "Mike is angry at Hopper for hiding Eleven from him.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Billy turns up at the Byers house looking for Max, and Steve steps into his way.",
+          "specificity": 4,
+          "characters_named": [
+            "Billy",
+            "Max",
+            "Steve"
+          ],
+          "grounded_in": "Billy arrives looking for Max and has a fight with Steve",
+          "grounded_ok": true
+        },
+        {
+          "text": "Against the agreed plan, Steve climbs down into the tunnels with Mike, Dustin, Max and Lucas.",
+          "specificity": 4,
+          "characters_named": [
+            "Steve",
+            "Mike",
+            "Dustin",
+            "Max",
+            "Lucas"
+          ],
+          "grounded_in": "While not part of the plan, Steve, Mike, Dustin, Max, and Lucas enter the tunnels to burn the core",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce, Jonathan and Nancy crank up the heat inside Hopper's cabin with an unconscious Will there.",
+          "specificity": 4,
+          "characters_named": [
+            "Joyce",
+            "Jonathan",
+            "Nancy",
+            "Hopper",
+            "Will"
+          ],
+          "grounded_in": "In the cabin, Joyce, Jonathan, and Nancy turn up the heat",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this finale's material is outcome-bearing (the gate, the Mind Flayer, the dance pairings), so probes are limited to setup textures.",
+      "usage": {
+        "in": 47,
+        "out": 1712,
+        "cache_read": 10418,
+        "cache_write": 0
+      }
+    }
+  }
+}

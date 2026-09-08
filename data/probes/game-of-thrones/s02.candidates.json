@@ -1,0 +1,536 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 2,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Game of Thrones season 2",
+    "revid": 1365331600,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_2&oldid=1365331600",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The North Remembers",
+      "candidates": [
+        {
+          "text": "Daenerys, her people starving and thirsty in a red wasteland, sends three riders out in different directions to scout.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "as her people slowly die in the Red Waste, Daenerys dispatches three riders to conduct reconnaissance",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion turns up in King's Landing to take his seat as acting Hand, which delights Cersei not at all.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Cersei"
+          ],
+          "grounded_in": "Tyrion becomes acting Hand of the King, much to Cersei's dismay",
+          "grounded_ok": true
+        },
+        {
+          "text": "Beyond the Wall, the Night's Watch takes shelter in the cramped keep of a man surrounded by his many daughter-wives.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Beyond the Wall, the Night's Watch shelters with Craster and his daughters/wives",
+          "grounded_ok": true
+        },
+        {
+          "text": "Arya, dressed as a boy, travels north out of the city in a recruit party with Gendry.",
+          "specificity": 3,
+          "characters_named": [
+            "Arya",
+            "Gendry"
+          ],
+          "grounded_in": "Gendry, along with the disguised Arya, have escaped the city and are being taken to Castle Black",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Much of this episode's summary is turning-point material (bastards slaughtered, Stannis's declaration, Robb's peace terms and dispatch of Theon), so probes are drawn from the quieter travel and camp material.",
+      "usage": {
+        "in": 41,
+        "out": 1487,
+        "cache_read": 0,
+        "cache_write": 10993
+      }
+    },
+    "2": {
+      "title": "The Night Lands",
+      "candidates": [
+        {
+          "text": "Theon steps off a boat onto rain-lashed Pyke after nine years away, and his father sneers at his fine Northern clothes.",
+          "specificity": 5,
+          "characters_named": [
+            "Theon"
+          ],
+          "grounded_in": "Returning to Pyke Island after nine years as the Starks' ward, Theon is reunited with his sister, Yara, and his father, Balon, who despises Theon's acquired Northern ways.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion, over an awkward dinner, ships the commander of the Gold Cloaks off to the Night's Watch and hands Bronn the post.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Bronn"
+          ],
+          "grounded_in": "Tyrion exiles the untrustworthy Janos Slynt, head of the Gold Cloaks, to the Night's Watch, and promotes Bronn in his place",
+          "grounded_ok": true
+        },
+        {
+          "text": "On the road north, still dressed as a boy, Arya finally tells Gendry the truth about who she is.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya",
+            "Gendry"
+          ],
+          "grounded_in": "En route to Castle Black, Arya, impersonating a boy, reveals her true identity to Gendry.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Sam takes an interest in one of Craster's pregnant wives and begs Jon to help her; Jon wants nothing to do with it.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam",
+            "Jon",
+            "Craster"
+          ],
+          "grounded_in": "Samwell Tarly is approached by Gilly, one of Craster's daughters... Jon Snow resists helping, despite Sam's pleas",
+          "grounded_ok": true
+        },
+        {
+          "text": "On a Dragonstone beach, Stannis's smuggler-turned-knight haggles with a boastful pirate captain to bring his fleet over.",
+          "specificity": 4,
+          "characters_named": [
+            "Stannis"
+          ],
+          "grounded_in": "former smuggler Ser Davos Seaworth, who now serves Stannis, recruits the pirate Salladhor Saan and his fleet to Stannis' side",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Avoided the severed head in the pouch (a rider's death), Jon's discovery about Craster, and Cersei/Balon's rejections of Robb's terms.",
+      "usage": {
+        "in": 41,
+        "out": 2142,
+        "cache_read": 10993,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "What Is Dead May Never Die",
+      "candidates": [
+        {
+          "text": "Beyond the Wall, Craster tells the black brothers their welcome is over and orders them out of his keep.",
+          "specificity": 4,
+          "characters_named": [
+            "Craster"
+          ],
+          "grounded_in": "Beyond the Wall, Craster demands the Night's Watchmen leave.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion quietly installs his lover inside the Red Keep, giving her a place as Sansa's new handmaiden.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Sansa"
+          ],
+          "grounded_in": "Tyrion appoints his lover, Shae, as Sansa's handmaiden",
+          "grounded_ok": true
+        },
+        {
+          "text": "Catelyn rides into Renly's sprawling camp of tents and banners, come to talk terms on Robb's behalf.",
+          "specificity": 3,
+          "characters_named": [
+            "Catelyn",
+            "Renly",
+            "Robb"
+          ],
+          "grounded_in": "Catelyn arrives at Renly's camp to negotiate an alliance.",
+          "grounded_ok": true
+        },
+        {
+          "text": "At Renly's camp, two armored fighters batter each other in a practice duel while onlookers watch from the grass.",
+          "specificity": 3,
+          "characters_named": [
+            "Renly"
+          ],
+          "grounded_in": "defeating Loras in a practice duel",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats (the duel's outcome, Theon's ceremony and burned letter, Pycelle, the ambush on the road) are outcomes, betrayals or deaths, so the usable texture is thin.",
+      "usage": {
+        "in": 46,
+        "out": 2488,
+        "cache_read": 10993,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Garden of Bones",
+      "candidates": [
+        {
+          "text": "After a punishing trek across the desert, Daenerys and her surviving followers reach the gates of a rich walled city.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "After an exhausting journey through the desert, Daenerys arrives at the prosperous city of Qarth.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walking his battlefield after another victory at Oxcross, Robb crosses paths with a young foreign woman tending the wounded.",
+          "specificity": 4,
+          "characters_named": [
+            "Robb"
+          ],
+          "grounded_in": "meeting a healer girl named Talisa Maegyr in the aftermath",
+          "grounded_ok": true
+        },
+        {
+          "text": "Catelyn sits mounted in an open field while the two Baratheon brothers ride out to parley with each other.",
+          "specificity": 4,
+          "characters_named": [
+            "Catelyn"
+          ],
+          "grounded_in": "Catelyn attempts to unite the Baratheon brothers against the Lannisters",
+          "grounded_ok": true
+        },
+        {
+          "text": "Arya and Gendry, roped together with other captives, are marched through the gates of an enormous half-ruined castle.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya",
+            "Gendry"
+          ],
+          "grounded_in": "Arya and Gendry are taken to Harrenhal castle as captives.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Littlefinger turns up unannounced at Catelyn's tent in Renly's camp, all courtesy and old familiarity.",
+          "specificity": 3,
+          "characters_named": [
+            "Littlefinger",
+            "Catelyn",
+            "Renly"
+          ],
+          "grounded_in": "Littlefinger visits Catelyn",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 2187,
+        "cache_read": 10993,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "The Ghost of Harrenhal",
+      "candidates": [
+        {
+          "text": "The Night's Watch makes camp at an ancient ringfort on a hilltop beyond the Wall, the Fist of the First Men.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "the Night's Watch arrives at an ancient fortress called the Fist of the First Men",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Qarth, Xaro offers Daenerys his entire fortune to fund her conquest, if she will marry him.",
+          "specificity": 4,
+          "characters_named": [
+            "Xaro",
+            "Daenerys"
+          ],
+          "grounded_in": "Xaro proposes marriage to Daenerys in exchange for providing her his wealth to conquer the Seven Kingdoms",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jeor Mormont hands Jon over to a veteran ranger leading a small party up into the Frostfang mountains.",
+          "specificity": 4,
+          "characters_named": [
+            "Jeor Mormont",
+            "Jon"
+          ],
+          "grounded_in": "Jeor Mormont hands command of Jon over to legendary ranger Qhorin Halfhand, who is leading a team to the Frostfang mountains",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jorah argues that Daenerys should win the support of the common people of Westeros rather than buy an army.",
+          "specificity": 3,
+          "characters_named": [
+            "Jorah",
+            "Daenerys"
+          ],
+          "grounded_in": "Ser Jorah convinces her to instead gain the Westerosi peoples' support",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 47,
+        "out": 1620,
+        "cache_read": 10993,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "The Old Gods and the New",
+      "candidates": [
+        {
+          "text": "In the aftermath of another battle, Robb walks the field and falls into conversation again with the healer Talisa.",
+          "specificity": 4,
+          "characters_named": [
+            "Robb",
+            "Talisa"
+          ],
+          "grounded_in": "In the aftermath of another battle, Robb reunites with Talisa.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The starving common folk of King's Landing turn on Joffrey in the street, and the crowd erupts into a riot.",
+          "specificity": 4,
+          "characters_named": [
+            "Joffrey"
+          ],
+          "grounded_in": "Joffrey's mistreatment of the starving common folk incites a riot at King's Landing",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Qarth, Daenerys keeps pressing for a ship to carry an army west while holding Xaro's attentions at arm's length.",
+          "specificity": 3,
+          "characters_named": [
+            "Daenerys",
+            "Xaro"
+          ],
+          "grounded_in": "Daenerys works to procure a ship to transport an army to Westeros while keeping Xaro at bay",
+          "grounded_ok": true
+        },
+        {
+          "text": "Over Cersei's furious objections, Tyrion puts her young daughter aboard a ship bound for Dorne.",
+          "specificity": 5,
+          "characters_named": [
+            "Cersei",
+            "Tyrion"
+          ],
+          "grounded_in": "Against Cersei's wishes, Tyrion sends her and Jaime's daughter, Myrcella, to Dorne",
+          "grounded_ok": true
+        },
+        {
+          "text": "At Harrenhal, Arya lingers over Tywin's table pouring wine while the Lannister commanders pore over their maps.",
+          "specificity": 3,
+          "characters_named": [
+            "Arya",
+            "Tywin"
+          ],
+          "grounded_in": "At Harrenhal, Arya has Jaqen kill Amory Lorch when he discovers her spying on the Lannister battle plans.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive beats (the fall of Winterfell, Rodrik's execution, the escapes, Jaqen's second kill, the theft of the dragons, the Hound rescuing Sansa, the new wildling captive) are deaths, reveals or turning points and had to be excluded.",
+      "usage": {
+        "in": 44,
+        "out": 2283,
+        "cache_read": 10993,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "A Man Without Honor",
+      "candidates": [
+        {
+          "text": "Cersei sits with Sansa and tells her the only people worth loving are one's own children.",
+          "specificity": 4,
+          "characters_named": [
+            "Cersei",
+            "Sansa"
+          ],
+          "grounded_in": "Cersei advises her to love no one but her children, not even Joffrey.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon marches his wildling prisoner across the snow, and she taunts him every step of the way.",
+          "specificity": 3,
+          "characters_named": [
+            "Jon"
+          ],
+          "grounded_in": "Jon recaptures Ygritte",
+          "grounded_ok": true
+        },
+        {
+          "text": "Sansa, still rattled by the riot, wakes to find her body has changed and panics.",
+          "specificity": 4,
+          "characters_named": [
+            "Sansa"
+          ],
+          "grounded_in": "Still shaken from the riot, Sansa is horrified that she has begun menstruating",
+          "grounded_ok": true
+        },
+        {
+          "text": "At Harrenhal, Arya pours wine for Tywin while he presses his officers with pointed questions.",
+          "specificity": 3,
+          "characters_named": [
+            "Arya",
+            "Tywin"
+          ],
+          "grounded_in": "Tywin launches an investigation into Amory's assassination.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats (the charred corpses, Jaime's escape attempt, the Qarth massacre, the trap Jon walks into) are barred by rule 1, so the remaining probes lean on conversation and travel texture.",
+      "usage": {
+        "in": 43,
+        "out": 1846,
+        "cache_read": 10993,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Prince of Winterfell",
+      "candidates": [
+        {
+          "text": "Aboard ship as the fleet nears King's Landing, Stannis tells Davos he means to make him Hand of the King.",
+          "specificity": 4,
+          "characters_named": [
+            "Stannis",
+            "Davos"
+          ],
+          "grounded_in": "En route to King's Landing, Stannis promises to make Davos his Hand of the King.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Yara turns up at Winterfell and mocks her brother for seizing a castle he has no men to hold.",
+          "specificity": 5,
+          "characters_named": [
+            "Yara"
+          ],
+          "grounded_in": "Yara arrives at Winterfell and criticizes Theon's seizing it, as he will not receive reinforcements to hold it.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joffrey berates Varys for knowing so little about where the Stark armies actually are.",
+          "specificity": 4,
+          "characters_named": [
+            "Joffrey",
+            "Varys"
+          ],
+          "grounded_in": "Joffrey chastises Varys for not having more knowledge of Stark positions",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon and Qhorin Halfhand are marched through the snow as captives, being taken to meet the wildlings' king.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Qhorin Halfhand"
+          ],
+          "grounded_in": "the Wildling leader, \"Rattleshirt\", leads the captured Jon and Halfhand to his king",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jorah agrees to go with Daenerys into the House of the Undying rather than let her enter alone.",
+          "specificity": 4,
+          "characters_named": [
+            "Jorah",
+            "Daenerys"
+          ],
+          "grounded_in": "Jorah agrees to accompany Daenerys to the House of the Undying to retrieve her dragons",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 45,
+        "out": 1749,
+        "cache_read": 10993,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Blackwater",
+      "candidates": [
+        {
+          "text": "Sansa, standing beside Joffrey before the fighting starts, urges him to ride out and lead his men himself.",
+          "specificity": 4,
+          "characters_named": [
+            "Sansa",
+            "Joffrey"
+          ],
+          "grounded_in": "Sansa plays the game, trying to manipulate Joffrey into leading the attack personally",
+          "grounded_ok": true
+        },
+        {
+          "text": "Stannis's ships sail by night into the bay below King's Landing while the city's defenders wait on the walls.",
+          "specificity": 4,
+          "characters_named": [
+            "Stannis"
+          ],
+          "grounded_in": "Stannis' fleet assaults King's Landing.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion, out in the streets beyond the gate, fights on foot among the Gold Cloaks.",
+          "specificity": 3,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "Tyrion leads his men behind them and mounts a rearguard attack",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Almost every beat in this episode is an outcome of the siege (fleet destroyed, desertions, wounding, last-minute rescue), so safe texture is scarce.",
+      "usage": {
+        "in": 40,
+        "out": 1650,
+        "cache_read": 10993,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Valar Morghulis",
+      "candidates": [
+        {
+          "text": "Daenerys walks alone through a ruined, abandoned version of the Iron Throne room inside the warlocks' House of the Undying.",
+          "specificity": 5,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "inside the House of the Undying, Daenerys enters a simulacrum of a destroyed Iron Throne room",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melisandre stands with Stannis over the flames, telling him what glory she can see waiting there for him.",
+          "specificity": 4,
+          "characters_named": [
+            "Melisandre",
+            "Stannis"
+          ],
+          "grounded_in": "Melisandre comforts a defeated Stannis by showing his future glory in the flames",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jaqen presses a small coin into Arya's hand and tells her it can find him in Braavos.",
+          "specificity": 5,
+          "characters_named": [
+            "Jaqen",
+            "Arya"
+          ],
+          "grounded_in": "Jaqen gives Arya a coin he says can be used to find him in Braavos",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this finale's summary is turning points (marriages, deaths, Winterfell, the Wall), so usable texture was limited.",
+      "usage": {
+        "in": 43,
+        "out": 1697,
+        "cache_read": 10993,
+        "cache_write": 0
+      }
+    }
+  }
+}

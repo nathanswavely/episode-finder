@@ -1,0 +1,170 @@
+{
+  "show": "Severance",
+  "slug": "severance",
+  "season": 2,
+  "source": {
+    "title": "Severance (TV series)",
+    "revid": 1373815415,
+    "url": "https://en.wikipedia.org/w/index.php?title=Severance_%28TV_series%29&oldid=1373815415",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Hello, Ms. Cobel",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Milchick leads the team into a completely renovated Break Room, promising far better working conditions from now on.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "Goodbye, Mrs. Selvig",
+      "probes": [
+        {
+          "text": "Devon is uneasy, pressing Mark about the possibility that Gemma might still be alive somewhere.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Who Is Alive?",
+      "probes": [
+        {
+          "text": "Mark and Helly walk the severed floor's corridors handing out missing-persons posters of Ms. Casey to other departments.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Irving carries one of the posters down to O&D, bringing along his sketch of the dark hallway.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A woman from Lumon approaches Ricken about producing a special edition of his self-help book for innies.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Woe's Hollow",
+      "probes": [
+        {
+          "text": "A prerecorded message from Milchick greets the team and announces an outdoor team-building retreat away from the severed floor.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Along the way the group is directed by strange costumed doppelgängers of themselves.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Milchick and Miss Huang have set up a campsite for the group beside a waterfall.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Trojan's Horse",
+      "probes": [
+        {
+          "text": "Milchick sits through his first performance review as department head, his kindness reforms picked apart point by point.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Ricken sits down to rework his book into a Lumon edition, stuffed with company-approved language, while Devon looks on unhappily.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Attila",
+      "probes": [
+        {
+          "text": "Milchick takes time off from the floor to work through his listed infractions, leaving the child deputy manager in charge.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Chikhai Bardo",
+      "probes": [
+        {
+          "text": "A flashback shows Mark and Gemma first meeting while lying side by side at a blood drive.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Long stretches of the episode play out in flashback, following Mark and Gemma through the early years of their marriage.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "In flashback, Mark and Gemma sit through an appointment at a fertility clinic after months of trying for a baby.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "Sweet Vitriol",
+      "probes": [
+        {
+          "text": "Cobel returns to the rundown seaside town of her childhood, where the shuttered Lumon ether factory once supported everyone.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Cobel walks into a small-town restaurant looking for an old friend, who then quietly drives her out to her family house.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Cobel pushes past a protesting relative into her childhood home and ends up crying herself to sleep on an old bed.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "The After Hours",
+      "probes": [
+        {
+          "text": "Mark phones in sick, telling Milchick he will definitely be in at work the following day.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Cold Harbor",
+      "probes": [
+        {
+          "text": "Milchick leads a marching band through the corridors of the severed floor, staging an elaborate celebration for the department.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

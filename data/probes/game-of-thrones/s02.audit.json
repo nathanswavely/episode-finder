@@ -1,0 +1,1165 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 2,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "The North Remembers",
+      "candidates": [
+        {
+          "text": "Daenerys, her people starving and thirsty in a red wasteland, sends three riders out in different directions to scout.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary situational texture—Daenerys leading her people through a wasteland and sending scouts—without revealing any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary situational texture — Daenerys travelling in a wasteland and dispatching scouts — with no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary situational texture—Daenerys leading her people through a wasteland and sending scouts—without revealing any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tyrion turns up in King's Landing to take his seat as acting Hand, which delights Cersei not at all.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Tywin appointed Tyrion acting Hand, so his arrival and Cersei's displeasure is expected character texture rather than a new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Tyrion's appointment as acting Hand was already established in the previous season, and Cersei's displeasure is ordinary character texture rather than a new outcome."
+                }
+              ],
+              "reason": "The viewer already knows Tywin appointed Tyrion acting Hand, so his arrival and Cersei's displeasure is expected character texture rather than a new outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Beyond the Wall, the Night's Watch takes shelter in the cramped keep of a man surrounded by his many daughter-wives.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes a setting and character texture — the expedition sheltering at a stranger's keep — without revealing any outcome, discovery, or answer to a pending question such as Benjen's fate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is setting and character texture — the expedition beyond the Wall was already established, and arriving at a host's keep reveals no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "It only describes a setting and character texture — the expedition sheltering at a stranger's keep — without revealing any outcome, discovery, or answer to a pending question such as Benjen's fate."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Arya, dressed as a boy, travels north out of the city in a recruit party with Gendry.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 2
+            }
+          },
+          "rejected": "reverse: picked E2 (conf 2)"
+        }
+      ]
+    },
+    "2": {
+      "title": "The Night Lands",
+      "candidates": [
+        {
+          "text": "Theon steps off a boat onto rain-lashed Pyke after nine years away, and his father sneers at his fine Northern clothes.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes Theon's homecoming to the Iron Islands and a chilly reception from his father — setting and character texture, with no outcome, betrayal or revelation disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Theon arriving home to the Iron Islands and a chilly paternal greeting \\u\\u2014 setting and character texture, with no outcome, betrayal, or answer to a pending question revealed."
+                }
+              ],
+              "reason": "It only establishes Theon's homecoming to the Iron Islands and a chilly reception from his father — setting and character texture, with no outcome, betrayal or revelation disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tyrion, over an awkward dinner, ships the commander of the Gold Cloaks off to the Night's Watch and hands Bronn the post.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Tyrion's exercise of power as Hand by removing Janos Slynt (Ned's betrayer) and installing Bronn as City Watch commander, a new alliance/appointment the viewer hasn't yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals Tyrion's arrival and consolidation of power in King's Landing, removing Janos Slynt (Ned's betrayer) and installing Bronn as commander of the City Watch, an outcome of his new appointment as Hand."
+                }
+              ],
+              "reason": "It reveals Tyrion's exercise of power as Hand by removing Janos Slynt (Ned's betrayer) and installing Bronn as City Watch commander, a new alliance/appointment the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Tyrion's exercise of power as Hand by removing Janos Slynt (Ned's betrayer) and installing Bronn as City Watch commander, a new alliance/appointment the viewer hasn't yet seen."
+        },
+        {
+          "text": "On the road north, still dressed as a boy, Arya finally tells Gendry the truth about who she is.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It gives away Arya's confession of her true identity to Gendry, a reveal the viewer has not yet seen while she is still hiding as a boy."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Arya confesses her true identity to Gendry, a disclosure and turning point in their relationship that has not yet occurred."
+                }
+              ],
+              "reason": "It gives away Arya's confession of her true identity to Gendry, a reveal the viewer has not yet seen while she is still hiding as a boy."
+            }
+          },
+          "rejected": "consequence (2/2): It gives away Arya's confession of her true identity to Gendry, a reveal the viewer has not yet seen while she is still hiding as a boy."
+        },
+        {
+          "text": "Sam takes an interest in one of Craster's pregnant wives and begs Jon to help her; Jon wants nothing to do with it.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It introduces a new setting/character dynamic (Sam's interest in a woman at Craster's) without disclosing any death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture and setup at a new location beyond the Wall, with no outcome, death, or answer to a pending question revealed."
+                }
+              ],
+              "reason": "It introduces a new setting/character dynamic (Sam's interest in a woman at Craster's) without disclosing any death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "On a Dragonstone beach, Stannis's smuggler-turned-knight haggles with a boastful pirate captain to bring his fleet over.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows ordinary war-preparation texture—negotiating for ships—without disclosing an outcome, death, or reveal the viewer has been left wondering about."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an in-progress negotiation with a new minor character, showing Stannis is gathering ships—ordinary setup texture rather than the outcome of any pending conflict or open question."
+                }
+              ],
+              "reason": "It shows ordinary war-preparation texture—negotiating for ships—without disclosing an outcome, death, or reveal the viewer has been left wondering about."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "What Is Dead May Never Die",
+      "candidates": [
+        {
+          "text": "Beyond the Wall, Craster tells the black brothers their welcome is over and orders them out of his keep.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the Night's Watch's stay at Craster's keep ends in a falling-out, with Craster expelling them \ba turning point in that storyline the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the Night's Watch's stay at Craster's Keep \\u2014 a falling-out that forces them to leave \\u2014 rather than mere setting or texture."
+                }
+              ],
+              "reason": "It reveals that the Night's Watch's stay at Craster's keep ends in a falling-out, with Craster expelling them \ba turning point in that storyline the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the Night's Watch's stay at Craster's keep ends in a falling-out, with Craster expelling them \ba turning point in that storyline the viewer has not yet seen."
+        },
+        {
+          "text": "Tyrion quietly installs his lover inside the Red Keep, giving her a place as Sansa's new handmaiden.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tyrion brings Shae into the Red Keep and places her in Sansa's service, a plot development not yet known to the viewer."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tyrion smuggles Shae into the Red Keep and places her as Sansa's handmaiden, a plot development the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Tyrion brings Shae into the Red Keep and places her in Sansa's service, a plot development not yet known to the viewer."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tyrion brings Shae into the Red Keep and places her in Sansa's service, a plot development not yet known to the viewer."
+        },
+        {
+          "text": "Catelyn rides into Renly's sprawling camp of tents and banners, come to talk terms on Robb's behalf.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Her journey to seek an alliance with Renly was already announced in the prior episode, and her arrival at his camp is setup rather than outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Her mission to seek an alliance with Renly was already stated in the previous episode; arriving at his camp is expected travel/setting texture with no outcome revealed."
+                }
+              ],
+              "reason": "Her journey to seek an alliance with Renly was already announced in the prior episode, and her arrival at his camp is setup rather than outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At Renly's camp, two armored fighters batter each other in a practice duel while onlookers watch from the grass.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only depicts a sparring/tourney scene at Renly's camp, an expected setting given Catelyn's mission, with no outcome, identity or reveal disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an unnamed practice duel with no outcome, participants, or plot consequence identified — ordinary camp texture."
+                }
+              ],
+              "reason": "It only depicts a sparring/tourney scene at Renly's camp, an expected setting given Catelyn's mission, with no outcome, identity or reveal disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Garden of Bones",
+      "candidates": [
+        {
+          "text": "After a punishing trek across the desert, Daenerys and her surviving followers reach the gates of a rich walled city.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It resolves the open question of whether Daenerys and her dying khalasar survive the Red Waste, revealing they find refuge at a wealthy city."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of whether Daenerys and her people survive the Red Waste, revealing they reach a wealthy city — an outcome of the pending survival/reconnaissance storyline."
+                }
+              ],
+              "reason": "It resolves the open question of whether Daenerys and her dying khalasar survive the Red Waste, revealing they find refuge at a wealthy city."
+            }
+          },
+          "rejected": "consequence (2/2): It resolves the open question of whether Daenerys and her dying khalasar survive the Red Waste, revealing they find refuge at a wealthy city."
+        },
+        {
+          "text": "Walking his battlefield after another victory at Oxcross, Robb crosses paths with a young foreign woman tending the wounded.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of a pending battle (Robb's victory at Oxcross) and introduces the woman who becomes his fateful love interest."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the pending outcome of Robb's campaign (a victory at Oxcross) and introduces the foreign healer whose meeting with Robb is a turning point given his betrothal to a Frey daughter."
+                }
+              ],
+              "reason": "It reveals the outcome of a pending battle (Robb's victory at Oxcross) and introduces the woman who becomes his fateful love interest."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of a pending battle (Robb's victory at Oxcross) and introduces the woman who becomes his fateful love interest."
+        },
+        {
+          "text": "Catelyn sits mounted in an open field while the two Baratheon brothers ride out to parley with each other.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows a setting and situation—Catelyn present as the rival Baratheon brothers meet to parley—without disclosing the outcome of that confrontation or any new information about pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows a setting/situation—Catelyn having reached Renly's camp as expected and the brothers meeting to talk—without disclosing the outcome of the parley or any death, reveal, or alliance."
+                }
+              ],
+              "reason": "It only shows a setting and situation—Catelyn present as the rival Baratheon brothers meet to parley—without disclosing the outcome of that confrontation or any new information about pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Arya and Gendry, roped together with other captives, are marched through the gates of an enormous half-ruined castle.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Arya and Gendry's escape north fails and they are taken prisoner and marched to Harrenhal, a turning point the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Arya and Gendry's journey to the Wall fails and they are taken captive and brought to Harrenhal, a turning point the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Arya and Gendry's escape north fails and they are taken prisoner and marched to Harrenhal, a turning point the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Arya and Gendry's escape north fails and they are taken prisoner and marched to Harrenhal, a turning point the viewer hasn't seen."
+        },
+        {
+          "text": "Littlefinger turns up unannounced at Catelyn's tent in Renly's camp, all courtesy and old familiarity.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Littlefinger arriving at Catelyn's tent is a setting/character-texture moment consistent with the known Renly camp storyline and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Littlefinger arriving at Catelyn's tent is a scene setup and character texture, not an outcome; both his role as a mobile schemer and Catelyn's presence at Renly's camp are already established."
+                }
+              ],
+              "reason": "Littlefinger arriving at Catelyn's tent is a setting/character-texture moment consistent with the known Renly camp storyline and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "The Ghost of Harrenhal",
+      "candidates": [
+        {
+          "text": "The Night's Watch makes camp at an ancient ringfort on a hilltop beyond the Wall, the Fist of the First Men.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Establishing a new setting/encampment for the Night's Watch expedition is ordinary texture, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Arriving and making camp at a new location beyond the Wall is ordinary setting/travel texture, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "Establishing a new setting/encampment for the Night's Watch expedition is ordinary texture, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In Qarth, Xaro offers Daenerys his entire fortune to fund her conquest, if she will marry him.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Daenerys survives the Red Waste and reaches Qarth, and that a wealthy new patron offers her a fortune and marriage alliance, resolving the open question of her people's fate and how she might fund her conquest."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Daenerys survives the Red Waste and reaches the city of Qarth, and discloses a new alliance/marriage offer that resolves her pending search for support for her conquest."
+                }
+              ],
+              "reason": "It reveals that Daenerys survives the Red Waste and reaches Qarth, and that a wealthy new patron offers her a fortune and marriage alliance, resolving the open question of her people's fate and how she might fund her conquest."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Daenerys survives the Red Waste and reaches Qarth, and that a wealthy new patron offers her a fortune and marriage alliance, resolving the open question of her people's fate and how she might fund her conquest."
+        },
+        {
+          "text": "Jeor Mormont hands Jon over to a veteran ranger leading a small party up into the Frostfang mountains.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes a routine assignment/journey setup rather than an outcome, discovery or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Assigning Jon to a ranging party is a routine plot setup that doesn't disclose any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "It describes a routine assignment/journey setup rather than an outcome, discovery or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jorah argues that Daenerys should win the support of the common people of Westeros rather than buy an army.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jorah offering strategic advice is character texture and doesn't disclose any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A strategic conversation between Daenerys and Jorah is character/plot texture and does not disclose any outcome, death, or reveal pending from prior episodes."
+                }
+              ],
+              "reason": "Jorah offering strategic advice is character texture and doesn't disclose any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "The Old Gods and the New",
+      "candidates": [
+        {
+          "text": "In the aftermath of another battle, Robb walks the field and falls into conversation again with the healer Talisa.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — a continuation of an already-established acquaintance between Robb and Talisa in a familiar post-battle setting, revealing no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows an ordinary continuation of the already-established Robb/Talisa acquaintance in a battlefield setting, without revealing any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "This is ordinary character texture — a continuation of an already-established acquaintance between Robb and Talisa in a familiar post-battle setting, revealing no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The starving common folk of King's Landing turn on Joffrey in the street, and the crowd erupts into a riot.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a major turning point—the smallfolk's open revolt against Joffrey escalating into a full riot in the capital—an event not yet set up for the viewer."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a major turning point not yet seen — the smallfolk's uprising against Joffrey erupting into a riot in the capital."
+                }
+              ],
+              "reason": "It reveals a major turning point—the smallfolk's open revolt against Joffrey escalating into a full riot in the capital—an event not yet set up for the viewer."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a major turning point—the smallfolk's open revolt against Joffrey escalating into a full riot in the capital—an event not yet set up for the viewer."
+        },
+        {
+          "text": "In Qarth, Daenerys keeps pressing for a ship to carry an army west while holding Xaro's attentions at arm's length.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This merely continues Daenerys's established goal of finding ships and an army in Qarth without revealing any outcome, betrayal, or new development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary continuation of Daenerys's known goal in Qarth, with no outcome, reveal, or turning point disclosed."
+                }
+              ],
+              "reason": "This merely continues Daenerys's established goal of finding ships and an army in Qarth without revealing any outcome, betrayal, or new development."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Over Cersei's furious objections, Tyrion puts her young daughter aboard a ship bound for Dorne.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses Tyrion's secret political maneuver forging a Dornish marriage alliance and shows him outmaneuvering Cersei in their ongoing power struggle."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point in the ongoing Tyrion\ttext-Cersei power struggle \tem Tyrion outmaneuvering her by shipping Myrcella off to Dorne as part of a new alliance."
+                }
+              ],
+              "reason": "It discloses Tyrion's secret political maneuver forging a Dornish marriage alliance and shows him outmaneuvering Cersei in their ongoing power struggle."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses Tyrion's secret political maneuver forging a Dornish marriage alliance and shows him outmaneuvering Cersei in their ongoing power struggle."
+        },
+        {
+          "text": "At Harrenhal, Arya lingers over Tywin's table pouring wine while the Lannister commanders pore over their maps.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture consistent with Arya's already-established role as Tywin's cupbearer, revealing no new outcome or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture consistent with Arya's already-established role as Tywin's cupbearer at Harrenhal, revealing no new outcome or discovery."
+                }
+              ],
+              "reason": "This is ordinary texture consistent with Arya's already-established role as Tywin's cupbearer, revealing no new outcome or discovery."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "A Man Without Honor",
+      "candidates": [
+        {
+          "text": "Cersei sits with Sansa and tells her the only people worth loving are one's own children.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a character-texture conversation conveying Cersei's worldview, without disclosing any outcome, death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — a conversation reflecting Cersei's worldview — and does not disclose any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "It's a character-texture conversation conveying Cersei's worldview, without disclosing any outcome, death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jon marches his wildling prisoner across the snow, and she taunts him every step of the way.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Jon escorting a captured wildling, an ordinary situation and new-character texture that discloses no death, betrayal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jon escorting a captured wildling, an ordinary situational beat consistent with his known scouting mission, without disclosing any death, betrayal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It shows Jon escorting a captured wildling, an ordinary situation and new-character texture that discloses no death, betrayal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Sansa, still rattled by the riot, wakes to find her body has changed and panics.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals both an upcoming riot in King's Landing and Sansa's first menstruation \"\" a significant turning point making her eligible to bear Joffrey's heirs."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals Sansa's first menstruation, a turning point meaning she is now able to bear Joffrey's children, plus a riot in King's Landing that the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals both an upcoming riot in King's Landing and Sansa's first menstruation \"\" a significant turning point making her eligible to bear Joffrey's heirs."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals both an upcoming riot in King's Landing and Sansa's first menstruation \"\" a significant turning point making her eligible to bear Joffrey's heirs."
+        },
+        {
+          "text": "At Harrenhal, Arya pours wine for Tywin while he presses his officers with pointed questions.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: picked E6 (conf 3)"
+        }
+      ]
+    },
+    "8": {
+      "title": "The Prince of Winterfell",
+      "candidates": [
+        {
+          "text": "Aboard ship as the fleet nears King's Landing, Stannis tells Davos he means to make him Hand of the King.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an expected step toward the already-anticipated siege and a personal promotion offer, without revealing the battle's outcome or any hidden information."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Stannis's fleet actually reaches King's Landing to begin the pending siege, and Davos survives to be offered the Hand position, pre-empting the outcome of the assault buildup."
+                }
+              ],
+              "reason": "It reveals that Stannis's fleet actually reaches King's Landing to begin the pending siege, and Davos survives to be offered the Hand position, pre-empting the outcome of the assault buildup."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Stannis's fleet actually reaches King's Landing to begin the pending siege, and Davos survives to be offered the Hand position, pre-empting the outcome of the assault buildup."
+        },
+        {
+          "text": "Yara turns up at Winterfell and mocks her brother for seizing a castle he has no men to hold.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Yara's arrival and taunting is character texture and a known situation (Theon holding Winterfell) rather than resolving any pending outcome, death or secret."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Yara's arrival and taunting is character texture about a situation the viewer already knows (Theon holding Winterfell), and it discloses no death, reveal, or resolution of the pending conflict over the castle."
+                }
+              ],
+              "reason": "Yara's arrival and taunting is character texture and a known situation (Theon holding Winterfell) rather than resolving any pending outcome, death or secret."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joffrey berates Varys for knowing so little about where the Stark armies actually are.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary court friction and characterization, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary court friction and character texture, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary court friction and characterization, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jon and Qhorin Halfhand are marched through the snow as captives, being taken to meet the wildlings' king.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jon rejoins Qhorin and both are captured by the wildlings, resolving the cliffhanger of Jon's separation and pursuit of Ygritte."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jon fails to kill/hold Ygritte and is instead captured along with Qhorin, resolving the pending outcome of Jon's separation from the ranging party."
+                }
+              ],
+              "reason": "It reveals that Jon rejoins Qhorin and both are captured by the wildlings, resolving the cliffhanger of Jon's separation and pursuit of Ygritte."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jon rejoins Qhorin and both are captured by the wildlings, resolving the cliffhanger of Jon's separation and pursuit of Ygritte."
+        },
+        {
+          "text": "Jorah agrees to go with Daenerys into the House of the Undying rather than let her enter alone.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with Jorah's established devotion and the known theft of the dragons; it doesn't disclose the outcome of the search or any new reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jorah accompanying Daenerys is character texture consistent with his established loyalty and does not disclose the fate of the dragons or the outcome of the House of the Undying."
+                }
+              ],
+              "reason": "This is character texture consistent with Jorah's established devotion and the known theft of the dragons; it doesn't disclose the outcome of the search or any new reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Blackwater",
+      "candidates": [
+        {
+          "text": "Sansa, standing beside Joffrey before the fighting starts, urges him to ride out and lead his men himself.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with Sansa's known resentment of Joffrey and the already-anticipated siege; it discloses no outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with Sansa's known resentment of Joffrey and the already-anticipated siege, revealing no outcome or new plot development."
+                }
+              ],
+              "reason": "This is character texture consistent with Sansa's known resentment of Joffrey and the already-anticipated siege; it discloses no outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Stannis's ships sail by night into the bay below King's Landing while the city's defenders wait on the walls.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only depicts the anticipated arrival of Stannis's fleet, an event the viewer already knows is coming, without revealing the battle's outcome or the wildfire's effect."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Stannis's long-anticipated naval assault on King's Landing actually begins, resolving the pending question of whether/when the siege occurs."
+                }
+              ],
+              "reason": "It confirms that Stannis's long-anticipated naval assault on King's Landing actually begins, resolving the pending question of whether/when the siege occurs."
+            }
+          },
+          "rejected": "consequence (1/2): It confirms that Stannis's long-anticipated naval assault on King's Landing actually begins, resolving the pending question of whether/when the siege occurs."
+        },
+        {
+          "text": "Tyrion, out in the streets beyond the gate, fights on foot among the Gold Cloaks.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Tyrion fighting during the anticipated siege of King's Landing, without disclosing any outcome, casualty, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Tyrion taking part in the already-anticipated defence of King's Landing without revealing who wins, who dies, or any other outcome."
+                }
+              ],
+              "reason": "It only shows Tyrion fighting during the anticipated siege of King's Landing, without disclosing any outcome, casualty, or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Valar Morghulis",
+      "candidates": [
+        {
+          "text": "Daenerys walks alone through a ruined, abandoned version of the Iron Throne room inside the warlocks' House of the Undying.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Daenerys makes it inside the House of the Undying, revealing a key visionary sequence outcome from the pending confrontation with the warlocks."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Daenerys reaches and enters the House of the Undying, and reveals the vision sequence outcome of the pending rescue attempt for her dragons.}"
+                }
+              ],
+              "reason": "It confirms Daenerys makes it inside the House of the Undying, revealing a key visionary sequence outcome from the pending confrontation with the warlocks."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Daenerys makes it inside the House of the Undying, revealing a key visionary sequence outcome from the pending confrontation with the warlocks."
+        },
+        {
+          "text": "Melisandre stands with Stannis over the flames, telling him what glory she can see waiting there for him.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Melisandre's fire visions and encouragement of Stannis are established character texture consistent with her known role, and the sentence discloses no outcome of the pending battle."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Melisandre's fire prophecies to Stannis are established character texture, revealing no specific outcome of the pending battle."
+                }
+              ],
+              "reason": "Melisandre's fire visions and encouragement of Stannis are established character texture consistent with her known role, and the sentence discloses no outcome of the pending battle."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jaqen presses a small coin into Arya's hand and tells her it can find him in Braavos.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jaqen parts ways with Arya after their escape and gives her the Braavosi coin, a key turning point in her storyline the viewer hasn't reached."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the escape from Harrenhal succeeded and reveals Jaqen's parting from Arya plus the coin that sets up her Braavos path, resolving the pending question of whether he'd help her get out."
+                }
+              ],
+              "reason": "It reveals that Jaqen parts ways with Arya after their escape and gives her the Braavosi coin, a key turning point in her storyline the viewer hasn't reached."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jaqen parts ways with Arya after their escape and gives her the Braavosi coin, a key turning point in her storyline the viewer hasn't reached."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 47055,
+    "out": 15745,
+    "cache_read": 653381,
+    "cache_write": 12707,
+    "calls": 162
+  }
+}

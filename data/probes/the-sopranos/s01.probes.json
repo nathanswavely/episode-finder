@@ -22,7 +22,8 @@
           "specificity": 3,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "46 Long",
@@ -37,7 +38,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "3": {
       "title": "Denial, Anger, Acceptance",
@@ -57,7 +59,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "4": {
       "title": "Meadowlands",
@@ -67,7 +70,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "5": {
       "title": "College",
@@ -87,7 +91,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "6": {
       "title": "Pax Soprana",
@@ -102,7 +107,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "7": {
       "title": "Down Neck",
@@ -122,7 +128,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "8": {
       "title": "The Legend of Tennessee Moltisanti",
@@ -142,7 +149,94 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Boca",
+      "probes": [
+        {
+          "text": "Meadow's soccer coach has been offered a better job elsewhere, and is making plans to leave town.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony and Carmela can't resist trading sly, thinly veiled jokes at Junior's expense whenever he's around.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Junior's girlfriend has been happily bragging to her friends about his talents in bed, against his wishes.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
       ]
+    },
+    "10": {
+      "title": "A Hit Is a Hit",
+      "probes": [
+        {
+          "text": "Tony's neighbor invites him out for a round of golf, where the other men pepper him with questions about mob life.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris sits down with a gangster rapper who is tangled up with Hesh over unpaid royalties.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony tells Melfi about a boy with a cleft palate he and his childhood friends used to mock.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Nobody Knows Anything",
+      "probes": [],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Isabella",
+      "probes": [
+        {
+          "text": "A young Italian exchange student is house-sitting for the neighbours next door while they are away.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony drifts into a sunlit old-country daydream of a young woman nursing an infant.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Tony, listless and depressed, spends his days in bed, barely able to rouse himself.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "13": {
+      "title": "I Dream of Jeannie Cusamano",
+      "probes": [
+        {
+          "text": "Carmela confronts the priest about his habit of getting close to lonely, 'spiritually thirsty' married women.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A storm knocks the power out at the Soprano house, so the family goes out for dinner instead.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
     }
   }
 }

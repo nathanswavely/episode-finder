@@ -696,6 +696,219 @@
           "rejected": null
         }
       ]
+    },
+    "8": {
+      "title": "What's for Dinner?",
+      "candidates": [
+        {
+          "text": "Dylan wears a Kier Eagan mask, seated in a replica of Kier's bedroom while ritualistic dancers perform before him.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an odd Lumon ceremony/perk depicted as workplace texture, without disclosing any outcome, death, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an odd Lumon ritual/reward scenario — atmospheric texture that doesn't disclose any outcome, death, discovery or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is an odd Lumon ceremony/perk depicted as workplace texture, without disclosing any outcome, death, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Outside work, Mark turns up at Ricken's book-reading party and ends up chatting with his neighbor Mrs. Selvig.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A social gathering with a character already known to have insinuated herself into the family; no outcome, reveal or answer to a pending question is given."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Attending a book-reading party and chatting with his neighbor is ordinary social texture; the viewer already knows Cobel poses as Mrs. Selvig and has been ingratiating herself with Mark's family."
+                }
+              ],
+              "reason": "A social gathering with a character already known to have insinuated herself into the family; no outcome, reveal or answer to a pending question is given."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Irving's outie lives alone in an apartment, painting the same dark corridor over and over again.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Irving's previously unseen outie and the significant discovery that he obsessively paints the black corridor his innie hallucinated, linking his two selves."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals Irving's outie's identity/living situation and, crucially, that his outside self is obsessively painting the dark hallway — the answer to the open mystery of his black-liquid hallucinations and a bleed-through between selves the viewer hasn't yet learned about."
+                }
+              ],
+              "reason": "It reveals Irving's previously unseen outie and the significant discovery that he obsessively paints the black corridor his innie hallucinated, linking his two selves."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Irving's previously unseen outie and the significant discovery that he obsessively paints the black corridor his innie hallucinated, linking his two selves."
+        }
+      ]
+    },
+    "9": {
+      "title": "The We We Are",
+      "candidates": [
+        {
+          "text": "Mark's innie wakes disoriented in the middle of a house party, arms around his neighbour in a hug.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Dylan's overtime contingency plan succeeds and Mark's innie is awakened in the outside world, resolving the cliffhanger scheme."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Dylan successfully activates the overtime contingency and Mark's innie awakens in the outside world, the outcome of the plan the viewer knows is pending."
+                }
+              ],
+              "reason": "It confirms Dylan's overtime contingency plan succeeds and Mark's innie is awakened in the outside world, resolving the cliffhanger scheme."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Dylan's overtime contingency plan succeeds and Mark's innie is awakened in the outside world, resolving the cliffhanger scheme."
+        },
+        {
+          "text": "Irving, awake in his own apartment, wanders among canvases of a dark corridor he doesn't remember painting.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Dylan's overtime-contingency plan (the innies successfully waking outside) and answers the open question of Irving's black-liquid hallucinations by connecting them to his outie's paintings of the corridor."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the overtime contingency plan succeeded in waking the innies outside and reveals the discovery that Irving's outie has been obsessively painting the mysterious dark hallway, an answer to a question the story left open."
+                }
+              ],
+              "reason": "It reveals the outcome of Dylan's overtime-contingency plan (the innies successfully waking outside) and answers the open question of Irving's black-liquid hallucinations by connecting them to his outie's paintings of the corridor."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Dylan's overtime-contingency plan (the innies successfully waking outside) and answers the open question of Irving's black-liquid hallucinations by connecting them to his outie's paintings of the corridor."
+        },
+        {
+          "text": "Helly comes to in formal dress amid a crowd at a glossy Lumon function.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the overtime contingency succeeds in waking the innies outside and reveals that Helly's outie is connected to a high-society Lumon event, pre-empting the pending mystery of her outside identity."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the overtime contingency plan succeeds and that Helly's outie is at a high-profile Lumon function, pre-empting the pending cliffhanger and hinting at her insider status."
+                }
+              ],
+              "reason": "It confirms the overtime contingency succeeds in waking the innies outside and reveals that Helly's outie is connected to a high-society Lumon event, pre-empting the pending mystery of her outside identity."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms the overtime contingency succeeds in waking the innies outside and reveals that Helly's outie is connected to a high-society Lumon event, pre-empting the pending mystery of her outside identity."
+        },
+        {
+          "text": "Cobel drives fast while phoning Milchick, no longer bothering with her friendly neighbour voice.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Cobel is Mrs. Selvig and works with Milchick, so her driving and phoning him is ordinary texture without disclosing any outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Cobel driving and phoning Milchick is ordinary texture; the viewer already knows she is Cobel posing as Mrs. Selvig, and no outcome, discovery or turning point is disclosed."
+                }
+              ],
+              "reason": "The viewer already knows Cobel is Mrs. Selvig and works with Milchick, so her driving and phoning him is ordinary texture without disclosing any outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 42551,
+    "out": 14406,
+    "cache_read": 199197,
+    "cache_write": 6823,
+    "calls": 125
+  },
+  "recheck_spend": {
+    "in": 7850,
+    "out": 7417,
+    "cache_read": 53546,
+    "cache_write": 0,
+    "calls": 42
   }
 }

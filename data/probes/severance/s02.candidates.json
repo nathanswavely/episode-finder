@@ -1,0 +1,490 @@
+{
+  "show": "Severance",
+  "slug": "severance",
+  "season": 2,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Severance (TV series)",
+    "revid": 1373815415,
+    "url": "https://en.wikipedia.org/w/index.php?title=Severance_%28TV_series%29&oldid=1373815415",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Hello, Ms. Cobel",
+      "candidates": [
+        {
+          "text": "Mark wakes at his desk to find strangers in his coworkers' chairs and the wellness room emptied out.",
+          "specificity": 5,
+          "characters_named": [
+            "Mark"
+          ],
+          "grounded_in": "finding Ms.Casey's wellness room decommissioned, and his whole team replaced",
+          "grounded_ok": true
+        },
+        {
+          "text": "Milchick introduces the severed floor's new deputy manager, who turns out to be a child.",
+          "specificity": 5,
+          "characters_named": [
+            "Milchick"
+          ],
+          "grounded_in": "introduces Mark to new deputy manager MissHuang—a child",
+          "grounded_ok": true
+        },
+        {
+          "text": "Milchick leads the team into a completely renovated Break Room, promising far better working conditions from now on.",
+          "specificity": 4,
+          "characters_named": [
+            "Milchick"
+          ],
+          "grounded_in": "The four are taken to a renovated Break Room, where Milchick promises better working conditions",
+          "grounded_ok": true
+        },
+        {
+          "text": "Milchick tells Mark that five months have passed and that his old team became the face of severance reform.",
+          "specificity": 4,
+          "characters_named": [
+            "Milchick",
+            "Mark"
+          ],
+          "grounded_in": "informs him that five months have passed since the \"Macrodat Uprising\", which made Mark's team the faces of \"severance reform\"",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 47,
+        "out": 1341,
+        "cache_read": 0,
+        "cache_write": 10049
+      }
+    },
+    "2": {
+      "title": "Goodbye, Mrs. Selvig",
+      "candidates": [
+        {
+          "text": "Helena sits for the camera recording an apology, chalking up her outburst at the gala to being drunk.",
+          "specificity": 5,
+          "characters_named": [
+            "Helena"
+          ],
+          "grounded_in": "Helena films an apology video passing off her outburst at the gala as the result of intoxication",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dylan goes out job hunting, and interviewers cool off the moment they learn he is severed.",
+          "specificity": 4,
+          "characters_named": [
+            "Dylan"
+          ],
+          "grounded_in": "Dylan attempts to find a new job but is discriminated against for being severed",
+          "grounded_ok": true
+        },
+        {
+          "text": "Helena calls on Cobel at home, accompanied by a Lumon security man, and dangles a new title before her.",
+          "specificity": 4,
+          "characters_named": [
+            "Helena",
+            "Cobel"
+          ],
+          "grounded_in": "Helena, accompanied by security chief Mr.Drummond, meets with Cobel and offers her a promotion as a reward for her loyalty",
+          "grounded_ok": true
+        },
+        {
+          "text": "Devon is uneasy, pressing Mark about the possibility that Gemma might still be alive somewhere.",
+          "specificity": 3,
+          "characters_named": [
+            "Devon",
+            "Mark",
+            "Gemma"
+          ],
+          "grounded_in": "much to the dismay of Devon, who is concerned that Gemma is alive",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 50,
+        "out": 1551,
+        "cache_read": 10049,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Who Is Alive?",
+      "candidates": [
+        {
+          "text": "Mark and Helly walk the severed floor's corridors handing out missing-persons posters of Ms. Casey to other departments.",
+          "specificity": 5,
+          "characters_named": [
+            "Mark",
+            "Helly"
+          ],
+          "grounded_in": "Mark and Helly go to hand out missing-persons posters of Ms.Casey across the severed floor",
+          "grounded_ok": true
+        },
+        {
+          "text": "Irving carries one of the posters down to O&D, bringing along his sketch of the dark hallway.",
+          "specificity": 4,
+          "characters_named": [
+            "Irving"
+          ],
+          "grounded_in": "Irving takes a missing poster to O&D, where he runs into Felicia, who identifies his sketch of the dark hallway",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a darkened room, Mark and Devon try burning an afterimage into his retinas, hoping it carries inside.",
+          "specificity": 5,
+          "characters_named": [
+            "Mark",
+            "Devon"
+          ],
+          "grounded_in": "Mark and Devon attempt to burn an afterimage into his retinas to communicate with his innie",
+          "grounded_ok": true
+        },
+        {
+          "text": "A woman from Lumon approaches Ricken about producing a special edition of his self-help book for innies.",
+          "specificity": 4,
+          "characters_named": [
+            "Ricken"
+          ],
+          "grounded_in": "Natalie approaches Ricken to discuss adapting The You You Are for innies",
+          "grounded_ok": true
+        },
+        {
+          "text": "Wandering unfamiliar hallways, Mark and Helly meet hostile animal handlers from a department nobody in MDR knew existed.",
+          "specificity": 4,
+          "characters_named": [
+            "Mark",
+            "Helly"
+          ],
+          "grounded_in": "The two stumble upon the Mammalians Nurturable department, led by a woman named Lorne; though initially hostile",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1386,
+        "cache_read": 10049,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Woe's Hollow",
+      "candidates": [
+        {
+          "text": "The team wakes on a frozen lake in the outside world, in winter coats, with no idea how they got there.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "MDR find themselves in the outside world on a frozen lake.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A prerecorded message from Milchick greets the team and announces an outdoor team-building retreat away from the severed floor.",
+          "specificity": 5,
+          "characters_named": [
+            "Milchick"
+          ],
+          "grounded_in": "A prerecorded message from Milchick informs them that they are on an \"Outdoor Retreat and Team-Building Occurrence\" (ORTBO)",
+          "grounded_ok": true
+        },
+        {
+          "text": "Along the way the group is directed by strange costumed doppelgängers of themselves.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "by following the directions of strange doppelgängers of themselves",
+          "grounded_ok": true
+        },
+        {
+          "text": "Milchick and Miss Huang have set up a campsite for the group beside a waterfall.",
+          "specificity": 5,
+          "characters_named": [
+            "Milchick",
+            "Miss Huang"
+          ],
+          "grounded_in": "they are greeted by Milchick and MissHuang, who have set up a campsite",
+          "grounded_ok": true
+        },
+        {
+          "text": "Irving sleeps outdoors on the ground away from the others, and has strange dreams during the night.",
+          "specificity": 4,
+          "characters_named": [
+            "Irving"
+          ],
+          "grounded_in": "Irving sleeps outside, experiencing strange dreams.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1031,
+        "cache_read": 10049,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Trojan's Horse",
+      "candidates": [
+        {
+          "text": "Ricken sits down to rework his book into a Lumon edition, stuffed with company-approved language, while Devon looks on unhappily.",
+          "specificity": 4,
+          "characters_named": [
+            "Ricken",
+            "Devon"
+          ],
+          "grounded_in": "Ricken begins work on the Lumon edition of The You You Are, laden with company propaganda, to Devon's dismay",
+          "grounded_ok": true
+        },
+        {
+          "text": "Milchick sits through his first performance review as department head, his kindness reforms picked apart point by point.",
+          "specificity": 5,
+          "characters_named": [
+            "Milchick"
+          ],
+          "grounded_in": "Milchick undergoes his first performance review as department head, where Drummond admonishes his failed kindness reforms",
+          "grounded_ok": true
+        },
+        {
+          "text": "Irving's outie catches sight of Burt watching him from a distance outside.",
+          "specificity": 4,
+          "characters_named": [
+            "Irving",
+            "Burt"
+          ],
+          "grounded_in": "Irving's outie notices Burt watching him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dylan gets the office ceremony he demanded, with the team gathered indoors to mark a colleague's departure.",
+          "specificity": 3,
+          "characters_named": [
+            "Dylan"
+          ],
+          "grounded_in": "Milchick fulfills Dylan's demand for a funeral for Irving",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive beats (the ORTBO fallout, the card behind the poster, Mark's flash of Gemma) are reveals or direct consequences of reveals, so the pool is thin.",
+      "usage": {
+        "in": 43,
+        "out": 1687,
+        "cache_read": 10049,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Attila",
+      "candidates": [
+        {
+          "text": "Milchick takes time off from the floor to work through his listed infractions, leaving the child deputy manager in charge.",
+          "specificity": 5,
+          "characters_named": [
+            "Milchick"
+          ],
+          "grounded_in": "Milchick takes time off to address the infractions in his performance review, leaving MissHuang in charge.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Irving sits down to dinner at Burt and Fields' home, and the conversation turns stiff and awkward.",
+          "specificity": 5,
+          "characters_named": [
+            "Irving",
+            "Burt",
+            "Fields"
+          ],
+          "grounded_in": "Burt and Fields have Irving for dinner, and an awkward conversation unfolds.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1036,
+        "cache_read": 10049,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Chikhai Bardo",
+      "candidates": [
+        {
+          "text": "A flashback shows Mark and Gemma first meeting while lying side by side at a blood drive.",
+          "specificity": 5,
+          "characters_named": [
+            "Mark",
+            "Gemma"
+          ],
+          "grounded_in": "In flashbacks, Mark and Gemma meet at a blood drive.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Long stretches of the episode play out in flashback, following Mark and Gemma through the early years of their marriage.",
+          "specificity": 4,
+          "characters_named": [
+            "Mark",
+            "Gemma"
+          ],
+          "grounded_in": "The two go on to have a loving marriage",
+          "grounded_ok": true
+        },
+        {
+          "text": "In flashback, Mark and Gemma sit through an appointment at a fertility clinic after months of trying for a baby.",
+          "specificity": 4,
+          "characters_named": [
+            "Mark",
+            "Gemma"
+          ],
+          "grounded_in": "Gemma and Mark visit a fertility clinic",
+          "grounded_ok": true
+        },
+        {
+          "text": "Devon keeps watch at her brother's bedside while Reghabi lingers uneasily in the house.",
+          "specificity": 3,
+          "characters_named": [
+            "Devon",
+            "Reghabi"
+          ],
+          "grounded_in": "as Mark lies unconscious, Reghabi confirms to Devon that Gemma is alive",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive imagery (the testing floor, the file-named rooms, the doctor overseeing them) is the season's central reveal, so it is excluded.",
+      "usage": {
+        "in": 44,
+        "out": 1295,
+        "cache_read": 10049,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Sweet Vitriol",
+      "candidates": [
+        {
+          "text": "Cobel returns to the rundown seaside town of her childhood, where the shuttered Lumon ether factory once supported everyone.",
+          "specificity": 5,
+          "characters_named": [
+            "Cobel"
+          ],
+          "grounded_in": "Cobel arrives in Salt's Neck, the seaside town she grew up in. The Lumon ether factory that once supported it has closed",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cobel walks into a small-town restaurant looking for an old friend, who then quietly drives her out to her family house.",
+          "specificity": 5,
+          "characters_named": [
+            "Cobel"
+          ],
+          "grounded_in": "Harmony visits a restaurant to find her old friend Hampton, an ether dealer, who secretly drives her to her mother's house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cobel pushes past a protesting relative into her childhood home and ends up crying herself to sleep on an old bed.",
+          "specificity": 5,
+          "characters_named": [
+            "Cobel"
+          ],
+          "grounded_in": "Harmony barges into the house against Sissy's protests and falls asleep crying on Charlotte's old bed.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cobel and an old friend sit together in her childhood house taking ether.",
+          "specificity": 4,
+          "characters_named": [
+            "Cobel"
+          ],
+          "grounded_in": "Hampton finds her and they take ether.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The woman keeping Cobel's family home is a fervent Lumon devotee who does not want her there.",
+          "specificity": 4,
+          "characters_named": [
+            "Cobel"
+          ],
+          "grounded_in": "leaving Harmony's aunt Sissy, a Lumon devotee, in charge of the home",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Avoided the storeroom sketches (a reveal) and the closing phone call.",
+      "usage": {
+        "in": 44,
+        "out": 1341,
+        "cache_read": 10049,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "The After Hours",
+      "candidates": [
+        {
+          "text": "Milchick marks the end of the child deputy manager's stint on the severed floor and sends her away.",
+          "specificity": 4,
+          "characters_named": [
+            "Milchick"
+          ],
+          "grounded_in": "MissHuang completes her stint as deputy manager, and Milchick sends her away.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mark phones in sick, telling Milchick he will definitely be in at work the following day.",
+          "specificity": 4,
+          "characters_named": [
+            "Mark",
+            "Milchick"
+          ],
+          "grounded_in": "Mark calls in sick, promising Milchick he will come to work the next day.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats (the Gretchen confession, the resignation form, Burt at the train station, the cabin at the birthing lodge) are turning points or reveals, so only two safe moments remained.",
+      "usage": {
+        "in": 40,
+        "out": 1266,
+        "cache_read": 10049,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Cold Harbor",
+      "candidates": [
+        {
+          "text": "Milchick leads a marching band through the corridors of the severed floor, staging an elaborate celebration for the department.",
+          "specificity": 4,
+          "characters_named": [
+            "Milchick"
+          ],
+          "grounded_in": "receives a celebration from Milchick and a marching band",
+          "grounded_ok": true
+        },
+        {
+          "text": "Drummond summons Lorne up from the Mammalians department, and she arrives carrying a goat for a ceremony.",
+          "specificity": 5,
+          "characters_named": [
+            "Drummond",
+            "Lorne"
+          ],
+          "grounded_in": "Drummond summons Lorne to sacrifice a goat",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a cabin far from the office, Mark's innie sits watching video recordings his outie made for him.",
+          "specificity": 4,
+          "characters_named": [
+            "Mark"
+          ],
+          "grounded_in": "Through video recordings, Mark's outie asks his innie",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1532,
+        "cache_read": 10049,
+        "cache_write": 0
+      }
+    }
+  }
+}

@@ -27,7 +27,8 @@
           "specificity": 3,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "Half Loop",
@@ -47,7 +48,8 @@
           "specificity": 4,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "3": {
       "title": "In Perpetuity",
@@ -67,7 +69,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "4": {
       "title": "The You You Are",
@@ -82,7 +85,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "5": {
       "title": "The Grim Barbarity of Optics and Design",
@@ -97,7 +101,8 @@
           "specificity": 3,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "6": {
       "title": "Hide and Seek",
@@ -117,7 +122,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "7": {
       "title": "Defiant Jazz",
@@ -132,7 +138,35 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "What's for Dinner?",
+      "probes": [
+        {
+          "text": "Dylan wears a Kier Eagan mask, seated in a replica of Kier's bedroom while ritualistic dancers perform before him.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Outside work, Mark turns up at Ricken's book-reading party and ends up chatting with his neighbor Mrs. Selvig.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "The We We Are",
+      "probes": [
+        {
+          "text": "Cobel drives fast while phoning Milchick, no longer bothering with her friendly neighbour voice.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
     }
   }
 }
