@@ -70,6 +70,487 @@
         "cache_read": 0,
         "cache_write": 10985
       }
+    },
+    "2": {
+      "title": "Home",
+      "candidates": [
+        {
+          "text": "Tyrion, carrying a torch, edges into the dark catacombs beneath Meereen to speak with the two chained dragons.",
+          "specificity": 5,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "In the catacombs, Tyrion unchains Rhaegal and Viserion.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tommen comes to his mother and admits he needs her help to be strong.",
+          "specificity": 4,
+          "characters_named": [
+            "Tommen"
+          ],
+          "grounded_in": "Tommen asks Cersei to help him be strong",
+          "grounded_ok": true
+        },
+        {
+          "text": "Word reaches Meereen that Astapor and Yunkai have slipped back into slavery since Daenerys left them.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Astapor and Yunkai have reverted to slavery.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Theon takes his leave of Sansa on the road, saying he intends to head home to the Iron Islands.",
+          "specificity": 4,
+          "characters_named": [
+            "Theon",
+            "Sansa"
+          ],
+          "grounded_in": "Theon leaves to head home to the Iron Islands.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Travelling north with Sansa, Brienne describes the day she came across her younger sister.",
+          "specificity": 3,
+          "characters_named": [
+            "Sansa",
+            "Brienne"
+          ],
+          "grounded_in": "En route to Castle Black, Brienne tells Sansa that she had encountered Arya.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Bran's Winterfell vision is the most distinctive image, but every figure in it is unnamed in prior summaries, and the wildlings' arrival at Castle Black resolves the previous episode's cliffhanger.",
+      "usage": {
+        "in": 37,
+        "out": 1954,
+        "cache_read": 10985,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Oathbreaker",
+      "candidates": [
+        {
+          "text": "Aboard a ship heading south, Sam tells Gilly he means to leave her and the baby with his family.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam",
+            "Gilly"
+          ],
+          "grounded_in": "En route to Oldtown to train as a Maester, Samwell first visits Horn Hill, his family home, intending to leave Gilly and Little Sam with his family",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cersei and Jaime walk uninvited into a small council meeting, her towering silent bodyguard standing behind them.",
+          "specificity": 4,
+          "characters_named": [
+            "Cersei",
+            "Jaime"
+          ],
+          "grounded_in": "Jaime, Cersei and her bodyguard, Ser Gregor Clegane, interrupt a small council meeting",
+          "grounded_ok": true
+        },
+        {
+          "text": "In King's Landing, the High Sparrow takes the young king aside and preaches to him at length.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "the High Sparrow preaches to Tommen",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a vision, Bran watches his young father and Meera's father ride up to a tower in Dorne.",
+          "specificity": 4,
+          "characters_named": [
+            "Bran",
+            "Meera"
+          ],
+          "grounded_in": "In a vision, Brandon sees young Ned and Howland Reed, Meera's father, ... at the Tower of Joy in Dorne",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Braavos, the Waif drills Arya relentlessly with fighting staffs, questioning her again and again as she strikes.",
+          "specificity": 2,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "The Waif rigorously trains Arya",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 2119,
+        "cache_read": 10985,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Book of the Stranger",
+      "candidates": [
+        {
+          "text": "Margaery is escorted down to Loras's cell and allowed a brief visit with her brother.",
+          "specificity": 4,
+          "characters_named": [
+            "Margaery",
+            "Loras"
+          ],
+          "grounded_in": "Margaery is allowed to visit Loras in his cell",
+          "grounded_ok": true
+        },
+        {
+          "text": "Sansa, Brienne and Podrick ride in through the gates of Castle Black.",
+          "specificity": 4,
+          "characters_named": [
+            "Sansa",
+            "Brienne",
+            "Podrick"
+          ],
+          "grounded_in": "Sansa, Brienne and Podrick arrive at Castle Black.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion sits across from the masters of Slaver's Bay, proposing a seven-year timetable for ending slavery.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "Tyrion offers the masters of Slaver's Bay peace in exchange for slavery being abolished within seven years",
+          "grounded_ok": true
+        },
+        {
+          "text": "Theon steps ashore at Pyke, back among the ironborn, and stands with his sister's claim.",
+          "specificity": 4,
+          "characters_named": [
+            "Theon"
+          ],
+          "grounded_in": "Theon arrives at Pyke Island and supports Yara's claim to the Iron Islands throne.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1608,
+        "cache_read": 10985,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "The Door",
+      "candidates": [
+        {
+          "text": "In Meereen, Tyrion and Varys receive a red priestess who has travelled to preach on Daenerys's behalf.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Varys",
+            "Daenerys"
+          ],
+          "grounded_in": "In Meereen, Kinvara, a red priestess, meets Tyrion and Varys and promises to support Daenerys.",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Braavos, Arya is given a new target: an actress with a travelling theatre company.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "In Braavos, Arya is tasked to assassinate Lady Crane, an actress.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Sansa slips away for a secret meeting with Littlefinger before she and Jon leave Castle Black.",
+          "specificity": 4,
+          "characters_named": [
+            "Sansa",
+            "Littlefinger",
+            "Jon"
+          ],
+          "grounded_in": "Sansa secretly meets with Littlefinger",
+          "grounded_ok": true
+        },
+        {
+          "text": "On the shore of the Iron Islands, the ironborn assemble for a kingsmoot to choose Balon's successor.",
+          "specificity": 4,
+          "characters_named": [
+            "Balon"
+          ],
+          "grounded_in": "In the Iron Islands, Euron wins the Kingsmoot",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys orders Jorah to go and find a cure for his greyscale, then return to her.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys",
+            "Jorah"
+          ],
+          "grounded_in": "In Essos, Daenerys orders Jorah to find a cure for his greyscale, then return.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1632,
+        "cache_read": 10985,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Blood of My Blood",
+      "candidates": [
+        {
+          "text": "At Horn Hill, Sam's father demeans him at the table as a soft bookworm and insults Gilly for being a Wildling.",
+          "specificity": 5,
+          "characters_named": [
+            "Sam",
+            "Gilly"
+          ],
+          "grounded_in": "At Horn Hill, Sam's father, Randyll, demeans him as a soft bookworm and insults Gilly for being a Wildling.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meera hauls Bran through the snow on a sled while he lies lost in a flood of visions.",
+          "specificity": 5,
+          "characters_named": [
+            "Meera",
+            "Bran"
+          ],
+          "grounded_in": "Meera escapes the cave with Bran, who is immersed in the Three-Eyed Raven's transferred visions.",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Braavos, Arya digs Needle out from the pile of rocks where she once hid it.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "then retrieves Needle",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gilly and Little Sam slip away from the Tarly house with Sam in the middle of the night.",
+          "specificity": 4,
+          "characters_named": [
+            "Gilly",
+            "Little Sam",
+            "Sam"
+          ],
+          "grounded_in": "That night, Sam takes House Tarly's ancestral Valyrian steel sword, Heartsbane, and leaves with Gilly and Little Sam.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1611,
+        "cache_read": 10985,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "The Broken Man",
+      "candidates": [
+        {
+          "text": "Jaime and Bronn ride into the muddy siege camp outside Riverrun, where Jaime takes charge of the besieging forces.",
+          "specificity": 4,
+          "characters_named": [
+            "Jaime",
+            "Bronn"
+          ],
+          "grounded_in": "Jaime arrives in Riverrun with Bronn and assumes command of the siege.20250101T000000Z",
+          "grounded_ok": true
+        },
+        {
+          "text": "Theon and Yara spend a last night ashore in Volantis with their crew before their ships sail on.",
+          "specificity": 5,
+          "characters_named": [
+            "Theon",
+            "Yara"
+          ],
+          "grounded_in": "Theon and Yara spend their last night in Volantis before sailing to Meereen",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon, Sansa and Davos travel from hall to hall in the North, asking house after house for fighting men.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Sansa",
+            "Davos"
+          ],
+          "grounded_in": "Jon, Sansa, and Davos recruit the wildlings, House Mormont, and others",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Braavos, Arya arranges passage on a ship home to Westeros, paying with a purse of coin.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "Arya prepares to return to Westeros",
+          "grounded_ok": true
+        },
+        {
+          "text": "Olenna prepares to leave King's Landing for Highgarden after Margaery urges her to go home.",
+          "specificity": 3,
+          "characters_named": [
+            "Olenna",
+            "Margaery"
+          ],
+          "grounded_in": "Margaery convinces her grandmother to return to Highgarden",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1471,
+        "cache_read": 10985,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "No One",
+      "candidates": [
+        {
+          "text": "Slaver ships bombard Meereen from the bay; Tyrion, Grey Worm and Missandei take cover as the pyramid shakes.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Grey Worm",
+            "Missandei"
+          ],
+          "grounded_in": "Meereen comes under naval assault by the slaving cities",
+          "grounded_ok": true
+        },
+        {
+          "text": "Two men of the Brotherhood, met on the road, invite the Hound to ride and fight alongside them.",
+          "specificity": 4,
+          "characters_named": [
+            "the Hound"
+          ],
+          "grounded_in": "ask Clegane to join the Brotherhood",
+          "grounded_ok": true
+        },
+        {
+          "text": "Varys says his farewells in Meereen and takes ship, staying vague with Tyrion about his errand.",
+          "specificity": 3,
+          "characters_named": [
+            "Varys",
+            "Tyrion"
+          ],
+          "grounded_in": "Varys departs for Westeros on a secret mission",
+          "grounded_ok": true
+        },
+        {
+          "text": "Brienne is admitted into Riverrun to sit down with Sansa's grizzled great-uncle and argue for the castle.",
+          "specificity": 3,
+          "characters_named": [
+            "Brienne",
+            "Sansa"
+          ],
+          "grounded_in": "In Riverrun, Brienne fails to persuade Brynden Tully to surrender the castle",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's texture (Arya's wounds, Lady Crane, the Waif chase, trial-by-combat ruling) is tied directly to deaths, survivals, or turning points, so those were excluded.",
+      "usage": {
+        "in": 37,
+        "out": 2398,
+        "cache_read": 10985,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Battle of the Bastards",
+      "candidates": [
+        {
+          "text": "In Meereen, Daenerys and Tyrion sit across from three masters of the slaving cities, trying to talk terms.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys",
+            "Tyrion"
+          ],
+          "grounded_in": "Daenerys meets with three slave masters to negotiate a surrender",
+          "grounded_ok": true
+        },
+        {
+          "text": "Outside Winterfell, the Stark and Bolton armies form up facing each other across a wide open field.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Near Winterfell, the Stark and Bolton armies meet on the battlefield.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Theon and Yara stand before Daenerys and Tyrion in Meereen, asking that the Iron Islands be left independent.",
+          "specificity": 4,
+          "characters_named": [
+            "Theon",
+            "Yara",
+            "Daenerys",
+            "Tyrion"
+          ],
+          "grounded_in": "Theon and Yara meet with Daenerys and Tyrion to offer an alliance in exchange for the Iron Islands being independent",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly everything in this episode is a turning point (Rickon, the battle's outcome, Ramsay's fate), so the safe options are limited to pre-battle and negotiation imagery.",
+      "usage": {
+        "in": 44,
+        "out": 1763,
+        "cache_read": 10985,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "The Winds of Winter",
+      "candidates": [
+        {
+          "text": "Samwell and Gilly, with Little Sam, finally reach the Citadel in Oldtown after their long journey south.",
+          "specificity": 4,
+          "characters_named": [
+            "Samwell",
+            "Gilly",
+            "Little Sam"
+          ],
+          "grounded_in": "Sam and Gilly reach the Citadel in Oldtown",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bran and Meera travel with Benjen as far as the Wall, where he stops and goes no further.",
+          "specificity": 4,
+          "characters_named": [
+            "Bran",
+            "Meera",
+            "Benjen"
+          ],
+          "grounded_in": "Benjen accompanies Brandon and Meera to the Wall but is unable to go further",
+          "grounded_ok": true
+        },
+        {
+          "text": "Littlefinger, alone with Sansa in the snow-covered north, makes a romantic overture to her.",
+          "specificity": 3,
+          "characters_named": [
+            "Littlefinger",
+            "Sansa"
+          ],
+          "grounded_in": "Sansa rebuffs Littlefinger's romantic overtures",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this finale is a death, reveal, or alliance, so the pool of inconsequential moments is very small.",
+      "usage": {
+        "in": 43,
+        "out": 1260,
+        "cache_read": 10985,
+        "cache_write": 0
+      }
     }
   }
 }

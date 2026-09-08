@@ -1,0 +1,393 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 7,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Game of Thrones season 7",
+    "revid": 1371612229,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_7&oldid=1371612229",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Dragonstone",
+      "candidates": [
+        {
+          "text": "Arya shares a fireside meal and drink with a group of young Lannister soldiers in the Riverlands.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "In the Riverlands, Arya meets some friendly Lannister soldiers",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the Citadel, Sam quietly helps himself to books from the restricted section of the library.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam"
+          ],
+          "grounded_in": "At the Citadel, Samwell \"borrows\" restricted library books",
+          "grounded_ok": true
+        },
+        {
+          "text": "Edd opens the gate at Castle Black to receive Bran and Meera, arrived out of the snow.",
+          "specificity": 4,
+          "characters_named": [
+            "Edd",
+            "Bran",
+            "Meera"
+          ],
+          "grounded_in": "Edd receives Bran and Meera at Castle Black",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Winterfell's hall, Sansa contradicts Jon in front of everyone over the young Umber and Karstark heirs.",
+          "specificity": 4,
+          "characters_named": [
+            "Sansa",
+            "Jon"
+          ],
+          "grounded_in": "At Winterfell, Sansa objects when Jon accepts the loyalties of Houses Umber and Karstark",
+          "grounded_ok": true
+        },
+        {
+          "text": "Euron sails into King's Landing and offers Cersei his Iron Fleet along with a marriage proposal.",
+          "specificity": 3,
+          "characters_named": [
+            "Euron",
+            "Cersei"
+          ],
+          "grounded_in": "Euron arrives to propose marriage in exchange for his Iron Fleet",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 2128,
+        "cache_read": 0,
+        "cache_write": 10061
+      }
+    },
+    "2": {
+      "title": "Stormborn",
+      "candidates": [
+        {
+          "text": "At a roadside inn, Arya is served stew by an old friend from her travels who bakes bread.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "Arya is reunited with Hot Pie",
+          "grounded_ok": true
+        },
+        {
+          "text": "By candlelight in a quarantine cell, Sam peels and scrapes the greyscale crust from Jorah's chest and arm.",
+          "specificity": 5,
+          "characters_named": [
+            "Sam",
+            "Jorah"
+          ],
+          "grounded_in": "Sam performs a forbidden surgery on Jorah's greyscale infection",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys presses Varys about the many masters he has served, and he answers her before the whole room.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys",
+            "Varys"
+          ],
+          "grounded_in": "Daenerys challenges Varys' loyalty",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys and her assembled allies plan their campaign standing around the great carved map table at Dragonstone.",
+          "specificity": 3,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Daenerys heeds Tyrion's advice not to take King's Landing by force",
+          "grounded_ok": true
+        },
+        {
+          "text": "Before sailing south and leaving Winterfell in Sansa's charge, Jon warns Littlefinger never to touch her.",
+          "specificity": 4,
+          "characters_named": [
+            "Sansa",
+            "Jon",
+            "Littlefinger"
+          ],
+          "grounded_in": "He warns Littlefinger to never touch Sansa",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 2260,
+        "cache_read": 10061,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "The Queen's Justice",
+      "candidates": [
+        {
+          "text": "At the Citadel, Sam is set to copying out stacks of old texts as punishment for his disobedience.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam"
+          ],
+          "grounded_in": "makes him copy old texts for his disobedience",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melisandre keeps out of sight when Jon arrives, then tells Varys she is sailing for Volantis.",
+          "specificity": 5,
+          "characters_named": [
+            "Melisandre",
+            "Jon",
+            "Varys"
+          ],
+          "grounded_in": "Melisandre avoids Jon and departs for Volantis, telling Varys she will return to Westeros",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meera wheels Bran through the gates of Winterfell, where Sansa finds his manner strangely distant.",
+          "specificity": 5,
+          "characters_named": [
+            "Meera",
+            "Bran",
+            "Sansa"
+          ],
+          "grounded_in": "Bran, with Meera, arrives at Winterfell and reveals his new Three-Eyed Raven identity to Sansa",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon and Davos give up their weapons on the shore below Dragonstone before climbing to the castle.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Davos"
+          ],
+          "grounded_in": "Jon arrives at Dragonstone.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Euron delivers his promised gift to Cersei in the throne room and is made commander of her navy.",
+          "specificity": 4,
+          "characters_named": [
+            "Euron",
+            "Cersei"
+          ],
+          "grounded_in": "Euron presents Ellaria and Tyene as gifts to Cersei ... She makes him commander of her navy.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1974,
+        "cache_read": 10061,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "The Spoils of War",
+      "candidates": [
+        {
+          "text": "Deep in a dragonglass cave, Jon lifts a torch to show Daenerys ancient spiral carvings left by the Children of the Forest.",
+          "specificity": 5,
+          "characters_named": [
+            "Jon",
+            "Daenerys"
+          ],
+          "grounded_in": "In a cave filled with dragonglass, Jon reveals ancient wall paintings to Daenerys depicting the First Men and the Children of the Forest joining forces against the undead.",
+          "grounded_ok": true
+        },
+        {
+          "text": "In the Winterfell courtyard, Arya and Brienne spar with blunted weapons while Sansa watches, astonished, from the walkway above.",
+          "specificity": 5,
+          "characters_named": [
+            "Arya",
+            "Brienne",
+            "Sansa"
+          ],
+          "grounded_in": "Arya spars with Brienne, impressing her and amazing Sansa with her exceptional fighting skills",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cersei receives a banker from Braavos and assures him the crown's enormous debt will soon be repaid in full.",
+          "specificity": 4,
+          "characters_named": [
+            "Cersei"
+          ],
+          "grounded_in": "Cersei assures the Iron Bank full repayment of the Lannister's debt",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meera prepares for the journey home, and Bran's farewell to her is flat and strangely unfeeling.",
+          "specificity": 4,
+          "characters_named": [
+            "Meera",
+            "Bran"
+          ],
+          "grounded_in": "Bran bids a homeward-bound Meera an unemotional farewell, explaining he is no longer Bran",
+          "grounded_ok": true
+        },
+        {
+          "text": "Littlefinger presents Bran with a slim Valyrian steel dagger with a dragonbone hilt as a gift.",
+          "specificity": 4,
+          "characters_named": [
+            "Littlefinger",
+            "Bran"
+          ],
+          "grounded_in": "Littlefinger presents Bran with the Valyrian steel dagger his would-be assassin used",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 2401,
+        "cache_read": 10061,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Eastwatch",
+      "candidates": [
+        {
+          "text": "Davos smuggles Tyrion into King's Landing by boat at night, landing quietly beneath the city walls.",
+          "specificity": 4,
+          "characters_named": [
+            "Davos",
+            "Tyrion"
+          ],
+          "grounded_in": "Davos smuggles Tyrion inside King's Landing",
+          "grounded_ok": true
+        },
+        {
+          "text": "Fed up with the Citadel, Sam packs several restricted books and leaves Oldtown with Gilly and Little Sam.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam",
+            "Gilly",
+            "Little Sam"
+          ],
+          "grounded_in": "Sam, frustrated, leaves the Citadel with Gilly and Little Sam, taking several restricted books with him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jorah arrives at Dragonstone and presents himself once more before Daenerys, fully recovered.",
+          "specificity": 4,
+          "characters_named": [
+            "Jorah",
+            "Daenerys"
+          ],
+          "grounded_in": "Jorah is reunited with Daenerys at Dragonstone",
+          "grounded_ok": true
+        },
+        {
+          "text": "Still soaked and battered from the river, Jaime and Bronn make their way back to King's Landing.",
+          "specificity": 3,
+          "characters_named": [
+            "Jaime",
+            "Bronn"
+          ],
+          "grounded_in": "Jaime and Bronn return to King's Landing",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1454,
+        "cache_read": 10061,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Beyond the Wall",
+      "candidates": [
+        {
+          "text": "Jon's ragged band trudges through deep snow far beyond the Wall, hunting a single wight as proof.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon"
+          ],
+          "grounded_in": "Beyond the Wall, Jon and the men hunt for a wight to prove the White Walkers' existence",
+          "grounded_ok": true
+        },
+        {
+          "text": "At Dragonstone, Tyrion counsels Daenerys about how to handle the coming negotiations with Cersei.",
+          "specificity": 3,
+          "characters_named": [
+            "Tyrion",
+            "Daenerys",
+            "Cersei"
+          ],
+          "grounded_in": "Tyrion counsels Daenerys about the upcoming negotiations with Cersei",
+          "grounded_ok": true
+        },
+        {
+          "text": "Around Winterfell, Littlefinger quietly works to leave Sansa isolated, and the sisters circle each other coldly.",
+          "specificity": 3,
+          "characters_named": [
+            "Littlefinger",
+            "Sansa"
+          ],
+          "grounded_in": "At Winterfell, Littlefinger schemes to isolate Sansa.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1292,
+        "cache_read": 10061,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "The Dragon and the Wolf",
+      "candidates": [
+        {
+          "text": "The rival camps gather for a parley in a ruined pit on the edge of King's Landing.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "The wight is presented to the Lannister court.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion walks alone through the Red Keep to speak privately with his sister.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "Tyrion meets with Cersei",
+          "grounded_ok": true
+        },
+        {
+          "text": "On the shore at Dragonstone, Theon stands before the last of his ironborn men.",
+          "specificity": 4,
+          "characters_named": [
+            "Theon"
+          ],
+          "grounded_in": "At Dragonstone, Theon wins his men's respect",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats are turning points (the parley's outcome, the Winterfell trial, the Wall, the parentage reveal), so safe texture is limited.",
+      "usage": {
+        "in": 46,
+        "out": 1672,
+        "cache_read": 10061,
+        "cache_write": 0
+      }
+    }
+  }
+}

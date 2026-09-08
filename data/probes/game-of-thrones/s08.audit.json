@@ -1,0 +1,614 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 8,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Winterfell",
+      "candidates": [
+        {
+          "text": "Jon and Daenerys take the dragons up together, flying over the North and landing alone in the snow.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows a shared activity between two characters already established as lovers, without disclosing any outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A romantic flight scene is character texture; it discloses no death, reveal, or resolution of a pending conflict, and the viewer already knows Jon's Targaryen parentage and his relationship with Daenerys."
+                }
+              ],
+              "reason": "It shows a shared activity between two characters already established as lovers, without disclosing any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The combined armies march into Winterfell while wary Northerners line the road watching the Dothraki and Unsullied pass.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting/texture showing the expected arrival of the allied forces at Winterfell, revealing no outcome, death, or hidden information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting/texture — the expected arrival of Jon and Daenerys' forces at Winterfell, revealing no outcome, death, or answer to an open question."
+                }
+              ],
+              "reason": "This is ordinary setting/texture showing the expected arrival of the allied forces at Winterfell, revealing no outcome, death, or hidden information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tormund and Beric, searching an abandoned castle by torchlight, come across Edd and other Night's Watch men.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tormund and Beric survived the Night King's destruction of the Wall at Eastwatch, an outcome left in doubt by the finale."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Tormund and Beric survived the Night King's destruction of the Wall at Eastwatch, resolving the cliffhanger about their fate."
+                }
+              ],
+              "reason": "It reveals that Tormund and Beric survived the Night King's destruction of the Wall at Eastwatch, an outcome left in doubt by the finale."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tormund and Beric survived the Night King's destruction of the Wall at Eastwatch, an outcome left in doubt by the finale."
+        },
+        {
+          "text": "Jon and Arya see each other again for the first time in years, comparing their swords.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A long-anticipated but low-stakes family reunion; it reveals no outcome, death, or answer to an open question beyond the expected fact that Jon returns to Winterfell."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A warm sibling reunion at Winterfell is expected character texture, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A long-anticipated but low-stakes family reunion; it reveals no outcome, death, or answer to an open question beyond the expected fact that Jon returns to Winterfell."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Euron sails into King's Landing with the sellsword army he ferried over, and presses his suit with Cersei.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Euron's arrival with the Golden Company is the already-announced plan Cersei stated, and his courtship of her is established ongoing texture rather than a new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Cersei intends to hire the Golden Company and promised Euron marriage, so his arrival with sellswords and continued courtship is expected texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "Euron's arrival with the Golden Company is the already-announced plan Cersei stated, and his courtship of her is established ongoing texture rather than a new outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "A Knight of the Seven Kingdoms",
+      "candidates": [
+        {
+          "text": "Sam presents Jorah with House Tarly's ancestral Valyrian sword before the battle, insisting he take it.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A gift of a sword before an already-anticipated battle is character texture; it discloses no death, outcome, or hidden information the viewer doesn't already have."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Handing over a family sword before an already-anticipated battle is character texture; it discloses no death, betrayal, or outcome the viewer doesn't already expect."
+                }
+              ],
+              "reason": "A gift of a sword before an already-anticipated battle is character texture; it discloses no death, outcome, or hidden information the viewer doesn't already have."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Daenerys sits with Sansa and tries to win her trust by invoking their mutual love for Jon.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A private conversation between Daenerys and Sansa is character texture; it doesn't disclose an outcome, though it implies Daenerys has arrived at Winterfell, which is an expected continuation rather than a turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A private conversation between Daenerys and Sansa about trust and Jon is character texture, not an outcome or reveal, since the viewer already knows of Jon and Daenerys's relationship and the pending Winterfell alliance."
+                }
+              ],
+              "reason": "A private conversation between Daenerys and Sansa is character texture; it doesn't disclose an outcome, though it implies Daenerys has arrived at Winterfell, which is an expected continuation rather than a turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "By firelight, Jaime has Brienne kneel and formally anoints her a knight with his sword.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jaime arrives safely at Winterfell and is accepted enough to participate in a ceremonial knighting, and marks a significant turning point in his and Brienne's relationship."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jaime survives his arrival among the Starks and is accepted rather than punished, and shows the Jaime–Brienne bond culminating in her knighthood, an outcome the viewer's pending question about his reception answers."
+                }
+              ],
+              "reason": "It reveals that Jaime arrives safely at Winterfell and is accepted enough to participate in a ceremonial knighting, and marks a significant turning point in his and Brienne's relationship."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jaime arrives safely at Winterfell and is accepted enough to participate in a ceremonial knighting, and marks a significant turning point in his and Brienne's relationship."
+        },
+        {
+          "text": "Jorah tries to talk young Lyanna Mormont out of taking part in the fighting.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A minor character interaction during battle preparations; it reveals no outcome, death, or plot answer beyond the already-expected coming war."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A brief character interaction about battle preparations that reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A minor character interaction during battle preparations; it reveals no outcome, death, or plot answer beyond the already-expected coming war."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jaime apologizes to Bran for crippling him; Bran calmly answers that they are no longer the same people.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jaime reaches Winterfell and confronts Bran, resolving the pending question of whether Bran would expose or condemn him by showing Bran effectively absolving him."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jaime reaches Winterfell and confronts Bran, and resolves the pending question of how Bran responds to his crippler by having him forgive/absolve Jaime."
+                }
+              ],
+              "reason": "It reveals that Jaime reaches Winterfell and confronts Bran, resolving the pending question of whether Bran would expose or condemn him by showing Bran effectively absolving him."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jaime reaches Winterfell and confronts Bran, resolving the pending question of whether Bran would expose or condemn him by showing Bran effectively absolving him."
+        }
+      ]
+    },
+    "3": {
+      "title": "The Long Night",
+      "candidates": [
+        {
+          "text": "Those who cannot fight are sent down to shelter among the tombs in Winterfell's crypts.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 2
+            }
+          },
+          "rejected": "reverse: picked E2 (conf 2)"
+        },
+        {
+          "text": "Melisandre sets the long defensive trench outside Winterfell ablaze as the horde advances in darkness.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Melisandre returns to Westeros and joins the defenders at Winterfell, and that the Army of the Dead reaches Winterfell for the battle, developments the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals Melisandre's return to Winterfell and that the undead army reaches the castle for the battle, an outcome the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Melisandre returns to Westeros and joins the defenders at Winterfell, and that the Army of the Dead reaches Winterfell for the battle, developments the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Melisandre returns to Westeros and joins the defenders at Winterfell, and that the Army of the Dead reaches Winterfell for the battle, developments the viewer has not yet seen."
+        },
+        {
+          "text": "Jon and Daenerys fight from dragonback high above the snow, hunting a rider through the night sky.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows an expected dragon-to-dragon aerial pursuit already set up by the Night King's undead Viserion, without disclosing any outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows the already-anticipated aerial confrontation with the undead dragon rider in progress but discloses no outcome, casualty or new information."
+                }
+              ],
+              "reason": "It only shows an expected dragon-to-dragon aerial pursuit already set up by the Night King's undead Viserion, without disclosing any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "The Last of the Starks",
+      "candidates": [
+        {
+          "text": "Winterfell's dead are laid out on pyres and burned; afterwards the survivors crowd the great hall to feast and drink.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the impending battle with the Army of the Dead — that the living survive and celebrate victory, with casualties burned on pyres."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the pending battle against the Army of the Dead is fought and survived, with Winterfell's defenders victorious enough to hold a celebratory feast."
+                }
+              ],
+              "reason": "It reveals the outcome of the impending battle with the Army of the Dead — that the living survive and celebrate victory, with casualties burned on pyres."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of the impending battle with the Army of the Dead — that the living survive and celebrate victory, with casualties burned on pyres."
+        },
+        {
+          "text": "Tormund and the Wildlings set off north again, and at Jon's request they take Ghost with them.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Ghost"
+        },
+        {
+          "text": "During the feast Daenerys rises and grants Gendry a lordship and the seat of Storm's End.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Gendry (and Daenerys) survive the imminent battle with the Army of the Dead and that Gendry is legitimized as a Baratheon lord of Storm's End, resolving pending outcomes the viewer doesn't know."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Granting Gendry a lordship is a ceremonial character beat during a feast, not a death, betrayal, or resolution of any pending conflict the viewer is tracking."
+                }
+              ],
+              "reason": "It reveals that Gendry (and Daenerys) survive the imminent battle with the Army of the Dead and that Gendry is legitimized as a Baratheon lord of Storm's End, resolving pending outcomes the viewer doesn't know."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Gendry (and Daenerys) survive the imminent battle with the Army of the Dead and that Gendry is legitimized as a Baratheon lord of Storm's End, resolving pending outcomes the viewer doesn't know."
+        },
+        {
+          "text": "Arya and the Hound ride away from Winterfell together, both headed south toward King's Landing.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that both Arya and the Hound survive the imminent battle with the Army of the Dead and that the northern threat is resolved enough for them to turn south against Cersei."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Arya and the Hound survive the imminent battle with the Army of the Dead at Winterfell and that the fight resolves enough for them to depart south, spoiling the pending outcome."
+                }
+              ],
+              "reason": "It reveals that both Arya and the Hound survive the imminent battle with the Army of the Dead and that the northern threat is resolved enough for them to turn south against Cersei."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that both Arya and the Hound survive the imminent battle with the Army of the Dead and that the northern threat is resolved enough for them to turn south against Cersei."
+        },
+        {
+          "text": "Bronn turns up unannounced at Winterfell and interrupts Jaime and Tyrion to talk about what he is owed.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bronn acts on Cersei's assassination contract by confronting the brothers at Winterfell, and confirms Jaime and Tyrion survive to that point despite the impending battle."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending assassination plot\ni.e. Bronn confronts rather than kills them, and implies both Jaime and Tyrion survive to that point despite the imminent battle."
+                }
+              ],
+              "reason": "It reveals that Bronn acts on Cersei's assassination contract by confronting the brothers at Winterfell, and confirms Jaime and Tyrion survive to that point despite the impending battle."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Bronn acts on Cersei's assassination contract by confronting the brothers at Winterfell, and confirms Jaime and Tyrion survive to that point despite the impending battle."
+        }
+      ]
+    },
+    "5": {
+      "title": "The Bells",
+      "candidates": [
+        {
+          "text": "Arya and the Hound arrive at King's Landing and work their way inside the crowded city, hoods up.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a travel/setup beat consistent with Arya's known intent to kill Cersei, revealing no outcome or new information beyond their arrival."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes that Arya and the Hound travel to King's Landing, a setting/journey detail with no outcome, death, or reveal disclosed."
+                }
+              ],
+              "reason": "This is a travel/setup beat consistent with Arya's known intent to kill Cersei, revealing no outcome or new information beyond their arrival."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Three separate travellers slip into King's Landing unnoticed, each with private business in the capital.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Characters travelling to the capital is ordinary plot movement, revealing no death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes unnamed characters arriving in the capital with unspecified errands, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Characters travelling to the capital is ordinary plot movement, revealing no death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "The Iron Throne",
+      "candidates": [
+        {
+          "text": "Daenerys stands before her massed Unsullied and Dothraki in the ruined city, promising to liberate the entire world.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending assault on King's Landing \\u2014 Daenerys wins and the city lies in ruins \\u2014 and hints at her turn toward conquering the world."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending assault on King's Landing \ttrue Daenerys wins and the city lies in ruins, with her armies triumphant and her turn toward endless conquest."
+                }
+              ],
+              "reason": "It reveals the outcome of the pending assault on King's Landing \\u2014 Daenerys wins and the city lies in ruins \\u2014 and hints at her turn toward conquering the world."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of the pending assault on King's Landing \\u2014 Daenerys wins and the city lies in ruins \\u2014 and hints at her turn toward conquering the world."
+        },
+        {
+          "text": "Tyrion picks his way alone through ash and smoking rubble in the cellars beneath the shattered Red Keep.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending assault on King's Landing \\u2014 that the city and Red Keep are destroyed and burned \\u2014 and hints at Tyrion searching the cellars for Jaime and Cersei."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending assault on King's Landing \ntheir sack of the city and the destruction of the Red Keep \nrather than a negotiated surrender, and hints at the aftermath search that follows."
+                }
+              ],
+              "reason": "It reveals the outcome of the pending assault on King's Landing \\u2014 that the city and Red Keep are destroyed and burned \\u2014 and hints at Tyrion searching the cellars for Jaime and Cersei."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of the pending assault on King's Landing \\u2014 that the city and Red Keep are destroyed and burned \\u2014 and hints at Tyrion searching the cellars for Jaime and Cersei."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 23179,
+    "out": 10465,
+    "cache_read": 229568,
+    "cache_write": 8741,
+    "calls": 81
+  },
+  "recheck": [
+    {
+      "episode": 3,
+      "text": "Jon and Daenerys fight from dragonback high above the snow, hunting a rider through the night sky.",
+      "reason": "It reveals that the pending confrontation with the Night King's undead army arrives as an aerial dragon battle, with Jon and Daenerys pursuing the rider (Viserion/Night King) — a major turning point in the conflict the viewer knows is looming."
+    }
+  ],
+  "recheck_spend": {
+    "in": 738,
+    "out": 3578,
+    "cache_read": 74296,
+    "cache_write": 0,
+    "calls": 18
+  }
+}

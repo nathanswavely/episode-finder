@@ -1,0 +1,1173 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 6,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "The Red Woman",
+      "candidates": [
+        {
+          "text": "In Braavos, blinded Arya begs on the street; each day a young woman beats her with a staff.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is texture consistent with the known outcome of Arya's blinding punishment, revealing no new development or answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is texture consistent with what the viewer already knows — Arya was blinded as punishment at the season's end — and reveals no new outcome or answer."
+                }
+              ],
+              "reason": "This is texture consistent with the known outcome of Arya's blinding punishment, revealing no new development or answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Davos and a handful of loyalists bolt themselves inside a room at Castle Black with Jon's body.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jon's body is recovered by Davos and loyalists who barricade themselves, indicating the immediate aftermath and standoff following the mutiny — an outcome the viewer hasn't seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary situational setup — loyalists barricading with Jon's body — without revealing the outcome of the standoff, the mutineers' fate, or whether Jon returns."
+                }
+              ],
+              "reason": "It reveals that Jon's body is recovered by Davos and loyalists who barricade themselves, indicating the immediate aftermath and standoff following the mutiny — an outcome the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Jon's body is recovered by Davos and loyalists who barricade themselves, indicating the immediate aftermath and standoff following the mutiny — an outcome the viewer hasn't seen."
+        },
+        {
+          "text": "Edd slips away from Castle Black alone to look for help.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Edd"
+        },
+        {
+          "text": "Jorah and Daario are still out in the grasslands, following the trail left behind by Daenerys.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely continues the established search for Daenerys without revealing whether they find her or any new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It merely continues the already-established search for Daenerys without revealing any outcome or discovery."
+                }
+              ],
+              "reason": "It merely continues the established search for Daenerys without revealing whether they find her or any new outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tyrion and Varys walk together through Meereen and look out over the harbour, where ships are burning.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a new setback in Meereen \"— the fleet in the harbour set ablaze \"— an attack on Tyrion and Varys's rule that the viewer has not yet seen unfold."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Meereen comes under attack in the pending conflict with the Sons of the Harpy/slaver forces, with the city's fleet destroyed."
+                }
+              ],
+              "reason": "It reveals a new setback in Meereen \"— the fleet in the harbour set ablaze \"— an attack on Tyrion and Varys's rule that the viewer has not yet seen unfold."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a new setback in Meereen \"— the fleet in the harbour set ablaze \"— an attack on Tyrion and Varys's rule that the viewer has not yet seen unfold."
+        }
+      ]
+    },
+    "2": {
+      "title": "Home",
+      "candidates": [
+        {
+          "text": "Tyrion, carrying a torch, edges into the dark catacombs beneath Meereen to speak with the two chained dragons.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Tyrion venturing into the catacombs to speak with the already-known chained dragons, an activity whose outcome is not disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Tyrion venturing into the catacombs toward the already-known chained dragons, an activity/setting beat that doesn't disclose any outcome of the encounter."
+                }
+              ],
+              "reason": "It only shows Tyrion venturing into the catacombs to speak with the already-known chained dragons, an activity whose outcome is not disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tommen comes to his mother and admits he needs her help to be strong.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Tommen turning to his mother for support is consistent with his already-established weakness and reveals no death, outcome, or answer to a pending question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a reconciliation between Tommen and Cersei after her walk of atonement, resolving the pending question of whether Tommen would remain estranged/ineffective and signaling a new alliance."
+                }
+              ],
+              "reason": "It reveals a reconciliation between Tommen and Cersei after her walk of atonement, resolving the pending question of whether Tommen would remain estranged/ineffective and signaling a new alliance."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a reconciliation between Tommen and Cersei after her walk of atonement, resolving the pending question of whether Tommen would remain estranged/ineffective and signaling a new alliance."
+        },
+        {
+          "text": "Word reaches Meereen that Astapor and Yunkai have slipped back into slavery since Daenerys left them.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a significant political outcome — the collapse of Daenerys's anti-slavery settlements in Astapor and Yunkai — which is a plot development the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses a significant off-screen development \"\" the collapse of Daenerys's anti-slavery conquests in Astapor and Yunkai \"\" which is a new plot reveal the viewer has not yet learned."
+                }
+              ],
+              "reason": "It reveals a significant political outcome — the collapse of Daenerys's anti-slavery settlements in Astapor and Yunkai — which is a plot development the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a significant political outcome — the collapse of Daenerys's anti-slavery settlements in Astapor and Yunkai — which is a plot development the viewer has not yet seen."
+        },
+        {
+          "text": "Theon takes his leave of Sansa on the road, saying he intends to head home to the Iron Islands.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Theon and Sansa survived their escape from Winterfell and then part ways, with Theon heading to the Iron Islands — outcomes of the cliffhanger the viewer was left on."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Sansa and Theon survive their leap from Winterfell's wall and escape their pursuers, and reveals their parting as Theon leaves for the Iron Islands."
+                }
+              ],
+              "reason": "It reveals that Theon and Sansa survived their escape from Winterfell and then part ways, with Theon heading to the Iron Islands — outcomes of the cliffhanger the viewer was left on."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Theon and Sansa survived their escape from Winterfell and then part ways, with Theon heading to the Iron Islands — outcomes of the cliffhanger the viewer was left on."
+        },
+        {
+          "text": "Travelling north with Sansa, Brienne describes the day she came across her younger sister.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Sansa survives her leap from Winterfell and is reunited with Brienne, who is now escorting her north — resolving the cliffhanger of her escape."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Sansa survives her escape from Winterfell and is now allied with and travelling alongside Brienne, resolving the pending cliffhanger of her leap from the wall."
+                }
+              ],
+              "reason": "It confirms that Sansa survives her leap from Winterfell and is reunited with Brienne, who is now escorting her north — resolving the cliffhanger of her escape."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms that Sansa survives her leap from Winterfell and is reunited with Brienne, who is now escorting her north — resolving the cliffhanger of her escape."
+        }
+      ]
+    },
+    "3": {
+      "title": "Oathbreaker",
+      "candidates": [
+        {
+          "text": "Aboard a ship heading south, Sam tells Gilly he means to leave her and the baby with his family.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary travel texture consistent with their known journey to Oldtown, revealing no pending outcome, death, or major turn."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Sam and Gilly traveling to Oldtown was already established, and his intention to stop at Horn Hill is a plan rather than an outcome, reveal or turning point."
+                }
+              ],
+              "reason": "This is ordinary travel texture consistent with their known journey to Oldtown, revealing no pending outcome, death, or major turn."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Cersei and Jaime walk uninvited into a small council meeting, her towering silent bodyguard standing behind them.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture—Cersei and Jaime asserting themselves at court with the already-revealed reanimated Mountain as bodyguard—and discloses no new outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Cersei asserting herself with her known bodyguard — and reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture—Cersei and Jaime asserting themselves at court with the already-revealed reanimated Mountain as bodyguard—and discloses no new outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In King's Landing, the High Sparrow takes the young king aside and preaches to him at length.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A conversation/preaching scene between established characters is ordinary texture and reveals no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A conversation/sermon between the High Sparrow and Tommen is ordinary character texture and discloses no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A conversation/preaching scene between established characters is ordinary texture and reveals no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a vision, Bran watches his young father and Meera's father ride up to a tower in Dorne.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Bran, Meera"
+        },
+        {
+          "text": "In Braavos, the Waif drills Arya relentlessly with fighting staffs, questioning her again and again as she strikes.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 2
+            }
+          },
+          "rejected": "reverse: picked E1 (conf 2)"
+        }
+      ]
+    },
+    "4": {
+      "title": "Book of the Stranger",
+      "candidates": [
+        {
+          "text": "Margaery is escorted down to Loras's cell and allowed a brief visit with her brother.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A visit between imprisoned siblings is ordinary texture that doesn't disclose any outcome, reveal, or resolution of pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A prison visit between two already-imprisoned siblings is ordinary texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A visit between imprisoned siblings is ordinary texture that doesn't disclose any outcome, reveal, or resolution of pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Sansa, Brienne and Podrick ride in through the gates of Castle Black.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Sansa's journey succeeds and she reaches Castle Black, setting up the pending Stark reunion with the just-resurrected Jon."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Sansa's journey — that she successfully reaches Castle Black, setting up her reunion with Jon, which the viewer does not yet know occurs."
+                }
+              ],
+              "reason": "It reveals that Sansa's journey succeeds and she reaches Castle Black, setting up the pending Stark reunion with the just-resurrected Jon."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Sansa's journey succeeds and she reaches Castle Black, setting up the pending Stark reunion with the just-resurrected Jon."
+        },
+        {
+          "text": "Tyrion sits across from the masters of Slaver's Bay, proposing a seven-year timetable for ending slavery.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals how the pending Meereen slaver crisis develops \ba Tyrion striking a negotiated deal/truce with the masters over slavery rather than fighting them."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point in the pending Meereen/slaver conflict \ba negotiated truce with the masters over a phased end to slavery \bwhich the viewer only knows as an escalating armed threat."
+                }
+              ],
+              "reason": "It reveals how the pending Meereen slaver crisis develops \ba Tyrion striking a negotiated deal/truce with the masters over slavery rather than fighting them."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals how the pending Meereen slaver crisis develops \ba Tyrion striking a negotiated deal/truce with the masters over slavery rather than fighting them."
+        },
+        {
+          "text": "Theon steps ashore at Pyke, back among the ironborn, and stands with his sister's claim.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Theon's arrival at Pyke and that he backs Yara's claim rather than contesting it himself, answering the open question of his intentions and forming a new alliance ahead of the succession conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Theon's journey home — that he arrives safely and allies with Yara in support of her claim to the Salt Throne, resolving the pending succession conflict after Balon's murder."
+                }
+              ],
+              "reason": "It reveals Theon's arrival at Pyke and that he backs Yara's claim rather than contesting it himself, answering the open question of his intentions and forming a new alliance ahead of the succession conflict."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Theon's arrival at Pyke and that he backs Yara's claim rather than contesting it himself, answering the open question of his intentions and forming a new alliance ahead of the succession conflict."
+        }
+      ]
+    },
+    "5": {
+      "title": "The Door",
+      "candidates": [
+        {
+          "text": "In Meereen, Tyrion and Varys receive a red priestess who has travelled to preach on Daenerys's behalf.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Introducing a red priestess arriving to preach for Daenerys is ordinary scene texture that doesn't resolve any pending conflict or answer an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Introducing a red priestess arriving in Meereen is new-character texture and doesn't resolve any pending conflict or open question the viewer is tracking."
+                }
+              ],
+              "reason": "Introducing a red priestess arriving to preach for Daenerys is ordinary scene texture that doesn't resolve any pending conflict or answer an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In Braavos, Arya is given a new target: an actress with a travelling theatre company.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely sets up Arya's next assignment—a new task and setting—without disclosing any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes a new assignment/setup for Arya's storyline rather than the outcome of any pending conflict or open question."
+                }
+              ],
+              "reason": "It merely sets up Arya's next assignment—a new task and setting—without disclosing any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Sansa slips away for a secret meeting with Littlefinger before she and Jon leave Castle Black.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Littlefinger resurfaces and makes contact with Sansa, and that she and Jon have reunited and are departing Castle Black together \ban unseen turning point in her plotline."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Sansa reaches Castle Black and reunites with Jon, that he agrees to leave with her (resolving the pending question of his next move after quitting the Watch), and that Littlefinger re-enters her story via a covert meeting."
+                }
+              ],
+              "reason": "It reveals that Littlefinger resurfaces and makes contact with Sansa, and that she and Jon have reunited and are departing Castle Black together \ban unseen turning point in her plotline."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Littlefinger resurfaces and makes contact with Sansa, and that she and Jon have reunited and are departing Castle Black together \ban unseen turning point in her plotline."
+        },
+        {
+          "text": "On the shore of the Iron Islands, the ironborn assemble for a kingsmoot to choose Balon's successor.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The kingsmoot convening is an expected procedural consequence of Balon's already-known death and discloses no outcome, winner, or new revelation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The kingsmoot is an expected procedural setup following Balon's already-known death, and the sentence gives no outcome or successor."
+                }
+              ],
+              "reason": "The kingsmoot convening is an expected procedural consequence of Balon's already-known death and discloses no outcome, winner, or new revelation."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Daenerys orders Jorah to go and find a cure for his greyscale, then return to her.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jorah and Daario successfully find/rescue Daenerys and that Jorah's greyscale is exposed to her, resolving the pending rescue storyline and setting up his cure quest."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jorah reunites with Daenerys and that his greyscale infection is exposed to her, resolving the pending question of his fate after being sent to find her."
+                }
+              ],
+              "reason": "It reveals that Jorah and Daario successfully find/rescue Daenerys and that Jorah's greyscale is exposed to her, resolving the pending rescue storyline and setting up his cure quest."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jorah and Daario successfully find/rescue Daenerys and that Jorah's greyscale is exposed to her, resolving the pending rescue storyline and setting up his cure quest."
+        }
+      ]
+    },
+    "6": {
+      "title": "Blood of My Blood",
+      "candidates": [
+        {
+          "text": "At Horn Hill, Sam's father demeans him at the table as a soft bookworm and insults Gilly for being a Wildling.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Randyll Tarly's contempt for Sam and hostility toward Gilly is character texture consistent with what the viewer already knows of Sam's home visit, and it does not disclose any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is character texture consistent with the already-established Horn Hill visit, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Randyll Tarly's contempt for Sam and hostility toward Gilly is character texture consistent with what the viewer already knows of Sam's home visit, and it does not disclose any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Meera hauls Bran through the snow on a sled while he lies lost in a flood of visions.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows travel and Bran's ongoing visions without disclosing any death, discovery or resolution of a pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "Showing Meera dragging Bran across open snow reveals that the safety of the Three-Eyed Raven's cave has been lost and the group forced to flee, giving away a major turning point the viewer hasn't reached."
+                }
+              ],
+              "reason": "Showing Meera dragging Bran across open snow reveals that the safety of the Three-Eyed Raven's cave has been lost and the group forced to flee, giving away a major turning point the viewer hasn't reached."
+            }
+          },
+          "rejected": "consequence (1/2): Showing Meera dragging Bran across open snow reveals that the safety of the Three-Eyed Raven's cave has been lost and the group forced to flee, giving away a major turning point the viewer hasn't reached."
+        },
+        {
+          "text": "In Braavos, Arya digs Needle out from the pile of rocks where she once hid it.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Arya's turning point of reclaiming her Stark identity and breaking with the Faceless Men, answering the open question of whether she truly becomes \"no one.\""
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals Arya reclaiming Needle, signalling her turning point in rejecting her \"no one\" training with the Faceless Men, an open question after her sight was restored."
+                }
+              ],
+              "reason": "It reveals Arya's turning point of reclaiming her Stark identity and breaking with the Faceless Men, answering the open question of whether she truly becomes \"no one.\""
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Arya's turning point of reclaiming her Stark identity and breaking with the Faceless Men, answering the open question of whether she truly becomes \"no one.\""
+        },
+        {
+          "text": "Gilly and Little Sam slip away from the Tarly house with Sam in the middle of the night.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It resolves the open thread of whether Sam would leave Gilly and Little Sam at Horn Hill, revealing that the arrangement fails and he departs with them instead."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Sam's plan to leave Gilly at Horn Hill \ncand his family's rejection, showing he instead takes them away with him."
+                }
+              ],
+              "reason": "It resolves the open thread of whether Sam would leave Gilly and Little Sam at Horn Hill, revealing that the arrangement fails and he departs with them instead."
+            }
+          },
+          "rejected": "consequence (2/2): It resolves the open thread of whether Sam would leave Gilly and Little Sam at Horn Hill, revealing that the arrangement fails and he departs with them instead."
+        }
+      ]
+    },
+    "7": {
+      "title": "The Broken Man",
+      "candidates": [
+        {
+          "text": "Jaime and Bronn ride into the muddy siege camp outside Riverrun, where Jaime takes charge of the besieging forces.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jaime arriving at a siege camp and commanding troops is setting and character texture; it doesn't disclose the outcome of the Riverrun siege, his trial-related conflict, or his pending encounter with Brienne."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jaime arriving at the Riverrun siege is a change of setting and ordinary military activity, not an outcome of any pending conflict the viewer knows about."
+                }
+              ],
+              "reason": "Jaime arriving at a siege camp and commanding troops is setting and character texture; it doesn't disclose the outcome of the Riverrun siege, his trial-related conflict, or his pending encounter with Brienne."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Theon and Yara spend a last night ashore in Volantis with their crew before their ships sail on.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Theon and Yara's crew resting ashore during their already-established flight by ship, which is setting and character texture rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows only an ordinary shore-leave stop during their known flight by ship, without confirming any outcome, alliance, or unresolved question."
+                }
+              ],
+              "reason": "It only shows Theon and Yara's crew resting ashore during their already-established flight by ship, which is setting and character texture rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jon, Sansa and Davos travel from hall to hall in the North, asking house after house for fighting men.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is expected texture consistent with their already-stated plan to gather Northern support, revealing no outcome of those appeals."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is expected recruitment activity already set up by the previous episode, with no outcome, pledge or refusal disclosed."
+                }
+              ],
+              "reason": "This is expected texture consistent with their already-stated plan to gather Northern support, revealing no outcome of those appeals."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In Braavos, Arya arranges passage on a ship home to Westeros, paying with a purse of coin.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Arya's pending assassination assignment and her identity arc \ru2014 that she abandons the Faceless Men and decides to return to Westeros."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Arya abandons her assassination assignment and the Faceless Men to return to Westeros, resolving her pending Braavos storyline."
+                }
+              ],
+              "reason": "It reveals the outcome of Arya's pending assassination assignment and her identity arc \ru2014 that she abandons the Faceless Men and decides to return to Westeros."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Arya's pending assassination assignment and her identity arc \ru2014 that she abandons the Faceless Men and decides to return to Westeros."
+        },
+        {
+          "text": "Olenna prepares to leave King's Landing for Highgarden after Margaery urges her to go home.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Margaery has been released from confinement and has turned against her family's plot with the Sparrows, undermining the pending scheme to defeat the Faith Militant."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses a turning point in the pending Tyrell-versus-Sparrow conflict: Margaery apparently siding with the Faith enough to send her grandmother away, and Olenna's exit from King's Landing."
+                }
+              ],
+              "reason": "It reveals that Margaery has been released from confinement and has turned against her family's plot with the Sparrows, undermining the pending scheme to defeat the Faith Militant."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Margaery has been released from confinement and has turned against her family's plot with the Sparrows, undermining the pending scheme to defeat the Faith Militant."
+        }
+      ]
+    },
+    "8": {
+      "title": "No One",
+      "candidates": [
+        {
+          "text": "Slaver ships bombard Meereen from the bay; Tyrion, Grey Worm and Missandei take cover as the pyramid shakes.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "Tyrion, Grey Worm and Missandei present and taking cover during the assault"
+              ]
+            }
+          },
+          "rejected": "faithful: Tyrion, Grey Worm and Missandei present and taking cover during the assault"
+        },
+        {
+          "text": "Two men of the Brotherhood, met on the road, invite the Hound to ride and fight alongside them.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the Hound is alive — a resurrection/survival the viewer last saw left for dead — and that he is being recruited into an alliance with the Brotherhood."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the Hound is alive—answering the open question of his fate since Arya left him for dead—and sets up his alliance with the Brotherhood."
+                }
+              ],
+              "reason": "It reveals that the Hound is alive — a resurrection/survival the viewer last saw left for dead — and that he is being recruited into an alliance with the Brotherhood."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the Hound is alive — a resurrection/survival the viewer last saw left for dead — and that he is being recruited into an alliance with the Brotherhood."
+        },
+        {
+          "text": "Varys says his farewells in Meereen and takes ship, staying vague with Tyrion about his errand.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Varys leaving Meereen on an unspecified errand is ordinary plot movement that discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Varys departing on an unspecified errand is ordinary plot texture that discloses no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Varys leaving Meereen on an unspecified errand is ordinary plot movement that discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Brienne is admitted into Riverrun to sit down with Sansa's grizzled great-uncle and argue for the castle.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely shows Brienne carrying out the mission the viewer already knows she was sent on, without revealing whether Brynden Tully agrees or how the siege resolves."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Brienne carrying out the errand she was already sent on \ninegotiating with the Blackfish \nwithout revealing whether she wins his support or the siege's outcome."
+                }
+              ],
+              "reason": "It merely shows Brienne carrying out the mission the viewer already knows she was sent on, without revealing whether Brynden Tully agrees or how the siege resolves."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Battle of the Bastards",
+      "candidates": [
+        {
+          "text": "In Meereen, Daenerys and Tyrion sit across from three masters of the slaving cities, trying to talk terms.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows a negotiation in progress with no outcome; Daenerys returning to Meereen and the masters' hostility are already established directions."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Daenerys returns to Meereen and reunites with Tyrion, and that the masters' pending campaign against the city comes to a negotiation, resolving where her Dothraki-led march goes next."
+                }
+              ],
+              "reason": "It reveals that Daenerys returns to Meereen and reunites with Tyrion, and that the masters' pending campaign against the city comes to a negotiation, resolving where her Dothraki-led march goes next."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Daenerys returns to Meereen and reunites with Tyrion, and that the masters' pending campaign against the city comes to a negotiation, resolving where her Dothraki-led march goes next."
+        },
+        {
+          "text": "Outside Winterfell, the Stark and Bolton armies form up facing each other across a wide open field.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The battle for Winterfell is already an established, anticipated confrontation; armies merely lining up reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Armies assembling for the anticipated Stark-Bolton confrontation is expected setup, revealing no outcome."
+                }
+              ],
+              "reason": "The battle for Winterfell is already an established, anticipated confrontation; armies merely lining up reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Theon and Yara stand before Daenerys and Tyrion in Meereen, asking that the Iron Islands be left independent.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Theon and Yara are sailing to Meereen to seek an alliance; showing the meeting and their request reveals no outcome, only the expected negotiation itself."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Theon and Yara successfully reach Daenerys and begin negotiating the alliance the viewer only knows was intended, previewing a new political pact."
+                }
+              ],
+              "reason": "It confirms Theon and Yara successfully reach Daenerys and begin negotiating the alliance the viewer only knows was intended, previewing a new political pact."
+            }
+          },
+          "rejected": "consequence (1/2): It confirms Theon and Yara successfully reach Daenerys and begin negotiating the alliance the viewer only knows was intended, previewing a new political pact."
+        }
+      ]
+    },
+    "10": {
+      "title": "The Winds of Winter",
+      "candidates": [
+        {
+          "text": "Samwell and Gilly, with Little Sam, finally reach the Citadel in Oldtown after their long journey south.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Their arrival at the Citadel is the already-stated destination of their journey and reveals no outcome, death, or hidden information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Their arrival in Oldtown is the already-stated destination of their journey and reveals no outcome or new information."
+                }
+              ],
+              "reason": "Their arrival at the Citadel is the already-stated destination of their journey and reveals no outcome, death, or hidden information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Bran and Meera travel with Benjen as far as the Wall, where he stops and goes no further.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows ordinary travel and a parting consistent with what the viewer already knows about Benjen's undead nature; no outcome, death, or open question is resolved."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bran and Meera survive their flight and reach the Wall, and that Benjen parts from them there, resolving the pending question of their escape."
+                }
+              ],
+              "reason": "It reveals that Bran and Meera survive their flight and reach the Wall, and that Benjen parts from them there, resolving the pending question of their escape."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Bran and Meera survive their flight and reach the Wall, and that Benjen parts from them there, resolving the pending question of their escape."
+        },
+        {
+          "text": "Littlefinger, alone with Sansa in the snow-covered north, makes a romantic overture to her.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Littlefinger comes north to Sansa — implying her secret plea to the Vale was answered — and discloses his romantic designs on her, a new turn in their relationship."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It places Littlefinger back in the North alone with Sansa, implying her secret plea to the Vale succeeded and he arrived, and it reveals his romantic designs on her."
+                }
+              ],
+              "reason": "It reveals that Littlefinger comes north to Sansa — implying her secret plea to the Vale was answered — and discloses his romantic designs on her, a new turn in their relationship."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Littlefinger comes north to Sansa — implying her secret plea to the Vale was answered — and discloses his romantic designs on her, a new turn in their relationship."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 44280,
+    "out": 18704,
+    "cache_read": 629484,
+    "cache_write": 24037,
+    "calls": 159
+  },
+  "recheck": [
+    {
+      "episode": 3,
+      "text": "Aboard a ship heading south, Sam tells Gilly he means to leave her and the baby with his family.",
+      "reason": "It discloses Sam's decision to take Gilly to Horn Hill and leave her with his family, a plot turning point for their journey to Oldtown that the viewer has not yet seen."
+    },
+    {
+      "episode": 5,
+      "text": "In Meereen, Tyrion and Varys receive a red priestess who has travelled to preach on Daenerys's behalf.",
+      "reason": "It discloses a new alliance \\u2014 the Red Priesthood aligning itself with Daenerys and lending religious support in Meereen \\u2014 which the viewer has no knowledge of."
+    }
+  ],
+  "recheck_spend": {
+    "in": 1586,
+    "out": 4620,
+    "cache_read": 209702,
+    "cache_write": 7154,
+    "calls": 36
+  }
+}

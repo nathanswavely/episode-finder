@@ -1,0 +1,98 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 7,
+  "source": {
+    "title": "Game of Thrones season 7",
+    "revid": 1371612229,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_7&oldid=1371612229",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Dragonstone",
+      "probes": [
+        {
+          "text": "Arya shares a fireside meal and drink with a group of young Lannister soldiers in the Riverlands.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Edd opens the gate at Castle Black to receive Bran and Meera, arrived out of the snow.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In Winterfell's hall, Sansa contradicts Jon in front of everyone over the young Umber and Karstark heirs.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Stormborn",
+      "probes": [
+        {
+          "text": "At a roadside inn, Arya is served stew by an old friend from her travels who bakes bread.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "The Queen's Justice",
+      "probes": [],
+      "fine_only": []
+    },
+    "4": {
+      "title": "The Spoils of War",
+      "probes": [
+        {
+          "text": "Cersei receives a banker from Braavos and assures him the crown's enormous debt will soon be repaid in full.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Littlefinger presents Bran with a slim Valyrian steel dagger with a dragonbone hilt as a gift.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Eastwatch",
+      "probes": [
+        {
+          "text": "Jorah arrives at Dragonstone and presents himself once more before Daenerys, fully recovered.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Beyond the Wall",
+      "probes": [],
+      "fine_only": []
+    },
+    "7": {
+      "title": "The Dragon and the Wolf",
+      "probes": [
+        {
+          "text": "The rival camps gather for a parley in a ruined pit on the edge of King's Landing.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "On the shore at Dragonstone, Theon stands before the last of his ironborn men.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 6,
+  "source": {
+    "title": "The Sopranos season 6",
+    "revid": 1360297551,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_6&oldid=1360297551",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Members Only",
+      "probes": [],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Join the Club",
+      "probes": [
+        {
+          "text": "Away on a business trip, Tony keeps noticing a light blinking far off in the darkness outside his hotel window.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At dinner with a table of strangers, Tony talks vaguely about being in the middle of a midlife crisis.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Tony ends up carrying a briefcase and ID belonging to a travelling salesman who has exactly his face.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Mayham",
+      "probes": [
+        {
+          "text": "Chris strong-arms the screenwriter he met in rehab into writing a mob-slasher script to work off his gambling debt.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris and his writer pitch their slasher idea to Little Carmine, who hears the title they have settled on.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "The Fleshy Part of the Thigh",
+      "probes": [],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Mr. & Mrs. John Sacrimoni Request...",
+      "probes": [
+        {
+          "text": "Johnny is let out of prison for a single day so he can attend his daughter's wedding.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Live Free or Die",
+      "probes": [
+        {
+          "text": "Meadow, interning at a law firm that handles white-collar cases, argues with Finn about how financial criminals are judged.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A man at Chris's addiction recovery meeting passes along a piece of gossip he has heard about a captain.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Vito's car breaks down out of state, leaving him to continue along a country road on foot.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Luxury Lounge",
+      "probes": [
+        {
+          "text": "In Los Angeles, Chris discovers a hotel gift lounge where celebrities are handed free luxury items.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Artie confronts Tony for having eaten at a rival restaurant instead of coming to Nuovo Vesuvio.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris flies out to the West Coast to cast actors for his mob-slasher movie.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Johnny Cakes",
+      "probes": [
+        {
+          "text": "A realtor corners Tony about buying a local store she wants to turn into a Jamba Juice.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "The Ride",
+      "probes": [
+        {
+          "text": "Paulie balks at how much the church expects him to donate toward the neighborhood saint's feast.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Rides and stalls fill the street for the neighborhood saint's feast, with Paulie's crew running things.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nucci chastises Paulie over his handling of the neighborhood feast, and he curses at her.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Moe n' Joe",
+      "probes": [
+        {
+          "text": "Janice tearfully thanks Tony over a house arrangement; Carmela comforts her while Tony rolls his eyes behind them.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Melfi suggests that Tony's sister may remind him of their mother, an idea he does not welcome.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Vito, settled into the small town, grows restless and bored with the routine of ordinary daily work.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Cold Stones",
+      "probes": [
+        {
+          "text": "Carmela travels to Paris with Rosalie, wandering the streets and marveling at the old stone architecture.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Abroad with an old friend, Carmela stands among centuries-old buildings, plainly moved by the city around her.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Kaisha",
+      "probes": [
+        {
+          "text": "Little Carmine plays host to a sitdown, hoping to talk the two families back toward peace.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "Soprano Home Movies",
+      "probes": [
+        {
+          "text": "Tony and Carmela drive up to Bobby and Janice's cabin in upstate New York to mark his birthday.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Janice's present is a compilation of old home movies showing Tony as a boy playing with his sisters.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The two couples spend an evening at the lake house drinking heavily and playing Monopoly.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "14": {
+      "title": "Stage 5",
+      "probes": [
+        {
+          "text": "Chris's mob-slasher movie finally has its premiere, and the whole crew turns out to watch it.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Phil marks the birthday of his late brother Billy with a gathering of his own men.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "15": {
+      "title": "Remember When",
+      "probes": [
+        {
+          "text": "Tony and Paulie kill time together down in Miami, and Paulie's constant talking wears on Tony more each day.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Junior runs a gambling game with the other patients in his psychiatric facility.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Junior strikes up a friendship with a much younger, ill-tempered patient on his ward.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "16": {
+      "title": "Chasing It",
+      "probes": [
+        {
+          "text": "Tony cracks one Jewish joke after another at Hesh's expense while Hesh sits with the crew.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony insists on paying Hesh a vig on the loan, even though Hesh never charged him interest.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Vito's widow comes to Tony asking for money so she can move her family somewhere else.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "17": {
+      "title": "Walk Like a Man",
+      "probes": [
+        {
+          "text": "Chris insists he avoids the Bada Bing and Satriale's because being around the alcohol there makes him anxious.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony tells Melfi he had been planning to quit therapy, and blames his son's troubles on his own \"rotten genes.\"",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "18": {
+      "title": "Kennedy and Heidi",
+      "probes": [
+        {
+          "text": "In Las Vegas, Tony takes peyote with a stripper and later watches the sun rise over red desert rock.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony hits a winning streak at a roulette table, laughing helplessly until he collapses on the casino floor.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "19": {
+      "title": "The Second Coming",
+      "probes": []
+    },
+    "20": {
+      "title": "The Blue Comet",
+      "probes": [
+        {
+          "text": "Janice tells Tony that Junior's savings have run out and can no longer pay for his facility.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "21": {
+      "title": "Made in America",
+      "probes": [
+        {
+          "text": "Waiting in a diner booth, Tony flips through the pages of a tabletop jukebox looking for a song.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A pair of Muslim men have been hanging around the Bada Bing, and Tony has taken note of them.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

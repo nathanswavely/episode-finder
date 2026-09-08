@@ -27,7 +27,8 @@
           "specificity": 2,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "Rat Pack",
@@ -47,7 +48,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "3": {
       "title": "Where's Johnny?",
@@ -67,7 +69,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "4": {
       "title": "All Happy Families...",
@@ -77,7 +80,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "5": {
       "title": "Irregular Around the Margins",
@@ -92,7 +96,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "6": {
       "title": "Sentimental Education",
@@ -107,7 +112,135 @@
           "specificity": 3,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "In Camelot",
+      "probes": [
+        {
+          "text": "Junior, still confined to the house, starts turning up at funerals for people he barely knew just to get out.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris brings a screenwriter he got to know in rehab along to one of the card games.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Junior tells his physician that having nothing to do with his days has left him depressed.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Marco Polo",
+      "probes": [
+        {
+          "text": "Tony's gift at the seventy-fifth birthday party is a Beretta shotgun, which one well-heeled guest cheerfully calls second-rate.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Carmela's mother quietly asks her to leave Tony off the guest list for Hugh's surprise birthday party.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Junior deliberately lets the details of the surprise party slip before the guest of honour is meant to know.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Unidentified Black Males",
+      "probes": [
+        {
+          "text": "Tony pulls strings to get Meadow's boyfriend a spot on a construction site crew.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Cold Cuts",
+      "probes": [
+        {
+          "text": "Tony drives out to the farm himself to oversee the tail end of the job the younger men have been doing.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony sits down to a family dinner at the Baccalieri house and grows irritated at how placid Janice has become.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "The Test Dream",
+      "probes": [
+        {
+          "text": "In a dream, Tony rides a racehorse through the rooms of his own house while Carmela objects.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In a dream, Artie cheers Tony on while Tony has sex with Artie's wife.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Alone for the night, Tony checks into a suite at the Plaza Hotel in Manhattan.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Long Term Parking",
+      "probes": [
+        {
+          "text": "Carmela walks Tony around an empty patch of land, describing the spec house she wants to build there.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Standing at the site of her planned building project, Carmela notices Tony seems preoccupied, but he brushes her off.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "All Due Respect",
+      "probes": [
+        {
+          "text": "Visiting Paulie's place, Tony finds the repainted portrait of himself with the horse hanging on the wall.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Paulie insists the uniformed portrait was commissioned out of genuine respect, while Tony stands there baffled and irritated.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "After dumping the framed picture in a dumpster, Tony lingers, staring forlornly at his own painted face.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
     }
   }
 }

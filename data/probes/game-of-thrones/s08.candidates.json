@@ -1,0 +1,295 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 8,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Game of Thrones season 8",
+    "revid": 1373513197,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_8&oldid=1373513197",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Winterfell",
+      "candidates": [
+        {
+          "text": "Jon and Daenerys take the dragons up together, flying over the North and landing alone in the snow.",
+          "specificity": 5,
+          "characters_named": [
+            "Jon",
+            "Daenerys"
+          ],
+          "grounded_in": "Jon and Daenerys ride the dragons and deepen their bond",
+          "grounded_ok": true
+        },
+        {
+          "text": "The combined armies march into Winterfell while wary Northerners line the road watching the Dothraki and Unsullied pass.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Upon reaching Winterfell with their combined armies",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tormund and Beric, searching an abandoned castle by torchlight, come across Edd and other Night's Watch men.",
+          "specificity": 5,
+          "characters_named": [
+            "Tormund",
+            "Beric",
+            "Edd"
+          ],
+          "grounded_in": "At Last Hearth, the seat of House Umber, Tormund and Beric encounter Edd and other Night's Watch members",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon and Arya see each other again for the first time in years, comparing their swords.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Arya"
+          ],
+          "grounded_in": "There, Jon is reunited with Arya",
+          "grounded_ok": true
+        },
+        {
+          "text": "Euron sails into King's Landing with the sellsword army he ferried over, and presses his suit with Cersei.",
+          "specificity": 4,
+          "characters_named": [
+            "Euron",
+            "Cersei"
+          ],
+          "grounded_in": "Euron returns to King's Landing with the Golden Company and entices Cersei to consummate their union",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1437,
+        "cache_read": 0,
+        "cache_write": 8662
+      }
+    },
+    "2": {
+      "title": "A Knight of the Seven Kingdoms",
+      "candidates": [
+        {
+          "text": "Sam presents Jorah with House Tarly's ancestral Valyrian sword before the battle, insisting he take it.",
+          "specificity": 5,
+          "characters_named": [
+            "Sam",
+            "Jorah"
+          ],
+          "grounded_in": "Sam presents Jorah with House Tarly's ancestral sword",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys sits with Sansa and tries to win her trust by invoking their mutual love for Jon.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys",
+            "Sansa",
+            "Jon"
+          ],
+          "grounded_in": "Citing their mutual love for Jon, Daenerys tries to gain Sansa's trust",
+          "grounded_ok": true
+        },
+        {
+          "text": "By firelight, Jaime has Brienne kneel and formally anoints her a knight with his sword.",
+          "specificity": 5,
+          "characters_named": [
+            "Jaime",
+            "Brienne"
+          ],
+          "grounded_in": "Jaime formally anoints Brienne as a knight",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jorah tries to talk young Lyanna Mormont out of taking part in the fighting.",
+          "specificity": 4,
+          "characters_named": [
+            "Jorah",
+            "Lyanna Mormont"
+          ],
+          "grounded_in": "Jorah fails to dissuade Lyanna Mormont from fighting",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jaime apologizes to Bran for crippling him; Bran calmly answers that they are no longer the same people.",
+          "specificity": 5,
+          "characters_named": [
+            "Jaime",
+            "Bran"
+          ],
+          "grounded_in": "Jaime apologizes to Bran for crippling him; Bran replies that he harbors no anger and says they are no longer the same people.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 50,
+        "out": 1547,
+        "cache_read": 8662,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "The Long Night",
+      "candidates": [
+        {
+          "text": "Those who cannot fight are sent down to shelter among the tombs in Winterfell's crypts.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "the dead entombed in the Stark family crypt, who attack those sheltered there",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melisandre sets the long defensive trench outside Winterfell ablaze as the horde advances in darkness.",
+          "specificity": 5,
+          "characters_named": [
+            "Melisandre"
+          ],
+          "grounded_in": "Melisandre ignites the fire trench surrounding Winterfell to delay the advancing horde",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon and Daenerys fight from dragonback high above the snow, hunting a rider through the night sky.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Daenerys"
+          ],
+          "grounded_in": "Jon and Daenerys aerially engage the Night King on their dragons",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Almost every beat in this episode is a death or the resolution of the season's central conflict, so usable texture is very limited.",
+      "usage": {
+        "in": 40,
+        "out": 1771,
+        "cache_read": 8662,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "The Last of the Starks",
+      "candidates": [
+        {
+          "text": "Winterfell's dead are laid out on pyres and burned; afterwards the survivors crowd the great hall to feast and drink.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "The survivors mourn, burn the dead, and then celebrate their victory. During the somber feast",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tormund and the Wildlings set off north again, and at Jon's request they take Ghost with them.",
+          "specificity": 4,
+          "characters_named": [
+            "Tormund",
+            "Jon",
+            "Ghost"
+          ],
+          "grounded_in": "Tormund returns north with the Wildlings, taking Ghost at Jon's request",
+          "grounded_ok": true
+        },
+        {
+          "text": "During the feast Daenerys rises and grants Gendry a lordship and the seat of Storm's End.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys",
+            "Gendry"
+          ],
+          "grounded_in": "Daenerys uplifts the mood by legitimizing Gendry as a Baratheon, naming him Lord of Storm's End",
+          "grounded_ok": true
+        },
+        {
+          "text": "Arya and the Hound ride away from Winterfell together, both headed south toward King's Landing.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya",
+            "the Hound"
+          ],
+          "grounded_in": "Arya and the Hound head to King's Landing, separately bent on revenge",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bronn turns up unannounced at Winterfell and interrupts Jaime and Tyrion to talk about what he is owed.",
+          "specificity": 4,
+          "characters_named": [
+            "Bronn",
+            "Jaime",
+            "Tyrion"
+          ],
+          "grounded_in": "Bronn arrives and threatens Jaime and Tyrion, but spares them in exchange for being promised the Highgarden castle",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1697,
+        "cache_read": 8662,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "The Bells",
+      "candidates": [
+        {
+          "text": "Arya and the Hound arrive at King's Landing and work their way inside the crowded city, hoods up.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya",
+            "the Hound"
+          ],
+          "grounded_in": "Jaime, Arya, and the Hound each infiltrate King's Landing",
+          "grounded_ok": true
+        },
+        {
+          "text": "Three separate travellers slip into King's Landing unnoticed, each with private business in the capital.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "Jaime, Arya, and the Hound each infiltrate King's Landing",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this episode's summary is a death, an execution, or the outcome of the battle for King's Landing, so safe, inconsequential texture is very scarce here.",
+      "usage": {
+        "in": 39,
+        "out": 1424,
+        "cache_read": 8662,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "The Iron Throne",
+      "candidates": [
+        {
+          "text": "Daenerys stands before her massed Unsullied and Dothraki in the ruined city, promising to liberate the entire world.",
+          "specificity": 5,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Daenerys rallies the Unsullied and Dothraki, proclaiming she will liberate the entire world.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion picks his way alone through ash and smoking rubble in the cellars beneath the shattered Red Keep.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "Tyrion finds Jaime and Cersei dead in the ruins",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This finale is almost entirely turning points (deaths, successions, final fates), so most of the summary is unusable. Only two moments could be phrased without revealing an outcome, and the second is adjacent to a discovery, so it is ranked lower.",
+      "usage": {
+        "in": 42,
+        "out": 1946,
+        "cache_read": 8662,
+        "cache_write": 0
+      }
+    }
+  }
+}

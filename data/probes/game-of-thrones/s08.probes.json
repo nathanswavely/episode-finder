@@ -1,0 +1,92 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 8,
+  "source": {
+    "title": "Game of Thrones season 8",
+    "revid": 1373513197,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_8&oldid=1373513197",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Winterfell",
+      "probes": [
+        {
+          "text": "Jon and Daenerys take the dragons up together, flying over the North and landing alone in the snow.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The combined armies march into Winterfell while wary Northerners line the road watching the Dothraki and Unsullied pass.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jon and Arya see each other again for the first time in years, comparing their swords.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "A Knight of the Seven Kingdoms",
+      "probes": [
+        {
+          "text": "Sam presents Jorah with House Tarly's ancestral Valyrian sword before the battle, insisting he take it.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Daenerys sits with Sansa and tries to win her trust by invoking their mutual love for Jon.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jorah tries to talk young Lyanna Mormont out of taking part in the fighting.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "The Long Night",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Jon and Daenerys fight from dragonback high above the snow, hunting a rider through the night sky.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "The Last of the Starks",
+      "probes": [],
+      "fine_only": []
+    },
+    "5": {
+      "title": "The Bells",
+      "probes": [
+        {
+          "text": "Arya and the Hound arrive at King's Landing and work their way inside the crowded city, hoods up.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Three separate travellers slip into King's Landing unnoticed, each with private business in the capital.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "The Iron Throne",
+      "probes": [],
+      "fine_only": []
+    }
+  }
+}

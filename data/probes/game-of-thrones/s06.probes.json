@@ -1,0 +1,165 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 6,
+  "source": {
+    "title": "Game of Thrones season 6",
+    "revid": 1365331650,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_6&oldid=1365331650",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Red Woman",
+      "probes": [
+        {
+          "text": "In Braavos, blinded Arya begs on the street; each day a young woman beats her with a staff.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jorah and Daario are still out in the grasslands, following the trail left behind by Daenerys.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Home",
+      "probes": [
+        {
+          "text": "Tyrion, carrying a torch, edges into the dark catacombs beneath Meereen to speak with the two chained dragons.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Oathbreaker",
+      "probes": [
+        {
+          "text": "Cersei and Jaime walk uninvited into a small council meeting, her towering silent bodyguard standing behind them.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In King's Landing, the High Sparrow takes the young king aside and preaches to him at length.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Aboard a ship heading south, Sam tells Gilly he means to leave her and the baby with his family.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "4": {
+      "title": "Book of the Stranger",
+      "probes": [
+        {
+          "text": "Margaery is escorted down to Loras's cell and allowed a brief visit with her brother.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "The Door",
+      "probes": [
+        {
+          "text": "In Braavos, Arya is given a new target: an actress with a travelling theatre company.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "On the shore of the Iron Islands, the ironborn assemble for a kingsmoot to choose Balon's successor.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "In Meereen, Tyrion and Varys receive a red priestess who has travelled to preach on Daenerys's behalf.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Blood of My Blood",
+      "probes": [
+        {
+          "text": "At Horn Hill, Sam's father demeans him at the table as a soft bookworm and insults Gilly for being a Wildling.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "The Broken Man",
+      "probes": [
+        {
+          "text": "Jaime and Bronn ride into the muddy siege camp outside Riverrun, where Jaime takes charge of the besieging forces.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Theon and Yara spend a last night ashore in Volantis with their crew before their ships sail on.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jon, Sansa and Davos travel from hall to hall in the North, asking house after house for fighting men.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "No One",
+      "probes": [
+        {
+          "text": "Varys says his farewells in Meereen and takes ship, staying vague with Tyrion about his errand.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Brienne is admitted into Riverrun to sit down with Sansa's grizzled great-uncle and argue for the castle.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Battle of the Bastards",
+      "probes": [
+        {
+          "text": "Outside Winterfell, the Stark and Bolton armies form up facing each other across a wide open field.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "The Winds of Winter",
+      "probes": [
+        {
+          "text": "Samwell and Gilly, with Little Sam, finally reach the Citadel in Oldtown after their long journey south.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

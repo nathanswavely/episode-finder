@@ -507,6 +507,735 @@
           "rejected": null
         }
       ]
+    },
+    "7": {
+      "title": "In Camelot",
+      "candidates": [
+        {
+          "text": "Junior, still confined to the house, starts turning up at funerals for people he barely knew just to get out.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about Junior's house-arrest boredom, revealing no outcome, death of a known character, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Junior's already-established house confinement and declining state, revealing no new outcome or answer."
+                }
+              ],
+              "reason": "This is ordinary character texture about Junior's house-arrest boredom, revealing no outcome, death of a known character, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Chris brings a screenwriter he got to know in rehab along to one of the card games.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely introduces a new acquaintance in an ordinary social setting, revealing no outcome, death, discovery or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Introducing a new acquaintance at a card game is ordinary character texture and does not disclose any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "It merely introduces a new acquaintance in an ordinary social setting, revealing no outcome, death, discovery or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony leans on Hesh over money owed to an older woman who knew his father years ago.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Hesh"
+        },
+        {
+          "text": "Junior tells his physician that having nothing to do with his days has left him depressed.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Junior's declining mental state and doctor visits are already established, and a complaint of boredom-related depression is ordinary character texture rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Junior's cognitive/emotional decline and medical visits are already established, and a complaint of boredom-driven depression is character texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Junior's declining mental state and doctor visits are already established, and a complaint of boredom-related depression is ordinary character texture rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Marco Polo",
+      "candidates": [
+        {
+          "text": "Tony's gift at the seventy-fifth birthday party is a Beretta shotgun, which one well-heeled guest cheerfully calls second-rate.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a social-texture beat at a party — a gift and a snobby remark — with no death, betrayal, discovery or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A birthday party gift and a guest's offhand snobbish remark are ordinary social texture, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "It's a social-texture beat at a party — a gift and a snobby remark — with no death, betrayal, discovery or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Carmela's mother quietly asks her to leave Tony off the guest list for Hugh's surprise birthday party.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary family texture reflecting the already-known separation between Tony and Carmela, and reveals no outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary family texture reflecting the already-known separation between Tony and Carmela, revealing no new outcome or turning point."
+                }
+              ],
+              "reason": "This is ordinary family texture reflecting the already-known separation between Tony and Carmela, and reveals no outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Junior deliberately lets the details of the surprise party slip before the guest of honour is meant to know.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A spoiled surprise party is minor social texture, not an outcome, death, reveal or resolution of any pending conflict the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A surprise party gaffe by a cognitively declining Junior is ordinary character texture and reveals no pending outcome from the show's open storylines."
+                }
+              ],
+              "reason": "A spoiled surprise party is minor social texture, not an outcome, death, reveal or resolution of any pending conflict the viewer is tracking."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony spends the whole backyard party on his best behaviour among his in-laws' guests.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Attending a backyard party and behaving politely is ordinary social texture, revealing no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A social gathering with Tony behaving politely is ordinary character texture and doesn't disclose any outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "Attending a backyard party and behaving politely is ordinary social texture, revealing no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Unidentified Black Males",
+      "candidates": [
+        {
+          "text": "Tony pulls strings to get Meadow's boyfriend a spot on a construction site crew.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Tony doing an ordinary favor—arranging work for Meadow's boyfriend—without disclosing any outcome, reveal or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Getting a job on a construction crew is ordinary situational texture and doesn't disclose any pending outcome, death, reveal or betrayal from the storylines the viewer is following."
+                }
+              ],
+              "reason": "It only shows Tony doing an ordinary favor—arranging work for Meadow's boyfriend—without disclosing any outcome, reveal or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Carmela makes the rounds of local divorce attorneys, determined to secure a fair share of their assets.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Carmela pursues divorce proceedings against Tony, an outcome of their pending separation that the viewer has not yet seen resolved."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Carmela escalates the separation into pursuing an actual divorce and asset fight, answering the open question of whether she and Tony reconcile."
+                }
+              ],
+              "reason": "It reveals that Carmela pursues divorce proceedings against Tony, an outcome of their pending separation that the viewer has not yet seen resolved."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Carmela pursues divorce proceedings against Tony, an outcome of their pending separation that the viewer has not yet seen resolved."
+        },
+        {
+          "text": "Carmela comes home to find Tony lounging in the pool as though nothing has happened.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony returns to the family home, signalling a reconciliation (or at least the end of the separation) with Carmela, an open question since their split."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony has returned to the family home, signalling a reconciliation with Carmela and the resolution of their pending separation."
+                }
+              ],
+              "reason": "It reveals that Tony returns to the family home, signalling a reconciliation (or at least the end of the separation) with Carmela, an open question since their split."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tony returns to the family home, signalling a reconciliation (or at least the end of the separation) with Carmela, an open question since their split."
+        }
+      ]
+    },
+    "10": {
+      "title": "Cold Cuts",
+      "candidates": [
+        {
+          "text": "Chris and Blundetto spend days out at their uncle's overgrown farm with shovels, digging and swapping old family stories.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "The image of Chris and Blundetto secretly digging at a remote farm strongly implies a body disposal/burial, tipping the viewer that a killing occurs and that Chris becomes complicit in Blundetto's newly begun murder-for-hire work."
+                },
+                {
+                  "reveals": true,
+                  "reason": "The image of Chris and Blundetto secretly digging for days at a remote farm strongly implies a body disposal, tipping the viewer that a killing occurs and that Blundetto's Peeps hit escalates into further bloodshed."
+                }
+              ],
+              "reason": "The image of Chris and Blundetto secretly digging at a remote farm strongly implies a body disposal/burial, tipping the viewer that a killing occurs and that Chris becomes complicit in Blundetto's newly begun murder-for-hire work."
+            }
+          },
+          "rejected": "consequence (2/2): The image of Chris and Blundetto secretly digging at a remote farm strongly implies a body disposal/burial, tipping the viewer that a killing occurs and that Chris becomes complicit in Blundetto's newly begun murder-for-hire work."
+        },
+        {
+          "text": "Janice sits through anger management sessions, and the small annoyances that once set her off no longer seem to.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Janice ends up in anger management (implying an anger-related incident) and discloses the outcome that she successfully changes, resolving a storyline the viewer hasn't seen begin."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Janice ends up in anger management and that the treatment appears to work, resolving a character arc/turning point the viewer hasn't seen begin."
+                }
+              ],
+              "reason": "It reveals that Janice ends up in anger management (implying an anger-related incident) and discloses the outcome that she successfully changes, resolving a storyline the viewer hasn't seen begin."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Janice ends up in anger management (implying an anger-related incident) and discloses the outcome that she successfully changes, resolving a storyline the viewer hasn't seen begin."
+        },
+        {
+          "text": "Tony drives out to the farm himself to oversee the tail end of the job the younger men have been doing.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a vague, low-stakes logistical detail about Tony overseeing work at a farm, revealing no outcome, death, discovery or betrayal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary activity—Tony visiting a work site—without disclosing any outcome, death, or reveal relevant to the pending plotlines."
+                }
+              ],
+              "reason": "This is a vague, low-stakes logistical detail about Tony overseeing work at a farm, revealing no outcome, death, discovery or betrayal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony sits down to a family dinner at the Baccalieri house and grows irritated at how placid Janice has become.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A family dinner and Tony's irritation at Janice's demeanor is ordinary character texture, revealing no outcome or plot turn."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A domestic dinner scene and Tony's irritation at Janice's demeanor is ordinary character texture, not an outcome or reveal."
+                }
+              ],
+              "reason": "A family dinner and Tony's irritation at Janice's demeanor is ordinary character texture, revealing no outcome or plot turn."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "The Test Dream",
+      "candidates": [
+        {
+          "text": "In a dream, Tony rides a racehorse through the rooms of his own house while Carmela objects.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A surreal dream image with no outcome, death, reveal or resolution of any pending conflict; it is atmospheric texture consistent with Tony's established dream sequences."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A surreal dream image with no outcome, death, or answer to a pending question \"just character texture and symbolism."
+                }
+              ],
+              "reason": "A surreal dream image with no outcome, death, reveal or resolution of any pending conflict; it is atmospheric texture consistent with Tony's established dream sequences."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a dream, Artie cheers Tony on while Tony has sex with Artie's wife.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A surreal dream image conveys Tony's psyche but discloses no plot outcome, death, reveal or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A dream sequence conveys Tony's inner life without revealing any plot outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A surreal dream image conveys Tony's psyche but discloses no plot outcome, death, reveal or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Alone for the night, Tony checks into a suite at the Plaza Hotel in Manhattan.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Checking into a hotel is ordinary setting/texture and does not disclose any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Checking into a hotel suite is an ordinary setting/activity that doesn't disclose any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "Checking into a hotel is ordinary setting/texture and does not disclose any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a dream, Tony sits through a therapy session with Gloria Trillo and is driven around by his father.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes surreal dream imagery involving a already-deceased character and Tony's father, without disclosing any outcome, death, or resolution of pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes surreal dream imagery involving a deceased character and Tony's father, without revealing any plot outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "It only describes surreal dream imagery involving a already-deceased character and Tony's father, without disclosing any outcome, death, or resolution of pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A dream deposits Tony in his old high school football coach's office, where the coach lectures him.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A dream sequence in a coach's office is atmospheric character texture and does not disclose any outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A dream-sequence setting with a coach lecturing Tony is atmospheric character texture and doesn't disclose any outcome, death, or answer to a pending plot question."
+                }
+              ],
+              "reason": "A dream sequence in a coach's office is atmospheric character texture and does not disclose any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "12": {
+      "title": "Long Term Parking",
+      "candidates": [
+        {
+          "text": "Carmela walks Tony around an empty patch of land, describing the spec house she wants to build there.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Tony has moved back in, so Carmela discussing a spec house project is ordinary character texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The reconciliation is already known from the previous episode, and Carmela outlining a spec-house plan on empty land is ordinary character texture rather than a revealed outcome."
+                }
+              ],
+              "reason": "The viewer already knows Tony has moved back in, so Carmela discussing a spec house project is ordinary character texture rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Standing at the site of her planned building project, Carmela notices Tony seems preoccupied, but he brushes her off.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture \"a mundane exchange at a construction site\" and does not disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary interpersonal texture at a construction site; it discloses no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture \"a mundane exchange at a construction site\" and does not disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "All Due Respect",
+      "candidates": [
+        {
+          "text": "Visiting Paulie's place, Tony finds the repainted portrait of himself with the horse hanging on the wall.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Paulie repainted and hung the portrait, so Tony seeing it discloses no new outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Paulie saved and repainted the portrait and hung it on his wall, so Tony seeing it is established texture rather than a new outcome."
+                }
+              ],
+              "reason": "The viewer already knows Paulie repainted and hung the portrait, so Tony seeing it discloses no new outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Paulie insists the uniformed portrait was commissioned out of genuine respect, while Tony stands there baffled and irritated.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Paulie kept and repainted the portrait; Tony's irritated reaction to it is comic character texture rather than a new outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is comedic character texture about the already-established repainted portrait, revealing no new outcome or plot development."
+                }
+              ],
+              "reason": "The viewer already knows Paulie kept and repainted the portrait; Tony's irritated reaction to it is comic character texture rather than a new outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "After dumping the framed picture in a dumpster, Tony lingers, staring forlornly at his own painted face.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Tony discarding a painting of himself and lingering over it is character texture, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts a private, wordless emotional beat with a painting and reveals no death, arrest, reveal, or resolution of any pending conflict such as the Blundetto situation."
+                }
+              ],
+              "reason": "Tony discarding a painting of himself and lingering over it is character texture, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony sits with Junior hoping for advice, but the old man is too dazed to offer any.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Junior's cognitive decline is already well established across prior episodes, and a scene of Tony seeking advice without receiving it is character texture rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Junior's cognitive decline is already well established across prior episodes, and a scene of Tony seeking advice without receiving it is character texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Junior's cognitive decline is already well established across prior episodes, and a scene of Tony seeking advice without receiving it is character texture rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 43919,
+    "out": 13499,
+    "cache_read": 713971,
+    "cache_write": 13207,
+    "calls": 168
+  },
+  "recheck_spend": {
+    "in": 2540,
+    "out": 6890,
+    "cache_read": 378760,
+    "cache_write": 0,
+    "calls": 62
   }
 }

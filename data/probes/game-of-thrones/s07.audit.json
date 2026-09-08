@@ -1,0 +1,823 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 7,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Dragonstone",
+      "candidates": [
+        {
+          "text": "Arya shares a fireside meal and drink with a group of young Lannister soldiers in the Riverlands.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A casual fireside meal with soldiers is ordinary travel texture and discloses no outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary fireside meal and conversation, revealing no death, discovery, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "A casual fireside meal with soldiers is ordinary travel texture and discloses no outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the Citadel, Sam quietly helps himself to books from the restricted section of the library.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        },
+        {
+          "text": "Edd opens the gate at Castle Black to receive Bran and Meera, arrived out of the snow.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Bran and Meera were already left at the Wall by Benjen, so their arrival at Castle Black is an expected, ordinary continuation rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Bran and Meera were already shown reaching the Wall at the end of the previous season, so being admitted at Castle Black is an expected continuation rather than a new outcome or revelation."
+                }
+              ],
+              "reason": "Bran and Meera were already left at the Wall by Benjen, so their arrival at Castle Black is an expected, ordinary continuation rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In Winterfell's hall, Sansa contradicts Jon in front of everyone over the young Umber and Karstark heirs.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows ordinary sibling friction and political tension at Winterfell without disclosing any outcome, death, or reveal the viewer is awaiting."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts ongoing political friction between Jon and Sansa without disclosing any outcome, death, reveal, or resolution of a pending question."
+                }
+              ],
+              "reason": "It shows ordinary sibling friction and political tension at Winterfell without disclosing any outcome, death, or reveal the viewer is awaiting."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Euron sails into King's Landing and offers Cersei his Iron Fleet along with a marriage proposal.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Euron's arrival in King's Landing and his proposed marriage alliance with Cersei, a significant new alliance the viewer hasn't yet seen form."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals Euron's arrival in King's Landing and his bid for a new alliance with Cersei via the Iron Fleet and a marriage proposal, a major plot development the viewer has not seen."
+                }
+              ],
+              "reason": "It reveals Euron's arrival in King's Landing and his proposed marriage alliance with Cersei, a significant new alliance the viewer hasn't yet seen form."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Euron's arrival in King's Landing and his proposed marriage alliance with Cersei, a significant new alliance the viewer hasn't yet seen form."
+        }
+      ]
+    },
+    "2": {
+      "title": "Stormborn",
+      "candidates": [
+        {
+          "text": "At a roadside inn, Arya is served stew by an old friend from her travels who bakes bread.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A casual reunion over a meal at an inn is character texture; it discloses no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A casual reunion at an inn with a minor character over a meal is ordinary texture, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A casual reunion over a meal at an inn is character texture; it discloses no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "By candlelight in a quarantine cell, Sam peels and scrapes the greyscale crust from Jorah's chest and arm.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jorah's quest for a greyscale cure brings him to the Citadel and that Sam attempts (and by implication achieves) the treatment, answering the open question of Jorah's fate."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jorah reaches the Citadel and that Sam attempts to cure his greyscale, answering the open question of whether Jorah finds a cure."
+                }
+              ],
+              "reason": "It reveals that Jorah's quest for a greyscale cure brings him to the Citadel and that Sam attempts (and by implication achieves) the treatment, answering the open question of Jorah's fate."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jorah's quest for a greyscale cure brings him to the Citadel and that Sam attempts (and by implication achieves) the treatment, answering the open question of Jorah's fate."
+        },
+        {
+          "text": "Daenerys presses Varys about the many masters he has served, and he answers her before the whole room.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts a conversation without disclosing its outcome or any death, reveal, or shift in allegiance \\u2014 Varys's past service to other rulers is already known to the viewer."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It shows Varys has joined Daenerys's court and survives her interrogation of his loyalties, revealing the outcome of his secret mission and the new alliance."
+                }
+              ],
+              "reason": "It shows Varys has joined Daenerys's court and survives her interrogation of his loyalties, revealing the outcome of his secret mission and the new alliance."
+            }
+          },
+          "rejected": "consequence (1/2): It shows Varys has joined Daenerys's court and survives her interrogation of his loyalties, revealing the outcome of his secret mission and the new alliance."
+        },
+        {
+          "text": "Daenerys and her assembled allies plan their campaign standing around the great carved map table at Dragonstone.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Daenerys successfully lands and takes Dragonstone as her seat and has assembled her alliance there, answering the pending question of her arrival in Westeros."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Daenerys sailing to Westeros with her allies was already established, so a war-council scene at Dragonstone is expected setting and activity rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "It reveals that Daenerys successfully lands and takes Dragonstone as her seat and has assembled her alliance there, answering the pending question of her arrival in Westeros."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Daenerys successfully lands and takes Dragonstone as her seat and has assembled her alliance there, answering the pending question of her arrival in Westeros."
+        },
+        {
+          "text": "Before sailing south and leaving Winterfell in Sansa's charge, Jon warns Littlefinger never to touch her.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jon decides to leave the North and sail south (toward Daenerys), handing Winterfell's rule to Sansa, a plot turn the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Jon will depart Winterfell for the south and hand rule to Sansa, resolving the Jon/Sansa authority tension and signalling a major turning point the viewer hasn't yet seen set up."
+                }
+              ],
+              "reason": "It reveals that Jon decides to leave the North and sail south (toward Daenerys), handing Winterfell's rule to Sansa, a plot turn the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jon decides to leave the North and sail south (toward Daenerys), handing Winterfell's rule to Sansa, a plot turn the viewer hasn't seen."
+        }
+      ]
+    },
+    "3": {
+      "title": "The Queen's Justice",
+      "candidates": [
+        {
+          "text": "At the Citadel, Sam is set to copying out stacks of old texts as punishment for his disobedience.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Sam's unauthorized borrowing of restricted books was discovered and punished, answering the open question of whether he'd get caught."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Sam's secret book-borrowing — that his disobedience was discovered and punished — answering a pending open question."
+                }
+              ],
+              "reason": "It reveals that Sam's unauthorized borrowing of restricted books was discovered and punished, answering the open question of whether he'd get caught."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Sam's unauthorized borrowing of restricted books was discovered and punished, answering the open question of whether he'd get caught."
+        },
+        {
+          "text": "Melisandre keeps out of sight when Jon arrives, then tells Varys she is sailing for Volantis.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jon comes to Dragonstone (an alliance meeting with Daenerys not yet established for the viewer) and that Melisandre departs Westeros for Volantis."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Melisandre reunites with Daenerys's camp at Dragonstone and that Jon comes to Dragonstone, an outcome of the pending Jon-Daenerys summoning that the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals that Jon comes to Dragonstone (an alliance meeting with Daenerys not yet established for the viewer) and that Melisandre departs Westeros for Volantis."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jon comes to Dragonstone (an alliance meeting with Daenerys not yet established for the viewer) and that Melisandre departs Westeros for Volantis."
+        },
+        {
+          "text": "Meera wheels Bran through the gates of Winterfell, where Sansa finds his manner strangely distant.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bran survives the journey south and reunites with Sansa at Winterfell, an anticipated family reunion the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bran survives the journey south and is reunited with Sansa at Winterfell, an outcome the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals that Bran survives the journey south and reunites with Sansa at Winterfell, an anticipated family reunion the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Bran survives the journey south and reunites with Sansa at Winterfell, an anticipated family reunion the viewer has not yet seen."
+        },
+        {
+          "text": "Jon and Davos give up their weapons on the shore below Dragonstone before climbing to the castle.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "Davos accompanying Jon",
+                "surrendering their weapons upon arrival"
+              ]
+            }
+          },
+          "rejected": "faithful: Davos accompanying Jon; surrendering their weapons upon arrival"
+        },
+        {
+          "text": "Euron delivers his promised gift to Cersei in the throne room and is made commander of her navy.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending question of Euron's promised gift and confirms the Lannister–Greyjoy alliance is cemented with his appointment as naval commander, implying his attack on Yara and Theon succeeded."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of whether Euron would win Cersei's alliance, confirming he delivers his promised gift and secures command of her navy."
+                }
+              ],
+              "reason": "It reveals the outcome of the pending question of Euron's promised gift and confirms the Lannister–Greyjoy alliance is cemented with his appointment as naval commander, implying his attack on Yara and Theon succeeded."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of the pending question of Euron's promised gift and confirms the Lannister–Greyjoy alliance is cemented with his appointment as naval commander, implying his attack on Yara and Theon succeeded."
+        }
+      ]
+    },
+    "4": {
+      "title": "The Spoils of War",
+      "candidates": [
+        {
+          "text": "Deep in a dragonglass cave, Jon lifts a torch to show Daenerys ancient spiral carvings left by the Children of the Forest.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the discovery of proof of the Children of the Forest/White Walkers in the Dragonstone dragonglass cave and shows Jon and Daenerys reaching a point of cooperation, the outcome of his pending mission to persuade her."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jon's arrival at Dragonstone was already set up in the previous episode, and the cave visit is atmospheric character texture that doesn't disclose whether Daenerys agrees to ally or any other pending outcome."
+                }
+              ],
+              "reason": "It reveals the discovery of proof of the Children of the Forest/White Walkers in the Dragonstone dragonglass cave and shows Jon and Daenerys reaching a point of cooperation, the outcome of his pending mission to persuade her."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the discovery of proof of the Children of the Forest/White Walkers in the Dragonstone dragonglass cave and shows Jon and Daenerys reaching a point of cooperation, the outcome of his pending mission to persuade her."
+        },
+        {
+          "text": "In the Winterfell courtyard, Arya and Brienne spar with blunted weapons while Sansa watches, astonished, from the walkway above.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Arya successfully completes her journey and is reunited with Sansa and Brienne at Winterfell, resolving the open question of her return home."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Arya successfully reaches Winterfell and is reunited with Sansa (and Brienne), resolving the pending journey the viewer has been following."
+                }
+              ],
+              "reason": "It reveals that Arya successfully completes her journey and is reunited with Sansa and Brienne at Winterfell, resolving the open question of her return home."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Arya successfully completes her journey and is reunited with Sansa and Brienne at Winterfell, resolving the open question of her return home."
+        },
+        {
+          "text": "Cersei receives a banker from Braavos and assures him the crown's enormous debt will soon be repaid in full.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A diplomatic meeting and a boast about future repayment; it discloses no concrete outcome, death, or reveal beyond ordinary political texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A meeting with the Iron Bank about the crown's debt is ordinary political texture that doesn't disclose any pending outcome, death or revelation."
+                }
+              ],
+              "reason": "A diplomatic meeting and a boast about future repayment; it discloses no concrete outcome, death, or reveal beyond ordinary political texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Meera prepares for the journey home, and Bran's farewell to her is flat and strangely unfeeling.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Meera departs and, more importantly, that Bran has been emotionally transformed by the Three-Eyed Raven visions, resolving the open question of his state and ending their long-running companionship."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Meera's departure and Bran's detached demeanour are character texture consistent with his already-established transformation, not an outcome, reveal or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It reveals that Meera departs and, more importantly, that Bran has been emotionally transformed by the Three-Eyed Raven visions, resolving the open question of his state and ending their long-running companionship."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Meera departs and, more importantly, that Bran has been emotionally transformed by the Three-Eyed Raven visions, resolving the open question of his state and ending their long-running companionship."
+        },
+        {
+          "text": "Littlefinger presents Bran with a slim Valyrian steel dagger with a dragonbone hilt as a gift.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary gift exchange; Bran's return to Winterfell is an expected step rather than a turning point, and the dagger's significance isn't disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The gifting of a dagger is character texture; it discloses no death, betrayal, or resolution of any pending conflict, only that Bran and Littlefinger share a scene."
+                }
+              ],
+              "reason": "It shows an ordinary gift exchange; Bran's return to Winterfell is an expected step rather than a turning point, and the dagger's significance isn't disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Eastwatch",
+      "candidates": [
+        {
+          "text": "Davos smuggles Tyrion into King's Landing by boat at night, landing quietly beneath the city walls.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tyrion undertakes a covert mission into King's Landing (with Davos's aid), a plot development the viewer has not yet seen set up."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tyrion undertakes a covert mission into King's Landing with Davos, a plot development the viewer hasn't seen set up."
+                }
+              ],
+              "reason": "It reveals that Tyrion undertakes a covert mission into King's Landing (with Davos's aid), a plot development the viewer has not yet seen set up."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tyrion undertakes a covert mission into King's Landing (with Davos's aid), a plot development the viewer has not yet seen set up."
+        },
+        {
+          "text": "Fed up with the Citadel, Sam packs several restricted books and leaves Oldtown with Gilly and Little Sam.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Sam's Citadel arc — his departure with stolen books after being punished by Ebrose — a turning point the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point—Sam abandons his maester training at the Citadel and departs Oldtown with stolen restricted books, resolving his ongoing storyline there."
+                }
+              ],
+              "reason": "It reveals the outcome of Sam's Citadel arc — his departure with stolen books after being punished by Ebrose — a turning point the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Sam's Citadel arc — his departure with stolen books after being punished by Ebrose — a turning point the viewer hasn't seen."
+        },
+        {
+          "text": "Jorah arrives at Dragonstone and presents himself once more before Daenerys, fully recovered.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jorah was already shown healed and departing Oldtown to rejoin Daenerys, so his arrival is an expected continuation rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jorah was cured and left Oldtown to rejoin Daenerys, so his arrival is an expected continuation rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "Jorah was already shown healed and departing Oldtown to rejoin Daenerys, so his arrival is an expected continuation rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Still soaked and battered from the river, Jaime and Bronn make their way back to King's Landing.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Jaime's army suffers a defeat that leaves him and Bronn escaping via the river, and confirms both survive it — an outcome the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jaime and Bronn survive a violent, water-plunging defeat (the upcoming attack on the Lannister army), disclosing the outcome of a pending conflict."
+                }
+              ],
+              "reason": "It implies Jaime's army suffers a defeat that leaves him and Bronn escaping via the river, and confirms both survive it — an outcome the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It implies Jaime's army suffers a defeat that leaves him and Bronn escaping via the river, and confirms both survive it — an outcome the viewer hasn't seen."
+        }
+      ]
+    },
+    "6": {
+      "title": "Beyond the Wall",
+      "candidates": [
+        {
+          "text": "Jon's ragged band trudges through deep snow far beyond the Wall, hunting a single wight as proof.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jon and a group embark on an expedition beyond the Wall to capture a wight, a plan not yet proposed in the episodes watched."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a major plot turning point not yet set up \"\" the formation of a joint expedition beyond the Wall to capture a wight as proof of the Army of the Dead \"\" and implies Jon leaves Dragonstone alive with allies in tow."
+                }
+              ],
+              "reason": "It reveals that Jon and a group embark on an expedition beyond the Wall to capture a wight, a plan not yet proposed in the episodes watched."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jon and a group embark on an expedition beyond the Wall to capture a wight, a plan not yet proposed in the episodes watched."
+        },
+        {
+          "text": "At Dragonstone, Tyrion counsels Daenerys about how to handle the coming negotiations with Cersei.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the war shifts to a parley/truce with Cersei rather than continued assault, a plot turn the viewer has no reason to expect after Daenerys's crushing attack."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the war with Cersei turns toward a negotiation/parley \\u2014 an unforeshadowed plot turn following Daenerys's crushing victory over the Lannister army."
+                }
+              ],
+              "reason": "It reveals that the war shifts to a parley/truce with Cersei rather than continued assault, a plot turn the viewer has no reason to expect after Daenerys's crushing attack."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the war shifts to a parley/truce with Cersei rather than continued assault, a plot turn the viewer has no reason to expect after Daenerys's crushing attack."
+        },
+        {
+          "text": "Around Winterfell, Littlefinger quietly works to leave Sansa isolated, and the sisters circle each other coldly.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        }
+      ]
+    },
+    "7": {
+      "title": "The Dragon and the Wolf",
+      "candidates": [
+        {
+          "text": "The rival camps gather for a parley in a ruined pit on the edge of King's Landing.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes the setting of the armistice meeting Cersei has already agreed to, without revealing what happens there."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The parley was already agreed to in the previous episode, so its location and gathering is anticipated setting rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "It only describes the setting of the armistice meeting Cersei has already agreed to, without revealing what happens there."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tyrion walks alone through the Red Keep to speak privately with his sister.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tyrion and Cersei come face to face in a private meeting, an outcome the viewer does not yet know follows from the pending armistice arrangement."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tyrion secures a face-to-face meeting with Cersei in the Red Keep, an outcome of the pending armistice negotiation the viewer has only seen initiated through Jaime."
+                }
+              ],
+              "reason": "It reveals that Tyrion and Cersei come face to face in a private meeting, an outcome the viewer does not yet know follows from the pending armistice arrangement."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tyrion and Cersei come face to face in a private meeting, an outcome the viewer does not yet know follows from the pending armistice arrangement."
+        },
+        {
+          "text": "On the shore at Dragonstone, Theon stands before the last of his ironborn men.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely places Theon among his remaining men at Dragonstone, a setting/character beat without disclosing any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Theon being at Dragonstone with his ironborn is already established, and the sentence describes only a setting without revealing any outcome."
+                }
+              ],
+              "reason": "It merely places Theon among his remaining men at Dragonstone, a setting/character beat without disclosing any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 33196,
+    "out": 13706,
+    "cache_read": 393138,
+    "cache_write": 10672,
+    "calls": 112
+  },
+  "recheck_spend": {
+    "in": 764,
+    "out": 3768,
+    "cache_read": 97966,
+    "cache_write": 0,
+    "calls": 18
+  }
+}

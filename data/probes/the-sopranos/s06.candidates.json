@@ -1,0 +1,1024 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 6,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Sopranos season 6",
+    "revid": 1360297551,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_6&oldid=1360297551",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Members Only",
+      "candidates": [
+        {
+          "text": "A stop work order shuts down Carmela's spec house because of the substandard lumber her father supplied for the framing.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela"
+          ],
+          "grounded_in": "Carmela's spec house has a stop order placed on it because of shoddy wood used by Hugh DeAngelis",
+          "grounded_ok": true
+        },
+        {
+          "text": "Unable to get Phil on the phone, Tony has to sit across from an imprisoned Johnny just to arrange a meeting.",
+          "specificity": 3,
+          "characters_named": [
+            "Phil",
+            "Tony",
+            "Johnny"
+          ],
+          "grounded_in": "Unable to get in contact with Phil, the acting boss, Tony is forced to go through an imprisoned Johnny to secure a meeting",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material is either the central shock, its direct setup, or involves a character introduced here, so usable moments were limited.",
+      "usage": {
+        "in": 39,
+        "out": 1523,
+        "cache_read": 0,
+        "cache_write": 15384
+      }
+    },
+    "2": {
+      "title": "Join the Club",
+      "candidates": [
+        {
+          "text": "Away on a business trip, Tony keeps noticing a light blinking far off in the darkness outside his hotel window.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "he notices a light flashing in the distance",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony ends up carrying a briefcase and ID belonging to a travelling salesman who has exactly his face.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "he has the belongings of a salesman named \"Kevin Finnerty\", who looks exactly like him",
+          "grounded_ok": true
+        },
+        {
+          "text": "At dinner with a table of strangers, Tony talks vaguely about being in the middle of a midlife crisis.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony has dinner with a group and alludes to having a midlife crisis",
+          "grounded_ok": true
+        },
+        {
+          "text": "A helicopter's spotlight sweeps down over Tony and a woman as they stand outside together at night.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "a helicopter spotlight hovers over them",
+          "grounded_ok": true
+        },
+        {
+          "text": "Two robed monks corner Tony at his hotel, furiously insisting he is somebody else entirely.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony is attacked by a pair of bhikkhus who believe he is Finnerty",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material is either the outcome of the season-opening shooting or a discovery; the probes stay inside the California hotel material and avoid stating Tony's medical situation.",
+      "usage": {
+        "in": 40,
+        "out": 1993,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Mayham",
+      "candidates": [
+        {
+          "text": "Chris strong-arms the screenwriter he met in rehab into writing a mob-slasher script to work off his gambling debt.",
+          "specificity": 5,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "Chris's interest in the movie industry resurfaces and he forces J.T. Dolan to write a mob-slasher film in exchange for paying off his debt.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Silvio, filling in as boss, splits a big score among the crew in a way that leaves them grumbling.",
+          "specificity": 4,
+          "characters_named": [
+            "Silvio"
+          ],
+          "grounded_in": "Silvio, the acting boss, divides it between the crew in a way that frustrates them",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris and his writer pitch their slasher idea to Little Carmine, who hears the title they have settled on.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris",
+            "Little Carmine"
+          ],
+          "grounded_in": "They pitch it to Little Carmine, and Dolan titles it \"Cleaver\".",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela tells Melfi that Tony's work no longer makes her feel guilty, but raising children with a criminal does.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "Melfi",
+            "Tony"
+          ],
+          "grounded_in": "admits to Melfi that while she does not feel guilt over Tony's work anymore, she does for mothering children with a criminal",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela, having found out what A.J. told a reporter, tells her own son he is a burden.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "A.J."
+          ],
+          "grounded_in": "Carmela tells A.J. that he is a burden after discovering what he said to the reporter",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive imagery (the coma journey, the reunion doorway, the Ojibwe quote) is tied directly to Tony's cardiac arrest and waking, so it was excluded under rule 1.",
+      "usage": {
+        "in": 39,
+        "out": 1574,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "The Fleshy Part of the Thigh",
+      "candidates": [
+        {
+          "text": "Recovering in the hospital, Tony strikes up conversations with two fellow patients: a young rapper and a talkative physicist.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "A recovering Tony befriends two other patients, a rapper and a physicist.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Wheeled outside for the first time since the shooting, Tony announces that from now on every day is a gift.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Outside for the first time since the shooting, he declares that \"from now on, every day is a gift.\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "A paramedic Tony once accused of stealing from him turns up to pay him back, and Tony waives the debt.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "a paramedic he accused of stealing from him tries to pay him back, but Tony waives his debt",
+          "grounded_ok": true
+        },
+        {
+          "text": "In his hospital bed, Tony tells the physicist that while unconscious he understood everyone to be part of something bigger.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "He admits to the physicist that while in the coma, he realized that everyone is part of \"something bigger.\"",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 49,
+        "out": 1317,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Mr. & Mrs. John Sacrimoni Request...",
+      "candidates": [
+        {
+          "text": "Tony tells Melfi that since coming back from the hospital, his men have been giving him \"certain looks\".",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "he notes that his men are giving him \"certain looks\" since his return from the hospital",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melfi advises Tony to act as if he is not feeling vulnerable, whatever he actually feels inside.",
+          "specificity": 4,
+          "characters_named": [
+            "Melfi",
+            "Tony"
+          ],
+          "grounded_in": "She advises him to \"act as if you are not feeling vulnerable,\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior is moved into a private psychiatric facility while he waits for his case to come to trial.",
+          "specificity": 4,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "Junior is transferred to a private psychiatric facility as he awaits trial",
+          "grounded_ok": true
+        },
+        {
+          "text": "Johnny is let out of prison for a single day so he can attend his daughter's wedding.",
+          "specificity": 4,
+          "characters_named": [
+            "Johnny"
+          ],
+          "grounded_in": "Johnny is granted temporary release to attend his daughter's wedding",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Avoided Johnny's breakdown at the wedding, Vito being spotted, and the bodyguard fight, all of which the summary frames as turning points or their consequences.",
+      "usage": {
+        "in": 56,
+        "out": 1166,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Live Free or Die",
+      "candidates": [
+        {
+          "text": "Meadow, interning at a law firm that handles white-collar cases, argues with Finn about how financial criminals are judged.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow",
+            "Finn"
+          ],
+          "grounded_in": "Meadow, working as an intern for a law firm that specializes in white collar crime, argues with Finn about the treatment of financial criminals compared to those involved in the mob",
+          "grounded_ok": true
+        },
+        {
+          "text": "In session, Tony tells Melfi his religion condemns homosexuality, yet insists people close to him deserve second chances.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "Tony admits to Melfi that while he has a religious objection to homosexuality",
+          "grounded_ok": true
+        },
+        {
+          "text": "A man at Chris's addiction recovery meeting passes along a piece of gossip he has heard about a captain.",
+          "specificity": 3,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "Chris is told by a man in his addiction recovery group about Vito being spotted in the club",
+          "grounded_ok": true
+        },
+        {
+          "text": "Vito's car breaks down out of state, leaving him to continue along a country road on foot.",
+          "specificity": 4,
+          "characters_named": [
+            "Vito"
+          ],
+          "grounded_in": "is forced to travel on foot when his car breaks down",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the episode's Vito material is the season's turning point, so probes lean on the therapy scene, Meadow's internship and the recovery-group tip.",
+      "usage": {
+        "in": 42,
+        "out": 1533,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Luxury Lounge",
+      "candidates": [
+        {
+          "text": "In Los Angeles, Chris discovers a hotel gift lounge where celebrities are handed free luxury items.",
+          "specificity": 5,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "he meets with Ben Kingsley, who gets distracted by the hotel's luxury lounge, which offers him free items",
+          "grounded_ok": true
+        },
+        {
+          "text": "Artie confronts Tony for having eaten at a rival restaurant instead of coming to Nuovo Vesuvio.",
+          "specificity": 4,
+          "characters_named": [
+            "Artie",
+            "Tony"
+          ],
+          "grounded_in": "Artie confronts Tony after learning that he ate at a rival restaurant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris flies out to the West Coast to cast actors for his mob-slasher movie.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "before going to Los Angeles to cast actors for Cleaver",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris hands Tony an armload of designer freebies he brought back from California.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris",
+            "Tony"
+          ],
+          "grounded_in": "gives her items to Tony",
+          "grounded_ok": true
+        },
+        {
+          "text": "Artie brushes off Tony's suggestions for fixing the declining food and service at his restaurant.",
+          "specificity": 3,
+          "characters_named": [
+            "Artie",
+            "Tony"
+          ],
+          "grounded_in": "ignores his suggestions to improve Nuovo Vesuvio's declining quality",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode's two most vivid moments (the boiling-sauce assault and the mugging of a film star) are both violent outcomes, so they were left out; the celebrity guest stars are also first-appearance characters and so are described rather than named.",
+      "usage": {
+        "in": 43,
+        "out": 1463,
+        "cache_read": 0,
+        "cache_write": 15384
+      }
+    },
+    "8": {
+      "title": "Johnny Cakes",
+      "candidates": [
+        {
+          "text": "A realtor corners Tony about buying a local store she wants to turn into a Jamba Juice.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "is accosted by a realtor who offers to buy a local store to turn it into a Jamba Juice",
+          "grounded_ok": true
+        },
+        {
+          "text": "A.J. lounges around the house by day and drifts through nightclubs at night, while his parents dangle work at him.",
+          "specificity": 3,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "Despite his parents offering him work, A.J. spends his time sitting around the house or in nightclubs.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (the facility visit, Vito's romance with the newly introduced chef, the outcome of the store sale) is either a turning point or hinges on a character introduced here, so usable texture is thin.",
+      "usage": {
+        "in": 43,
+        "out": 1323,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "The Ride",
+      "candidates": [
+        {
+          "text": "Paulie balks at how much the church expects him to donate toward the neighborhood saint's feast.",
+          "specificity": 4,
+          "characters_named": [
+            "Paulie"
+          ],
+          "grounded_in": "Paulie refuses to donate the requested amount for the Feast of Elzéar of Sabran to the church.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Rides and stalls fill the street for the neighborhood saint's feast, with Paulie's crew running things.",
+          "specificity": 4,
+          "characters_named": [
+            "Paulie"
+          ],
+          "grounded_in": "Chris spends the first night of the festival on heroin. The next day, a ride breaks down",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nucci chastises Paulie over his handling of the neighborhood feast, and he curses at her.",
+          "specificity": 4,
+          "characters_named": [
+            "Paulie",
+            "Nucci"
+          ],
+          "grounded_in": "he curses at Nucci when she chastises him for his handling of the Feast",
+          "grounded_ok": true
+        },
+        {
+          "text": "Driving home from a business trip, Tony and Chris help themselves to cases of expensive wine outside a liquor store.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Chris"
+          ],
+          "grounded_in": "he and Tony steal expensive wine from bikers who are robbing a liquor store",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats (relapse, health scare, the Bada Bing vision, the reconciliation, the faked injury) are outcomes or turning points, so probes lean on feast texture.",
+      "usage": {
+        "in": 39,
+        "out": 1903,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Moe n' Joe",
+      "candidates": [
+        {
+          "text": "Tony tells Melfi that old childhood resentments are why he treats his sister and her husband so unfairly.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "Tony admits to Melfi that he treats him and Janice unfairly because of resentments he carries from their childhood",
+          "grounded_ok": true
+        },
+        {
+          "text": "Janice tearfully thanks Tony over a house arrangement; Carmela comforts her while Tony rolls his eyes behind them.",
+          "specificity": 5,
+          "characters_named": [
+            "Janice",
+            "Tony",
+            "Carmela"
+          ],
+          "grounded_in": "Janice begins to cry while thanking Tony for getting her the house, and Carmela, assuming she is upset, comforts her while Tony rolls his eyes",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melfi suggests that Tony's sister may remind him of their mother, an idea he does not welcome.",
+          "specificity": 4,
+          "characters_named": [
+            "Melfi",
+            "Tony"
+          ],
+          "grounded_in": "Melfi points out that Janice may remind him of Livia",
+          "grounded_ok": true
+        },
+        {
+          "text": "Vito, settled into the small town, grows restless and bored with the routine of ordinary daily work.",
+          "specificity": 4,
+          "characters_named": [
+            "Vito"
+          ],
+          "grounded_in": "Vito finds himself bored with everyday work",
+          "grounded_ok": true
+        },
+        {
+          "text": "From prison, Johnny asks Tony to pressure the owners of a company he partners in into selling.",
+          "specificity": 3,
+          "characters_named": [
+            "Johnny",
+            "Tony"
+          ],
+          "grounded_in": "Johnny asks Tony to get the owners of a company Johnny is a partner in to sell",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1919,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Cold Stones",
+      "candidates": [
+        {
+          "text": "Carmela travels to Paris with Rosalie, wandering the streets and marveling at the old stone architecture.",
+          "specificity": 5,
+          "characters_named": [
+            "Carmela",
+            "Rosalie"
+          ],
+          "grounded_in": "Carmela goes to Paris with Rosalie and is enamored with the architecture",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony sits A.J. down and tries, calmly and civilly, to talk about lining up a job for him.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "A.J."
+          ],
+          "grounded_in": "He tries to speak civilly to A.J. about getting him a job",
+          "grounded_ok": true
+        },
+        {
+          "text": "Abroad with an old friend, Carmela stands among centuries-old buildings, plainly moved by the city around her.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela"
+          ],
+          "grounded_in": "Carmela goes to Paris with Rosalie and is enamored with the architecture",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (Vito's storyline, the Satriale's killing, Carmela's Paris dream) is either a death, a reveal, or setup framed as leading to one, so the safe texture is limited to the Paris sightseeing and the A.J. job conversation.",
+      "usage": {
+        "in": 41,
+        "out": 1221,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Kaisha",
+      "candidates": [
+        {
+          "text": "A.J., dating a single mother he met at work, pays off the kids who loiter outside her house.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "A group of youths that regularly bother her hang out outside her house, and A.J. bribes them to leave her alone.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Relatives fill the Soprano house for Christmas, and A.J. arrives with his new girlfriend and her little boy.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "The Sopranos's relatives come to their house for Christmas, and A.J. brings Blanca and her son.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Little Carmine plays host to a sitdown, hoping to talk the two families back toward peace.",
+          "specificity": 3,
+          "characters_named": [
+            "Little Carmine"
+          ],
+          "grounded_in": "Little Carmine hosts a sitdown to try and negotiate peace",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela raises the idea of hiring a private investigator to track down Adriana.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "Adriana"
+          ],
+          "grounded_in": "Carmela posits hiring a private investigator to find her",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1424,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Soprano Home Movies",
+      "candidates": [
+        {
+          "text": "Tony and Carmela drive up to Bobby and Janice's cabin in upstate New York to mark his birthday.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Carmela",
+            "Bobby",
+            "Janice"
+          ],
+          "grounded_in": "He and Carmela travel to Bobby and Janice's upstate New York cabin to celebrate his birthday",
+          "grounded_ok": true
+        },
+        {
+          "text": "Janice's present is a compilation of old home movies showing Tony as a boy playing with his sisters.",
+          "specificity": 5,
+          "characters_named": [
+            "Janice",
+            "Tony"
+          ],
+          "grounded_in": "Janice's gift, a compilation of old videos of him playing with his sisters",
+          "grounded_ok": true
+        },
+        {
+          "text": "The two couples spend an evening at the lake house drinking heavily and playing Monopoly.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "The four spend the night playing drunken Monopoly",
+          "grounded_ok": true
+        },
+        {
+          "text": "Phil, back from his recovery, announces that he intends to enjoy life with his family from now on.",
+          "specificity": 3,
+          "characters_named": [
+            "Phil"
+          ],
+          "grounded_in": "Phil returns from recovery and declares intent to enjoy life with his family",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 44,
+        "out": 1078,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "14": {
+      "title": "Stage 5",
+      "candidates": [
+        {
+          "text": "Chris's mob-slasher movie finally has its premiere, and the whole crew turns out to watch it.",
+          "specificity": 5,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "Cleaver premieres, and everyone but Tony seems to notice the parallels between the film and his, Chris, and Adriana's relationship.",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the baptism of Chris's baby daughter, he and Tony embrace, both of their expressions completely blank.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris",
+            "Tony"
+          ],
+          "grounded_in": "At the baptism of Chris's daughter, he and Tony embrace, their expressions blank.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Phil marks the birthday of his late brother Billy with a gathering of his own men.",
+          "specificity": 4,
+          "characters_named": [
+            "Phil",
+            "Billy"
+          ],
+          "grounded_in": "Phil celebrates Billy's birthday",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (Johnny's illness, the Cleaver parallels, the New York hit) falls under rule 1, so probes are limited to the premiere, the christening, and Phil's party.",
+      "usage": {
+        "in": 40,
+        "out": 1494,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "15": {
+      "title": "Remember When",
+      "candidates": [
+        {
+          "text": "Paulie sends the Sopranos an expensive espresso machine as a gift the day after getting home.",
+          "specificity": 4,
+          "characters_named": [
+            "Paulie"
+          ],
+          "grounded_in": "He sends the Sopranos an expensive espresso machine the next day.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony and Paulie kill time together down in Miami, and Paulie's constant talking wears on Tony more each day.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Paulie"
+          ],
+          "grounded_in": "forcing him and Paulie to go to Miami and lay low",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior runs a gambling game with the other patients in his psychiatric facility.",
+          "specificity": 4,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "Junior gambles with the other patients in his facility",
+          "grounded_ok": true
+        },
+        {
+          "text": "Paulie has a nightmare about Pussy, who asks whether he will \"stand up\" when his time comes.",
+          "specificity": 5,
+          "characters_named": [
+            "Paulie",
+            "Pussy"
+          ],
+          "grounded_in": "Paulie has a nightmare upon returning home about Pussy, where he asks if he will \"stand up\" when \"my time comes.\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior strikes up a friendship with a much younger, ill-tempered patient on his ward.",
+          "specificity": 3,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "An ill-tempered young patient who he has befriended",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the episode's texture (the fishing boat, the Florida trip itself) is framed by the summary as flowing from the body's discovery or from Tony weighing killing Paulie, so probes were kept to peripheral moments.",
+      "usage": {
+        "in": 39,
+        "out": 1482,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "16": {
+      "title": "Chasing It",
+      "candidates": [
+        {
+          "text": "Tony cracks one Jewish joke after another at Hesh's expense while Hesh sits with the crew.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Hesh"
+          ],
+          "grounded_in": "When Hesh visits Tony and his crew, Tony makes several Jewish jokes at his expense.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony insists on paying Hesh a vig on the loan, even though Hesh never charged him interest.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Hesh"
+          ],
+          "grounded_in": "he offers to pay Hesh a vig despite him not charging interest for the loan",
+          "grounded_ok": true
+        },
+        {
+          "text": "Vito's widow comes to Tony asking for money so she can move her family somewhere else.",
+          "specificity": 4,
+          "characters_named": [
+            "Vito",
+            "Tony"
+          ],
+          "grounded_in": "his mother requests money from Tony so they can relocate",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela finally has a buyer for the spec house, though the shoddy wood still nags at her conscience.",
+          "specificity": 3,
+          "characters_named": [
+            "Carmela"
+          ],
+          "grounded_in": "Carmela sells the spec house despite feeling guilt over the wood's quality",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats (the payoff of Tony's bet, A.J.'s proposal, Hesh's girlfriend, the boy's expulsion) are outcomes or turning points, so the safe options are thinner.",
+      "usage": {
+        "in": 40,
+        "out": 1476,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "17": {
+      "title": "Walk Like a Man",
+      "candidates": [
+        {
+          "text": "Chris insists he avoids the Bada Bing and Satriale's because being around the alcohol there makes him anxious.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "despite his insistence that the alcohol there make him anxious",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony tells Melfi he had been planning to quit therapy, and blames his son's troubles on his own \"rotten genes.\"",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "Tony tells Melfi that he intended to quit therapy, but feels he has to stay now that A.J. is suffering due to his \"rotten genes.\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "A.J. sinks into a depression, and his parents arrange for him to start seeing a therapist.",
+          "specificity": 3,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "A.J. falls into a depression and his parents send him to a therapist.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Paulie drives his car back and forth across Chris's front lawn, tearing the grass to shreds.",
+          "specificity": 5,
+          "characters_named": [
+            "Paulie",
+            "Chris"
+          ],
+          "grounded_in": "Paulie tears up Chris's lawn with his car",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive beats (the window, the killing, the final tree image) are either violent outcomes or direct setup/aftermath of them, so the safe pool is small.",
+      "usage": {
+        "in": 43,
+        "out": 1700,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "18": {
+      "title": "Kennedy and Heidi",
+      "candidates": [
+        {
+          "text": "In Las Vegas, Tony takes peyote with a stripper and later watches the sun rise over red desert rock.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "where he has sex and takes peyote with Chris's former stripper comare",
+          "grounded_ok": true
+        },
+        {
+          "text": "A.J., slumped in his therapist's office, forlornly asks why can't we all just get along.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "He forlornly asks his therapist \"why can't we all just get along?\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony hits a winning streak at a roulette table, laughing helplessly until he collapses on the casino floor.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "He has a winning streak in roulette",
+          "grounded_ok": true
+        },
+        {
+          "text": "Truckloads of waste are quietly dumped into a lake.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "As the waste is dumped into a lake",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode's central event is a death, and most other beats in the summary (the wakes, the Vegas trip's motivation, the crash) are direct setup or consequence of it, so options were limited.",
+      "usage": {
+        "in": 45,
+        "out": 1330,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "19": {
+      "title": "The Second Coming",
+      "candidates": [
+        {
+          "text": "In session with Melfi, Tony brings up a moment in Las Vegas when he sensed something beyond ordinary life, then drops it.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "mentions that, in Las Vegas, he realized that there is \"something else\" beyond the human experience, but does not want to look into it further",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meadow has committed to law school and is dating the son of one of Tony's associates.",
+          "specificity": 2,
+          "characters_named": [
+            "Meadow",
+            "Tony"
+          ],
+          "grounded_in": "who has recently committed to law school and started to date Patsy's son",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is built around A.J.'s suicide attempt and its aftermath (the poem, the family therapy session, the parents' mutual blame), plus the Melfi sociopath study and the Phil/asbestos standoff — all barred as turning points or their setup/consequence. Only two safe fragments remained.",
+      "usage": {
+        "in": 41,
+        "out": 1365,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "20": {
+      "title": "The Blue Comet",
+      "candidates": [
+        {
+          "text": "Janice tells Tony that Junior's savings have run out and can no longer pay for his facility.",
+          "specificity": 4,
+          "characters_named": [
+            "Janice",
+            "Tony",
+            "Junior"
+          ],
+          "grounded_in": "Janice tells Tony that Junior's savings can no longer pay for his facility and asks him to help",
+          "grounded_ok": true
+        },
+        {
+          "text": "In inpatient care, A.J. notices a friend's ex-girlfriend among the other young patients there.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "In inpatient, A.J. notices his friend's ex-girlfriend",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's content is turning-point material (orders for hits, the failed hit, Melfi ending treatment, Tony sending everyone into hiding), so only two safe moments remain.",
+      "usage": {
+        "in": 42,
+        "out": 1185,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    },
+    "21": {
+      "title": "Made in America",
+      "candidates": [
+        {
+          "text": "Tony sits with an uncomprehending Junior and reminds him how he and Tony's father once ran North Jersey.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Junior"
+          ],
+          "grounded_in": "Tony reminds Junior of how \"you and my father ran North Jersey\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Waiting in a diner booth, Tony flips through the pages of a tabletop jukebox looking for a song.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "While looking for music to play on a tabletop jukebox",
+          "grounded_ok": true
+        },
+        {
+          "text": "Janice makes a visit to the state facility where Junior is now living.",
+          "specificity": 4,
+          "characters_named": [
+            "Janice",
+            "Junior"
+          ],
+          "grounded_in": "Janice visits Junior, now in a state facility",
+          "grounded_ok": true
+        },
+        {
+          "text": "A.J. announces to his parents that he intends to enlist in the army.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "A.J. announces his intent to join the army",
+          "grounded_ok": true
+        },
+        {
+          "text": "A pair of Muslim men have been hanging around the Bada Bing, and Tony has taken note of them.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "a pair of suspicious Muslim men who hang around the Bada Bing",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this finale's content is terminal plot (deaths, arrests, the final scene), so probes are drawn from the few peripheral textures.",
+      "usage": {
+        "in": 39,
+        "out": 1601,
+        "cache_read": 15384,
+        "cache_write": 0
+      }
+    }
+  }
+}

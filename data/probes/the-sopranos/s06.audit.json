@@ -1,0 +1,2038 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 6,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Members Only",
+      "candidates": [
+        {
+          "text": "A stop work order shuts down Carmela's spec house because of the substandard lumber her father supplied for the framing.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses a specific plot development in the pending spec-house storyline \\u2014 that construction gets halted and that Carmela's father supplied substandard lumber, a setback/discovery the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses a specific plot development the viewer hasn't seen \ta discovery that Carmela's father used substandard lumber and the resulting shutdown of the spec house project Tony had just promised to help build."
+                }
+              ],
+              "reason": "It discloses a specific plot development in the pending spec-house storyline \\u2014 that construction gets halted and that Carmela's father supplied substandard lumber, a setback/discovery the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses a specific plot development in the pending spec-house storyline \\u2014 that construction gets halted and that Carmela's father supplied substandard lumber, a setback/discovery the viewer hasn't seen."
+        },
+        {
+          "text": "Unable to get Phil on the phone, Tony has to sit across from an imprisoned Johnny just to arrange a meeting.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Phil has become the effective power/obstacle and that Tony is negotiating through an incarcerated Johnny, resolving the open question of Johnny's arrest and the post-Blundetto New York power situation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Tony navigating mob logistics — Johnny's imprisonment is already known from the arrest the viewer saw, and no outcome, death or reveal is disclosed."
+                }
+              ],
+              "reason": "It reveals that Phil has become the effective power/obstacle and that Tony is negotiating through an incarcerated Johnny, resolving the open question of Johnny's arrest and the post-Blundetto New York power situation."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Phil has become the effective power/obstacle and that Tony is negotiating through an incarcerated Johnny, resolving the open question of Johnny's arrest and the post-Blundetto New York power situation."
+        }
+      ]
+    },
+    "2": {
+      "title": "Join the Club",
+      "candidates": [
+        {
+          "text": "Away on a business trip, Tony keeps noticing a light blinking far off in the darkness outside his hotel window.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ambient, atmospheric detail of Tony in a hotel during a trip, without disclosing any outcome, death, reveal or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An atmospheric, mood-setting detail of Tony in a hotel room; it discloses no outcome, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "It describes an ambient, atmospheric detail of Tony in a hotel during a trip, without disclosing any outcome, death, reveal or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony ends up carrying a briefcase and ID belonging to a travelling salesman who has exactly his face.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The sentence describes a surreal mistaken-identity situation without disclosing any death, arrest, betrayal, or the resolution of any pending conflict the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an odd, surreal situation Tony finds himself in without disclosing any death, injury, arrest, betrayal, or the resolution of the pending mob conflicts the viewer is tracking."
+                }
+              ],
+              "reason": "The sentence describes a surreal mistaken-identity situation without disclosing any death, arrest, betrayal, or the resolution of any pending conflict the viewer is tracking."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At dinner with a table of strangers, Tony talks vaguely about being in the middle of a midlife crisis.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — a vague dinner conversation — and discloses no outcome, death, arrest, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — a vague dinner conversation — and does not disclose any outcome, death, arrest, or reveal pending from the prior season."
+                }
+              ],
+              "reason": "This is ordinary character texture — a vague dinner conversation — and discloses no outcome, death, arrest, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A helicopter's spotlight sweeps down over Tony and a woman as they stand outside together at night.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A helicopter spotlight passing over Tony and an unnamed woman at night is atmospheric texture that discloses no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A helicopter spotlight over Tony and an unnamed woman outdoors at night is atmospheric texture that discloses no outcome, death, arrest or answer to a pending question."
+                }
+              ],
+              "reason": "A helicopter spotlight passing over Tony and an unnamed woman at night is atmospheric texture that discloses no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Two robed monks corner Tony at his hotel, furiously insisting he is somebody else entirely.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's an odd, surreal encounter at a hotel that conveys no death, injury, arrest or resolution of any pending conflict the viewer knows about; on its face it reads as strange character texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an odd atmospheric scene with unnamed monks and mistaken identity; it discloses no death, arrest, reveal or resolution of any pending conflict the viewer knows about."
+                }
+              ],
+              "reason": "It's an odd, surreal encounter at a hotel that conveys no death, injury, arrest or resolution of any pending conflict the viewer knows about; on its face it reads as strange character texture."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Mayham",
+      "candidates": [
+        {
+          "text": "Chris strong-arms the screenwriter he met in rehab into writing a mob-slasher script to work off his gambling debt.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows a routine extortion/creative-project setup between Chris and a minor recurring character, not resolving any pending conflict, death, or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is a character-texture beat extending Chris's already-established coercive relationship with J.T. over the gambling debt, without disclosing any death, betrayal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It shows a routine extortion/creative-project setup between Chris and a minor recurring character, not resolving any pending conflict, death, or open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Silvio, filling in as boss, splits a big score among the crew in a way that leaves them grumbling.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony is out of commission and Silvio has taken over as acting boss, giving away a major turning point in Tony's fate."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony is out of commission and Silvio has taken over as acting boss, spoiling a major turning point in Tony's status."
+                }
+              ],
+              "reason": "It reveals that Tony is out of commission and Silvio has taken over as acting boss, giving away a major turning point in Tony's fate."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tony is out of commission and Silvio has taken over as acting boss, giving away a major turning point in Tony's fate."
+        },
+        {
+          "text": "Chris and his writer pitch their slasher idea to Little Carmine, who hears the title they have settled on.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A movie pitch meeting is ordinary character texture and doesn't disclose any death, betrayal, or resolution of the pending mob conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows a routine creative pitch meeting — ordinary character texture with no death, arrest, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "A movie pitch meeting is ordinary character texture and doesn't disclose any death, betrayal, or resolution of the pending mob conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Carmela tells Melfi that Tony's work no longer makes her feel guilty, but raising children with a criminal does.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Carmela becomes a patient of Melfi's, a new alliance/development following her reconciliation with Tony and the collapse of her divorce plans."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Carmela is now attending therapy sessions with Melfi herself, a development beyond the season's end where she had just taken Tony back."
+                }
+              ],
+              "reason": "It reveals that Carmela becomes a patient of Melfi's, a new alliance/development following her reconciliation with Tony and the collapse of her divorce plans."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Carmela becomes a patient of Melfi's, a new alliance/development following her reconciliation with Tony and the collapse of her divorce plans."
+        },
+        {
+          "text": "Carmela, having found out what A.J. told a reporter, tells her own son he is a burden.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        }
+      ]
+    },
+    "4": {
+      "title": "The Fleshy Part of the Thigh",
+      "candidates": [
+        {
+          "text": "Recovering in the hospital, Tony strikes up conversations with two fellow patients: a young rapper and a talkative physicist.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Tony survived Junior's shooting and is recovering in hospital, resolving the cliffhanger the viewer was left on."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Tony survives Junior's shooting and is recovering, resolving the cliffhanger the previous episode ended on."
+                }
+              ],
+              "reason": "It confirms Tony survived Junior's shooting and is recovering in hospital, resolving the cliffhanger the viewer was left on."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Tony survived Junior's shooting and is recovering in hospital, resolving the cliffhanger the viewer was left on."
+        },
+        {
+          "text": "Wheeled outside for the first time since the shooting, Tony announces that from now on every day is a gift.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony survives the gunshot wound and recovers enough to be discharged/mobile, resolving the cliffhanger of whether he lives."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony survives the gunshot wound and recovers enough to be up and about, resolving the cliffhanger of the previous episode."
+                }
+              ],
+              "reason": "It reveals that Tony survives the gunshot wound and recovers enough to be discharged/mobile, resolving the cliffhanger of whether he lives."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tony survives the gunshot wound and recovers enough to be discharged/mobile, resolving the cliffhanger of whether he lives."
+        },
+        {
+          "text": "A paramedic Tony once accused of stealing from him turns up to pay him back, and Tony waives the debt.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony survives the gunshot and is lucid enough to interact with visitors, answering the cliffhanger question of whether he lives."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It shows Tony conscious and interacting after being shot, answering the cliffhanger question of whether he survives Junior's gunshot."
+                }
+              ],
+              "reason": "It reveals that Tony survives the gunshot and is lucid enough to interact with visitors, answering the cliffhanger question of whether he lives."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tony survives the gunshot and is lucid enough to interact with visitors, answering the cliffhanger question of whether he lives."
+        },
+        {
+          "text": "In his hospital bed, Tony tells the physicist that while unconscious he understood everyone to be part of something bigger.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony survives the shooting and regains consciousness, resolving the cliffhanger of him bleeding out from Junior's gunshot."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony survives the shooting and regains consciousness, resolving the cliffhanger of the previous episode."
+                }
+              ],
+              "reason": "It reveals that Tony survives the shooting and regains consciousness, resolving the cliffhanger of him bleeding out from Junior's gunshot."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tony survives the shooting and regains consciousness, resolving the cliffhanger of him bleeding out from Junior's gunshot."
+        }
+      ]
+    },
+    "5": {
+      "title": "Mr. & Mrs. John Sacrimoni Request...",
+      "candidates": [
+        {
+          "text": "Tony tells Melfi that since coming back from the hospital, his men have been giving him \"certain looks\".",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Tony survives the coma, wakes up, and is discharged from the hospital back to his crew, resolving the cliffhanger of whether he'll recover from the shooting."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Tony wakes from the coma, recovers and returns home to lead his crew \\u2014 the outcome of the cliffhanger left open by his shooting and comatose state, plus hints his men now perceive him as weakened."
+                }
+              ],
+              "reason": "It confirms Tony survives the coma, wakes up, and is discharged from the hospital back to his crew, resolving the cliffhanger of whether he'll recover from the shooting."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Tony survives the coma, wakes up, and is discharged from the hospital back to his crew, resolving the cliffhanger of whether he'll recover from the shooting."
+        },
+        {
+          "text": "Melfi advises Tony to act as if he is not feeling vulnerable, whatever he actually feels inside.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony survives the coma and recovers enough to return to therapy sessions with Melfi, resolving the open cliffhanger about whether he pulls through."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Tony survives the coma and recovers enough to return to therapy sessions with Melfi, answering the open question of whether he pulls through."
+                }
+              ],
+              "reason": "It reveals that Tony survives the coma and recovers enough to return to therapy sessions with Melfi, resolving the open cliffhanger about whether he pulls through."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tony survives the coma and recovers enough to return to therapy sessions with Melfi, resolving the open cliffhanger about whether he pulls through."
+        },
+        {
+          "text": "Junior is moved into a private psychiatric facility while he waits for his case to come to trial.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Junior's post-shooting legal situation — that he is institutionalized and facing trial — resolving the open question of what happens to him after shooting Tony."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Junior's post-shooting legal/custodial situation — that he's institutionalized and facing trial — which is an open question after he shot Tony."
+                }
+              ],
+              "reason": "It reveals the outcome of Junior's post-shooting legal situation — that he is institutionalized and facing trial — resolving the open question of what happens to him after shooting Tony."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Junior's post-shooting legal situation — that he is institutionalized and facing trial — resolving the open question of what happens to him after shooting Tony."
+        },
+        {
+          "text": "Johnny is let out of prison for a single day so he can attend his daughter's wedding.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Johnny's incarceration is already known, and a furlough to attend a family wedding is ordinary situational texture rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Johnny's imprisonment is already known to the viewer, and a furlough to attend a family wedding is situational texture rather than an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Johnny's incarceration is already known, and a furlough to attend a family wedding is ordinary situational texture rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Live Free or Die",
+      "candidates": [
+        {
+          "text": "Meadow, interning at a law firm that handles white-collar cases, argues with Finn about how financial criminals are judged.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Meadow's internship and a routine ideological argument with Finn — and discloses no death, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about Meadow's internship and a routine argument with Finn, revealing no outcome, death, betrayal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture — Meadow's internship and a routine ideological argument with Finn — and discloses no death, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In session, Tony tells Melfi his religion condemns homosexuality, yet insists people close to him deserve second chances.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a therapy conversation expressing Tony's attitudes without confirming any outcome, discovery, or plot development; at most it gestures vaguely at themes the viewer already knows about."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Vito's secret homosexuality \\u2014 known only to Finn so far \\u2014 has become known to Tony and is now a matter he must adjudicate, answering an open question about whether Vito would be exposed."
+                }
+              ],
+              "reason": "It implies Vito's secret homosexuality \\u2014 known only to Finn so far \\u2014 has become known to Tony and is now a matter he must adjudicate, answering an open question about whether Vito would be exposed."
+            }
+          },
+          "rejected": "consequence (1/2): It implies Vito's secret homosexuality \\u2014 known only to Finn so far \\u2014 has become known to Tony and is now a matter he must adjudicate, answering an open question about whether Vito would be exposed."
+        },
+        {
+          "text": "A man at Chris's addiction recovery meeting passes along a piece of gossip he has heard about a captain.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The sentence only shows an unnamed man sharing unspecified gossip at a meeting, disclosing no outcome, identity, or answer to any pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The sentence only shows an ordinary recovery-meeting exchange in which unspecified gossip is relayed; no outcome, identity, or content is disclosed."
+                }
+              ],
+              "reason": "The sentence only shows an unnamed man sharing unspecified gossip at a meeting, disclosing no outcome, identity, or answer to any pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Vito's car breaks down out of state, leaving him to continue along a country road on foot.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A car breaking down and walking along a road is ordinary situational texture; no outcome, reveal, or answer to the pending question about Vito's secret is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A car breaking down and walking along a road is mundane travel texture that doesn't disclose why he is out of state or any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A car breaking down and walking along a road is ordinary situational texture; no outcome, reveal, or answer to the pending question about Vito's secret is disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Luxury Lounge",
+      "candidates": [
+        {
+          "text": "In Los Angeles, Chris discovers a hotel gift lounge where celebrities are handed free luxury items.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and activity texture with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and activity texture about Chris's film ambitions, revealing no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary setting and activity texture with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Artie confronts Tony for having eaten at a rival restaurant instead of coming to Nuovo Vesuvio.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A minor social friction between Artie and Tony about restaurant loyalty is ordinary character texture and doesn't resolve any pending plotline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Artie's familiar insecurity about his restaurant — and reveals no outcome, death, discovery, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A minor social friction between Artie and Tony about restaurant loyalty is ordinary character texture and doesn't resolve any pending plotline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Chris flies out to the West Coast to cast actors for his mob-slasher movie.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Chris pursuing his Cleaver film project is already established texture and casting actors reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Chris pursuing his Cleaver film project is an already-established ongoing activity, and casting trip is ordinary texture with no outcome revealed."
+                }
+              ],
+              "reason": "Chris pursuing his Cleaver film project is already established texture and casting actors reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Chris hands Tony an armload of designer freebies he brought back from California.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Handing over gift-bag swag is ordinary character texture and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Bringing back gifts from a trip is ordinary character texture and does not disclose any outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "Handing over gift-bag swag is ordinary character texture and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Artie brushes off Tony's suggestions for fixing the declining food and service at his restaurant.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about Artie's restaurant troubles and his stubbornness, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Artie's restaurant struggles and his defensiveness are ongoing character texture, not an outcome or reveal."
+                }
+              ],
+              "reason": "This is ordinary character texture about Artie's restaurant troubles and his stubbornness, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Johnny Cakes",
+      "candidates": [
+        {
+          "text": "A realtor corners Tony about buying a local store she wants to turn into a Jamba Juice.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A realtor pitching a business property is ordinary setting/texture with no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A minor real-estate pitch is ordinary business texture and doesn't disclose any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A realtor pitching a business property is ordinary setting/texture with no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A.J. lounges around the house by day and drifts through nightclubs at night, while his parents dangle work at him.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        }
+      ]
+    },
+    "9": {
+      "title": "The Ride",
+      "candidates": [
+        {
+          "text": "Paulie balks at how much the church expects him to donate toward the neighborhood saint's feast.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Paulie's established stinginess and religious grievances, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Paulie's established stinginess and grievance with the church, revealing no outcome or plot development."
+                }
+              ],
+              "reason": "This is ordinary character texture consistent with Paulie's established stinginess and religious grievances, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Rides and stalls fill the street for the neighborhood saint's feast, with Paulie's crew running things.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The feast setting and Paulie's crew running the stalls is ordinary background texture with no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A neighborhood feast setting with Paulie's crew running booths is ordinary situational texture and reveals no outcome or plot development."
+                }
+              ],
+              "reason": "The feast setting and Paulie's crew running the stalls is ordinary background texture with no outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nucci chastises Paulie over his handling of the neighborhood feast, and he curses at her.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's ordinary character texture continuing Paulie's already-established resentment toward Nucci, revealing no new outcome, death, or plot answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture continuing Paulie's known resentment toward Nucci, revealing no new outcome, death, or plot answer."
+                }
+              ],
+              "reason": "It's ordinary character texture continuing Paulie's already-established resentment toward Nucci, revealing no new outcome, death, or plot answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Driving home from a business trip, Tony and Chris help themselves to cases of expensive wine outside a liquor store.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — casual petty theft on a drive — with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary criminal texture — casual petty theft during a drive home — with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture — casual petty theft on a drive — with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Moe n' Joe",
+      "candidates": [
+        {
+          "text": "Tony tells Melfi that old childhood resentments are why he treats his sister and her husband so unfairly.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a therapy confession/insight about Tony's mistreatment of Janice and Bobby, an emotional turning point not yet reached in the story."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a confessional therapy breakthrough in which Tony admits and explains his unfair treatment of Janice and Bobby, an emotional turning point the viewer hasn't reached."
+                }
+              ],
+              "reason": "It reveals a therapy confession/insight about Tony's mistreatment of Janice and Bobby, an emotional turning point not yet reached in the story."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a therapy confession/insight about Tony's mistreatment of Janice and Bobby, an emotional turning point not yet reached in the story."
+        },
+        {
+          "text": "Janice tearfully thanks Tony over a house arrangement; Carmela comforts her while Tony rolls his eyes behind them.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A vague family moment of gratitude over an unspecified house arrangement resolves no conflict the viewer knows is pending and reveals no death, betrayal or discovery \\u2014 it reads as ordinary Soprano family texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — an emotional family exchange with no clear outcome, death, reveal, or resolution of a pending conflict disclosed."
+                }
+              ],
+              "reason": "A vague family moment of gratitude over an unspecified house arrangement resolves no conflict the viewer knows is pending and reveals no death, betrayal or discovery \\u2014 it reads as ordinary Soprano family texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Melfi suggests that Tony's sister may remind him of their mother, an idea he does not welcome.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A routine therapy-session observation consistent with long-established character dynamics, revealing no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A routine therapy-session observation consistent with long-established dynamics; it discloses no outcome, death, reveal or resolution of any pending conflict."
+                }
+              ],
+              "reason": "A routine therapy-session observation consistent with long-established character dynamics, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Vito, settled into the small town, grows restless and bored with the routine of ordinary daily work.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about Vito's mood in his established hiding place, without revealing any outcome, discovery, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Vito's restlessness with small-town routine is character texture consistent with what the viewer already knows of his hiding out, revealing no outcome, discovery, or resolution."
+                }
+              ],
+              "reason": "This is ordinary character texture about Vito's mood in his established hiding place, without revealing any outcome, discovery, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "From prison, Johnny asks Tony to pressure the owners of a company he partners in into selling.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A routine business request from Johnny that sets up a situation rather than disclosing an outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A routine business request from Johnny that echoes established plot texture without disclosing any outcome, death, or reveal."
+                }
+              ],
+              "reason": "A routine business request from Johnny that sets up a situation rather than disclosing an outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Cold Stones",
+      "candidates": [
+        {
+          "text": "Carmela travels to Paris with Rosalie, wandering the streets and marveling at the old stone architecture.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A vacation trip with a friend is ordinary setting and character texture, revealing no outcome, death, betrayal or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A trip abroad with a friend is ordinary setting and character texture, not an outcome or reveal of any pending conflict."
+                }
+              ],
+              "reason": "A vacation trip with a friend is ordinary setting and character texture, revealing no outcome, death, betrayal or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony sits A.J. down and tries, calmly and civilly, to talk about lining up a job for him.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "Abroad with an old friend, Carmela stands among centuries-old buildings, plainly moved by the city around her.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary travel texture with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A trip abroad with a friend and her emotional reaction to the scenery is ordinary character texture, revealing no outcome, death, reveal or resolution of any pending conflict."
+                }
+              ],
+              "reason": "This is ordinary travel texture with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "12": {
+      "title": "Kaisha",
+      "candidates": [
+        {
+          "text": "A.J., dating a single mother he met at work, pays off the kids who loiter outside her house.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "Relatives fill the Soprano house for Christmas, and A.J. arrives with his new girlfriend and her little boy.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "Little Carmine plays host to a sitdown, hoping to talk the two families back toward peace.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A sitdown between the families is ordinary mob procedure consistent with the tensions the viewer already knows about, and it discloses no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A sitdown hosted by Little Carmine is a setting/activity typical of mob negotiation and does not disclose any outcome, death, or reveal."
+                }
+              ],
+              "reason": "A sitdown between the families is ordinary mob procedure consistent with the tensions the viewer already knows about, and it discloses no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Carmela raises the idea of hiring a private investigator to track down Adriana.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Carmela merely floating the idea of hiring an investigator to find the long-missing Adriana is character texture consistent with what the viewer knows (Adriana is presumed run off), and reveals no outcome or discovery."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Adriana's disappearance becomes an active plot thread Carmela pursues, a development beyond where the viewer's knowledge ends."
+                }
+              ],
+              "reason": "It reveals that Adriana's disappearance becomes an active plot thread Carmela pursues, a development beyond where the viewer's knowledge ends."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Adriana's disappearance becomes an active plot thread Carmela pursues, a development beyond where the viewer's knowledge ends."
+        }
+      ]
+    },
+    "13": {
+      "title": "Soprano Home Movies",
+      "candidates": [
+        {
+          "text": "Tony and Carmela drive up to Bobby and Janice's cabin in upstate New York to mark his birthday.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Arriving at a cabin for a birthday is ordinary setting and activity, revealing no outcome, death, reveal or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A birthday visit to a lake house is ordinary setting and activity, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "Arriving at a cabin for a birthday is ordinary setting and activity, revealing no outcome, death, reveal or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Janice's present is a compilation of old home movies showing Tony as a boy playing with his sisters.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A gift of home movies is ordinary family texture and doesn't disclose any outcome, death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A nostalgic gift of home movies is ordinary character texture and does not disclose any outcome, death, reveal or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A gift of home movies is ordinary family texture and doesn't disclose any outcome, death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The two couples spend an evening at the lake house drinking heavily and playing Monopoly.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes a social activity — drinking and playing a board game — without disclosing any outcome, conflict resolution, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes a social activity and setting—two couples drinking and playing a board game—without disclosing any outcome, conflict resolution, or reveal."
+                }
+              ],
+              "reason": "It only describes a social activity — drinking and playing a board game — without disclosing any outcome, conflict resolution, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Phil, back from his recovery, announces that he intends to enjoy life with his family from now on.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Phil suffers a serious health crisis and survives it, emerging with a changed outlook \ban outcome the viewer has no knowledge of yet."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Phil suffers a serious health crisis, survives it, and undergoes a change of outlook — an off-screen turning point for a major antagonist the viewer hasn't seen yet."
+                }
+              ],
+              "reason": "It reveals that Phil suffers a serious health crisis and survives it, emerging with a changed outlook \ban outcome the viewer has no knowledge of yet."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Phil suffers a serious health crisis and survives it, emerging with a changed outlook \ban outcome the viewer has no knowledge of yet."
+        }
+      ]
+    },
+    "14": {
+      "title": "Stage 5",
+      "candidates": [
+        {
+          "text": "Chris's mob-slasher movie finally has its premiere, and the whole crew turns out to watch it.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The Cleaver premiere is an expected milestone for a project already established in production, and the sentence discloses no outcome, conflict resolution, or new revelation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The premiere of Chris's film is an ordinary event in a project already established as in progress, and it discloses no death, betrayal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "The Cleaver premiere is an expected milestone for a project already established in production, and the sentence discloses no outcome, conflict resolution, or new revelation."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the baptism of Chris's baby daughter, he and Tony embrace, both of their expressions completely blank.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Chris's pregnancy plotline (a healthy baby girl born and baptized) and signals a coldness in the Tony–Chris relationship the viewer hasn't yet seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Chris's baby being born is an expected progression from his known pregnancy news, and a blank-faced embrace at a baptism conveys mood rather than any outcome, death, reveal or resolution."
+                }
+              ],
+              "reason": "It reveals the outcome of Chris's pregnancy plotline (a healthy baby girl born and baptized) and signals a coldness in the Tony–Chris relationship the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the outcome of Chris's pregnancy plotline (a healthy baby girl born and baptized) and signals a coldness in the Tony–Chris relationship the viewer hasn't yet seen."
+        },
+        {
+          "text": "Phil marks the birthday of his late brother Billy with a gathering of his own men.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A gathering commemorating Billy's already-known death is character texture and does not reveal any new outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A gathering to commemorate Billy Leotardo's death, which the viewer already knows about, is character texture and does not disclose any new outcome."
+                }
+              ],
+              "reason": "A gathering commemorating Billy's already-known death is character texture and does not reveal any new outcome or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "15": {
+      "title": "Remember When",
+      "candidates": [
+        {
+          "text": "Paulie sends the Sopranos an expensive espresso machine as a gift the day after getting home.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Paulie has returned home (from a hospital stay/absence), answering the open question of his prostate cancer scare outcome."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Paulie gets home from something (e.g., a hospital stay or absence) and returns safely, hinting at the outcome of his pending prostate cancer scare."
+                }
+              ],
+              "reason": "It implies Paulie has returned home (from a hospital stay/absence), answering the open question of his prostate cancer scare outcome."
+            }
+          },
+          "rejected": "consequence (2/2): It implies Paulie has returned home (from a hospital stay/absence), answering the open question of his prostate cancer scare outcome."
+        },
+        {
+          "text": "Tony and Paulie kill time together down in Miami, and Paulie's constant talking wears on Tony more each day.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — a trip and Paulie's annoying chatter — with no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only conveys a setting and interpersonal friction (Paulie irritating Tony), with no death, discovery, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture — a trip and Paulie's annoying chatter — with no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Junior runs a gambling game with the other patients in his psychiatric facility.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Junior's institutionalization is already known, and running a card game among patients is ordinary character texture with no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Junior's confinement in the psychiatric facility is already known, and him running a card game there is ordinary character texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Junior's institutionalization is already known, and running a card game among patients is ordinary character texture with no outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Paulie has a nightmare about Pussy, who asks whether he will \"stand up\" when his time comes.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Pussy"
+        },
+        {
+          "text": "Junior strikes up a friendship with a much younger, ill-tempered patient on his ward.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A new friendship with a minor ward character is ordinary character texture and doesn't resolve any pending conflict or reveal an outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A new companion on Junior's psychiatric ward is ordinary character texture and does not disclose any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A new friendship with a minor ward character is ordinary character texture and doesn't resolve any pending conflict or reveal an outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "16": {
+      "title": "Chasing It",
+      "candidates": [
+        {
+          "text": "Tony cracks one Jewish joke after another at Hesh's expense while Hesh sits with the crew.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Ordinary character texture of Tony joking with a longtime associate, revealing no outcome or plot development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — banter among the crew — with no outcome, death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Ordinary character texture of Tony joking with a longtime associate, revealing no outcome or plot development."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony insists on paying Hesh a vig on the loan, even though Hesh never charged him interest.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary financial arrangement between Tony and Hesh without disclosing any outcome, death, betrayal or answer to a pending question the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A financial arrangement between Tony and Hesh is ordinary character/business texture and doesn't disclose any death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It shows an ordinary financial arrangement between Tony and Hesh without disclosing any outcome, death, betrayal or answer to a pending question the viewer is tracking."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Vito's widow comes to Tony asking for money so she can move her family somewhere else.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Vito's death is already known to the viewer, and a widow requesting money is ordinary character texture with no new outcome revealed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Vito's death is already known to the viewer, and his widow requesting relocation money is ordinary aftermath texture with no outcome revealed."
+                }
+              ],
+              "reason": "Vito's death is already known to the viewer, and a widow requesting money is ordinary character texture with no new outcome revealed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Carmela finally has a buyer for the spec house, though the shoddy wood still nags at her conscience.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Finding a buyer for the spec house is ordinary plot texture rather than a death, reveal, betrayal or resolution of a pending conflict the viewer is anticipating."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A buyer for the spec house is an ordinary plot development rather than a death, betrayal or reveal, and the shoddy-wood guilt is already known to the viewer."
+                }
+              ],
+              "reason": "Finding a buyer for the spec house is ordinary plot texture rather than a death, reveal, betrayal or resolution of a pending conflict the viewer is anticipating."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "17": {
+      "title": "Walk Like a Man",
+      "candidates": [
+        {
+          "text": "Chris insists he avoids the Bada Bing and Satriale's because being around the alcohol there makes him anxious.",
+          "checks": {
+            "reverse": {
+              "picked": 17,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about Chris's sobriety and avoidance of hangouts, revealing no outcome, death, betrayal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Chris explaining his avoidance of hangouts due to sobriety anxiety is ordinary character texture consistent with his known addiction struggles, and reveals no outcome, death, or plot turn."
+                }
+              ],
+              "reason": "This is ordinary character texture about Chris's sobriety and avoidance of hangouts, revealing no outcome, death, betrayal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony tells Melfi he had been planning to quit therapy, and blames his son's troubles on his own \"rotten genes.\"",
+          "checks": {
+            "reverse": {
+              "picked": 17,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A therapy-session conversation restating already-established concerns about A.J.'s struggles and Tony's family-depression theme; no new outcome, death, or reveal is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a therapy-session conversation consistent with ongoing threads (A.J.'s troubles, Tony's ambivalence about therapy) and discloses no outcome, death, or new revelation."
+                }
+              ],
+              "reason": "A therapy-session conversation restating already-established concerns about A.J.'s struggles and Tony's family-depression theme; no new outcome, death, or reveal is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A.J. sinks into a depression, and his parents arrange for him to start seeing a therapist.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "Paulie drives his car back and forth across Chris's front lawn, tearing the grass to shreds.",
+          "checks": {
+            "reverse": {
+              "picked": 17,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a petty vandalism/prank moment consistent with the ongoing Paulie-Chris friction and does not disclose a death, betrayal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a new open conflict/falling-out between Paulie and Chris that hasn't occurred yet in the episodes watched."
+                }
+              ],
+              "reason": "It reveals a new open conflict/falling-out between Paulie and Chris that hasn't occurred yet in the episodes watched."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a new open conflict/falling-out between Paulie and Chris that hasn't occurred yet in the episodes watched."
+        }
+      ]
+    },
+    "18": {
+      "title": "Kennedy and Heidi",
+      "candidates": [
+        {
+          "text": "In Las Vegas, Tony takes peyote with a stripper and later watches the sun rise over red desert rock.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — Tony taking a drug trip in Vegas — without disclosing any outcome, death, betrayal, or resolution of a pending conflict the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric character texture — a trip and drug experience — without disclosing any outcome, death, betrayal or resolution of the pending mob conflicts."
+                }
+              ],
+              "reason": "This is character texture — Tony taking a drug trip in Vegas — without disclosing any outcome, death, betrayal, or resolution of a pending conflict the viewer is tracking."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A.J., slumped in his therapist's office, forlornly asks why can't we all just get along.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "Tony hits a winning streak at a roulette table, laughing helplessly until he collapses on the casino floor.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A gambling scene with Tony laughing and collapsing on the floor reads as character texture/behavior rather than a plot outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A gambling scene with Tony laughing and collapsing in giddiness is character texture, not an outcome or answer to a pending question."
+                }
+              ],
+              "reason": "A gambling scene with Tony laughing and collapsing on the floor reads as character texture/behavior rather than a plot outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Truckloads of waste are quietly dumped into a lake.",
+          "checks": {},
+          "rejected": "form: 9 words"
+        }
+      ]
+    },
+    "19": {
+      "title": "The Second Coming",
+      "candidates": [
+        {
+          "text": "In session with Melfi, Tony brings up a moment in Las Vegas when he sensed something beyond ordinary life, then drops it.",
+          "checks": {
+            "reverse": {
+              "picked": 19,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony takes a trip to Las Vegas and has a peyote/epiphany-type experience there, an upcoming plot development the viewer hasn't seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Tony discussing a vague spiritual/existential feeling in therapy, an ongoing character theme, without disclosing any death, conflict outcome, or plot reveal."
+                }
+              ],
+              "reason": "It reveals that Tony takes a trip to Las Vegas and has a peyote/epiphany-type experience there, an upcoming plot development the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Tony takes a trip to Las Vegas and has a peyote/epiphany-type experience there, an upcoming plot development the viewer hasn't seen."
+        },
+        {
+          "text": "Meadow has committed to law school and is dating the son of one of Tony's associates.",
+          "checks": {
+            "reverse": {
+              "picked": 19,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Meadow's relationship arc (her engagement to Finn is over and she is with a new, mob-connected boyfriend) and her career path, which the viewer has not yet seen resolved."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Meadow's career path and, implicitly, the end of her engagement to Finn, an open relationship thread from previous episodes."
+                }
+              ],
+              "reason": "It reveals the outcome of Meadow's relationship arc (her engagement to Finn is over and she is with a new, mob-connected boyfriend) and her career path, which the viewer has not yet seen resolved."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Meadow's relationship arc (her engagement to Finn is over and she is with a new, mob-connected boyfriend) and her career path, which the viewer has not yet seen resolved."
+        }
+      ]
+    },
+    "20": {
+      "title": "The Blue Comet",
+      "candidates": [
+        {
+          "text": "Janice tells Tony that Junior's savings have run out and can no longer pay for his facility.",
+          "checks": {
+            "reverse": {
+              "picked": 20,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary family/financial texture about Junior's declining circumstances and does not disclose any pending outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Junior's dwindling funds is a mundane setup detail about his ongoing care situation rather than an outcome, death, betrayal or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary family/financial texture about Junior's declining circumstances and does not disclose any pending outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In inpatient care, A.J. notices a friend's ex-girlfriend among the other young patients there.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        }
+      ]
+    },
+    "21": {
+      "title": "Made in America",
+      "candidates": [
+        {
+          "text": "Tony sits with an uncomprehending Junior and reminds him how he and Tony's father once ran North Jersey.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "This implies a final visit to Junior in his facility with Junior now unable to recognize him or recall his past, resolving the open thread of Junior's dementia progression and Tony's relationship with him."
+                },
+                {
+                  "reveals": true,
+                  "reason": "This implies Tony visits Junior in the facility, a reconciliation/closure beat with the uncle who shot him — an outcome of their unresolved conflict — though it is fairly mild."
+                }
+              ],
+              "reason": "This implies a final visit to Junior in his facility with Junior now unable to recognize him or recall his past, resolving the open thread of Junior's dementia progression and Tony's relationship with him."
+            }
+          },
+          "rejected": "consequence (2/2): This implies a final visit to Junior in his facility with Junior now unable to recognize him or recall his past, resolving the open thread of Junior's dementia progression and Tony's relationship with him."
+        },
+        {
+          "text": "Waiting in a diner booth, Tony flips through the pages of a tabletop jukebox looking for a song.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary, atmospheric action with no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary, atmospheric action with no outcome, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "This is an ordinary, atmospheric action with no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Janice makes a visit to the state facility where Junior is now living.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Junior has been moved from the private psychiatric facility to a state institution, indicating a downturn in his circumstances not yet known to the viewer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows a routine family visit and a change of care setting for Junior, without disclosing any outcome, death, betrayal or answer to a pending question."
+                }
+              ],
+              "reason": "It reveals that Junior has been moved from the private psychiatric facility to a state institution, indicating a downturn in his circumstances not yet known to the viewer."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Junior has been moved from the private psychiatric facility to a state institution, indicating a downturn in his circumstances not yet known to the viewer."
+        },
+        {
+          "text": "A.J. announces to his parents that he intends to enlist in the army.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "A pair of Muslim men have been hanging around the Bada Bing, and Tony has taken note of them.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is setup/texture introducing new background characters, not an outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is setup/texture introducing new background characters at a familiar location, without revealing any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is setup/texture introducing new background characters, not an outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 74160,
+    "out": 25412,
+    "cache_read": 1604257,
+    "cache_write": 19958,
+    "calls": 276
+  }
+}
