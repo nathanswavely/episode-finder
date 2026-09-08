@@ -26,13 +26,13 @@ async function loadShow(slug) {
 async function screenHome() {
   const intro = `
     <h1>Where did I stop?</h1>
-    <p class="lede">You watched a show a while ago, got partway in, and can't remember where. Answer a few questions about moments you might remember and I'll find the episode to pick back up from, without telling you anything you haven't seen.</p>`;
+    <p class="lede">You stopped watching a show a while back and can't remember where. I'll show you a few moments from it; say which ones you remember, and I'll work out the episode to restart from. I won't mention anything past it.</p>`;
   let shows;
   try {
     if (!index) h(`${intro}<div class="skeleton" aria-hidden="true"></div>`);
     shows = await loadIndex();
   } catch (e) {
-    h(`${intro}<div class="error">I couldn't load the list of shows. Check your connection and <a href="">try again</a>.</div>`);
+    h(`${intro}<div class="error">The list of shows didn't load. Check your connection and <a href="">try again</a>.</div>`);
     return;
   }
   const chips = shows.slice(0, 12).map((s) => `<li><button data-slug="${s.slug}">${esc(s.title)}</button></li>`).join("");
@@ -55,14 +55,14 @@ async function screenHome() {
     const hits = shows.filter((s) => s.title.toLowerCase().includes(q)).slice(0, 8);
     $r.innerHTML = hits.length
       ? hits.map((s) => `<li><button data-slug="${s.slug}"><span>${esc(s.title)}</span><span class="muted small">${s.seasons.length} season${s.seasons.length > 1 ? "s" : ""}</span></button></li>`).join("")
-      : `<li class="none">Not here yet. <a href="${document.getElementById("request-link").href}" rel="noopener">Request it</a>; it's a one-line issue.</li>`;
+      : `<li class="none">Not here yet. <a href="${document.getElementById("request-link").href}" rel="noopener">Request it</a>.</li>`;
   };
   $q.addEventListener("input", render);
   const pick = async (e) => {
     const b = e.target.closest("button[data-slug]");
     if (!b) return;
     try { screenSeason(await loadShow(b.dataset.slug)); }
-    catch { h(`${intro}<div class="error">I couldn't load that show. <a href="">Try again</a>.</div>`); }
+    catch { h(`${intro}<div class="error">That show didn't load. <a href="">Try again</a>.</div>`); }
   };
   $r.addEventListener("click", pick);
   $c.addEventListener("click", pick);
@@ -71,13 +71,13 @@ async function screenHome() {
 function screenSeason(show) {
   h(`
     <h1>${esc(show.title)}</h1>
-    <p class="lede">Which season were you in when you stopped? A rough guess is fine; I'll check.</p>
+    <p class="lede">Which season were you in when you stopped?</p>
     <div class="grid">
       ${show.seasons.map((s) => `<button class="btn" data-season="${s.season}">Season ${s.season}</button>`).join("")}
     </div>
     <div class="stack">
-      <button class="btn" data-unsure><span>Not sure, work it out with me</span></button>
-      <button class="btn quiet" data-home>Different show</button>
+      <button class="btn" data-unsure><span>Not sure</span></button>
+      <button class="btn quiet" data-home>Pick a different show</button>
     </div>
   `);
   $app.onclick = (e) => {
@@ -112,20 +112,19 @@ class Walker {
   ask(probe, seasonNum) {
     return new Promise((resolve) => {
       const n = this.log.length + 1;
-      const label = this.walkSeason ? `season ${this.walkSeason}` : "finding your season";
+      const label = this.walkSeason ? `season ${this.walkSeason}` : "which season?";
       const est = Math.max(n, Math.ceil(seasonMap(this.seasons.get(this.walkSeason || seasonNum) || this.show.seasons[0]).n / 2) + 2);
       const dots = Array.from({ length: est }, (_, i) => `<i class="${i < n ? "on" : ""}"></i>`).join("");
       h(`
         <p class="note">${n === 1
-          ? `${esc(this.show.title)}, ${label}. I'll skip ahead as we go, so the most I'll ever mention is one episode past where you stopped.`
+          ? `${esc(this.show.title)}, ${label}. I'll only show you moments from episodes you've seen, or at most one past where you stopped.`
           : `${esc(this.show.title)}, ${label}`}</p>
         <div class="dots" aria-hidden="true">${dots}</div>
-        <p class="prompt">Does this ring a bell?</p>
         <div class="card">${esc(probe)}</div>
         <div class="answers">
           <button class="btn primary" data-a="clear"><span>I clearly remember this</span><kbd>1</kbd></button>
           <button class="btn" data-a="unsure"><span>Not sure</span><kbd>2</kbd></button>
-          <button class="btn" data-a="no"><span>No, I don't remember this</span><kbd>3</kbd></button>
+          <button class="btn" data-a="no"><span>I don't remember this</span><kbd>3</kbd></button>
         </div>
       `);
       const done = (a) => { $app.onclick = null; document.onkeydown = null; resolve(a); };
@@ -143,10 +142,10 @@ class Walker {
     return new Promise((resolve) => {
       h(`
         <p class="note">${esc(this.show.title)}</p>
-        <div class="card consent">You're not sure about that one, which is fine. Want me to keep going? If I do, I might mention something from a little further ahead than I promised.</div>
+        <div class="card consent">You weren't sure about that one. I can keep going, but then I might mention something from more than one episode past where you stopped.</div>
         <div class="answers">
           <button class="btn primary" data-c="1"><span>Keep going</span><kbd>1</kbd></button>
-          <button class="btn" data-c="0"><span>Stop here and tell me what you've got</span><kbd>2</kbd></button>
+          <button class="btn" data-c="0"><span>Stop here</span><kbd>2</kbd></button>
         </div>
       `);
       const done = (v) => { $app.onclick = null; document.onkeydown = null; this.consented = v; resolve(v); };
@@ -266,24 +265,24 @@ function screenResult(walker, r) {
   if (r.outcome === "resume") {
     headline = `Start at season ${r.seasonNum}, ${t(r.resume)}.`;
     const lines = [];
-    if (r.hazyFrom) lines.push(`You weren't sure from around here on, so if it's all familiar, keep skipping ahead. You'll know.`);
+    if (r.hazyFrom) lines.push(`You weren't sure from here on. If it's all familiar, keep skipping ahead.`);
     else if (r.resume < r.n) lines.push(`If it's all familiar, skip to ${t(r.resume + 1)}.`);
-    if (r.fallback < r.resume) lines.push(`If you might have stopped partway through ${t(r.fallback)}, start there instead.`);
-    if (r.budgetHit) lines.push(`<span class="muted">I stopped at the question limit.</span>`);
-    if (r.unchecked) lines.push(`<span class="muted">I had nothing to check ${t(r.unchecked)} with, so I'm assuming you didn't see it.</span>`);
+    if (r.fallback < r.resume) lines.push(`If you think you stopped partway through ${t(r.fallback)}, start there.`);
+    if (r.budgetHit) lines.push(`<span class="muted">That was the 25-question limit, so treat this as a best guess.</span>`);
+    if (r.unchecked) lines.push(`<span class="muted">I have no questions for ${t(r.unchecked)}, so I'm assuming you haven't seen it.</span>`);
     body = lines.map((l) => `<p>${l}</p>`).join("");
-    if (r.resume < r.n) actions += `<button class="btn" data-further="${r.resume}"><span>Keep going, I think I got further</span></button>`;
+    if (r.resume < r.n) actions += `<button class="btn" data-further="${r.resume}"><span>I got further than that</span></button>`;
   } else if (r.outcome === "finished") {
     headline = `Looks like you finished season ${r.seasonNum}.`;
-    body = r.nextSeason ? `<p>Start season ${r.nextSeason}, episode 1.</p>` : `<p>That's the last season we have.</p>`;
+    body = r.nextSeason ? `<p>Start at season ${r.nextSeason}, episode 1.</p>` : `<p>That's the last season here.</p>`;
     if (r.nextSeason) actions += `<button class="btn" data-next="${r.nextSeason}"><span>Keep going into season ${r.nextSeason}</span></button>`;
   } else if (r.outcome === "back_up") {
-    headline = `Doesn't look like you finished season ${r.prevSeason}.`;
-    body = `<p>Want to try that one instead?</p>`;
+    headline = `It doesn't look like you finished season ${r.prevSeason}.`;
+    body = "";
     actions += `<button class="btn primary" data-season="${r.prevSeason}"><span>Try season ${r.prevSeason}</span></button>`;
   } else {
     headline = `Looks like you haven't started ${esc(show.title)}.`;
-    body = `<p>Start from the beginning. You're in for a good time.</p>`;
+    body = `<p>Start at episode 1.</p>`;
   }
 
   const seasonsUsed = [...new Set(r.log.map((l) => l.season))].map((n) => show.seasons.find((s) => s.season === n)).filter(Boolean);
@@ -299,7 +298,7 @@ function screenResult(walker, r) {
     <div class="stack">
       ${actions}
       <a class="btn" href="${feedback}" rel="noopener"><span>Tell me if this was right</span></a>
-      <button class="btn quiet" data-again>Start over with another show</button>
+      <button class="btn quiet" data-again>Start over</button>
     </div>
     <div class="attr">
       Episode summaries from Wikipedia, CC BY-SA 4.0:
