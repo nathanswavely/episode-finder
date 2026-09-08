@@ -1,0 +1,121 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 1,
+  "source": {
+    "title": "Game of Thrones season 1",
+    "revid": 1365331586,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_1&oldid=1365331586",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Winter Is Coming",
+      "probes": [
+        {
+          "text": "Six orphaned direwolf pups are found in the snow, and one is handed to each child of the northern household.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Across the Narrow Sea, a silver-haired exiled girl is given three fossilized dragon eggs as a wedding gift.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The king's whole travelling party rides north into the snowbound castle, the household lined up in the courtyard to receive them.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "2": {
+      "title": "The Kingsroad",
+      "probes": []
+    },
+    "3": {
+      "title": "Lord Snow",
+      "probes": [
+        {
+          "text": "Ned sits in on the King's Small Council for the first time and learns how deeply the realm is in debt.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Having learned Arya kept the sword Jon gave her, Ned arranges swordsmanship lessons for her in the capital.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In training at the Wall, Jon plainly outmatches the low-born recruits and convicted criminals swinging swords beside him.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "4": {
+      "title": "Cripples, Bastards, and Broken Things",
+      "probes": [
+        {
+          "text": "Jon steps in to shield an awkward, friendless new recruit from the beatings the other Watchmen hand out.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tyrion breaks his journey south with a stop at Winterfell before continuing on to King's Landing.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "The Wolf and the Lion",
+      "probes": []
+    },
+    "6": {
+      "title": "A Golden Crown",
+      "probes": [
+        {
+          "text": "Bran rides out through the woods on horseback for the first time, trying out his specially built saddle.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Ned sits the Iron Throne in Robert's absence, hearing complaints brought by petitioners from Riverrun.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Robert gathers his party and rides out of the capital for a hunting trip.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "7": {
+      "title": "You Win or You Die",
+      "probes": [
+        {
+          "text": "Jon's new duties have him waiting on Jeor Mormont personally, fetching and serving for the Lord Commander.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "The Pointy End",
+      "probes": [
+        {
+          "text": "Tyrion and Bronn are ambushed on a mountain road by a band of hill tribesmen.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dothraki riders sweep through a nearby settlement, roping together captured locals to be sold as slaves.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

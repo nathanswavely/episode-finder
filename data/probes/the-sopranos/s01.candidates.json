@@ -1,0 +1,610 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 1,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Sopranos season 1",
+    "revid": 1373424830,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_1&oldid=1373424830",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Sopranos",
+      "candidates": [
+        {
+          "text": "A family of wild ducks has settled in Tony's backyard pool, and he has been feeding and watching them.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "After a family of ducks he had been sheltering flies away",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony tries to talk his mother into moving to a nursing home, and she will not hear of it.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "When he tries to get his petulant mother Livia to go to a nursing home, her pushback",
+          "grounded_ok": true
+        },
+        {
+          "text": "Newly pointed toward a psychiatrist, Tony sits in her office and admits his line of work leaves him depressed.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "pointed to Dr. Jennifer Melfi for psychiatric help",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony's old friend Artie Bucco is running his own restaurant, Nuovo Vesuvio, and Tony's crowd turns up there.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Artie Bucco"
+          ],
+          "grounded_in": "Nuovo Vesuvio, a restaurant run by Tony's friend Artie Bucco",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1117,
+        "cache_read": 0,
+        "cache_write": 6287
+      }
+    },
+    "2": {
+      "title": "46 Long",
+      "candidates": [
+        {
+          "text": "Paulie and Big Pussy are put to work tracking down whoever stole Anthony Jr.'s teacher's car.",
+          "specificity": 4,
+          "characters_named": [
+            "Paulie",
+            "Big Pussy",
+            "Anthony Jr."
+          ],
+          "grounded_in": "Tony's son Anthony Jr.'s teacher has his car stolen, so Tony sends soldiers Salvatore \"Big Pussy\" Bonpensiero and Paulie Gualtieri to find those responsible",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony boxes up and carries family photographs out of Livia's house, alone among her old furniture.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Livia"
+          ],
+          "grounded_in": "moving family photos out of her house",
+          "grounded_ok": true
+        },
+        {
+          "text": "In session, Melfi presses Tony about aiming his anger at Livia at other people instead.",
+          "specificity": 3,
+          "characters_named": [
+            "Melfi",
+            "Tony",
+            "Livia"
+          ],
+          "grounded_in": "Melfi trying to get him to stop displacing his anger towards Livia",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris and his friend Brendan are hijacking trucks from a business that already pays protection to Junior.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris",
+            "Brendan",
+            "Junior"
+          ],
+          "grounded_in": "Chris and his friend Brendan Filone rob a trucking business that pays protection to Junior",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Livia's wrist injury, the driver's death and the Georgie beating are all excluded under rule 1.",
+      "usage": {
+        "in": 39,
+        "out": 1178,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Denial, Anger, Acceptance",
+      "candidates": [
+        {
+          "text": "Tony sits at his daughter's school choir recital and finds himself in tears during her solo.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "He attends his daughter Meadow's choir recital and is moved to tears by her solo part",
+          "grounded_ok": true
+        },
+        {
+          "text": "A Jewish motel owner brings Tony in to deal with a son-in-law refusing to give up his share.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony is hired by a Jewish man who is being extorted by his son-in-law",
+          "grounded_ok": true
+        },
+        {
+          "text": "In session, Melfi asks Tony whether it bothered him to be compared to a monster.",
+          "specificity": 3,
+          "characters_named": [
+            "Melfi",
+            "Tony"
+          ],
+          "grounded_in": "as well as asking if being compared to a monster upset him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris and Brendan bring the stolen truck back, and Tony ends up taking the credit for it.",
+          "specificity": 3,
+          "characters_named": [
+            "Chris",
+            "Brendan",
+            "Tony"
+          ],
+          "grounded_in": "Chris and Brendan return the stolen truck and Tony is given credit for solving the issue",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1349,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Meadowlands",
+      "candidates": [
+        {
+          "text": "At Tony's request, a police detective in his debt shadows Melfi through an evening out with a date.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "has indebted police detective Vin Makazian tail her while she is on a date",
+          "grounded_ok": true
+        },
+        {
+          "text": "A.J. squares off with a classmate at school, but the other boy backs down before anything happens.",
+          "specificity": 3,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "A.J. almost gets into a fight with a classmate, but the boy backs out",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning points (a death, the succession, a reveal about Tony's work), so safe material is thin.",
+      "usage": {
+        "in": 41,
+        "out": 1417,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "College",
+      "candidates": [
+        {
+          "text": "Tony drives Meadow from campus to campus on a college tour, the two of them alone on the road.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Meadow"
+          ],
+          "grounded_in": "While taking Meadow to tour colleges",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony and his daughter check into a roadside motel partway through their trip out of state.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "follows Tony to his motel",
+          "grounded_ok": true
+        },
+        {
+          "text": "With Tony away, Carmela has the parish priest over at the house and pours drinks.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "Carmela"
+          ],
+          "grounded_in": "she asks local priest Phil Intintola to stay when he comes over",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats (the killing, Meadow noticing the bruises, Carmela's near-kiss and her learning the therapist is a woman) are barred by rule 1, so probes are limited to travel texture.",
+      "usage": {
+        "in": 36,
+        "out": 1072,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Pax Soprana",
+      "candidates": [
+        {
+          "text": "Tony complains that his medication has flattened his sex drive, and it is wearing on him.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony's Prozac begins negatively affecting his sex drive",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior sits as guest of honor at a lavish celebration dinner with the family's capos around the table.",
+          "specificity": 4,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "At Junior's celebration dinner",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melfi discovers her car has been taken away and repaired for her without her ever asking.",
+          "specificity": 4,
+          "characters_named": [
+            "Melfi"
+          ],
+          "grounded_in": "He tries to kiss her and has her car repaired",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior starts levying a tax on Hesh, forcing Tony into an awkward negotiation with his uncle.",
+          "specificity": 4,
+          "characters_named": [
+            "Junior",
+            "Hesh",
+            "Tony"
+          ],
+          "grounded_in": "Junior begins taxing Tony's Jewish mob associate Herman \"Hesh\" Rabkin",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1256,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Down Neck",
+      "candidates": [
+        {
+          "text": "A.J. is caught drunk at school, and his parents are told he might have attention deficit disorder.",
+          "specificity": 5,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "After A.J. gets in trouble for being drunk in school, his parents learn that he may have ADD.",
+          "grounded_ok": true
+        },
+        {
+          "text": "In flashback, young Tony hides in the trunk of his father's car to see where his sister is being taken.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Jealous, he hid in the trunk of Johnny's car and learned that he was taking Janice to a fair",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony tells Melfi how his father always took his sister along on outings and left him behind.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "His father Johnny would take his sister Janice somewhere often, but he was always excluded.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony frets to Melfi that his own genes may have corrupted his son and shaped who the boy becomes.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "Tony worries that his genes may have corrupted his son and that he will turn out to be like him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 977,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Legend of Tennessee Moltisanti",
+      "candidates": [
+        {
+          "text": "Word comes that federal agents are about to move on the crew, and the capos scramble to destroy anything incriminating.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "The DiMeo family gets a tip that the FBI will soon be raiding them, so the capos hide and destroy any evidence of wrongdoing.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris keeps trying and failing to get anywhere with a mob screenplay he is writing.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "he struggles to write a mob screenplay",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melfi and her ex-husband go back and forth over whether she ought to keep treating a certain patient.",
+          "specificity": 4,
+          "characters_named": [
+            "Melfi"
+          ],
+          "grounded_in": "Melfi and her ex-husband debate over whether or not she should continue treating Tony.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris, losing patience at a bakery counter, makes a scene over being kept waiting for his order.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "he has an altercation at a bakery",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bad dreams keep Chris up at night, and he goes out to move a body he had buried.",
+          "specificity": 3,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "Chris has nightmares about the man he killed, so he digs up the body and relocates it.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 51,
+        "out": 1097,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Boca",
+      "candidates": [
+        {
+          "text": "Meadow's soccer coach has been offered a better job elsewhere, and is making plans to leave town.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow"
+          ],
+          "grounded_in": "Meadow's soccer coach makes plans to leave town for a better job",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony and Carmela can't resist trading sly, thinly veiled jokes at Junior's expense whenever he's around.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Carmela",
+            "Junior"
+          ],
+          "grounded_in": "both Carmela and Tony make thinly veiled jokes about it around him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior's girlfriend has been happily bragging to her friends about his talents in bed, against his wishes.",
+          "specificity": 4,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "Junior's girlfriend praises his cunnilingus talents against his wishes",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (the coach storyline, Junior's reaction, Tony's drinking) is framed by the summary as setup for or outcome of the planned hit and the revelation about the coach, so safe texture is limited.",
+      "usage": {
+        "in": 38,
+        "out": 1193,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "A Hit Is a Hit",
+      "candidates": [
+        {
+          "text": "Tony's neighbor invites him out for a round of golf, where the other men pepper him with questions about mob life.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony's neighbor Bruce Cusamano invites him to play golf with his friends. They make Tony uncomfortable with questions about mob life",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris sits down with a gangster rapper who is tangled up with Hesh over unpaid royalties.",
+          "specificity": 5,
+          "characters_named": [
+            "Chris",
+            "Hesh"
+          ],
+          "grounded_in": "meeting with a gangster rapper, who is in a dispute with Hesh about royalties",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony tells Melfi about a boy with a cleft palate he and his childhood friends used to mock.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "he tells Melfi about a boy from his childhood with a cleft palate he and his friends used to mock",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris tries to make Adriana's dream of working in music production happen, setting up her first recording.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris",
+            "Adriana"
+          ],
+          "grounded_in": "Chris tries to fulfill his girlfriend Adriana La Cerva's dream of being involved in music production",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony's crew sit around mocking the rapper for taking his dispute to lawyers and the courts instead.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony's crew mocks the rapper for going through the legal system",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The sand-in-a-box prank is the episode's closing punchline and is framed as revenge for Tony's humiliation, so I left it out.",
+      "usage": {
+        "in": 45,
+        "out": 1096,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Nobody Knows Anything",
+      "candidates": [
+        {
+          "text": "Paulie takes Pussy to a bath house, but Pussy stays fully dressed, blaming his high blood pressure.",
+          "specificity": 5,
+          "characters_named": [
+            "Paulie",
+            "Pussy"
+          ],
+          "grounded_in": "Paulie takes Pussy to a bath house, but Pussy refuses to take his clothes off, citing high blood pressure",
+          "grounded_ok": true
+        },
+        {
+          "text": "Makazian, the detective in Tony's pocket, passes along a rumour he has picked up about one of Tony's own men.",
+          "specificity": 4,
+          "characters_named": [
+            "Makazian",
+            "Tony"
+          ],
+          "grounded_in": "Makazian informs Tony that he heard Pussy is wearing a wire",
+          "grounded_ok": true
+        },
+        {
+          "text": "Federal agents burst in on one of the crew's card games mid-hand.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "The FBI raids a card game",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this episode is a death, arrest, or reveal, so safe texture is thin.",
+      "usage": {
+        "in": 45,
+        "out": 1527,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Isabella",
+      "candidates": [
+        {
+          "text": "Tony, listless and depressed, spends his days in bed, barely able to rouse himself.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "leaving Tony depressed and listless",
+          "grounded_ok": true
+        },
+        {
+          "text": "A young Italian exchange student is house-sitting for the neighbours next door while they are away.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "a young Italian exchange student watching over the Cusamanos' house while they are away",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony drifts into a sunlit old-country daydream of a young woman nursing an infant.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "fantasizes about her nursing a baby named Antonio",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1100,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "I Dream of Jeannie Cusamano",
+      "candidates": [
+        {
+          "text": "Carmela confronts the priest about his habit of getting close to lonely, 'spiritually thirsty' married women.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela"
+          ],
+          "grounded_in": "Carmela notices Phil getting close with Aprile's widow Rosalie and calls him out on his pattern of seducing \"spiritually thirsty\" married women",
+          "grounded_ok": true
+        },
+        {
+          "text": "A storm knocks the power out at the Soprano house, so the family goes out for dinner instead.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "A storm knocks out the power in the Soprano household",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the restaurant table Tony tells his children to remember the little moments that were good.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "where Tony advises his children to \"remember the little moments that were good.\"",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this finale's content is turning points (killings, an arrest, a stroke, the FBI tape), so only closing-scene texture and the Carmela/priest subplot were usable.",
+      "usage": {
+        "in": 50,
+        "out": 1622,
+        "cache_read": 6287,
+        "cache_write": 0
+      }
+    }
+  }
+}

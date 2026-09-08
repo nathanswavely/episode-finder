@@ -1,0 +1,701 @@
+{
+  "show": "Severance",
+  "slug": "severance",
+  "season": 1,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Good News About Hell",
+      "candidates": [
+        {
+          "text": "A woman wakes disoriented, face-down on a long empty conference table, and a voice over a speaker asks who she is.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an opening situation—a character waking in an unfamiliar room and being questioned—without disclosing any outcome, twist, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "With no prior episodes seen, this is an opening premise/setup image \\u2014 a disoriented character in a mysterious location \\u2014 that establishes atmosphere rather than resolving any known question or outcome."
+                }
+              ],
+              "reason": "It depicts an opening situation—a character waking in an unfamiliar room and being questioned—without disclosing any outcome, twist, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A new hire sits alone in a bare room watching an orientation video explaining the procedure she has undergone.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts a routine onboarding scene that conveys the show's basic premise rather than any outcome, twist, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "With no prior episodes watched, there are no pending conflicts or open questions; a new employee viewing an orientation video is premise-establishing setting and texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "It depicts a routine onboarding scene that conveys the show's basic premise rather than any outcome, twist, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A man makes small talk with his elderly next-door neighbour outside his house in the company-subsidized town.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts ordinary neighbourly small talk and establishes setting, revealing no outcome, twist, or answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Casual neighbourly small talk and the town setting are ordinary character/world texture, revealing no outcome or plot answer."
+                }
+              ],
+              "reason": "It depicts ordinary neighbourly small talk and establishes setting, revealing no outcome, twist, or answer to an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "An office worker walks a nervous newcomer through a scripted orientation, reading questions aloud and noting down her answers.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts a routine orientation interview—ordinary workplace texture that discloses no outcome, reveal, or answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts a mundane orientation interview with no outcome, reveal, or answer to any pending question."
+                }
+              ],
+              "reason": "It depicts a routine orientation interview—ordinary workplace texture that discloses no outcome, reveal, or answer to an open question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Half Loop",
+      "candidates": [
+        {
+          "text": "A small welcome party with snacks is thrown on the severed floor for the new hire, hosted by the deputy floor manager.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary workplace welcome party, which is setting and character texture rather than any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows a routine workplace welcome party, establishing setting and a new hire without disclosing any outcome, twist, or answer to a pending question."
+                }
+              ],
+              "reason": "It depicts an ordinary workplace welcome party, which is setting and character texture rather than any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Irving sees black liquid spreading across the surface of his desk while working at his terminal.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an odd, unexplained image during an ordinary work scene without disclosing any outcome, death, betrayal or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "With no prior context or pending questions established, this is an odd but self-contained atmospheric beat at a workplace terminal that doesn't disclose any outcome, death, betrayal or answer."
+                }
+              ],
+              "reason": "It shows an odd, unexplained image during an ordinary work scene without disclosing any outcome, death, betrayal or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Helly sits at her terminal for the first time, learning to sort cryptic numbers on screen into categories.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This depicts an ordinary onboarding activity that establishes the workplace premise rather than any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary onboarding/work activity — a new employee learning the job at her desk — without disclosing any outcome, twist, or answer to an open question."
+                }
+              ],
+              "reason": "This depicts an ordinary onboarding activity that establishes the workplace premise rather than any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a surgical suite the day before she starts, a microchip is implanted inside Helly's head.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses the show's central conceit \\u2014 that Helly's memory division is achieved by a microchip surgically implanted in her brain \\u2014 a mechanism the first episode withholds and gradually unveils."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses the central mechanic of the premise \"\" that a chip is surgically implanted in a character's brain \"\" which the series otherwise unveils gradually as a revelation."
+                }
+              ],
+              "reason": "It discloses the show's central conceit \\u2014 that Helly's memory division is achieved by a microchip surgically implanted in her brain \\u2014 a mechanism the first episode withholds and gradually unveils."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses the show's central conceit \\u2014 that Helly's memory division is achieved by a microchip surgically implanted in her brain \\u2014 a mechanism the first episode withholds and gradually unveils."
+        },
+        {
+          "text": "Petey stays the night at Mark's house and takes a shower there.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "With no prior episodes seen, this is mundane domestic texture \ffff a guest sleeping over and showering \ffff and gives away no death, discovery or resolved conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "With no prior episodes seen, a character staying overnight and showering at another's house is ordinary domestic texture, not an outcome or reveal."
+                }
+              ],
+              "reason": "With no prior episodes seen, this is mundane domestic texture \ffff a guest sleeping over and showering \ffff and gives away no death, discovery or resolved conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "In Perpetuity",
+      "candidates": [
+        {
+          "text": "Irving leads the group through a wing of the office devoted to the company founder and his family dynasty.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary office tour/setting detail (a wing honoring the founder) without revealing any outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Touring a company-history wing is setting and character texture, not an outcome or answer to a pending question."
+                }
+              ],
+              "reason": "It describes an ordinary office tour/setting detail (a wing honoring the founder) without revealing any outcome, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "While Mark is at work, Devon and Ricken drop a copy of Ricken's self-help book on his doorstep.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Dropping off a self-published self-help book is ordinary character texture and reveals no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's an ordinary domestic errand by side characters that discloses no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Dropping off a self-published self-help book is ordinary character texture and reveals no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Cobel sits at Lumon paging through a paperback self-help book, scanning it for hidden messages.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Cobel examining a self-help book is ordinary workplace texture and discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Cobel engaged in an ordinary investigative activity without disclosing any outcome, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "Cobel examining a self-help book is ordinary workplace texture and discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In the break room, Milchick has Helly recite the same apologetic passage over and over again.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Helly's rebellion \\u2014 that she is disciplined in the break room \\u2014 and exposes the nature of the break room punishment, a mechanism the show has only hinted at."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It shows Helly's rebellion has consequences \ffi she is caught and subjected to the break room's punitive apology ritual, revealing both her failed defiance and the true nature of the break room."
+                }
+              ],
+              "reason": "It reveals the outcome of Helly's rebellion \\u2014 that she is disciplined in the break room \\u2014 and exposes the nature of the break room punishment, a mechanism the show has only hinted at."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Helly's rebellion \\u2014 that she is disciplined in the break room \\u2014 and exposes the nature of the break room punishment, a mechanism the show has only hinted at."
+        }
+      ]
+    },
+    "4": {
+      "title": "The You You Are",
+      "candidates": [
+        {
+          "text": "Helly comes back to her desk from the break room, having been made to apologize over a thousand times.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Helly commits a further infraction and is subjected to the break room punishment, disclosing the outcome of that ordeal (her forced repeated apologies) before the viewer sees it."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Helly is punished in the break room \\u2014 an outcome of a further defiance/escape attempt \\u2014 which the viewer has not yet seen happen to her."
+                }
+              ],
+              "reason": "It reveals that Helly commits a further infraction and is subjected to the break room punishment, disclosing the outcome of that ordeal (her forced repeated apologies) before the viewer sees it."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Helly commits a further infraction and is subjected to the break room punishment, disclosing the outcome of that ordeal (her forced repeated apologies) before the viewer sees it."
+        },
+        {
+          "text": "Mark hides Petey's phone away, noticing several missed calls from the same blocked number.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary precautionary action and only vaguely hints someone is trying to reach Petey, without resolving his collapse or any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Ordinary character texture \ninvestigating a phone in Mark's home; it reveals no death, discovery or resolution of a pending conflict, only ominous atmosphere already implied by Lumon's pursuit of Petey."
+                }
+              ],
+              "reason": "It shows an ordinary precautionary action and only vaguely hints someone is trying to reach Petey, without resolving his collapse or any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Irving spends time down in Optics and Design, finding reasons to linger near Burt.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        },
+        {
+          "text": "Mark quietly holds on to Ricken's self-help book rather than handing it over to management as promised.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mark keeping a self-help book is a small character beat that doesn't resolve any pending question like Petey's collapse or Helly's escape attempts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is minor character texture about Mark keeping a book, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Mark keeping a self-help book is a small character beat that doesn't resolve any pending question like Petey's collapse or Helly's escape attempts."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "The Grim Barbarity of Optics and Design",
+      "candidates": [
+        {
+          "text": "Mark drives out to a rustic birthing lodge in the woods, where Devon and Ricken are staying.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Visiting the birthing retreat is ordinary setting and family texture, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and activity — visiting family at a birthing retreat — and doesn't disclose any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Visiting the birthing retreat is ordinary setting and family texture, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At home, Mark keeps working through Ricken's self-help book, struck by how anti-establishment its ideas are.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mark reading Ricken's book at home is ordinary character texture and reveals no outcome, though the book's existence is already known to the viewer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mark reading Ricken's book at home is ordinary character texture and doesn't disclose any outcome, death, or reveal."
+                }
+              ],
+              "reason": "Mark reading Ricken's book at home is ordinary character texture and reveals no outcome, though the book's existence is already known to the viewer."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Hide and Seek",
+      "candidates": [
+        {
+          "text": "Mrs. Selvig has installed herself in Devon and Ricken's house as their lactation consultant, hovering over the new baby.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Devon has given birth (resolving her pending pregnancy) and that Cobel has infiltrated Mark's family under her alias."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Devon has given birth and, more significantly, that Cobel has escalated her deception by embedding herself inside Mark's family under her false identity."
+                }
+              ],
+              "reason": "It reveals that Devon has given birth (resolving her pending pregnancy) and that Cobel has infiltrated Mark's family under her alias."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Devon has given birth (resolving her pending pregnancy) and that Cobel has infiltrated Mark's family under her alias."
+        },
+        {
+          "text": "Mark, out on a date with his sister's midwife, ends up at a loud punk-rock show singing along to a protest song.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary social outing and setting; no pending conflict, death, or plot question is resolved by Mark going on a date to a concert."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary social outing and setting for Mark outside work, without disclosing any outcome, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "It depicts an ordinary social outing and setting; no pending conflict, death, or plot question is resolved by Mark going on a date to a concert."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A new keycard-locked door goes in at the entrance to the Macrodata Refinement corridor.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A new door/security measure is ordinary setting texture and doesn't disclose any outcome, such as whether Helly survived her hanging attempt."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A new locked door is set dressing/security texture that doesn't disclose any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A new door/security measure is ordinary setting texture and doesn't disclose any outcome, such as whether Helly survived her hanging attempt."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Irving brings the refiners along to Optics and Design so Mark can pitch the two departments working together.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary workplace visit and a proposal between departments, without disclosing any outcome, notably not resolving Helly's hanging cliffhanger."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows a proposed inter-department visit and pitch — ordinary workplace activity with no outcome, and it doesn't resolve Helly's hanging or any pending conflict."
+                }
+              ],
+              "reason": "It shows an ordinary workplace visit and a proposal between departments, without disclosing any outcome, notably not resolving Helly's hanging cliffhanger."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Defiant Jazz",
+      "candidates": [
+        {
+          "text": "Milchick puts on music and leads the whole department in a dance session, awarded to them as Helly's prize.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A department-wide music-and-dance reward is ordinary workplace texture and doesn't resolve any pending conflict or open question the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A departmental perk/party is ordinary workplace texture and doesn't disclose any death, discovery, or resolution of pending conflicts."
+                }
+              ],
+              "reason": "A department-wide music-and-dance reward is ordinary workplace texture and doesn't resolve any pending conflict or open question the viewer is tracking."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A dance party breaks out at the desks, with one of the refiners refusing to join in the moves.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A workplace dance party is ordinary office texture and resolves no pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A dance party at the desks is ordinary workplace texture and reveals no outcome, death, discovery or answer to a pending question."
+                }
+              ],
+              "reason": "A workplace dance party is ordinary office texture and resolves no pending conflict or open question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  }
+}

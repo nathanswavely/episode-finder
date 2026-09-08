@@ -273,10 +273,12 @@ function screenResult(walker, r) {
     if (r.budgetHit) lines.push(`<span class="muted">That was the 25-question limit, so treat this as a best guess.</span>`);
     if (r.unchecked) lines.push(`<span class="muted">We have no questions for ${t(r.unchecked)}, so we're assuming you haven't seen it.</span>`);
     body = lines.map((l) => `<p>${l}</p>`).join("");
+    if (show.watch) actions += `<a class="btn primary" href="${esc(show.watch.url)}" rel="noopener"><span>Watch on ${esc(show.watch.service)}</span></a>`;
     if (r.resume < r.n) actions += `<button class="btn" data-further="${r.resume}"><span>I got further than that</span></button>`;
   } else if (r.outcome === "finished") {
     headline = `Looks like you finished season ${r.seasonNum}.`;
     body = r.nextSeason ? `<p>Start at season ${r.nextSeason}, episode 1.</p>` : `<p>That's the last season here.</p>`;
+    if (show.watch) actions += `<a class="btn primary" href="${esc(show.watch.url)}" rel="noopener"><span>Watch on ${esc(show.watch.service)}</span></a>`;
     if (r.nextSeason) actions += `<button class="btn" data-next="${r.nextSeason}"><span>Keep going into season ${r.nextSeason}</span></button>`;
   } else if (r.outcome === "back_up") {
     headline = `It doesn't look like you finished season ${r.prevSeason}.`;

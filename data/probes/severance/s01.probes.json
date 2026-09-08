@@ -1,0 +1,138 @@
+{
+  "show": "Severance",
+  "slug": "severance",
+  "season": 1,
+  "source": {
+    "title": "Severance (TV series)",
+    "revid": 1373815415,
+    "url": "https://en.wikipedia.org/w/index.php?title=Severance_%28TV_series%29&oldid=1373815415",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Good News About Hell",
+      "probes": [
+        {
+          "text": "A woman wakes disoriented, face-down on a long empty conference table, and a voice over a speaker asks who she is.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A new hire sits alone in a bare room watching an orientation video explaining the procedure she has undergone.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A man makes small talk with his elderly next-door neighbour outside his house in the company-subsidized town.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "2": {
+      "title": "Half Loop",
+      "probes": [
+        {
+          "text": "A small welcome party with snacks is thrown on the severed floor for the new hire, hosted by the deputy floor manager.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Irving sees black liquid spreading across the surface of his desk while working at his terminal.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Helly sits at her terminal for the first time, learning to sort cryptic numbers on screen into categories.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "3": {
+      "title": "In Perpetuity",
+      "probes": [
+        {
+          "text": "Irving leads the group through a wing of the office devoted to the company founder and his family dynasty.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "While Mark is at work, Devon and Ricken drop a copy of Ricken's self-help book on his doorstep.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Cobel sits at Lumon paging through a paperback self-help book, scanning it for hidden messages.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "The You You Are",
+      "probes": [
+        {
+          "text": "Mark hides Petey's phone away, noticing several missed calls from the same blocked number.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mark quietly holds on to Ricken's self-help book rather than handing it over to management as promised.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "The Grim Barbarity of Optics and Design",
+      "probes": [
+        {
+          "text": "Mark drives out to a rustic birthing lodge in the woods, where Devon and Ricken are staying.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At home, Mark keeps working through Ricken's self-help book, struck by how anti-establishment its ideas are.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "6": {
+      "title": "Hide and Seek",
+      "probes": [
+        {
+          "text": "Mark, out on a date with his sister's midwife, ends up at a loud punk-rock show singing along to a protest song.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A new keycard-locked door goes in at the entrance to the Macrodata Refinement corridor.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Irving brings the refiners along to Optics and Design so Mark can pitch the two departments working together.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "Defiant Jazz",
+      "probes": [
+        {
+          "text": "Milchick puts on music and leads the whole department in a dance session, awarded to them as Helly's prize.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A dance party breaks out at the desks, with one of the refiners refusing to join in the moves.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

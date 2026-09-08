@@ -1,0 +1,93 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 1,
+  "source": {
+    "title": "Stranger Things season 1",
+    "revid": 1373540657,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_1&oldid=1373540657",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Vanishing of Will Byers",
+      "probes": [
+        {
+          "text": "Four boys finish a long Dungeons & Dragons game in a suburban basement, then pedal off home through the dark.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A nervous girl in a hospital gown wanders into a small roadside diner, and the owner sits her down with food.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Inside a government laboratory, staff examine a strange organic substance oozing from a wall down in the basement.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "Chapter Two: The Weirdo on Maple Street",
+      "probes": [
+        {
+          "text": "The boys argue in Mike's basement about what to do with the girl they brought home.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Chapter Three: Holly, Jolly",
+      "probes": [
+        {
+          "text": "Hopper sits with lab staff and watches security footage from the front gate on the night Will vanished.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Chapter Four: The Body",
+      "probes": [
+        {
+          "text": "The boys sneak Eleven into their school after hours, hoping the ham radio there is powerful enough.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Joyce tears the wallpaper off her living room wall, following her son's voice coming through it.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Steve argues with Nancy, worried mainly about getting in trouble with his father rather than her missing friend.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Chapter Five: The Flea and the Acrobat",
+      "probes": [
+        {
+          "text": "The boys trek through the woods in a line, each of them watching the needle of a compass.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Chapter Six: The Monster",
+      "probes": [
+        {
+          "text": "Eleven wanders into a grocery store and walks out with an armful of stolen Eggo waffle boxes.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

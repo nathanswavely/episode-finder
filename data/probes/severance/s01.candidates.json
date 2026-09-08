@@ -1,0 +1,411 @@
+{
+  "show": "Severance",
+  "slug": "severance",
+  "season": 1,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Severance (TV series)",
+    "revid": 1373815415,
+    "url": "https://en.wikipedia.org/w/index.php?title=Severance_%28TV_series%29&oldid=1373815415",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Good News About Hell",
+      "candidates": [
+        {
+          "text": "A woman wakes disoriented, face-down on a long empty conference table, and a voice over a speaker asks who she is.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "the replacement, who wakes up in a conference room with no memory of who or where she is",
+          "grounded_ok": true
+        },
+        {
+          "text": "A new hire sits alone in a bare room watching an orientation video explaining the procedure she has undergone.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "She watches a video explaining that she has undergone the \"severance\" procedure",
+          "grounded_ok": true
+        },
+        {
+          "text": "A man makes small talk with his elderly next-door neighbour outside his house in the company-subsidized town.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "Mark returns home and interacts with his neighbor, \"Mrs.Selvig\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "An office worker walks a nervous newcomer through a scripted orientation, reading questions aloud and noting down her answers.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "His first task is to orient Helly, the replacement... After being given an orientation and learning her name",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Episode 1 has no prior episodes, so no character names could be used; probes are deliberately name-free.",
+      "usage": {
+        "in": 42,
+        "out": 1614,
+        "cache_read": 0,
+        "cache_write": 5932
+      }
+    },
+    "2": {
+      "title": "Half Loop",
+      "candidates": [
+        {
+          "text": "A small welcome party with snacks is thrown on the severed floor for the new hire, hosted by the deputy floor manager.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "During a welcome party headed by deputy floor manager Seth Milchick",
+          "grounded_ok": true
+        },
+        {
+          "text": "Irving sees black liquid spreading across the surface of his desk while working at his terminal.",
+          "specificity": 5,
+          "characters_named": [
+            "Irving"
+          ],
+          "grounded_in": "Irving hallucinates a black liquid covering his desk",
+          "grounded_ok": true
+        },
+        {
+          "text": "Helly sits at her terminal for the first time, learning to sort cryptic numbers on screen into categories.",
+          "specificity": 4,
+          "characters_named": [
+            "Helly"
+          ],
+          "grounded_in": "instructed that her job is to sort cryptic numbers into categories",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a surgical suite the day before she starts, a microchip is implanted inside Helly's head.",
+          "specificity": 4,
+          "characters_named": [
+            "Helly"
+          ],
+          "grounded_in": "Helly undergoes the severance procedure as a new employee, implanting a microchip inside her brain",
+          "grounded_ok": true
+        },
+        {
+          "text": "Petey stays the night at Mark's house and takes a shower there.",
+          "specificity": 4,
+          "characters_named": [
+            "Petey",
+            "Mark"
+          ],
+          "grounded_in": "Mark gives Petey shelter in his house. While taking a shower",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1572,
+        "cache_read": 5932,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "In Perpetuity",
+      "candidates": [
+        {
+          "text": "Irving leads the group through a wing of the office devoted to the company founder and his family dynasty.",
+          "specificity": 5,
+          "characters_named": [
+            "Irving"
+          ],
+          "grounded_in": "Irving suggests they show her the office's Perpetuity Wing, which documents the history of Lumon's founder, Kier Eagan, and his succeeding dynasty",
+          "grounded_ok": true
+        },
+        {
+          "text": "While Mark is at work, Devon and Ricken drop a copy of Ricken's self-help book on his doorstep.",
+          "specificity": 4,
+          "characters_named": [
+            "Mark",
+            "Devon",
+            "Ricken"
+          ],
+          "grounded_in": "his sister, Devon, and brother-in-law, Ricken, deliver the latter's self-help book, The You You Are, to his doorstep",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cobel sits at Lumon paging through a paperback self-help book, scanning it for hidden messages.",
+          "specificity": 4,
+          "characters_named": [
+            "Cobel"
+          ],
+          "grounded_in": "which Cobel steals and takes to Lumon to check for hidden messages",
+          "grounded_ok": true
+        },
+        {
+          "text": "In the break room, Milchick has Helly recite the same apologetic passage over and over again.",
+          "specificity": 4,
+          "characters_named": [
+            "Milchick",
+            "Helly"
+          ],
+          "grounded_in": "Helly is taken to the break room, where Milchick forces her to repeatedly recite an apologetic passage",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1289,
+        "cache_read": 5932,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "The You You Are",
+      "candidates": [
+        {
+          "text": "Helly comes back to her desk from the break room, having been made to apologize over a thousand times.",
+          "specificity": 4,
+          "characters_named": [
+            "Helly"
+          ],
+          "grounded_in": "Helly returns from the break room after being forced to apologize over a thousand times.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mark hides Petey's phone away, noticing several missed calls from the same blocked number.",
+          "specificity": 4,
+          "characters_named": [
+            "Mark",
+            "Petey"
+          ],
+          "grounded_in": "Mark stashes away Petey's phone, noticing several missed calls from the same blocked number.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Irving spends time down in Optics and Design, finding reasons to linger near Burt.",
+          "specificity": 3,
+          "characters_named": [
+            "Irving",
+            "Burt"
+          ],
+          "grounded_in": "Irving visits O&D, where he grows closer to Burt",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mark quietly holds on to Ricken's self-help book rather than handing it over to management as promised.",
+          "specificity": 4,
+          "characters_named": [
+            "Mark",
+            "Ricken"
+          ],
+          "grounded_in": "Mark keeps the book, despite promising to give it to management.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1159,
+        "cache_read": 5932,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "The Grim Barbarity of Optics and Design",
+      "candidates": [
+        {
+          "text": "Mark drives out to a rustic birthing lodge in the woods, where Devon and Ricken are staying.",
+          "specificity": 5,
+          "characters_named": [
+            "Mark",
+            "Devon",
+            "Ricken"
+          ],
+          "grounded_in": "Mark visits Devon and Ricken at a birthing lodge",
+          "grounded_ok": true
+        },
+        {
+          "text": "At home, Mark keeps working through Ricken's self-help book, struck by how anti-establishment its ideas are.",
+          "specificity": 3,
+          "characters_named": [
+            "Mark",
+            "Ricken"
+          ],
+          "grounded_in": "Mark continues to read Ricken's book, which carries strong anti-establishment sentiments",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats (Helly's return, the map, Burt's admission about O&D) are outcomes or reveals, so only the outside-world texture is usable.",
+      "usage": {
+        "in": 51,
+        "out": 1181,
+        "cache_read": 5932,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Hide and Seek",
+      "candidates": [
+        {
+          "text": "Mrs. Selvig has installed herself in Devon and Ricken's house as their lactation consultant, hovering over the new baby.",
+          "specificity": 5,
+          "characters_named": [
+            "Devon",
+            "Ricken"
+          ],
+          "grounded_in": "Cobel (as Mrs.Selvig) gets close to Devon and Ricken by acting as their lactation consultant.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mark, out on a date with his sister's midwife, ends up at a loud punk-rock show singing along to a protest song.",
+          "specificity": 5,
+          "characters_named": [
+            "Mark"
+          ],
+          "grounded_in": "Mark goes on a date with Alexa, Devon's midwife, to a concert by Petey's daughter's punk-rock band, and sings along to an anti-Lumon protest song.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A new keycard-locked door goes in at the entrance to the Macrodata Refinement corridor.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Cobel orders a keycard-locked door to be installed at the entrance to MDR.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Irving brings the refiners along to Optics and Design so Mark can pitch the two departments working together.",
+          "specificity": 4,
+          "characters_named": [
+            "Irving",
+            "Mark"
+          ],
+          "grounded_in": "Mark has Irving introduce MDR to O&D, where he calls for the departments to work together",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1108,
+        "cache_read": 5932,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Defiant Jazz",
+      "candidates": [
+        {
+          "text": "Milchick puts on music and leads the whole department in a dance session, awarded to them as Helly's prize.",
+          "specificity": 5,
+          "characters_named": [
+            "Milchick",
+            "Helly"
+          ],
+          "grounded_in": "Milchick engages in a \"Music Dance Experience\" with the department, as a prize for Helly.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A dance party breaks out at the desks, with one of the refiners refusing to join in the moves.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Milchick engages in a \"Music Dance Experience\" with the department... Dylan refuses to participate",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive beats (the university meeting, the security office, Burt's news, the photograph) are framed as deaths, reveals, or turning points, so only the dance sequence was usable.",
+      "usage": {
+        "in": 43,
+        "out": 1841,
+        "cache_read": 5932,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "What's for Dinner?",
+      "candidates": [
+        {
+          "text": "Dylan wears a Kier Eagan mask, seated in a replica of Kier's bedroom while ritualistic dancers perform before him.",
+          "specificity": 5,
+          "characters_named": [
+            "Dylan"
+          ],
+          "grounded_in": "he dons a Kier Eagan mask and sits within a replica of Kier's bedroom in the Perpetuity Wing while ritualistic and seductive dances are performed in front of him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Outside work, Mark turns up at Ricken's book-reading party and ends up chatting with his neighbor Mrs. Selvig.",
+          "specificity": 4,
+          "characters_named": [
+            "Mark",
+            "Ricken"
+          ],
+          "grounded_in": "Mark's outie attends Ricken's book-reading party and tells \"Mrs.Selvig\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Irving's outie lives alone in an apartment, painting the same dark corridor over and over again.",
+          "specificity": 4,
+          "characters_named": [
+            "Irving"
+          ],
+          "grounded_in": "Irving's outie lives alone in an apartment, where he paints identical images of a dark corridor",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (quota, suspension, kiss, Ms. Casey's fate, the contingency) is off-limits under rule 1.",
+      "usage": {
+        "in": 43,
+        "out": 1525,
+        "cache_read": 5932,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "The We We Are",
+      "candidates": [
+        {
+          "text": "Mark's innie wakes disoriented in the middle of a house party, arms around his neighbour in a hug.",
+          "specificity": 5,
+          "characters_named": [
+            "Mark"
+          ],
+          "grounded_in": "Mark's innie awakens in Devon's home and finds himself hugging Mrs.Selvig",
+          "grounded_ok": true
+        },
+        {
+          "text": "Irving, awake in his own apartment, wanders among canvases of a dark corridor he doesn't remember painting.",
+          "specificity": 4,
+          "characters_named": [
+            "Irving"
+          ],
+          "grounded_in": "Irving wakes up in his apartment, discovering his outie's paintings",
+          "grounded_ok": true
+        },
+        {
+          "text": "Helly comes to in formal dress amid a crowd at a glossy Lumon function.",
+          "specificity": 4,
+          "characters_named": [
+            "Helly"
+          ],
+          "grounded_in": "Helly wakes up at a Lumon gala",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cobel drives fast while phoning Milchick, no longer bothering with her friendly neighbour voice.",
+          "specificity": 3,
+          "characters_named": [
+            "Cobel",
+            "Milchick"
+          ],
+          "grounded_in": "Cobel calls Milchick to warn him.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1301,
+        "cache_read": 5932,
+        "cache_write": 0
+      }
+    }
+  }
+}

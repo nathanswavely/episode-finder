@@ -19,6 +19,7 @@ OUT = ROOT / "site/data"
 
 
 def main():
+    watch = json.loads((ROOT / "data/watch.json").read_text()) if (ROOT / "data/watch.json").exists() else {}
     shows = {}
     for probes_path in sorted((ROOT / "data/probes").glob("*/s*.probes.json")):
         if ".meta." in probes_path.name:
@@ -38,7 +39,8 @@ def main():
             print(f"skip {p['show']} S{p['season']}: not rechecked (run audit.py --recheck)")
             continue
         show = shows.setdefault(p["slug"], {"slug": p["slug"], "title": p["show"],
-                                            "license": "CC BY-SA 4.0", "seasons": []})
+                                            "license": "CC BY-SA 4.0", "seasons": [],
+                                            **({"watch": watch[p["slug"]]} if p["slug"] in watch else {})})
         show["seasons"].append({
             "season": p["season"],
             "source": {"title": raw["source"]["title"], "url": raw["source"]["url"], "revid": raw["source"]["revid"]},

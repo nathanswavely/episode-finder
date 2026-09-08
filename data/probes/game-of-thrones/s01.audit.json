@@ -1,0 +1,758 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 1,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Winter Is Coming",
+      "candidates": [
+        {
+          "text": "Six orphaned direwolf pups are found in the snow, and one is handed to each child of the northern household.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "With no prior episodes seen, this is opening-premise texture\n\n\ntroducing the children and their wolves rather than resolving any established question or conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "With no prior episodes seen, this is early setup/texture \\u2014 an incidental discovery that establishes characters and their pets rather than resolving any pending conflict or open question."
+                }
+              ],
+              "reason": "With no prior episodes seen, this is opening-premise texture\n\n\ntroducing the children and their wolves rather than resolving any established question or conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Across the Narrow Sea, a silver-haired exiled girl is given three fossilized dragon eggs as a wedding gift.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "For a viewer who has seen no episodes, this is premise-level setup introducing a new character and her situation \ronly \rno pending question is answered and no outcome, death, or betrayal is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "For a viewer with no prior context, this is scene-setting introduction of a new character and her wedding gift; it answers no open question and spoils no pending conflict."
+                }
+              ],
+              "reason": "For a viewer who has seen no episodes, this is premise-level setup introducing a new character and her situation \ronly \rno pending question is answered and no outcome, death, or betrayal is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The king's whole travelling party rides north into the snowbound castle, the household lined up in the courtyard to receive them.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts a royal party's arrival and formal welcome \ba setting and situation detail\b without disclosing any outcome, revelation, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts a routine arrival and formal welcome, conveying setting and scale rather than any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "It depicts a royal party's arrival and formal welcome \ba setting and situation detail\b without disclosing any outcome, revelation, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "The Kingsroad",
+      "candidates": [
+        {
+          "text": "Tyrion Lannister rides north toward the Wall, keeping company with Jon on the long journey there.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Tyrion"
+        },
+        {
+          "text": "Catelyn stays behind at Winterfell, keeping vigil at the bedside of the still unconscious Bran.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bran has been gravely injured and lies unconscious, an outcome the viewer who has seen nothing would otherwise learn in the episode."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Bran has been seriously injured and lies unconscious, a major turning point the viewer hasn't yet seen."
+                }
+              ],
+              "reason": "It reveals that Bran has been gravely injured and lies unconscious, an outcome the viewer who has seen nothing would otherwise learn in the episode."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Bran has been gravely injured and lies unconscious, an outcome the viewer who has seen nothing would otherwise learn in the episode."
+        },
+        {
+          "text": "Daenerys, newly wed, devotes herself to learning how to please Drogo in the marriage bed.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes ongoing marital circumstances and Daenerys's personal adjustment rather than any outcome, twist, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Daenerys is married to Drogo, an outcome the viewer has not yet seen occur."
+                }
+              ],
+              "reason": "It discloses that Daenerys is married to Drogo, an outcome the viewer has not yet seen occur."
+            }
+          },
+          "rejected": "consequence (1/2): It discloses that Daenerys is married to Drogo, an outcome the viewer has not yet seen occur."
+        },
+        {
+          "text": "Ned sets out down the Kingsroad for King's Landing with both his daughters, Sansa and Arya, in tow.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Arya"
+        },
+        {
+          "text": "Jon heads north to join his uncle Benjen and take his place among the Night's Watch.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Benjen"
+        }
+      ]
+    },
+    "3": {
+      "title": "Lord Snow",
+      "candidates": [
+        {
+          "text": "Ned sits in on the King's Small Council for the first time and learns how deeply the realm is in debt.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Ned in his expected new role at court and conveys background worldbuilding about crown debt, not an outcome or answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Ned attending a council meeting and learning of crown debt is political texture, not an outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "It shows Ned in his expected new role at court and conveys background worldbuilding about crown debt, not an outcome or answer to an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Having learned Arya kept the sword Jon gave her, Ned arranges swordsmanship lessons for her in the capital.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — a father indulging his daughter's interest — and doesn't disclose any death, reveal, or resolution of the pending Lannister conspiracy plot."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Ned indulging Arya with fencing lessons — and doesn't disclose any death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is character texture — a father indulging his daughter's interest — and doesn't disclose any death, reveal, or resolution of the pending Lannister conspiracy plot."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In training at the Wall, Jon plainly outmatches the low-born recruits and convicted criminals swinging swords beside him.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and character texture showing Jon's training skill, not an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Jon's training superiority at the Wall, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary setting and character texture showing Jon's training skill, not an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Travelling secretly toward King's Landing, Catelyn is intercepted by a childhood friend who now sits on the council.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes Catelyn travelling and meeting an old acquaintance—setting and character texture rather than any outcome, death, or revelation about the pending Lannister plot."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is travel/setup texture \\u2014 Catelyn journeying south and meeting an old friend \\u2014 without disclosing any outcome, such as Bran's fate or the Lannister plot's resolution."
+                }
+              ],
+              "reason": "It only describes Catelyn travelling and meeting an old acquaintance—setting and character texture rather than any outcome, death, or revelation about the pending Lannister plot."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Before Tyrion rides south from the Wall, the Lord Commander asks him to beg the King for more recruits.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting texture — Tyrion visiting the Wall and a routine request for men — without revealing any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A request for recruits during Tyrion's visit to the Wall is ordinary setting/character texture and resolves no pending question or outcome."
+                }
+              ],
+              "reason": "This is ordinary setting texture — Tyrion visiting the Wall and a routine request for men — without revealing any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Cripples, Bastards, and Broken Things",
+      "candidates": [
+        {
+          "text": "Tyrion hands the Starks a sketch for a special saddle, designed so Bran can ride a horse again.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bran regains consciousness but is permanently crippled/unable to walk, answering the open question of his fate after the fall."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bran survives, regains consciousness, and is permanently paralysed — answering the open question of his fate after the fall and assassination attempt."
+                }
+              ],
+              "reason": "It reveals that Bran regains consciousness but is permanently crippled/unable to walk, answering the open question of his fate after the fall."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Bran regains consciousness but is permanently crippled/unable to walk, answering the open question of his fate after the fall."
+        },
+        {
+          "text": "Jon steps in to shield an awkward, friendless new recruit from the beatings the other Watchmen hand out.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Jon's established arc at the Wall, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about Jon's mentorship at the Wall, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture consistent with Jon's established arc at the Wall, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tyrion breaks his journey south with a stop at Winterfell before continuing on to King's Landing.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely describes Tyrion's travel itinerary, a routine plot logistic that discloses no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Tyrion stopping at Winterfell en route is ordinary travel texture, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "It merely describes Tyrion's travel itinerary, a routine plot logistic that discloses no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Viserys, increasingly frustrated, picks a fight with his sister, who no longer meekly submits to him.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: picked E3 (conf 3)"
+        }
+      ]
+    },
+    "5": {
+      "title": "The Wolf and the Lion",
+      "candidates": [
+        {
+          "text": "Catelyn brings her bound Lannister prisoner up to her sister Lysa's fortress home, the Eyrie, high in the mountains.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Catelyn captures and imprisons a Lannister and takes him to the Eyrie, a major turning point in her pending investigation that hasn't happened yet."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Catelyn arrests/captures a Lannister prisoner and takes him to the Eyrie, a major turning point following her suspicion of the Lannisters over Bran's assassination attempt."
+                }
+              ],
+              "reason": "It reveals that Catelyn captures and imprisons a Lannister and takes him to the Eyrie, a major turning point in her pending investigation that hasn't happened yet."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Catelyn captures and imprisons a Lannister and takes him to the Eyrie, a major turning point in her pending investigation that hasn't happened yet."
+        },
+        {
+          "text": "Tyrion, hands tied, is marched along a narrow mountain road toward a castle perched above the Vale.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tyrion is taken captive and being brought to the Vale as a prisoner, spoiling his arrest and the resolution of Catelyn's suspicion plotline."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tyrion is taken captive and brought to the Vale, an arrest outcome the viewer hasn't seen coming."
+                }
+              ],
+              "reason": "It reveals that Tyrion is taken captive and being brought to the Vale as a prisoner, spoiling his arrest and the resolution of Catelyn's suspicion plotline."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tyrion is taken captive and being brought to the Vale as a prisoner, spoiling his arrest and the resolution of Catelyn's suspicion plotline."
+        }
+      ]
+    },
+    "6": {
+      "title": "A Golden Crown",
+      "candidates": [
+        {
+          "text": "Held at the Eyrie, Tyrion demands a trial by combat rather than face Lysa's judgment.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Tyrion's arrest — that Catelyn brings him to the Eyrie and he escalates to a trial by combat, advancing a pending conflict the viewer hasn't seen resolved."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Tyrion's arrest — that Catelyn takes him to the Eyrie for Lysa's judgment and he escalates by demanding trial by combat."
+                }
+              ],
+              "reason": "It reveals the outcome of Tyrion's arrest — that Catelyn brings him to the Eyrie and he escalates to a trial by combat, advancing a pending conflict the viewer hasn't seen resolved."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Tyrion's arrest — that Catelyn brings him to the Eyrie and he escalates to a trial by combat, advancing a pending conflict the viewer hasn't seen resolved."
+        },
+        {
+          "text": "Bran rides out through the woods on horseback for the first time, trying out his specially built saddle.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary activity following from the already-introduced saddle gift, without disclosing any outcome, danger, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It simply shows Bran using the saddle Tyrion already designed for him, an expected follow-through rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "It shows an ordinary activity following from the already-introduced saddle gift, without disclosing any outcome, danger, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Ned sits the Iron Throne in Robert's absence, hearing complaints brought by petitioners from Riverrun.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Ned performing his expected duty as Hand holding court in the king's absence \\u2014 a setting/activity with no stated outcome, verdict, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Ned acting as Hand holding court is an expected duty of his role and the sentence discloses no outcome, verdict, or answer to a pending question."
+                }
+              ],
+              "reason": "It only shows Ned performing his expected duty as Hand holding court in the king's absence \\u2014 a setting/activity with no stated outcome, verdict, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Robert gathers his party and rides out of the capital for a hunting trip.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A hunting trip departure is ordinary setup and texture, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A king departing on a hunt is ordinary activity and setting texture, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "A hunting trip departure is ordinary setup and texture, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Ned tells Arya and Sansa they are being sent back north to Winterfell for their own safety.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A protective decision about the daughters' travel plans is ordinary plot texture; it discloses no death, discovery, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point \" that Ned's investigation leads him to conclude King's Landing has become too dangerous, prompting him to break off the arrangement and send his daughters home."
+                }
+              ],
+              "reason": "It reveals a turning point \" that Ned's investigation leads him to conclude King's Landing has become too dangerous, prompting him to break off the arrangement and send his daughters home."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a turning point \" that Ned's investigation leads him to conclude King's Landing has become too dangerous, prompting him to break off the arrangement and send his daughters home."
+        }
+      ]
+    },
+    "7": {
+      "title": "You Win or You Die",
+      "candidates": [
+        {
+          "text": "At the Wall the recruits get their assignments: Jon and Sam are both made stewards rather than rangers.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Sam"
+        },
+        {
+          "text": "Jon's new duties have him waiting on Jeor Mormont personally, fetching and serving for the Lord Commander.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes Jon's routine duties/role at the Wall, which is character texture rather than an outcome, death, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jon serving as the Lord Commander's steward is a duty assignment/character texture, not an outcome of any conflict or open question the viewer is tracking."
+                }
+              ],
+              "reason": "It only describes Jon's routine duties/role at the Wall, which is character texture rather than an outcome, death, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Sam works out that the steward's post beside the Lord Commander is meant to prepare Jon for command.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Sam"
+        }
+      ]
+    },
+    "8": {
+      "title": "The Pointy End",
+      "candidates": [
+        {
+          "text": "Tyrion and Bronn are ambushed on a mountain road by a band of hill tribesmen.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts a new situation/setup on Tyrion's journey after his release, without revealing any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An ambush on the road is a new situation for Tyrion's journey rather than an outcome, death, or reveal, and it resolves no pending question the viewer has."
+                }
+              ],
+              "reason": "It depicts a new situation/setup on Tyrion's journey after his release, without revealing any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dothraki riders sweep through a nearby settlement, roping together captured locals to be sold as slaves.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts a generic Dothraki raiding activity consistent with established culture, without revealing any character outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A raid depicting Dothraki custom is background texture and does not resolve any pending conflict or reveal an outcome the viewer awaits."
+                }
+              ],
+              "reason": "It depicts a generic Dothraki raiding activity consistent with established culture, without revealing any character outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Robb musters the northern lords and their armies, leaving Bran behind to hold Winterfell in his place.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the brewing Stark\ndash Lannister conflict escalates into open war with Robb calling the northern banners and marching south, a major turning point the viewer has not yet seen resolved."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the turning point that the North goes to war, with Robb calling the banners and marching south \\u2014 the outcome of the pending Stark\\u2013Lannister conflict escalating."
+                }
+              ],
+              "reason": "It reveals that the brewing Stark\ndash Lannister conflict escalates into open war with Robb calling the northern banners and marching south, a major turning point the viewer has not yet seen resolved."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the brewing Stark\ndash Lannister conflict escalates into open war with Robb calling the northern banners and marching south, a major turning point the viewer has not yet seen resolved."
+        },
+        {
+          "text": "Catelyn rides out of her sister's mountain fortress to join her son's camp in the field.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Robb has raised an army and marched to war\ttoo, signalling the escalation into open conflict with the Lannisters that the viewer only knows as a pending fear."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Robb has raised an army and taken the field \ba major turning point (war beginning) that has not yet occurred in the episodes watched."
+                }
+              ],
+              "reason": "It reveals that Robb has raised an army and marched to war\ttoo, signalling the escalation into open conflict with the Lannisters that the viewer only knows as a pending fear."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Robb has raised an army and marched to war\ttoo, signalling the escalation into open conflict with the Lannisters that the viewer only knows as a pending fear."
+        }
+      ]
+    }
+  }
+}

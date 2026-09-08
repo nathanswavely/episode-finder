@@ -1,0 +1,148 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 1,
+  "source": {
+    "title": "The Sopranos season 1",
+    "revid": 1373424830,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_1&oldid=1373424830",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Sopranos",
+      "probes": [
+        {
+          "text": "A family of wild ducks has settled in Tony's backyard pool, and he has been feeding and watching them.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony tries to talk his mother into moving to a nursing home, and she will not hear of it.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "2": {
+      "title": "46 Long",
+      "probes": [
+        {
+          "text": "Paulie and Big Pussy are put to work tracking down whoever stole Anthony Jr.'s teacher's car.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In session, Melfi presses Tony about aiming his anger at Livia at other people instead.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Denial, Anger, Acceptance",
+      "probes": [
+        {
+          "text": "Tony sits at his daughter's school choir recital and finds himself in tears during her solo.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A Jewish motel owner brings Tony in to deal with a son-in-law refusing to give up his share.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In session, Melfi asks Tony whether it bothered him to be compared to a monster.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Meadowlands",
+      "probes": [
+        {
+          "text": "At Tony's request, a police detective in his debt shadows Melfi through an evening out with a date.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "College",
+      "probes": [
+        {
+          "text": "Tony drives Meadow from campus to campus on a college tour, the two of them alone on the road.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony and his daughter check into a roadside motel partway through their trip out of state.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "With Tony away, Carmela has the parish priest over at the house and pours drinks.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Pax Soprana",
+      "probes": [
+        {
+          "text": "Tony complains that his medication has flattened his sex drive, and it is wearing on him.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Junior sits as guest of honor at a lavish celebration dinner with the family's capos around the table.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "Down Neck",
+      "probes": [
+        {
+          "text": "In flashback, young Tony hides in the trunk of his father's car to see where his sister is being taken.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony tells Melfi how his father always took his sister along on outings and left him behind.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony frets to Melfi that his own genes may have corrupted his son and shaped who the boy becomes.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "The Legend of Tennessee Moltisanti",
+      "probes": [
+        {
+          "text": "Chris keeps trying and failing to get anywhere with a mob screenplay he is writing.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Melfi and her ex-husband go back and forth over whether she ought to keep treating a certain patient.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris, losing patience at a bakery counter, makes a scene over being kept waiting for his order.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

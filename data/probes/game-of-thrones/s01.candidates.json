@@ -1,0 +1,475 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 1,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Game of Thrones season 1",
+    "revid": 1365331586,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_1&oldid=1365331586",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Winter Is Coming",
+      "candidates": [
+        {
+          "text": "Six orphaned direwolf pups are found in the snow, and one is handed to each child of the northern household.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "six orphaned dire wolf pups are found and one given to each Stark sibling",
+          "grounded_ok": true
+        },
+        {
+          "text": "Across the Narrow Sea, a silver-haired exiled girl is given three fossilized dragon eggs as a wedding gift.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Daenerys is given three fossilized dragon eggs as a wedding gift",
+          "grounded_ok": true
+        },
+        {
+          "text": "The king's whole travelling party rides north into the snowbound castle, the household lined up in the courtyard to receive them.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "King Robert Baratheon, Ned's old friend, travels to Winterfell",
+          "grounded_ok": true
+        }
+      ],
+      "note": "As the season's first episode, no character has appeared in an earlier summary, so under the prior-characters rule all probes are written without names.",
+      "usage": {
+        "in": 43,
+        "out": 1513,
+        "cache_read": 0,
+        "cache_write": 6320
+      }
+    },
+    "2": {
+      "title": "The Kingsroad",
+      "candidates": [
+        {
+          "text": "Tyrion Lannister rides north toward the Wall, keeping company with Jon on the long journey there.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Jon"
+          ],
+          "grounded_in": "Queen Cersei's younger brother, Tyrion Lannister, accompanies him on the trip",
+          "grounded_ok": true
+        },
+        {
+          "text": "Catelyn stays behind at Winterfell, keeping vigil at the bedside of the still unconscious Bran.",
+          "specificity": 4,
+          "characters_named": [
+            "Catelyn",
+            "Bran"
+          ],
+          "grounded_in": "Catelyn remains at Winterfell to care for the still unconscious Bran",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys, newly wed, devotes herself to learning how to please Drogo in the marriage bed.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys",
+            "Drogo"
+          ],
+          "grounded_in": "she focuses on learning how to please Drogo",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ned sets out down the Kingsroad for King's Landing with both his daughters, Sansa and Arya, in tow.",
+          "specificity": 3,
+          "characters_named": [
+            "Ned",
+            "Sansa",
+            "Arya"
+          ],
+          "grounded_in": "Ned, the new Hand of the King, travels to King's Landing accompanied by his daughters, Sansa and Arya",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon heads north to join his uncle Benjen and take his place among the Night's Watch.",
+          "specificity": 3,
+          "characters_named": [
+            "Jon",
+            "Benjen"
+          ],
+          "grounded_in": "Jon, heads north to the Wall to join his uncle, Benjen Stark, as part of the Night's Watch",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1073,
+        "cache_read": 6320,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Lord Snow",
+      "candidates": [
+        {
+          "text": "Ned sits in on the King's Small Council for the first time and learns how deeply the realm is in debt.",
+          "specificity": 4,
+          "characters_named": [
+            "Ned"
+          ],
+          "grounded_in": "Ned attends the King's Small Council and learns Westeros has been poorly managed and is deeply in debt.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Having learned Arya kept the sword Jon gave her, Ned arranges swordsmanship lessons for her in the capital.",
+          "specificity": 5,
+          "characters_named": [
+            "Arya",
+            "Jon",
+            "Ned"
+          ],
+          "grounded_in": "Learning that Arya aspires to be a swordsman and got a sword from Jon, he sends her to swordsmanship lessons.",
+          "grounded_ok": true
+        },
+        {
+          "text": "In training at the Wall, Jon plainly outmatches the low-born recruits and convicted criminals swinging swords beside him.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon"
+          ],
+          "grounded_in": "Jon proves himself more skilled than the low-born and convicted criminals that joined the Night's Watch",
+          "grounded_ok": true
+        },
+        {
+          "text": "Travelling secretly toward King's Landing, Catelyn is intercepted by a childhood friend who now sits on the council.",
+          "specificity": 4,
+          "characters_named": [
+            "Catelyn"
+          ],
+          "grounded_in": "Catelyn travels to King's Landing to covertly warn her husband about the assassination attempt, but she is intercepted by her childhood friend",
+          "grounded_ok": true
+        },
+        {
+          "text": "Before Tyrion rides south from the Wall, the Lord Commander asks him to beg the King for more recruits.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "Lord Commander Jeor Mormont asks a departing Tyrion to plead with the King to send more recruits",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1264,
+        "cache_read": 6320,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Cripples, Bastards, and Broken Things",
+      "candidates": [
+        {
+          "text": "Tyrion hands the Starks a sketch for a special saddle, designed so Bran can ride a horse again.",
+          "specificity": 5,
+          "characters_named": [
+            "Tyrion",
+            "Bran"
+          ],
+          "grounded_in": "he presents the Starks a saddle design that will allow the paraplegic Bran to ride a horse",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon steps in to shield an awkward, friendless new recruit from the beatings the other Watchmen hand out.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon"
+          ],
+          "grounded_in": "Jon takes measures to protect Samwell Tarly, an awkward and friendless Night's Watch recruit, from the other Watchmen's abuse",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion breaks his journey south with a stop at Winterfell before continuing on to King's Landing.",
+          "specificity": 3,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "While returning to King's Landing, Tyrion stops at Winterfell",
+          "grounded_ok": true
+        },
+        {
+          "text": "Viserys, increasingly frustrated, picks a fight with his sister, who no longer meekly submits to him.",
+          "specificity": 2,
+          "characters_named": [
+            "Viserys"
+          ],
+          "grounded_in": "A frustrated Viserys clashes with his newly-empowered sister.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Several of this episode's strongest beats (the tavern encounter and its outcome, Ned's discovery) are explicitly framed as reveals or turning points, so they're excluded.",
+      "usage": {
+        "in": 51,
+        "out": 1026,
+        "cache_read": 6320,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "The Wolf and the Lion",
+      "candidates": [
+        {
+          "text": "Catelyn brings her bound Lannister prisoner up to her sister Lysa's fortress home, the Eyrie, high in the mountains.",
+          "specificity": 4,
+          "characters_named": [
+            "Catelyn",
+            "Lysa"
+          ],
+          "grounded_in": "Catelyn takes Tyrion prisoner at her sister Lysa Arryn's fortress home in the Eyrie.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion, hands tied, is marched along a narrow mountain road toward a castle perched above the Vale.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "Catelyn takes Tyrion prisoner at her sister Lysa Arryn's fortress home in the Eyrie.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This summary is almost entirely turning points: the resignation, the news of Daenerys, the street fight and Ned's wound. Only the Eyrie arrival is usable, so two variants of it.",
+      "usage": {
+        "in": 45,
+        "out": 1569,
+        "cache_read": 6320,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "A Golden Crown",
+      "candidates": [
+        {
+          "text": "Held at the Eyrie, Tyrion demands a trial by combat rather than face Lysa's judgment.",
+          "specificity": 5,
+          "characters_named": [
+            "Tyrion",
+            "Lysa"
+          ],
+          "grounded_in": "In the Vale, Tyrion demands a trial by combat.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bran rides out through the woods on horseback for the first time, trying out his specially built saddle.",
+          "specificity": 4,
+          "characters_named": [
+            "Bran"
+          ],
+          "grounded_in": "Bran, while testing his new saddle",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ned sits the Iron Throne in Robert's absence, hearing complaints brought by petitioners from Riverrun.",
+          "specificity": 4,
+          "characters_named": [
+            "Ned",
+            "Robert"
+          ],
+          "grounded_in": "tasks him with running affairs until Robert returns from hunting",
+          "grounded_ok": true
+        },
+        {
+          "text": "Robert gathers his party and rides out of the capital for a hunting trip.",
+          "specificity": 3,
+          "characters_named": [
+            "Robert"
+          ],
+          "grounded_in": "until Robert returns from hunting",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ned tells Arya and Sansa they are being sent back north to Winterfell for their own safety.",
+          "specificity": 3,
+          "characters_named": [
+            "Ned",
+            "Arya",
+            "Sansa"
+          ],
+          "grounded_in": "Ned orders Arya and Sansa return to Winterfell for their safety",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1527,
+        "cache_read": 6320,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "You Win or You Die",
+      "candidates": [
+        {
+          "text": "At the Wall the recruits get their assignments: Jon and Sam are both made stewards rather than rangers.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Sam"
+          ],
+          "grounded_in": "Jon and Sam are assigned as stewards, with Jon as Lord Commander Jeor Mormont's personal servant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon's new duties have him waiting on Jeor Mormont personally, fetching and serving for the Lord Commander.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Jeor Mormont"
+          ],
+          "grounded_in": "with Jon as Lord Commander Jeor Mormont's personal servant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Sam works out that the steward's post beside the Lord Commander is meant to prepare Jon for command.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam",
+            "Jon"
+          ],
+          "grounded_in": "with Sam believing Mormont intends to groom Jon for command",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning-point material (Robert's fatal hunt, the will, the throne-room betrayal, the assassin in Essos, Benjen's disappearance), so the usable texture is limited to the Night's Watch steward assignments.",
+      "usage": {
+        "in": 42,
+        "out": 1079,
+        "cache_read": 6320,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Pointy End",
+      "candidates": [
+        {
+          "text": "Tyrion and Bronn are ambushed on a mountain road by a band of hill tribesmen.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Bronn"
+          ],
+          "grounded_in": "Tyrion and Bronn are ambushed by tribesmen",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dothraki riders sweep through a nearby settlement, roping together captured locals to be sold as slaves.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Drogo's soldiers begin attacking nearby settlements, enslaving locals in order to sell them",
+          "grounded_ok": true
+        },
+        {
+          "text": "Robb musters the northern lords and their armies, leaving Bran behind to hold Winterfell in his place.",
+          "specificity": 4,
+          "characters_named": [
+            "Robb",
+            "Bran"
+          ],
+          "grounded_in": "Robb hears the news and prepares the Northern armies to fight the Lannisters, leaving Bran behind to rule Winterfell",
+          "grounded_ok": true
+        },
+        {
+          "text": "Catelyn rides out of her sister's mountain fortress to join her son's camp in the field.",
+          "specificity": 3,
+          "characters_named": [
+            "Catelyn"
+          ],
+          "grounded_in": "Catelyn leaves to join Robb's camp",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Syrio's stand in the Red Keep and the wight attack at Castle Black are the episode's most memorable images, but both are framed as deaths/turning points, so they're excluded.",
+      "usage": {
+        "in": 41,
+        "out": 1518,
+        "cache_read": 6320,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Baelor",
+      "candidates": [
+        {
+          "text": "Jeor Mormont presents Jon with his own family's Valyrian steel sword, a gift of gratitude.",
+          "specificity": 4,
+          "characters_named": [
+            "Jeor Mormont",
+            "Jon"
+          ],
+          "grounded_in": "At the Wall, Jeor Mormont gives his family Valyrian steel sword to Jon in gratitude.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Catelyn goes alone into the hall of a crossing's elderly lord to bargain for passage over his land.",
+          "specificity": 4,
+          "characters_named": [
+            "Catelyn"
+          ],
+          "grounded_in": "Catelyn persuades Lord Walder Frey to allow them to pass through his land",
+          "grounded_ok": true
+        },
+        {
+          "text": "The Stark army halts before a castle guarding a river crossing, waiting while terms are discussed inside.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "The Stark army arrives at the Twins castle",
+          "grounded_ok": true
+        },
+        {
+          "text": "In the Dothraki camp, a slave woman insists everyone stay outside the tent while she works her blood magic.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "Mirri tells everyone to remain outside the tent until after the spell is cast.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material is turning-point or setup for it (Ned's hearing, Robb's diversion, Drogo's wound, Daenerys's labour), so the usable texture is thin.",
+      "usage": {
+        "in": 39,
+        "out": 1233,
+        "cache_read": 6320,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Fire and Blood",
+      "candidates": [
+        {
+          "text": "A Night's Watch recruiter shears Arya's hair short so she can pass as a boy among his recruits.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "Yoren, a Night's Watch recruiter, smuggles Arya out of King's Landing disguised as a boy",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon saddles a horse in the dark and rides away alone from Castle Black.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon"
+          ],
+          "grounded_in": "Jon attempts to desert the Night's Watch",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This finale's summary is almost entirely turning points (the dragons, Drogo, the secession, Tyrion's appointment), so very little inconsequential texture remains to draw on.",
+      "usage": {
+        "in": 42,
+        "out": 1584,
+        "cache_read": 6320,
+        "cache_write": 0
+      }
+    }
+  }
+}
