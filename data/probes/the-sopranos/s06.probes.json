@@ -266,7 +266,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "17": {
       "title": "Walk Like a Man",
@@ -281,7 +282,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "18": {
       "title": "Kennedy and Heidi",
@@ -296,11 +298,13 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "19": {
       "title": "The Second Coming",
-      "probes": []
+      "probes": [],
+      "fine_only": []
     },
     "20": {
       "title": "The Blue Comet",
@@ -310,7 +314,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "21": {
       "title": "Made in America",
@@ -325,7 +330,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     }
   }
 }

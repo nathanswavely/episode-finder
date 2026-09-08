@@ -2034,5 +2034,19 @@
     "cache_read": 1604257,
     "cache_write": 19958,
     "calls": 276
+  },
+  "recheck": [
+    {
+      "episode": 2,
+      "text": "Tony ends up carrying a briefcase and ID belonging to a travelling salesman who has exactly his face.",
+      "reason": "It tips the surreal identity-swap storyline that follows Tony's shooting and coma, signalling a major turning point rather than ordinary texture."
+    }
+  ],
+  "recheck_spend": {
+    "in": 3362,
+    "out": 11177,
+    "cache_read": 630160,
+    "cache_write": 0,
+    "calls": 80
   }
 }
