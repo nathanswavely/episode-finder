@@ -22,7 +22,8 @@
           "specificity": 5,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "Proshai, Livushka",
@@ -32,11 +33,19 @@
           "specificity": 5,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "3": {
       "title": "Fortunate Son",
       "probes": [
+        {
+          "text": "Chris gets a tip about a benefit concert worth robbing from the eager teenage son of his late boss.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
         {
           "text": "Tony turns up at Svetlana's apartment to broker peace over his mother's records, and finds Irina staying there.",
           "specificity": 5,
@@ -45,11 +54,6 @@
         {
           "text": "Svetlana keeps refusing to hand over Livia's old record collection, which Janice insists belongs to her.",
           "specificity": 4,
-          "reverse_confidence": 5
-        },
-        {
-          "text": "Chris gets a tip about a benefit concert worth robbing from the eager teenage son of his late boss.",
-          "specificity": 3,
           "reverse_confidence": 5
         }
       ]
@@ -62,7 +66,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "5": {
       "title": "Another Toothpick",
@@ -82,7 +87,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "6": {
       "title": "University",
@@ -102,7 +108,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "7": {
       "title": "Second Opinion",
@@ -183,6 +190,21 @@
       "probes": [
         {
           "text": "Carmela, quietly frightened about her health, keeps welling up at the most ordinary, unexpected things.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "13": {
+      "title": "Army of One",
+      "probes": [
+        {
+          "text": "At the restaurant, Junior stands and sings \"Core 'ngrato\" while a drunken Meadow heckles him from the crowd.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In session with Melfi, Tony bitterly rails about the \"putrid gene\" he believes runs in his family.",
           "specificity": 4,
           "reverse_confidence": 5
         }

@@ -1,5 +1,5 @@
 {
-  "name": "where-did-i-stop",
+  "name": "episode-finder",
   "private": true,
   "description": "Static site; wrangler is here only so Workers Builds can run `npx wrangler deploy`.",
   "scripts": { "deploy": "wrangler deploy" },

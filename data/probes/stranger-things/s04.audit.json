@@ -883,6 +883,126 @@
           "rejected": "consequence (2/2): It confirms the pending rescue succeeds \\u2014 Joyce and Murray reach Hopper and are reunited with him (and Antonov survives), resolving the infiltration cliffhanger."
         }
       ]
+    },
+    "9": {
+      "title": "Chapter Nine: The Piggyback",
+      "candidates": [
+        {
+          "text": "Steve, Nancy, and Robin cross into the Upside Down version of the Creel house while the others take the real one.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting/logistics — the group is already established as moving between the Upside Down and Hawkins, and no outcome, death, or reveal is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting/activity texture — the characters are already known to be investigating the Creel house and traveling into the Upside Down — and it discloses no outcome, death, or reveal."
+                }
+              ],
+              "reason": "This is ordinary setting/logistics — the group is already established as moving between the Upside Down and Hawkins, and no outcome, death, or reveal is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eleven's group rigs up a makeshift isolation tank so she can reach another person's mind from far away.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven leaves the Nevada facility and reunites with Mike's group, and that she uses a makeshift tank to psychically reach someone remotely \"\" resolving her pending situation with Brenner and NINA."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven leaves the NINA facility and reunites with Mike's group, resolving the pending question of whether her friends reach her and whether she stays under Brenner's program."
+                }
+              ],
+              "reason": "It reveals that Eleven leaves the Nevada facility and reunites with Mike's group, and that she uses a makeshift tank to psychically reach someone remotely \"\" resolving her pending situation with Brenner and NINA."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven leaves the Nevada facility and reunites with Mike's group, and that she uses a makeshift tank to psychically reach someone remotely \"\" resolving her pending situation with Brenner and NINA."
+        },
+        {
+          "text": "Max, Lucas, and Erica make their way to the Creel house together as the groups split up.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Characters travelling to an already-known location and splitting into groups is ordinary logistical texture, revealing no outcome, death, or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Traveling to a location already established as a key site is ordinary plot logistics with no outcome, death, or revelation disclosed."
+                }
+              ],
+              "reason": "Characters travelling to an already-known location and splitting into groups is ordinary logistical texture, revealing no outcome, death, or discovery."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Instead of fleeing Russia, Hopper, Joyce, and Murray turn around and head back inside the prison.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point \\u2014 that the Russia group survives the escape and reverses course to re-enter the prison, answering the pending question of whether they simply flee."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point in the Russia storyline \"\" that after being reunited and escaping, the trio choose to return into the prison rather than flee, answering the pending question of whether they simply get out of Kamchatka."
+                }
+              ],
+              "reason": "It reveals a turning point \\u2014 that the Russia group survives the escape and reverses course to re-enter the prison, answering the pending question of whether they simply flee."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a turning point \\u2014 that the Russia group survives the escape and reverses course to re-enter the prison, answering the pending question of whether they simply flee."
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 38886,
+    "out": 14016,
+    "cache_read": 476287,
+    "cache_write": 10880,
+    "calls": 138
   }
 }

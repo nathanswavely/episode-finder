@@ -270,6 +270,244 @@
         "cache_read": 12292,
         "cache_write": 0
       }
+    },
+    "6": {
+      "title": "The Laws of Gods and Men",
+      "candidates": [
+        {
+          "text": "In Meereen, a goatherd stands before Daenerys's court complaining that her dragons burned his flock.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "a peasant man whose goats were killed by Daenerys' increasingly uncontrollable dragons",
+          "grounded_ok": true
+        },
+        {
+          "text": "A wealthy Meereenese man petitions Daenerys for permission to take down and bury his crucified father.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "nobleman Hizdahr zo Loraq who wishes to reclaim his crucified father's body",
+          "grounded_ok": true
+        },
+        {
+          "text": "Davos and Stannis sit across a long table from bankers in Braavos, arguing their case for a loan.",
+          "specificity": 4,
+          "characters_named": [
+            "Davos",
+            "Stannis"
+          ],
+          "grounded_in": "Davos and Stannis meet with Tycho Nestoris of the Iron Bank to secure a loan for Stannis",
+          "grounded_ok": true
+        },
+        {
+          "text": "Davos seeks out Salladhor Saan again, trying to win the pirate and his ships back to Stannis's cause.",
+          "specificity": 4,
+          "characters_named": [
+            "Davos",
+            "Salladhor Saan",
+            "Stannis"
+          ],
+          "grounded_in": "Davos re-engages Salladhor Saan and his pirates to transport Stannis' army north",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tywin puts a bounty on the Hound's head and tells Varys to keep watching Daenerys across the sea.",
+          "specificity": 3,
+          "characters_named": [
+            "Tywin",
+            "Varys",
+            "Daenerys"
+          ],
+          "grounded_in": "Tywin puts a bounty on the Hound's head and instructs Varys to continue spying on Daenerys",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 46,
+        "out": 1323,
+        "cache_read": 12292,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Mockingbird",
+      "candidates": [
+        {
+          "text": "At a roadside inn, Brienne and Podrick come across Hot Pie, who chatters away about his cooking.",
+          "specificity": 5,
+          "characters_named": [
+            "Brienne",
+            "Podrick",
+            "Hot Pie"
+          ],
+          "grounded_in": "At an inn, Brienne and Podrick meet Hot Pie",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melisandre and Selyse make preparations to sail away from Dragonstone, intending to bring Shireen with them.",
+          "specificity": 4,
+          "characters_named": [
+            "Melisandre",
+            "Selyse",
+            "Shireen"
+          ],
+          "grounded_in": "Melisandre and Selyse prepare to depart Dragonstone, intending to take Shireen with them",
+          "grounded_ok": true
+        },
+        {
+          "text": "With the Wildling host drawing near, Jon argues that the tunnel under the Wall should be sealed up.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon"
+          ],
+          "grounded_in": "As the Wildlings approach Castle Black, Alliser Thorne rejects Jon's suggestion that they seal the tunnel",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys dispatches Daario to deal with the slavers who have regained their footing in Yunkai.",
+          "specificity": 3,
+          "characters_named": [
+            "Daenerys",
+            "Daario"
+          ],
+          "grounded_in": "then sends him to handle the resurgent slavers in Yunkai",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable material (the champion for the trial by combat, the Moon Door) is either an outcome or a turning point, so the safe pool is small.",
+      "usage": {
+        "in": 41,
+        "out": 1270,
+        "cache_read": 12292,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Mountain and the Viper",
+      "candidates": [
+        {
+          "text": "In Meereen, Grey Worm and Missandei find themselves quietly growing closer.",
+          "specificity": 4,
+          "characters_named": [
+            "Grey Worm",
+            "Missandei"
+          ],
+          "grounded_in": "In Essos, Grey Worm and Missandei grow closer.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A crowd fills an open courtyard in King's Landing as the trial by combat is about to begin.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "In King's Landing, the trial by combat begins.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The Hound and Arya ride up to the gatehouse at the foot of the road to the Eyrie.",
+          "specificity": 4,
+          "characters_named": [
+            "The Hound",
+            "Arya"
+          ],
+          "grounded_in": "The Hound and Arya arrive at the Gates of the Moon",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's content is turning points (trial outcome, Lysa inquest, Moat Cailin, Jorah's pardon), so safe texture is thin.",
+      "usage": {
+        "in": 45,
+        "out": 1920,
+        "cache_read": 12292,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "The Watchers on the Wall",
+      "candidates": [
+        {
+          "text": "Sam gets Gilly and her baby inside Castle Black and hides them away as the assault approaches.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam",
+            "Gilly"
+          ],
+          "grounded_in": "Gilly and Little Sam escape Mole's Town and arrive at Castle Black, where Sam hides them.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The brothers of the Night's Watch spend the night readying Castle Black's gate and the top of the Wall.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "The Night's Watch prepares the Castle Black defences ahead of the upcoming battle with the Wildlings.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Wildlings come at Castle Black from both directions at once, from the south and up the ice face.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "The Wildlings attack from both sides of the wall",
+          "grounded_ok": true
+        },
+        {
+          "text": "Climbers hack their way up the sheer ice in darkness while defenders peer down from the Wall's edge.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "the Wildlings climbing the wall",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 45,
+        "out": 1544,
+        "cache_read": 12292,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "The Children",
+      "candidates": [
+        {
+          "text": "Jon walks unarmed into the wildling camp beyond the Wall to sit face to face with Mance Rayder.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Mance Rayder"
+          ],
+          "grounded_in": "Jon's meeting with Mance Rayder",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bran's party trudges through deep snow and finally reaches the weirwood tree he has seen in his visions.",
+          "specificity": 4,
+          "characters_named": [
+            "Bran"
+          ],
+          "grounded_in": "Bran finds the weirwood tree from his visions",
+          "grounded_ok": true
+        },
+        {
+          "text": "Brienne and Podrick are still riding through the rocky country of the Vale, searching for the Stark girl.",
+          "specificity": 3,
+          "characters_named": [
+            "Brienne",
+            "Podrick"
+          ],
+          "grounded_in": "In the Vale, Brienne and Podrick encounter Arya and the Hound",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this finale is a death, a reveal, or a turning point, so the pool of usable texture is very small; the weirwood-tree probe is included with some hesitation since the summary frames it just before an attack.",
+      "usage": {
+        "in": 38,
+        "out": 1778,
+        "cache_read": 12292,
+        "cache_write": 0
+      }
     }
   }
 }

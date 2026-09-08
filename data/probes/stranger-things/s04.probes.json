@@ -27,11 +27,13 @@
           "specificity": 3,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "Chapter Two: Vecna's Curse",
-      "probes": [
+      "probes": [],
+      "fine_only": [
         {
           "text": "Steve, Robin, Dustin and Max track down a shaken, hiding Eddie and try to explain the Upside Down to him.",
           "specificity": 4,
@@ -51,7 +53,9 @@
           "text": "Max slips into the school counselor's office and quietly lifts files out of the cabinet.",
           "specificity": 4,
           "reverse_confidence": 5
-        },
+        }
+      ],
+      "fine_only": [
         {
           "text": "Chrissy's boyfriend rounds up the basketball team and sends them out across town searching for Eddie.",
           "specificity": 3,
@@ -63,14 +67,16 @@
       "title": "Chapter Four: Dear Billy",
       "probes": [
         {
-          "text": "Nancy and Robin sit down face to face with Victor Creel inside the psychiatric hospital where he is locked up.",
-          "specificity": 5,
-          "reverse_confidence": 5
-        },
-        {
           "text": "In Alaska, Joyce and Murray hand over the bag of ransom money to the contact they were told to meet.",
           "specificity": 3,
           "reverse_confidence": 4
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Nancy and Robin sit down face to face with Victor Creel inside the psychiatric hospital where he is locked up.",
+          "specificity": 5,
+          "reverse_confidence": 5
         }
       ]
     },
@@ -87,7 +93,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "6": {
       "title": "Chapter Six: The Dive",
@@ -122,6 +129,21 @@
     "8": {
       "title": "Chapter Eight: Papa",
       "probes": []
+    },
+    "9": {
+      "title": "Chapter Nine: The Piggyback",
+      "probes": [
+        {
+          "text": "Steve, Nancy, and Robin cross into the Upside Down version of the Creel house while the others take the real one.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Max, Lucas, and Erica make their way to the Creel house together as the groups split up.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
     }
   }
 }

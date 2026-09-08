@@ -1180,6 +1180,77 @@
           "rejected": "consequence (1/2): It resolves Carmela's ongoing moral crisis over Tony's \"blood money\" \" raised when Melfi's colleague told her to leave him \" by revealing she obtains clerical permission to keep living off it."
         }
       ]
+    },
+    "13": {
+      "title": "Army of One",
+      "candidates": [
+        {
+          "text": "At the restaurant, Junior stands and sings \"Core 'ngrato\" while a drunken Meadow heckles him from the crowd.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a texture moment at a family gathering — Junior singing and Meadow being drunk reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A social gathering with singing and heckling is character texture, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is a texture moment at a family gathering — Junior singing and Meadow being drunk reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony pushes the idea of military school for A.J., and Carmela wants nothing to do with it.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "In session with Melfi, Tony bitterly rails about the \"putrid gene\" he believes runs in his family.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Tony venting in therapy about his family's inherited flaws is ongoing character texture consistent with established themes, revealing no outcome or new plot development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary therapy-session texture consistent with Tony's ongoing concerns about his family and Livia, revealing no outcome or plot development."
+                }
+              ],
+              "reason": "Tony venting in therapy about his family's inherited flaws is ongoing character texture consistent with established themes, revealing no outcome or new plot development."
+            }
+          },
+          "rejected": null
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 44358,
+    "out": 15932,
+    "cache_read": 691214,
+    "cache_write": 12423,
+    "calls": 172
   }
 }
