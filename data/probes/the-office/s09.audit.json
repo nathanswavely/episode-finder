@@ -1,0 +1,1627 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 9,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "New Guys",
+      "candidates": [
+        {
+          "text": "Kevin rescues a small turtle and makes a big sentimental show of saving the creature.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "that Kevin actually rescues/saves the turtle successfully — the summary's scare quotes around \"saves\" imply the opposite outcome"
+              ]
+            }
+          },
+          "rejected": "faithful: that Kevin actually rescues/saves the turtle successfully — the summary's scare quotes around \"saves\" imply the opposite outcome"
+        },
+        {
+          "text": "Oscar is seriously considering adopting Angela's cat and talks through the idea around the office.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Oscar mulling over adopting a cat is ordinary office texture and doesn't disclose any outcome, reveal, or answer to a pending question the viewer knows about."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Angela is giving up her cat, signalling an upheaval in her personal/domestic situation (a change the viewer hasn't seen yet)."
+                }
+              ],
+              "reason": "It implies Angela is giving up her cat, signalling an upheaval in her personal/domestic situation (a change the viewer hasn't seen yet)."
+            }
+          },
+          "rejected": "consequence (1/2): It implies Angela is giving up her cat, signalling an upheaval in her personal/domestic situation (a change the viewer hasn't seen yet)."
+        },
+        {
+          "text": "Jim and Dwight are dealing with two new hires starting in the Scranton branch.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "New employees arriving is ordinary workplace texture and doesn't resolve any pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "New hires arriving is ordinary workplace texture and doesn't resolve any pending conflict or open question."
+                }
+              ],
+              "reason": "New employees arriving is ordinary workplace texture and doesn't resolve any pending conflict or open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy is back in the office after finishing his manager training program.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Andy was reinstated as manager, so his return to the office after training is ordinary texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Andy was reinstated as manager, so his return to the office after training is ordinary continuity rather than a new outcome."
+                }
+              ],
+              "reason": "The viewer already knows Andy was reinstated as manager, so his return to the office after training is ordinary texture rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Roy's Wedding",
+      "candidates": [
+        {
+          "text": "Pam and Jim attend the wedding of Pam's former fiancé as invited guests.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Attending a wedding of a long-departed side character is ordinary social texture and doesn't resolve any conflict or open question the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Attending a minor former character's wedding is background texture; it doesn't resolve any pending conflict or open question the viewer is tracking."
+                }
+              ],
+              "reason": "Attending a wedding of a long-departed side character is ordinary social texture and doesn't resolve any conflict or open question the viewer is tracking."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight declares he will donate the money he raises for Nellie's charity drive to the Taliban.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A comedic gag about Dwight's antics during an office charity drive; it discloses no outcome, death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's a comedic character beat about Dwight's attitude toward a charity drive; no outcome, reveal, or resolution of a pending conflict is disclosed."
+                }
+              ],
+              "reason": "A comedic gag about Dwight's antics during an office charity drive; it discloses no outcome, death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Clark tries to impress Erin with talk of a fake newscaster job while Andy takes the bait instead.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes a light comedic flirtation/bit involving a new coworker, with no death, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a light workplace flirtation/prank attempt rather than any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It only describes a light comedic flirtation/bit involving a new coworker, with no death, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Andy's Ancestry",
+      "candidates": [
+        {
+          "text": "Dwight is coaching Erin in the Dothraki language so she can impress Andy's educated family.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a comic character-texture beat; Andy and Erin's romance was already established, and no pending conflict's outcome or new information is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only depicts a light comedic activity; Andy and Erin's relationship was already established, and no pending outcome is disclosed."
+                }
+              ],
+              "reason": "It's a comic character-texture beat; Andy and Erin's romance was already established, and no pending conflict's outcome or new information is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Darryl is settling into his new Assistant Regional Manager duties and finding the workload difficult.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Darryl has been promoted to Assistant Regional Manager, an outcome of his long-running frustration at being passed over for management."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Darryl has been promoted to Assistant Regional Manager, a development the viewer hasn't seen resolved given the recent management upheaval."
+                }
+              ],
+              "reason": "It reveals that Darryl has been promoted to Assistant Regional Manager, an outcome of his long-running frustration at being passed over for management."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Darryl has been promoted to Assistant Regional Manager, an outcome of his long-running frustration at being passed over for management."
+        }
+      ]
+    },
+    "4": {
+      "title": "Work Bus",
+      "candidates": [
+        {
+          "text": "Dwight runs the office from desks set up inside a rented bus.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an unusual workplace setting/activity without revealing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An unusual but ordinary workplace setup for Dwight, revealing no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It describes an unusual workplace setting/activity without revealing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nellie asks Andy to write a recommendation letter supporting her baby adoption.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a setup/premise involving ordinary character texture — Nellie making a request of Andy — rather than the outcome of any pending conflict or an unanswered question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a request/storyline premise rather than disclosing an outcome, and Nellie's desire for a child was already hinted at; no pending conflict is resolved."
+                }
+              ],
+              "reason": "It's a setup/premise involving ordinary character texture — Nellie making a request of Andy — rather than the outcome of any pending conflict or an unanswered question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Erin coaches Nellie through a baby adoption application, giving pointers on filling it out.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary in-progress activity and character texture (Nellie's adoption paperwork with Erin's help) without disclosing any outcome, twist, or answer to a pending question from prior episodes."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Nellie's adoption pursuit is character texture here, with no outcome, reveal, or resolution of a pending conflict disclosed."
+                }
+              ],
+              "reason": "It shows an ordinary in-progress activity and character texture (Nellie's adoption paperwork with Erin's help) without disclosing any outcome, twist, or answer to a pending question from prior episodes."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim brings Pam a pie at work while trying to cheer her up.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A small domestic gesture between an established couple; no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A small domestic gesture between an established couple; no outcome, reveal, or turning point is disclosed."
+                }
+              ],
+              "reason": "A small domestic gesture between an established couple; no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Here Comes Treble",
+      "candidates": [
+        {
+          "text": "Andy's former college a cappella group performs for the office during a Halloween celebration.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary office Halloween activity involving Andy's a cappella group, revealing no outcome, reveal, or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary festive event and character texture (a Halloween performance by Andy's old a cappella group) without disclosing any outcome, reveal, or resolution of pending conflicts."
+                }
+              ],
+              "reason": "It describes an ordinary office Halloween activity involving Andy's a cappella group, revealing no outcome, reveal, or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight prowls around the office trying to track down a madman loose inside.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes a comedic ongoing activity/situation for Dwight without revealing any outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ongoing activity/comedic premise without disclosing any outcome, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "It describes a comedic ongoing activity/situation for Dwight without revealing any outcome, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "The Boat",
+      "candidates": [
+        {
+          "text": "Dwight sits in a radio station as a guest while his coworkers keep calling in to bother him.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a comedic situational premise with no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a comedic situational setup with no outcome, reveal, or resolution of any pending plotline."
+                }
+              ],
+              "reason": "This is a comedic situational premise with no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy's brother hangs around after returning, acting openly drunk in front of the office.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Andy's brother being present and drunk in the office is character texture rather than an outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Andy's brother being present and drunk in the office is ordinary character texture and does not disclose any pending outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "Andy's brother being present and drunk in the office is character texture rather than an outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "The Whale",
+      "candidates": [
+        {
+          "text": "Several of the men in the office start growing mustaches together for Movember.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A group grooming/charity activity is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A group grooming activity is ordinary workplace texture and doesn't disclose any outcome, reveal, or resolution of pending storylines like Jim's Philadelphia plans."
+                }
+              ],
+              "reason": "A group grooming/charity activity is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy appears on a video call into the office from his boat.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Andy in a new situation (calling in from a boat), which is setting/character texture rather than the resolution of any pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Andy calling in from a boat is a situational/texture detail that doesn't resolve any pending conflict or open question the viewer knows about (Jim's Philadelphia plans, Nellie's adoption, Andy vs. Nellie)."
+                }
+              ],
+              "reason": "It shows Andy in a new situation (calling in from a boat), which is setting/character texture rather than the resolution of any pending conflict or open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight gets coaching from Pam and the office women on how to talk to women.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic character texture with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Dwight receiving dating advice — without disclosing any outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "This is ordinary comedic character texture with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight tracks down a potential paper buyer listed in the Scranton White Pages.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary sales-activity texture typical of Dwight's character and does not disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Dwight pursuing a sales lead is routine character texture, not an outcome, reveal, or answer to any pending question."
+                }
+              ],
+              "reason": "This is ordinary sales-activity texture typical of Dwight's character and does not disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Angela and Oscar quietly sit in on Robert's yoga class to watch him.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Oscar's romantic interest in Angela's husband Robert and that Angela is in on it, exposing the affair storyline the viewer has no knowledge of yet."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Angela and Oscar are jointly surveilling Angela's husband Robert Lipton, pointing to the discovery of Oscar's affair with him \\u2014 a major plot turn not yet seen by the viewer."
+                }
+              ],
+              "reason": "It implies Oscar's romantic interest in Angela's husband Robert and that Angela is in on it, exposing the affair storyline the viewer has no knowledge of yet."
+            }
+          },
+          "rejected": "consequence (2/2): It implies Oscar's romantic interest in Angela's husband Robert and that Angela is in on it, exposing the affair storyline the viewer has no knowledge of yet."
+        }
+      ]
+    },
+    "8": {
+      "title": "The Target",
+      "candidates": [
+        {
+          "text": "Pete stays beside Pam and keeps distracting her while she begins painting her mural.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary workplace interaction and an activity (painting the mural) without disclosing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows a workplace activity and casual interaction, without disclosing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It depicts an ordinary workplace interaction and an activity (painting the mural) without disclosing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Dwight Christmas",
+      "candidates": [
+        {
+          "text": "Dwight leads the whole office through a traditional Pennsylvania Dutch Christmas celebration.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A themed office Christmas celebration is ordinary seasonal texture and does not disclose any outcome, reveal, or resolution of pending storylines."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a party theme/activity — ordinary seasonal texture that doesn't disclose any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "A themed office Christmas celebration is ordinary seasonal texture and does not disclose any outcome, reveal, or resolution of pending storylines."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pete walks Erin through his favorite movie Die Hard with obvious enthusiasm.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — a casual conversation about a favorite movie — with no outcome, reveal, or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — a casual conversation about a favorite movie — with no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "This is ordinary character texture — a casual conversation about a favorite movie — with no outcome, reveal, or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Toby sits with Nellie talking through the details of the Scranton Strangler trial.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Toby discussing the Strangler trial with Nellie is ordinary character texture and doesn't resolve any pending conflict the viewer knows about."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary conversation about an ongoing background storyline without disclosing any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Toby discussing the Strangler trial with Nellie is ordinary character texture and doesn't resolve any pending conflict the viewer knows about."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The party planning committee forgets to plan the annual Christmas party this year.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A minor logistical oversight about a Christmas party is ordinary situational texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A forgotten Christmas party is ordinary office texture and doesn't disclose any pending outcome or reveal."
+                }
+              ],
+              "reason": "A minor logistical oversight about a Christmas party is ordinary situational texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Lice",
+      "candidates": [
+        {
+          "text": "Dwight is vowing to destroy the lice parasites that are spreading through the office.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A lice outbreak and Dwight's reaction to it is ordinary comedic situation/texture that doesn't resolve any pending plotline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A lice outbreak and Dwight's bombastic reaction is ordinary comedic texture that doesn't resolve any pending storyline or open question."
+                }
+              ],
+              "reason": "A lice outbreak and Dwight's reaction to it is ordinary comedic situation/texture that doesn't resolve any pending plotline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nellie, Phyllis and Kevin are interfering in Darryl's love life with unwanted advice.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Coworkers meddling with unsolicited advice about Darryl's romantic life is ordinary character texture and doesn't disclose any outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Coworkers meddling with unwanted advice is ordinary character texture and doesn't disclose any outcome, reveal or resolution of a pending storyline."
+                }
+              ],
+              "reason": "Coworkers meddling with unsolicited advice about Darryl's romantic life is ordinary character texture and doesn't disclose any outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim is spending the day in Philadelphia with a potential business associate.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jim's Philadelphia job venture is already established, and simply spending a day there with an associate is ordinary situational texture with no outcome disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jim's Philadelphia venture is already established, and spending a day with a business associate is ordinary situational texture with no outcome revealed."
+                }
+              ],
+              "reason": "Jim's Philadelphia job venture is already established, and simply spending a day there with an associate is ordinary situational texture with no outcome disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Suit Warehouse",
+      "candidates": [
+        {
+          "text": "Dwight and Clark pose as father and son while pitching paper to a suit warehouse owner.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary sales-scheme antic with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a comedic sales tactic/pairing with no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "This is an ordinary sales-scheme antic with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "12": {
+      "title": "Customer Loyalty",
+      "candidates": [
+        {
+          "text": "Dwight is trying hard to convince Darryl not to leave the office.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the resolution of the open question from the prior episode about whether Darryl was included in Jim's Philadelphia venture, revealing that Darryl is in fact leaving the Scranton office."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Darryl is indeed included in Jim's Philadelphia job and is leaving Scranton, resolving the open question from the previous episode about whether Jim forgot him."
+                }
+              ],
+              "reason": "It confirms the resolution of the open question from the prior episode about whether Darryl was included in Jim's Philadelphia venture, revealing that Darryl is in fact leaving the Scranton office."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms the resolution of the open question from the prior episode about whether Darryl was included in Jim's Philadelphia venture, revealing that Darryl is in fact leaving the Scranton office."
+        }
+      ]
+    },
+    "13": {
+      "title": "Junior Salesman",
+      "candidates": [
+        {
+          "text": "Pam keeps asking around the office to learn who her new desk mate will be.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Jim's desk beside Pam is now permanently vacant, confirming that his move to Philadelphia has actually gone through and someone else is replacing him at the Scranton branch."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Pam inquiring about a new desk mate is ordinary office texture and doesn't disclose any outcome or reveal."
+                }
+              ],
+              "reason": "It implies Jim's desk beside Pam is now permanently vacant, confirming that his move to Philadelphia has actually gone through and someone else is replacing him at the Scranton branch."
+            }
+          },
+          "rejected": "consequence (1/2): It implies Jim's desk beside Pam is now permanently vacant, confirming that his move to Philadelphia has actually gone through and someone else is replacing him at the Scranton branch."
+        },
+        {
+          "text": "Dwight lines up several of his close friends as candidates for Jim's part-time replacement.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jim's part-time Philadelphia arrangement is already established, so Dwight interviewing friends as a stand-in is ordinary office texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office-plot texture consistent with the known fact that Jim is splitting time with Philadelphia, and doesn't reveal any outcome or answer to a pending question."
+                }
+              ],
+              "reason": "Jim's part-time Philadelphia arrangement is already established, so Dwight interviewing friends as a stand-in is ordinary office texture rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "David Wallace asks Dwight to find a part-time replacement to cover for Jim.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jim is splitting time with Philadelphia, so staffing logistics to cover his absence is ordinary workplace texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the outcome of Jim's unresolved Philadelphia situation \ruby he's officially going part-time in Scranton with corporate approval and a replacement being brought in."
+                }
+              ],
+              "reason": "It confirms the outcome of Jim's unresolved Philadelphia situation \ruby he's officially going part-time in Scranton with corporate approval and a replacement being brought in."
+            }
+          },
+          "rejected": "consequence (1/2): It confirms the outcome of Jim's unresolved Philadelphia situation \ruby he's officially going part-time in Scranton with corporate approval and a replacement being brought in."
+        }
+      ]
+    },
+    "14": {
+      "title": "Vandalism",
+      "candidates": [
+        {
+          "text": "Pam stares at her large warehouse mural, now defaced by someone's vandalism.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Pam's mural — an ongoing project the viewer has seen her begin — gets vandalized, an event and turning point not yet known."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Pam's mural project — begun in earlier episodes — gets vandalized, a plot development and setback the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Pam's mural — an ongoing project the viewer has seen her begin — gets vandalized, an event and turning point not yet known."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Pam's mural — an ongoing project the viewer has seen her begin — gets vandalized, an event and turning point not yet known."
+        },
+        {
+          "text": "Angela reluctantly allows Oscar and Kevin to attend her baby son's first birthday party.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Attending a child's birthday party is ordinary social texture; it doesn't resolve the Angela/Oscar/Robert affair conflict or reveal any outcome, death, discovery or betrayal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only depicts an ordinary social gathering; Angela's reluctance keeps her feud with Oscar unresolved and reveals no outcome or new information."
+                }
+              ],
+              "reason": "Attending a child's birthday party is ordinary social texture; it doesn't resolve the Angela/Oscar/Robert affair conflict or reveal any outcome, death, discovery or betrayal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Darryl grimaces at Jim's unclean habits while sharing their Philadelphia apartment together.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Darryl already accepted the Philadelphia job, so rooming with Jim there is ordinary follow-through and character texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Darryl already got the Philadelphia job in the prior episode, so sharing an apartment with Jim is domestic texture rather than a new outcome."
+                }
+              ],
+              "reason": "Darryl already accepted the Philadelphia job, so rooming with Jim there is ordinary follow-through and character texture rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight and Nellie eagerly join Pam to track down whoever vandalized her mural.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only sets up an ordinary investigation premise around Pam's mural without disclosing any outcome, culprit, or resolution to a pending storyline."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Pam's newly begun mural gets vandalized, an event the viewer hasn't yet seen."
+                }
+              ],
+              "reason": "It discloses that Pam's newly begun mural gets vandalized, an event the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It discloses that Pam's newly begun mural gets vandalized, an event the viewer hasn't yet seen."
+        }
+      ]
+    },
+    "15": {
+      "title": "Couples Discount",
+      "candidates": [
+        {
+          "text": "Office coworkers pair off into couples to take advantage of a Valentine's Day discount at a mini-mall.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A light ensemble activity with no outcome, reveal, or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A lighthearted group activity/setting detail that doesn't disclose any outcome, reveal, or resolution of pending conflicts like Jim and Pam's fight."
+                }
+              ],
+              "reason": "A light ensemble activity with no outcome, reveal, or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam and Jim sit together sharing lunch with Brian, the documentary's sound man.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A casual lunch with the crew is ordinary character texture and doesn't disclose any outcome of the pending Jim–Pam conflict or Brian's role."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Sharing lunch with the sound man is ordinary character texture, and Brian's involvement with Jim and Pam was already established in the previous episode."
+                }
+              ],
+              "reason": "A casual lunch with the crew is ordinary character texture and doesn't disclose any outcome of the pending Jim–Pam conflict or Brian's role."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "16": {
+      "title": "Moving On",
+      "candidates": [
+        {
+          "text": "Dwight brings Angela along to help him give his elderly aunt a bath.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary domestic errand/character texture involving Dwight and Angela, with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary domestic errand involving established characters and does not disclose any outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "This is an ordinary domestic errand/character texture involving Dwight and Angela, with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam sits through a Philadelphia job interview with a manager who reminds her of her old boss.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It indicates Pam pursuing work in Philadelphia, signalling movement toward resolving the open conflict over whether the family will leave Scranton for Jim's venture."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It signals a turning point in the pending Jim-Pam conflict over Philadelphia, revealing that Pam moves toward relocating by actually interviewing for a job there."
+                }
+              ],
+              "reason": "It indicates Pam pursuing work in Philadelphia, signalling movement toward resolving the open conflict over whether the family will leave Scranton for Jim's venture."
+            }
+          },
+          "rejected": "consequence (2/2): It indicates Pam pursuing work in Philadelphia, signalling movement toward resolving the open conflict over whether the family will leave Scranton for Jim's venture."
+        },
+        {
+          "text": "Andy hovers around Pete and Erin in the office trying to make them feel uncomfortable.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Andy has returned to the office and has learned about Erin's new relationship with Pete, resolving the pending question of how he reacts to being replaced."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Andy's jealous hovering is character texture; his return and the Pete/Erin relationship are already known to the viewer, and no outcome is disclosed."
+                }
+              ],
+              "reason": "It reveals that Andy has returned to the office and has learned about Erin's new relationship with Pete, resolving the pending question of how he reacts to being replaced."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Andy has returned to the office and has learned about Erin's new relationship with Pete, resolving the pending question of how he reacts to being replaced."
+        }
+      ]
+    },
+    "17": {
+      "title": "The Farm",
+      "candidates": []
+    },
+    "18": {
+      "title": "Promos",
+      "candidates": [
+        {
+          "text": "Jim and Darryl sit in a meeting while a visiting baseball star pitches his bizarre sci-fi sports movie.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture at the Philadelphia startup, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture at Jim's Philadelphia company, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary workplace texture at the Philadelphia startup, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy sits alone scrolling through rude comments about himself on the Internet with a hurt expression.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Andy reacting emotionally to online criticism, which is character texture rather than an outcome of any pending plotline like the Erin breakup or Jim's business."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Andy in an unhappy but vague situation with online mockery, without disclosing any pending outcome such as the Erin/Pete breakup or the fate of Jim's business, and answers no open question."
+                }
+              ],
+              "reason": "It shows Andy reacting emotionally to online criticism, which is character texture rather than an outcome of any pending plotline like the Erin breakup or Jim's business."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "19": {
+      "title": "Stairmageddon",
+      "candidates": [
+        {
+          "text": "The office elevators are down for maintenance, so the staff trudges up multiple flights of stairs together.",
+          "checks": {
+            "reverse": {
+              "picked": 19,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A mundane logistical inconvenience with no outcome, reveal, or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A broken elevator forcing the staff to take the stairs is ordinary workplace texture that reveals no outcome, reveal, or answer to any pending question."
+                }
+              ],
+              "reason": "A mundane logistical inconvenience with no outcome, reveal, or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy meets with a talent agent, listening attentively as they discuss possible next steps for him.",
+          "checks": {
+            "reverse": {
+              "picked": 19,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Andy pursues a show-business career path, a new plot development the viewer hasn't seen set up."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Andy begins pursuing a show-business career with an agent, a turning point in his story not yet set up by the episodes watched."
+                }
+              ],
+              "reason": "It reveals that Andy pursues a show-business career path, a new plot development the viewer hasn't seen set up."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Andy pursues a show-business career path, a new plot development the viewer hasn't seen set up."
+        }
+      ]
+    },
+    "20": {
+      "title": "Paper Airplane",
+      "candidates": [
+        {
+          "text": "Dwight and Angela face off in the office, folding and throwing paper airplanes in a contest.",
+          "checks": {
+            "reverse": {
+              "picked": 20,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A playful office contest between Dwight and Angela is ordinary character texture and reveals no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A paper airplane contest between two coworkers is ordinary office texture and does not disclose any outcome, reveal or resolution of pending storylines."
+                }
+              ],
+              "reason": "A playful office contest between Dwight and Angela is ordinary character texture and reveals no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Angela and Dwight compete against each other by flying paper airplanes across the office.",
+          "checks": {
+            "reverse": {
+              "picked": 20,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary office contest activity without revealing any outcome, reveal, or resolution of pending storylines."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An office paper airplane contest between two coworkers is ordinary activity/texture and doesn't disclose any outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "It describes an ordinary office contest activity without revealing any outcome, reveal, or resolution of pending storylines."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "21": {
+      "title": "Livin' the Dream",
+      "candidates": [
+        {
+          "text": "Dwight stands proudly while his new sensei finally hands him his black belt in karate.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Dwight receiving a karate black belt is character texture; no pending conflict, relationship, or open question known to the viewer is resolved by it."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Dwight earning a karate black belt is a self-contained comedic beat with no setup in the episodes watched, revealing no pending outcome, relationship change, or open question's answer."
+                }
+              ],
+              "reason": "Dwight receiving a karate black belt is character texture; no pending conflict, relationship, or open question known to the viewer is resolved by it."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "22": {
+      "title": "A.A.R.M.",
+      "candidates": [
+        {
+          "text": "Dwight and Jim hold tryouts in the office to pick an assistant to the assistant to the regional manager.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "The existence of an \"assistant to the assistant to the regional manager\" role reveals that Dwight has been promoted to regional manager with Jim as his assistant, a major turning point the viewer hasn't seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary office activity (holding tryouts for a junior position) without disclosing any outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "The existence of an \"assistant to the assistant to the regional manager\" role reveals that Dwight has been promoted to regional manager with Jim as his assistant, a major turning point the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (1/2): The existence of an \"assistant to the assistant to the regional manager\" role reveals that Dwight has been promoted to regional manager with Jim as his assistant, a major turning point the viewer hasn't seen."
+        },
+        {
+          "text": "Angela has her young child with her at the office after daycare turns away her child.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Bringing her child to the office after a daycare mishap is an ordinary situational detail that doesn't disclose any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Bringing her child to the office after a daycare rejection is an ordinary logistical situation and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Bringing her child to the office after a daycare mishap is an ordinary situational detail that doesn't disclose any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy nervously auditions in front of judges for a national a cappella singing competition show.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Andy engaging in an audition activity consistent with his newly hired talent agent, without revealing the outcome or any other pending answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Andy pursuing his newly-established showbiz ambitions in an audition, an ordinary activity that doesn't reveal the outcome or any hidden information."
+                }
+              ],
+              "reason": "It shows Andy engaging in an audition activity consistent with his newly hired talent agent, without revealing the outcome or any other pending answer."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "23": {
+      "title": "Finale",
+      "candidates": [
+        {
+          "text": "Longtime office coworkers sit together for one last round of on-camera interviews with tears in their eyes.",
+          "checks": {
+            "reverse": {
+              "picked": 23,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only conveys an emotional, atmospheric beat of the documentary's filming wrapping up, without disclosing any specific outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It conveys only a general emotional tone of a filmed interview session, without disclosing any outcome, fate, or answer to the pending storylines (Jim and Pam's marriage, Andy's career, Dwight and Angela)."
+                }
+              ],
+              "reason": "It only conveys an emotional, atmospheric beat of the documentary's filming wrapping up, without disclosing any specific outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 918,
+    "out": 588,
+    "cache_read": 17661,
+    "cache_write": 98,
+    "calls": 4
+  },
+  "recheck": [
+    {
+      "episode": 3,
+      "text": "Dwight is coaching Erin in the Dothraki language so she can impress Andy's educated family.",
+      "reason": "It implies Erin and Andy are now a couple meeting his family, answering the open question of whether their romance resolves after Andy's pursuit of her in Florida."
+    },
+    {
+      "episode": 7,
+      "text": "Andy appears on a video call into the office from his boat.",
+      "reason": "It gives away that Andy leaves the office for an extended boat trip, managing remotely — a departure/turning point not yet set up in the episodes watched."
+    },
+    {
+      "episode": 23,
+      "text": "Longtime office coworkers sit together for one last round of on-camera interviews with tears in their eyes.",
+      "reason": "It signals the documentary's conclusion/final farewell interviews, an emotional endpoint the viewer hasn't reached yet."
+    }
+  ],
+  "recheck_spend": {
+    "in": 82,
+    "out": 326,
+    "cache_read": 13684,
+    "cache_write": 0,
+    "calls": 2
+  }
+}

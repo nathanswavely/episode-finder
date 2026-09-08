@@ -1,0 +1,1859 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 5,
+  "model": "claude-opus-5",
+  "episodes": {
+    "2": {
+      "title": "Business Ethics",
+      "candidates": [
+        {
+          "text": "Jim follows Dwight closely, timing every second of his activity under the time-theft policy.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office-antics texture between Jim and Dwight, revealing no outcome, death, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office texture — a Jim/Dwight prank dynamic — with no outcome, reveal, or resolution of any pending plotline."
+                }
+              ],
+              "reason": "This is ordinary office-antics texture between Jim and Dwight, revealing no outcome, death, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Baby Shower",
+      "candidates": [
+        {
+          "text": "Michael rehearses childbirth scenarios with Dwight using a watermelon as a stand-in baby.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "Rehearsing childbirth signals that a pregnancy/impending baby is revealed in the next episode, an outcome the viewer doesn't yet know about following Michael and Jan's breakup."
+                },
+                {
+                  "reveals": true,
+                  "reason": "The childbirth rehearsal signals an impending pregnancy/baby storyline, foreshadowing the answer to the unresolved Michael–Jan children conflict."
+                }
+              ],
+              "reason": "Rehearsing childbirth signals that a pregnancy/impending baby is revealed in the next episode, an outcome the viewer doesn't yet know about following Michael and Jan's breakup."
+            }
+          },
+          "rejected": "consequence (2/2): Rehearsing childbirth signals that a pregnancy/impending baby is revealed in the next episode, an outcome the viewer doesn't yet know about following Michael and Jan's breakup."
+        },
+        {
+          "text": "The office staff throws a baby shower and Jan arrives as the guest of honor.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jan is pregnant and returns into Michael's life after their breakup, answering the open question of where that relationship stands."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jan is pregnant — a major development following Michael's breakup with her that the viewer has not yet learned."
+                }
+              ],
+              "reason": "It reveals that Jan is pregnant and returns into Michael's life after their breakup, answering the open question of where that relationship stands."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jan is pregnant and returns into Michael's life after their breakup, answering the open question of where that relationship stands."
+        },
+        {
+          "text": "Michael pretends to dislike Holly in the office while Jan is there visiting.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that a new character, Holly, arrives at the office and that Michael has feelings for her (concealed from Jan), plus that Jan returns — all developments the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Toby actually does leave and is replaced by a new HR rep, Holly, whom Michael is secretly attracted to, plus Jan's return — answering the open question of Toby's Costa Rica move."
+                }
+              ],
+              "reason": "It reveals that a new character, Holly, arrives at the office and that Michael has feelings for her (concealed from Jan), plus that Jan returns — all developments the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that a new character, Holly, arrives at the office and that Michael has feelings for her (concealed from Jan), plus that Jan returns — all developments the viewer hasn't seen."
+        }
+      ]
+    },
+    "4": {
+      "title": "Crime Aid",
+      "candidates": [
+        {
+          "text": "Michael stands before the office staff acting as auctioneer, calling out bids on various items.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An office auction activity is ordinary texture that doesn't disclose any outcome, reveal, or resolution of pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An office auction is an ordinary activity/setting with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "An office auction activity is ordinary texture that doesn't disclose any outcome, reveal, or resolution of pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam is splitting her time between Scranton and a part-time desk job at corporate.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 2
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 2)"
+        }
+      ]
+    },
+    "5": {
+      "title": "Employee Transfer",
+      "candidates": [
+        {
+          "text": "Pam arrives at corporate on Halloween in costume to find she is the only one dressed up.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A costume mix-up at the corporate office is comedic texture with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A comedic Halloween costume mishap that conveys situational texture without revealing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A costume mix-up at the corporate office is comedic texture with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight torments Andy by suddenly acting like a devoted Cornell University fan.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic texture — a prank consistent with Dwight's established antagonism toward Andy — and discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic character texture between Dwight and Andy, revealing no outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "This is ordinary comedic texture — a prank consistent with Dwight's established antagonism toward Andy — and discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam meets Jim's brothers as they pull a prank on Jim during their visit.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Meeting Jim's brothers during a family visit and a prank is ordinary character texture, not an outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Meeting family and a lighthearted prank is ordinary character texture that doesn't resolve any pending conflict or reveal an outcome."
+                }
+              ],
+              "reason": "Meeting Jim's brothers during a family visit and a prank is ordinary character texture, not an outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Customer Survey",
+      "candidates": [
+        {
+          "text": "Jim and Pam wear Bluetooth earpieces and stay on the phone together through the entire workday.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary coping activity for their long-distance relationship without resolving whether the strain breaks them up or any other pending outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary coping activity for the long-distance couple that doesn't disclose any outcome, reveal, or turning point in their relationship."
+                }
+              ],
+              "reason": "It shows an ordinary coping activity for their long-distance relationship without resolving whether the strain breaks them up or any other pending outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim and Dwight sit at their desks reviewing their annual customer survey reports side by side.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary workplace activity between Jim and Dwight with no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Two coworkers doing routine desk work is ordinary texture with no outcome or reveal."
+                }
+              ],
+              "reason": "It depicts an ordinary workplace activity between Jim and Dwight with no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Business Trip",
+      "candidates": [
+        {
+          "text": "Michael is up in Winnipeg, Manitoba, handling business far from the Scranton office.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Michael being away on a business trip is ordinary setting/situation texture and doesn't disclose any outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Michael being away on a business trip in Winnipeg is ordinary setting/premise texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Michael being away on a business trip is ordinary setting/situation texture and doesn't disclose any outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy and Oscar accompany Michael on his business trip away from Scranton together.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A business trip with coworkers is ordinary situational texture and doesn't disclose any outcome, reveal, or resolution of the pending storylines."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A business trip with coworkers is ordinary setup/texture that doesn't disclose any outcome, reveal, or resolution of pending storylines."
+                }
+              ],
+              "reason": "A business trip with coworkers is ordinary situational texture and doesn't disclose any outcome, reveal, or resolution of the pending storylines."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim is counting down the days until Pam gets back from art school.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jim missing Pam and counting days is ordinary emotional texture consistent with the known long-distance situation, revealing no outcome about their relationship."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jim missing Pam and counting down her return is ordinary emotional texture consistent with the established long-distance strain, revealing no outcome or turning point."
+                }
+              ],
+              "reason": "Jim missing Pam and counting days is ordinary emotional texture consistent with the known long-distance situation, revealing no outcome about their relationship."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Frame Toby",
+      "candidates": [
+        {
+          "text": "Pam is upset about a messy microwave in the office that no one will clean up.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A mundane office annoyance about an unclean microwave conveys everyday texture without disclosing any outcome, reveal, or resolution of pending storylines."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A mundane office annoyance that conveys character texture without revealing any outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "A mundane office annoyance about an unclean microwave conveys everyday texture without disclosing any outcome, reveal, or resolution of pending storylines."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Toby is back in the office after his time in Costa Rica.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Toby, who had quit and moved to Costa Rica, returns to the Scranton office, resolving his departure storyline."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Toby's departure storyline \\u2014 that his Costa Rica move ends and he returns to the Scranton office."
+                }
+              ],
+              "reason": "It reveals that Toby, who had quit and moved to Costa Rica, returns to the Scranton office, resolving his departure storyline."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Toby, who had quit and moved to Costa Rica, returns to the Scranton office, resolving his departure storyline."
+        }
+      ]
+    },
+    "9": {
+      "title": "The Surplus",
+      "candidates": [
+        {
+          "text": "Oscar and Jim are lobbying Michael for a new office photocopier using the leftover budget money.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A mundane workplace request about budget spending; it reveals no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture — a premise about budget spending that doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "A mundane workplace request about budget spending; it reveals no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam and Stanley are pushing to spend the surplus money on new office chairs for everyone.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office-conflict texture (debating how to spend a budget surplus) and does not disclose any outcome or answer a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only sets up an ordinary office debate about how to spend surplus money, revealing no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary office-conflict texture (debating how to spend a budget surplus) and does not disclose any outcome or answer a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Moroccan Christmas",
+      "candidates": [
+        {
+          "text": "Phyllis is hosting a Moroccan-themed holiday party in the office, with the staff gathered together for Christmas.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes a holiday party setting and theme, ordinary workplace texture that doesn't disclose any outcome, reveal, or resolution of pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A themed office Christmas party is ordinary seasonal setting and activity, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "It only describes a holiday party setting and theme, ordinary workplace texture that doesn't disclose any outcome, reveal, or resolution of pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight has a stack of Princess Unicorn Christmas toys that he is selling to people in the office.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic texture—Dwight scheming to profit off a hot holiday toy—and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Dwight scalping a hot Christmas toy in the office is a comedic setup/texture rather than an outcome, and it doesn't resolve any pending storyline like the Angela-Andy-Dwight triangle or Jim and Pam's future."
+                }
+              ],
+              "reason": "This is ordinary comedic texture—Dwight scheming to profit off a hot holiday toy—and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "The Duel",
+      "candidates": [
+        {
+          "text": "Michael sits with David Wallace at corporate in New York discussing why the Scranton branch is doing well.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A meeting between Michael and David Wallace about branch performance is ordinary workplace texture and discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A routine meeting between Michael and David Wallace about branch performance is ordinary workplace texture and doesn't disclose any outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "A meeting between Michael and David Wallace about branch performance is ordinary workplace texture and discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "David Wallace asks Michael to explain his methods while Michael offers no real insight in return.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A vague interaction between Michael and David Wallace is ordinary character texture and discloses no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts a vague conversational beat between Michael and David Wallace with no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "A vague interaction between Michael and David Wallace is ordinary character texture and discloses no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "12": {
+      "title": "Prince Family Paper",
+      "candidates": [
+        {
+          "text": "The rest of the office holds a lively ongoing debate about whether someone is hot.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A generic office debate about someone's attractiveness is ordinary character texture with no outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A trivial office debate is ordinary character texture and reveals no outcome, reveal, or plot turn."
+                }
+              ],
+              "reason": "A generic office debate about someone's attractiveness is ordinary character texture with no outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael and Dwight go undercover inside a small family-run rival paper company.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes the premise/activity of an upcoming episode rather than any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a premise/activity (spying on a rival company) without disclosing any outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "It describes the premise/activity of an upcoming episode rather than any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "14": {
+      "title": "Lecture Circuit: Part 1",
+      "candidates": [
+        {
+          "text": "Andy develops an instant crush on a client who is visiting Stanley at work.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a new romantic development for Andy following his breakup with Angela, introducing a plot point the viewer hasn't seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Andy noticing a visiting client is ordinary character texture and doesn't resolve any pending conflict or open question."
+                }
+              ],
+              "reason": "It reveals a new romantic development for Andy following his breakup with Angela, introducing a plot point the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a new romantic development for Andy following his breakup with Angela, introducing a plot point the viewer hasn't seen."
+        },
+        {
+          "text": "Michael travels to other branches for a speaking tour while Pam serves as his driver.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes an ordinary premise/setup (a speaking tour with Pam driving) without disclosing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes a premise/setup (a speaking tour with Pam driving) without disclosing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This describes an ordinary premise/setup (a speaking tour with Pam driving) without disclosing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam chats with Karen during Michael's speaking stop at the Utica branch.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael (with Pam) travels to the Utica branch and encounters Karen again, a plot development/reunion not yet set up in the episodes watched, though it's fairly minor texture otherwise."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael (with Pam) travels to the Utica branch and encounters Karen again, a plot development not established in the episodes watched."
+                }
+              ],
+              "reason": "It reveals that Michael (with Pam) travels to the Utica branch and encounters Karen again, a plot development/reunion not yet set up in the episodes watched, though it's fairly minor texture otherwise."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Michael (with Pam) travels to the Utica branch and encounters Karen again, a plot development/reunion not yet set up in the episodes watched, though it's fairly minor texture otherwise."
+        },
+        {
+          "text": "Dwight and Jim realize they have forgotten Kelly's birthday and scramble to fix it.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office texture — a forgotten birthday and scramble — with no death, reveal, betrayal, or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office texture involving a forgotten birthday, revealing no outcome, death, reveal, or resolution of any pending conflict the viewer knows about."
+                }
+              ],
+              "reason": "This is ordinary office texture — a forgotten birthday and scramble — with no death, reveal, betrayal, or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "15": {
+      "title": "Lecture Circuit: Part 2",
+      "candidates": [
+        {
+          "text": "The office staff crowd around a monitor watching Angela's nanny-cam footage of her bizarre interaction with her pets.",
+          "checks": {
+            "reverse": {
+              "picked": 17,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts a comedic office activity and character texture (Angela's eccentricity with her cats) without revealing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office texture — staff amusing themselves at Angela's cat eccentricity — and doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It depicts a comedic office activity and character texture (Angela's eccentricity with her cats) without revealing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight and Jim offer Kelly a birthday choice between watching TV for an hour or taking a nap.",
+          "checks": {
+            "reverse": {
+              "picked": 17,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a light workplace birthday interaction with no outcome, reveal, or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A trivial office birthday gag with no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "It's a light workplace birthday interaction with no outcome, reveal, or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael and Pam arrive at the Nashua branch to find Holly is off work for a few days.",
+          "checks": {
+            "reverse": {
+              "picked": 17,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a trip to the Nashua branch and a mundane absence, without disclosing any outcome for Michael and Holly's pending relationship question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Michael travels to Nashua seeking Holly and that the anticipated reunion is thwarted by her absence, answering the open question of whether he reconnects with her."
+                }
+              ],
+              "reason": "It discloses that Michael travels to Nashua seeking Holly and that the anticipated reunion is thwarted by her absence, answering the open question of whether he reconnects with her."
+            }
+          },
+          "rejected": "consequence (1/2): It discloses that Michael travels to Nashua seeking Holly and that the anticipated reunion is thwarted by her absence, answering the open question of whether he reconnects with her."
+        }
+      ]
+    },
+    "16": {
+      "title": "Blood Drive",
+      "candidates": [
+        {
+          "text": "At a Valentine's blood drive, Michael finds a woman's lost glove and tries to track her down.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setup texture — Michael pursuing a romantic lead at a blood drive — without disclosing any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a premise/setup activity (a blood drive and a search) without disclosing any outcome, reveal, or resolution to a pending question."
+                }
+              ],
+              "reason": "This is ordinary setup texture — Michael pursuing a romantic lead at a blood drive — without disclosing any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The office staff put together a Lonely Hearts Party and root for Michael's hopeful Valentine's romance.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary situational texture — an office party and general hopes about Michael's romantic life — without disclosing any outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes a party setting and Michael hoping for romance, without revealing any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary situational texture — an office party and general hopes about Michael's romantic life — without disclosing any outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim and Pam share an awkward lunch with Phyllis after hearing her having sex in a bathroom.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a comedic, character-texture scene involving an awkward lunch and no plot outcome, death, reveal, or resolution of any pending conflict the viewer knows about."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic character texture involving Phyllis and the couple, with no outcome, reveal, or answer to a pending story question."
+                }
+              ],
+              "reason": "It's a comedic, character-texture scene involving an awkward lunch and no plot outcome, death, reveal, or resolution of any pending conflict the viewer knows about."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "On Valentine's Day in the office, the staff sit around sharing stories of their worst break-ups.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A Valentine's Day office chat about past break-ups is ordinary character texture and doesn't disclose any pending outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A Valentine's Day chat about past break-ups is ordinary character texture and doesn't disclose any pending outcome or reveal."
+                }
+              ],
+              "reason": "A Valentine's Day office chat about past break-ups is ordinary character texture and doesn't disclose any pending outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "17": {
+      "title": "Golden Ticket",
+      "candidates": [
+        {
+          "text": "Andy, Jim and Pam are each giving Kevin different advice about wooing the woman he met at the Valentine's mixer.",
+          "checks": {
+            "reverse": {
+              "picked": 19,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows only ordinary character texture \\ Kevin seeking dating advice \\ without disclosing any outcome, reveal, or resolution of a pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's ordinary character texture — office coworkers giving dating advice — and doesn't resolve any pending conflict or open question the viewer knows about."
+                }
+              ],
+              "reason": "It shows only ordinary character texture \\ Kevin seeking dating advice \\ without disclosing any outcome, reveal, or resolution of a pending storyline."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "18": {
+      "title": "New Boss",
+      "candidates": [
+        {
+          "text": "Kelly and Angela both act smitten around the stern new regional vice president visiting the office.",
+          "checks": {
+            "reverse": {
+              "picked": 20,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows characters reacting to a visiting executive, which is ordinary character texture rather than an outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only conveys character texture — a new executive visiting and coworkers crushing on him — without disclosing any outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "It only shows characters reacting to a visiting executive, which is ordinary character texture rather than an outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "19": {
+      "title": "Two Weeks",
+      "candidates": [
+        {
+          "text": "Pam sits at the new office photocopier, working through its programming menus with quiet success.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A mundane office activity; no outcome, reveal, or answer to a pending question is disclosed by Pam operating a copier."
+                },
+                {
+                  "reveals": true,
+                  "reason": "The photocopier was the losing faction's request in the surplus episode (the office bought chairs instead), so its presence reveals an outcome/change the viewer hasn't seen."
+                }
+              ],
+              "reason": "The photocopier was the losing faction's request in the surplus episode (the office bought chairs instead), so its presence reveals an outcome/change the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (1/2): The photocopier was the losing faction's request in the surplus episode (the office bought chairs instead), so its presence reveals an outcome/change the viewer hasn't seen."
+        },
+        {
+          "text": "Michael spends his final two weeks in the office goofing off even more than usual.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael quits/leaves Dunder Mifflin, a major turning point the viewer hasn't seen coming."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael quits or leaves Dunder Mifflin, a major turning point the viewer hasn't seen set up."
+                }
+              ],
+              "reason": "It reveals that Michael quits/leaves Dunder Mifflin, a major turning point the viewer hasn't seen coming."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Michael quits/leaves Dunder Mifflin, a major turning point the viewer hasn't seen coming."
+        }
+      ]
+    },
+    "20": {
+      "title": "Dream Team",
+      "candidates": [
+        {
+          "text": "Ryan walks around the cramped new office with his hair newly bleached bright blond.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Ryan — last seen disgraced, dumped and off to Thailand — has returned and is back in the office, plus hints at a change in the office setup."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It shows Ryan back working alongside Michael in a cramped \"new office,\" tipping the major turning point of Michael leaving Dunder Mifflin to start a rival venture with him."
+                }
+              ],
+              "reason": "It reveals that Ryan — last seen disgraced, dumped and off to Thailand — has returned and is back in the office, plus hints at a change in the office setup."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Ryan — last seen disgraced, dumped and off to Thailand — has returned and is back in the office, plus hints at a change in the office setup."
+        },
+        {
+          "text": "Michael sets up his new company headquarters inside a large storage closet in the building.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael leaves Dunder Mifflin and starts his own rival paper company, a major turning point the viewer hasn't seen coming."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael leaves Dunder Mifflin to found his own rival company, a major turning point the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Michael leaves Dunder Mifflin and starts his own rival paper company, a major turning point the viewer hasn't seen coming."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Michael leaves Dunder Mifflin and starts his own rival paper company, a major turning point the viewer hasn't seen coming."
+        },
+        {
+          "text": "A former coworker from Michael's telemarketing job briefly stops by to help with the setup.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "recasts Vikram as merely stopping by to help with setup rather than being hired by the new company"
+              ]
+            }
+          },
+          "rejected": "faithful: recasts Vikram as merely stopping by to help with setup rather than being hired by the new company"
+        },
+        {
+          "text": "Michael and Pam work through a handwritten list agenda while struggling to set up shop together.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael and Pam have left Dunder Mifflin to start a business together, a major turning point the viewer has no knowledge of."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael and Pam leave Dunder Mifflin to start their own business together, a major turning point the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Michael and Pam have left Dunder Mifflin to start a business together, a major turning point the viewer has no knowledge of."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Michael and Pam have left Dunder Mifflin to start a business together, a major turning point the viewer has no knowledge of."
+        },
+        {
+          "text": "Jim tags along while his officemates brownnose Charles about his passion for playing soccer.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the arrival of a new corporate superior, Charles, whom the staff now curry favor with, implying a shake-up in the office hierarchy following Michael's golden ticket fiasco."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the arrival of a new superior, Charles, who the staff are now courting \\u2014 a major turning point in the branch's leadership that follows Michael's golden ticket fiasco."
+                }
+              ],
+              "reason": "It reveals the arrival of a new corporate superior, Charles, whom the staff now curry favor with, implying a shake-up in the office hierarchy following Michael's golden ticket fiasco."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the arrival of a new corporate superior, Charles, whom the staff now curry favor with, implying a shake-up in the office hierarchy following Michael's golden ticket fiasco."
+        }
+      ]
+    },
+    "21": {
+      "title": "Michael Scott Paper Company",
+      "candidates": [
+        {
+          "text": "The opening credits play as an alternate title sequence for the new paper company.",
+          "checks": {
+            "reverse": {
+              "picked": 23,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael, having just quit Dunder Mifflin, starts his own paper company — the outcome of the cliffhanger the viewer was left with."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael's quitting leads to him founding a new paper company, answering the open question of what happens after he walks out."
+                }
+              ],
+              "reason": "It reveals that Michael, having just quit Dunder Mifflin, starts his own paper company — the outcome of the cliffhanger the viewer was left with."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Michael, having just quit Dunder Mifflin, starts his own paper company — the outcome of the cliffhanger the viewer was left with."
+        },
+        {
+          "text": "Michael, Pam and Ryan host a Paper and Pancakes luncheon inside their cramped makeshift office.",
+          "checks": {
+            "reverse": {
+              "picked": 23,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael actually starts his own paper company and that Pam and Ryan have left Dunder Mifflin to join him, answering the open question of what follows Michael's resignation."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael has founded his own paper company and that Pam and Ryan have left Dunder Mifflin to join him, an outcome the viewer only knows as pending after Michael quits."
+                }
+              ],
+              "reason": "It reveals that Michael actually starts his own paper company and that Pam and Ryan have left Dunder Mifflin to join him, answering the open question of what follows Michael's resignation."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Michael actually starts his own paper company and that Pam and Ryan have left Dunder Mifflin to join him, answering the open question of what follows Michael's resignation."
+        },
+        {
+          "text": "Jim spends his whole day puzzling over what Charles means by asking for a run down.",
+          "checks": {
+            "reverse": {
+              "picked": 23,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture consistent with Jim's already-established awkwardness with Charles, revealing no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture — Jim's continued awkwardness with Charles is already established and no outcome or reveal is disclosed."
+                }
+              ],
+              "reason": "This is ordinary workplace texture consistent with Jim's already-established awkwardness with Charles, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight and Andy are both clearly attracted to the new receptionist in the office.",
+          "checks": {
+            "reverse": {
+              "picked": 23,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "The presence of a new receptionist implies Pam has left her job/reception desk, revealing the outcome of the fallout from Michael quitting."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Pam is no longer at the reception desk and that a new receptionist has been hired, an outcome following from Pam's art school/corporate storyline and the recent upheaval."
+                }
+              ],
+              "reason": "The presence of a new receptionist implies Pam has left her job/reception desk, revealing the outcome of the fallout from Michael quitting."
+            }
+          },
+          "rejected": "consequence (2/2): The presence of a new receptionist implies Pam has left her job/reception desk, revealing the outcome of the fallout from Michael quitting."
+        }
+      ]
+    },
+    "22": {
+      "title": "Heavy Competition",
+      "candidates": [
+        {
+          "text": "Andy tries to unload his failed wedding plans on Jim and Pam in the office.",
+          "checks": {
+            "reverse": {
+              "picked": 24,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Andy offloading his defunct wedding arrangements is ordinary texture following the already-known Angela breakup, revealing no new outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Andy's engagement to Angela already ended on-screen, so his defunct wedding plans are known context and this is ordinary character texture."
+                }
+              ],
+              "reason": "Andy offloading his defunct wedding arrangements is ordinary texture following the already-known Angela breakup, revealing no new outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy hovers over Jim, trying to meet all of his emotional needs at work.",
+          "checks": {
+            "reverse": {
+              "picked": 24,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Andy fussing over Jim at the office is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Andy fussing over Jim at work is ordinary comedic character texture with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Andy fussing over Jim at the office is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim sits with Andy and reassures him that he will find love again someday.",
+          "checks": {
+            "reverse": {
+              "picked": 24,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A consoling conversation about Andy's romantic prospects is ordinary character texture following his already-known breakup with Angela, and reveals no outcome or new development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A generic supportive conversation about Andy's romantic prospects, consistent with his known breakup with Angela, revealing no new outcome or turning point."
+                }
+              ],
+              "reason": "A consoling conversation about Andy's romantic prospects is ordinary character texture following his already-known breakup with Angela, and reveals no outcome or new development."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "23": {
+      "title": "Broke",
+      "candidates": [
+        {
+          "text": "Jim watches Charles sucking up to his own superiors and realizes what kind of guy he is.",
+          "checks": {
+            "reverse": {
+              "picked": 25,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Jim's ongoing friction with Charles and reveals no outcome, death, discovery, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character observation about an already-established antagonistic dynamic, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is character texture about Jim's ongoing friction with Charles and reveals no outcome, death, discovery, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Charles watches Dwight acting with his usual bizarre personality and finally seems to recognize it.",
+          "checks": {
+            "reverse": {
+              "picked": 25,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Charles noticing Dwight's eccentricity is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture showing Charles's reaction to Dwight's known eccentricity, without revealing any outcome, reveal, or plot turning point."
+                }
+              ],
+              "reason": "Charles noticing Dwight's eccentricity is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "24": {
+      "title": "Casual Friday",
+      "candidates": [
+        {
+          "text": "Toby is going around the office telling people their clothes are too casual for casual Friday.",
+          "checks": {
+            "reverse": {
+              "picked": 26,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary office dress-code gag with no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Toby enforcing a dress code is ordinary workplace texture and doesn't reveal any outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "It depicts an ordinary office dress-code gag with no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "25": {
+      "title": "Cafe Disco",
+      "candidates": [
+        {
+          "text": "Michael turns the empty downstairs office into a makeshift cafe-disco with music and dancing.",
+          "checks": {
+            "reverse": {
+              "picked": 27,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies the Michael Scott Paper Company office is now vacant and Michael is back at Dunder Mifflin, revealing the outcome of the pending standoff between his startup and corporate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary workplace activity/setting — Michael creating a dance space — without disclosing any outcome, reveal or resolution of the pending conflicts."
+                }
+              ],
+              "reason": "It implies the Michael Scott Paper Company office is now vacant and Michael is back at Dunder Mifflin, revealing the outcome of the pending standoff between his startup and corporate."
+            }
+          },
+          "rejected": "consequence (1/2): It implies the Michael Scott Paper Company office is now vacant and Michael is back at Dunder Mifflin, revealing the outcome of the pending standoff between his startup and corporate."
+        },
+        {
+          "text": "Kelly and Andy square off on the dance floor in a playful dance-off.",
+          "checks": {
+            "reverse": {
+              "picked": 27,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A playful dance-off is ordinary character texture and does not disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A playful dance-off between Kelly and Andy is light character texture that discloses no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "A playful dance-off is ordinary character texture and does not disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Even Angela, stiff and reluctant at first, ends up dancing alongside the office staff.",
+          "checks": {
+            "reverse": {
+              "picked": 27,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A light character-texture moment of office dancing that doesn't disclose any plot outcome, reveal, or resolution of pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A character loosening up and dancing with coworkers is ordinary texture that doesn't disclose any outcome, reveal, or plot turning point."
+                }
+              ],
+              "reason": "A light character-texture moment of office dancing that doesn't disclose any plot outcome, reveal, or resolution of pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Phyllis voices aloud her worry that Bob might be having an affair, then dismisses it as absurd.",
+          "checks": {
+            "reverse": {
+              "picked": 27,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A passing bit of character texture about Phyllis's insecurity that she immediately dismisses; it discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A brief character-texture beat about Phyllis's momentary insecurity that she herself dismisses; it discloses no outcome, reveal, or answer to a pending question the viewer is tracking."
+                }
+              ],
+              "reason": "A passing bit of character texture about Phyllis's insecurity that she immediately dismisses; it discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "26": {
+      "title": "Company Picnic",
+      "candidates": [
+        {
+          "text": "The Scranton staff and the other branches gather outside together for the annual company picnic.",
+          "checks": {
+            "reverse": {
+              "picked": 28,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A company picnic gathering is an ordinary setting/activity that discloses no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes an ordinary setting/activity (a company picnic) without disclosing any outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "A company picnic gathering is an ordinary setting/activity that discloses no outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael and Holly see each other again and spend time together at the company picnic.",
+          "checks": {
+            "reverse": {
+              "picked": 28,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Holly returns and reconnects with Michael, resolving the open question of their separation and her new boyfriend."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of whether Michael and Holly will reconnect after her transfer and new boyfriend, revealing their reunion at the picnic."
+                }
+              ],
+              "reason": "It reveals that Holly returns and reconnects with Michael, resolving the open question of their separation and her new boyfriend."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Holly returns and reconnects with Michael, resolving the open question of their separation and her new boyfriend."
+        }
+      ]
+    },
+    "1": {
+      "title": "Weight Loss",
+      "candidates": [
+        {
+          "text": "The Scranton staff spend the summer dieting for a company weight-loss challenge and obsessing over their weight.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A company-wide weight-loss challenge is ordinary workplace texture and doesn't resolve any pending storyline like Jim's proposal, Angela's engagement, or Jan's pregnancy."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A company weight-loss challenge is ordinary workplace texture and reveals no outcome to any pending storyline."
+                }
+              ],
+              "reason": "A company-wide weight-loss challenge is ordinary workplace texture and doesn't resolve any pending storyline like Jim's proposal, Angela's engagement, or Jan's pregnancy."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael hangs around Holly in HR, eagerly trying to turn her into his new best friend.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Michael socializing with Holly at her desk is ordinary character texture consistent with their established rapport, and reveals no outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Michael socialising with Holly is ordinary character texture consistent with their established rapport, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "Michael socializing with Holly at her desk is ordinary character texture consistent with their established rapport, and reveals no outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "Stress Relief",
+      "candidates": [
+        {
+          "text": "Michael sits in a chair at the front of the office while his employees take turns roasting him.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an office activity/comedic set piece with no outcome, death, reveal, or resolution of the pending Angela/Dwight/Andy storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The sentence only shows an office activity (employees roasting Michael) without revealing any outcome, and it says nothing about the pending Angela/Dwight/Andy affair fallout."
+                }
+              ],
+              "reason": "It depicts an office activity/comedic set piece with no outcome, death, reveal, or resolution of the pending Angela/Dwight/Andy storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy, Pam and Jim sit side by side together watching an unlicensed movie at work.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Watching a movie at work is ordinary workplace texture and reveals no outcome, though Andy's presence with Jim and Pam is unremarkable given established relationships."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Watching a movie at work is ordinary office texture and reveals no outcome, though the pending Andy/Angela fallout is untouched by it."
+                }
+              ],
+              "reason": "Watching a movie at work is ordinary workplace texture and reveals no outcome, though Andy's presence with Jim and Pam is unremarkable given established relationships."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 1738,
+    "out": 764,
+    "cache_read": 28421,
+    "cache_write": 1717,
+    "calls": 8
+  },
+  "recheck": [
+    {
+      "episode": 8,
+      "text": "Pam is upset about a messy microwave in the office that no one will clean up.",
+      "reason": "It places Pam back in the Scranton office, implying her New York art school stint has ended \\u2014 the outcome of the open question about her program and the long-distance strain."
+    }
+  ],
+  "recheck_spend": {
+    "in": 146,
+    "out": 463,
+    "cache_read": 20756,
+    "cache_write": 0,
+    "calls": 4
+  }
+}

@@ -259,7 +259,7 @@ async function runFindSeason(show) {
 // ---------- result ----------
 function screenResult(walker, r) {
   const { show } = r;
-  const t = (e) => `episode ${e}${r.eps?.get(e) ? `, <span class="ep">${esc(r.eps.get(e).title)}</span>` : ""}`;
+  const t = (e) => { const ep = r.eps?.get(e); return `episode ${ep?.number ?? e}${ep ? `, <span class="ep">${esc(ep.title)}</span>` : ""}`; };
   let body = "", headline, actions = "";
 
   if (r.outcome === "resume") {

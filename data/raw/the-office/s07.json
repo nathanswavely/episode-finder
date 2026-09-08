@@ -1,0 +1,274 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 7,
+  "source": {
+    "title": "The Office (American TV series) season 7",
+    "revid": 1365374619,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_7&oldid=1365374619",
+    "license": "CC BY-SA 4.0"
+  },
+  "cast": {
+    "main": [
+      "Michael Scott",
+      "Dwight Schrute",
+      "Jim Halpert",
+      "Pam Halpert",
+      "Ryan Howard",
+      "Andy Bernard",
+      "Stanley Hudson",
+      "Kevin Malone",
+      "Creed Bratton",
+      "Meredith Palmer",
+      "Kelly Kapoor",
+      "Erin Hannon",
+      "Angela Martin",
+      "Toby Flenderson",
+      "Oscar Martinez",
+      "Darryl Philbin",
+      "Phyllis Vance",
+      "Gabe Lewis",
+      "Holly Flax"
+    ],
+    "recurring": [
+      "Jo Bennet",
+      "Danny Cordray",
+      "Deangelo Vickers",
+      "Hank Tate",
+      "Bob Vance",
+      "Helene Beesly",
+      "Todd Packer",
+      "Robert Lipton",
+      "Jordan Garfield",
+      "Luke Cooper",
+      "Jan Levinson",
+      "Carol Stills",
+      "Donna Newton",
+      "Roy Anderson",
+      "Karen Filippelli",
+      "Robert California",
+      "Nellie Bertram",
+      "David Brent",
+      "Fred Henry",
+      "Merv Bronte"
+    ]
+  },
+  "episodes": [
+    {
+      "episode": 1,
+      "number": "1",
+      "overall": 127,
+      "title": "Nepotism",
+      "air_date": "2010-09-23",
+      "summary": "Michael upsets the office when he ignores their pleas to fire office assistant Luke, Michael's immature nephew. Pam's attempt to prank Dwight backfires when Kevin's faulty rewiring of an elevator strands the two together. Andy grows even more upset with Gabe and Erin's relationship. Michael spanks his nephew in front of the entire office which results in him having to take 6 counselling sessions with Toby.",
+      "words": 66
+    },
+    {
+      "episode": 2,
+      "number": "2",
+      "overall": 128,
+      "title": "Counseling",
+      "air_date": "2010-09-30",
+      "summary": "Michael is frustrated to find out that his six hours of counseling with Toby cannot be counted unless he talks. Toby attempts to use different methods to get Michael to open up but Michael refuses to make Toby's job easy. Pam attempts to finagle a promotion to office administrator. Dwight seeks revenge (in the Pretty Woman style) with the help of his colleagues, after a shop owner at the Steamtown Mall refuses to serve him.",
+      "words": 75
+    },
+    {
+      "episode": 3,
+      "number": "3",
+      "overall": 129,
+      "title": "Andy's Play",
+      "air_date": "2010-10-07",
+      "summary": "Andy lands a role in a local production of Sweeney Todd and invites the entire office to the performance, hoping to impress Erin. However, she offers to babysit for Jim and Pam instead, hoping to get a start in the babysitter career. While Michael struggles to put his jealousy aside in regard to not being cast in the play, Jim and Pam have trouble with their less-than-stellar babysitter. Angela and Dwight continue to have a contract to uphold.",
+      "words": 78
+    },
+    {
+      "episode": 4,
+      "number": "4",
+      "overall": 130,
+      "title": "Sex Ed",
+      "air_date": "2010-10-14",
+      "summary": "Michael comes to work thinking he has a pimple, but it turns out to actually be a cold sore. When he is told that it is a form of herpes, Michael contacts all his ex-girlfriends—Jan (Melora Hardin), Holly (Amy Ryan), Helene (Linda Purl), Donna (Amy Pietz), and Carol (Nancy Carell)—and during all that, he discovers that Holly thinks he over-romanticized their relationship. Andy holds a sex education meeting in the office hoping to appeal to Erin's passionate side. Michael concludes that he did not exaggerate his relationship with Holly and what they had was in fact something special.",
+      "words": 98
+    },
+    {
+      "episode": 5,
+      "number": "5",
+      "overall": 131,
+      "title": "The Sting",
+      "air_date": "2010-10-21",
+      "summary": "When a Dunder Mifflin client is stolen by rival salesman Danny Cordray (Timothy Olyphant), Michael, Dwight and Jim decide to set up a sting in order to uncover his sales secret. Meredith, who pretends to be the manager of the fake company, tanks the plan due her attraction to Danny, resulting in Michael hiring him to appear victorious. Andy starts a band with Darryl when he learns that one of his old college friends has a successful music career.",
+      "words": 79
+    },
+    {
+      "episode": 6,
+      "number": "6",
+      "overall": 132,
+      "title": "Costume Contest",
+      "air_date": "2010-10-28",
+      "summary": "Michael freaks out when Darryl goes over his head by taking an idea to corporate that Michael initially dismissed. The employees partake in a Halloween costume contest in the office for a coupon book prize, organized as Pam’s first task as the office administrator. Meanwhile, she tries to get the truth from Danny about their dating history.",
+      "words": 57
+    },
+    {
+      "episode": 7,
+      "number": "7",
+      "overall": 133,
+      "title": "Christening",
+      "air_date": "2010-11-04",
+      "summary": "Pam and Jim's baby, Cece, gets christened and Michael invites the entire office to celebrate. Because of his feeling of being left, Michael joins a church group of high school graduates on a mission to Mexico, with Andy following along to impress Erin.",
+      "words": 43
+    },
+    {
+      "episode": 8,
+      "number": "8",
+      "overall": 134,
+      "title": "Viewing Party",
+      "air_date": "2010-11-11",
+      "summary": "In an attempt to make Michael get along with Gabe, Erin invites the office over to Gabe's house for a Glee viewing party. Michael can't handle the fact that the office workers think of Gabe as their boss instead of him and tries to sabotage the party. Growing more jealous of Gabe and Erin's relationship, Andy goes to extremes in order to impress her. Dwight helps Pam with Cece, much to Jim's chagrin.",
+      "words": 73
+    },
+    {
+      "episode": 9,
+      "number": "9",
+      "overall": 135,
+      "title": "WUPHF.com",
+      "air_date": "2010-11-18",
+      "summary": "Michael helps Ryan by charming people to invest in his internet company, WUPHF.com. Dwight creates a hay festival in the parking lot for the Thanksgiving holiday. While waiting for Dwight, Angela meets the State Senator in the festival. Jim learns of a new Sabre capping policy that prevents him from earning too much commission.",
+      "words": 54
+    },
+    {
+      "episode": 10,
+      "number": "10",
+      "overall": 136,
+      "title": "China",
+      "air_date": "2010-12-02",
+      "summary": "When Michael reads an article about China growing as a global power, he decides they must be stopped before they take over the United States. When Oscar contradicts him and is proven wrong, he is taunted by the entire office. Pam threatens to move Dunder Mifflin to a new building after everyone in the office complains about Dwight's building standards. Darryl is sick of Andy's annoying text messages. Dwight clandestinely helps Pam succeed as an Office Administrator.",
+      "words": 77
+    },
+    {
+      "episode": 11,
+      "number": "11–12",
+      "overall": 137,
+      "title": "Classy Christmas",
+      "air_date": "2010-12-09",
+      "summary": "Michael couldn't be happier when Toby takes a leave of absence, leaving corporate to send Holly Flax (Amy Ryan) to cover for him. Michael forces Pam to plan a second Christmas party on the day Holly returns to Scranton. Jim agrees to a snowball fight with Dwight, which he later regrets.",
+      "words": 51
+    },
+    {
+      "episode": 12,
+      "number": "13",
+      "overall": 139,
+      "title": "Ultimatum",
+      "air_date": "2011-01-20",
+      "summary": "Michael anticipates the news regarding the status of Holly and A.J.'s relationship. In the office, Pam puts up a New Year's resolution board so everyone can post their resolutions but things get chaotic. Darryl convinces Andy and Dwight to go with him to the bookstore in hopes of picking up women, when in fact he wants to work on his secret resolution of reading more.",
+      "words": 65
+    },
+    {
+      "episode": 13,
+      "number": "14",
+      "overall": 140,
+      "title": "The Seminar",
+      "air_date": "2011-01-27",
+      "summary": "Andy holds a small business seminar in the office with some special guests to earn some extra cash, after he finds out that his sales are the lowest. Michael and Holly use the seminar as an improv challenge, posing as a Greek couple. Erin and Gabe have a game of Scrabble to decide who will choose their movie of the day. Oscar and Pam help Erin out when she turns out to be a very bad Scrabble player.",
+      "words": 78
+    },
+    {
+      "episode": 14,
+      "number": "15",
+      "overall": 141,
+      "title": "The Search",
+      "air_date": "2011-02-03",
+      "summary": "Jim gets an emergency phone call from Helene (Linda Purl), forcing him to leave Michael at a gas station bathroom. This leads Holly, Erin, and Dwight on a search for Michael's whereabouts. A captioning contest starts in the office over Pam's artwork, which seems to offend Gabe. Holly eventually finds Michael because of their similar mentality and she realizes her feelings for him.",
+      "words": 63
+    },
+    {
+      "episode": 15,
+      "number": "16",
+      "overall": 142,
+      "title": "PDA",
+      "air_date": "2011-02-10",
+      "summary": "Michael and Holly's public displays of affection start to make everyone in the office uncomfortable. Jim and Pam have too much champagne during a Valentine's Day lunch, causing complications when they have to return to work. Andy tags along on a romantic treasure hunt Gabe has made for Erin.",
+      "words": 49
+    },
+    {
+      "episode": 16,
+      "number": "17",
+      "overall": 143,
+      "title": "Threat Level Midnight",
+      "air_date": "2011-02-17",
+      "summary": "Michael screens his action film Threat Level Midnight to the office after ten years of writing, shooting, re-shooting, and editing. The film features Michael as Agent Michael Scarn, Dwight as Scarn's butler and sidekick, and Jim as archnemesis \"Goldenface,\" as well as several people from Michael's past including Jan (Melora Hardin), Karen (Rashida Jones), Roy (David Denman), Helene (Linda Purl), Todd Packer (David Koechner), Tony Gardner (Mike Bruner), and Troy Underbridge (Noel Petok). Complications arise when Michael doesn’t get an expected response about the film from Holly.",
+      "words": 87
+    },
+    {
+      "episode": 17,
+      "number": "18",
+      "overall": 144,
+      "title": "Todd Packer",
+      "air_date": "2011-02-24",
+      "summary": "Traveling salesman Todd Packer (David Koechner) comes to Dunder Mifflin looking for a desk job in the office. However, the office is unsure if they want him to work there due to his previous behavior. When Erin gets a new computer, Andy, who is also dealing with computer problems, confronts office administrator Pam to get him a new one too. Jim and Dwight team up to get rid of Packer. Michael who has previously idealized Packer, changes his mind about him when he insults Holly.",
+      "words": 85
+    },
+    {
+      "episode": 18,
+      "number": "19",
+      "overall": 145,
+      "title": "Garage Sale",
+      "air_date": "2011-03-24",
+      "summary": "Michael decides to propose to Holly with his expensive diamond ring, thinking about outrageous ideas to carry out the proposal. When Pam notices, she makes him consult Oscar, Ryan, Jim, and herself for advice, and their opinions on his ideas. Meanwhile, Dunder Mifflin Scranton's warehouse and crew hosts a public garage sale. Jim dupes Dwight by selling him “magic beans”. The episode ends with Michael and Holly getting engaged and announcing that they will be moving to Colorado.",
+      "words": 78
+    },
+    {
+      "episode": 19,
+      "number": "20",
+      "overall": 146,
+      "title": "Training Day",
+      "air_date": "2011-04-14",
+      "summary": "Michael's replacement appears in the office, to start receiving training from Michael. The new manager, Deangelo Vickers (Will Ferrell), has everyone hoping to make good first impressions. Andy finds himself awkwardly type cast as the funny guy, while Jim and Pam worry that they've come on too strong. Only Dwight is apathetic about the new leader. Michael tries to deal with his jealousy, and establish himself as the boss.",
+      "words": 69
+    },
+    {
+      "episode": 20,
+      "number": "21",
+      "overall": 147,
+      "title": "Michael's Last Dundies",
+      "air_date": "2011-04-21",
+      "summary": "Michael trains his office replacement, Deangelo (Will Ferrell), for hosting the Dundie Awards. Meanwhile, Erin deals with her dislike of her boyfriend, Gabe. Michael gets treated to a special song as a farewell present from the entire office.",
+      "words": 38
+    },
+    {
+      "episode": 21,
+      "number": "22",
+      "overall": 148,
+      "title": "Goodbye, Michael",
+      "air_date": "2011-04-28",
+      "summary": "Michael prepares to leave for Colorado with Holly, and spends his last day in the office saying goodbye to everyone individually, wanting no drama to ensue. Meanwhile, new manager Deangelo and Andy try to keep Michael's biggest clients.",
+      "words": 38
+    },
+    {
+      "episode": 22,
+      "number": "23",
+      "overall": 149,
+      "title": "The Inner Circle",
+      "air_date": "2011-05-05",
+      "summary": "New office manager Deangelo picks favorites among the staff, revealing his true management style.",
+      "words": 14
+    },
+    {
+      "episode": 23,
+      "number": "24",
+      "overall": 150,
+      "title": "Dwight K. Schrute, (Acting) Manager",
+      "air_date": "2011-05-12",
+      "summary": "Dwight becomes the interim manager, instituting a typically heavy-handed management style. Meanwhile, Gabe tries to win back Erin.",
+      "words": 18
+    },
+    {
+      "episode": 24,
+      "number": "25–26",
+      "overall": 151,
+      "title": "Search Committee",
+      "air_date": "2011-05-19",
+      "summary": "Deangelo's new replacement is sought out through a search committee process led by Jim.",
+      "words": 14
+    }
+  ]
+}

@@ -1,0 +1,765 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 3,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Office (American TV series) season 3",
+    "revid": 1372898118,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_3&oldid=1372898118",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Gay Witch Hunt",
+      "candidates": [],
+      "note": "No inconsequential probe possible. Every concrete beat is a forbidden reveal/discovery (Oscar), a breakup (Pam/Roy), an answer to whether Jim transferred, or explicitly results from those events.",
+      "usage": {
+        "in": 6191,
+        "out": 3598,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "The Convention",
+      "candidates": [
+        {
+          "text": "Kelly sets Pam up on a blind date, and Pam endures an awkward outing that goes poorly.",
+          "specificity": 5,
+          "characters_named": [
+            "Kelly",
+            "Pam"
+          ],
+          "grounded_in": "Kelly sets Pam up on a blind date that goes poorly",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael throws a lively party in his hotel room to outdo the neighboring Stamford manager.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "attempts to one-up him by throwing a party in his hotel room",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael and Dwight travel to Philadelphia together to attend a sales convention for work.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Dwight"
+          ],
+          "grounded_in": "leave for a sales convention in Philadelphia",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael and Dwight run into Jim while attending the sales convention in Philadelphia.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Dwight",
+            "Jim"
+          ],
+          "grounded_in": "where they meet Josh, the manager of Dunder Mifflin Stamford, and Jim",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael casually lands a big sale at the convention without putting in much effort.",
+          "specificity": 3,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "making a big sale without putting in much effort",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6189,
+        "out": 6303,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "The Coup",
+      "candidates": [
+        {
+          "text": "At Stamford, Josh has the office playing Call of Duty together as a team-building exercise.",
+          "specificity": 5,
+          "characters_named": [
+            "Josh"
+          ],
+          "grounded_in": "playing Call of Duty as a team-building exercise",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim joins a Call of Duty session with his Stamford coworkers and plays the game badly.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim"
+          ],
+          "grounded_in": "Jim is less than competent at the game.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the episode is a conspire/betrayal/confession chain and is excluded by rule 1, leaving only the Stamford Call of Duty material.",
+      "usage": {
+        "in": 6189,
+        "out": 3180,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Grief Counseling",
+      "candidates": [
+        {
+          "text": "Jim and Karen spend the day hunting together for Karen's favorite potato chips.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Karen"
+          ],
+          "grounded_in": "Jim and Karen embark on a quest for Karen's favorite potato chips",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael holds a small funeral later that day for a bird that hits a window that morning.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "he decides to have a funeral for the bird later that day",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6190,
+        "out": 5102,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Initiation",
+      "candidates": [
+        {
+          "text": "Michael stands in the lobby in a long line for a free pretzel for most of the day.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "spends most of the day waiting in line for a free pretzel in the lobby",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight brings Ryan out to the family beet farm for an initiation before his first sales call.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Ryan"
+          ],
+          "grounded_in": "Dwight takes Ryan out to the Schrute Family Beet Farm for an initiation session before his first sales call",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight puts Ryan through odd hazing rituals on the farm while telling him bizarre parables.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Ryan"
+          ],
+          "grounded_in": "involving odd styles of hazing and bizarre parables",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam spends the day quietly documenting Michael's activities around the office at Jan's request.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam",
+            "Michael",
+            "Jan"
+          ],
+          "grounded_in": "Jan asks Pam to document Michael's activities for a day",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5180,
+        "out": 5796,
+        "cache_read": 1009,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Diwali",
+      "candidates": [
+        {
+          "text": "The whole office attends Kelly's Hindu Festival of Light celebration with music and dancing.",
+          "specificity": 5,
+          "characters_named": [
+            "Kelly"
+          ],
+          "grounded_in": "Kelly invites the entire staff to a celebration of Diwali, the Hindu Festival of Light.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim, Andy, and Karen stay late together in the Stamford office working through sales figures.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Andy",
+            "Karen"
+          ],
+          "grounded_in": "In Stamford, Jim, Andy, and Karen stay late to do sales figures.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy and Jim pass the time during the late work night by doing shots together.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy",
+            "Jim"
+          ],
+          "grounded_in": "Andy and Jim do shots to pass the time",
+          "grounded_ok": true
+        },
+        {
+          "text": "Karen drives a drunk Jim home after their long late night at the office.",
+          "specificity": 4,
+          "characters_named": [
+            "Karen",
+            "Jim"
+          ],
+          "grounded_in": "which leads Karen to have to drive a drunk Jim home.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6190,
+        "out": 4072,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Branch Closing",
+      "candidates": [],
+      "note": "Every concrete moment in the summary results from or reveals the board vote to close Scranton and its reversal, the season turning point, so no grounded moment satisfies rule 1.",
+      "usage": {
+        "in": 6189,
+        "out": 3918,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Merger",
+      "candidates": [
+        {
+          "text": "Andy fawns over Michael to win his favor while Dwight looks on with jealous irritation.",
+          "specificity": 3,
+          "characters_named": [
+            "Andy",
+            "Michael",
+            "Dwight"
+          ],
+          "grounded_in": "Andy tries to ingratiate himself with Michael",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6190,
+        "out": 6115,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "The Convict",
+      "candidates": [
+        {
+          "text": "Michael locks his employees inside the conference room when they fail to take him seriously.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "he then locks his employees in the conference room",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael gives a conference-room presentation about how miserable and harsh life in prison is.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael then gives a presentation on the miseries of prison",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6190,
+        "out": 6071,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Back from Vacation",
+      "candidates": [
+        {
+          "text": "Michael is back at the office after his vacation in Jamaica and settling into work again.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael returns from Jamaica",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most other beats are reveals or conflict outcomes tied to Jan's photo and Jim-Karen-Pam mediation, so only the Jamaica return is safely inconsequential.",
+      "usage": {
+        "in": 6190,
+        "out": 6884,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Traveling Salesmen",
+      "candidates": [
+        {
+          "text": "Michael splits the sales staff into competing pairs for an Amazing Race-style sales-call challenge.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "members of the sales staff are teaming up for sales calls in an Amazing Race-esque challenge",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most other summary details explain Dwight's lateness, the tax reports, or his resignation, so omitted per rule 1.",
+      "usage": {
+        "in": 6191,
+        "out": 6413,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "The Return",
+      "candidates": [
+        {
+          "text": "Michael hosts a Mexican-themed party in the office to mark Oscar's return from vacation.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Oscar"
+          ],
+          "grounded_in": "Michael to host a Mexican-themed party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Oscar returns to the office from his vacation and greets his coworkers again.",
+          "specificity": 4,
+          "characters_named": [
+            "Oscar"
+          ],
+          "grounded_in": "Oscar's return from his vacation",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Other moments set up Andy's outburst/removal, Dwight's return, or Jim's confession to Karen and were excluded per rule 1.",
+      "usage": {
+        "in": 6189,
+        "out": 5419,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "14": {
+      "title": "Ben Franklin",
+      "candidates": [
+        {
+          "text": "Jim hires a bewigged historical impersonator in colonial costume for the women's bridal shower.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim"
+          ],
+          "grounded_in": "for the women's party, Jim hires a Ben Franklin impersonator",
+          "grounded_ok": true
+        },
+        {
+          "text": "Todd Packer talks Michael into hiring a stripper for both the men's and women's parties.",
+          "specificity": 5,
+          "characters_named": [
+            "Todd Packer",
+            "Michael"
+          ],
+          "grounded_in": "to hire a stripper for both the men and the women's parties by Todd Packer",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael orders Jim and Dwight to choose the strippers for the office parties.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Jim",
+            "Dwight"
+          ],
+          "grounded_in": "Michael orders Jim and Dwight to choose the strippers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight hires a stripper to entertain at the men's bachelor party for Phyllis's fiance.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Phyllis"
+          ],
+          "grounded_in": "For the men's party, Dwight hires a stripper",
+          "grounded_ok": true
+        },
+        {
+          "text": "The office women hold a bridal shower for Phyllis while the men hold a separate bachelor party for her fiance.",
+          "specificity": 4,
+          "characters_named": [
+            "Phyllis"
+          ],
+          "grounded_in": "hold a bridal shower for Phyllis",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6189,
+        "out": 5079,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "15": {
+      "title": "Phyllis' Wedding",
+      "candidates": [
+        {
+          "text": "Michael pushes his way into Phyllis's wedding festivities and acts as the boisterous host of the reception.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Phyllis"
+          ],
+          "grounded_in": "Michael attempts to dominate the festivities, and acts as the host of their reception.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Other summary details involve Pam seeing her old wedding plans reused and leaving with Roy, excluded as setup for a reunion.",
+      "usage": {
+        "in": 63,
+        "out": 6147,
+        "cache_read": 6129,
+        "cache_write": 0
+      }
+    },
+    "16": {
+      "title": "Business School",
+      "candidates": [
+        {
+          "text": "Dwight leads a chaotic effort around the office to trap a bat flying loose indoors.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "a bat is discovered in the office",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael looks closely at Pam's painting of the Dunder Mifflin office building at her show.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Pam"
+          ],
+          "grounded_in": "buys her painting of the Dunder Mifflin office building",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam stands next to her displayed artwork at an evening art show with almost no coworkers present.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Pam displays her artwork at an art show",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael stands before Ryan's business-school class delivering a motivational speech as a guest speaker.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Ryan"
+          ],
+          "grounded_in": "Michael attempts to make a motivational speech",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6189,
+        "out": 3189,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "17": {
+      "title": "Cocktails",
+      "candidates": [
+        {
+          "text": "Jim plays basketball with David Wallace outside while the rest of the cocktail party guests watch and mingle.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "David Wallace"
+          ],
+          "grounded_in": "Jim and David Wallace bond by playing basketball",
+          "grounded_ok": true
+        },
+        {
+          "text": "David Wallace hosts an evening cocktail party at his house, with Michael, Jim, Karen and Dwight standing around drinking.",
+          "specificity": 5,
+          "characters_named": [
+            "David Wallace",
+            "Michael",
+            "Jim",
+            "Karen",
+            "Dwight"
+          ],
+          "grounded_in": "David Wallace holds a cocktail party at his house",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 61,
+        "out": 3933,
+        "cache_read": 6129,
+        "cache_write": 0
+      }
+    },
+    "18": {
+      "title": "The Negotiation",
+      "candidates": [
+        {
+          "text": "Michael is in New York with someone else to negotiate pay raises.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael and Darryl journey to New York to negotiate pay raises",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6190,
+        "out": 3839,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "19": {
+      "title": "Safety Training",
+      "candidates": [
+        {
+          "text": "Andy, newly back from anger management training, tries hard to win back Dwight's friendship.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Dwight"
+          ],
+          "grounded_in": "Andy attempts to endear himself to Dwight after returning from anger management.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael sits through a workplace safety training course with the office and warehouse crews.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "during a safety training course",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the summary is the rooftop stunt and bouncy castle plan, which would spoil the episode, so only side texture is used.",
+      "usage": {
+        "in": 6189,
+        "out": 5997,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "20": {
+      "title": "Product Recall",
+      "candidates": [
+        {
+          "text": "Jim and Andy sit in a local high school principal's office to apologize in person.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Andy"
+          ],
+          "grounded_in": "Jim and Andy go to a local high school to apologize personally to the principal",
+          "grounded_ok": true
+        },
+        {
+          "text": "The accountants spend the day on the phones doing damage control with angry customers.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "The accountants attempt to provide service for angry customers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael spends the day placing calls to the media from his office.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael contacts the media in a misguided attempt to avoid scandal",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6189,
+        "out": 5399,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "21": {
+      "title": "Women's Appreciation",
+      "candidates": [
+        {
+          "text": "Michael takes the women of the office on an outing to the mall together.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "takes the women of the office on a trip to the mall",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight and Andy walk around together handing out flyers while searching for the flasher.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Andy"
+          ],
+          "grounded_in": "Dwight and Andy search for the flasher and distribute flyers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael attempts to lead a seminar on women's issues for the women in the office.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "attempts to host a seminar on women's issues",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6191,
+        "out": 4075,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "22": {
+      "title": "Beach Games",
+      "candidates": [
+        {
+          "text": "Michael brings the entire office staff out to the beach for outdoor competitions.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "takes his employees to the beach",
+          "grounded_ok": true
+        },
+        {
+          "text": "The coworkers compete in silly physical challenges together on the sand at the beach.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "compels them to compete in challenges",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6190,
+        "out": 3908,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "A Benihana Christmas",
+      "candidates": [
+        {
+          "text": "Andy and Michael are bringing a pair of waitresses from a local Benihana back to the office Christmas party.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Michael"
+          ],
+          "grounded_in": "they both convince waitresses to come back to the Christmas party with them",
+          "grounded_ok": true
+        },
+        {
+          "text": "Karen and Pam are hosting their own separate Christmas party apart from Angela's competing party.",
+          "specificity": 5,
+          "characters_named": [
+            "Karen",
+            "Pam",
+            "Angela"
+          ],
+          "grounded_in": "create their own Christmas party, separate from Angela's",
+          "grounded_ok": true
+        },
+        {
+          "text": "The Party Planning Committee is locked in a disagreement over arrangements for the office Christmas party.",
+          "specificity": 2,
+          "characters_named": [],
+          "grounded_in": "a disagreement within the Party Planning Committee",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6573,
+        "out": 7818,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "23": {
+      "title": "The Job",
+      "candidates": [],
+      "note": "Every concrete moment in the summary is framed as a turning point, outcome, or setup for one: job interviews and appointments, Jan's dismissal and move-in, Jim asking Pam out, Ryan getting the job and breaking up with Kelly. No inconsequential texture remains.",
+      "usage": {
+        "in": 6570,
+        "out": 4198,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

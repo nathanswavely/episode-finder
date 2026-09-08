@@ -1,0 +1,763 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 6,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Office (American TV series) season 6",
+    "revid": 1354760579,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_6&oldid=1354760579",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Gossip",
+      "candidates": [
+        {
+          "text": "The summer interns are packing up to leave, and the whole office is gossiping while Michael feels left out.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "As the summer interns prepare to depart, the office gossips about them and Michael feels left out.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most other details involve Stanley's affair reveal or the false rumors fabricated afterward to cover it, excluded per Rule 1 as reveal/betrayal and results thereof.",
+      "usage": {
+        "in": 5745,
+        "out": 4102,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "The Meeting",
+      "candidates": [
+        {
+          "text": "Dwight and Toby team up to look into Darryl's worker's compensation claim at the office.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Toby",
+            "Darryl"
+          ],
+          "grounded_in": "Dwight and Toby investigate Darryl's worker's comp claim.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam is chasing down wedding RSVPs and struggling to get responses back from guests.",
+          "specificity": 3,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Pam struggles to gather responses for her wedding.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5745,
+        "out": 4238,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "The Promotion",
+      "candidates": [
+        {
+          "text": "Pam feels awkward as she asks her coworkers for cash instead of wedding gifts.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Pam feels awkward asking for cash instead of wedding gifts.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chaos spreads through the office as everyone argues about tiny or nonexistent annual raises.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "David's budget will only allow a small or no raise this year.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5745,
+        "out": 5269,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Mafia",
+      "candidates": [
+        {
+          "text": "Kevin is treating Jim's empty office as his own private farting room while Jim is away.",
+          "specificity": 5,
+          "characters_named": [
+            "Kevin",
+            "Jim"
+          ],
+          "grounded_in": "using Jim’s office as a farting room",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael, Dwight and Andy sit together at lunch with the insurance salesman.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Dwight",
+            "Andy"
+          ],
+          "grounded_in": "Dwight, Michael and Andy set up a lunch meeting with the insurance salesman",
+          "grounded_ok": true
+        },
+        {
+          "text": "The staff keep calling Jim and Pam with office nonsense while they are away on their honeymoon.",
+          "specificity": 4,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "The staff constantly call Jim and Pam on their honeymoon",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5745,
+        "out": 2359,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "The Lover",
+      "candidates": [
+        {
+          "text": "Jim and Pam are back at their office desks together after their honeymoon.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "Jim and Pam return from their honeymoon",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 129,
+        "out": 3945,
+        "cache_read": 5617,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Koi Pond",
+      "candidates": [
+        {
+          "text": "Michael slips and falls fully clothed into a koi pond while walking to a business meeting.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael falls into a koi pond",
+          "grounded_ok": true
+        },
+        {
+          "text": "Clients keep mistaking Pam and Andy for a couple during their sales calls together.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam",
+            "Andy"
+          ],
+          "grounded_in": "clients' mistaking them as a couple",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael calls the office together for an anti-bullying seminar after everyone teases him relentlessly.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "he holds an anti-bullying seminar",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam and Andy drive around town making awkward cold calls together to stir up business.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam",
+            "Andy"
+          ],
+          "grounded_in": "Pam and Andy go cold-calling to stir up some new business",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5746,
+        "out": 4404,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Double Date",
+      "candidates": [
+        {
+          "text": "Jim and Pam sit through an awkward birthday lunch with Michael and Helene.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam",
+            "Michael",
+            "Helene"
+          ],
+          "grounded_in": "Jim and Pam reluctantly lunch with Michael and Helene for her birthday.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 128,
+        "out": 5232,
+        "cache_read": 5617,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Murder",
+      "candidates": [
+        {
+          "text": "Michael makes the whole office spend the day playing a murder mystery role-playing game.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "playing a murder mystery role-playing game",
+          "grounded_ok": true
+        },
+        {
+          "text": "The entire office staff puts work aside to spend the day on group diversions together.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Michael forces the office into a day of diversions",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5745,
+        "out": 4375,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Shareholder Meeting",
+      "candidates": [
+        {
+          "text": "Michael, Dwight and Oscar sit together in a hired limousine leaving New York.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Dwight",
+            "Oscar"
+          ],
+          "grounded_in": "leave New York in a hired limousine",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5746,
+        "out": 4934,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Scott's Tots",
+      "candidates": [
+        {
+          "text": "Erin keeps offering Michael support even as he treats her rudely all day.",
+          "specificity": 2,
+          "characters_named": [
+            "Erin",
+            "Michael"
+          ],
+          "grounded_in": "in spite of his mean treatment, Erin proves a source of support",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5747,
+        "out": 6029,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Secret Santa",
+      "candidates": [
+        {
+          "text": "Phyllis is dressed as Santa for the office Christmas party while Michael shows up as Santa too.",
+          "specificity": 5,
+          "characters_named": [
+            "Phyllis",
+            "Michael"
+          ],
+          "grounded_in": "Jim allows Phyllis to be Santa at the office Christmas party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael sits through the office Christmas party dressed in a full Jesus costume.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "dressing first as Santa, then Jesus",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy gives Erin a Twelve Days of Christmas gift and the birds start attacking her.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Erin"
+          ],
+          "grounded_in": "Andy gives her \"the Twelve Days of Christmas\" and the birds from the first few attack her",
+          "grounded_ok": true
+        },
+        {
+          "text": "Twelve drummers are drumming in the office as part of Andy's gift for Erin.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy",
+            "Erin"
+          ],
+          "grounded_in": "with the twelve drummers drumming",
+          "grounded_ok": true
+        },
+        {
+          "text": "Oscar has a crush on a new gay guy working down in the warehouse.",
+          "specificity": 4,
+          "characters_named": [
+            "Oscar"
+          ],
+          "grounded_in": "Oscar has a crush on Matt, the new gay warehouse worker",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5745,
+        "out": 2594,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "The Banker",
+      "candidates": [
+        {
+          "text": "Michael, Dwight, Andy and Pam trot out their high-profile contacts to impress a visiting investment banker.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Dwight",
+            "Andy",
+            "Pam"
+          ],
+          "grounded_in": "When an investment banker comes to Scranton in order to sign off on the branch before the sale of Dunder Mifflin. Michael, Dwight, Andy and Pam pull out all the stops in hopes of impressing him with their high profile contacts",
+          "grounded_ok": true
+        },
+        {
+          "text": "Toby sits with coworkers reminiscing about all the great times they have had in the office.",
+          "specificity": 3,
+          "characters_named": [
+            "Toby"
+          ],
+          "grounded_in": "Toby reminisces about all the great times they have had in the office",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5746,
+        "out": 4080,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "14": {
+      "title": "Sabre",
+      "candidates": [
+        {
+          "text": "Jim and Pam sit together at a local daycare center for an interview about childcare.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "Jim and Pam go for an interview for a local daycare center.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael turns to David for advice about handling the company's new policies.",
+          "specificity": 2,
+          "characters_named": [
+            "Michael",
+            "David"
+          ],
+          "grounded_in": "Michael goes to David Wallace for advice",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5745,
+        "out": 4110,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "15": {
+      "title": "The Manager and the Salesman",
+      "candidates": [
+        {
+          "text": "Andy hands Kelly the Valentine's card he actually meant to give to Erin.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Kelly",
+            "Erin"
+          ],
+          "grounded_in": "he accidentally gives the card he meant for her to Kelly",
+          "grounded_ok": true
+        },
+        {
+          "text": "The Scranton office welcomes Jo Bennett, dazzled by her warm Southern ways.",
+          "specificity": 4,
+          "characters_named": [
+            "Jo Bennett"
+          ],
+          "grounded_in": "are dazzled by her Southern ways",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5749,
+        "out": 4162,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "17": {
+      "title": "St. Patrick's Day",
+      "candidates": [
+        {
+          "text": "Jim is back in the office for his first day after paternity leave.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim"
+          ],
+          "grounded_in": "on his first day back from paternity leave",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5748,
+        "out": 5568,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "18": {
+      "title": "New Leads",
+      "candidates": [
+        {
+          "text": "Jim follows clues on a treasure hunt that winds all through the business park.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim"
+          ],
+          "grounded_in": "which leads Jim on a \"treasure hunt\" all through the business park.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The sales team acts superior around the office under Sabre's sales-is-king mantra.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Sabre's policy of \"sales is king\" goes to the sales staff's heads, making the rest of the office resent their bad attitude.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Omitted dump search and first kiss as outcome/turning-point reveals tied to the backfiring plan.",
+      "usage": {
+        "in": 5745,
+        "out": 5850,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "19": {
+      "title": "Happy Hour",
+      "candidates": [
+        {
+          "text": "Oscar invites the office and warehouse crews out together for after-work drinks at a bar.",
+          "specificity": 5,
+          "characters_named": [
+            "Oscar"
+          ],
+          "grounded_in": "Oscar arranges a happy hour with the warehouse staff",
+          "grounded_ok": true
+        },
+        {
+          "text": "Oscar spends the evening at the bar flirting with Matt from the warehouse crew.",
+          "specificity": 5,
+          "characters_named": [
+            "Oscar",
+            "Matt"
+          ],
+          "grounded_in": "so he can flirt with Matt",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam arrives at after-work drinks with a date she has set up for Michael.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam",
+            "Michael"
+          ],
+          "grounded_in": "brings a date for Michael",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5745,
+        "out": 7227,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "20": {
+      "title": "Secretary's Day",
+      "candidates": [
+        {
+          "text": "Oscar circulates a homemade video comparing Kevin's voice to a growly blue children's-show monster.",
+          "specificity": 5,
+          "characters_named": [
+            "Oscar",
+            "Kevin"
+          ],
+          "grounded_in": "compares Kevin's voice to Cookie Monster's",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kevin looks for help when the entire office gets in on the joke about his voice.",
+          "specificity": 4,
+          "characters_named": [
+            "Kevin"
+          ],
+          "grounded_in": "when the entire office gets in on the joke",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy arranges extra special touches for the day honoring Erin as office secretary.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy",
+            "Erin"
+          ],
+          "grounded_in": "Andy tries to make Erin's Secretary's Day a memorable one",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5747,
+        "out": 7059,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "21": {
+      "title": "Body Language",
+      "candidates": [
+        {
+          "text": "Dwight sits with Kelly and earnestly encourages her to try out for the minority training program.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Kelly"
+          ],
+          "grounded_in": "Dwight encourages Kelly to try out for the minority training program",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim and Pam sit together preparing their first joint sales pitch to Donna, a local restaurant manager.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam",
+            "Donna"
+          ],
+          "grounded_in": "Pam and Jim work on their first sales pitch together to Donna, the manager of a local restaurant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael lingers around the sales meeting with Donna, confidently misreading the signals she keeps putting out.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Donna"
+          ],
+          "grounded_in": "Michael keeps misreading the signals she's putting out",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5745,
+        "out": 4187,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "22": {
+      "title": "The Cover-Up",
+      "candidates": [
+        {
+          "text": "Andy wanders the office with a customer complaint, frustrated that no one takes it seriously.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "no one takes his customer's complaint seriously",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight acts as Michael's earnest private investigator, quietly working a case for him.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Michael"
+          ],
+          "grounded_in": "puts PI Dwight Schrute on the case",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5746,
+        "out": 5961,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "23": {
+      "title": "The Chump",
+      "candidates": [
+        {
+          "text": "Exhausted new parents Jim and Pam fight to keep their eyes open through the workday in the office.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "have trouble staying awake in the office",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Other summary beats involve a discovery about Donna and a contract refusal, both excluded under rule 1.",
+      "usage": {
+        "in": 5746,
+        "out": 3825,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "24": {
+      "title": "Whistleblower",
+      "candidates": [],
+      "note": "Summary provides only the central reveal (printers catching fire / press learning it) and Jo's hunt resulting from the leak. Both are a reveal/betrayal and setup for a discovery, so rule 1 excludes any probe grounded in them, leaving no inconsequential texture.",
+      "usage": {
+        "in": 5747,
+        "out": 2760,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Niagara",
+      "candidates": [
+        {
+          "text": "Michael sleeps on the hotel hallway floor next to the humming ice machine.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "ends up sleeping next to an ice machine",
+          "grounded_ok": true
+        },
+        {
+          "text": "The whole office has Friday and Monday off to attend the Niagara Falls wedding.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Michael gives the whole office Friday and Monday to attend the wedding in Niagara",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6278,
+        "out": 4964,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "16": {
+      "title": "The Delivery",
+      "candidates": [
+        {
+          "text": "Dwight does renovation work in Jim and Pam's kitchen and runs into Isabel there at their house.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Jim",
+            "Pam",
+            "Isabel"
+          ],
+          "grounded_in": "after seeing Isabel at Jim and Pam’s house when he renovates the couple’s kitchen",
+          "grounded_ok": true
+        },
+        {
+          "text": "Coworkers gather around Pam offering her food and entertainment to distract her from her pain.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "the rest of the office tries to distract Pam from the pain with food and entertainment",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 21,
+        "out": 7392,
+        "cache_read": 6257,
+        "cache_write": 0
+      }
+    }
+  }
+}

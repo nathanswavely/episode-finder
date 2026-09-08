@@ -1,0 +1,623 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 4,
+  "model": "muse-spark-1.3-contributor",
+  "episodes": {
+    "1": {
+      "title": "Box Cutter",
+      "candidates": [
+        {
+          "text": "Hank, laid up at home after his injury, has taken up collecting and cataloguing minerals.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes Hank's ordinary at-home hobby while recovering from his already-known shooting injury, with no new death, conflict outcome, or open question answered."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes Hank's at-home minerals hobby as ordinary character texture without revealing any death, injury, arrest, or pending outcome."
+                }
+              ],
+              "reason": "It only describes Hank's ordinary at-home hobby while recovering from his already-known shooting injury, with no new death, conflict outcome, or open question answered."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A visibly paranoid Saul has hired himself a personal bodyguard and keeps him nearby.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows only Saul acting scared and keeping protection nearby without revealing any death, arrest, or outcome of the pending Gus-Walt-Jesse conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes only Saul's paranoid demeanor and precaution without revealing any death, outcome, or answer to a pending question."
+                }
+              ],
+              "reason": "It shows only Saul acting scared and keeping protection nearby without revealing any death, arrest, or outcome of the pending Gus-Walt-Jesse conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt and Jesse are being held in the lab under guard by Victor and Mike.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ongoing captive situation in the lab without disclosing any death, injury, arrest outcome, or Gale's fate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes the ongoing detention setup in the lab without disclosing any death, injury, or the outcome of the Gale and execution cliffhangers."
+                }
+              ],
+              "reason": "It describes an ongoing captive situation in the lab without disclosing any death, injury, arrest outcome, or Gale's fate."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Thirty-Eight Snub",
+      "candidates": [
+        {
+          "text": "Jesse has bought a huge new stereo system, and the party at his house just keeps going.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes only ordinary partying and a stereo purchase without revealing Gale's fate, Gus's retaliation, or any death, arrest, or pending conflict outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes only ordinary party activity and a purchase, not any death, injury, arrest, or resolution of the pending Gale-shooting and lab-execution cliffhanger."
+                }
+              ],
+              "reason": "It describes only ordinary partying and a stereo purchase without revealing Gale's fate, Gus's retaliation, or any death, arrest, or pending conflict outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hank does his physical therapy sessions at home, and Marie is finding him hard to live with.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Hank continuing rehabilitation at home without resolving whether he will walk or revealing any death, crime, or plot twist."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts routine at-home recovery and marital friction without resolving Hank's prognosis or revealing any new plot outcome."
+                }
+              ],
+              "reason": "It only shows Hank continuing rehabilitation at home without resolving whether he will walk or revealing any death, crime, or plot twist."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andrea stops by Jesse's chaotic house out of concern, and he presses a thick stack of cash on her for Brock.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows only an ordinary concerned visit and cash gift without resolving the pending execution, confirming any death, or answering the Gale cliffhanger."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows only ongoing character texture of Andrea's concern and Jesse giving money for Brock, without revealing any death, injury, arrest, or pending conflict outcome."
+                }
+              ],
+              "reason": "It shows only an ordinary concerned visit and cash gift without resolving the pending execution, confirming any death, or answering the Gale cliffhanger."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Open House",
+      "candidates": [
+        {
+          "text": "Walt glares up at a motion-detecting surveillance camera newly installed inside the lab.",
+          "checks": {},
+          "rejected": "filtered: provider refused to evaluate this probe (content policy); cannot verify, so rejected"
+        },
+        {
+          "text": "Jesse tosses piles of money into the chaos of a nonstop drug-fueled party at his house.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts Jesse partying and throwing around money, which is ordinary activity and character texture that resolves no pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes Jesse's reckless partying behavior as texture without revealing any death, arrest, betrayal, or outcome of a pending conflict."
+                }
+              ],
+              "reason": "It depicts Jesse partying and throwing around money, which is ordinary activity and character texture that resolves no pending conflict or open question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Bullet Points",
+      "candidates": [
+        {
+          "text": "Skyler makes Walt rehearse over and over how he admits his gambling problem.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Skyler coaching Walt on their already-established gambling cover story, with no new death, injury, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows routine preparation of the false gambling cover story already established and resolves no pending conflict or open question."
+                }
+              ],
+              "reason": "It only shows Skyler coaching Walt on their already-established gambling cover story, with no new death, injury, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt and Skyler plan to explain the car wash and medical bills as gambling winnings.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It restates the already-established gambling-winnings cover story and car-wash plan without revealing any new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes routine cover-story planning already established by Skyler's gambling-winnings tale and car-wash idea, without revealing any death, arrest, or pending outcome."
+                }
+              ],
+              "reason": "It restates the already-established gambling-winnings cover story and car-wash plan without revealing any new outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Shotgun",
+      "candidates": [
+        {
+          "text": "Mike drives Jesse around New Mexico, bringing him along for a series of routine collections.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes only routine travel and collections with no death, injury, arrest, discovery, or pending outcome resolved."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes routine work travel with Mike and discloses no death, injury, arrest, discovery, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It describes only routine travel and collections with no death, injury, arrest, discovery, or pending outcome resolved."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt and Skyler sit together signing the final papers to officially purchase the car wash.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows routine paperwork finalizing the car-wash sale already agreed to in Episode 3."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is just routine paperwork completing the car wash purchase already agreed to in Episode 3, with no death, conflict outcome, or new revelation."
+                }
+              ],
+              "reason": "It only shows routine paperwork finalizing the car-wash sale already agreed to in Episode 3."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike calmly assures a worried Walt that Jesse is safe while working with him.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It conveys only momentary reassurance about Jesse's well-being, not a death, injury, arrest, or resolution of the pending threat from Gus."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is only reassuring dialogue maintaining Jesse's current safety, not a death, injury, arrest, betrayal, new alliance, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It conveys only momentary reassurance about Jesse's well-being, not a death, injury, arrest, or resolution of the pending threat from Gus."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Cornered",
+      "candidates": [
+        {
+          "text": "Walt gives in to Walt Jr.'s pleas and buys him a brand new Dodge Challenger.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Buying a car for his son is ordinary family activity and character texture, not a death, injury, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is an ordinary family purchase that discloses no death, injury, arrest, betrayal, or resolution of a known conflict."
+                }
+              ],
+              "reason": "Buying a car for his son is ordinary family activity and character texture, not a death, injury, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler argues with Walt at home, demanding he return Walt Jr.'s flashy new sports car.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary domestic argument about a car without disclosing any death, injury, arrest, betrayal, confession, or outcome of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary domestic argument about a car purchase without revealing any death, arrest, betrayal, or outcome of a known pending conflict."
+                }
+              ],
+              "reason": "It describes an ordinary domestic argument about a car without disclosing any death, injury, arrest, betrayal, confession, or outcome of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Problem Dog",
+      "candidates": [
+        {
+          "text": "Walt drives the Challenger to a parking lot and takes it on a reckless joyride.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes ordinary driving activity with no death, injury, arrest, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes only ordinary character behavior and activity without revealing any death, injury, arrest, discovery, or outcome of a pending conflict."
+                }
+              ],
+              "reason": "It describes ordinary driving activity with no death, injury, arrest, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler is taken aback by how much money Walt is making and worries about laundering it through the car wash.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It is ordinary business texture about laundering proceeds, not a death, arrest, betrayal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Skyler's ongoing anxiety about handling Walt's known meth income via the known car wash, without revealing any death, arrest, discovery, or outcome."
+                }
+              ],
+              "reason": "It is ordinary business texture about laundering proceeds, not a death, arrest, betrayal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Hermanos",
+      "candidates": []
+    },
+    "9": {
+      "title": "Bug",
+      "candidates": [
+        {
+          "text": "Skyler climbs down into the crawl space beneath her house where Walt's cash is stored.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Skyler accessing an already-known money stash location with no death, discovery, decision, or pending conflict outcome stated."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes only Skyler moving into an existing storage space, without disclosing any death, theft, betrayal, or outcome."
+                }
+              ],
+              "reason": "It only shows Skyler accessing an already-known money stash location with no death, discovery, decision, or pending conflict outcome stated."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Salud",
+      "candidates": [
+        {
+          "text": "Ted is driving around town these days in a flashy newly leased Mercedes.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It is only ordinary character texture about Ted's car with no death, injury, betrayal, or pending conflict outcome disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes Ted's car and driving as ordinary texture without revealing any death, injury, conflict outcome, or answer to an open question."
+                }
+              ],
+              "reason": "It is only ordinary character texture about Ted's car with no death, injury, betrayal, or pending conflict outcome disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Crawl Space",
+      "candidates": []
+    },
+    "12": {
+      "title": "End Times",
+      "candidates": [
+        {
+          "text": "Walt sits alone inside his barricaded house in silence, keeping every door locked shut against visitors.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes only Walt remaining alone at home with doors locked, with no death, injury, arrest, revelation, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only depicts Walt waiting alone with locked doors without disclosing any death, injury, arrest, or outcome of the pending Gus conflict."
+                }
+              ],
+              "reason": "It describes only Walt remaining alone at home with doors locked, with no death, injury, arrest, revelation, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler, Walt Jr., and Holly are staying with Hank and Marie at their house.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes where Skyler and the kids are staying, which is ordinary setting without disclosing any death, breakup, conflict outcome, or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only states where Skyler and the kids are sleeping, without revealing any death, crime, breakup, or outcome of the Gus conflict."
+                }
+              ],
+              "reason": "It only describes where Skyler and the kids are staying, which is ordinary setting without disclosing any death, breakup, conflict outcome, or open question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "Face Off",
+      "candidates": []
+    }
+  },
+  "spend": {
+    "in": 100579,
+    "out": 97944,
+    "cache_read": 131022,
+    "cache_write": 0,
+    "calls": 80,
+    "filtered": 1
+  }
+}

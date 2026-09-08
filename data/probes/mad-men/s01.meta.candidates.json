@@ -1,0 +1,160 @@
+{
+  "show": "Mad Men",
+  "slug": "mad-men",
+  "season": 1,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "Mad Men season 1",
+    "revid": 1371531307,
+    "url": "https://en.wikipedia.org/w/index.php?title=Mad_Men_season_1&oldid=1371531307",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Smoke Gets in Your Eyes",
+      "candidates": [
+        {
+          "text": "A nervous new secretary starts work at a New York ad agency and struggles to fit in with the office.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "finds employment as Don's new secretary but struggles to fit in",
+          "grounded_ok": true
+        },
+        {
+          "text": "A supervisor advises the new secretary on how to dress and appeal to men to succeed.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "advises Peggy on how to appeal to men for success in her personal career",
+          "grounded_ok": true
+        },
+        {
+          "text": "An ad executive chats with everyday customers, asking for their input about cigarettes and smoking.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "seeks input from customers",
+          "grounded_ok": true
+        },
+        {
+          "text": "An ad executive asks his girlfriend for input on his cigarette account while struggling for ideas.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "seeks input from customers and his girlfriend Midge",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 4442,
+        "out": 6064,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "Ladies Room",
+      "candidates": [
+        {
+          "text": "Sterling Cooper's creative men sit around the office puzzling over the question of what women want.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "contemplating the question of \"what women want\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Peggy complains about the office men hitting on her, and Joan tells her to enjoy it while it lasts.",
+          "specificity": 4,
+          "characters_named": [
+            "Peggy",
+            "Joan"
+          ],
+          "grounded_in": "Joan advises her to \"enjoy it while it lasts.\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Peggy misses Pete while he is away on his honeymoon and fends off advances from other office men.",
+          "specificity": 4,
+          "characters_named": [
+            "Peggy",
+            "Pete"
+          ],
+          "grounded_in": "Peggy pines for Pete, who is still on his honeymoon, while fending off the advances of several of the men of Sterling Cooper.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Don's wife keeps noticing her hands going numb and shaky at home.",
+          "specificity": 4,
+          "characters_named": [
+            "Don"
+          ],
+          "grounded_in": "has periodically experienced numb and shaking hands",
+          "grounded_ok": true
+        },
+        {
+          "text": "Don scoffs that therapy is just for people who are unhappy and resists the idea completely.",
+          "specificity": 3,
+          "characters_named": [
+            "Don"
+          ],
+          "grounded_in": "proclaiming that therapy is for people who are unhappy",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 4441,
+        "out": 4349,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Marriage of Figaro",
+      "candidates": [
+        {
+          "text": "Don returns home late at night with a Golden Retriever as a gift for his daughter.",
+          "specificity": 5,
+          "characters_named": [
+            "Don"
+          ],
+          "grounded_in": "returns later that night with a Golden Retriever for Sally",
+          "grounded_ok": true
+        },
+        {
+          "text": "Don and Betty host a birthday party for their little daughter at home.",
+          "specificity": 5,
+          "characters_named": [
+            "Don",
+            "Betty"
+          ],
+          "grounded_in": "Don and Betty host a birthday party for their daughter, Sally",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pete has just returned from his honeymoon and talks excitedly about his new married life.",
+          "specificity": 4,
+          "characters_named": [
+            "Pete"
+          ],
+          "grounded_in": "Pete returns from his honeymoon, excited about his new marriage",
+          "grounded_ok": true
+        },
+        {
+          "text": "Betty invites the woman from next door to her daughter's birthday party.",
+          "specificity": 4,
+          "characters_named": [
+            "Betty"
+          ],
+          "grounded_in": "Betty invites her neighbor, Helen Bishop, who is treated like an outcast due to her failed marriage",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 4442,
+        "out": 5112,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

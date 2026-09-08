@@ -1,0 +1,40 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 1,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Sopranos season 1",
+    "revid": 1373424830,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_1&oldid=1373424830",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Sopranos",
+      "candidates": [
+        {
+          "text": "A middle-aged man shelters a family of ducks at his home and watches them daily.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "family of ducks he had been sheltering flies away",
+          "grounded_ok": true
+        },
+        {
+          "text": "A grown son keeps urging his stubborn elderly mother to move into a nursing home.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "When he tries to get his petulant mother Livia to go to a nursing home",
+          "grounded_ok": true
+        }
+      ],
+      "note": "First episode cannot name anyone per prior-characters rule, and most beats tie to deaths, hits, or betrayal setup, limiting safe options.",
+      "usage": {
+        "in": 3932,
+        "out": 5968,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

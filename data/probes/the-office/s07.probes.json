@@ -1,0 +1,357 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 7,
+  "source": {
+    "title": "The Office (American TV series) season 7",
+    "revid": 1365374619,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_7&oldid=1365374619",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Nepotism",
+      "probes": [
+        {
+          "text": "Pam and Dwight are stranded together inside the office elevator after some faulty rewiring.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael's immature nephew is hanging around the office working as a new assistant.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Counseling",
+      "probes": [
+        {
+          "text": "Dwight enlists his colleagues for Pretty Woman-style revenge after a Steamtown Mall shop refuses him service.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Toby sits across from Michael in counseling, trying different methods to get him to open up.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam campaigns around the office to finagle a promotion to office administrator.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Andy's Play",
+      "probes": [
+        {
+          "text": "Andy performs in a local staging of Sweeney Todd with the entire office invited to watch him.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Erin volunteers to babysit for Jim and Pam, hoping to start a career as a babysitter.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael struggles to hide his jealousy over not being cast in the local musical.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Sex Ed",
+      "probes": [
+        {
+          "text": "Andy stands in front of the office leading a sex-education meeting as Erin watches.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy holds a sex-education meeting in the office, clearly trying to impress Erin.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "The Sting",
+      "probes": [
+        {
+          "text": "Andy and Darryl start a band together, rehearsing and goofing around at work.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Costume Contest",
+      "probes": [
+        {
+          "text": "The office staff show off Halloween costumes in a contest for a coupon book prize.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Christening",
+      "probes": [
+        {
+          "text": "The entire office gathers to celebrate the christening of Jim and Pam's baby.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael hangs out with a church group of high school graduates discussing their mission to Mexico.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy follows along with Michael and the church group, trying to impress Erin.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Viewing Party",
+      "probes": [
+        {
+          "text": "The whole office gathers in Gabe's house to watch Glee together on the television.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight helps Pam look after baby Cece while Jim watches with obvious annoyance.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Inside Gabe's house, the office staff treat Gabe as their boss instead of Michael.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "WUPHF.com",
+      "probes": [
+        {
+          "text": "Dwight sets up a hay festival in the parking lot for the Thanksgiving holiday.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael spends the day charming people to invest money in Ryan's internet company.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "China",
+      "probes": [
+        {
+          "text": "Michael is at his desk reading an article about China growing as a global power.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Darryl is getting fed up with a barrage of annoying text messages from Andy.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam threatens to move the office to a new building over complaints about Dwight's standards.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Ultimatum",
+      "probes": [
+        {
+          "text": "Pam hangs a New Year's resolution board in the office for everyone to post their resolutions on.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "The Seminar",
+      "probes": [
+        {
+          "text": "Erin and Gabe play a game of Scrabble to pick their movie for the day.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy stands at the front of the office leading a small business seminar for outside guests.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Oscar and Pam hover over the Scrabble board coaching Erin through her bad plays.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "14": {
+      "title": "The Search",
+      "probes": [
+        {
+          "text": "The office holds a captioning contest for Pam's artwork, with new jokes taped up beneath the picture.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Gabe lingers near Pam's artwork display, looking unamused and offended while coworkers laugh at captions.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "15": {
+      "title": "PDA",
+      "probes": [
+        {
+          "text": "Gabe lays out a romantic treasure hunt for Erin, and Andy awkwardly tags along with them.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim and Pam linger over a Valentine's Day lunch together, drinking too much champagne in the middle of the workday.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "16": {
+      "title": "Threat Level Midnight",
+      "probes": [
+        {
+          "text": "The office gathers together to watch Michael's homemade action movie on the big screen.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight plays Michael's loyal butler and sidekick in the homemade spy movie on screen.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim plays Michael's archenemy in the film, wearing thick gold makeup on his face.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "17": {
+      "title": "Todd Packer",
+      "probes": [
+        {
+          "text": "Erin sits at a brand-new office computer while Andy complains about his own computer problems.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy confronts office administrator Pam and demands a new computer for himself as well.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "18": {
+      "title": "Garage Sale",
+      "probes": [
+        {
+          "text": "Jim gravely sells Dwight a small bag of beans he claims are magic beans.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dunder Mifflin's warehouse crew hosts a public garage sale inside the warehouse space.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "19": {
+      "title": "Training Day",
+      "probes": [],
+      "fine_only": []
+    },
+    "20": {
+      "title": "Michael's Last Dundies",
+      "probes": [],
+      "fine_only": []
+    },
+    "21": {
+      "title": "Goodbye, Michael",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Michael spends his last day in the office pulling coworkers aside one by one for quiet goodbyes with no drama.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "22": {
+      "title": "The Inner Circle",
+      "probes": [],
+      "fine_only": []
+    },
+    "23": {
+      "title": "Dwight K. Schrute, (Acting) Manager",
+      "probes": [],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Classy Christmas",
+      "probes": [
+        {
+          "text": "Jim and Dwight are outside in the snow having a big snowball fight together.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Toby is away on a leave of absence while Michael looks openly delighted about it.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "24": {
+      "title": "Search Committee",
+      "probes": [],
+      "fine_only": []
+    }
+  }
+}

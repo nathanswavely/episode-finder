@@ -48,6 +48,74 @@ class Candidates(BaseModel):
     note: str = Field(default="", description="Only if something about this episode made probes hard or impossible")
 
 
+def make_client(provider: str):
+    """Anthropic (default) or Meta Model API, which serves Muse Spark through an Anthropic-compatible
+    Messages endpoint. META_API_KEY comes from .env; the contributor tier is the cheap one."""
+    load_env()
+    import os
+    if provider == "meta":
+        key = os.environ.get("META_API_KEY")
+        if not key:
+            sys.exit("META_API_KEY not set (put it in .env). Keys: https://dev.meta.ai/api-keys/")
+        # Meta authenticates with "Authorization: Bearer", which the SDK sends for auth_token (not api_key)
+        return anthropic.Anthropic(base_url=os.environ.get("META_BASE_URL", "https://api.meta.ai"), auth_token=key)
+    return anthropic.Anthropic()
+
+
+def parse_json_text(text: str, schema):
+    """Structured output without relying on output_format: find the JSON object in the reply and validate."""
+    import json as _json, re as _re
+    m = _re.search(r"\{.*\}", text, flags=_re.S)
+    if not m:
+        raise ValueError("no JSON object in reply")
+    return schema.model_validate(_json.loads(m.group()))
+
+
+def ask_structured(client, *, provider, model, effort, system, user, schema, max_tokens=4000):
+    """One structured call. Anthropic: messages.parse with output_format, effort, cache_control.
+    Meta: plain messages.create, schema described in the prompt, JSON parsed from the text."""
+    if provider != "meta":
+        r = client.messages.parse(model=model, max_tokens=max_tokens, output_config={"effort": effort},
+                                  system=system, messages=[{"role": "user", "content": user}], output_format=schema)
+        return r, r.parsed_output
+    # Meta's Messages endpoint documents output_config.format and effort; try the same call without
+    # cache_control (unknown there) and fall back to schema-in-prompt if it rejects the shape.
+    plain_system = [{"type": "text", "text": b["text"]} for b in system] if isinstance(system, list) else system
+    try:
+        r = client.messages.parse(model=model, max_tokens=max_tokens, output_config={"effort": effort if effort != "max" else "xhigh"},
+                                  system=plain_system, messages=[{"role": "user", "content": user}], output_format=schema)
+        return r, r.parsed_output
+    except anthropic.BadRequestError:
+        pass
+    sys_text = "\n\n".join(b["text"] for b in system) if isinstance(system, list) else system
+    sys_text += ("\n\nRespond with a single JSON object and nothing else, matching this JSON schema exactly:\n"
+                 + _json_dumps(schema.model_json_schema()))
+    r = client.messages.create(model=model, max_tokens=max_tokens, system=sys_text,
+                               messages=[{"role": "user", "content": user}])
+    text = "".join(b.text for b in r.content if getattr(b, "type", "") == "text")
+    return r, parse_json_text(text, schema)
+
+
+def _json_dumps(o):
+    import json as _json
+    return _json.dumps(o, ensure_ascii=False)
+
+
+def with_retry(fn, *, tries=7, base=5.0):
+    """Anthropic 529/429 and transient network errors: exponential backoff, up to ~5 minutes total.
+    The SDK's own 2 retries are not enough when the API is overloaded for a while."""
+    import time
+    for attempt in range(tries):
+        try:
+            return fn()
+        except (anthropic.RateLimitError, anthropic.APIConnectionError, anthropic.InternalServerError, anthropic.OverloadedError) as e:
+            if attempt == tries - 1:
+                raise
+            wait = min(base * (2 ** attempt), 90)
+            print(f"      ({type(e).__name__}; retrying in {wait:.0f}s)", file=sys.stderr)
+            time.sleep(wait)
+
+
 def slugify(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
@@ -108,7 +176,8 @@ def main():
     ap.add_argument("--season", type=int, required=True)
     ap.add_argument("--episode", type=int, help="Only this episode")
     ap.add_argument("--dry-run", action="store_true", help="Print the prompt for the first target and exit")
-    ap.add_argument("--model", default="claude-opus-5")
+    ap.add_argument("--model", default=None, help="default: claude-opus-5, or muse-spark-1.3-contributor with --provider meta")
+    ap.add_argument("--provider", default="anthropic", choices=["anthropic", "meta"])
     ap.add_argument("--effort", default="high", choices=["low", "medium", "high", "xhigh", "max"])
     ap.add_argument("--force", action="store_true", help="Regenerate episodes that already have candidates")
     a = ap.parse_args()
@@ -132,9 +201,10 @@ def main():
         print(build_user(cur, targets[0]))
         return
 
-    load_env()
-    client = anthropic.Anthropic()
-    out_path = ROOT / f"data/probes/{slug}/s{a.season:02d}.candidates.json"
+    a.model = a.model or ("muse-spark-1.3-contributor" if a.provider == "meta" else "claude-opus-5")
+    client = make_client(a.provider)
+    tag = "" if a.provider == "anthropic" else f".{a.provider}"
+    out_path = ROOT / f"data/probes/{slug}/s{a.season:02d}{tag}.candidates.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     results = json.loads(out_path.read_text()) if out_path.exists() else {"show": a.show, "slug": slug,
                                                                           "season": a.season, "model": a.model,
@@ -144,31 +214,30 @@ def main():
             print(f"E{ep['episode']:>2} {ep['title']:<28} skipped (exists; --force to redo)")
             continue
         t0 = time.time()
-        resp = client.messages.parse(
-            model=a.model,
-            max_tokens=16000,
-            output_config={"effort": a.effort},
-            system=system,
-            messages=[{"role": "user", "content": build_user(cur, ep)}],
-            output_format=Candidates,
-        )
-        if resp.stop_reason == "refusal":
-            print(f"E{ep['episode']}: refused ({resp.stop_details and resp.stop_details.category})", file=sys.stderr)
+        try:
+            resp, cands = with_retry(lambda: ask_structured(client, provider=a.provider, model=a.model, effort=a.effort,
+                                     system=system, user=build_user(cur, ep), schema=Candidates, max_tokens=16000))
+        except anthropic.BadRequestError as e:
+            if "content management policy" in str(e) or "filtered" in str(e):
+                print(f"E{ep['episode']:>2} {ep['title']:<28} provider content filter refused this episode; skipped", file=sys.stderr)
+                continue
+            raise
+        if getattr(resp, "stop_reason", "") == "refusal":
+            print(f"E{ep['episode']}: refused", file=sys.stderr)
             continue
-        cands: Candidates = resp.parsed_output
         results["episodes"][str(ep["episode"])] = {
             "title": ep["title"],
             "candidates": [{**p.model_dump(), "grounded_ok": grounded_ok(p, ep["summary"])} for p in cands.probes],
             "note": cands.note,
             "usage": {"in": resp.usage.input_tokens, "out": resp.usage.output_tokens,
-                      "cache_read": resp.usage.cache_read_input_tokens,
-                      "cache_write": resp.usage.cache_creation_input_tokens},
+                      "cache_read": getattr(resp.usage, "cache_read_input_tokens", 0) or 0,
+                      "cache_write": getattr(resp.usage, "cache_creation_input_tokens", 0) or 0},
         }
         out_path.write_text(json.dumps(results, indent=2, ensure_ascii=False))
         ungrounded = sum(not c["grounded_ok"] for c in results["episodes"][str(ep["episode"])]["candidates"])
         print(f"E{ep['episode']:>2} {ep['title']:<28} {len(cands.probes)} candidates"
               f"{f', {ungrounded} ungrounded' if ungrounded else ''}"
-              f"  [{time.time()-t0:.0f}s, cache_read={resp.usage.cache_read_input_tokens}]"
+              f"  [{time.time()-t0:.0f}s, cache_read={getattr(resp.usage, 'cache_read_input_tokens', 0) or 0}]"
               f"{'  note: ' + cands.note if cands.note else ''}")
     print(f"-> {out_path}")
 

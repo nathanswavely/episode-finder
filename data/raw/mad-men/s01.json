@@ -8,6 +8,43 @@
     "url": "https://en.wikipedia.org/w/index.php?title=Mad_Men_season_1&oldid=1371531307",
     "license": "CC BY-SA 4.0"
   },
+  "cast": {
+    "main": [
+      "Don Draper",
+      "Peggy Olson",
+      "Pete Campbell",
+      "Betty Draper",
+      "Joan Holloway",
+      "Salvatore Romano",
+      "Paul Kinsey",
+      "Ken Cosgrove",
+      "Harry Crane",
+      "Rachel Menken"
+    ],
+    "recurring": [
+      "Sally Draper",
+      "Roger Sterling",
+      "Bert Cooper",
+      "Hildy",
+      "Trudy Campbell",
+      "Francine Hanson",
+      "Midge Daniels",
+      "Arnold Wayne",
+      "Marge",
+      "Allison",
+      "Mona Sterling",
+      "Helen Bishop",
+      "Glen Bishop",
+      "Freddy Rumsen",
+      "Lee Garner, Sr.",
+      "Herman \"Duck\" Phillips",
+      "Carol McCardy",
+      "Tom Vogel",
+      "Adam Whitman",
+      "Margaret Sterling",
+      "Carla"
+    ]
+  },
   "episodes": [
     {
       "episode": 1,

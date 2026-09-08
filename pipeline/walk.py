@@ -36,6 +36,8 @@ def load_show(slug: str) -> dict:
     """{season_number: {episode_number: {title, probes, fine_only}}}"""
     seasons = {}
     for p in sorted((ROOT / f"data/probes/{slug}").glob("s*.probes.json")):
+        if ".meta." in p.name:
+            continue   # provider-comparison output
         d = json.loads(p.read_text())
         seasons[d["season"]] = {int(k): v for k, v in d["episodes"].items()}
     return seasons
@@ -85,11 +87,11 @@ class Walk:
         return FRONTIER, any(a == "unsure" for a in answers)
 
     def coarse_probes(self, season, ep):
-        return self.seasons[season][ep]["probes"]
+        return self.seasons[season].get(ep, {}).get("probes", [])
 
     def fine_probes(self, season, ep):
-        e = self.seasons[season][ep]
-        return e["probes"] + e.get("fine_only", [])
+        e = self.seasons[season].get(ep, {})
+        return e.get("probes", []) + e.get("fine_only", [])
 
     def next_probed(self, season: int, e: int):
         """Aim for e+stride; step back toward e if that episode has no coarse-safe probes; never reach beyond."""
@@ -193,7 +195,7 @@ class Walk:
                            message=self.message(season, resume, fallback, soft, hazy_from, unchecked, n))
 
     def message(self, season, resume, fallback, soft, hazy_from, unchecked, n):
-        t = lambda e: f"E{e} “{self.seasons[season][e]['title']}”"
+        t = lambda e: f"E{self.seasons[season].get(e, {}).get('number', e)} “{self.seasons[season].get(e, {}).get('title', '?')}”"
         m = f"Start at {t(resume)}."
         if hazy_from:
             m += " You weren't sure from around here on, so if it's all familiar keep skipping ahead — you'll know."
@@ -254,7 +256,7 @@ def parse_hazy(spec, season: int) -> set:
 def simulate_all(seasons, season, hazy_spec):
     eps = seasons[season]; n = max(eps)
     stride = 2 if n <= 16 else 3
-    probeless = [e for e in sorted(eps) if not eps[e]["probes"]]
+    probeless = [e for e in range(1, n + 1) if not eps.get(e, {}).get("probes")]
     print(f"S{season}: {n} episodes, stride {stride}, coarse-probeless {probeless or 'none'}"
           f"{', hazy ' + hazy_spec if hazy_spec else ''}\n")
     print(f"{'stopped after':>14} {'resume':>7} {'fallback':>9} {'q':>3} {'reach':>6}  ok")

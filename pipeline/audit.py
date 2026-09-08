@@ -63,6 +63,74 @@ class Consequence(BaseModel):
     reason: str = Field(default="", description="One sentence: what it reveals, or why it is safe")
 
 
+def make_client(provider: str):
+    """Anthropic (default) or Meta Model API, which serves Muse Spark through an Anthropic-compatible
+    Messages endpoint. META_API_KEY comes from .env; the contributor tier is the cheap one."""
+    load_env()
+    import os
+    if provider == "meta":
+        key = os.environ.get("META_API_KEY")
+        if not key:
+            sys.exit("META_API_KEY not set (put it in .env). Keys: https://dev.meta.ai/api-keys/")
+        # Meta authenticates with "Authorization: Bearer", which the SDK sends for auth_token (not api_key)
+        return anthropic.Anthropic(base_url=os.environ.get("META_BASE_URL", "https://api.meta.ai"), auth_token=key)
+    return anthropic.Anthropic()
+
+
+def parse_json_text(text: str, schema):
+    """Structured output without relying on output_format: find the JSON object in the reply and validate."""
+    import json as _json, re as _re
+    m = _re.search(r"\{.*\}", text, flags=_re.S)
+    if not m:
+        raise ValueError("no JSON object in reply")
+    return schema.model_validate(_json.loads(m.group()))
+
+
+def ask_structured(client, *, provider, model, effort, system, user, schema, max_tokens=4000):
+    """One structured call. Anthropic: messages.parse with output_format, effort, cache_control.
+    Meta: plain messages.create, schema described in the prompt, JSON parsed from the text."""
+    if provider != "meta":
+        r = client.messages.parse(model=model, max_tokens=max_tokens, output_config={"effort": effort},
+                                  system=system, messages=[{"role": "user", "content": user}], output_format=schema)
+        return r, r.parsed_output
+    # Meta's Messages endpoint documents output_config.format and effort; try the same call without
+    # cache_control (unknown there) and fall back to schema-in-prompt if it rejects the shape.
+    plain_system = [{"type": "text", "text": b["text"]} for b in system] if isinstance(system, list) else system
+    try:
+        r = client.messages.parse(model=model, max_tokens=max_tokens, output_config={"effort": effort if effort != "max" else "xhigh"},
+                                  system=plain_system, messages=[{"role": "user", "content": user}], output_format=schema)
+        return r, r.parsed_output
+    except anthropic.BadRequestError:
+        pass
+    sys_text = "\n\n".join(b["text"] for b in system) if isinstance(system, list) else system
+    sys_text += ("\n\nRespond with a single JSON object and nothing else, matching this JSON schema exactly:\n"
+                 + _json_dumps(schema.model_json_schema()))
+    r = client.messages.create(model=model, max_tokens=max_tokens, system=sys_text,
+                               messages=[{"role": "user", "content": user}])
+    text = "".join(b.text for b in r.content if getattr(b, "type", "") == "text")
+    return r, parse_json_text(text, schema)
+
+
+def _json_dumps(o):
+    import json as _json
+    return _json.dumps(o, ensure_ascii=False)
+
+
+def with_retry(fn, *, tries=7, base=5.0):
+    """Anthropic 529/429 and transient network errors: exponential backoff, up to ~5 minutes total.
+    The SDK's own 2 retries are not enough when the API is overloaded for a while."""
+    import time
+    for attempt in range(tries):
+        try:
+            return fn()
+        except (anthropic.RateLimitError, anthropic.APIConnectionError, anthropic.InternalServerError, anthropic.OverloadedError) as e:
+            if attempt == tries - 1:
+                raise
+            wait = min(base * (2 ** attempt), 90)
+            print(f"      ({type(e).__name__}; retrying in {wait:.0f}s)", file=sys.stderr)
+            time.sleep(wait)
+
+
 def slugify(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
@@ -193,7 +261,11 @@ def main():
     ap.add_argument("--season", type=int, required=True)
     ap.add_argument("--episode", type=int)
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--model", default="claude-opus-5")
+    ap.add_argument("--model", default=None, help="default: claude-opus-5, or muse-spark-1.3-contributor with --provider meta")
+    ap.add_argument("--provider", default="anthropic", choices=["anthropic", "meta"])
+    ap.add_argument("--candidates", default=None, choices=["anthropic", "meta"],
+                    help="Which provider's candidates file to audit (default: same as --provider). "
+                         "'--provider anthropic --candidates meta' = Muse generates, Opus audits; output goes to the standard files.")
     ap.add_argument("--effort", default="medium", choices=["low", "medium", "high", "xhigh", "max"])
     ap.add_argument("--votes", type=int, default=2, help="Consequence check runs this many times; any 'reveals' rejects")
     ap.add_argument("--recheck", action="store_true",
@@ -203,9 +275,14 @@ def main():
     slug = slugify(a.show)
     cur = load(ROOT / f"data/raw/{slug}/s{a.season:02d}.json")
     prev = load(ROOT / f"data/raw/{slug}/s{a.season-1:02d}.json") if a.season > 1 else None
-    cands = load(ROOT / f"data/probes/{slug}/s{a.season:02d}.candidates.json")
-    if not (cur and cands):
+    a.model = a.model or ("muse-spark-1.3-contributor" if a.provider == "meta" else "claude-opus-5")
+    tag = "" if a.provider == "anthropic" else f".{a.provider}"
+    ctag = tag if a.candidates is None else ("" if a.candidates == "anthropic" else f".{a.candidates}")
+    cands = load(ROOT / f"data/probes/{slug}/s{a.season:02d}{ctag}.candidates.json")
+    if not cur or (not cands and not a.recheck):
         sys.exit("need data/raw season file and candidates file — run fetch.py and generate.py first")
+    if a.recheck and not cands:
+        cands = {"source": {}, "episodes": {}}   # recheck works from probes.json; candidates are not needed
     by_ep = {e["episode"]: e for e in cur["episodes"]}
     allowed_names = cast_tokens(cur, prev)
 
@@ -215,7 +292,7 @@ def main():
     rev_system = [{"type": "text", "text": REVERSE_SYSTEM + rev_text, "cache_control": {"type": "ephemeral"}}]
 
     episodes = sorted(int(k) for k in cands["episodes"] if not a.episode or int(k) == a.episode)
-    if not episodes:
+    if not episodes and not a.recheck:
         sys.exit("no candidates for that episode")
 
     if a.dry_run:
@@ -228,20 +305,29 @@ def main():
         print("=== CONSEQUENCE (user) ===\nMoment: " + c["text"])
         return
 
-    load_env()
-    client = anthropic.Anthropic()
-    audit_path = ROOT / f"data/probes/{slug}/s{a.season:02d}.audit.json"
-    probes_path = ROOT / f"data/probes/{slug}/s{a.season:02d}.probes.json"
+    client = make_client(a.provider)
+    audit_path = ROOT / f"data/probes/{slug}/s{a.season:02d}{tag}.audit.json"
+    probes_path = ROOT / f"data/probes/{slug}/s{a.season:02d}{tag}.probes.json"
     audit = load(audit_path) or {"show": a.show, "slug": slug, "season": a.season, "model": a.model, "episodes": {}}
     probes = load(probes_path) or {"show": a.show, "slug": slug, "season": a.season,
                                    "source": cands["source"], "episodes": {}}
 
     spend = {"in": 0, "out": 0, "cache_read": 0, "cache_write": 0, "calls": 0}
 
+    class Filtered(Exception):
+        """The provider refused to answer (content policy). The probe cannot be verified, so it is rejected."""
+
     def ask(system, user, schema, _retry=True):
         try:
-            r = client.messages.parse(model=a.model, max_tokens=4000, output_config={"effort": a.effort},
-                                      system=system, messages=[{"role": "user", "content": user}], output_format=schema)
+            r, parsed = with_retry(lambda: ask_structured(client, provider=a.provider, model=a.model, effort=a.effort,
+                                                          system=system, user=user, schema=schema))
+        except anthropic.BadRequestError as e:
+            if "content management policy" in str(e) or "filtered" in str(e):
+                if _retry:
+                    return ask(system, user, schema, _retry=False)
+                spend["filtered"] = spend.get("filtered", 0) + 1
+                raise Filtered()
+            raise
         except Exception as e:  # seen once: a degenerate run of newlines hit max_tokens and truncated the JSON
             if _retry and "json" in str(e).lower():
                 print(f"      (malformed structured output, retrying once)", file=sys.stderr)
@@ -249,10 +335,11 @@ def main():
             raise
         u = r.usage
         spend["in"] += u.input_tokens; spend["out"] += u.output_tokens; spend["calls"] += 1
-        spend["cache_read"] += u.cache_read_input_tokens or 0; spend["cache_write"] += u.cache_creation_input_tokens or 0
-        if r.stop_reason == "refusal":
-            raise RuntimeError(f"refusal: {r.stop_details and r.stop_details.category}")
-        return r.parsed_output
+        spend["cache_read"] += getattr(u, "cache_read_input_tokens", 0) or 0
+        spend["cache_write"] += getattr(u, "cache_creation_input_tokens", 0) or 0
+        if getattr(r, "stop_reason", "") == "refusal":
+            raise RuntimeError("refusal")
+        return parsed
 
     if a.recheck:
         if not probes["episodes"]:
@@ -297,25 +384,28 @@ def main():
             if reason:
                 rec["rejected"] = reason
             else:
-                rl = ask(rev_system, f"Moment: {c['text']}", ReverseLookup)
-                rec["checks"]["reverse"] = {"picked": ep_of_letter.get(rl.letter.strip().upper()),
-                                            "confidence": rl.confidence}
-                if rec["checks"]["reverse"]["picked"] != ep:
-                    rec["rejected"] = f"reverse: picked E{rec['checks']['reverse']['picked']} (conf {rl.confidence})"
-                elif rl.confidence <= 3:
-                    rec["rejected"] = f"reverse: correct but not distinctive (conf {rl.confidence})"
-            if not rec["rejected"]:
-                f = ask(FAITHFUL_SYSTEM, f"Summary:\n{by_ep[ep]['summary']}\n\nMoment: {c['text']}", Faithful)
-                rec["checks"]["faithful"] = f.model_dump()
-                if not f.faithful:
-                    rec["rejected"] = "faithful: " + "; ".join(f.unsupported)
-            if not rec["rejected"]:
-                votes = [ask(cons_system, f"Moment: {c['text']}", Consequence) for _ in range(a.votes)]
-                rec["checks"]["consequence"] = {"votes": [v.model_dump() for v in votes],
-                                                "reason": next((v.reason for v in votes if v.reveals), votes[0].reason)}
-                if any(v.reveals for v in votes):
-                    n = sum(v.reveals for v in votes)
-                    rec["rejected"] = f"consequence ({n}/{len(votes)}): " + rec["checks"]["consequence"]["reason"]
+                try:
+                    rl = ask(rev_system, f"Moment: {c['text']}", ReverseLookup)
+                    rec["checks"]["reverse"] = {"picked": ep_of_letter.get(rl.letter.strip().upper()),
+                                                "confidence": rl.confidence}
+                    if rec["checks"]["reverse"]["picked"] != ep:
+                        rec["rejected"] = f"reverse: picked E{rec['checks']['reverse']['picked']} (conf {rl.confidence})"
+                    elif rl.confidence <= 3:
+                        rec["rejected"] = f"reverse: correct but not distinctive (conf {rl.confidence})"
+                    if not rec["rejected"]:
+                        f = ask(FAITHFUL_SYSTEM, f"Summary:\n{by_ep[ep]['summary']}\n\nMoment: {c['text']}", Faithful)
+                        rec["checks"]["faithful"] = f.model_dump()
+                        if not f.faithful:
+                            rec["rejected"] = "faithful: " + "; ".join(f.unsupported)
+                    if not rec["rejected"]:
+                        votes = [ask(cons_system, f"Moment: {c['text']}", Consequence) for _ in range(a.votes)]
+                        rec["checks"]["consequence"] = {"votes": [v.model_dump() for v in votes],
+                                                        "reason": next((v.reason for v in votes if v.reveals), votes[0].reason)}
+                        if any(v.reveals for v in votes):
+                            n = sum(v.reveals for v in votes)
+                            rec["rejected"] = f"consequence ({n}/{len(votes)}): " + rec["checks"]["consequence"]["reason"]
+                except Filtered:
+                    rec["rejected"] = "filtered: provider refused to evaluate this probe (content policy); cannot verify, so rejected"
             results.append(rec)
             if not rec["rejected"] and len(survivors) < KEEP:
                 survivors.append({"text": c["text"], "specificity": c["specificity"],

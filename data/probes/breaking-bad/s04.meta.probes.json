@@ -1,0 +1,175 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 4,
+  "source": {
+    "title": "Breaking Bad season 4",
+    "revid": 1365318951,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_4&oldid=1365318951",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Box Cutter",
+      "probes": [
+        {
+          "text": "Hank, laid up at home after his injury, has taken up collecting and cataloguing minerals.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A visibly paranoid Saul has hired himself a personal bodyguard and keeps him nearby.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt and Jesse are being held in the lab under guard by Victor and Mike.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "Thirty-Eight Snub",
+      "probes": [
+        {
+          "text": "Jesse has bought a huge new stereo system, and the party at his house just keeps going.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hank does his physical therapy sessions at home, and Marie is finding him hard to live with.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andrea stops by Jesse's chaotic house out of concern, and he presses a thick stack of cash on her for Brock.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Open House",
+      "probes": [
+        {
+          "text": "Jesse tosses piles of money into the chaos of a nonstop drug-fueled party at his house.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Bullet Points",
+      "probes": [
+        {
+          "text": "Skyler makes Walt rehearse over and over how he admits his gambling problem.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt and Skyler plan to explain the car wash and medical bills as gambling winnings.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Shotgun",
+      "probes": [
+        {
+          "text": "Mike drives Jesse around New Mexico, bringing him along for a series of routine collections.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt and Skyler sit together signing the final papers to officially purchase the car wash.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike calmly assures a worried Walt that Jesse is safe while working with him.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Cornered",
+      "probes": [
+        {
+          "text": "Walt gives in to Walt Jr.'s pleas and buys him a brand new Dodge Challenger.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Skyler argues with Walt at home, demanding he return Walt Jr.'s flashy new sports car.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "Problem Dog",
+      "probes": [
+        {
+          "text": "Walt drives the Challenger to a parking lot and takes it on a reckless joyride.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Skyler is taken aback by how much money Walt is making and worries about laundering it through the car wash.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "Hermanos",
+      "probes": []
+    },
+    "9": {
+      "title": "Bug",
+      "probes": [
+        {
+          "text": "Skyler climbs down into the crawl space beneath her house where Walt's cash is stored.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "10": {
+      "title": "Salud",
+      "probes": [
+        {
+          "text": "Ted is driving around town these days in a flashy newly leased Mercedes.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "11": {
+      "title": "Crawl Space",
+      "probes": []
+    },
+    "12": {
+      "title": "End Times",
+      "probes": [
+        {
+          "text": "Walt sits alone inside his barricaded house in silence, keeping every door locked shut against visitors.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Skyler, Walt Jr., and Holly are staying with Hank and Marie at their house.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "13": {
+      "title": "Face Off",
+      "probes": []
+    }
+  }
+}

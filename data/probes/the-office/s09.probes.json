@@ -1,0 +1,345 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 9,
+  "source": {
+    "title": "The Office (American TV series) season 9",
+    "revid": 1370224461,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_9&oldid=1370224461",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "New Guys",
+      "probes": [
+        {
+          "text": "Jim and Dwight are dealing with two new hires starting in the Scranton branch.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy is back in the office after finishing his manager training program.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Roy's Wedding",
+      "probes": [
+        {
+          "text": "Pam and Jim attend the wedding of Pam's former fiancé as invited guests.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight declares he will donate the money he raises for Nellie's charity drive to the Taliban.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Clark tries to impress Erin with talk of a fake newscaster job while Andy takes the bait instead.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Andy's Ancestry",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Dwight is coaching Erin in the Dothraki language so she can impress Andy's educated family.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Work Bus",
+      "probes": [
+        {
+          "text": "Dwight runs the office from desks set up inside a rented bus.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nellie asks Andy to write a recommendation letter supporting her baby adoption.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Erin coaches Nellie through a baby adoption application, giving pointers on filling it out.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Here Comes Treble",
+      "probes": [
+        {
+          "text": "Andy's former college a cappella group performs for the office during a Halloween celebration.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight prowls around the office trying to track down a madman loose inside.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "The Boat",
+      "probes": [
+        {
+          "text": "Dwight sits in a radio station as a guest while his coworkers keep calling in to bother him.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy's brother hangs around after returning, acting openly drunk in front of the office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "The Whale",
+      "probes": [
+        {
+          "text": "Several of the men in the office start growing mustaches together for Movember.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight gets coaching from Pam and the office women on how to talk to women.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Andy appears on a video call into the office from his boat.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "The Target",
+      "probes": [
+        {
+          "text": "Pete stays beside Pam and keeps distracting her while she begins painting her mural.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Dwight Christmas",
+      "probes": [
+        {
+          "text": "Dwight leads the whole office through a traditional Pennsylvania Dutch Christmas celebration.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pete walks Erin through his favorite movie Die Hard with obvious enthusiasm.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Toby sits with Nellie talking through the details of the Scranton Strangler trial.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Lice",
+      "probes": [
+        {
+          "text": "Dwight is vowing to destroy the lice parasites that are spreading through the office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nellie, Phyllis and Kevin are interfering in Darryl's love life with unwanted advice.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim is spending the day in Philadelphia with a potential business associate.",
+          "specificity": 2,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Suit Warehouse",
+      "probes": [
+        {
+          "text": "Dwight and Clark pose as father and son while pitching paper to a suit warehouse owner.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Customer Loyalty",
+      "probes": [],
+      "fine_only": []
+    },
+    "13": {
+      "title": "Junior Salesman",
+      "probes": [
+        {
+          "text": "Dwight lines up several of his close friends as candidates for Jim's part-time replacement.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "14": {
+      "title": "Vandalism",
+      "probes": [
+        {
+          "text": "Angela reluctantly allows Oscar and Kevin to attend her baby son's first birthday party.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Darryl grimaces at Jim's unclean habits while sharing their Philadelphia apartment together.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "15": {
+      "title": "Couples Discount",
+      "probes": [
+        {
+          "text": "Office coworkers pair off into couples to take advantage of a Valentine's Day discount at a mini-mall.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam and Jim sit together sharing lunch with Brian, the documentary's sound man.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "16": {
+      "title": "Moving On",
+      "probes": [
+        {
+          "text": "Dwight brings Angela along to help him give his elderly aunt a bath.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "17": {
+      "title": "The Farm",
+      "probes": [],
+      "fine_only": []
+    },
+    "18": {
+      "title": "Promos",
+      "probes": [
+        {
+          "text": "Jim and Darryl sit in a meeting while a visiting baseball star pitches his bizarre sci-fi sports movie.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy sits alone scrolling through rude comments about himself on the Internet with a hurt expression.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "19": {
+      "title": "Stairmageddon",
+      "probes": [
+        {
+          "text": "The office elevators are down for maintenance, so the staff trudges up multiple flights of stairs together.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "20": {
+      "title": "Paper Airplane",
+      "probes": [
+        {
+          "text": "Dwight and Angela face off in the office, folding and throwing paper airplanes in a contest.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Angela and Dwight compete against each other by flying paper airplanes across the office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "21": {
+      "title": "Livin' the Dream",
+      "probes": [
+        {
+          "text": "Dwight stands proudly while his new sensei finally hands him his black belt in karate.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "22": {
+      "title": "A.A.R.M.",
+      "probes": [
+        {
+          "text": "Angela has her young child with her at the office after daycare turns away her child.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy nervously auditions in front of judges for a national a cappella singing competition show.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "23": {
+      "title": "Finale",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Longtime office coworkers sit together for one last round of on-camera interviews with tears in their eyes.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

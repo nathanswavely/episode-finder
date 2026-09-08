@@ -1,0 +1,237 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 4,
+  "source": {
+    "title": "The Office (American TV series) season 4",
+    "revid": 1369229297,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_4&oldid=1369229297",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "5": {
+      "title": "Local Ad",
+      "probes": [
+        {
+          "text": "Michael directs the Scranton staff as they film their own full-length Dunder Mifflin commercial.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight sits alone at a computer, escaping from life by playing the game Second Life.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The office staff and other bar patrons gather to watch a commercial on the screens at Poor Richard's.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Branch Wars",
+      "probes": [
+        {
+          "text": "Michael, Dwight and Jim drive together to Utica for a so-called panty raid.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Survivor Man",
+      "probes": [
+        {
+          "text": "Jim, left in charge of the office, combines three staff birthdays that fall close together into one party.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael sits alone in the middle of a forest trying to prove he can survive on his own.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight, told to leave, stays behind hidden in the forest while Michael tries to camp alone.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "The Deposition",
+      "probes": [
+        {
+          "text": "The Scranton office is caught up in a ping pong craze, with employees rallying around the table.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Dinner Party",
+      "probes": [
+        {
+          "text": "Dwight arrives at the condominium with his former babysitter as his date.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael and Jan host a dinner at their condominium for Jim, Pam, Andy and Angela.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Chair Model",
+      "probes": [
+        {
+          "text": "Andy and Kevin sit down with neighboring business bosses to hash out building parking issues.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight pursues a search for the female model pictured in the office chair catalog.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael studies a chair catalog and fixates on the female model pictured inside.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Night Out",
+      "probes": [
+        {
+          "text": "Michael and Dwight find Ryan clubbing in New York and join him for the night.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The Scranton staff working late find themselves locked in on the grounds with no escape.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael and Dwight show up in New York to surprise Ryan and meet his friends.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Did I Stutter?",
+      "probes": [
+        {
+          "text": "Pam is wearing her backup glasses and getting unwanted attention and comments about her different look.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "Job Fair",
+      "probes": [
+        {
+          "text": "Michael, Pam, Oscar and Darryl run a Dunder Mifflin booth at Pam's old high school job fair.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim plays golf with Andy and Kevin while trying to land a big client.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight and Angela spend a tense day nearly alone together in the empty office.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "1": {
+      "title": "Fun Run",
+      "probes": [
+        {
+          "text": "Michael brandishes an oversized novelty cheque while a fake nurse stands beside him grinning.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Dunder Mifflin Infinity",
+      "probes": [
+        {
+          "text": "Michael misunderstands his rental car's GPS directions and drives straight into Lake Scranton.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael gathers the office together to lead a seminar about ageism and older workers in the workplace.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Ryan stands in the Scranton office outlining his new technology plan to revitalize the struggling company.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Launch Party",
+      "probes": [
+        {
+          "text": "Michael treats his digital launch invitation as an invitation to the real party in New York.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The Scranton staff gathers around a video chat screen for the company-wide website launch party.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Money",
+      "probes": [
+        {
+          "text": "Jim and Pam visit Dwight's family farm, which operates as a quirky bed and breakfast.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "14": {
+      "title": "Goodbye, Toby",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Phyllis is running the party planning committee and setting up a huge goodbye bash for Toby.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

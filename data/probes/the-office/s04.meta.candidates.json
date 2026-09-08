@@ -1,0 +1,525 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 4,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Office (American TV series) season 4",
+    "revid": 1369229297,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_4&oldid=1369229297",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "5": {
+      "title": "Local Ad",
+      "candidates": [
+        {
+          "text": "Michael directs the Scranton staff as they film their own full-length Dunder Mifflin commercial.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael decides to produce a full commercial with the Scranton staff",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight sits alone at a computer, escaping from life by playing the game Second Life.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "he attempts to remove himself from his life by playing Second Life",
+          "grounded_ok": true
+        },
+        {
+          "text": "The office staff and other bar patrons gather to watch a commercial on the screens at Poor Richard's.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "other bar patrons at Poor Richard's",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5227,
+        "out": 3581,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Branch Wars",
+      "candidates": [
+        {
+          "text": "Michael, Dwight and Jim drive together to Utica for a so-called panty raid.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Dwight",
+            "Jim"
+          ],
+          "grounded_in": "Michael and Dwight trick Jim into accompanying them on a \"panty raid\" to Utica",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5227,
+        "out": 7849,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Survivor Man",
+      "candidates": [
+        {
+          "text": "Jim, left in charge of the office, combines three staff birthdays that fall close together into one party.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim"
+          ],
+          "grounded_in": "decides to combine birthday parties for three members of the staff whose birthdays fall in quick succession",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael sits alone in the middle of a forest trying to prove he can survive on his own.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Dwight drops Michael in the middle of a forest",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight, told to leave, stays behind hidden in the forest while Michael tries to camp alone.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Michael"
+          ],
+          "grounded_in": "although told to leave, stays to prevent Michael from injury",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5229,
+        "out": 3916,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Deposition",
+      "candidates": [
+        {
+          "text": "The Scranton office is caught up in a ping pong craze, with employees rallying around the table.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "a ping pong craze turns into a battle of the relationships between Pam and Jim and Kelly and Darryl",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam and Jim face Kelly and Darryl in a heated couples-versus-couples ping pong showdown at work.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam",
+            "Jim",
+            "Kelly",
+            "Darryl"
+          ],
+          "grounded_in": "a ping pong craze turns into a battle of the relationships between Pam and Jim and Kelly and Darryl",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5228,
+        "out": 4426,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Dinner Party",
+      "candidates": [
+        {
+          "text": "Dwight arrives at the condominium with his former babysitter as his date.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "arrives with his former babysitter as his date",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael and Jan host a dinner at their condominium for Jim, Pam, Andy and Angela.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Jan",
+            "Jim",
+            "Pam",
+            "Andy",
+            "Angela"
+          ],
+          "grounded_in": "invite Jim, Pam, Andy, and Angela to a dinner party at the couple's condominium",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5228,
+        "out": 4608,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Chair Model",
+      "candidates": [
+        {
+          "text": "Andy and Kevin sit down with neighboring business bosses to hash out building parking issues.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Kevin"
+          ],
+          "grounded_in": "meet with the bosses of the other companies in the building to discuss the issues of parking",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael sits across from Pam's landlady on a blind date arranged through the office.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Pam"
+          ],
+          "grounded_in": "Michael goes on a blind date with Pam's landlady",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight pursues a search for the female model pictured in the office chair catalog.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight embarks on a search for the chair model",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael studies a chair catalog and fixates on the female model pictured inside.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "seeing a model in a catalog while searching for a chair",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael collects names of female friends from office coworkers to line up potential dates.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael takes names of friends of office employees for dates",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5227,
+        "out": 3836,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Night Out",
+      "candidates": [
+        {
+          "text": "Michael and Dwight find Ryan clubbing in New York and join him for the night.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Dwight",
+            "Ryan"
+          ],
+          "grounded_in": "They find him clubbing and join him for the night.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The Scranton staff working late find themselves locked in on the grounds with no escape.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "they find they are locked in on the grounds with no way to escape.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael and Dwight show up in New York to surprise Ryan and meet his friends.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Dwight",
+            "Ryan"
+          ],
+          "grounded_in": "Michael and Dwight decide to surprise Ryan in New York and to meet his friends.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The Scranton staff grumble about having to come in on Saturday for the website project.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "they have to come in on a Saturday for Ryan's website project.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim suggests the office staff all stay and work late instead of coming in Saturday.",
+          "specificity": 3,
+          "characters_named": [
+            "Jim"
+          ],
+          "grounded_in": "Jim suggests that everyone work late instead.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5227,
+        "out": 3677,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Did I Stutter?",
+      "candidates": [
+        {
+          "text": "Pam is wearing her backup glasses and getting unwanted attention and comments about her different look.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Pam deals with unwanted attention from her \"back up\" glasses after spending the night at Jim's.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5230,
+        "out": 4770,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Job Fair",
+      "candidates": [
+        {
+          "text": "Michael, Pam, Oscar and Darryl run a Dunder Mifflin booth at Pam's old high school job fair.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Pam",
+            "Oscar",
+            "Darryl"
+          ],
+          "grounded_in": "set up a booth at a job fair at Pam's old high school",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim plays golf with Andy and Kevin while trying to land a big client.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Andy",
+            "Kevin"
+          ],
+          "grounded_in": "Jim hits the links with Andy and Kevin to attempt to land his biggest client ever",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight and Angela spend a tense day nearly alone together in the empty office.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Angela"
+          ],
+          "grounded_in": "Dwight and Angela have a tense day alone in the office",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5227,
+        "out": 2928,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "1": {
+      "title": "Fun Run",
+      "candidates": [
+        {
+          "text": "Michael brandishes an oversized novelty cheque while a fake nurse stands beside him grinning.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael ends up spending around $250 on a big cheque and fake nurse",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6502,
+        "out": 7658,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "Dunder Mifflin Infinity",
+      "candidates": [
+        {
+          "text": "Michael misunderstands his rental car's GPS directions and drives straight into Lake Scranton.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "unable to properly understand his rental car's GPS, Michael drives it into Lake Scranton",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael gathers the office together to lead a seminar about ageism and older workers in the workplace.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "leading Michael to hold an \"ageism seminar\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ryan stands in the Scranton office outlining his new technology plan to revitalize the struggling company.",
+          "specificity": 3,
+          "characters_named": [
+            "Ryan"
+          ],
+          "grounded_in": "his plan to use technology to revitalize the uncompetitive company",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6506,
+        "out": 6287,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Launch Party",
+      "candidates": [
+        {
+          "text": "Michael treats his digital launch invitation as an invitation to the real party in New York.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael misunderstands an invite to the digital party as an invite to the actual party in New York.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The Scranton staff gathers around a video chat screen for the company-wide website launch party.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "prepare to host a party as part of a company-wide video chat room",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6502,
+        "out": 3026,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Money",
+      "candidates": [
+        {
+          "text": "Jim and Pam visit Dwight's family farm, which operates as a quirky bed and breakfast.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam",
+            "Dwight"
+          ],
+          "grounded_in": "Pam and Jim visit Dwight's family farm, which he has fashioned into a bed and breakfast.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael sneaks out early to work a late-night telemarketing shift that keeps him up until 1 a.m.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael leaves work early for a late night job as a telemarketer until 1 a.m.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim gives Dwight a pep talk and looks pleased to see his annoying old self back.",
+          "specificity": 3,
+          "characters_named": [
+            "Jim",
+            "Dwight"
+          ],
+          "grounded_in": "After a pep-talk by Jim, Dwight returns as his normal annoying self, to Jim's pleasure.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6501,
+        "out": 4042,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "14": {
+      "title": "Goodbye, Toby",
+      "candidates": [
+        {
+          "text": "Phyllis is running the party planning committee and setting up a huge goodbye bash for Toby.",
+          "specificity": 5,
+          "characters_named": [
+            "Phyllis",
+            "Toby"
+          ],
+          "grounded_in": "Phyllis takes over the party planning committee and throws a huge bash for Toby's goodbye party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight and Meredith haze the new HR woman by insisting Kevin is mentally disabled.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Meredith",
+            "Kevin"
+          ],
+          "grounded_in": "Dwight, with Meredith, hazes the new HR woman, Holly Flax (Amy Ryan), making her think Kevin is mentally disabled",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 6504,
+        "out": 4812,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

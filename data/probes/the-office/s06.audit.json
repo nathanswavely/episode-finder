@@ -1,0 +1,1420 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 6,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Gossip",
+      "candidates": [
+        {
+          "text": "The summer interns are packing up to leave, and the whole office is gossiping while Michael feels left out.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office texture—interns departing and gossip—without disclosing any outcome, reveal, or resolution of pending storylines."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes a mundane office setup (interns leaving, general gossip) without revealing any outcome, reveal, or answer to a pending question such as Pam's pregnancy."
+                }
+              ],
+              "reason": "This is ordinary office texture—interns departing and gossip—without disclosing any outcome, reveal, or resolution of pending storylines."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "The Meeting",
+      "candidates": [
+        {
+          "text": "Dwight and Toby team up to look into Darryl's worker's compensation claim at the office.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes an ordinary workplace investigation storyline setup, without revealing any outcome, reveal, or answer to a pending question from the episodes watched."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Darryl gets injured and files a worker's compensation claim, an event the viewer hasn't yet seen."
+                }
+              ],
+              "reason": "It reveals that Darryl gets injured and files a worker's compensation claim, an event the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Darryl gets injured and files a worker's compensation claim, an event the viewer hasn't yet seen."
+        },
+        {
+          "text": "Pam is chasing down wedding RSVPs and struggling to get responses back from guests.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Wedding planning logistics like chasing RSVPs is ordinary texture, and the viewer already knows Jim and Pam are engaged and planning a wedding."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Wedding planning logistics are ordinary texture; the engagement and upcoming wedding are already known to the viewer, and no outcome is revealed."
+                }
+              ],
+              "reason": "Wedding planning logistics like chasing RSVPs is ordinary texture, and the viewer already knows Jim and Pam are engaged and planning a wedding."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "The Promotion",
+      "candidates": [
+        {
+          "text": "Pam feels awkward as she asks her coworkers for cash instead of wedding gifts.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Pam soliciting cash rather than gifts is ordinary awkward texture around an already-known engagement, revealing no outcome or answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Pam collecting cash rather than wedding gifts is ordinary texture; the engagement and upcoming wedding are already known to the viewer and no outcome is disclosed."
+                }
+              ],
+              "reason": "Pam soliciting cash rather than gifts is ordinary awkward texture around an already-known engagement, revealing no outcome or answer to an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Chaos spreads through the office as everyone argues about tiny or nonexistent annual raises.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Arguing about small raises is ordinary workplace texture and doesn't resolve any pending storyline or reveal an outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An office-wide argument over raises is ordinary workplace texture and doesn't resolve any pending storyline or open question."
+                }
+              ],
+              "reason": "Arguing about small raises is ordinary workplace texture and doesn't resolve any pending storyline or reveal an outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Mafia",
+      "candidates": [
+        {
+          "text": "Kevin is treating Jim's empty office as his own private farting room while Jim is away.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is comic character texture about Kevin's antics in an empty office, revealing no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is comedic character texture with no outcome, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "This is comic character texture about Kevin's antics in an empty office, revealing no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael, Dwight and Andy sit together at lunch with the insurance salesman.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A lunch gathering with a salesman is ordinary situational texture that discloses no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A lunch gathering is ordinary situational texture with no outcome, reveal or turning point disclosed."
+                }
+              ],
+              "reason": "A lunch gathering with a salesman is ordinary situational texture that discloses no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The staff keep calling Jim and Pam with office nonsense while they are away on their honeymoon.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Jim and Pam's much-anticipated wedding actually takes place and they leave on a honeymoon, revealing the outcome of a pending event."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the pending wedding actually takes place and Jim and Pam get married, resolving an open plotline the viewer has only seen in planning stages."
+                }
+              ],
+              "reason": "It confirms that Jim and Pam's much-anticipated wedding actually takes place and they leave on a honeymoon, revealing the outcome of a pending event."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms that Jim and Pam's much-anticipated wedding actually takes place and they leave on a honeymoon, revealing the outcome of a pending event."
+        }
+      ]
+    },
+    "6": {
+      "title": "The Lover",
+      "candidates": [
+        {
+          "text": "Jim and Pam are back at their office desks together after their honeymoon.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the pending wedding actually took place successfully, as Jim and Pam are returning from their honeymoon as a married couple."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Jim and Pam's much-anticipated wedding actually takes place (and goes ahead successfully), an outcome the viewer only knows as pending amid the planning struggles."
+                }
+              ],
+              "reason": "It reveals that the pending wedding actually took place successfully, as Jim and Pam are returning from their honeymoon as a married couple."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the pending wedding actually took place successfully, as Jim and Pam are returning from their honeymoon as a married couple."
+        }
+      ]
+    },
+    "7": {
+      "title": "Koi Pond",
+      "candidates": [
+        {
+          "text": "Michael slips and falls fully clothed into a koi pond while walking to a business meeting.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A slapstick physical mishap that is ordinary comedic texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A slapstick physical mishap that reads as ordinary comic texture and does not disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A slapstick physical mishap that is ordinary comedic texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Clients keep mistaking Pam and Andy for a couple during their sales calls together.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture — a mildly awkward sales-call dynamic — and doesn't disclose any outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture — a mildly awkward running gag on sales calls — with no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary workplace texture — a mildly awkward sales-call dynamic — and doesn't disclose any outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael calls the office together for an anti-bullying seminar after everyone teases him relentlessly.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Michael-style office antics with no outcome, reveal, or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Michael-style office activity and character texture, revealing no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary Michael-style office antics with no outcome, reveal, or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam and Andy drive around town making awkward cold calls together to stir up business.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace activity — two salespeople making cold calls — with no outcome, reveal, or resolution of a pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Sales cold-calling with a coworker is ordinary workplace texture and discloses no outcome or reveal."
+                }
+              ],
+              "reason": "This is ordinary workplace activity — two salespeople making cold calls — with no outcome, reveal, or resolution of a pending storyline."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Double Date",
+      "candidates": [
+        {
+          "text": "Jim and Pam sit through an awkward birthday lunch with Michael and Helene.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael is romantically involved with Pam's mother Helene, a relationship development the viewer has not yet learned about."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael is romantically involved with Pam's mother Helene, a relationship reveal the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals that Michael is romantically involved with Pam's mother Helene, a relationship development the viewer has not yet learned about."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Michael is romantically involved with Pam's mother Helene, a relationship development the viewer has not yet learned about."
+        }
+      ]
+    },
+    "9": {
+      "title": "Murder",
+      "candidates": [
+        {
+          "text": "Michael makes the whole office spend the day playing a murder mystery role-playing game.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An office activity premise with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An office activity premise with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "An office activity premise with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The entire office staff puts work aside to spend the day on group diversions together.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A vague description of the office doing group activities together is ordinary workplace texture and discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a generic office-wide activity with no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "A vague description of the office doing group activities together is ordinary workplace texture and discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Shareholder Meeting",
+      "candidates": [
+        {
+          "text": "Michael, Dwight and Oscar sit together in a hired limousine leaving New York.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A limousine ride out of New York is ordinary situational texture and doesn't disclose any outcome, reveal or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows characters travelling together in a limousine, ordinary setting/texture with no outcome or reveal."
+                }
+              ],
+              "reason": "A limousine ride out of New York is ordinary situational texture and doesn't disclose any outcome, reveal or resolution."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Scott's Tots",
+      "candidates": [
+        {
+          "text": "Erin keeps offering Michael support even as he treats her rudely all day.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Erin's established eagerness and Michael's moods, revealing no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Erin's supportiveness and Michael's rudeness — without revealing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture consistent with Erin's established eagerness and Michael's moods, revealing no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "12": {
+      "title": "Secret Santa",
+      "candidates": [
+        {
+          "text": "Phyllis is dressed as Santa for the office Christmas party while Michael shows up as Santa too.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary holiday-party texture — a costume clash at the Christmas party — and doesn't disclose any outcome, reveal or turning point in pending storylines."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary holiday-party texture with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary holiday-party texture — a costume clash at the Christmas party — and doesn't disclose any outcome, reveal or turning point in pending storylines."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael sits through the office Christmas party dressed in a full Jesus costume.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Michael wearing a Jesus costume at a Christmas party is comedic character texture, not an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Michael wearing a costume at a holiday party is ordinary comedic texture with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Michael wearing a Jesus costume at a Christmas party is comedic character texture, not an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy gives Erin a Twelve Days of Christmas gift and the birds start attacking her.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Andy's awkward courtship of Erin is already established, and a comic gift mishap is texture rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Andy's awkward courtship of Erin is already established, and a comedic gift mishap is character texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Andy's awkward courtship of Erin is already established, and a comic gift mishap is texture rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Twelve drummers are drumming in the office as part of Andy's gift for Erin.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Andy's escalating gift is a comedic continuation of his already-established courtship of Erin, revealing no outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Andy continuing his already-established awkward courtship of Erin through an elaborate gift, which is character texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Andy's escalating gift is a comedic continuation of his already-established courtship of Erin, revealing no outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Oscar has a crush on a new gay guy working down in the warehouse.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        }
+      ]
+    },
+    "13": {
+      "title": "The Banker",
+      "candidates": [
+        {
+          "text": "Michael, Dwight, Andy and Pam trot out their high-profile contacts to impress a visiting investment banker.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes a generic office activity (trying to impress a visitor) without disclosing any outcome, reveal, or resolution of the pending insolvency storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes a routine office activity of showing off contacts to a visitor, without revealing any outcome, reveal, or resolution of the pending insolvency storyline."
+                }
+              ],
+              "reason": "This describes a generic office activity (trying to impress a visitor) without disclosing any outcome, reveal, or resolution of the pending insolvency storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Toby sits with coworkers reminiscing about all the great times they have had in the office.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Coworkers casually reminiscing is ordinary character texture and doesn't disclose any outcome, though it touches the general office mood."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Coworkers reminiscing in the office is ordinary character texture with no outcome or reveal."
+                }
+              ],
+              "reason": "Coworkers casually reminiscing is ordinary character texture and doesn't disclose any outcome, though it touches the general office mood."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "14": {
+      "title": "Sabre",
+      "candidates": [
+        {
+          "text": "Jim and Pam sit together at a local daycare center for an interview about childcare.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Attending a daycare interview is ordinary expectant-parent texture consistent with the already-known pregnancy, revealing no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Touring a daycare is ordinary texture consistent with the already-known pregnancy and reveals no outcome or turning point."
+                }
+              ],
+              "reason": "Attending a daycare interview is ordinary expectant-parent texture consistent with the already-known pregnancy, revealing no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael turns to David for advice about handling the company's new policies.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Michael seeking advice from David Wallace is ordinary workplace texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A generic depiction of Michael consulting David about workplace policy is ordinary character texture and discloses no outcome, reveal, or resolution of the pending Dwight/Ryan plot against Jim."
+                }
+              ],
+              "reason": "Michael seeking advice from David Wallace is ordinary workplace texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "15": {
+      "title": "The Manager and the Salesman",
+      "candidates": [
+        {
+          "text": "Andy hands Kelly the Valentine's card he actually meant to give to Erin.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Andy's clumsy pursuit of Erin is established ongoing texture, and a misdelivered card is a comic mishap rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Andy's flirtation with Erin is already established, and a mis-delivered Valentine's card is a minor comedic mishap rather than an outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Andy's clumsy pursuit of Erin is established ongoing texture, and a misdelivered card is a comic mishap rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The Scranton office welcomes Jo Bennett, dazzled by her warm Southern ways.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "Jo Bennett's arrival at the Scranton office signals that the pending sale of Dunder Mifflin has gone through and reveals the new owner, resolving the cliffhanger about the buyer and Michael's fate."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the pending buyout of Dunder Mifflin actually goes through and reveals the identity of the new owner, Jo Bennett, answering the open question raised when David told Michael there was a buyer."
+                }
+              ],
+              "reason": "Jo Bennett's arrival at the Scranton office signals that the pending sale of Dunder Mifflin has gone through and reveals the new owner, resolving the cliffhanger about the buyer and Michael's fate."
+            }
+          },
+          "rejected": "consequence (2/2): Jo Bennett's arrival at the Scranton office signals that the pending sale of Dunder Mifflin has gone through and reveals the new owner, resolving the cliffhanger about the buyer and Michael's fate."
+        }
+      ]
+    },
+    "17": {
+      "title": "St. Patrick's Day",
+      "candidates": [
+        {
+          "text": "Jim is back in the office for his first day after paternity leave.",
+          "checks": {
+            "reverse": {
+              "picked": 19,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Pam's pregnancy has resolved in a birth and that Jim has already taken paternity leave, answering the pending question of the baby's arrival."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Pam has given birth, resolving the pending pregnancy storyline the viewer has been following."
+                }
+              ],
+              "reason": "It reveals that Pam's pregnancy has resolved in a birth and that Jim has already taken paternity leave, answering the pending question of the baby's arrival."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Pam's pregnancy has resolved in a birth and that Jim has already taken paternity leave, answering the pending question of the baby's arrival."
+        }
+      ]
+    },
+    "18": {
+      "title": "New Leads",
+      "candidates": [
+        {
+          "text": "Jim follows clues on a treasure hunt that winds all through the business park.",
+          "checks": {
+            "reverse": {
+              "picked": 20,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A treasure hunt through the business park is ordinary activity/texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A treasure-hunt activity through the business park is ordinary episode texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A treasure hunt through the business park is ordinary activity/texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The sales team acts superior around the office under Sabre's sales-is-king mantra.",
+          "checks": {
+            "reverse": {
+              "picked": 20,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture stemming from the already-known no-cap commission policy, revealing no new outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Sales staff acting cocky under the already-known no-cap commission policy is atmospheric texture, not an outcome or reveal."
+                }
+              ],
+              "reason": "This is ordinary workplace texture stemming from the already-known no-cap commission policy, revealing no new outcome or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "19": {
+      "title": "Happy Hour",
+      "candidates": [
+        {
+          "text": "Oscar invites the office and warehouse crews out together for after-work drinks at a bar.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Organising after-work drinks is an ordinary social activity that reveals no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An after-work social outing is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of pending storylines."
+                }
+              ],
+              "reason": "Organising after-work drinks is an ordinary social activity that reveals no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Oscar spends the evening at the bar flirting with Matt from the warehouse crew.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Oscar's interest in Matt is already established, and flirting at a bar is ordinary character texture rather than a resolved outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Oscar's attraction to Matt is already established, and flirting at a bar is ordinary character texture rather than a confirmed outcome, confession, or new relationship."
+                }
+              ],
+              "reason": "Oscar's interest in Matt is already established, and flirting at a bar is ordinary character texture rather than a resolved outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam arrives at after-work drinks with a date she has set up for Michael.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Pam setting Michael up on a date at after-work drinks is ordinary character texture and doesn't disclose any pending outcome the viewer is awaiting."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Pam setting Michael up on a date at after-work drinks is ordinary social texture and doesn't disclose an outcome or reveal from the pending storylines."
+                }
+              ],
+              "reason": "Pam setting Michael up on a date at after-work drinks is ordinary character texture and doesn't disclose any pending outcome the viewer is awaiting."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "20": {
+      "title": "Secretary's Day",
+      "candidates": [
+        {
+          "text": "Oscar circulates a homemade video comparing Kevin's voice to a growly blue children's-show monster.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office prank/character texture with no bearing on any pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A comedic office prank about Kevin's voice is ordinary character texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary office prank/character texture with no bearing on any pending conflict or open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kevin looks for help when the entire office gets in on the joke about his voice.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An office-wide joke at Kevin's expense is ordinary comedic texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic office texture about teasing Kevin's voice, revealing no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "An office-wide joke at Kevin's expense is ordinary comedic texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andy arranges extra special touches for the day honoring Erin as office secretary.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely describes Andy planning celebratory gestures for Erin on Secretary's Day, ordinary activity consistent with their known relationship, revealing no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Andy planning a Secretary's Day celebration for Erin is ordinary romantic-gesture texture consistent with their established flirtation, revealing no outcome or turning point."
+                }
+              ],
+              "reason": "It merely describes Andy planning celebratory gestures for Erin on Secretary's Day, ordinary activity consistent with their known relationship, revealing no outcome or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "21": {
+      "title": "Body Language",
+      "candidates": [
+        {
+          "text": "Dwight sits with Kelly and earnestly encourages her to try out for the minority training program.",
+          "checks": {
+            "reverse": {
+              "picked": 23,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office texture—Dwight chatting with Kelly about a training program—without revealing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office texture \\u2014 a character encouraging another to apply for a program \\u2014 with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary office texture—Dwight chatting with Kelly about a training program—without revealing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim and Pam sit together preparing their first joint sales pitch to Donna, a local restaurant manager.",
+          "checks": {
+            "reverse": {
+              "picked": 23,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary work activity — preparing a routine sales pitch — without disclosing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary work activity—preparing a sales pitch—without disclosing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It depicts an ordinary work activity — preparing a routine sales pitch — without disclosing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael lingers around the sales meeting with Donna, confidently misreading the signals she keeps putting out.",
+          "checks": {
+            "reverse": {
+              "picked": 23,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Michael flirting/misreading a new character at a meeting, which is ordinary character texture and doesn't disclose any outcome or answer a pending question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a new romantic interest/prospect for Michael (Donna) that the viewer hasn't yet met, hinting at a developing flirtation storyline."
+                }
+              ],
+              "reason": "It reveals a new romantic interest/prospect for Michael (Donna) that the viewer hasn't yet met, hinting at a developing flirtation storyline."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a new romantic interest/prospect for Michael (Donna) that the viewer hasn't yet met, hinting at a developing flirtation storyline."
+        }
+      ]
+    },
+    "22": {
+      "title": "The Cover-Up",
+      "candidates": [
+        {
+          "text": "Andy wanders the office with a customer complaint, frustrated that no one takes it seriously.",
+          "checks": {
+            "reverse": {
+              "picked": 24,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture—Andy grumbling about a complaint—and does not resolve any pending conflict or reveal an outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture with no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "This is ordinary workplace texture—Andy grumbling about a complaint—and does not resolve any pending conflict or reveal an outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight acts as Michael's earnest private investigator, quietly working a case for him.",
+          "checks": {
+            "reverse": {
+              "picked": 24,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Dwight assisting Michael with an investigation is ordinary character texture consistent with their established dynamic, and it names no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Dwight in an investigator role without disclosing the target, findings, or any outcome, so it reads as character texture rather than a reveal."
+                }
+              ],
+              "reason": "Dwight assisting Michael with an investigation is ordinary character texture consistent with their established dynamic, and it names no outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "23": {
+      "title": "The Chump",
+      "candidates": [
+        {
+          "text": "Exhausted new parents Jim and Pam fight to keep their eyes open through the workday in the office.",
+          "checks": {
+            "reverse": {
+              "picked": 25,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jim and Pam being tired new parents is ordinary character texture; their baby's birth was already established before this episode."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jim and Pam's parenthood is already established, and being tired at work is ordinary character texture with no outcome revealed."
+                }
+              ],
+              "reason": "Jim and Pam being tired new parents is ordinary character texture; their baby's birth was already established before this episode."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "24": {
+      "title": "Whistleblower",
+      "candidates": []
+    },
+    "4": {
+      "title": "Niagara",
+      "candidates": [
+        {
+          "text": "Michael sleeps on the hotel hallway floor next to the humming ice machine.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an odd, comedic situation with no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is incidental character texture about Michael's sleeping arrangements on a trip, revealing no outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "It depicts an odd, comedic situation with no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The whole office has Friday and Monday off to attend the Niagara Falls wedding.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "That the office will attend Jim and Pam's wedding is a natural, expected outcome of their known engagement and reveals no result or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "That the office attends Jim and Pam's wedding is an ordinary logistical/setting detail following their already-known engagement, not an outcome or reveal."
+                }
+              ],
+              "reason": "That the office will attend Jim and Pam's wedding is a natural, expected outcome of their known engagement and reveals no result or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "16": {
+      "title": "The Delivery",
+      "candidates": [
+        {
+          "text": "Dwight does renovation work in Jim and Pam's kitchen and runs into Isabel there at their house.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Dwight doing home renovation and encountering Isabel is ordinary character texture; it discloses no death, reveal, or resolution of the pending sale/pregnancy storylines."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows an everyday domestic situation—Dwight doing kitchen work and bumping into Isabel—without disclosing any outcome, reveal, or resolution of a pending storyline like the company sale."
+                }
+              ],
+              "reason": "Dwight doing home renovation and encountering Isabel is ordinary character texture; it discloses no death, reveal, or resolution of the pending sale/pregnancy storylines."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Coworkers gather around Pam offering her food and entertainment to distract her from her pain.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It signals that Pam is in significant pain—implying the onset of labor/childbirth or an injury—which resolves the pending pregnancy storyline the viewer has been following."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It signals that Pam has gone into labor, revealing the imminent arrival of the baby the viewer only knows is expected."
+                }
+              ],
+              "reason": "It signals that Pam is in significant pain—implying the onset of labor/childbirth or an injury—which resolves the pending pregnancy storyline the viewer has been following."
+            }
+          },
+          "rejected": "consequence (2/2): It signals that Pam is in significant pain—implying the onset of labor/childbirth or an injury—which resolves the pending pregnancy storyline the viewer has been following."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 1822,
+    "out": 1430,
+    "cache_read": 32242,
+    "cache_write": 1732,
+    "calls": 8
+  },
+  "recheck_spend": {
+    "in": 86,
+    "out": 596,
+    "cache_read": 13268,
+    "cache_write": 0,
+    "calls": 2
+  }
+}

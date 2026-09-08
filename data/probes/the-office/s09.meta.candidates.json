@@ -1,0 +1,813 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 9,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Office (American TV series) season 9",
+    "revid": 1370224461,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_9&oldid=1370224461",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "New Guys",
+      "candidates": [
+        {
+          "text": "Kevin rescues a small turtle and makes a big sentimental show of saving the creature.",
+          "specificity": 5,
+          "characters_named": [
+            "Kevin"
+          ],
+          "grounded_in": "\"saves\" a turtle",
+          "grounded_ok": true
+        },
+        {
+          "text": "Oscar is seriously considering adopting Angela's cat and talks through the idea around the office.",
+          "specificity": 5,
+          "characters_named": [
+            "Oscar",
+            "Angela"
+          ],
+          "grounded_in": "considers adopting Angela Martin's (Angela Kinsey) cat",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim and Dwight are dealing with two new hires starting in the Scranton branch.",
+          "specificity": 4,
+          "characters_named": [
+            "Jim",
+            "Dwight"
+          ],
+          "grounded_in": "Two new employees, Clark (Clark Duke) and Pete (Jake Lacy), are hired by the Scranton branch",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy is back in the office after finishing his manager training program.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "returns from manager training",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5601,
+        "out": 5881,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "Roy's Wedding",
+      "candidates": [
+        {
+          "text": "Pam and Jim attend the wedding of Pam's former fiancé as invited guests.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam",
+            "Jim"
+          ],
+          "grounded_in": "invited to Pam's former fiancé Roy Anderson's (David Denman) wedding.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight declares he will donate the money he raises for Nellie's charity drive to the Taliban.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Nellie"
+          ],
+          "grounded_in": "Dwight reacts to Nellie's mandatory charity initiative by maintaining that he will donate the money he raises to the Taliban",
+          "grounded_ok": true
+        },
+        {
+          "text": "Clark tries to impress Erin with talk of a fake newscaster job while Andy takes the bait instead.",
+          "specificity": 5,
+          "characters_named": [
+            "Clark",
+            "Erin",
+            "Andy"
+          ],
+          "grounded_in": "Clark hits on Erin Hannon (Ellie Kemper) by dangling a fake newscaster job, but Andy takes the bait.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5602,
+        "out": 3916,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Andy's Ancestry",
+      "candidates": [
+        {
+          "text": "Dwight is coaching Erin in the Dothraki language so she can impress Andy's educated family.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Erin",
+            "Andy"
+          ],
+          "grounded_in": "Dwight attempts to teach Erin the Dothraki language from the HBO television series Game of Thrones so that she can impress Andy's educated family",
+          "grounded_ok": true
+        },
+        {
+          "text": "Darryl is settling into his new Assistant Regional Manager duties and finding the workload difficult.",
+          "specificity": 3,
+          "characters_named": [
+            "Darryl"
+          ],
+          "grounded_in": "Darryl Philbin (Craig Robinson) finds his new job as Assistant Regional Manager difficult",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most other beats are discoveries or reveals (ancestry, affair claim, Philadelphia move) and bonding as setup, so only texture-safe moments are used.",
+      "usage": {
+        "in": 5603,
+        "out": 5953,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Work Bus",
+      "candidates": [
+        {
+          "text": "Dwight runs the office from desks set up inside a rented bus.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight rents a bus and sets up the office inside",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nellie asks Andy to write a recommendation letter supporting her baby adoption.",
+          "specificity": 5,
+          "characters_named": [
+            "Nellie",
+            "Andy"
+          ],
+          "grounded_in": "Nellie asks Andy for a letter of recommendation in order to adopt a baby",
+          "grounded_ok": true
+        },
+        {
+          "text": "Erin coaches Nellie through a baby adoption application, giving pointers on filling it out.",
+          "specificity": 4,
+          "characters_named": [
+            "Erin",
+            "Nellie"
+          ],
+          "grounded_in": "Erin, meanwhile, gives her pointers on how to fill out a proper application for adoption.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim brings Pam a pie at work while trying to cheer her up.",
+          "specificity": 3,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "Jim tries to make Pam happy with some pie",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5601,
+        "out": 4016,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Here Comes Treble",
+      "candidates": [
+        {
+          "text": "Andy's former college a cappella group performs for the office during a Halloween celebration.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "to perform for the office during Halloween",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight prowls around the office trying to track down a madman loose inside.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight tries to track down a madman in the office",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5603,
+        "out": 3451,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "The Boat",
+      "candidates": [
+        {
+          "text": "Dwight sits in a radio station as a guest while his coworkers keep calling in to bother him.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight is a guest on a radio show, and his co-workers call in to bother him.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy's brother hangs around after returning, acting openly drunk in front of the office.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "the return of Andy's brother Walter Jr. (Josh Groban), who is now a drunk",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5601,
+        "out": 4416,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "The Whale",
+      "candidates": [
+        {
+          "text": "Several of the men in the office start growing mustaches together for Movember.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "several of the men in the office to grow mustaches for \"Movember\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy appears on a video call into the office from his boat.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy skypes into the office from his boat",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight gets coaching from Pam and the office women on how to talk to women.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Pam"
+          ],
+          "grounded_in": "Pam and the women of the office teach him how to interact with women",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight tracks down a potential paper buyer listed in the Scranton White Pages.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "from the Scranton White Pages",
+          "grounded_ok": true
+        },
+        {
+          "text": "Angela and Oscar quietly sit in on Robert's yoga class to watch him.",
+          "specificity": 5,
+          "characters_named": [
+            "Angela",
+            "Oscar",
+            "Robert"
+          ],
+          "grounded_in": "enlists Oscar to help her spy on him at his yoga class",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5602,
+        "out": 4557,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Target",
+      "candidates": [
+        {
+          "text": "Pete stays beside Pam and keeps distracting her while she begins painting her mural.",
+          "specificity": 5,
+          "characters_named": [
+            "Pete",
+            "Pam"
+          ],
+          "grounded_in": "Pete distracts Pam as she begins painting her mural.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Other threads describe a reveal/betrayal and resulting alliance, so they are excluded under rule 1.",
+      "usage": {
+        "in": 5601,
+        "out": 4531,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Dwight Christmas",
+      "candidates": [
+        {
+          "text": "Dwight leads the whole office through a traditional Pennsylvania Dutch Christmas celebration.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight gets everyone to celebrate with a traditional Pennsylvania Dutch Christmas.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pete walks Erin through his favorite movie Die Hard with obvious enthusiasm.",
+          "specificity": 5,
+          "characters_named": [
+            "Pete",
+            "Erin"
+          ],
+          "grounded_in": "Pete teaches Erin about his favorite movie Die Hard.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Toby sits with Nellie talking through the details of the Scranton Strangler trial.",
+          "specificity": 5,
+          "characters_named": [
+            "Toby",
+            "Nellie"
+          ],
+          "grounded_in": "Toby discusses the Scranton Strangler trial with Nellie.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The party planning committee forgets to plan the annual Christmas party this year.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "When the party planning committee forgets to plan the annual Christmas party",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5602,
+        "out": 4660,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Lice",
+      "candidates": [
+        {
+          "text": "Dwight is vowing to destroy the lice parasites that are spreading through the office.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight vows to destroy the parasites",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nellie, Phyllis and Kevin are interfering in Darryl's love life with unwanted advice.",
+          "specificity": 4,
+          "characters_named": [
+            "Nellie",
+            "Phyllis",
+            "Kevin",
+            "Darryl"
+          ],
+          "grounded_in": "Nellie, Phyllis, and Kevin interfere with Darryl's love life",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim is spending the day in Philadelphia with a potential business associate.",
+          "specificity": 2,
+          "characters_named": [
+            "Jim"
+          ],
+          "grounded_in": "Jim spends a great day in Philadelphia with a potential business associate (Julius Erving)",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5601,
+        "out": 6919,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Suit Warehouse",
+      "candidates": [
+        {
+          "text": "Dwight and Clark pose as father and son while pitching paper to a suit warehouse owner.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Clark"
+          ],
+          "grounded_in": "the two pose as a father and son so that they can successfully sell to the owner of a suit warehouse",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5601,
+        "out": 4175,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Customer Loyalty",
+      "candidates": [
+        {
+          "text": "Dwight is trying hard to convince Darryl not to leave the office.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Darryl"
+          ],
+          "grounded_in": "Dwight tries to prevent Darryl from leaving the office.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 113,
+        "out": 6081,
+        "cache_read": 5489,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Junior Salesman",
+      "candidates": [
+        {
+          "text": "Pam keeps asking around the office to learn who her new desk mate will be.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Pam tries to find out who her new desk mate will be.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight lines up several of his close friends as candidates for Jim's part-time replacement.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Jim"
+          ],
+          "grounded_in": "Dwight in turn enlists several of his close friends",
+          "grounded_ok": true
+        },
+        {
+          "text": "David Wallace asks Dwight to find a part-time replacement to cover for Jim.",
+          "specificity": 5,
+          "characters_named": [
+            "David Wallace",
+            "Dwight",
+            "Jim"
+          ],
+          "grounded_in": "Dunder Mifflin CEO David Wallace (Andy Buckley) tasks Dwight with finding a part-time replacement for Jim",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5602,
+        "out": 4581,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "14": {
+      "title": "Vandalism",
+      "candidates": [
+        {
+          "text": "Pam stares at her large warehouse mural, now defaced by someone's vandalism.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Someone vandalizes Pam's warehouse mural.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Angela reluctantly allows Oscar and Kevin to attend her baby son's first birthday party.",
+          "specificity": 5,
+          "characters_named": [
+            "Angela",
+            "Oscar",
+            "Kevin"
+          ],
+          "grounded_in": "Angela begrudgingly allows Oscar and Kevin to attend her son Phillip's first birthday party.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Darryl grimaces at Jim's unclean habits while sharing their Philadelphia apartment together.",
+          "specificity": 4,
+          "characters_named": [
+            "Darryl",
+            "Jim"
+          ],
+          "grounded_in": "in their Philadelphia apartment, Darryl is uncomfortable with Jim's uncleanliness.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight and Nellie eagerly join Pam to track down whoever vandalized her mural.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Nellie",
+            "Pam"
+          ],
+          "grounded_in": "she seeks the help of Dwight and Nellie, who both eagerly help her track down the vandal.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5602,
+        "out": 2857,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "15": {
+      "title": "Couples Discount",
+      "candidates": [
+        {
+          "text": "Office coworkers pair off into couples to take advantage of a Valentine's Day discount at a mini-mall.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "take advantage of a Valentine's Day discount at a mini-mall",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam and Jim sit together sharing lunch with Brian, the documentary's sound man.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam",
+            "Jim",
+            "Brian"
+          ],
+          "grounded_in": "Pam and Jim share lunch with Brian, the documentary's sound man",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5602,
+        "out": 4051,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "16": {
+      "title": "Moving On",
+      "candidates": [
+        {
+          "text": "Dwight brings Angela along to help him give his elderly aunt a bath.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Angela"
+          ],
+          "grounded_in": "give his elderly Aunt Shirley (Mary Gillis) a bath",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam sits through a Philadelphia job interview with a manager who reminds her of her old boss.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "her potential manager (Bob Odenkirk) reminds her of her former boss, Michael Scott",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy hovers around Pete and Erin in the office trying to make them feel uncomfortable.",
+          "specificity": 3,
+          "characters_named": [
+            "Andy",
+            "Pete",
+            "Erin"
+          ],
+          "grounded_in": "Andy attempts to make Pete and Erin feel uncomfortable",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5601,
+        "out": 4050,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "17": {
+      "title": "The Farm",
+      "candidates": [],
+      "note": "All concrete moments in the summary are a funeral resulting from a death, a will inheritance resulting from that death, and cupcakes laced with drugs causing injury - all forbidden by rule 1, including harmless-looking setup.",
+      "usage": {
+        "in": 5601,
+        "out": 3130,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "18": {
+      "title": "Promos",
+      "candidates": [
+        {
+          "text": "Jim and Darryl sit in a meeting while a visiting baseball star pitches his bizarre sci-fi sports movie.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Darryl"
+          ],
+          "grounded_in": "Jim and Darryl have a big meeting with Major League baseball player, Ryan Howard, who pitches a bizarre sci-fi sports movie about himself.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy sits alone scrolling through rude comments about himself on the Internet with a hurt expression.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy battles rude comments on the Internet.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most summary beats are reveals or new relationships and were excluded; only the internet comments and baseball meeting are inconsequential texture.",
+      "usage": {
+        "in": 112,
+        "out": 4853,
+        "cache_read": 5489,
+        "cache_write": 0
+      }
+    },
+    "19": {
+      "title": "Stairmageddon",
+      "candidates": [
+        {
+          "text": "The office elevators are down for maintenance, so the staff trudges up multiple flights of stairs together.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "The elevators are under maintenance and the office workers have to walk up the stairs",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy meets with a talent agent, listening attentively as they discuss possible next steps for him.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy meets with a talent agent named Carla Fern (Roseanne Barr).",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most other beats involve injury, a public reveal, or setup thereto and were excluded per rule 1.",
+      "usage": {
+        "in": 115,
+        "out": 7161,
+        "cache_read": 5489,
+        "cache_write": 0
+      }
+    },
+    "20": {
+      "title": "Paper Airplane",
+      "candidates": [
+        {
+          "text": "Dwight and Angela face off in the office, folding and throwing paper airplanes in a contest.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Angela"
+          ],
+          "grounded_in": "Dwight and Angela participate in a paper airplane contest and compete against each other.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Angela and Dwight compete against each other by flying paper airplanes across the office.",
+          "specificity": 5,
+          "characters_named": [
+            "Angela",
+            "Dwight"
+          ],
+          "grounded_in": "Dwight and Angela participate in a paper airplane contest and compete against each other.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 113,
+        "out": 4242,
+        "cache_read": 5489,
+        "cache_write": 0
+      }
+    },
+    "21": {
+      "title": "Livin' the Dream",
+      "candidates": [
+        {
+          "text": "Dwight stands proudly while his new sensei finally hands him his black belt in karate.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "receives his black belt in karate from his new sensei",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 115,
+        "out": 3778,
+        "cache_read": 5489,
+        "cache_write": 0
+      }
+    },
+    "22": {
+      "title": "A.A.R.M.",
+      "candidates": [
+        {
+          "text": "Dwight and Jim hold tryouts in the office to pick an assistant to the assistant to the regional manager.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Jim"
+          ],
+          "grounded_in": "the two subsequently hold tryouts for the position",
+          "grounded_ok": true
+        },
+        {
+          "text": "Angela has her young child with her at the office after daycare turns away her child.",
+          "specificity": 5,
+          "characters_named": [
+            "Angela"
+          ],
+          "grounded_in": "After her daycare turns away her child, Angela is forced to bring her kid to work",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy nervously auditions in front of judges for a national a cappella singing competition show.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy auditions for \"The Next Great A Cappella Sensation\"",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5835,
+        "out": 2794,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "23": {
+      "title": "Finale",
+      "candidates": [
+        {
+          "text": "Longtime office coworkers sit together for one last round of on-camera interviews with tears in their eyes.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "everyone comes together for a final round of interviews, and are brought to tears.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Wedding, best-man choice and surprise return are all turning-point reveals, so only the final-interview texture is usable.",
+      "usage": {
+        "in": 5832,
+        "out": 4370,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

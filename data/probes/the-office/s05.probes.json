@@ -1,0 +1,381 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 5,
+  "source": {
+    "title": "The Office (American TV series) season 5",
+    "revid": 1369186968,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_5&oldid=1369186968",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "2": {
+      "title": "Business Ethics",
+      "probes": [
+        {
+          "text": "Jim follows Dwight closely, timing every second of his activity under the time-theft policy.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Baby Shower",
+      "probes": [],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Crime Aid",
+      "probes": [
+        {
+          "text": "Michael stands before the office staff acting as auctioneer, calling out bids on various items.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Employee Transfer",
+      "probes": [
+        {
+          "text": "Pam arrives at corporate on Halloween in costume to find she is the only one dressed up.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight torments Andy by suddenly acting like a devoted Cornell University fan.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam meets Jim's brothers as they pull a prank on Jim during their visit.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Customer Survey",
+      "probes": [
+        {
+          "text": "Jim and Pam wear Bluetooth earpieces and stay on the phone together through the entire workday.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim and Dwight sit at their desks reviewing their annual customer survey reports side by side.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Business Trip",
+      "probes": [
+        {
+          "text": "Michael is up in Winnipeg, Manitoba, handling business far from the Scranton office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy and Oscar accompany Michael on his business trip away from Scranton together.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim is counting down the days until Pam gets back from art school.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Frame Toby",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Pam is upset about a messy microwave in the office that no one will clean up.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "The Surplus",
+      "probes": [
+        {
+          "text": "Oscar and Jim are lobbying Michael for a new office photocopier using the leftover budget money.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam and Stanley are pushing to spend the surplus money on new office chairs for everyone.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Moroccan Christmas",
+      "probes": [
+        {
+          "text": "Phyllis is hosting a Moroccan-themed holiday party in the office, with the staff gathered together for Christmas.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight has a stack of Princess Unicorn Christmas toys that he is selling to people in the office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "The Duel",
+      "probes": [
+        {
+          "text": "Michael sits with David Wallace at corporate in New York discussing why the Scranton branch is doing well.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "David Wallace asks Michael to explain his methods while Michael offers no real insight in return.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Prince Family Paper",
+      "probes": [
+        {
+          "text": "The rest of the office holds a lively ongoing debate about whether someone is hot.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael and Dwight go undercover inside a small family-run rival paper company.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "14": {
+      "title": "Lecture Circuit: Part 1",
+      "probes": [
+        {
+          "text": "Michael travels to other branches for a speaking tour while Pam serves as his driver.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight and Jim realize they have forgotten Kelly's birthday and scramble to fix it.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "15": {
+      "title": "Lecture Circuit: Part 2",
+      "probes": [
+        {
+          "text": "The office staff crowd around a monitor watching Angela's nanny-cam footage of her bizarre interaction with her pets.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight and Jim offer Kelly a birthday choice between watching TV for an hour or taking a nap.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "16": {
+      "title": "Blood Drive",
+      "probes": [
+        {
+          "text": "At a Valentine's blood drive, Michael finds a woman's lost glove and tries to track her down.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The office staff put together a Lonely Hearts Party and root for Michael's hopeful Valentine's romance.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim and Pam share an awkward lunch with Phyllis after hearing her having sex in a bathroom.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "17": {
+      "title": "Golden Ticket",
+      "probes": [
+        {
+          "text": "Andy, Jim and Pam are each giving Kevin different advice about wooing the woman he met at the Valentine's mixer.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "18": {
+      "title": "New Boss",
+      "probes": [
+        {
+          "text": "Kelly and Angela both act smitten around the stern new regional vice president visiting the office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "19": {
+      "title": "Two Weeks",
+      "probes": [],
+      "fine_only": []
+    },
+    "20": {
+      "title": "Dream Team",
+      "probes": [],
+      "fine_only": []
+    },
+    "21": {
+      "title": "Michael Scott Paper Company",
+      "probes": [
+        {
+          "text": "Jim spends his whole day puzzling over what Charles means by asking for a run down.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "22": {
+      "title": "Heavy Competition",
+      "probes": [
+        {
+          "text": "Andy tries to unload his failed wedding plans on Jim and Pam in the office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy hovers over Jim, trying to meet all of his emotional needs at work.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim sits with Andy and reassures him that he will find love again someday.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "23": {
+      "title": "Broke",
+      "probes": [
+        {
+          "text": "Jim watches Charles sucking up to his own superiors and realizes what kind of guy he is.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Charles watches Dwight acting with his usual bizarre personality and finally seems to recognize it.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "24": {
+      "title": "Casual Friday",
+      "probes": [
+        {
+          "text": "Toby is going around the office telling people their clothes are too casual for casual Friday.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "25": {
+      "title": "Cafe Disco",
+      "probes": [
+        {
+          "text": "Kelly and Andy square off on the dance floor in a playful dance-off.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Even Angela, stiff and reluctant at first, ends up dancing alongside the office staff.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Phyllis voices aloud her worry that Bob might be having an affair, then dismisses it as absurd.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "26": {
+      "title": "Company Picnic",
+      "probes": [
+        {
+          "text": "The Scranton staff and the other branches gather outside together for the annual company picnic.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "1": {
+      "title": "Weight Loss",
+      "probes": [
+        {
+          "text": "The Scranton staff spend the summer dieting for a company weight-loss challenge and obsessing over their weight.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael hangs around Holly in HR, eagerly trying to turn her into his new best friend.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "Stress Relief",
+      "probes": [
+        {
+          "text": "Michael sits in a chair at the front of the office while his employees take turns roasting him.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy, Pam and Jim sit side by side together watching an unlicensed movie at work.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

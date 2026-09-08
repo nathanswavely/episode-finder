@@ -270,6 +270,57 @@ their clear memory; 13/13 seasons still pass without haze) and in the browser
 on the reviewer's exact path. Reviewer retested from "not sure": reported
 "much better" — a result they believe, reached with the keep-going path.
 
+## Model comparison — Muse Spark 1.3 contributor vs Opus 5, Breaking Bad S4, 2026-09-08
+
+Meta's Model API serves Muse Spark through an Anthropic-compatible Messages
+endpoint (Bearer auth, base `https://api.meta.ai`), so the pipeline runs on it
+with `--provider meta`. Output goes to `.meta.` files; nothing live touched.
+
+- **Yield: pass.** 20 coarse-safe probes vs Opus's 20, median 2 vs 2. Same
+  zeros on Crawl Space and Face Off, with the same reasoning in its notes.
+  Cost ≈ $0.05 for the season (Opus ≈ $2).
+- **Safety: fail.** Muse's audit rejected nothing on reverse, faithfulness or
+  consequence (Opus rejected 9 on consequence). Read as a viewer, at least two
+  survivors are Leaks Opus had caught: Ted's leased Mercedes (reveals the
+  bailout) and Mike assuring Walt that Jesse is safe (resolves E4's
+  cliffhanger). Five more were probes Opus had demoted to fine-only.
+- Meta's content filter refused 1 of 84 audit calls on this crime-drama text;
+  handled as "cannot verify → reject".
+- Conclusion: Muse Spark can generate; it cannot be trusted to audit. The
+  consequence check is the safety mechanism and must stay on Opus. Generation
+  is the cheap stage anyway, so the saving from the split is modest.
+
+## The Office S3–S9 — Muse generates, Opus audits, 2026-09-08
+
+Seven seasons generated on Muse Spark for $0.21; Opus audits ≈ $1/season.
+Opus rejected 60 Muse candidates on consequence across S4–S9: the split works
+as the comparison predicted (Muse writes freely, Opus discriminates).
+
+Two bugs surfaced by simulating the new seasons:
+
+- **Double-length episodes were dropped by the fetcher.** Wikipedia lists them
+  as one row with `NumParts=2` and `EpisodeNumber2_1/_2`; the parser only read
+  `EpisodeNumber2`. On The Office that is most premieres and finales (15
+  episodes across S3–S9). Fixed: episodes are now indexed by row position
+  (1..N) for the walk's arithmetic, with Wikipedia's label ("1–2") carried for
+  display. Existing files were re-keyed; the missing episodes generated.
+- Anthropic 529 (overloaded) killed one audit and the credit balance ran out
+  during the rechecks. Retry with backoff added for 429/529/5xx; `build_site`
+  now refuses any season without a completed recheck, so a partial run can
+  never ship an unverified coarse tier.
+
+Final: all nine seasons shipped, 186 episodes, 324 coarse-safe + 14 fine-only
+probes. Every season passes full-frontier simulation. The Office cost ≈ $11
+total (Muse generation $0.21, Opus audits and rechecks ≈ $10.50).
+
+S8 is the one season under the pre-registered gate: median 1, seven of 24
+episodes probeless, because its Wikipedia summaries are stubs (median 59
+words, several under 30). Shipped anyway, with this note: the miss is
+precision, not safety (the walk undershoots on thin seasons), a hole in the
+middle of a show is worse for the viewer than a conservative answer, and S8 is
+where many people stopped watching. Regenerating S8 from a richer source is
+the fix if it matters.
+
 ## Cost
 
 ~75 episodes × (1 generation + ~5 audit calls). Pennies to a few dollars.

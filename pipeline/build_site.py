@@ -21,13 +21,21 @@ OUT = ROOT / "site/data"
 def main():
     shows = {}
     for probes_path in sorted((ROOT / "data/probes").glob("*/s*.probes.json")):
+        if ".meta." in probes_path.name:
+            continue   # provider-comparison output, never shipped
         p = json.loads(probes_path.read_text())
         raw = json.loads((ROOT / f"data/raw/{p['slug']}/s{p['season']:02d}.json").read_text())
         titles = {e["episode"]: e["title"] for e in raw["episodes"]}
+        labels = {e["episode"]: e.get("number", str(e["episode"])) for e in raw["episodes"]}
         missing = [e["episode"] for e in raw["episodes"] if str(e["episode"]) not in p["episodes"]]
         if missing:
             # audit.py writes incrementally; never ship a season that is still being audited
             print(f"skip {p['show']} S{p['season']}: not fully audited (missing episodes {missing})")
+            continue
+        audit = json.loads(probes_path.with_name(probes_path.name.replace(".probes.", ".audit.")).read_text())
+        if "recheck_spend" not in audit:
+            # the stride-aware recheck is what makes the coarse tier safe; never ship without it
+            print(f"skip {p['show']} S{p['season']}: not rechecked (run audit.py --recheck)")
             continue
         show = shows.setdefault(p["slug"], {"slug": p["slug"], "title": p["show"],
                                             "license": "CC BY-SA 4.0", "seasons": []})
@@ -35,7 +43,7 @@ def main():
             "season": p["season"],
             "source": {"title": raw["source"]["title"], "url": raw["source"]["url"], "revid": raw["source"]["revid"]},
             "episodes": [
-                {"episode": int(k), "title": titles.get(int(k), v["title"]),
+                {"episode": int(k), "title": titles.get(int(k), v["title"]), "number": labels.get(int(k), k),
                  "probes": [x["text"] for x in v["probes"]],
                  "fine": [x["text"] for x in v.get("fine_only", [])]}
                 for k, v in sorted(p["episodes"].items(), key=lambda kv: int(kv[0]))

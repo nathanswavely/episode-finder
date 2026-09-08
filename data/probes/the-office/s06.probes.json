@@ -1,0 +1,338 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 6,
+  "source": {
+    "title": "The Office (American TV series) season 6",
+    "revid": 1354760579,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_6&oldid=1354760579",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Gossip",
+      "probes": [
+        {
+          "text": "The summer interns are packing up to leave, and the whole office is gossiping while Michael feels left out.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "The Meeting",
+      "probes": [
+        {
+          "text": "Pam is chasing down wedding RSVPs and struggling to get responses back from guests.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "The Promotion",
+      "probes": [
+        {
+          "text": "Pam feels awkward as she asks her coworkers for cash instead of wedding gifts.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Chaos spreads through the office as everyone argues about tiny or nonexistent annual raises.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Mafia",
+      "probes": [
+        {
+          "text": "Kevin is treating Jim's empty office as his own private farting room while Jim is away.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael, Dwight and Andy sit together at lunch with the insurance salesman.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "The Lover",
+      "probes": [],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Koi Pond",
+      "probes": [
+        {
+          "text": "Michael slips and falls fully clothed into a koi pond while walking to a business meeting.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Clients keep mistaking Pam and Andy for a couple during their sales calls together.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael calls the office together for an anti-bullying seminar after everyone teases him relentlessly.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Double Date",
+      "probes": [],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Murder",
+      "probes": [
+        {
+          "text": "Michael makes the whole office spend the day playing a murder mystery role-playing game.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The entire office staff puts work aside to spend the day on group diversions together.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Shareholder Meeting",
+      "probes": [
+        {
+          "text": "Michael, Dwight and Oscar sit together in a hired limousine leaving New York.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Scott's Tots",
+      "probes": [
+        {
+          "text": "Erin keeps offering Michael support even as he treats her rudely all day.",
+          "specificity": 2,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Secret Santa",
+      "probes": [
+        {
+          "text": "Phyllis is dressed as Santa for the office Christmas party while Michael shows up as Santa too.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael sits through the office Christmas party dressed in a full Jesus costume.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy gives Erin a Twelve Days of Christmas gift and the birds start attacking her.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "The Banker",
+      "probes": [
+        {
+          "text": "Michael, Dwight, Andy and Pam trot out their high-profile contacts to impress a visiting investment banker.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Toby sits with coworkers reminiscing about all the great times they have had in the office.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "14": {
+      "title": "Sabre",
+      "probes": [
+        {
+          "text": "Jim and Pam sit together at a local daycare center for an interview about childcare.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael turns to David for advice about handling the company's new policies.",
+          "specificity": 2,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "15": {
+      "title": "The Manager and the Salesman",
+      "probes": [
+        {
+          "text": "Andy hands Kelly the Valentine's card he actually meant to give to Erin.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "17": {
+      "title": "St. Patrick's Day",
+      "probes": [],
+      "fine_only": []
+    },
+    "18": {
+      "title": "New Leads",
+      "probes": [
+        {
+          "text": "Jim follows clues on a treasure hunt that winds all through the business park.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The sales team acts superior around the office under Sabre's sales-is-king mantra.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "19": {
+      "title": "Happy Hour",
+      "probes": [
+        {
+          "text": "Oscar invites the office and warehouse crews out together for after-work drinks at a bar.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Oscar spends the evening at the bar flirting with Matt from the warehouse crew.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam arrives at after-work drinks with a date she has set up for Michael.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "20": {
+      "title": "Secretary's Day",
+      "probes": [
+        {
+          "text": "Oscar circulates a homemade video comparing Kevin's voice to a growly blue children's-show monster.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Kevin looks for help when the entire office gets in on the joke about his voice.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy arranges extra special touches for the day honoring Erin as office secretary.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "21": {
+      "title": "Body Language",
+      "probes": [
+        {
+          "text": "Dwight sits with Kelly and earnestly encourages her to try out for the minority training program.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim and Pam sit together preparing their first joint sales pitch to Donna, a local restaurant manager.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "22": {
+      "title": "The Cover-Up",
+      "probes": [
+        {
+          "text": "Andy wanders the office with a customer complaint, frustrated that no one takes it seriously.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight acts as Michael's earnest private investigator, quietly working a case for him.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "23": {
+      "title": "The Chump",
+      "probes": [
+        {
+          "text": "Exhausted new parents Jim and Pam fight to keep their eyes open through the workday in the office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "24": {
+      "title": "Whistleblower",
+      "probes": [],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Niagara",
+      "probes": [
+        {
+          "text": "Michael sleeps on the hotel hallway floor next to the humming ice machine.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The whole office has Friday and Monday off to attend the Niagara Falls wedding.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "16": {
+      "title": "The Delivery",
+      "probes": [
+        {
+          "text": "Dwight does renovation work in Jim and Pam's kitchen and runs into Isabel there at their house.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

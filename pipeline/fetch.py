@@ -123,25 +123,41 @@ def strip_markup(s: str) -> str:
 
 
 def parse_episodes(wikitext: str) -> list[dict]:
-    eps = []
+    """One entry per Wikipedia row. `episode` is the row's position in the season (1..N), which is
+    what the walk does arithmetic on; `number` is Wikipedia's label ("9", or "1–2" for a
+    double-length episode listed as one row with NumParts=2), which is what viewers see."""
+    rows = []
     for t in find_templates(wikitext, r"Episode list(?:/sublist)?"):
         f = split_fields(t)
-        num_in_season = f.get("EpisodeNumber2") or f.get("EpisodeNumber")
         summary = strip_markup(f.get("ShortSummary", ""))
-        if not num_in_season or not summary:
+        if not summary:
             continue
-        m = re.search(r"\d+", num_in_season)
-        if not m:
+        parts = int(re.search(r"\d+", f.get("NumParts", "1") or "1").group())
+        if parts > 1:
+            nums = [f.get(f"EpisodeNumber2_{i}") or f.get(f"EpisodeNumber_{i}") or "" for i in range(1, parts + 1)]
+            nums = [re.search(r"\d+", n).group() for n in nums if re.search(r"\d+", n or "")]
+            overall = f.get("EpisodeNumber_1", "0")
+        else:
+            n = f.get("EpisodeNumber2") or f.get("EpisodeNumber") or ""
+            m = re.search(r"\d+", n)
+            nums = [m.group()] if m else []
+            overall = f.get("EpisodeNumber", "0")
+        if not nums:
             continue
-        eps.append({
-            "episode": int(m.group()),
-            "overall": int(re.search(r"\d+", f.get("EpisodeNumber", "0")).group()),
+        rows.append({
+            "sort": int(nums[0]),
+            "number": "–".join(nums) if len(nums) > 1 else nums[0],
+            "overall": int((re.search(r"\d+", overall) or re.search(r"\d", "0")).group()),
             "title": strip_markup(f.get("Title", "")),
             "air_date": strip_markup(f.get("OriginalAirDate", "")),
             "summary": summary,
             "words": len(summary.split()),
         })
-    eps.sort(key=lambda e: e["episode"])
+    rows.sort(key=lambda e: e["sort"])
+    eps = []
+    for i, r in enumerate(rows, 1):
+        r.pop("sort")
+        eps.append({"episode": i, **r})
     return eps
 
 

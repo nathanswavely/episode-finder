@@ -1,0 +1,891 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 7,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Office (American TV series) season 7",
+    "revid": 1365374619,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_7&oldid=1365374619",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Nepotism",
+      "candidates": [
+        {
+          "text": "Pam and Dwight are stranded together inside the office elevator after some faulty rewiring.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam",
+            "Dwight"
+          ],
+          "grounded_in": "Kevin's faulty rewiring of an elevator strands the two together",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael's immature nephew is hanging around the office working as a new assistant.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "office assistant Luke, Michael's immature nephew",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5180,
+        "out": 9208,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "Counseling",
+      "candidates": [
+        {
+          "text": "Dwight enlists his colleagues for Pretty Woman-style revenge after a Steamtown Mall shop refuses him service.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "with the help of his colleagues, after a shop owner at the Steamtown Mall refuses to serve him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Toby sits across from Michael in counseling, trying different methods to get him to open up.",
+          "specificity": 5,
+          "characters_named": [
+            "Toby",
+            "Michael"
+          ],
+          "grounded_in": "Toby attempts to use different methods to get Michael to open up",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam campaigns around the office to finagle a promotion to office administrator.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Pam attempts to finagle a promotion to office administrator",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5180,
+        "out": 3961,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Andy's Play",
+      "candidates": [
+        {
+          "text": "Andy performs in a local staging of Sweeney Todd with the entire office invited to watch him.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy lands a role in a local production of Sweeney Todd",
+          "grounded_ok": true
+        },
+        {
+          "text": "Erin volunteers to babysit for Jim and Pam, hoping to start a career as a babysitter.",
+          "specificity": 4,
+          "characters_named": [
+            "Erin",
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "she offers to babysit for Jim and Pam instead, hoping to get a start in the babysitter career",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael struggles to hide his jealousy over not being cast in the local musical.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "While Michael struggles to put his jealousy aside in regard to not being cast in the play",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim and Pam deal with a less-than-stellar babysitter having trouble with their baby.",
+          "specificity": 3,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "Jim and Pam have trouble with their less-than-stellar babysitter",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5180,
+        "out": 4659,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Sex Ed",
+      "candidates": [
+        {
+          "text": "Andy stands in front of the office leading a sex-education meeting as Erin watches.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Erin"
+          ],
+          "grounded_in": "Andy holds a sex education meeting in the office hoping to appeal to Erin's passionate side.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy holds a sex-education meeting in the office, clearly trying to impress Erin.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Erin"
+          ],
+          "grounded_in": "Andy holds a sex education meeting in the office hoping to appeal to Erin's passionate side.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most beats involve the cold-sore/herpes reveal and calls resulting from it, so only Andy's meeting is safe.",
+      "usage": {
+        "in": 5179,
+        "out": 5615,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "The Sting",
+      "candidates": [
+        {
+          "text": "Andy and Darryl start a band together, rehearsing and goofing around at work.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Darryl"
+          ],
+          "grounded_in": "Andy starts a band with Darryl",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 75,
+        "out": 4503,
+        "cache_read": 5105,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Costume Contest",
+      "candidates": [
+        {
+          "text": "The office staff show off Halloween costumes in a contest for a coupon book prize.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Halloween costume contest in the office for a coupon book prize",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam oversees the office Halloween costume contest as her first task as office administrator.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "organized as Pam’s first task as the office administrator",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5180,
+        "out": 4914,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Christening",
+      "candidates": [
+        {
+          "text": "The entire office gathers to celebrate the christening of Jim and Pam's baby.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "Pam and Jim's baby, Cece, gets christened and Michael invites the entire office to celebrate.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael hangs out with a church group of high school graduates discussing their mission to Mexico.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael joins a church group of high school graduates on a mission to Mexico",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy follows along with Michael and the church group, trying to impress Erin.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy",
+            "Michael",
+            "Erin"
+          ],
+          "grounded_in": "with Andy following along to impress Erin",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5179,
+        "out": 5095,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Viewing Party",
+      "candidates": [
+        {
+          "text": "The whole office gathers in Gabe's house to watch Glee together on the television.",
+          "specificity": 5,
+          "characters_named": [
+            "Gabe"
+          ],
+          "grounded_in": "Erin invites the office over to Gabe's house for a Glee viewing party.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight helps Pam look after baby Cece while Jim watches with obvious annoyance.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Pam",
+            "Cece",
+            "Jim"
+          ],
+          "grounded_in": "Dwight helps Pam with Cece, much to Jim's chagrin.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Inside Gabe's house, the office staff treat Gabe as their boss instead of Michael.",
+          "specificity": 3,
+          "characters_named": [
+            "Gabe",
+            "Michael"
+          ],
+          "grounded_in": "the office workers think of Gabe as their boss instead of him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5179,
+        "out": 5930,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "WUPHF.com",
+      "candidates": [
+        {
+          "text": "Dwight sets up a hay festival in the parking lot for the Thanksgiving holiday.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight creates a hay festival in the parking lot for the Thanksgiving holiday.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael spends the day charming people to invest money in Ryan's internet company.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Ryan"
+          ],
+          "grounded_in": "Michael helps Ryan by charming people to invest in his internet company, WUPHF.com.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5181,
+        "out": 7207,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "China",
+      "candidates": [
+        {
+          "text": "Michael is at his desk reading an article about China growing as a global power.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "reads an article about China growing as a global power",
+          "grounded_ok": true
+        },
+        {
+          "text": "Darryl is getting fed up with a barrage of annoying text messages from Andy.",
+          "specificity": 5,
+          "characters_named": [
+            "Darryl",
+            "Andy"
+          ],
+          "grounded_in": "Darryl is sick of Andy's annoying text messages",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam threatens to move the office to a new building over complaints about Dwight's standards.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam",
+            "Dwight"
+          ],
+          "grounded_in": "Pam threatens to move Dunder Mifflin to a new building",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5178,
+        "out": 5798,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Ultimatum",
+      "candidates": [
+        {
+          "text": "Pam hangs a New Year's resolution board in the office for everyone to post their resolutions on.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Pam puts up a New Year's resolution board so everyone can post their resolutions",
+          "grounded_ok": true
+        },
+        {
+          "text": "Darryl brings Andy and Dwight with him to a bookstore, hoping to meet women there.",
+          "specificity": 4,
+          "characters_named": [
+            "Darryl",
+            "Andy",
+            "Dwight"
+          ],
+          "grounded_in": "Darryl convinces Andy and Dwight to go with him to the bookstore in hopes of picking up women",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5180,
+        "out": 3307,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "The Seminar",
+      "candidates": [
+        {
+          "text": "Michael and Holly sit in on Andy's seminar together pretending to be a Greek couple.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Holly",
+            "Andy"
+          ],
+          "grounded_in": "Michael and Holly use the seminar as an improv challenge, posing as a Greek couple.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Erin and Gabe play a game of Scrabble to pick their movie for the day.",
+          "specificity": 5,
+          "characters_named": [
+            "Erin",
+            "Gabe"
+          ],
+          "grounded_in": "Erin and Gabe have a game of Scrabble to decide who will choose their movie of the day.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy stands at the front of the office leading a small business seminar for outside guests.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy holds a small business seminar in the office with some special guests",
+          "grounded_ok": true
+        },
+        {
+          "text": "Oscar and Pam hover over the Scrabble board coaching Erin through her bad plays.",
+          "specificity": 4,
+          "characters_named": [
+            "Oscar",
+            "Pam",
+            "Erin"
+          ],
+          "grounded_in": "Oscar and Pam help Erin out when she turns out to be a very bad Scrabble player.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 74,
+        "out": 2687,
+        "cache_read": 5105,
+        "cache_write": 0
+      }
+    },
+    "14": {
+      "title": "The Search",
+      "candidates": [
+        {
+          "text": "The office holds a captioning contest for Pam's artwork, with new jokes taped up beneath the picture.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "A captioning contest starts in the office over Pam's artwork",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gabe lingers near Pam's artwork display, looking unamused and offended while coworkers laugh at captions.",
+          "specificity": 4,
+          "characters_named": [
+            "Gabe",
+            "Pam"
+          ],
+          "grounded_in": "which seems to offend Gabe",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 74,
+        "out": 5514,
+        "cache_read": 5105,
+        "cache_write": 0
+      }
+    },
+    "15": {
+      "title": "PDA",
+      "candidates": [
+        {
+          "text": "Gabe lays out a romantic treasure hunt for Erin, and Andy awkwardly tags along with them.",
+          "specificity": 5,
+          "characters_named": [
+            "Gabe",
+            "Erin",
+            "Andy"
+          ],
+          "grounded_in": "Andy tags along on a romantic treasure hunt Gabe has made for Erin.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim and Pam linger over a Valentine's Day lunch together, drinking too much champagne in the middle of the workday.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "Jim and Pam have too much champagne during a Valentine's Day lunch, causing complications when they have to return to work.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael and Holly keep kissing and cuddling openly around the office while their coworkers watch uncomfortably.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Holly"
+          ],
+          "grounded_in": "Michael and Holly's public displays of affection start to make everyone in the office uncomfortable.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5179,
+        "out": 3546,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "16": {
+      "title": "Threat Level Midnight",
+      "candidates": [
+        {
+          "text": "The office gathers together to watch Michael's homemade action movie on the big screen.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael screens his action film Threat Level Midnight to the office",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight plays Michael's loyal butler and sidekick in the homemade spy movie on screen.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Michael"
+          ],
+          "grounded_in": "Dwight as Scarn's butler and sidekick",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim plays Michael's archenemy in the film, wearing thick gold makeup on his face.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Michael"
+          ],
+          "grounded_in": "Jim as archnemesis \"Goldenface,\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jan appears on screen as one of the familiar faces in Michael's homemade action film.",
+          "specificity": 4,
+          "characters_named": [
+            "Jan",
+            "Michael"
+          ],
+          "grounded_in": "including Jan (Melora Hardin)",
+          "grounded_ok": true
+        },
+        {
+          "text": "Helene pops up on screen during the office screening of Michael's homemade action film.",
+          "specificity": 4,
+          "characters_named": [
+            "Helene",
+            "Michael"
+          ],
+          "grounded_in": "Helene (Linda Purl)",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 76,
+        "out": 5583,
+        "cache_read": 5105,
+        "cache_write": 0
+      }
+    },
+    "17": {
+      "title": "Todd Packer",
+      "candidates": [
+        {
+          "text": "Erin sits at a brand-new office computer while Andy complains about his own computer problems.",
+          "specificity": 5,
+          "characters_named": [
+            "Erin",
+            "Andy"
+          ],
+          "grounded_in": "When Erin gets a new computer",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy confronts office administrator Pam and demands a new computer for himself as well.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy",
+            "Pam"
+          ],
+          "grounded_in": "confronts office administrator Pam to get him a new one too",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5181,
+        "out": 4907,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "18": {
+      "title": "Garage Sale",
+      "candidates": [
+        {
+          "text": "Jim gravely sells Dwight a small bag of beans he claims are magic beans.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Dwight"
+          ],
+          "grounded_in": "Jim dupes Dwight by selling him “magic beans”",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dunder Mifflin's warehouse crew hosts a public garage sale inside the warehouse space.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Dunder Mifflin Scranton's warehouse and crew hosts a public garage sale",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5180,
+        "out": 2820,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "19": {
+      "title": "Training Day",
+      "candidates": [
+        {
+          "text": "Andy tries extra hard to play the office funny guy while trying to impress the incoming new manager.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy finds himself awkwardly type cast as the funny guy",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight remains completely indifferent to the new manager while everyone else scrambles to impress him.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Only Dwight is apathetic about the new leader.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim and Pam fret that they have come on too strong while trying to impress the new manager.",
+          "specificity": 4,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "while Jim and Pam worry that they've come on too strong.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael grows jealous and keeps asserting that he is still the boss in front of his replacement.",
+          "specificity": 3,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael tries to deal with his jealousy, and establish himself as the boss.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The entire office fusses over making a good first impression on the incoming new manager.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "has everyone hoping to make good first impressions.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5179,
+        "out": 5621,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "20": {
+      "title": "Michael's Last Dundies",
+      "candidates": [
+        {
+          "text": "Michael coaches Deangelo through hosting the Dundie Awards in front of the office staff.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Deangelo"
+          ],
+          "grounded_in": "for hosting the Dundie Awards",
+          "grounded_ok": true
+        },
+        {
+          "text": "The whole office gathers together to sing Michael a special farewell song as a gift.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "a special song as a farewell present from the entire office",
+          "grounded_ok": true
+        },
+        {
+          "text": "Erin is openly annoyed with her boyfriend Gabe and is struggling to hide her dislike.",
+          "specificity": 3,
+          "characters_named": [
+            "Erin",
+            "Gabe"
+          ],
+          "grounded_in": "Erin deals with her dislike of her boyfriend, Gabe",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5183,
+        "out": 4036,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "21": {
+      "title": "Goodbye, Michael",
+      "candidates": [
+        {
+          "text": "Michael spends his last day in the office pulling coworkers aside one by one for quiet goodbyes with no drama.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "spends his last day in the office saying goodbye to everyone individually",
+          "grounded_ok": true
+        },
+        {
+          "text": "New manager Deangelo works with Andy to try to keep Michael's biggest clients.",
+          "specificity": 4,
+          "characters_named": [
+            "Deangelo",
+            "Andy",
+            "Michael"
+          ],
+          "grounded_in": "new manager Deangelo and Andy try to keep Michael's biggest clients",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 76,
+        "out": 4577,
+        "cache_read": 5105,
+        "cache_write": 0
+      }
+    },
+    "22": {
+      "title": "The Inner Circle",
+      "candidates": [
+        {
+          "text": "Deangelo, now managing the office, openly groups certain staff members together as his favorites.",
+          "specificity": 4,
+          "characters_named": [
+            "Deangelo"
+          ],
+          "grounded_in": "picks favorites among the staff",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5180,
+        "out": 2475,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "23": {
+      "title": "Dwight K. Schrute, (Acting) Manager",
+      "candidates": [],
+      "note": "Summary lists only Dwight becoming interim manager and Gabe trying to win back Erin, both turning-point outcomes with no inconsequential visual moment to use.",
+      "usage": {
+        "in": 5189,
+        "out": 1805,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Classy Christmas",
+      "candidates": [
+        {
+          "text": "Pam is planning a second Christmas party for the day Holly comes back to Scranton.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam",
+            "Holly"
+          ],
+          "grounded_in": "Michael forces Pam to plan a second Christmas party on the day Holly returns to Scranton.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim and Dwight are outside in the snow having a big snowball fight together.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Dwight"
+          ],
+          "grounded_in": "Jim agrees to a snowball fight with Dwight",
+          "grounded_ok": true
+        },
+        {
+          "text": "Holly is sitting in the office covering Toby's duties while he is away.",
+          "specificity": 4,
+          "characters_named": [
+            "Holly",
+            "Toby"
+          ],
+          "grounded_in": "leaving corporate to send Holly Flax (Amy Ryan) to cover for him.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Toby is away on a leave of absence while Michael looks openly delighted about it.",
+          "specificity": 3,
+          "characters_named": [
+            "Toby",
+            "Michael"
+          ],
+          "grounded_in": "Michael couldn't be happier when Toby takes a leave of absence",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5591,
+        "out": 4533,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "24": {
+      "title": "Search Committee",
+      "candidates": [
+        {
+          "text": "Jim leads a search committee that interviews candidates to replace Deangelo as manager.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Deangelo"
+          ],
+          "grounded_in": "Deangelo's new replacement is sought out through a search committee process led by Jim.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5590,
+        "out": 2963,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

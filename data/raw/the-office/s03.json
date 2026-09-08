@@ -8,9 +8,37 @@
     "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_3&oldid=1372898118",
     "license": "CC BY-SA 4.0"
   },
+  "cast": {
+    "main": [
+      "Michael Scott",
+      "Dwight Schrute",
+      "Jim Halpert",
+      "Pam Beesly",
+      "Ryan Howard",
+      "Jan Levinson",
+      "Roy Anderson",
+      "Andy Bernard",
+      "Stanley Hudson",
+      "Kevin Malone",
+      "Meredith Palmer",
+      "Kelly Kapoor",
+      "Angela Martin",
+      "Toby Flenderson",
+      "Oscar Martinez",
+      "Phyllis Vance"
+    ],
+    "recurring": [
+      "Karen Filippelli",
+      "Creed Bratton",
+      "Darryl Philbin",
+      "David Wallace",
+      "Josh Porter"
+    ]
+  },
   "episodes": [
     {
       "episode": 1,
+      "number": "1",
       "overall": 29,
       "title": "Gay Witch Hunt",
       "air_date": "2006-09-21",
@@ -19,6 +47,7 @@
     },
     {
       "episode": 2,
+      "number": "2",
       "overall": 30,
       "title": "The Convention",
       "air_date": "2006-09-28",
@@ -27,6 +56,7 @@
     },
     {
       "episode": 3,
+      "number": "3",
       "overall": 31,
       "title": "The Coup",
       "air_date": "2006-10-05",
@@ -35,6 +65,7 @@
     },
     {
       "episode": 4,
+      "number": "4",
       "overall": 32,
       "title": "Grief Counseling",
       "air_date": "2006-10-12",
@@ -43,6 +74,7 @@
     },
     {
       "episode": 5,
+      "number": "5",
       "overall": 33,
       "title": "Initiation",
       "air_date": "2006-10-19",
@@ -51,6 +83,7 @@
     },
     {
       "episode": 6,
+      "number": "6",
       "overall": 34,
       "title": "Diwali",
       "air_date": "2006-11-02",
@@ -59,6 +92,7 @@
     },
     {
       "episode": 7,
+      "number": "7",
       "overall": 35,
       "title": "Branch Closing",
       "air_date": "2006-11-09",
@@ -67,6 +101,7 @@
     },
     {
       "episode": 8,
+      "number": "8",
       "overall": 36,
       "title": "The Merger",
       "air_date": "2006-11-16",
@@ -75,6 +110,7 @@
     },
     {
       "episode": 9,
+      "number": "9",
       "overall": 37,
       "title": "The Convict",
       "air_date": "2006-11-30",
@@ -82,7 +118,17 @@
       "words": 97
     },
     {
-      "episode": 12,
+      "episode": 10,
+      "number": "10–11",
+      "overall": 38,
+      "title": "A Benihana Christmas",
+      "air_date": "2006-12-14",
+      "summary": "Michael plans to invite Carol to Jamaica with him for Christmas, but she breaks up with him before he has a chance. Andy takes Michael to a local Benihana to cheer him up, and they both convince waitresses to come back to the Christmas party with them. Back at the office, a disagreement within the Party Planning Committee leads Karen and Pam to create their own Christmas party, separate from Angela's. When the majority of the office decide to go to Karen and Pam's party, Angela becomes upset, and seeing this, Karen and Pam decide to combine the parties. Soon after, Michael and Andy's dates leave them, but Michael nevertheless finds someone to go to Jamaica with him.",
+      "words": 118
+    },
+    {
+      "episode": 11,
+      "number": "12",
       "overall": 40,
       "title": "Back from Vacation",
       "air_date": "2007-01-04",
@@ -90,7 +136,8 @@
       "words": 106
     },
     {
-      "episode": 13,
+      "episode": 12,
+      "number": "13",
       "overall": 41,
       "title": "Traveling Salesmen",
       "air_date": "2007-01-11",
@@ -98,7 +145,8 @@
       "words": 132
     },
     {
-      "episode": 14,
+      "episode": 13,
+      "number": "14",
       "overall": 42,
       "title": "The Return",
       "air_date": "2007-01-18",
@@ -106,7 +154,8 @@
       "words": 114
     },
     {
-      "episode": 15,
+      "episode": 14,
+      "number": "15",
       "overall": 43,
       "title": "Ben Franklin",
       "air_date": "2007-02-01",
@@ -114,7 +163,8 @@
       "words": 69
     },
     {
-      "episode": 16,
+      "episode": 15,
+      "number": "16",
       "overall": 44,
       "title": "Phyllis' Wedding",
       "air_date": "2007-02-08",
@@ -122,7 +172,8 @@
       "words": 71
     },
     {
-      "episode": 17,
+      "episode": 16,
+      "number": "17",
       "overall": 45,
       "title": "Business School",
       "air_date": "2007-02-15",
@@ -130,7 +181,8 @@
       "words": 104
     },
     {
-      "episode": 18,
+      "episode": 17,
+      "number": "18",
       "overall": 46,
       "title": "Cocktails",
       "air_date": "2007-02-22",
@@ -138,7 +190,8 @@
       "words": 111
     },
     {
-      "episode": 19,
+      "episode": 18,
+      "number": "19",
       "overall": 47,
       "title": "The Negotiation",
       "air_date": "2007-04-05",
@@ -146,7 +199,8 @@
       "words": 70
     },
     {
-      "episode": 20,
+      "episode": 19,
+      "number": "20",
       "overall": 48,
       "title": "Safety Training",
       "air_date": "2007-04-12",
@@ -154,7 +208,8 @@
       "words": 85
     },
     {
-      "episode": 21,
+      "episode": 20,
+      "number": "21",
       "overall": 49,
       "title": "Product Recall",
       "air_date": "2007-04-26",
@@ -162,7 +217,8 @@
       "words": 84
     },
     {
-      "episode": 22,
+      "episode": 21,
+      "number": "22",
       "overall": 50,
       "title": "Women's Appreciation",
       "air_date": "2007-05-03",
@@ -170,12 +226,22 @@
       "words": 88
     },
     {
-      "episode": 23,
+      "episode": 22,
+      "number": "23",
       "overall": 51,
       "title": "Beach Games",
       "air_date": "2007-05-10",
       "summary": "David Wallace calls and informs Michael that he is a candidate for an opening position in the corporate office in New York. Believing himself the obvious choice for the job, Michael decides to choose a successor. He takes his employees to the beach and compels them to compete in challenges to determine which of them will take over his position, not realizing that Jim and Karen are also contenders for the job. In the evening, on a high after a firewalk, Pam confesses that she is tired of being ignored, and tells Jim that he was the reason she called off her wedding.",
       "words": 103
+    },
+    {
+      "episode": 23,
+      "number": "24–25",
+      "overall": 52,
+      "title": "The Job",
+      "air_date": "2007-05-17",
+      "summary": "After evaluating their relationship, Michael decides to repel any advances that Jan makes towards him, but instantly changes his mind and gives her a second chance once he sees her with a breast enhancement. Michael, Jim, and Karen then all travel to New York to interview for the position that is opening in the corporate office. Before he leaves, Michael names Dwight as his successor in Scranton; after appointing Andy as his new number two, Dwight immediately goes about changing the appearance and structure of the office. In New York, Michael's interview ends as he learns that the new position is linked to Jan's upcoming dismissal. Jan learns of the move, and confronts David, with Michael following her. Jan, now unemployed, decides to move in with a hesitant Michael, who now returns to his position as Scranton manager. Jim's interview goes well until he finds a good-luck memento left for him by Pam. Realizing he cannot leave her again, he returns to the office alone, where he asks her on a date. The corporate job is given to an ecstatic Ryan, who immediately breaks up with Kelly.",
+      "words": 187
     }
   ]
 }

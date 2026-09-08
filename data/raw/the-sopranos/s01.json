@@ -8,6 +8,43 @@
     "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_1&oldid=1373424830",
     "license": "CC BY-SA 4.0"
   },
+  "cast": {
+    "main": [
+      "Anthony \"Tony\" Soprano",
+      "Dr",
+      "Carmela Soprano",
+      "Christopher Moltisanti",
+      "Corrado \"Junior\" Soprano Jr.",
+      "Salvatore \"Big Pussy\" Bonpensiero",
+      "Silvio Dante",
+      "Peter Paul \"Paulie Walnuts\" Gualtieri",
+      "Anthony \"A.J.\" Soprano Jr.",
+      "Meadow Soprano",
+      "Livia Soprano"
+    ],
+    "recurring": [
+      "Michael \"Mikey\" Palmice",
+      "James \"Jimmy\" Altieri",
+      "Adriana La Cerva",
+      "Herman \"Hesh\" Rabkin",
+      "Lorenzo \"Larry\" Barese",
+      "Irina Peltsin",
+      "Brendan Filone",
+      "Vin Makazian",
+      "Charmaine Bucco",
+      "Phil Intintola",
+      "Arthur \"Artie\" Bucco",
+      "Rosalie Aprile",
+      "Hunter Scangarelo",
+      "Giacomo \"Jackie\" Aprile",
+      "George \"Georgie\" Santorelli",
+      "Dwight Harris",
+      "Charles \"Chucky\" Signore",
+      "Bruce Cusamano",
+      "Jeannie Cusamano",
+      "John \"Johnny Sack\" Sacrimoni"
+    ]
+  },
   "episodes": [
     {
       "episode": 1,

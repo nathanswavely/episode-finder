@@ -1,0 +1,789 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 8,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Office (American TV series) season 8",
+    "revid": 1370172991,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_8&oldid=1370172991",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The List",
+      "candidates": [
+        {
+          "text": "Only the employees from the left-hand side of the office go out to lunch together.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Robert invites the left-hand side to lunch",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5498,
+        "out": 6143,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "The Incentive",
+      "candidates": [
+        {
+          "text": "Andy promises the office he will get a tattoo on his buttocks if they hit a sales target.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "he promises the office that he will tattoo a picture of their choosing on his buttocks if they meet the sales quota",
+          "grounded_ok": true
+        },
+        {
+          "text": "The office makes Andy get a puppy tattoo on his buttocks as his sales incentive.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "The office then makes Andy get a tattoo of a puppy.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam, pregnant herself, forms an unlikely friendship with Angela, who is also very pregnant.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam",
+            "Angela"
+          ],
+          "grounded_in": "Pam Halpert (Jenna Fischer) becomes unlikely friends with Angela Lipton (Angela Kinsey), who is also pregnant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Robert challenges the office staff to double their sales numbers this week.",
+          "specificity": 3,
+          "characters_named": [
+            "Robert"
+          ],
+          "grounded_in": "Robert challenges the Dunder Mifflin staffers to double their sales.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5499,
+        "out": 6876,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Lotto",
+      "candidates": [
+        {
+          "text": "Jim, Kevin, and Erin are hauling boxes and pitching in down in the warehouse.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Kevin",
+            "Erin"
+          ],
+          "grounded_in": "Jim Halpert (John Krasinski), Kevin Malone (Brian Baumgartner) and Erin Hannon (Ellie Kemper) get a taste of the warehouse life",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy and Darryl are scrambling to interview replacement workers for the warehouse.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy",
+            "Darryl"
+          ],
+          "grounded_in": "leaving Andy (Ed Helms) and Darryl Philbin (Craig Robinson) to scramble for replacements",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5498,
+        "out": 5462,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Garden Party",
+      "candidates": [
+        {
+          "text": "Andy hosts a garden party at Schrute Farms for the office, with his parents and brother in attendance.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy throws a garden party at Schrute Farms",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight bustles around Schrute Farms trying to make Andy's garden party a classy event.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Andy"
+          ],
+          "grounded_in": "works to make it a classy event",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy's father openly favors his brother over him throughout the outdoor party.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "his father shows obvious favoritism towards his brother",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5498,
+        "out": 4888,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Spooked",
+      "candidates": [
+        {
+          "text": "Erin and Gabe put up edgy decorations to make the office Halloween party spooky instead of childish.",
+          "specificity": 5,
+          "characters_named": [
+            "Erin",
+            "Gabe"
+          ],
+          "grounded_in": "make the annual Halloween party spooky and non-childish",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight spends much of the office Halloween party hanging out with Robert's young son.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Robert"
+          ],
+          "grounded_in": "Dwight becomes friends with Robert's son",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam and Jim have an ongoing back-and-forth debate at work about whether ghosts really exist.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam",
+            "Jim"
+          ],
+          "grounded_in": "Pam and Jim debate the existence of ghosts",
+          "grounded_ok": true
+        },
+        {
+          "text": "Robert quietly goes around the office asking coworkers about their deepest personal fears.",
+          "specificity": 4,
+          "characters_named": [
+            "Robert"
+          ],
+          "grounded_in": "Robert tries to figure out everyone's deepest fears",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5498,
+        "out": 3301,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Doomsday",
+      "candidates": [
+        {
+          "text": "Pam stands with coworkers around Dwight's bulky machine urging him to dismantle it immediately.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam",
+            "Dwight"
+          ],
+          "grounded_in": "Pam—among others—attempts to talk Dwight into dismantling his machine.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gabe hangs around the new warehouse worker flirting while making dismissive comments about Darryl.",
+          "specificity": 4,
+          "characters_named": [
+            "Gabe",
+            "Darryl"
+          ],
+          "grounded_in": "Gabe attempts to court the new warehouse worker, Val (Ameenah Kaplan), by trying to put Darryl down.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim hovers near California making awkward small talk to keep him distracted from his computer.",
+          "specificity": 4,
+          "characters_named": [
+            "Jim",
+            "California"
+          ],
+          "grounded_in": "Jim is sent to distract California",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 138,
+        "out": 3713,
+        "cache_read": 5361,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Pam's Replacement",
+      "candidates": [
+        {
+          "text": "Pam spends her days training a temporary replacement to cover her desk while she is on maternity leave.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Pam trains a temporary worker, Cathy Simms (Lindsey Broad), to take her place while she is on maternity leave",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy, Kevin and Darryl have a small office band they play music in together.",
+          "specificity": 3,
+          "characters_named": [
+            "Andy",
+            "Kevin",
+            "Darryl"
+          ],
+          "grounded_in": "Robert surprises Andy, Kevin, and Darryl when he asks to join their band",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5499,
+        "out": 5946,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Gettysburg",
+      "candidates": [
+        {
+          "text": "Gabe happily soaks up attention on the battlefield trip after strangers mistake him for a bearded presidential impersonator.",
+          "specificity": 5,
+          "characters_named": [
+            "Gabe"
+          ],
+          "grounded_in": "Gabe finds himself enjoying the trip when he is mistaken as an Abraham Lincoln impersonator",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy leads several office staff members around a historic battlefield site, hoping the outing will inspire them.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy takes some of the office staff on a field trip to Gettysburg for inspiration",
+          "grounded_ok": true
+        },
+        {
+          "text": "Robert nods along seriously while Kevin offers simple business ideas, hearing elaborate metaphors in every suggestion.",
+          "specificity": 5,
+          "characters_named": [
+            "Robert",
+            "Kevin"
+          ],
+          "grounded_in": "becomes convinced that Kevin's simple ideas are elaborate metaphors",
+          "grounded_ok": true
+        },
+        {
+          "text": "Robert gathers the employees left behind in the office to brainstorm a new business idea for Dunder Mifflin.",
+          "specificity": 4,
+          "characters_named": [
+            "Robert"
+          ],
+          "grounded_in": "Robert tasks the remaining employees with coming up with a new business idea for Dunder Mifflin",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5499,
+        "out": 5457,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Mrs. California",
+      "candidates": [
+        {
+          "text": "Dwight operates a small gym in the office building and urges coworkers to join his workouts.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight opens a gym in the building",
+          "grounded_ok": true
+        },
+        {
+          "text": "Darryl joins Dwight for workouts in the building gym as Dwight tries to draw in other members.",
+          "specificity": 5,
+          "characters_named": [
+            "Darryl",
+            "Dwight"
+          ],
+          "grounded_in": "makes Darryl join in hopes of getting other office members to follow.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 138,
+        "out": 4040,
+        "cache_read": 5361,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Christmas Wishes",
+      "candidates": [
+        {
+          "text": "Erin drinks too much at the office Christmas party and California walks her home.",
+          "specificity": 5,
+          "characters_named": [
+            "Erin",
+            "California"
+          ],
+          "grounded_in": "Erin, upset about her unrequited feelings for Andy, drinks too much at the Christmas party and is escorted home by California.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy goes around the office trying to grant everyone's individual Christmas wishes.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy attempts to make everyone's Christmas wishes come true.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight and Jim have been told to stop pranking each other or they will lose their Christmas bonuses.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Jim"
+          ],
+          "grounded_in": "Dwight and Jim are ordered to stop pranking one another, lest they forfeit their Christmas bonuses.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight and Jim spend the day trying to frame each other for ongoing office pranks.",
+          "specificity": 3,
+          "characters_named": [
+            "Dwight",
+            "Jim"
+          ],
+          "grounded_in": "Thus, they try to frame each other.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5499,
+        "out": 4251,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Trivia",
+      "candidates": [
+        {
+          "text": "Oscar competes in a trivia contest while Andy rallies the entire office to play along.",
+          "specificity": 5,
+          "characters_named": [
+            "Oscar",
+            "Andy"
+          ],
+          "grounded_in": "Oscar Martinez (Oscar Nunez) joins a trivia contest",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy pulls the entire office into playing trivia, splitting coworkers into competing teams.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy gets the entire office involved",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5498,
+        "out": 8728,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Pool Party",
+      "candidates": [
+        {
+          "text": "Robert leads the entire office on an awkward tour through his massive home.",
+          "specificity": 5,
+          "characters_named": [
+            "Robert"
+          ],
+          "grounded_in": "Robert gives everyone a tour of his massive home",
+          "grounded_ok": true
+        },
+        {
+          "text": "The whole office gathers for a pool party at Robert's large house.",
+          "specificity": 5,
+          "characters_named": [
+            "Robert"
+          ],
+          "grounded_in": "throw an office pool party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Erin openly flirts with Dwight while Andy watches and grows visibly jealous.",
+          "specificity": 4,
+          "characters_named": [
+            "Erin",
+            "Dwight",
+            "Andy"
+          ],
+          "grounded_in": "Erin attempts to make Andy jealous by flirting with Dwight",
+          "grounded_ok": true
+        },
+        {
+          "text": "The office staff grows increasingly uncomfortable during Robert's long tour of his home.",
+          "specificity": 4,
+          "characters_named": [
+            "Robert"
+          ],
+          "grounded_in": "which increasingly makes everyone feel uncomfortable",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5498,
+        "out": 4783,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Jury Duty",
+      "candidates": [],
+      "note": "Summary contains only consequential beats: Jim faking jury duty, Dwight's trip-up investigation, Jim confiding in Andy for a cover-up, and Angela's birth with Dwight's paternity belief. No inconsequential texture to ground a probe.",
+      "usage": {
+        "in": 5499,
+        "out": 4108,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "14": {
+      "title": "Special Project",
+      "candidates": [
+        {
+          "text": "Pam is back at her desk in the office as her maternity leave finally ends.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Pam's maternity leave ends",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight and Andy sit with coworkers choosing who accompanies Dwight to Tallahassee.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Andy"
+          ],
+          "grounded_in": "Dwight and Andy must select employees to accompany Dwight to Tallahassee, Florida",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5498,
+        "out": 3241,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "15": {
+      "title": "Tallahassee",
+      "candidates": [
+        {
+          "text": "Andy is filling in for Erin and seems surprisingly happy doing it.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Erin"
+          ],
+          "grounded_in": "Andy fills in for Erin",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight and his group journey to meet the president of Sabre's special projects.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight and his group journeys to Tallahassee to meet with the President of Sabre's special projects",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight is trying hard to impress his new boss from Sabre's special projects.",
+          "specificity": 3,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Although Dwight tries to impress his new boss",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5499,
+        "out": 7307,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "16": {
+      "title": "After Hours",
+      "candidates": [
+        {
+          "text": "Andy keeps everyone in Scranton working late to cover for the coworkers in Florida.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "Andy has everyone stay late to cover for their co-workers in Florida",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Other summary moments were excluded as setup to or outcome of conflicts: wooing Nellie to win the store, and Cathy's seduction attempt leading to being foiled.",
+      "usage": {
+        "in": 5498,
+        "out": 8451,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "17": {
+      "title": "Test the Store",
+      "candidates": [
+        {
+          "text": "Dwight attempts a theatrical presentation at the Sabre store opening to impress Nellie.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight",
+            "Nellie"
+          ],
+          "grounded_in": "Dwight attempts to put on a theatrical presentation to impress Nellie",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim gives an impromptu speech at the Sabre store opening originally meant for Ryan.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Ryan"
+          ],
+          "grounded_in": "an impromptu speech—originally supposed to be delivered by Ryan Howard (B. J. Novak)—given by Jim",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5499,
+        "out": 4822,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "18": {
+      "title": "Last Day in Florida",
+      "candidates": [],
+      "note": "Summary describes only consequential outcomes - California hating the plan, avoiding Dwight's firing, Packer fired instead, Erin not returning - with no inconsequential visual texture to ground a probe without revealing an outcome or reveal.",
+      "usage": {
+        "in": 5500,
+        "out": 2297,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "19": {
+      "title": "Get the Girl",
+      "candidates": [
+        {
+          "text": "Andy is behind the wheel, driving down to Florida to try to win Erin back.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Erin"
+          ],
+          "grounded_in": "Andy drives to Florida to try to win back Erin.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Other summary details involve taking over as manager and dividing into factions, omitted as turning point and outcome.",
+      "usage": {
+        "in": 5499,
+        "out": 6465,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "20": {
+      "title": "Welcome Party",
+      "candidates": [
+        {
+          "text": "At California's insistence, the office reluctantly prepares a welcome party honoring Nellie.",
+          "specificity": 5,
+          "characters_named": [
+            "California",
+            "Nellie"
+          ],
+          "grounded_in": "California forces the office to prepare a welcome party for Nellie",
+          "grounded_ok": true
+        },
+        {
+          "text": "Behind California's back, the designated party planners quietly scheme to sabotage Nellie's welcome party.",
+          "specificity": 5,
+          "characters_named": [
+            "California",
+            "Nellie"
+          ],
+          "grounded_in": "but the party planners seek to sabotage it",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Remaining summary lines describe a breakup and a tragic discovery, excluded under rule 1.",
+      "usage": {
+        "in": 5498,
+        "out": 4504,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "21": {
+      "title": "Angry Andy",
+      "candidates": [
+        {
+          "text": "Andy walks back into the office and finds Nellie sitting in the manager's chair.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy",
+            "Nellie"
+          ],
+          "grounded_in": "Andy returns to the office to find Nellie in the manager's chair.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kelly feels pressed to choose between Ryan and Pam and Jim's pediatrician.",
+          "specificity": 5,
+          "characters_named": [
+            "Kelly",
+            "Ryan",
+            "Pam",
+            "Jim"
+          ],
+          "grounded_in": "is forced to choose between Ryan and a new man, Ravi (Sendhil Ramamurthy), who is Pam and Jim's pediatrician",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5499,
+        "out": 4896,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "22": {
+      "title": "Fundraiser",
+      "candidates": [
+        {
+          "text": "Andy walks back into the office with twelve dogs he picked up at a fundraiser.",
+          "specificity": 5,
+          "characters_named": [
+            "Andy"
+          ],
+          "grounded_in": "goes to a fundraiser held by Angela's husband Robert Lipton (Jack Coleman) and returns with 12 dogs",
+          "grounded_ok": true
+        },
+        {
+          "text": "Darryl patiently shows Nellie how to properly hold and eat a taco.",
+          "specificity": 5,
+          "characters_named": [
+            "Darryl",
+            "Nellie"
+          ],
+          "grounded_in": "he teaches her how to properly eat a taco",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andy mingles at a charity fundraiser hosted by Angela's husband with coworkers around.",
+          "specificity": 4,
+          "characters_named": [
+            "Andy",
+            "Angela"
+          ],
+          "grounded_in": "a fundraiser held by Angela's husband Robert Lipton",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5499,
+        "out": 4615,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "23": {
+      "title": "Turf War",
+      "candidates": [],
+      "note": "Target summary contains only three beats - Robert shutting down a branch, Andy forming a rival company, Jim and Dwight defeating a rival - each is a turning point, conflict outcome, or new alliance, and any sub-moment leads to or results from those events under rule 1.",
+      "usage": {
+        "in": 5499,
+        "out": 2804,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "24": {
+      "title": "Free Family Portrait Studio",
+      "candidates": [],
+      "note": "Every concrete moment in the summary is framed as setup for or result of a forbidden outcome: portraits/diaper theft for DNA discovery, theft leading to car chase, and buyback/re-install/donation leading to a turning-point departure. No inconsequential texture remains.",
+      "usage": {
+        "in": 5500,
+        "out": 3772,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

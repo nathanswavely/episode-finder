@@ -1,0 +1,344 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 8,
+  "source": {
+    "title": "The Office (American TV series) season 8",
+    "revid": 1370172991,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_8&oldid=1370172991",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The List",
+      "probes": [
+        {
+          "text": "Only the employees from the left-hand side of the office go out to lunch together.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "The Incentive",
+      "probes": [
+        {
+          "text": "Andy promises the office he will get a tattoo on his buttocks if they hit a sales target.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "The office makes Andy get a puppy tattoo on his buttocks as his sales incentive.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Lotto",
+      "probes": [
+        {
+          "text": "Jim, Kevin, and Erin are hauling boxes and pitching in down in the warehouse.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Garden Party",
+      "probes": [
+        {
+          "text": "Andy hosts a garden party at Schrute Farms for the office, with his parents and brother in attendance.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight bustles around Schrute Farms trying to make Andy's garden party a classy event.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy's father openly favors his brother over him throughout the outdoor party.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Spooked",
+      "probes": [
+        {
+          "text": "Erin and Gabe put up edgy decorations to make the office Halloween party spooky instead of childish.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight spends much of the office Halloween party hanging out with Robert's young son.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam and Jim have an ongoing back-and-forth debate at work about whether ghosts really exist.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Doomsday",
+      "probes": [
+        {
+          "text": "Pam stands with coworkers around Dwight's bulky machine urging him to dismantle it immediately.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Gabe hangs around the new warehouse worker flirting while making dismissive comments about Darryl.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Pam's Replacement",
+      "probes": [
+        {
+          "text": "Pam spends her days training a temporary replacement to cover her desk while she is on maternity leave.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy, Kevin and Darryl have a small office band they play music in together.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Gettysburg",
+      "probes": [
+        {
+          "text": "Gabe happily soaks up attention on the battlefield trip after strangers mistake him for a bearded presidential impersonator.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy leads several office staff members around a historic battlefield site, hoping the outing will inspire them.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Robert nods along seriously while Kevin offers simple business ideas, hearing elaborate metaphors in every suggestion.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Mrs. California",
+      "probes": [
+        {
+          "text": "Dwight operates a small gym in the office building and urges coworkers to join his workouts.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Darryl joins Dwight for workouts in the building gym as Dwight tries to draw in other members.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Christmas Wishes",
+      "probes": [
+        {
+          "text": "Erin drinks too much at the office Christmas party and California walks her home.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy goes around the office trying to grant everyone's individual Christmas wishes.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight and Jim have been told to stop pranking each other or they will lose their Christmas bonuses.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Trivia",
+      "probes": [
+        {
+          "text": "Oscar competes in a trivia contest while Andy rallies the entire office to play along.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy pulls the entire office into playing trivia, splitting coworkers into competing teams.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Pool Party",
+      "probes": [
+        {
+          "text": "Robert leads the entire office on an awkward tour through his massive home.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The whole office gathers for a pool party at Robert's large house.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The office staff grows increasingly uncomfortable during Robert's long tour of his home.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "Jury Duty",
+      "probes": [],
+      "fine_only": []
+    },
+    "14": {
+      "title": "Special Project",
+      "probes": [
+        {
+          "text": "Pam is back at her desk in the office as her maternity leave finally ends.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Dwight and Andy sit with coworkers choosing who accompanies Dwight to Tallahassee.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "15": {
+      "title": "Tallahassee",
+      "probes": [
+        {
+          "text": "Andy is filling in for Erin and seems surprisingly happy doing it.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight and his group journey to meet the president of Sabre's special projects.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "16": {
+      "title": "After Hours",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Andy keeps everyone in Scranton working late to cover for the coworkers in Florida.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "17": {
+      "title": "Test the Store",
+      "probes": [
+        {
+          "text": "Jim gives an impromptu speech at the Sabre store opening originally meant for Ryan.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Dwight attempts a theatrical presentation at the Sabre store opening to impress Nellie.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "18": {
+      "title": "Last Day in Florida",
+      "probes": [],
+      "fine_only": []
+    },
+    "19": {
+      "title": "Get the Girl",
+      "probes": [],
+      "fine_only": []
+    },
+    "20": {
+      "title": "Welcome Party",
+      "probes": [],
+      "fine_only": []
+    },
+    "21": {
+      "title": "Angry Andy",
+      "probes": [
+        {
+          "text": "Kelly feels pressed to choose between Ryan and Pam and Jim's pediatrician.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "22": {
+      "title": "Fundraiser",
+      "probes": [
+        {
+          "text": "Andy walks back into the office with twelve dogs he picked up at a fundraiser.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Darryl patiently shows Nellie how to properly hold and eat a taco.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy mingles at a charity fundraiser hosted by Angela's husband with coworkers around.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "23": {
+      "title": "Turf War",
+      "probes": [],
+      "fine_only": []
+    },
+    "24": {
+      "title": "Free Family Portrait Studio",
+      "probes": [],
+      "fine_only": []
+    }
+  }
+}

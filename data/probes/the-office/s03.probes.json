@@ -1,0 +1,338 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 3,
+  "source": {
+    "title": "The Office (American TV series) season 3",
+    "revid": 1372898118,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_3&oldid=1372898118",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Gay Witch Hunt",
+      "probes": [],
+      "fine_only": []
+    },
+    "2": {
+      "title": "The Convention",
+      "probes": [
+        {
+          "text": "Michael and Dwight travel to Philadelphia together to attend a sales convention for work.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael casually lands a big sale at the convention without putting in much effort.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "The Coup",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "At Stamford, Josh has the office playing Call of Duty together as a team-building exercise.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Grief Counseling",
+      "probes": [
+        {
+          "text": "Jim and Karen spend the day hunting together for Karen's favorite potato chips.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael holds a small funeral later that day for a bird that hits a window that morning.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Initiation",
+      "probes": [
+        {
+          "text": "Michael stands in the lobby in a long line for a free pretzel for most of the day.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight brings Ryan out to the family beet farm for an initiation before his first sales call.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight puts Ryan through odd hazing rituals on the farm while telling him bizarre parables.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Diwali",
+      "probes": [
+        {
+          "text": "The whole office attends Kelly's Hindu Festival of Light celebration with music and dancing.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim, Andy, and Karen stay late together in the Stamford office working through sales figures.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Andy and Jim pass the time during the late work night by doing shots together.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Branch Closing",
+      "probes": [],
+      "fine_only": []
+    },
+    "8": {
+      "title": "The Merger",
+      "probes": [],
+      "fine_only": []
+    },
+    "9": {
+      "title": "The Convict",
+      "probes": [
+        {
+          "text": "Michael locks his employees inside the conference room when they fail to take him seriously.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael gives a conference-room presentation about how miserable and harsh life in prison is.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Back from Vacation",
+      "probes": [
+        {
+          "text": "Michael is back at the office after his vacation in Jamaica and settling into work again.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Traveling Salesmen",
+      "probes": [
+        {
+          "text": "Michael splits the sales staff into competing pairs for an Amazing Race-style sales-call challenge.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "The Return",
+      "probes": [
+        {
+          "text": "Oscar returns to the office from his vacation and greets his coworkers again.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "14": {
+      "title": "Ben Franklin",
+      "probes": [
+        {
+          "text": "Jim hires a bewigged historical impersonator in colonial costume for the women's bridal shower.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Todd Packer talks Michael into hiring a stripper for both the men's and women's parties.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael orders Jim and Dwight to choose the strippers for the office parties.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "15": {
+      "title": "Phyllis' Wedding",
+      "probes": [],
+      "fine_only": []
+    },
+    "16": {
+      "title": "Business School",
+      "probes": [
+        {
+          "text": "Michael looks closely at Pam's painting of the Dunder Mifflin office building at her show.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam stands next to her displayed artwork at an evening art show with almost no coworkers present.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Dwight leads a chaotic effort around the office to trap a bat flying loose indoors.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "17": {
+      "title": "Cocktails",
+      "probes": [
+        {
+          "text": "Jim plays basketball with David Wallace outside while the rest of the cocktail party guests watch and mingle.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "David Wallace hosts an evening cocktail party at his house, with Michael, Jim, Karen and Dwight standing around drinking.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "18": {
+      "title": "The Negotiation",
+      "probes": [
+        {
+          "text": "Michael is in New York with someone else to negotiate pay raises.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "19": {
+      "title": "Safety Training",
+      "probes": [
+        {
+          "text": "Michael sits through a workplace safety training course with the office and warehouse crews.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Andy, newly back from anger management training, tries hard to win back Dwight's friendship.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "20": {
+      "title": "Product Recall",
+      "probes": [
+        {
+          "text": "Jim and Andy sit in a local high school principal's office to apologize in person.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The accountants spend the day on the phones doing damage control with angry customers.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael spends the day placing calls to the media from his office.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "21": {
+      "title": "Women's Appreciation",
+      "probes": [
+        {
+          "text": "Michael takes the women of the office on an outing to the mall together.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight and Andy walk around together handing out flyers while searching for the flasher.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael attempts to lead a seminar on women's issues for the women in the office.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "22": {
+      "title": "Beach Games",
+      "probes": [
+        {
+          "text": "Michael brings the entire office staff out to the beach for outdoor competitions.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The coworkers compete in silly physical challenges together on the sand at the beach.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "A Benihana Christmas",
+      "probes": [
+        {
+          "text": "Andy and Michael are bringing a pair of waitresses from a local Benihana back to the office Christmas party.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Karen and Pam are hosting their own separate Christmas party apart from Angela's competing party.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The Party Planning Committee is locked in a disagreement over arrangements for the office Christmas party.",
+          "specificity": 2,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "23": {
+      "title": "The Job",
+      "probes": [],
+      "fine_only": []
+    }
+  }
+}
