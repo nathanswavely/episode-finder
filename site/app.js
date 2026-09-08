@@ -24,41 +24,60 @@ async function loadShow(slug) {
 
 // ---------- screens ----------
 async function screenHome() {
-  const shows = await loadIndex();
-  h(`
+  const intro = `
     <h1>Where did I stop?</h1>
-    <p class="lede">You watched a show a while ago, got partway in, and can't remember where. Answer a few questions and I'll find the episode to pick back up from — without telling you anything you haven't seen.</p>
+    <p class="lede">You watched a show a while ago, got partway in, and can't remember where. Answer a few questions about moments you might remember and I'll find the episode to pick back up from, without telling you anything you haven't seen.</p>`;
+  let shows;
+  try {
+    if (!index) h(`${intro}<div class="skeleton" aria-hidden="true"></div>`);
+    shows = await loadIndex();
+  } catch (e) {
+    h(`${intro}<div class="error">I couldn't load the list of shows. Check your connection and <a href="">try again</a>.</div>`);
+    return;
+  }
+  const chips = shows.slice(0, 12).map((s) => `<li><button data-slug="${s.slug}">${esc(s.title)}</button></li>`).join("");
+  h(`
+    ${intro}
     <div class="search">
-      <input id="q" type="search" placeholder="Which show?" autocomplete="off" autofocus>
+      <label for="q" class="muted small" style="display:none">Show</label>
+      <input id="q" type="search" placeholder="Which show?" autocomplete="off" autofocus aria-label="Which show?">
       <ul class="results" id="results"></ul>
     </div>
+    <div class="catalog" id="catalog">Shows so far:
+      <ul>${chips}${shows.length > 12 ? `<li class="muted">and ${shows.length - 12} more</li>` : ""}</ul>
+    </div>
   `);
-  const $q = document.getElementById("q"), $r = document.getElementById("results");
+  const $q = document.getElementById("q"), $r = document.getElementById("results"), $c = document.getElementById("catalog");
   const render = () => {
     const q = $q.value.trim().toLowerCase();
+    $c.hidden = !!q;
     if (!q) { $r.innerHTML = ""; return; }
     const hits = shows.filter((s) => s.title.toLowerCase().includes(q)).slice(0, 8);
     $r.innerHTML = hits.length
-      ? hits.map((s) => `<li><button data-slug="${s.slug}">${esc(s.title)} <span class="muted small">· ${s.seasons.length} season${s.seasons.length > 1 ? "s" : ""}</span></button></li>`).join("")
-      : `<li class="none">Not here yet. <a href="${document.getElementById("request-link").href}" rel="noopener">Request it</a> — it's a one-line issue.</li>`;
+      ? hits.map((s) => `<li><button data-slug="${s.slug}"><span>${esc(s.title)}</span><span class="muted small">${s.seasons.length} season${s.seasons.length > 1 ? "s" : ""}</span></button></li>`).join("")
+      : `<li class="none">Not here yet. <a href="${document.getElementById("request-link").href}" rel="noopener">Request it</a>; it's a one-line issue.</li>`;
   };
   $q.addEventListener("input", render);
-  $r.addEventListener("click", async (e) => {
+  const pick = async (e) => {
     const b = e.target.closest("button[data-slug]");
-    if (b) screenSeason(await loadShow(b.dataset.slug));
-  });
+    if (!b) return;
+    try { screenSeason(await loadShow(b.dataset.slug)); }
+    catch { h(`${intro}<div class="error">I couldn't load that show. <a href="">Try again</a>.</div>`); }
+  };
+  $r.addEventListener("click", pick);
+  $c.addEventListener("click", pick);
 }
 
 function screenSeason(show) {
   h(`
     <h1>${esc(show.title)}</h1>
-    <p class="lede">Which season were you in when you stopped?</p>
+    <p class="lede">Which season were you in when you stopped? A rough guess is fine; I'll check.</p>
     <div class="grid">
       ${show.seasons.map((s) => `<button class="btn" data-season="${s.season}">Season ${s.season}</button>`).join("")}
     </div>
     <div class="stack">
-      <button class="btn quiet" data-unsure>Not sure</button>
-      <button class="btn quiet" data-home>← Different show</button>
+      <button class="btn" data-unsure><span>Not sure, work it out with me</span></button>
+      <button class="btn quiet" data-home>Different show</button>
     </div>
   `);
   $app.onclick = (e) => {
@@ -84,7 +103,7 @@ function seasonMap(S) {
 
 class Walker {
   constructor(show) {
-    this.show = show; this.log = []; this.shown = new Set(); this.consented = null;
+    this.show = show; this.log = []; this.shown = new Set(); this.consented = null; this.walkSeason = null;
     this.seasons = new Map(show.seasons.map((S) => [S.season, S]));
   }
   stride(seasonNum) { return seasonMap(this.seasons.get(seasonNum)).n <= 16 ? 2 : 3; }
@@ -93,18 +112,20 @@ class Walker {
   ask(probe, seasonNum) {
     return new Promise((resolve) => {
       const n = this.log.length + 1;
-      const est = Math.max(n, Math.ceil(seasonMap(this.seasons.get(seasonNum) || this.show.seasons[0]).n / 2) + 2);
+      const label = this.walkSeason ? `season ${this.walkSeason}` : "finding your season";
+      const est = Math.max(n, Math.ceil(seasonMap(this.seasons.get(this.walkSeason || seasonNum) || this.show.seasons[0]).n / 2) + 2);
       const dots = Array.from({ length: est }, (_, i) => `<i class="${i < n ? "on" : ""}"></i>`).join("");
       h(`
         <p class="note">${n === 1
-          ? `${esc(this.show.title)}. I'll skip ahead as we go, so the most I'll ever mention is one episode past where you stopped.`
-          : `${esc(this.show.title)}, season ${seasonNum}`}</p>
+          ? `${esc(this.show.title)}, ${label}. I'll skip ahead as we go, so the most I'll ever mention is one episode past where you stopped.`
+          : `${esc(this.show.title)}, ${label}`}</p>
         <div class="dots" aria-hidden="true">${dots}</div>
+        <p class="prompt">Does this ring a bell?</p>
         <div class="card">${esc(probe)}</div>
         <div class="answers">
-          <button class="btn primary" data-a="clear">I clearly remember this <kbd>1</kbd></button>
-          <button class="btn" data-a="unsure">Not sure <kbd>2</kbd></button>
-          <button class="btn" data-a="no">No, I don't remember this <kbd>3</kbd></button>
+          <button class="btn primary" data-a="clear"><span>I clearly remember this</span><kbd>1</kbd></button>
+          <button class="btn" data-a="unsure"><span>Not sure</span><kbd>2</kbd></button>
+          <button class="btn" data-a="no"><span>No, I don't remember this</span><kbd>3</kbd></button>
         </div>
       `);
       const done = (a) => { $app.onclick = null; document.onkeydown = null; resolve(a); };
@@ -122,10 +143,10 @@ class Walker {
     return new Promise((resolve) => {
       h(`
         <p class="note">${esc(this.show.title)}</p>
-        <div class="card">You're not sure about that one. Want me to keep going? I might mention something from a bit further ahead than usual.</div>
+        <div class="card consent">You're not sure about that one, which is fine. Want me to keep going? If I do, I might mention something from a little further ahead than I promised.</div>
         <div class="answers">
-          <button class="btn primary" data-c="1">Keep going <kbd>1</kbd></button>
-          <button class="btn" data-c="0">Stop here <kbd>2</kbd></button>
+          <button class="btn primary" data-c="1"><span>Keep going</span><kbd>1</kbd></button>
+          <button class="btn" data-c="0"><span>Stop here and tell me what you've got</span><kbd>2</kbd></button>
         </div>
       `);
       const done = (v) => { $app.onclick = null; document.onkeydown = null; this.consented = v; resolve(v); };
@@ -161,6 +182,7 @@ class Walker {
   // Stride-1 walk over the first `stride` episodes of each season — all coarse-safe, so safe for
   // someone who hasn't started that season. A hazy season is the one to walk.
   async findSeason() {
+    this.walkSeason = null;
     let watched = null, hazy = [];
     for (const S of this.show.seasons) {
       const { probes } = seasonMap(S);
@@ -176,6 +198,7 @@ class Walker {
   }
 
   async run(seasonNum, { priorCheck = true, assumeWatchedThrough = 0 } = {}) {
+    this.walkSeason = seasonNum;
     const S = this.seasons.get(seasonNum);
     const { eps, n, probes, fineProbes } = seasonMap(S);
     const base = { show: this.show, seasonNum, S, eps, n, log: this.log };
@@ -237,30 +260,30 @@ async function runFindSeason(show) {
 // ---------- result ----------
 function screenResult(walker, r) {
   const { show } = r;
-  const t = (e) => `episode ${e}${r.eps?.get(e) ? ` <span class="muted">“${esc(r.eps.get(e).title)}”</span>` : ""}`;
+  const t = (e) => `episode ${e}${r.eps?.get(e) ? `, <span class="ep">${esc(r.eps.get(e).title)}</span>` : ""}`;
   let body = "", headline, actions = "";
 
   if (r.outcome === "resume") {
     headline = `Start at season ${r.seasonNum}, ${t(r.resume)}.`;
     const lines = [];
-    if (r.hazyFrom) lines.push(`You weren't sure from around here on — so if it's all familiar, keep skipping ahead. You'll know.`);
+    if (r.hazyFrom) lines.push(`You weren't sure from around here on, so if it's all familiar, keep skipping ahead. You'll know.`);
     else if (r.resume < r.n) lines.push(`If it's all familiar, skip to ${t(r.resume + 1)}.`);
     if (r.fallback < r.resume) lines.push(`If you might have stopped partway through ${t(r.fallback)}, start there instead.`);
     if (r.budgetHit) lines.push(`<span class="muted">I stopped at the question limit.</span>`);
     if (r.unchecked) lines.push(`<span class="muted">I had nothing to check ${t(r.unchecked)} with, so I'm assuming you didn't see it.</span>`);
     body = lines.map((l) => `<p>${l}</p>`).join("");
-    if (r.resume < r.n) actions += `<button class="btn" data-further="${r.resume}">I think I got further than that →</button>`;
+    if (r.resume < r.n) actions += `<button class="btn" data-further="${r.resume}"><span>Keep going, I think I got further</span></button>`;
   } else if (r.outcome === "finished") {
     headline = `Looks like you finished season ${r.seasonNum}.`;
     body = r.nextSeason ? `<p>Start season ${r.nextSeason}, episode 1.</p>` : `<p>That's the last season we have.</p>`;
-    if (r.nextSeason) actions += `<button class="btn" data-next="${r.nextSeason}">Not so sure — keep going into season ${r.nextSeason} →</button>`;
+    if (r.nextSeason) actions += `<button class="btn" data-next="${r.nextSeason}"><span>Keep going into season ${r.nextSeason}</span></button>`;
   } else if (r.outcome === "back_up") {
     headline = `Doesn't look like you finished season ${r.prevSeason}.`;
     body = `<p>Want to try that one instead?</p>`;
-    actions += `<button class="btn primary" data-season="${r.prevSeason}">Try season ${r.prevSeason}</button>`;
+    actions += `<button class="btn primary" data-season="${r.prevSeason}"><span>Try season ${r.prevSeason}</span></button>`;
   } else {
     headline = `Looks like you haven't started ${esc(show.title)}.`;
-    body = `<p>Start from the beginning — you're in for a good time.</p>`;
+    body = `<p>Start from the beginning. You're in for a good time.</p>`;
   }
 
   const seasonsUsed = [...new Set(r.log.map((l) => l.season))].map((n) => show.seasons.find((s) => s.season === n)).filter(Boolean);
@@ -275,13 +298,13 @@ function screenResult(walker, r) {
     </div>
     <div class="stack">
       ${actions}
-      <a class="btn" href="${feedback}" rel="noopener">Was this right? Tell me →</a>
-      <button class="btn quiet" data-again>Start over</button>
+      <a class="btn" href="${feedback}" rel="noopener"><span>Tell me if this was right</span></a>
+      <button class="btn quiet" data-again>Start over with another show</button>
     </div>
     <div class="attr">
       Episode summaries from Wikipedia, CC BY-SA 4.0:
       <ul>${seasonsUsed.map((s) => `<li><a href="${esc(s.source.url)}" rel="noopener">${esc(s.source.title)}</a> (revision ${s.source.revid})</li>`).join("")}</ul>
-      <p>${r.log.length} question${r.log.length === 1 ? "" : "s"}. Nothing you answered left your browser.</p>
+      <p>${r.log.length} question${r.log.length === 1 ? "" : "s"} asked.</p>
     </div>
   `);
   $app.onclick = (e) => {
