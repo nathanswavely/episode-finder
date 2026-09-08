@@ -357,6 +357,25 @@ list-what-it-reveals-then-judge prompt (v2) scored 10%, missing a car crash.
 Conclusion: the counterfactual judgement the consequence check needs is a
 model limit here. The audit stays on Opus.
 
+Second round, on the held-out half of the labels (13 leaks, 13 safe), three
+votes each with ties going to "reveals":
+
+| Consequence prompt on Muse | Leak recall | False alarms |
+|---|---|---|
+| v1 yes/no (shipped) | 30% | 0 |
+| v2 list-then-judge | 10% | 0 |
+| v3 decomposed: locate sentence → outcome? → already known? | 31% | 3/13 |
+| v4 few-shot, 16 of Opus's verdicts with reasons | **62%** | 2/13 |
+
+v3 is the diagnostic: it located the right summary sentence every time and
+then called "Gus is questioned by the DEA" and "Hank enlists Walt to plant a
+tracker" texture. The gap is judging that a fact matters, not finding it.
+Worked examples help most (30 → 62%) but the bar was 90%, and a 62% safety
+check ships a spoiler on roughly two of every five leaky probes. The audit
+stays on Opus; at ~$1 per season that is the cheapest part of the product to
+get right. Untried and cheap if ever wanted: few-shot with all 42 labels,
+tested on another show's labels (every audited season is a labelled set).
+
 The eval is reusable: any future model or prompt for the consequence check
 can be scored the same way before it touches shipped data.
 
