@@ -1,0 +1,474 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 2,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Better Call Saul season 2",
+    "revid": 1349384905,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_2&oldid=1349384905",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Switch",
+      "candidates": [
+        {
+          "text": "In Omaha, Gene finds himself locked inside the mall's dumpster room, staring at an emergency exit he dares not push.",
+          "specificity": 5,
+          "characters_named": [
+            "Gene"
+          ],
+          "grounded_in": "\"Gene\" accidentally locks himself in an Omaha, Nebraska mall's dumpster room, but because of the need to conceal his identity, he is unable to use the emergency exit",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy and Kim work a stock trader at a bar, letting him buy them expensive drinks and settle their tab.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "he persuades Kim to help him con a stock trader into buying them expensive drinks and food and then paying their tab",
+          "grounded_ok": true
+        },
+        {
+          "text": "Someone scratches the letters \"SG WAS HERE\" into the wall before finally being let out of the locked room.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "he leaves behind the words \"SG WAS HERE\" carved on the wall",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daniel reports a burglary to the police, insisting the thieves took his valuable baseball card collection.",
+          "specificity": 4,
+          "characters_named": [
+            "Daniel"
+          ],
+          "grounded_in": "Pryce's house is burgled and he calls the police to report his stolen baseball card collection",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy packs up and shuts down his little practice, telling Kim he is done with lawyering.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "closes down his practice. Kim confronts Jimmy about his odd behavior, but Jimmy is adamant about leaving the practice of law",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1332,
+        "cache_read": 0,
+        "cache_write": 10225
+      }
+    },
+    "2": {
+      "title": "Cobbler",
+      "candidates": [
+        {
+          "text": "Chuck turns up in person at the HHM offices and sits in on a meeting with Davis & Main, unnerving Jimmy.",
+          "specificity": 4,
+          "characters_named": [
+            "Chuck",
+            "Jimmy"
+          ],
+          "grounded_in": "Chuck visits the HHM office, where he sits in on a meeting with Davis & Main, unnerving Jimmy.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike runs into Daniel outside the police station, where Daniel has come in for an interview about his stolen baseball cards.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Daniel"
+          ],
+          "grounded_in": "Mike encounters Daniel (Pryce) arriving at the police station for an interview about his stolen baseball cards.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Howard drives out to Chuck's house to tell him in person where Jimmy has taken a job.",
+          "specificity": 3,
+          "characters_named": [
+            "Howard",
+            "Chuck",
+            "Jimmy"
+          ],
+          "grounded_in": "Howard visits Chuck and informs him about Jimmy's employment at Davis & Main",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike tracks Nacho down on his own and leans on him about the missing baseball card collection.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike",
+            "Nacho"
+          ],
+          "grounded_in": "Mike tracks down Nacho and threatens to inform Tuco about Nacho's secret drug deals",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode's most memorable material (the fetish-video story Jimmy invents and the staged video) is the resolution of the police investigation, so it's excluded under rule 1.",
+      "usage": {
+        "in": 40,
+        "out": 1790,
+        "cache_read": 10225,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Amarillo",
+      "candidates": [
+        {
+          "text": "Jimmy pays off a Sandpiper shuttle driver so he can climb aboard and pitch himself to a busload of residents.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy bribes a Sandpiper Crossing bus driver to allow him to solicit a bus full of residents on their way to lunch",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy puts together a television commercial about the class action lawsuit and gets it onto the air.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy creates and then airs a commercial about the lawsuit",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike stops by the veterinarian's clinic to look over what work is currently on offer.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike visits Dr. Caldera for new job offers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike sits parked outside Stacey's house through the night, keeping watch on the quiet street.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Stacey"
+          ],
+          "grounded_in": "Mike does overnight surveillance without Stacey's knowledge",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy stands before an HHM meeting presenting his client outreach report and the names he has signed up.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "At an HHM meeting, Jimmy presents his client outreach report",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1374,
+        "cache_read": 10225,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Gloves Off",
+      "candidates": [
+        {
+          "text": "Jimmy sits in a conference room facing the Davis & Main partners, who are furious about the television commercial.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy is scolded by the Davis & Main partners, angry at him for running a commercial without their consent",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim is summoned to a meeting with Howard and Chuck, where Howard takes her to task over Jimmy's ad.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim",
+            "Howard",
+            "Chuck",
+            "Jimmy"
+          ],
+          "grounded_in": "Howard reprimands her for not informing them about Jimmy's commercial",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nacho, rattled by how unpredictable Tuco has become, worries his own side deals will come to light.",
+          "specificity": 3,
+          "characters_named": [
+            "Nacho",
+            "Tuco"
+          ],
+          "grounded_in": "Nacho is concerned about Tuco's erratic behavior and the possibility that he might find out about his secret deals",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This episode's summary is almost entirely consequential: the demotion, the staged confrontation and the arrest are all outcomes or turning points, leaving very little inconsequential texture to work with.",
+      "usage": {
+        "in": 41,
+        "out": 1334,
+        "cache_read": 10225,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Rebecca",
+      "candidates": [
+        {
+          "text": "In a flashback soon after moving to Albuquerque, Jimmy charms Chuck's wife with easy patter while Chuck sits uncomfortably by.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "He meets Chuck's wife, Rebecca, and succeeds in charming her, making Chuck uncomfortable",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chuck attempts the same lighthearted routine his brother pulled off so easily, and it lands with a thud.",
+          "specificity": 4,
+          "characters_named": [
+            "Chuck"
+          ],
+          "grounded_in": "Chuck's later attempt to imitate Jimmy falls flat",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim works the phone through a long list of old school and professional contacts, hunting for a big client.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "She calls many professional and school contacts, hoping to land a major new client for HHM.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy finds Kim among the boxes in the document review room and floats the idea of suing the firm.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "Jimmy meets Kim in the HHM document room and proposes she sue the firm",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1552,
+        "cache_read": 10225,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Bali Ha'i",
+      "candidates": [
+        {
+          "text": "Unable to sleep in his plush corporate apartment, Jimmy drives back to his old boiler room office and beds down there.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "unable to sleep in his corporate apartment, he returns to his old boiler room office to sleep",
+          "grounded_ok": true
+        },
+        {
+          "text": "Back at her old desk at HHM, Kim is handed menial busywork, including a hopeless motion to argue in court.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "treated coldly by Howard who gives her humiliating and menial assignments, including arguing an unwinnable motion in court",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim, blowing off steam, works a bar con with Jimmy on an investor and keeps the resulting check as a souvenir.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim",
+            "Jimmy"
+          ],
+          "grounded_in": "Kim relieves her stress by running another con with Jimmy, fooling an investor into giving them a $10,000 check, which Kim keeps as a souvenir",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of Mike's material this episode is intimidation and threat that leads directly to his decision, so it is excluded under rule 1; the rival firm's job offer comes from a character introduced here.",
+      "usage": {
+        "in": 43,
+        "out": 1191,
+        "cache_read": 10225,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Inflatable",
+      "candidates": [
+        {
+          "text": "In a flashback, a boy works the counter of his family's corner store while a stranger tells his father a hard-luck story.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "thirteen-year-old Jimmy is working in his family's store when a grifter enters and attempts to con Jimmy's father by claiming to be a needy parent with an emergency",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy sits in as Mike's lawyer while Mike tells the district attorney the gun in the altercation was his own.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Mike"
+          ],
+          "grounded_in": "Jimmy represents Mike when Mike claims to the district attorney that the gun in his altercation with Tuco was not Tuco's",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike promises Stacey he will buy her a house in a safer neighborhood.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike",
+            "Stacey"
+          ],
+          "grounded_in": "Mike promises to buy Stacey a new house in a safer neighborhood",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Jimmy's flashy behavior at Davis & Main is the episode's most visual material, but the summary frames it explicitly as his scheme to be fired, so it is excluded as setup for an outcome.",
+      "usage": {
+        "in": 40,
+        "out": 1554,
+        "cache_read": 10225,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Fifi",
+      "candidates": [
+        {
+          "text": "Jimmy talks his way onto an Air Force base and films a vintage bomber for a television ad.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy perpetrates a ruse at a U.S. Air Force base in order to gain access to the B-29 bomber FIFI and shoot video footage for use in TV ads promoting his law practice.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy and Kim move their new offices into a converted dentists' suite, complete with leftover dental fittings.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "Kim and Jimmy set up their practices in a re-purposed dentists' office",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike, parked and watching, tails a cargo truck out to an isolated garage on the edge of town.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "While surveilling Hector, Mike follows a cargo truck to a remote garage",
+          "grounded_ok": true
+        },
+        {
+          "text": "At home, Mike patiently cuts up a length of garden hose and works on it at his table.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "uses a length of garden hose to assemble a homemade spike strip",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1189,
+        "cache_read": 10225,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Nailed",
+      "candidates": [
+        {
+          "text": "Mike works alone in disguise on an empty desert road, going at a cargo truck's tire.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "A disguised Mike ambushes one of Hector's trucks, extracts the $250,000 hidden in a tire",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy leans across a copy shop counter, quietly working on the young clerk behind it.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "he goes there to buy the clerk's silence",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy loiters on the sidewalk across the street, keeping his eyes on a copy shop's front window.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "While Jimmy observes from across the street",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning-point material (a killing, an accusation, a collapse, the Mesa Verde outcome), so the safe texture is thin.",
+      "usage": {
+        "in": 39,
+        "out": 2275,
+        "cache_read": 10225,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Klick",
+      "candidates": [
+        {
+          "text": "Jimmy slips out of their mother's hospital room to hunt down sandwiches, leaving Chuck sitting at the bedside.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "Chuck and Jimmy are beside their mother's hospital bed and Jimmy leaves to buy sandwiches",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy crouches on the copy shop floor beside Chuck, talking to him while they wait for an ambulance.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "Jimmy rushes into the copy store where Chuck has hit his head, comforting him while they wait for an ambulance",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Almost everything in this summary is a turning point: the mother's death, Mike's stakeout and the warning left on his car, Chuck's retirement, Jimmy's confession and the hidden tape recorder. Both probes offered are somewhat borderline — the first is the setup for the deathbed moment, the second resolves the previous episode's cliffhanger — so use with care.",
+      "usage": {
+        "in": 38,
+        "out": 2156,
+        "cache_read": 10225,
+        "cache_write": 0
+      }
+    }
+  }
+}

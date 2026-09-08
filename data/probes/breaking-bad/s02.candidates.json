@@ -1,0 +1,647 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 2,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Breaking Bad season 2",
+    "revid": 1362313043,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_2&oldid=1362313043",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Seven Thirty-Seven",
+      "candidates": [
+        {
+          "text": "Skyler brings up Marie's shoplifting with Hank, and finds he already knows more about it than expected.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Marie",
+            "Hank"
+          ],
+          "grounded_in": "Skyler tells Hank about Marie's shoplifting, and learns she has already been receiving therapy for kleptomania",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank sits going through security camera footage from the warehouse where the methylamine barrel went missing.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank"
+          ],
+          "grounded_in": "Hank reviews the security surveillance footage of the methylamine warehouse break-in",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt paces at home, quietly working out the chemistry of a poison that would leave no trace.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt develops a plan to poison Tuco with untraceable ricin",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats are deaths, the manhunt, or the cliffhanger; the safe texture is thin.",
+      "usage": {
+        "in": 46,
+        "out": 1554,
+        "cache_read": 0,
+        "cache_write": 10238
+      }
+    },
+    "2": {
+      "title": "Grilled",
+      "candidates": [
+        {
+          "text": "At the desert hideout Tuco cares for an elderly relative in a wheelchair who communicates only by ringing a bell.",
+          "specificity": 5,
+          "characters_named": [
+            "Tuco"
+          ],
+          "grounded_in": "his uncle Hector Salamanca, a former drug kingpin who is now incapacitated due to a stroke and can only communicate with a bell",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tuco talks up his idea of taking Walt south to Mexico to run a cooking operation in the jungle.",
+          "specificity": 5,
+          "characters_named": [
+            "Tuco",
+            "Walt"
+          ],
+          "grounded_in": "Tuco voices his plan to take Walt to Mexico and run a covert cooking operation in the jungle",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank, helping Skyler look for Walt, pays a visit to Jesse's mother at her home.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank",
+            "Skyler",
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "After visiting Jesse's mother",
+          "grounded_ok": true
+        },
+        {
+          "text": "Marie mentions to Skyler that Walt has been carrying around a second cell phone.",
+          "specificity": 3,
+          "characters_named": [
+            "Marie",
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "After Marie reveals that Walt has a second cell phone",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1294,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Bit by a Dead Bee",
+      "candidates": [
+        {
+          "text": "Walt strips off all his clothes in a supermarket and wanders the aisles looking dazed and lost.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt goes to a supermarket alone, removes all his clothes, and wanders around the aisles feigning a disoriented state.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Badger helps Jesse load all the lab equipment out of his house into the RV, which gets towed away.",
+          "specificity": 5,
+          "characters_named": [
+            "Badger",
+            "Jesse"
+          ],
+          "grounded_in": "with Badger's help, packs all of his lab equipment into the RV and arranges it to be towed",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse holes up in a cheap motel room with a prostitute, telling anyone who asks he was there all weekend.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "allows the DEA to find him in a motel room with a prostitute, with whom he claims to have been shacked up all weekend",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt sits through sessions with a hospital psychiatrist, insisting he cannot remember anything about the past several days.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt is scheduled to undergo ongoing psychiatric evaluation",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt and Jesse part ways in the desert and hitchhike separately back toward the city.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "they split up to hitchhike back to the city",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 46,
+        "out": 1246,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Down",
+      "candidates": [
+        {
+          "text": "Walt takes Walt Jr. out for a driving lesson, trying to reconnect with his son.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Walt Jr."
+          ],
+          "grounded_in": "Walt tries to reconnect with Walt Jr. by giving him a driving lesson.",
+          "grounded_ok": true
+        },
+        {
+          "text": "With nowhere to sleep, Jesse climbs into the fenced lot where the RV sits and spends the night inside it.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse breaks into the lot where his RV is being kept and spends the night in it",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler starts disappearing for entire days, and refuses to tell Walt where she has been.",
+          "specificity": 3,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler begins going out all day and refuses to tell Walt of her whereabouts",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse's parents, who own the house, tell him he has to move out of it.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse's parents, who own his house, order him to vacate",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse's motorbike is stolen, leaving him with nothing and nowhere to go.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Now homeless and having his motorbike stolen",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 37,
+        "out": 833,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Breakage",
+      "candidates": [
+        {
+          "text": "Jesse, back on his feet, settles his debts and moves into a new apartment.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse begins to re-establish his life, paying off his debts and getting a new place to live.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt frets over a mounting pile of medical bills, including the charges from his hospital stay.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "he is concerned about the growing medical bills, which include the hospital visit in his \"fugue state\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse takes an interest in the young woman who lives next door and rents him his place.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "He develops an interest in his new next-door neighbor and landlord",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank receives a promotion at work, though quiet panic still creeps up on him afterward.",
+          "specificity": 3,
+          "characters_named": [
+            "Hank"
+          ],
+          "grounded_in": "Hank is promoted and appointed to a tristate drug task force, but experiences panic attacks",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1183,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Peekaboo",
+      "candidates": [
+        {
+          "text": "Jesse makes food for a filthy, neglected little boy in a wrecked house and sits watching TV with him.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "finds only their young and heavily neglected son at the house. Jesse makes the boy food and watches TV with him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gretchen turns up unannounced at the White house, where Skyler greets her with heartfelt gratitude.",
+          "specificity": 4,
+          "characters_named": [
+            "Gretchen",
+            "Skyler"
+          ],
+          "grounded_in": "Gretchen Schwartz drops by the Whites' home where Skyler expresses her gratitude for paying for Walt's treatment",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse lets himself into a squalid house hunting the pair of addicts who ripped off Skinny Pete.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Skinny Pete"
+          ],
+          "grounded_in": "Jesse tracks down the couple—a man named Spooge and his female partner—who ripped off Skinny Pete",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt is back at school, standing in front of his chemistry class again after his time away.",
+          "specificity": 2,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt returns to work.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1415,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Negro y Azul",
+      "candidates": [
+        {
+          "text": "Hank, transferred to the El Paso office, is the odd man out among agents who treat him as a gringo.",
+          "specificity": 5,
+          "characters_named": [
+            "Hank"
+          ],
+          "grounded_in": "Hank struggles to fit in at his new job in El Paso where he is perceived as a \"gringo\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Unable to reach Jesse, Walt takes it upon himself to make the product deliveries to the street dealers.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Walt"
+          ],
+          "grounded_in": "Jesse is not providing product to his dealers, so Walt arranges to deliver it.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse holes up at home, ignoring calls, while Walt keeps trying to get hold of him.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse",
+            "Walt"
+          ],
+          "grounded_in": "Walt has trouble getting in touch with Jesse, who has been staying at home",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler goes job hunting and ends up back at the bookkeeping desk of her old employer.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler"
+          ],
+          "grounded_in": "Skyler seeks a job and is rehired as a bookkeeper by her previous boss",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode's most memorable image (the tortoise) is inseparable from the bombing, so it is excluded under rule 1.",
+      "usage": {
+        "in": 42,
+        "out": 1358,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Better Call Saul",
+      "candidates": [
+        {
+          "text": "Walt sits with Hank and uses his own cancer diagnosis as a pep talk to get him moving again.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Hank"
+          ],
+          "grounded_in": "Walt gives him a motivational speech about his cancer diagnosis",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse and Jane's flirtation across the courtyard has turned into a full sexual relationship.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse",
+            "Jane"
+          ],
+          "grounded_in": "Jesse and Jane have begun a sexual relationship",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank finally gets himself out of the house, only for another panic attack to catch him.",
+          "specificity": 2,
+          "characters_named": [
+            "Hank"
+          ],
+          "grounded_in": "Hank is encouraged to leave the house, but still experiences panic attacks",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material is off-limits: the lawyer and the ex-convict stand-in are both introduced here, and Badger's arrest and its aftermath are the plot spine.",
+      "usage": {
+        "in": 42,
+        "out": 1561,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "4 Days Out",
+      "candidates": [
+        {
+          "text": "Walt and Jesse haul supplies into the RV for a marathon cook stretched across a long weekend in the desert.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "Walt and Jesse set off for the desert for a marathon cooking session over an extended weekend",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt and Jesse end up sitting outside the RV in the freezing desert with no food or water left.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "Walt and Jesse find themselves stuck in the middle of the desert, cold and without food or water",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt tells his family he is going away to visit his mother for a few days.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "With an excuse of visiting his mother",
+          "grounded_ok": true
+        },
+        {
+          "text": "Saul sits down and works out the numbers on exactly how much money Walt actually has.",
+          "specificity": 4,
+          "characters_named": [
+            "Saul",
+            "Walt"
+          ],
+          "grounded_in": "After Saul calculates the numbers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse has left the RV's keys sitting in the ignition, and the battery is drained flat.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse accidentally leaves the keys in the ignition, inadvertently draining the RV's battery",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 967,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Over",
+      "candidates": [
+        {
+          "text": "At a backyard party for family and friends, Walt keeps refilling Walt Jr.'s glass with tequila.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt",
+            "Walt Jr."
+          ],
+          "grounded_in": "Walt gets drunk and forces Walt Jr. to drink an excessive amount of tequila",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler organizes a gathering to thank everyone who supported the family through Walt's illness.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler decides to throw a party to celebrate the news and thank all of their friends for their support",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse is caught off guard when Jane's father drops by unannounced to see her.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Jane"
+          ],
+          "grounded_in": "he is taken aback when her father, Donald, drops in to see her",
+          "grounded_ok": true
+        },
+        {
+          "text": "Wandering a hardware store's aisles, Walt takes a close interest in what two other shoppers are buying.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "At a hardware store, Walt sees two men with an RV buying materials to make meth.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 37,
+        "out": 1678,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Mandala",
+      "candidates": [
+        {
+          "text": "Walt sits alone in a booth of a brightly lit fried chicken franchise, waiting to be approached by a contact.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "the owner of a regional fast food chain called Los Pollos Hermanos",
+          "grounded_ok": true
+        },
+        {
+          "text": "Saul lays out an entirely new way of moving product now that street-level dealing has stopped working.",
+          "specificity": 3,
+          "characters_named": [
+            "Saul"
+          ],
+          "grounded_in": "Saul proposes a new distribution method",
+          "grounded_ok": true
+        },
+        {
+          "text": "Back at her old bookkeeping desk, Skyler works her way through stacks of Ted's company paperwork.",
+          "specificity": 3,
+          "characters_named": [
+            "Skyler",
+            "Ted"
+          ],
+          "grounded_in": "Skyler finds out that Ted has been engaging in tax evasion from the IRS",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this summary is a death, a relapse, a confession, a discovery, or the formation of a new alliance, so usable texture is thin.",
+      "usage": {
+        "in": 39,
+        "out": 1607,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Phoenix",
+      "candidates": [
+        {
+          "text": "Walt Jr. sits at a computer building a donations website asking strangers to help pay his father's medical bills.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt Jr."
+          ],
+          "grounded_in": "Walt Jr. sets up a website to gather donations for his father's medical expenses",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse comes demanding his share of the money, and Walt tells him he must first prove he's clean.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse",
+            "Walt"
+          ],
+          "grounded_in": "Jesse confronts Walt about his share of the payment, but Walt refuses to disburse the funds until Jesse can prove his sobriety",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable material (the birth, Jane's blackmail, the final bedroom scene, Donald's discovery) is either a turning point or its direct setup, so only two safe moments remain.",
+      "usage": {
+        "in": 40,
+        "out": 1187,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "ABQ",
+      "candidates": [
+        {
+          "text": "Walt Jr.'s donation website takes off, and local news crews take an interest in the family's story.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt Jr."
+          ],
+          "grounded_in": "which attracts the attention of the media, causing him to be overcome with shame",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt lies on a hospital gurney, groggy and slurring as the anesthetic takes hold before his operation.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "while under the initial effects of anesthesia moments before his surgery",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt drives through the roughest corners of Albuquerque at night, searching for Jesse.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "Walt later locates him in a crack house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Saul brings in a quiet, older fixer who does discreet cleanup work off the books.",
+          "specificity": 3,
+          "characters_named": [
+            "Saul"
+          ],
+          "grounded_in": "Walt contacts Saul, who sends his private investigator and cleaner",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1468,
+        "cache_read": 10238,
+        "cache_write": 0
+      }
+    }
+  }
+}

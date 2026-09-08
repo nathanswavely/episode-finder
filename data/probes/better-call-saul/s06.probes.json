@@ -1,0 +1,222 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 6,
+  "source": {
+    "title": "Better Call Saul season 6",
+    "revid": 1365317333,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_6&oldid=1365317333",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Wine and Roses",
+      "probes": [
+        {
+          "text": "Kim keeps watch on a leisurely round of golf while Jimmy slips unnoticed into the country club's locker room.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A long wordless sequence of a mansion being emptied, its white Cadillac rolled up onto a flatbed truck.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A souvenir tequila bottle stopper tumbles out of a cabinet as it is carried away with the furniture.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Carrot and Stick",
+      "probes": [
+        {
+          "text": "Jimmy turns up at a strip-mall tax preparation office run by a chirpy suburban husband and wife he knows.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Gus and Bolsa stand over Hector at the nursing home, promising him they will avenge Lalo.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Rock and Hard Place",
+      "probes": [
+        {
+          "text": "Jimmy and Kim toy with the idea of buying a duplicate of Howard's car before settling on something simpler.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nacho, his shot-up truck no longer drivable, is left to hole up out of sight until daylight.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Hit and Run",
+      "probes": [
+        {
+          "text": "Evicted from the back room of the nail salon, Jimmy scouts out a potential new office and shows it to Kim.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy finds his fellow lawyers now cold toward him, while local criminals keep turning up wanting him to represent them.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy, done up to pass as Howard, drives Howard's car and picks up a woman from a motel.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Black and Blue",
+      "probes": [
+        {
+          "text": "Jimmy brings his old receptionist back on staff, hiring her to run the front desk again.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Kim keeps glancing over her shoulder, still unsettled by the possibility that Lalo is out there.",
+          "specificity": 2,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Axe and Grind",
+      "probes": [
+        {
+          "text": "A veterinarian shows Jimmy and Kim his thick encrypted notebook of criminal contacts, mentioning he is getting out of the business.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Cliff invites Kim to Santa Fe to meet foundation people who fund work like her pro bono defense practice.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A private investigator reports that the couple's days are dull and routine, apart from one recent cash withdrawal.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Plan and Execution",
+      "probes": [],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Point and Shoot",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Jimmy sits bound to a chair in his own living room while Lalo heads back out into the night.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "Fun and Games",
+      "probes": [
+        {
+          "text": "Out of his usual uniform, Gus sits at a wine bar talking with his favourite sommelier, then leaves early.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Nippy",
+      "probes": [
+        {
+          "text": "In the department store, Gene lingers over a loud, garish shirt on the rack, then walks away without buying it.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Breaking Bad",
+      "probes": [
+        {
+          "text": "At a set time, Gene uses a payphone to make a long-arranged call to Francesca.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Gene works a bar, buying rounds for a well-off man drinking alone until he is thoroughly drunk.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Jeff, driving a drunk passenger home, keeps offering him a bottle of water from the front seat.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Waterworks",
+      "probes": [
+        {
+          "text": "In a flashback, Kim runs into Jesse on the sidewalk outside Saul's office building.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Kim's days now consist of a drab office job at a Florida company that manufactures sprinklers.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "13": {
+      "title": "Saul Gone",
+      "probes": [
+        {
+          "text": "In a flashback, Saul asks Mike what he most regrets; Mike answers, then dismisses Saul's own reply as shallow.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Saul and Walt trade answers about their biggest regrets while holed up together, and Walt scorns what Saul comes up with.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy cuts the conversation with his brother short, assuming the interest in his work is really criticism.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

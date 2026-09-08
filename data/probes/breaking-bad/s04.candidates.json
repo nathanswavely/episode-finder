@@ -1,0 +1,596 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 4,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Breaking Bad season 4",
+    "revid": 1365318951,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_4&oldid=1365318951",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Box Cutter",
+      "candidates": [
+        {
+          "text": "Hank, stuck at home after his injury, snaps at Marie and buries himself in collecting and cataloging minerals.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank",
+            "Marie"
+          ],
+          "grounded_in": "Hank struggles with life at home after his injury, snapping at Marie and becoming more preoccupied with collecting and cataloging minerals.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A jumpy Saul has taken on a personal bodyguard who follows him around.",
+          "specificity": 4,
+          "characters_named": [
+            "Saul"
+          ],
+          "grounded_in": "a paranoid Saul hires a personal bodyguard",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler cannot reach Walt on the phone and fears something has happened to him.",
+          "specificity": 3,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler fears the worst when she cannot contact Walt",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt and Jesse are kept waiting in the lab for hours under Mike and Victor's watch.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse",
+            "Mike",
+            "Victor"
+          ],
+          "grounded_in": "Walt and Jesse are held in the lab by Victor and Mike",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 883,
+        "cache_read": 0,
+        "cache_write": 12562
+      }
+    },
+    "2": {
+      "title": "Thirty-Eight Snub",
+      "candidates": [
+        {
+          "text": "Jesse installs an elaborate new stereo system in his living room, and the party there simply never ends.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "buys an elaborate stereo system and throws an ongoing party with Badger and Skinny Pete",
+          "grounded_ok": true
+        },
+        {
+          "text": "Andrea stops by Jesse's place, worried about him; he presses a thick stack of cash on her for Brock.",
+          "specificity": 4,
+          "characters_named": [
+            "Andrea",
+            "Jesse",
+            "Brock"
+          ],
+          "grounded_in": "Andrea visits Jesse and expresses concern for his behavior; Jesse, unable to face his emotions, instead hands her a large stack of cash for Brock's future",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank does his physical therapy sessions at home, and Marie is finding his mood harder and harder to bear.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank",
+            "Marie"
+          ],
+          "grounded_in": "Marie struggles with Hank's deepening depression as he continues his physical therapy sessions at home",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler makes her pitch to the man who owns the car wash where Walt once worked.",
+          "specificity": 3,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler pushes forward with her plan to buy the car wash that used to employ Walt",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 46,
+        "out": 1004,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Open House",
+      "candidates": [
+        {
+          "text": "Walt seethes at the new motion-detecting surveillance camera watching him from the ceiling of the lab.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt is furious about a motion-detecting surveillance camera installed in the lab.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse's house party runs around the clock, and he flings piles of cash into the middle of the chaos.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse continues to open his house up for 24-hour, drug-fueled parties, deliberately throwing piles of money in the midst of the chaos.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Marie spends her afternoons drifting alone through strangers' real-estate open houses.",
+          "specificity": 4,
+          "characters_named": [
+            "Marie"
+          ],
+          "grounded_in": "stealing items from various real-estate open houses",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1141,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Bullet Points",
+      "candidates": [
+        {
+          "text": "Skyler hands Walt a typed list of talking points and makes him rehearse his confession line by line.",
+          "specificity": 5,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler makes Walt meticulously rehearse their \"spontaneous\" admission of his problem",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt grumbles about the wording of a speech he is supposed to deliver spontaneously to Hank and Walt Jr.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Hank",
+            "Walt Jr."
+          ],
+          "grounded_in": "Walt and Skyler plan to tell Hank and Walt Jr. that they paid for Hank's medical bills and the car wash with Walt's illicit gambling winnings",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank asks Walt to read aloud a passage about a chemical process from a handwritten lab notebook.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank",
+            "Walt"
+          ],
+          "grounded_in": "When asked by Hank to read about a chemical process written in Gale's lab notes",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1306,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Shotgun",
+      "candidates": [
+        {
+          "text": "Jesse rides along with Mike all day, driving from stop to stop across New Mexico picking up money.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Mike"
+          ],
+          "grounded_in": "he takes Jesse on multiple collections throughout New Mexico",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt and Skyler sign the paperwork that officially makes them the owners of the car wash.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Skyler"
+          ],
+          "grounded_in": "Walt and Skyler officially purchase the car wash",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt, agitated and alone at the lab, demands to know from Mike where Jesse has been taken.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt",
+            "Mike",
+            "Jesse"
+          ],
+          "grounded_in": "Mike assures Walt that Jesse is safe",
+          "grounded_ok": true
+        },
+        {
+          "text": "The family sits down together for dinner, and over the meal the talk turns to Gale.",
+          "specificity": 3,
+          "characters_named": [
+            "Gale"
+          ],
+          "grounded_in": "During a family dinner, Hank reveals",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1095,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Cornered",
+      "candidates": [
+        {
+          "text": "Walt hands cash to three workers at the industrial laundry, having them come downstairs and scrub the lab.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt pays three workers at the laundry facility to clean the lab",
+          "grounded_ok": true
+        },
+        {
+          "text": "Worn down by his son's pleading for a new car, Walt buys him a Dodge Challenger.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt gives into Walt Jr.'s pleas for a new car and buys him a Dodge Challenger",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats (Skyler leaving with Holly, the deportations, Gus flattering Jesse) are framed as conflict outcomes or manipulations, so only two safe moments remained.",
+      "usage": {
+        "in": 39,
+        "out": 841,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Problem Dog",
+      "candidates": [
+        {
+          "text": "Walt takes his son's new Challenger out to an empty parking lot and spins it around in furious circles.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt angrily drives the Challenger to a parking lot; he takes it on a joyride",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler sits with far more cash than she expected, unsure the car wash can plausibly account for it.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler"
+          ],
+          "grounded_in": "Skyler, taken aback by the amount of money Walt makes, is unsure how she will launder all of it through the car wash successfully",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank has Walt Jr. drive him out to Los Pollos Hermanos for a meal.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank",
+            "Walt Jr."
+          ],
+          "grounded_in": "Hank visits Los Pollos Hermanos with Walt Jr.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse turns up again at his twelve-step meeting and speaks in front of the group.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "He returns to his 12-step group",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats (ricin, the cartel meeting, the fingerprint match) are turning points or setups for them, so the safe pool is small.",
+      "usage": {
+        "in": 41,
+        "out": 1515,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Hermanos",
+      "candidates": [
+        {
+          "text": "Gus sits calmly in an interview room, fielding questions from Hank and a table of federal and local investigators.",
+          "specificity": 5,
+          "characters_named": [
+            "Gus",
+            "Hank"
+          ],
+          "grounded_in": "Gus is questioned by Hank, the DEA, and the APD",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank, stuck in the passenger seat, hands Walt a magnetic tracking device and sends him off to attach it under a car.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank",
+            "Walt"
+          ],
+          "grounded_in": "Hank enlists Walt to plant an illegal tracking device on Gus' car",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gus sits at the bedside of the old man in the nursing home, speaking quietly to him about his nephews.",
+          "specificity": 4,
+          "characters_named": [
+            "Gus"
+          ],
+          "grounded_in": "Gus visits Hector in a nursing home and informs him of the death of his nephews",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt again presses Jesse to use the poison on Gus at the very first opportunity he gets.",
+          "specificity": 2,
+          "characters_named": [
+            "Walt",
+            "Jesse",
+            "Gus"
+          ],
+          "grounded_in": "Walt again instructs Jesse to poison Gus as soon as possible",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The 1989 flashback material is almost entirely setup for a killing, so I avoided it; that leaves a thin set of usable moments.",
+      "usage": {
+        "in": 40,
+        "out": 1506,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Bug",
+      "candidates": [
+        {
+          "text": "Skyler pulls open a hatch and climbs down into the crawl space beneath the house, where the cash is kept.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler"
+          ],
+          "grounded_in": "Skyler later ventures into the crawl space underneath her home, where she has been storing Walt's cash.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Sitting in on a tax audit, Skyler plays the giggling, hopeless bookkeeper who knows nothing about standard accounting practices.",
+          "specificity": 5,
+          "characters_named": [
+            "Skyler"
+          ],
+          "grounded_in": "pretends to be under-qualified and completely ignorant of standard accounting practices",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse is put to work scrubbing a warehouse and hauling every trace of product out of it.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "forcing Jesse to help clean and move all the product out of it",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive imagery (the sniper attack on the distribution center, the Walt–Jesse fight) is either a turning point or its immediate setup, so the usable pool is small.",
+      "usage": {
+        "in": 38,
+        "out": 1639,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Salud",
+      "candidates": [
+        {
+          "text": "Walt Jr. lets himself into his father's apartment and finds him bloodied and slurring, then stays the night to look after him.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt Jr.",
+            "Walt"
+          ],
+          "grounded_in": "Concerned, Walt Jr. pays Walt a visit, only to find him bloodied and incoherent; Walt Jr. stays to take care of his father.",
+          "grounded_ok": true
+        },
+        {
+          "text": "In the morning Walt apologises to his son for the drugged state he was in the night before.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "The following morning, Walt apologizes for his drugged state",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt fails to show up for his son's birthday gathering at the house.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt misses his son's birthday party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse works through a cook in an unfamiliar lab across the border, with cartel chemists watching him.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse, Mike, and Gus fly to the cartel's meth lab in Mexico. After a successful cook",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ted shows off a freshly leased Mercedes, talking about getting his company running again before dealing with the IRS.",
+          "specificity": 3,
+          "characters_named": [
+            "Ted"
+          ],
+          "grounded_in": "Ted promptly leases a Mercedes and refuses to pay his back taxes, telling Skyler he wants to get his business back up and running first",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the episode's back half is the Mexico massacre and its fallout, which is off-limits; probes lean on the Walt Jr. subplot.",
+      "usage": {
+        "in": 38,
+        "out": 1461,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Crawl Space",
+      "candidates": [
+        {
+          "text": "Ted, handed a way out of his tax trouble, still won't write the check to the IRS.",
+          "specificity": 3,
+          "characters_named": [
+            "Ted"
+          ],
+          "grounded_in": "Ted still refuses to pay the IRS with the money from Skyler",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt turns up to plead with Jesse face to face, and Jesse stays completely unmoved.",
+          "specificity": 2,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "Jesse is unmoved when Walt confronts him and begs him to stop",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt is behind the wheel with Hank beside him when the car ends up in a collision.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt",
+            "Hank"
+          ],
+          "grounded_in": "Walt deliberately gets Hank into a car accident",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Almost every beat in this episode is a turning point (a death, a firing, threats against the family, the crawl space breakdown, the DEA tip), so the remaining candidates are thin and two are borderline on rule 1.",
+      "usage": {
+        "in": 41,
+        "out": 2224,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "End Times",
+      "candidates": [
+        {
+          "text": "Skyler, Walt Jr. and the baby move into Hank and Marie's house, with agents watching outside.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Walt Jr.",
+            "Hank",
+            "Marie"
+          ],
+          "grounded_in": "Skyler, Walt Jr., and Holly go under DEA protection at Hank and Marie's home",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt sits alone in his shuttered, barricaded house, furniture pushed against the doors, waiting for someone to come.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "confronts Walt at the latter's barricaded home",
+          "grounded_ok": true
+        },
+        {
+          "text": "Stuck at home, Hank sends Gomez out with a team to search a big industrial laundry.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank",
+            "Gomez"
+          ],
+          "grounded_in": "Hank sends Gomez to search the industrial laundromat",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats are turning points (poisoning, hospital confrontation, car bomb), so the safe texture is limited.",
+      "usage": {
+        "in": 38,
+        "out": 1183,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Face Off",
+      "candidates": [
+        {
+          "text": "Detectives press Jesse with questions in a hospital corridor until Saul turns up and shuts the interview down.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Saul"
+          ],
+          "grounded_in": "Detectives question Jesse about Brock, but Saul intervenes.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse stands at the lab equipment cooking a batch alone, with a gun trained on him the whole time.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "held at gunpoint in the lab, forced to cook",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this finale is a turning point or reveal, so usable texture is limited.",
+      "usage": {
+        "in": 39,
+        "out": 1061,
+        "cache_read": 12562,
+        "cache_write": 0
+      }
+    }
+  }
+}

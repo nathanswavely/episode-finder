@@ -1,0 +1,1194 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 6,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Wine and Roses",
+      "candidates": [
+        {
+          "text": "Kim keeps watch on a leisurely round of golf while Jimmy slips unnoticed into the country club's locker room.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows the pair carrying out a scheme already telegraphed by their stated plan to sabotage Howard, without revealing what they do, whether it works, or any outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the pair executing a con at a country club, which the viewer already knows they planned against Howard; no outcome, discovery or consequence is disclosed."
+                }
+              ],
+              "reason": "It shows the pair carrying out a scheme already telegraphed by their stated plan to sabotage Howard, without revealing what they do, whether it works, or any outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Gus sets Nacho up in a roadside motel room and tells him to sit tight there.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Nacho survived his escape from the assassination attempt and is being sheltered/handled by Gus, answering the open question of his fate immediately after fleeing."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Nacho survives his escape from Lalo's compound and that Gus shelters him, answering the open question of whether Nacho gets away after opening the gate."
+                }
+              ],
+              "reason": "It confirms Nacho survived his escape from the assassination attempt and is being sheltered/handled by Gus, answering the open question of his fate immediately after fleeing."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Nacho survived his escape from the assassination attempt and is being sheltered/handled by Gus, answering the open question of his fate immediately after fleeing."
+        },
+        {
+          "text": "A long wordless sequence of a mansion being emptied, its white Cadillac rolled up onto a flatbed truck.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The wordless montage of a mansion being cleared out is atmospheric texture that confirms nothing beyond what the Gene flash-forwards already establish about Saul eventually fleeing; no pending conflict's outcome is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows from the Gene flash-forwards that Saul's life collapsed and he fled, so a wordless montage of his possessions being cleared out adds atmosphere rather than any new outcome or answer."
+                }
+              ],
+              "reason": "The wordless montage of a mansion being cleared out is atmospheric texture that confirms nothing beyond what the Gene flash-forwards already establish about Saul eventually fleeing; no pending conflict's outcome is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A souvenir tequila bottle stopper tumbles out of a cabinet as it is carried away with the furniture.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A small object falling during a move is incidental set dressing that discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's an atmospheric detail of furniture being moved with a callback object, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A small object falling during a move is incidental set dressing that discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Carrot and Stick",
+      "candidates": [
+        {
+          "text": "Jimmy turns up at a strip-mall tax preparation office run by a chirpy suburban husband and wife he knows.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary setting/activity beat with no outcome, reveal, or resolution of pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary situational/setting beat with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is an ordinary setting/activity beat with no outcome, reveal, or resolution of pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Gus and Bolsa stand over Hector at the nursing home, promising him they will avenge Lalo.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows the cartel operating on the belief that Lalo is dead, which the viewer already knows was staged, and reveals no new outcome, death, or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows a scene consistent with what the viewer already knows (the cartel believes Lalo dead) and reveals no new outcome, death, or turning point."
+                }
+              ],
+              "reason": "It shows the cartel operating on the belief that Lalo is dead, which the viewer already knows was staged, and reveals no new outcome, death, or discovery."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Rock and Hard Place",
+      "candidates": [
+        {
+          "text": "Jimmy and Kim enlist a pickpocket to lift Howard's car key long enough to copy it and the remote unlock button.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the next escalation of the Howard sabotage scheme — recruiting a pickpocket to duplicate Howard's car key — advancing the pending plot the viewer has only seen begin."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows a routine escalation step in the ongoing Howard scheme already known to the viewer, without disclosing any outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "It reveals the next escalation of the Howard sabotage scheme — recruiting a pickpocket to duplicate Howard's car key — advancing the pending plot the viewer has only seen begin."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the next escalation of the Howard sabotage scheme — recruiting a pickpocket to duplicate Howard's car key — advancing the pending plot the viewer has only seen begin."
+        },
+        {
+          "text": "Jimmy and Kim toy with the idea of buying a duplicate of Howard's car before settling on something simpler.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is minor planning texture about their ongoing Howard scheme, revealing no outcome, discovery, or turning point the viewer doesn't already anticipate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows the pair brainstorming tactics in an already-known scheme against Howard without disclosing any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "This is minor planning texture about their ongoing Howard scheme, revealing no outcome, discovery, or turning point the viewer doesn't already anticipate."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A prosecutor sits Kim down and asks her to get Jimmy to share what he knows about Lalo.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that law enforcement has uncovered Lalo's true identity and Jimmy's connection to him, and that they are now pressuring Kim to turn Jimmy into a cooperating source \ba new threat the viewer hasn't yet seen emerge."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts a new pressure/setup scene—a prosecutor requesting Kim's help—without disclosing any outcome, death, arrest, or answer to a pending question."
+                }
+              ],
+              "reason": "It reveals that law enforcement has uncovered Lalo's true identity and Jimmy's connection to him, and that they are now pressuring Kim to turn Jimmy into a cooperating source \ba new threat the viewer hasn't yet seen emerge."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that law enforcement has uncovered Lalo's true identity and Jimmy's connection to him, and that they are now pressuring Kim to turn Jimmy into a cooperating source \ba new threat the viewer hasn't yet seen emerge."
+        },
+        {
+          "text": "Nacho, his shot-up truck no longer drivable, is left to hole up out of sight until daylight.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a texture/situational beat about Nacho hiding after the already-depicted shootout escape, revealing no new outcome of the pending standoff or his fate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Nacho escaped the shootout and is on the run in contact with Mike; his truck being disabled and hiding until daylight is ordinary situational texture that reveals no outcome."
+                }
+              ],
+              "reason": "This is a texture/situational beat about Nacho hiding after the already-depicted shootout escape, revealing no new outcome of the pending standoff or his fate."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Hit and Run",
+      "candidates": [
+        {
+          "text": "Evicted from the back room of the nail salon, Jimmy scouts out a potential new office and shows it to Kim.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Jimmy relocating his office — with no death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Scouting a new office space is ordinary setting/character texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture — Jimmy relocating his office — with no death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy finds his fellow lawyers now cold toward him, while local criminals keep turning up wanting him to represent them.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Jimmy's shifting professional reputation, consistent with his established pivot to criminal law as Saul, and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Jimmy's reputation shifting toward criminal clientele, an established trajectory rather than a specific outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "This is character texture about Jimmy's shifting professional reputation, consistent with his established pivot to criminal law as Saul, and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy, done up to pass as Howard, drives Howard's car and picks up a woman from a motel.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows the ongoing Howard-sabotage scheme in progress \ba method beat rather than its outcome \bwith no revelation of success, failure, or consequence."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows a step in the already-established scheme to discredit Howard rather than its outcome, so it's mechanical texture rather than a reveal or resolution."
+                }
+              ],
+              "reason": "It shows the ongoing Howard-sabotage scheme in progress \ba method beat rather than its outcome \bwith no revelation of success, failure, or consequence."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Gus runs an operations center out of an ordinary house connected to his own by a tunnel.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is setting/texture about Gus's logistics, not an outcome, death, reveal or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is setting/texture about Gus's logistics and doesn't disclose any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is setting/texture about Gus's logistics, not an outcome, death, reveal or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Black and Blue",
+      "candidates": [
+        {
+          "text": "Jimmy brings his old receptionist back on staff, hiring her to run the front desk again.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Re-hiring a receptionist for the new office is ordinary character/setting texture and doesn't disclose any pending outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Rehiring a receptionist for the new office is ordinary character/setting texture and doesn't resolve any pending conflict or open question."
+                }
+              ],
+              "reason": "Re-hiring a receptionist for the new office is ordinary character/setting texture and doesn't disclose any pending outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a German bar, a man using a false name buys drinks and chats with Werner Ziegler's widow.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Lalo has gone to Germany to pursue proof via Werner's widow, answering the pending question of his whereabouts while Mike scours Albuquerque."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals Lalo's whereabouts and tactic \\u2014 he has gone to Germany under an alias to work Werner Ziegler's widow for proof against Gus \\u2014 answering the open question of where Lalo is while Gus's men fruitlessly search Albuquerque."
+                }
+              ],
+              "reason": "It reveals that Lalo has gone to Germany to pursue proof via Werner's widow, answering the pending question of his whereabouts while Mike scours Albuquerque."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Lalo has gone to Germany to pursue proof via Werner's widow, answering the pending question of his whereabouts while Mike scours Albuquerque."
+        },
+        {
+          "text": "Kim keeps glancing over her shoulder, still unsettled by the possibility that Lalo is out there.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture reflecting information Kim (and the viewer) already learned from Mike in the previous episode, revealing no new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture reflecting information Kim (and the viewer) already learned from Mike, revealing no new outcome."
+                }
+              ],
+              "reason": "This is character texture reflecting information Kim (and the viewer) already learned from Mike in the previous episode, revealing no new outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Axe and Grind",
+      "candidates": [
+        {
+          "text": "A veterinarian shows Jimmy and Kim his thick encrypted notebook of criminal contacts, mentioning he is getting out of the business.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It introduces a character's side business and his plan to retire, which is setup/texture rather than the outcome of any pending conflict or an answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is setup/texture \\u2014 a contact showing his notebook and mentioning retirement \\u2014 without disclosing any outcome, death, betrayal, or answer to a pending question like whether the Howard scheme succeeds or where Lalo is."
+                }
+              ],
+              "reason": "It introduces a character's side business and his plan to retire, which is setup/texture rather than the outcome of any pending conflict or an answer to an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Cliff invites Kim to Santa Fe to meet foundation people who fund work like her pro bono defense practice.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary professional texture — a networking invitation — that doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A social/professional invitation is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary professional texture — a networking invitation — that doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy directs his camera crew through a photo shoot with a hired actor posing as the case mediator.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "describing Casimiro as the 'case mediator' — the summary gives no role for him"
+              ]
+            }
+          },
+          "rejected": "faithful: describing Casimiro as the 'case mediator' — the summary gives no role for him"
+        },
+        {
+          "text": "A private investigator reports that the couple's days are dull and routine, apart from one recent cash withdrawal.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is routine surveillance texture with no outcome, reveal or turning point disclosed — the PI watching Jimmy was already established, and a vague mention of a cash withdrawal doesn't answer any open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is routine surveillance texture with no outcome revealed; the PI watching Jimmy was already established, and a vague mention of a cash withdrawal doesn't disclose any turning point or answer a pending question."
+                }
+              ],
+              "reason": "This is routine surveillance texture with no outcome, reveal or turning point disclosed — the PI watching Jimmy was already established, and a vague mention of a cash withdrawal doesn't answer any open question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Plan and Execution",
+      "candidates": [
+        {
+          "text": "Lalo watches Gus' industrial laundry from a distance, studying the trucks and workers going in and out.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Lalo successfully extracted the location of Gus' secret lab site from Casper and has tracked it to the laundry, answering the pending question of whether he'd find proof."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Lalo's interrogation of Casper \\u2014 that he successfully learns the location of Gus' secret construction site and closes in on the laundry, an answer to the pending question of whether he'll find proof."
+                }
+              ],
+              "reason": "It reveals that Lalo successfully extracted the location of Gus' secret lab site from Casper and has tracked it to the laundry, answering the pending question of whether he'd find proof."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Lalo successfully extracted the location of Gus' secret lab site from Casper and has tracked it to the laundry, answering the pending question of whether he'd find proof."
+        },
+        {
+          "text": "On the morning of the Sandpiper settlement conference, Jimmy's camera crew hurriedly reshoots the photographs with their hired actor.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "a camera crew performing the reshoot instead of Jimmy and Kim"
+              ]
+            }
+          },
+          "rejected": "faithful: a camera crew performing the reshoot instead of Jimmy and Kim"
+        },
+        {
+          "text": "Howard turns up unannounced at Jimmy and Kim's apartment, wanting to talk to both of them at once.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Howard's PI investigation pays off enough for him to directly confront Jimmy and Kim together, signalling the outcome of the pending sabotage plot rather than mere texture."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Howard discovers/confronts the couple about their sabotage scheme, an outcome of the pending Sandpiper con plot rather than mere texture."
+                }
+              ],
+              "reason": "It reveals that Howard's PI investigation pays off enough for him to directly confront Jimmy and Kim together, signalling the outcome of the pending sabotage plot rather than mere texture."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Howard's PI investigation pays off enough for him to directly confront Jimmy and Kim together, signalling the outcome of the pending sabotage plot rather than mere texture."
+        }
+      ]
+    },
+    "8": {
+      "title": "Point and Shoot",
+      "candidates": [
+        {
+          "text": "Jimmy sits bound to a chair in his own living room while Lalo heads back out into the night.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is situational texture following directly from Lalo's arrival, revealing no new outcome beyond the already-known confrontation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is situational texture immediately following Lalo's arrival and Howard's murder, which the viewer has already seen; it discloses no new outcome beyond Jimmy being restrained."
+                }
+              ],
+              "reason": "This is situational texture following directly from Lalo's arrival, revealing no new outcome beyond the already-known confrontation."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike intercepts an unexpected late-night visitor at the front door of Gus' quiet suburban house.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It gives away that Lalo's plan involves sending someone to Gus' house and that Mike stops them at the door, pre-empting the outcome of the attack the viewer knows is imminent."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only depicts an ambiguous encounter at a door without naming the visitor or resolving the pending Lalo attack, so it's situational texture rather than an outcome."
+                }
+              ],
+              "reason": "It gives away that Lalo's plan involves sending someone to Gus' house and that Mike stops them at the door, pre-empting the outcome of the attack the viewer knows is imminent."
+            }
+          },
+          "rejected": "consequence (1/2): It gives away that Lalo's plan involves sending someone to Gus' house and that Mike stops them at the door, pre-empting the outcome of the attack the viewer knows is imminent."
+        },
+        {
+          "text": "Mike stands over the laundry floor as it is dug up and concrete poured back in.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the aftermath/outcome of the Lalo-Gus confrontation left cliffhanging, implying bodies (Lalo's and Howard's) are being disposed of beneath the laundry."
+                },
+                {
+                  "reveals": true,
+                  "reason": "The clean-up scene of burying bodies under the laundry floor reveals the outcome of the pending Gus/Lalo confrontation (Lalo, and Howard's body, being disposed of), i.e., Lalo's death."
+                }
+              ],
+              "reason": "It reveals the aftermath/outcome of the Lalo-Gus confrontation left cliffhanging, implying bodies (Lalo's and Howard's) are being disposed of beneath the laundry."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the aftermath/outcome of the Lalo-Gus confrontation left cliffhanging, implying bodies (Lalo's and Howard's) are being disposed of beneath the laundry."
+        }
+      ]
+    },
+    "9": {
+      "title": "Fun and Games",
+      "candidates": [
+        {
+          "text": "Out of his usual uniform, Gus sits at a wine bar talking with his favourite sommelier, then leaves early.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is quiet character texture — Gus off-duty chatting about wine — and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A quiet character-texture scene of Gus relaxing at a wine bar reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is quiet character texture — Gus off-duty chatting about wine — and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Nippy",
+      "candidates": [
+        {
+          "text": "In Omaha, Gene sets about befriending the elderly mother of the cab driver who recognized him, playing the helpful neighbor.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Gene's approach/tactic in a conflict already established as pending (he said he'd handle Jeff himself) without revealing the outcome of that plan, so it reads as setup and character texture."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of how Gene intends to \"handle it himself\" after Jeff recognized him, revealing his manipulative approach through Jeff's mother."
+                }
+              ],
+              "reason": "It answers the open question of how Gene intends to \"handle it himself\" after Jeff recognized him, revealing his manipulative approach through Jeff's mother."
+            }
+          },
+          "rejected": "consequence (1/2): It answers the open question of how Gene intends to \"handle it himself\" after Jeff recognized him, revealing his manipulative approach through Jeff's mother."
+        },
+        {
+          "text": "Gene keeps the mall security guards talking and distracted in their office while a job unfolds elsewhere.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of how Gene 'handles' Jeff himself \\u2014 by masterminding a mall heist con with Jeff, revealing his plan and their new alliance."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the pending question of how Gene 'handles' the Jeff problem himself \ff by revealing he stages a con/heist rather than eliminating Jeff."
+                }
+              ],
+              "reason": "It answers the open question of how Gene 'handles' Jeff himself \\u2014 by masterminding a mall heist con with Jeff, revealing his plan and their new alliance."
+            }
+          },
+          "rejected": "consequence (2/2): It answers the open question of how Gene 'handles' Jeff himself \\u2014 by masterminding a mall heist con with Jeff, revealing his plan and their new alliance."
+        },
+        {
+          "text": "Gene drills the cab driver and another man through their roles again and again, timing every step of a department store job.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of how Gene will \"handle\" the cab driver who recognized him \\u2014 by recruiting him as an accomplice in a planned heist rather than silencing or fleeing him."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of how Gene \"handles\" Jeff recognizing him \\u2014 revealing he doesn't flee or eliminate him but instead recruits Jeff as an accomplice in a new criminal scheme."
+                }
+              ],
+              "reason": "It answers the open question of how Gene will \"handle\" the cab driver who recognized him \\u2014 by recruiting him as an accomplice in a planned heist rather than silencing or fleeing him."
+            }
+          },
+          "rejected": "consequence (2/2): It answers the open question of how Gene will \"handle\" the cab driver who recognized him \\u2014 by recruiting him as an accomplice in a planned heist rather than silencing or fleeing him."
+        },
+        {
+          "text": "In the department store, Gene lingers over a loud, garish shirt on the rack, then walks away without buying it.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A brief character-texture beat of Gene browsing clothes with no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Gene's nostalgia for his Saul persona, without revealing any outcome, decision, or plot development."
+                }
+              ],
+              "reason": "A brief character-texture beat of Gene browsing clothes with no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Breaking Bad",
+      "candidates": [
+        {
+          "text": "At a set time, Gene uses a payphone to make a long-arranged call to Francesca.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Gene making a prearranged phone call, an ordinary activity that discloses no outcome, revelation, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only depicts Gene making a prearranged phone call, an ordinary activity that discloses no outcome, revelation, or answer to a pending question."
+                }
+              ],
+              "reason": "It only shows Gene making a prearranged phone call, an ordinary activity that discloses no outcome, revelation, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Gene works a bar, buying rounds for a well-off man drinking alone until he is thoroughly drunk.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Gene setting up a con in a bar, an activity/texture beat that doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts Gene engaged in an ordinary con setup at a bar without disclosing any outcome, discovery, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It shows Gene setting up a con in a bar, an activity/texture beat that doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jeff, driving a drunk passenger home, keeps offering him a bottle of water from the front seat.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary situational texture of Jeff driving a cab passenger, revealing no outcome, death, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture showing Jeff at work with a passenger, without disclosing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "This is ordinary situational texture of Jeff driving a cab passenger, revealing no outcome, death, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Inside a stranger's house, Buddy photographs credit cards, IDs and financial paperwork one by one.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Gene has resumed working with Jeff and Buddy despite warning them off, and discloses their new identity-theft scam."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Gene has resumed working with Jeff and Buddy on a new identity-theft scheme, reversing his stated decision to cut ties with them after the mall heist."
+                }
+              ],
+              "reason": "It reveals that Gene has resumed working with Jeff and Buddy despite warning them off, and discloses their new identity-theft scam."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Gene has resumed working with Jeff and Buddy despite warning them off, and discloses their new identity-theft scam."
+        }
+      ]
+    },
+    "12": {
+      "title": "Waterworks",
+      "candidates": [
+        {
+          "text": "Kim's days now consist of a drab office job at a Florida company that manufactures sprinklers.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's ordinary setting/texture about Kim's mundane life in Florida, which the viewer already knows she moved to after giving up law; no outcome, reveal or turning point is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Kim surrendered her law license and lives in Florida; the specific detail of a mundane office job is character texture rather than a new outcome or turning point."
+                }
+              ],
+              "reason": "It's ordinary setting/texture about Kim's mundane life in Florida, which the viewer already knows she moved to after giving up law; no outcome, reveal or turning point is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a flashback, Kim runs into Jesse on the sidewalk outside Saul's office building.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A brief chance encounter in a flashback is character texture; it doesn't reveal any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A chance sidewalk encounter in a flashback is character texture; it doesn't disclose any outcome, death, betrayal, or answer to a pending question."
+                }
+              ],
+              "reason": "A brief chance encounter in a flashback is character texture; it doesn't reveal any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "Saul Gone",
+      "candidates": [
+        {
+          "text": "In a flashback, Saul asks Mike what he most regrets; Mike answers, then dismisses Saul's own reply as shallow.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A reflective flashback conversation between two characters that reveals no outcome, death, or answer to a pending question—only character texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A reflective conversation about regrets is character texture; it discloses no death, arrest, discovery, or resolution of the pending Gene manhunt."
+                }
+              ],
+              "reason": "A reflective flashback conversation between two characters that reveals no outcome, death, or answer to a pending question—only character texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Saul and Walt trade answers about their biggest regrets while holed up together, and Walt scorns what Saul comes up with.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A conversational exchange about regrets between Saul and Walt is character texture, not an outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a character-texture conversation in a flashback scene; it reveals no plot outcome, death, arrest, or answer to a pending question."
+                }
+              ],
+              "reason": "A conversational exchange about regrets between Saul and Walt is character texture, not an outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a flashback, Chuck asks about Jimmy's law practice and says it is not too late to change course.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Chuck"
+        },
+        {
+          "text": "Jimmy cuts the conversation with his brother short, assuming the interest in his work is really criticism.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A flashback conversation between the brothers is character texture; it discloses no outcome, death, arrest, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A flashback-style character beat about Jimmy and Chuck's familiar friction reveals no outcome, death, or plot turn beyond what the viewer already knows."
+                }
+              ],
+              "reason": "A flashback conversation between the brothers is character texture; it discloses no outcome, death, arrest, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 44035,
+    "out": 19090,
+    "cache_read": 639674,
+    "cache_write": 92374,
+    "calls": 160
+  },
+  "recheck": [
+    {
+      "episode": 2,
+      "text": "Gus and Bolsa stand over Hector at the nursing home, promising him they will avenge Lalo.",
+      "reason": "It confirms that Lalo is publicly believed dead and that Hector/the cartel have received the false news of his death, revealing the outcome of the pending assassination plot's aftermath."
+    },
+    {
+      "episode": 8,
+      "text": "Jimmy sits bound to a chair in his own living room while Lalo heads back out into the night.",
+      "reason": "It reveals that Lalo returns to Albuquerque and takes Jimmy captive in his home, a major turning point in the pending Lalo threat."
+    },
+    {
+      "episode": 12,
+      "text": "Kim's days now consist of a drab office job at a Florida company that manufactures sprinklers.",
+      "reason": "It reveals Kim's post-separation fate — that she left Albuquerque for Florida and abandoned law for a mundane office job — answering the open question of what became of her after surrendering her license."
+    }
+  ],
+  "recheck_spend": {
+    "in": 2310,
+    "out": 7627,
+    "cache_read": 313039,
+    "cache_write": 16433,
+    "calls": 52
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 1,
+  "source": {
+    "title": "The Office (American TV series) season 1",
+    "revid": 1372901951,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_1&oldid=1372901951",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Pilot",
+      "probes": [
+        {
+          "text": "A documentary crew turns up at the Scranton paper company for the first time, filming the staff at their desks.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A young temporary worker starts his first day at the branch and is shown around the office.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Diversity Day",
+      "probes": [
+        {
+          "text": "Michael tapes index cards with different races written on them to everyone's foreheads and makes them act out stereotypes.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "An outside consultant arrives to run a tolerance session, and Michael keeps interrupting to deliver his own version.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The whole office is herded into the conference room for a mandatory seminar about race and tolerance.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Health Care",
+      "probes": [
+        {
+          "text": "Jim and Pam entertain themselves filling out the medical forms Dwight has handed around the office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight is put in charge of picking the office's new health care plan, and takes the job very seriously.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael promises the whole office a big surprise, then spends the day scrambling to come up with one.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "The Alliance",
+      "probes": [
+        {
+          "text": "Michael spends the whole day agonizing over what joke to write in a coworker's birthday card.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The office holds a morale-boosting birthday party for an employee whose birthday is over a month away.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "With downsizing rumors swirling, paranoia spreads through the office and Dwight starts talking in Survivor terms.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Basketball",
+      "probes": [
+        {
+          "text": "The office staff square off against the warehouse crew in a basketball game, losers owing a Saturday shift.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael assembles his lineup by looks and assumptions, passing over the more athletic office workers for weaker players.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael stops play mid-game to insist on a \"flagrant personal intentional foul\" against his side.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Hot Girl",
+      "probes": [
+        {
+          "text": "A visiting saleswoman sets up a table of purses in the office, and the men keep drifting over.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael and Dwight openly compete for the attention of the woman selling handbags out of the conference area.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "An espresso machine turns up in the office kitchen, courtesy of Michael's spending.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

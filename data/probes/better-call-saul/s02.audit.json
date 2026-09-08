@@ -1,0 +1,1053 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 2,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Switch",
+      "candidates": [
+        {
+          "text": "In Omaha, Gene finds himself locked inside the mall's dumpster room, staring at an emergency exit he dares not push.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an atmospheric situation in the Gene framing story — being stuck in a dumpster room and hesitating at a door — with no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric texture for the Gene-in-Omaha framing story—an ordinary predicament in a mall back room that resolves no pending conflict or open question from the Albuquerque timeline."
+                }
+              ],
+              "reason": "This is an atmospheric situation in the Gene framing story — being stuck in a dumpster room and hesitating at a door — with no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy and Kim work a stock trader at a bar, letting him buy them expensive drinks and settle their tab.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Kim, previously the loyal HHM straight arrow who refused to partner with Jimmy, now actively joins him in running cons \\u2014 a significant shift in their relationship."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Kim \\u2014 previously the straight-laced HHM loyalist who refused Jimmy's partnership offer \\u2014 joins Jimmy in running a con, a significant shift in their relationship and her character."
+                }
+              ],
+              "reason": "It reveals that Kim, previously the loyal HHM straight arrow who refused to partner with Jimmy, now actively joins him in running cons \\u2014 a significant shift in their relationship."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Kim, previously the loyal HHM straight arrow who refused to partner with Jimmy, now actively joins him in running cons \\u2014 a significant shift in their relationship."
+        },
+        {
+          "text": "Someone scratches the letters \"SG WAS HERE\" into the wall before finally being let out of the locked room.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Gene/Saul ends up trapped in a locked room (a dumpster enclosure/escape situation) and, by scratching his real initials, marks a turning point in his hidden-identity crisis that the viewer has not yet seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a small character beat—someone stuck in a locked room scratching initials—that doesn't disclose any death, reveal, betrayal, or the outcome of a pending conflict the viewer knows about, since Gene's identity as Saul is already established."
+                }
+              ],
+              "reason": "It reveals that Gene/Saul ends up trapped in a locked room (a dumpster enclosure/escape situation) and, by scratching his real initials, marks a turning point in his hidden-identity crisis that the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Gene/Saul ends up trapped in a locked room (a dumpster enclosure/escape situation) and, by scratching his real initials, marks a turning point in his hidden-identity crisis that the viewer has not yet seen."
+        },
+        {
+          "text": "Daniel reports a burglary to the police, insisting the thieves took his valuable baseball card collection.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It introduces a new minor situation (Daniel being burgled) that sets up a story rather than resolving any conflict or open question the viewer is currently tracking."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Daniel's home is burglarized (a new plot event) and that he escalates by involving the police with a cover story about baseball cards, a turning point the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Daniel's home is burglarized (a new plot event) and that he escalates by involving the police with a cover story about baseball cards, a turning point the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Daniel's home is burglarized (a new plot event) and that he escalates by involving the police with a cover story about baseball cards, a turning point the viewer hasn't seen."
+        },
+        {
+          "text": "Jimmy packs up and shuts down his little practice, telling Kim he is done with lawyering.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It answers the cliffhanger of whether Jimmy takes the Davis & Main offer by revealing he instead abandons the law entirely."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the cliffhanger question of whether Jimmy takes the Davis & Main offer by revealing he instead quits law entirely and closes his practice."
+                }
+              ],
+              "reason": "It answers the cliffhanger of whether Jimmy takes the Davis & Main offer by revealing he instead abandons the law entirely."
+            }
+          },
+          "rejected": "consequence (2/2): It answers the cliffhanger of whether Jimmy takes the Davis & Main offer by revealing he instead abandons the law entirely."
+        }
+      ]
+    },
+    "2": {
+      "title": "Cobbler",
+      "candidates": [
+        {
+          "text": "Chuck turns up in person at the HHM offices and sits in on a meeting with Davis & Main, unnerving Jimmy.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Chuck has recovered enough to leave his house and return to HHM's offices, answering the open question of whether he'd re-enter the world and the firm after his condition and his betrayal of Jimmy."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Chuck leaves his house and returns to HHM's offices, resolving the open question of whether he can overcome his self-imposed seclusion/illness, and signals a Chuck-Jimmy confrontation."
+                }
+              ],
+              "reason": "It reveals that Chuck has recovered enough to leave his house and return to HHM's offices, answering the open question of whether he'd re-enter the world and the firm after his condition and his betrayal of Jimmy."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Chuck has recovered enough to leave his house and return to HHM's offices, answering the open question of whether he'd re-enter the world and the firm after his condition and his betrayal of Jimmy."
+        },
+        {
+          "text": "Mike runs into Daniel outside the police station, where Daniel has come in for an interview about his stolen baseball cards.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a setup encounter consistent with the already-established burglary investigation, revealing no new outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A chance encounter outside the police station is an ordinary next step following the burglary report, and it doesn't disclose any outcome, arrest, or reveal."
+                }
+              ],
+              "reason": "This is a setup encounter consistent with the already-established burglary investigation, revealing no new outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Howard drives out to Chuck's house to tell him in person where Jimmy has taken a job.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jimmy accepted the Davis & Main offer, so Howard informing Chuck is merely a follow-up scene of character texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jimmy accepted the Davis & Main offer, so Howard informing Chuck of it is ordinary follow-through rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "The viewer already knows Jimmy accepted the Davis & Main offer, so Howard informing Chuck is merely a follow-up scene of character texture rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike tracks Nacho down on his own and leans on him about the missing baseball card collection.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Mike re-enters the Pryce situation and deduces/confronts Nacho as the burglar, a turning point in the pending police-investigation storyline."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Mike identifies Nacho as the burglar and intervenes to recover the cards, resolving the pending fallout from Pryce's break-in and the police investigation."
+                }
+              ],
+              "reason": "It reveals that Mike re-enters the Pryce situation and deduces/confronts Nacho as the burglar, a turning point in the pending police-investigation storyline."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Mike re-enters the Pryce situation and deduces/confronts Nacho as the burglar, a turning point in the pending police-investigation storyline."
+        }
+      ]
+    },
+    "3": {
+      "title": "Amarillo",
+      "candidates": [
+        {
+          "text": "Jimmy pays off a Sandpiper shuttle driver so he can climb aboard and pitch himself to a busload of residents.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Jimmy hustle/texture \\u2014 a minor con to reach clients \\u2014 with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Jimmy-style hustling texture consistent with his established client-recruiting behavior, and it reveals no outcome, death, betrayal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary Jimmy hustle/texture \\u2014 a minor con to reach clients \\u2014 with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy puts together a television commercial about the class action lawsuit and gets it onto the air.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It gives away the episode's central turning point \\/ Jimmy unilaterally producing and airing a Sandpiper commercial, which is the pivotal act that follows from Kim's warning about him jeopardizing his position at Davis & Main."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses a specific plot development \\commact \\u2014 Jimmy secretly producing and airing an unauthorized Sandpiper commercial \\u2014 which is the turning point that pays off Kim's warning that his unethical improvisation will endanger his Davis & Main job."
+                }
+              ],
+              "reason": "It gives away the episode's central turning point \\/ Jimmy unilaterally producing and airing a Sandpiper commercial, which is the pivotal act that follows from Kim's warning about him jeopardizing his position at Davis & Main."
+            }
+          },
+          "rejected": "consequence (2/2): It gives away the episode's central turning point \\/ Jimmy unilaterally producing and airing a Sandpiper commercial, which is the pivotal act that follows from Kim's warning about him jeopardizing his position at Davis & Main."
+        },
+        {
+          "text": "Mike stops by the veterinarian's clinic to look over what work is currently on offer.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mike visiting Dr. Caldera, an established contact, to inquire about jobs is ordinary character texture and reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike visiting Dr. Caldera, an established contact, to inquire about jobs is ordinary character texture and reveals no outcome or turning point."
+                }
+              ],
+              "reason": "Mike visiting Dr. Caldera, an established contact, to inquire about jobs is ordinary character texture and reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike sits parked outside Stacey's house through the night, keeping watch on the quiet street.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mike keeping watch outside Stacey's house at night is ordinary character texture and reveals no outcome, discovery, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike keeping a nighttime watch outside Stacey's house is ordinary character activity and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Mike keeping watch outside Stacey's house at night is ordinary character texture and reveals no outcome, discovery, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy stands before an HHM meeting presenting his client outreach report and the names he has signed up.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A routine professional meeting scene consistent with Jimmy's ongoing Sandpiper work at Davis & Main; it discloses no outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary professional texture consistent with Jimmy's known Davis & Main/Sandpiper role, revealing no outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "A routine professional meeting scene consistent with Jimmy's ongoing Sandpiper work at Davis & Main; it discloses no outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Gloves Off",
+      "candidates": [
+        {
+          "text": "Jimmy sits in a conference room facing the Davis & Main partners, who are furious about the television commercial.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jimmy aired the ad behind Cliff Main's back and was scolded for it; a meeting with angry partners is expected fallout that discloses no new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jimmy aired the commercial behind Cliff Main's back and was scolded for it, so a continued confrontation is expected texture rather than a new outcome."
+                }
+              ],
+              "reason": "The viewer already knows Jimmy aired the ad behind Cliff Main's back and was scolded for it; a meeting with angry partners is expected fallout that discloses no new outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim is summoned to a meeting with Howard and Chuck, where Howard takes her to task over Jimmy's ad.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the pending fallout the viewer was set up to worry about \"\" that Kim is held responsible and reprimanded by HHM leadership for Jimmy's unauthorized commercial."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the pending fallout the viewer was set up for \\u2014 that Jimmy's unauthorized ad would blow back on Kim, who is now hauled before Howard and Chuck to answer for it."
+                }
+              ],
+              "reason": "It confirms the pending fallout the viewer was set up to worry about \"\" that Kim is held responsible and reprimanded by HHM leadership for Jimmy's unauthorized commercial."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms the pending fallout the viewer was set up to worry about \"\" that Kim is held responsible and reprimanded by HHM leadership for Jimmy's unauthorized commercial."
+        },
+        {
+          "text": "Nacho, rattled by how unpredictable Tuco has become, worries his own side deals will come to light.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with what the viewer already knows (Nacho's secret side deals and Tuco's volatility) and reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with what the viewer already knows about Nacho's secret dealings and Tuco's volatility, revealing no outcome or new development."
+                }
+              ],
+              "reason": "This is character texture consistent with what the viewer already knows (Nacho's secret side deals and Tuco's volatility) and reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Rebecca",
+      "candidates": [
+        {
+          "text": "In a flashback soon after moving to Albuquerque, Jimmy charms Chuck's wife with easy patter while Chuck sits uncomfortably by.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Chuck has a wife (a relationship not yet established in the episodes watched) and hints at the origins of Chuck's resentment toward Jimmy, though it's largely character texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — a flashback showing family dynamics already implied by Chuck's resentment — and discloses no outcome, death, betrayal, or answer to a pending question."
+                }
+              ],
+              "reason": "It reveals that Chuck has a wife (a relationship not yet established in the episodes watched) and hints at the origins of Chuck's resentment toward Jimmy, though it's largely character texture."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Chuck has a wife (a relationship not yet established in the episodes watched) and hints at the origins of Chuck's resentment toward Jimmy, though it's largely character texture."
+        },
+        {
+          "text": "Chuck attempts the same lighthearted routine his brother pulled off so easily, and it lands with a thud.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Chuck awkwardly imitating Jimmy's charm, revealing no outcome, death, betrayal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — an awkward attempt at charm with no outcome, death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is character texture about Chuck awkwardly imitating Jimmy's charm, revealing no outcome, death, betrayal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim works the phone through a long list of old school and professional contacts, hunting for a big client.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Kim cold-calling contacts to find a client is ordinary activity following her known demotion, and it discloses no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Kim's effort to dig out of her demotion, without revealing any outcome or reveal."
+                }
+              ],
+              "reason": "Kim cold-calling contacts to find a client is ordinary activity following her known demotion, and it discloses no outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy finds Kim among the boxes in the document review room and floats the idea of suing the firm.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Kim was demoted to document review, and Jimmy merely floating an idea is an unresolved suggestion rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Kim's demotion to document review is already known to the viewer, and Jimmy merely floating an idea is a conversation, not an outcome, reveal or turning point."
+                }
+              ],
+              "reason": "The viewer already knows Kim was demoted to document review, and Jimmy merely floating an idea is an unresolved suggestion rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Bali Ha'i",
+      "candidates": [
+        {
+          "text": "Unable to sleep in his plush corporate apartment, Jimmy drives back to his old boiler room office and beds down there.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture showing Jimmy's discomfort with his corporate life at Davis & Main, without revealing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture showing Jimmy's discomfort with corporate life, not an outcome, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "This is character texture showing Jimmy's discomfort with his corporate life at Davis & Main, without revealing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Back at her old desk at HHM, Kim is handed menial busywork, including a hopeless motion to argue in court.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the resolution of Kim's pending demotion—she is restored to her old desk at HHM yet still punished with menial work rather than credited for landing Mesa Verde."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Kim's continued menial treatment at HHM, which is consistent with the demotion the viewer already knows about, and reveals no new outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "It reveals the resolution of Kim's pending demotion—she is restored to her old desk at HHM yet still punished with menial work rather than credited for landing Mesa Verde."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the resolution of Kim's pending demotion—she is restored to her old desk at HHM yet still punished with menial work rather than credited for landing Mesa Verde."
+        },
+        {
+          "text": "Kim, blowing off steam, works a bar con with Jimmy on an investor and keeps the resulting check as a souvenir.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Kim and Jimmy repeating their established bar-con routine as character texture, without disclosing any pending outcome, revelation, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Kim and Jimmy repeating an already-established bar con as character texture, without resolving any pending conflict such as Kim's job status, Mike's decision on Hector's offer, or Chuck's suspicions."
+                }
+              ],
+              "reason": "It shows Kim and Jimmy repeating their established bar-con routine as character texture, without disclosing any pending outcome, revelation, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Inflatable",
+      "candidates": [
+        {
+          "text": "In a flashback, a boy works the counter of his family's corner store while a stranger tells his father a hard-luck story.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes only the setup of a childhood flashback scene—a boy at his family's store and a stranger with a sob story—without revealing any outcome, such as whether Jimmy stole from the till or how the store failed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a childhood flashback scene at the family store \"— ordinary texture that doesn't disclose whether Jimmy stole from it or any other outcome."
+                }
+              ],
+              "reason": "It describes only the setup of a childhood flashback scene—a boy at his family's store and a stranger with a sob story—without revealing any outcome, such as whether Jimmy stole from the till or how the store failed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy sits in as Mike's lawyer while Mike tells the district attorney the gun in the altercation was his own.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "Mike tells the DA the gun was his own, whereas the summary only says he claimed it was not Tuco's"
+              ]
+            }
+          },
+          "rejected": "faithful: Mike tells the DA the gun was his own, whereas the summary only says he claimed it was not Tuco's"
+        },
+        {
+          "text": "Mike promises Stacey he will buy her a house in a safer neighborhood.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This continues an already-established intention (Mike deciding to move Stacey out of her neighborhood) and reveals no new outcome, death, or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike's intention to move Stacey to a safer home was already established, so this promise is character texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "This continues an already-established intention (Mike deciding to move Stacey out of her neighborhood) and reveals no new outcome, death, or discovery."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Fifi",
+      "candidates": [
+        {
+          "text": "Jimmy talks his way onto an Air Force base and films a vintage bomber for a television ad.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy doing a characteristic hustle to shoot a commercial \\u2014 ordinary activity and character texture that doesn't disclose any outcome, reveal, or resolution of the pending storylines."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Jimmy-style hustle and texture consistent with his established ad-making antics, revealing no outcome, death, betrayal, or answer to a pending question."
+                }
+              ],
+              "reason": "It shows Jimmy doing a characteristic hustle to shoot a commercial \\u2014 ordinary activity and character texture that doesn't disclose any outcome, reveal, or resolution of the pending storylines."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy and Kim move their new offices into a converted dentists' suite, complete with leftover dental fittings.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It simply shows the shared-office arrangement Kim already proposed being set up, offering setting and texture rather than any new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The shared-office arrangement was already agreed at the end of the prior episode, so moving into a quirky former dental suite is just setting texture with no new outcome."
+                }
+              ],
+              "reason": "It simply shows the shared-office arrangement Kim already proposed being set up, offering setting and texture rather than any new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike, parked and watching, tails a cargo truck out to an isolated garage on the edge of town.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary surveillance activity consistent with Mike's established stakeout of Hector's operation, revealing no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike surveilling and following a truck is ordinary investigative activity consistent with his established stakeout of Hector's operation, revealing no outcome or twist."
+                }
+              ],
+              "reason": "This is ordinary surveillance activity consistent with Mike's established stakeout of Hector's operation, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At home, Mike patiently cuts up a length of garden hose and works on it at his table.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Mike quietly working on a piece of equipment at home, an ordinary preparatory activity consistent with his known surveillance of Hector, without revealing any outcome, plan result, or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike doing ordinary preparatory tinkering at home is character texture; it doesn't disclose any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "It shows Mike quietly working on a piece of equipment at home, an ordinary preparatory activity consistent with his known surveillance of Hector, without revealing any outcome, plan result, or new information."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Nailed",
+      "candidates": [
+        {
+          "text": "Mike works alone in disguise on an empty desert road, going at a cargo truck's tire.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is texture consistent with the setup already shown (Mike building a spike strip after tailing the cargo truck), showing him carrying out the plan without disclosing its outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Mike has surveilled the cargo truck and built a homemade spike strip, so seeing him deploy it on a desert road is the expected next step and reveals no outcome."
+                }
+              ],
+              "reason": "This is texture consistent with the setup already shown (Mike building a spike strip after tailing the cargo truck), showing him carrying out the plan without disclosing its outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy leans across a copy shop counter, quietly working on the young clerk behind it.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        },
+        {
+          "text": "Jimmy loiters on the sidewalk across the street, keeping his eyes on a copy shop's front window.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jimmy watching a copy shop from across the street is ambiguous setup activity consistent with what the viewer already knows about the document forgery, revealing no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy watching a copy shop, an ordinary activity consistent with the document-forgery scheme the viewer already knows about, without revealing any outcome or discovery."
+                }
+              ],
+              "reason": "Jimmy watching a copy shop from across the street is ambiguous setup activity consistent with what the viewer already knows about the document forgery, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Klick",
+      "candidates": [
+        {
+          "text": "Jimmy slips out of their mother's hospital room to hunt down sandwiches, leaving Chuck sitting at the bedside.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows an ordinary errand during a hospital visit; no death, outcome, or answer to a pending question is stated."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows an everyday errand during a family hospital visit, without stating any outcome, death, or revelation."
+                }
+              ],
+              "reason": "It only shows an ordinary errand during a hospital visit; no death, outcome, or answer to a pending question is stated."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy crouches on the copy shop floor beside Chuck, talking to him while they wait for an ambulance.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It answers the immediate cliffhanger by confirming Jimmy chose to enter the store and aid the injured Chuck, and that an ambulance was called."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It resolves the immediate cliffhanger by confirming Jimmy went in to help the collapsed Chuck rather than leaving him."
+                }
+              ],
+              "reason": "It answers the immediate cliffhanger by confirming Jimmy chose to enter the store and aid the injured Chuck, and that an ambulance was called."
+            }
+          },
+          "rejected": "consequence (2/2): It answers the immediate cliffhanger by confirming Jimmy chose to enter the store and aid the injured Chuck, and that an ambulance was called."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 38691,
+    "out": 16110,
+    "cache_read": 470183,
+    "cache_write": 62369,
+    "calls": 139
+  },
+  "recheck": [
+    {
+      "episode": 1,
+      "text": "In Omaha, Gene finds himself locked inside the mall's dumpster room, staring at an emergency exit he dares not push.",
+      "reason": "It reveals a Gene flash-forward turning point — he gets trapped in the mall and faces an emergency door he refuses to open, a plot beat rather than mere texture."
+    },
+    {
+      "episode": 2,
+      "text": "Mike runs into Daniel outside the police station, where Daniel has come in for an interview about his stolen baseball cards.",
+      "reason": "It reveals that Daniel's baseball cards get stolen and that he goes to the police about it, an outcome/development beyond the viewer's knowledge."
+    },
+    {
+      "episode": 2,
+      "text": "Howard drives out to Chuck's house to tell him in person where Jimmy has taken a job.",
+      "reason": "It confirms that Jimmy, who was last seen driving away from the Davis & Main meeting, has in fact accepted a job, resolving the open question of whether he takes the firm's offer."
+    },
+    {
+      "episode": 4,
+      "text": "Jimmy sits in a conference room facing the Davis & Main partners, who are furious about the television commercial.",
+      "reason": "It reveals that Jimmy makes/airs an unauthorized TV commercial and gets confronted by the Davis & Main partners, confirming Kim's warning that his behavior would jeopardize his job."
+    },
+    {
+      "episode": 5,
+      "text": "Jimmy finds Kim among the boxes in the document review room and floats the idea of suing the firm.",
+      "reason": "It reveals the fallout of Jimmy's unauthorized commercial \ruKim has been punished/banished to document review at HHM \ru which is an outcome the viewer knows is pending after Kim warned Jimmy his actions would reflect on her."
+    },
+    {
+      "episode": 8,
+      "text": "Jimmy and Kim move their new offices into a converted dentists' suite, complete with leftover dental fittings.",
+      "reason": "It reveals that Kim leaves HHM and enters a shared office/partnership arrangement with Jimmy, resolving the pending question of her career decision after the Schweikart offer."
+    },
+    {
+      "episode": 10,
+      "text": "Jimmy slips out of their mother's hospital room to hunt down sandwiches, leaving Chuck sitting at the bedside.",
+      "reason": "It reveals a flashback to their mother's deathbed/hospitalization and sets up Jimmy's absence at the key moment, a turning point not yet known to the viewer."
+    }
+  ],
+  "recheck_spend": {
+    "in": 1812,
+    "out": 5875,
+    "cache_read": 222075,
+    "cache_write": 7229,
+    "calls": 42
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 1,
+  "source": {
+    "title": "Breaking Bad season 1",
+    "revid": 1367662595,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_1&oldid=1367662595",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Pilot",
+      "probes": [
+        {
+          "text": "Walt spends the morning of his fiftieth birthday at the kitchen table with Skyler and their teenage son.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "After teaching all day, Walt puts in hours at his second job at a car wash.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Walt tags along in the car while Hank and other DEA agents raid a meth lab.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Cat's in the Bag...",
+      "probes": [
+        {
+          "text": "At an ultrasound appointment, Skyler presses Walt about the late-night phone call she overheard the other night.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "...And the Bag's in the River",
+      "probes": [
+        {
+          "text": "Hank drives Walt Jr. out to a rundown motel to lecture him about gateway drugs.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Walt and Jesse spend the day cleaning up what is left of Emilio in the ruined bathroom.",
+          "specificity": null,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Carrying food down to the basement, Walt collapses partway down the stairs.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Cancer Man",
+      "probes": [
+        {
+          "text": "Jesse turns up at his parents' immaculate suburban house, and they are dismayed at the state he's in.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse's much younger brother is a star at both sports and music, under heavy pressure from their parents.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse grows convinced law enforcement is closing in on him and becomes increasingly paranoid.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Gray Matter",
+      "probes": [
+        {
+          "text": "Walt and Skyler attend an extravagant birthday party thrown by a wealthy former colleague from Walt's graduate school days.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Caught by a cop trying to buy beer underage, Walt Jr. phones Hank instead of his own father.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse keeps hitting walls trying to find steady, legitimate work outside the drug trade.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Crazy Handful of Nothin'",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Walt shaves his head after discovering his hair has started falling out.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt sits through his first chemotherapy session, hooked to the drip in the treatment room.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "A No-Rough-Stuff-Type Deal",
+      "probes": [
+        {
+          "text": "Walt and Jesse can't get their hands on enough pseudoephedrine pills to keep production going.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Skyler hosts a baby shower at the house, unwrapping gifts in front of the assembled guests.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

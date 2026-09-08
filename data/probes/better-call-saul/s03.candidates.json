@@ -1,0 +1,466 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 3,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Better Call Saul season 3",
+    "revid": 1365317291,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_3&oldid=1365317291",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Mabel",
+      "candidates": [
+        {
+          "text": "Jimmy helps Chuck pull the foil sheeting off his walls, reminiscing about a children's book they once read together.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "Jimmy helps Chuck remove foil from his walls and reminisces over a children's book they read together",
+          "grounded_ok": true
+        },
+        {
+          "text": "In black and white, a mall employee points out to security a shoplifter crouched inside a photo booth.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "\"Gene\" points out to mall security guards a shoplifter hiding in a photo booth",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike methodically strips his station wagon down to its bare parts in a garage bay, checking every piece.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike dismantles his station wagon",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1239,
+        "cache_read": 0,
+        "cache_write": 10848
+      }
+    },
+    "2": {
+      "title": "Witness",
+      "candidates": [
+        {
+          "text": "Mike posts Jimmy inside a fried-chicken restaurant for hours to sit and watch one particular customer.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike",
+            "Jimmy"
+          ],
+          "grounded_in": "Mike asks Jimmy to watch the courier inside the restaurant.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy reports back to Mike that he noticed nothing unusual at all during his long stakeout over lunch.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Mike"
+          ],
+          "grounded_in": "Jimmy notices nothing unusual, briefly conversing with the manager",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike finds his missing gas cap sitting in the middle of an empty stretch of remote road.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "until he finds it with his gas cap and a cell phone in the middle of a remote stretch of road",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike tails a courier's vehicle across town, staying several cars back through the traffic.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "meet with a courier, whom Mike tails until he stops at Los Pollos Hermanos",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1407,
+        "cache_read": 10848,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Sunk Costs",
+      "candidates": [
+        {
+          "text": "On an empty desert road, Mike takes aim at a pair of sneakers strung over the overhead cable.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "hangs the pair from a cable spanning the road where Hector's drivers stop to stash their guns before crossing the Mexican border. As they depart, Mike shoots the sneakers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike works a small packet of white powder down into the toe of a sneaker.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "stuffs it into the toe of a sneaker",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike watches a stretch of border road where drivers pull over and stash their guns before crossing.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "the road where Hector's drivers stop to stash their guns before crossing the Mexican border",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is arrest, negotiation and outcome material, so safe texture is limited to Mike's roadside preparations.",
+      "usage": {
+        "in": 42,
+        "out": 1869,
+        "cache_read": 10848,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Sabrosito",
+      "candidates": [
+        {
+          "text": "Mike turns up at Chuck's house in workman's clothes with a toolbox, replacing the damaged front door.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike",
+            "Chuck"
+          ],
+          "grounded_in": "Jimmy hires Mike to pose as a handyman to repair Chuck's door",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a flashback, Hector arrives at the cartel boss's poolside estate carrying a cash tribute in a bag.",
+          "specificity": 5,
+          "characters_named": [
+            "Hector"
+          ],
+          "grounded_in": "In a flashback, Hector delivers a cash tribute to Don Eladio",
+          "grounded_ok": true
+        },
+        {
+          "text": "An envelope of cash arrives for Mike from Gus as payment, and Mike hands it back.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Gus"
+          ],
+          "grounded_in": "Gus sends payment to Mike for his disruption of Hector's trucks, but Mike refuses the money",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy, Kim, Howard and Chuck sit around a conference table with the prosecutor, going over paperwork together.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy",
+            "Kim",
+            "Howard",
+            "Chuck"
+          ],
+          "grounded_in": "Jimmy, Kim, Howard, Chuck, and the prosecutor meet to finalize Jimmy's confession",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material is setup for the hearing or cartel power shifts; the safe moments are limited.",
+      "usage": {
+        "in": 41,
+        "out": 1570,
+        "cache_read": 10848,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Chicanery",
+      "candidates": [
+        {
+          "text": "In a flashback, Jimmy helps Chuck rig the house so Rebecca will not notice his condition over dinner.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Chuck",
+            "Rebecca"
+          ],
+          "grounded_in": "Chuck invites Rebecca to dinner, and works with Jimmy to hide his EHS",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the bar association hearing, Kim frames the whole matter as a personal quarrel between two brothers.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "the bar association hearing occurs, with Kim arguing the situation being a more personal argument between brothers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Rebecca turns up in the hearing room just as Chuck arrives to give his testimony.",
+          "specificity": 4,
+          "characters_named": [
+            "Rebecca",
+            "Chuck"
+          ],
+          "grounded_in": "When Chuck arrives for his testimony, Rebecca appears having been called over by Jimmy",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode's memorable beats (the planted battery, Chuck's outburst) are the central reveal and outcome, so probes are limited to the flashback setup and the hearing's opening framing.",
+      "usage": {
+        "in": 40,
+        "out": 1650,
+        "cache_read": 10848,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Off Brand",
+      "candidates": [
+        {
+          "text": "Jimmy films quick, cheap TV spots for local businesses, trying not to waste commercial airtime he already paid for.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy attempts to avoid losing money he prepaid for TV commercials by making on air pitches for other businesses",
+          "grounded_ok": true
+        },
+        {
+          "text": "Rebecca turns up looking for Jimmy's help getting in to see Chuck, who will not answer his door.",
+          "specificity": 4,
+          "characters_named": [
+            "Rebecca",
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "Rebecca arrives and asks Jimmy to help her see Chuck, who will not answer his door",
+          "grounded_ok": true
+        },
+        {
+          "text": "Howard visits Chuck at home and urges him to let go of the feud with his brother.",
+          "specificity": 3,
+          "characters_named": [
+            "Howard",
+            "Chuck"
+          ],
+          "grounded_in": "Howard visits Chuck and suggests he end the feud with Jimmy and look to the future",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats (the hearing verdict, the capsule, the extra cocaine package, the laundry scouting, the alias) are turning points or involve characters first named here, so the safe pool is small.",
+      "usage": {
+        "in": 40,
+        "out": 1501,
+        "cache_read": 10848,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Expenses",
+      "candidates": [
+        {
+          "text": "Mike turns up in work gloves to help build the church playground, joined by people from Stacey's support group.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Stacey"
+          ],
+          "grounded_in": "Mike helps with construction of the new church playground and receives help from other members of Stacey's support group.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy works the phones, trying to unload the television airtime he has already paid for.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy unsuccessfully tries to sell the TV ad time for which he has already paid.",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the support group, a woman tells the circle how her husband vanished on a hiking trip years ago.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "After hearing Anita tell the support group about how her husband mysteriously disappeared while hiking years previously",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy sits across a desk from an insurance representative, pushing for a refund on his malpractice premium.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy attempts to obtain a malpractice insurance premium refund",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (the capsule swap plan, the bodyguard job, Kim's regret over the hearing) is either setup for consequential events or reveals prior outcomes, so the pool of safe moments is small.",
+      "usage": {
+        "in": 39,
+        "out": 1370,
+        "cache_read": 10848,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Slip",
+      "candidates": [
+        {
+          "text": "In a flashback, a young Jimmy and a friend dig out his old coin collection inside the shuttered family store in Cicero.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy and Marco recover Jimmy's coin collection from the abandoned McGill store in Cicero",
+          "grounded_ok": true
+        },
+        {
+          "text": "At lunch with Kevin and Paige, Kim spots Howard and tries to hand him a check for her law school loan.",
+          "specificity": 5,
+          "characters_named": [
+            "Kevin",
+            "Paige",
+            "Kim",
+            "Howard"
+          ],
+          "grounded_in": "While at lunch with Kevin and Paige, Kim encounters Howard and tries to repay her law school loan",
+          "grounded_ok": true
+        },
+        {
+          "text": "On litter-collecting duty in an orange vest, Jimmy talks his community service supervisor into signing off on his hours.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy coerces his community service supervisor into giving him credit for hours worked",
+          "grounded_ok": true
+        },
+        {
+          "text": "Two of the local businesses Jimmy made commercials for flatly refuse to pay him for the airtime.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Two of Jimmy's advertising clients refuse to pay",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy takes a theatrical tumble in a shop, then lies on the floor clutching his back.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "he stages a \"slip and fall\" accident",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Marco is named in the summary but not in any earlier summary provided, so he is described rather than named.",
+      "usage": {
+        "in": 38,
+        "out": 1782,
+        "cache_read": 10848,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Fall",
+      "candidates": [
+        {
+          "text": "Jimmy presses Howard on why the firms won't take the settlement money now; Howard says patience will pay more.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Howard"
+          ],
+          "grounded_in": "He asks Howard why they will not accept, and Howard says they believe they can obtain more by waiting.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy visits the elderly Sandpiper class representative at home, chatting with her for an update on the case.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy receives an update on the Sandpiper case from Irene, the class representative",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike, in a suit, sits through corporate paperwork and takes a salaried job as a security consultant.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike becomes a contracted security consultant for Madrigal Electromotive",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim, juggling a second client on top of everything else, works herself to exhaustion at her desk.",
+          "specificity": 3,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim takes on a second client to earn additional income and becomes exhausted from overwork",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Kim's overwork is framed in the summary as leading to her accident, so that probe is ranked last; the episode's other beats (insurance meeting, Chuck's lawsuit, Nacho and his father, the Irene manipulation) are all turning points.",
+      "usage": {
+        "in": 38,
+        "out": 2028,
+        "cache_read": 10848,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Lantern",
+      "candidates": [
+        {
+          "text": "In a childhood flashback, Chuck reads aloud to a young Jimmy by the light of a camping lantern.",
+          "specificity": 5,
+          "characters_named": [
+            "Chuck",
+            "Jimmy"
+          ],
+          "grounded_in": "In a flashback to their childhood, Chuck reads to Jimmy by lantern light.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy sets about getting himself and Kim out of the lease on their shared office space.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "Jimmy agrees to break their office lease so Kim can save money by working from home.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Almost everything in this episode's summary is a turning point (the stroke, the buyout, the settlement reversal, the fire) or the direct consequence of one, so only two safe texture moments were available.",
+      "usage": {
+        "in": 39,
+        "out": 1365,
+        "cache_read": 10848,
+        "cache_write": 0
+      }
+    }
+  }
+}

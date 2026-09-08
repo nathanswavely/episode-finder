@@ -1,0 +1,240 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 3,
+  "source": {
+    "title": "Breaking Bad season 3",
+    "revid": 1364483503,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_3&oldid=1364483503",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "No Más",
+      "probes": [
+        {
+          "text": "Jesse sits through sessions at a rehab facility, wrestling with self-loathing and guilt.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt rattles around the house alone, packing up his things while Skyler stays elsewhere with the kids.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "The whole city is still reeling, in a daze over the mid-air collision in the skies above Albuquerque.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Caballo sin Nombre",
+      "probes": [
+        {
+          "text": "A patrol officer stops Walt over the crack running across his car's windshield, and the roadside exchange escalates.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse wanders through his old house, freshly renovated and staged, with a for-sale sign out front.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt Jr. cannot understand why his mother still refuses to let his father come back home.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "I.F.T.",
+      "probes": [
+        {
+          "text": "Jesse, still unable to shake Jane's death, has moved back into his old house alone.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Told he is being sent back to El Paso, Hank loses his temper in a bar.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Walt Jr. is delighted to have his father back in the house and baffled by his mother's coldness.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "4": {
+      "title": "Green Light",
+      "probes": [
+        {
+          "text": "Walt barges into the office building where Skyler works, loudly demanding to see her boss.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jesse turns up waiting for Walt outside the school, eager to show off a batch he cooked alone.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Más",
+      "probes": [
+        {
+          "text": "Marie, worried about how Hank is doing, confides in Skyler about it.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hank keeps digging away at the RV lead, and it sparks an argument with Marie.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Sunset",
+      "probes": [
+        {
+          "text": "Walt Jr., in the wake of the divorce, presses for straight answers about his parents' relationship.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Walt takes a liking to the well-qualified new assistant brought in to help him in the lab.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse brings Badger and Skinny Pete back in, recruiting them to work the drug trade alongside him again.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "7": {
+      "title": "One Minute",
+      "probes": [
+        {
+          "text": "Hank sits with Marie and tearfully talks about how much his work has changed him since the desert shootout.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Walt goes out of his way to needle his fastidious lab assistant, making the superlab an unpleasant place to work.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "8": {
+      "title": "I See You",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Left alone in the underground lab, Jesse can't get a cook started and frets about hitting their quota.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "Kafkaesque",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "The new lab is running at full tilt, with Walt and Jesse comfortably hitting two hundred pounds a week.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "10": {
+      "title": "Fly",
+      "probes": [
+        {
+          "text": "A single housefly gets into the lab, and Walt goes to absurd lengths trying to swat it.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt lies awake with insomnia, brooding over the direction his life has taken.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse, dismissive at first, ends up joining Walt's obsessive hunt around the lab equipment.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Abiquiu",
+      "probes": [
+        {
+          "text": "Gus invites Walt to his home for dinner, cooking for him and offering some fatherly advice.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Badger and Skinny Pete balk at Jesse's idea of selling to people from their rehab group.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Skyler opens the first of Hank's hospital bills and starts pressing Walt about where the money comes from.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Half Measures",
+      "probes": [
+        {
+          "text": "In his hospital room, Marie gives Hank a sponge bath and makes him a playful wager.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hank's doctors have told him he can go home whenever he likes, but he stays in his bed.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "Full Measure",
+      "probes": [
+        {
+          "text": "Gus, going over the numbers with a chemist, says his overhead means he cannot lose even a week's production.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

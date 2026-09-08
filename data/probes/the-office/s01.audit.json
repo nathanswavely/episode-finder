@@ -1,0 +1,548 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 1,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Pilot",
+      "candidates": [
+        {
+          "text": "A documentary crew turns up at the Scranton paper company for the first time, filming the staff at their desks.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes the documentary-crew framing and workplace setting, revealing no outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes the documentary-crew premise and workplace setting, ordinary texture with no outcome or reveal."
+                }
+              ],
+              "reason": "It only establishes the documentary-crew framing and workplace setting, revealing no outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A young temporary worker starts his first day at the branch and is shown around the office.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A new temp's first day and office tour is ordinary setup and character texture, revealing no outcome, twist, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A new worker's first day and office tour is ordinary setup and character texture, not an outcome or answer to a pending question."
+                }
+              ],
+              "reason": "A new temp's first day and office tour is ordinary setup and character texture, revealing no outcome, twist, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "For the cameras, the regional manager insists everything at the branch is wonderful and morale could not be better.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        }
+      ]
+    },
+    "2": {
+      "title": "Diversity Day",
+      "candidates": [
+        {
+          "text": "Michael tapes index cards with different races written on them to everyone's foreheads and makes them act out stereotypes.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes a comedic office activity typical of Michael's antics, not an outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a comedic workplace activity typical of Michael's character, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It describes a comedic office activity typical of Michael's antics, not an outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "An outside consultant arrives to run a tolerance session, and Michael keeps interrupting to deliver his own version.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary premise/setup (a workplace seminar and Michael's predictable self-aggrandizing behaviour) without disclosing any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes an ordinary workplace scenario and Michael's established attention-seeking character trait, without disclosing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "It describes an ordinary premise/setup (a workplace seminar and Michael's predictable self-aggrandizing behaviour) without disclosing any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The whole office is herded into the conference room for a mandatory seminar about race and tolerance.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary workplace situation/setup (a mandatory diversity seminar) without revealing any outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a setup/premise detail — an office meeting scenario — without disclosing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "It describes an ordinary workplace situation/setup (a mandatory diversity seminar) without revealing any outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Health Care",
+      "candidates": [
+        {
+          "text": "Jim and Pam entertain themselves filling out the medical forms Dwight has handed around the office.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture consistent with the established Jim/Pam/Dwight dynamic and reveals no outcome or plot turn."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture consistent with the established Jim-Pam-Dwight prank dynamic and reveals no outcome or new development."
+                }
+              ],
+              "reason": "This is ordinary workplace texture consistent with the established Jim/Pam/Dwight dynamic and reveals no outcome or plot turn."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight is put in charge of picking the office's new health care plan, and takes the job very seriously.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary premise/setup consistent with Dwight's established character, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a premise/setup detail establishing an ordinary office situation and Dwight's characteristic zeal, not an outcome or reveal."
+                }
+              ],
+              "reason": "This is an ordinary premise/setup consistent with Dwight's established character, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael promises the whole office a big surprise, then spends the day scrambling to come up with one.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setup consistent with Michael's established character and reveals no outcome, discovery, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setup consistent with Michael's established character and reveals no outcome, discovery, or resolution."
+                }
+              ],
+              "reason": "This is ordinary setup consistent with Michael's established character and reveals no outcome, discovery, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "The Alliance",
+      "candidates": [
+        {
+          "text": "Michael spends the whole day agonizing over what joke to write in a coworker's birthday card.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Michael fussing over a birthday card joke is ordinary character texture and reveals no outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic character texture about Michael fretting over a birthday card, with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Michael fussing over a birthday card joke is ordinary character texture and reveals no outcome, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The office holds a morale-boosting birthday party for an employee whose birthday is over a month away.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An office birthday party is ordinary workplace texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A morale-boosting birthday party is an ordinary office activity and premise texture, revealing no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "An office birthday party is ordinary workplace texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "With downsizing rumors swirling, paranoia spreads through the office and Dwight starts talking in Survivor terms.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Downsizing anxiety is already established, and Dwight's Survivor talk is character texture rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Downsizing anxiety is already established, and Dwight's Survivor talk is character texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Downsizing anxiety is already established, and Dwight's Survivor talk is character texture rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Basketball",
+      "candidates": [
+        {
+          "text": "The office staff square off against the warehouse crew in a basketball game, losers owing a Saturday shift.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes the premise/setup of a basketball game and its stakes, ordinary situational texture without revealing the outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes the premise/setup of a game with stakes but reveals no outcome or story turning point."
+                }
+              ],
+              "reason": "This describes the premise/setup of a basketball game and its stakes, ordinary situational texture without revealing the outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael assembles his lineup by looks and assumptions, passing over the more athletic office workers for weaker players.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Michael's established cluelessness, revealing no outcome, death, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is comic setup/character texture about Michael's poor judgment in picking a team, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture consistent with Michael's established cluelessness, revealing no outcome, death, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael stops play mid-game to insist on a \"flagrant personal intentional foul\" against his side.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic texture of Michael's behavior during a game, revealing no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic texture of Michael's behavior during a game, with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary comedic texture of Michael's behavior during a game, revealing no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Hot Girl",
+      "candidates": [
+        {
+          "text": "A visiting saleswoman sets up a table of purses in the office, and the men keep drifting over.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary setup — a saleswoman displaying purses and men wandering over — without revealing any outcome, relationship development, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes an ordinary setup — a visiting saleswoman displaying purses and drawing attention — without disclosing any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "It describes an ordinary setup — a saleswoman displaying purses and men wandering over — without revealing any outcome, relationship development, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael and Dwight openly compete for the attention of the woman selling handbags out of the conference area.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes a routine setup — a saleswoman visiting the office and Michael and Dwight vying for her attention — without revealing any outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ongoing rivalry/flirtation setup consistent with the characters' established behaviour, without revealing any outcome, romance result, or plot development."
+                }
+              ],
+              "reason": "It only describes a routine setup — a saleswoman visiting the office and Michael and Dwight vying for her attention — without revealing any outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "An espresso machine turns up in the office kitchen, courtesy of Michael's spending.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An office appliance appearing is ordinary workplace texture and doesn't disclose any outcome, such as the pending downsizing decision."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An office appliance appearing is ordinary texture consistent with Michael's established spending habits and doesn't disclose any outcome, such as the downsizing decision."
+                }
+              ],
+              "reason": "An office appliance appearing is ordinary workplace texture and doesn't disclose any outcome, such as the pending downsizing decision."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Corporate sets aside a thousand dollars as a prize for the branch's top salesman.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is setup/premise texture — a prize being announced — and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It sets up a new premise (a sales prize) without disclosing any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is setup/premise texture — a prize being announced — and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 17886,
+    "out": 4972,
+    "cache_read": 59501,
+    "cache_write": 7167,
+    "calls": 73
+  },
+  "recheck_spend": {
+    "in": 6400,
+    "out": 3755,
+    "cache_read": 24197,
+    "cache_write": 631,
+    "calls": 34
+  }
+}

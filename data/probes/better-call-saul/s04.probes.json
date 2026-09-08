@@ -1,0 +1,216 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 4,
+  "source": {
+    "title": "Better Call Saul season 4",
+    "revid": 1365317301,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_4&oldid=1365317301",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Smoke",
+      "probes": [
+        {
+          "text": "A hospital clerk presses Gene for his personal information so she can complete the billing paperwork.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "After his first Madrigal site visit, Mike hands over a detailed list of the safety violations he found.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Gene, riding in a taxi back to the mall, notices an Albuquerque Isotopes air freshener and gets out early.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "Breathe",
+      "probes": [
+        {
+          "text": "Jimmy sits through a job interview at a copier showroom, pitching himself hard as a salesman.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Lydia is exasperated to learn Mike is actually walking Madrigal sites instead of just collecting paychecks.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Rebecca and Kim sit down in Howard's office to go through the paperwork of Chuck's estate.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Something Beautiful",
+      "probes": [
+        {
+          "text": "Kim is back at her desk on Mesa Verde business, uneasy about how fast the bank wants to expand.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Gus stops by a university chemistry lab to look over test results on meth samples he left there.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Talk",
+      "probes": [
+        {
+          "text": "Bored behind the counter of a nearly empty cell phone store, Jimmy tries to drum up business himself.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Kim sits at the back of a courtroom, watching a judge work through a day of small cases.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At the support group, Mike loses patience with another member's story about a wife who died.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Quite a Ride",
+      "probes": [
+        {
+          "text": "Kim, newly handed several pro bono defendants, stays with a courtroom case while Mesa Verde paperwork sits waiting.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Behind the counter, Jimmy talks a wary customer into buying several prepaid phones at once to protect his privacy.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In a flash-forward, Francesca hurriedly feeds documents into a shredder while Saul empties cash and mementos from his office.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Piñata",
+      "probes": [
+        {
+          "text": "In a flashback, Kim and Jimmy sort and deliver mail in the HHM mailroom, where she is still a law student.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At Hector's hospital bedside, Gus recounts a childhood story about a lúcuma tree he nursed back to health.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Mike quietly outfits hidden living quarters and recreation space underground for Werner's crew as they begin digging.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "Something Stupid",
+      "probes": [
+        {
+          "text": "A long split-screen montage carries Jimmy and Kim through months of parallel daily routines as time slides forward.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Deep underground, the digging drags slower than expected, tempers fray, and Mike steps in to pull two workers apart.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy walks through empty office spaces, sizing them up for the practice he plans to reopen.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Coushatta",
+      "probes": [
+        {
+          "text": "Mike takes the German construction crew out to a strip club for a night off.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Kim rounds up staff at her new firm and promises to bury the prosecutor in paperwork.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Wiedersehen",
+      "probes": [
+        {
+          "text": "Deep in the excavation, Werner's crew detonate the rock blocking the elevator shaft and cheer as the dust settles.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy sits before a panel, eloquently answering their questions about why he should have his law license back.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Lalo visits Hector's room carrying a small brass concierge bell he kept as a souvenir.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Winner",
+      "probes": [
+        {
+          "text": "Jimmy sits on the panel interviewing applicants for the scholarship established in Chuck's name, chatting with the candidates.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Lalo quietly watches Gus' operation from a distance, learning the routines and regular activities of the business.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In a flashback, Chuck puts on a show of celebration on the day Jimmy becomes a licensed attorney.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

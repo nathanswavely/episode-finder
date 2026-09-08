@@ -1,0 +1,181 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 2,
+  "source": {
+    "title": "Better Call Saul season 2",
+    "revid": 1349384905,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_2&oldid=1349384905",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Switch",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "In Omaha, Gene finds himself locked inside the mall's dumpster room, staring at an emergency exit he dares not push.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "Cobbler",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Mike runs into Daniel outside the police station, where Daniel has come in for an interview about his stolen baseball cards.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Howard drives out to Chuck's house to tell him in person where Jimmy has taken a job.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Amarillo",
+      "probes": [
+        {
+          "text": "Jimmy pays off a Sandpiper shuttle driver so he can climb aboard and pitch himself to a busload of residents.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike stops by the veterinarian's clinic to look over what work is currently on offer.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike sits parked outside Stacey's house through the night, keeping watch on the quiet street.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Gloves Off",
+      "probes": [
+        {
+          "text": "Nacho, rattled by how unpredictable Tuco has become, worries his own side deals will come to light.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jimmy sits in a conference room facing the Davis & Main partners, who are furious about the television commercial.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "5": {
+      "title": "Rebecca",
+      "probes": [
+        {
+          "text": "Chuck attempts the same lighthearted routine his brother pulled off so easily, and it lands with a thud.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Kim works the phone through a long list of old school and professional contacts, hunting for a big client.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jimmy finds Kim among the boxes in the document review room and floats the idea of suing the firm.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Bali Ha'i",
+      "probes": [
+        {
+          "text": "Unable to sleep in his plush corporate apartment, Jimmy drives back to his old boiler room office and beds down there.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Kim, blowing off steam, works a bar con with Jimmy on an investor and keeps the resulting check as a souvenir.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Inflatable",
+      "probes": [
+        {
+          "text": "In a flashback, a boy works the counter of his family's corner store while a stranger tells his father a hard-luck story.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike promises Stacey he will buy her a house in a safer neighborhood.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Fifi",
+      "probes": [
+        {
+          "text": "Jimmy talks his way onto an Air Force base and films a vintage bomber for a television ad.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike, parked and watching, tails a cargo truck out to an isolated garage on the edge of town.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jimmy and Kim move their new offices into a converted dentists' suite, complete with leftover dental fittings.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "Nailed",
+      "probes": [
+        {
+          "text": "Mike works alone in disguise on an empty desert road, going at a cargo truck's tire.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy loiters on the sidewalk across the street, keeping his eyes on a copy shop's front window.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Klick",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Jimmy slips out of their mother's hospital room to hunt down sandwiches, leaving Chuck sitting at the bedside.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

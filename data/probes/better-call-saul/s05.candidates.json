@@ -1,0 +1,520 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 5,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Better Call Saul season 5",
+    "revid": 1365317314,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_5&oldid=1365317314",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Magic Man",
+      "candidates": [
+        {
+          "text": "Saul stands on a street corner handing out the last of his free cell phones to advertise his new practice.",
+          "specificity": 4,
+          "characters_named": [
+            "Saul"
+          ],
+          "grounded_in": "Saul gives away his remaining cell phones to publicize his criminal law practice.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Saul's camera crew films him staging a fake confrontation with a deputy district attorney as a publicity stunt.",
+          "specificity": 5,
+          "characters_named": [
+            "Saul"
+          ],
+          "grounded_in": "Saul's camera crew helps generate publicity for his practice by faking a confrontation with Deputy District Attorney Oakley.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nacho passes along street rumors that the cocaine coming from Gus has been poor quality, and Lalo confirms it.",
+          "specificity": 4,
+          "characters_named": [
+            "Nacho",
+            "Gus",
+            "Lalo"
+          ],
+          "grounded_in": "Nacho reports rumors that cocaine Gus provided the Salamancas is inferior, which Lalo confirms.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gus explains to Lalo and Juan Bolsa that the work at the chicken farm was a chiller under Mike's supervision.",
+          "specificity": 4,
+          "characters_named": [
+            "Gus",
+            "Lalo",
+            "Juan Bolsa",
+            "Mike"
+          ],
+          "grounded_in": "Gus tells Lalo and Juan Bolsa that Werner was building a chiller on the chicken farm under Mike's supervision",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy tells Kim that the name he used for the phone business already comes with a ready-made client base.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "Jimmy tells Kim the \"Saul Goodman\" alias he used for his cell phone business gives him an instant criminal law client base.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1533,
+        "cache_read": 0,
+        "cache_write": 11111
+      }
+    },
+    "2": {
+      "title": "50% Off",
+      "candidates": [
+        {
+          "text": "Saul contrives to be stuck in a courthouse elevator with the assistant district attorney, charm at full blast.",
+          "specificity": 5,
+          "characters_named": [
+            "Saul"
+          ],
+          "grounded_in": "tricks Assistant District Attorney Ericsen into making more after he arranges to be stuck with her in an elevator",
+          "grounded_ok": true
+        },
+        {
+          "text": "Two drug users flash one of Saul's 50% off business cards and embark on a multi-day binge.",
+          "specificity": 5,
+          "characters_named": [
+            "Saul"
+          ],
+          "grounded_in": "Two drug users who received Saul's 50% off business card go on a multi-day crime binge",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the Salamanca drug house, bags of product get jammed inside a drainpipe.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "As they attempt to buy more cocaine at the Salamanca drug house, the bags get stuck in the drainpipe",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike, drinking heavily and short-tempered, spends an evening babysitting Kaylee, who asks questions about her father.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Kaylee"
+          ],
+          "grounded_in": "drinks heavily. He babysits Kaylee, who asks questions about her father",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nacho climbs across a row of rooftops to get inside a house before police reach the door.",
+          "specificity": 4,
+          "characters_named": [
+            "Nacho"
+          ],
+          "grounded_in": "climbing over rooftops to sneak in and retrieve the drug stash before police enter",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1332,
+        "cache_read": 11111,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "The Guy for This",
+      "candidates": [
+        {
+          "text": "Kim is pulled away from a day of pro bono defense work to handle a homeowner refusing to sell his land.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim is pulled from a day of pro bono criminal defense work to deal with a stubborn homeowner, Mr. Acker, who refuses to leave his land to make way for a Mesa Verde call center",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nacho quietly arranges for someone else to make an offer on his father's upholstery shop.",
+          "specificity": 4,
+          "characters_named": [
+            "Nacho"
+          ],
+          "grounded_in": "Nacho tries to have someone purchase his father's upholstery shop so he can retire away from the drug world",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy, as Saul, stages an elaborate ploy designed to pull two DEA agents into his scheme.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Saul"
+          ],
+          "grounded_in": "Jimmy as Saul sets up a ploy that draws in DEA agents Hank Schrader and Steven Gomez",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nacho drives Jimmy out to a meeting with Lalo, who has a legal favor in mind.",
+          "specificity": 4,
+          "characters_named": [
+            "Nacho",
+            "Jimmy",
+            "Lalo"
+          ],
+          "grounded_in": "Nacho delivers Jimmy to Lalo, who wants him to make sure Domingo is freed from prison without talking",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1522,
+        "cache_read": 11111,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Namaste",
+      "candidates": [
+        {
+          "text": "A vanity plate reading \"NAMAST3\" sits on the back of an expensive car in a parking spot.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Howard's expensive car, which sports a vanity plate reading \"NAMAST3\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy picks out three bowling balls and hauls them off, though he never sets foot in a lane.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "later uses three bowling balls",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim pitches Mesa Verde an alternate development layout that would let the stubborn homeowner keep his house.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim tries to convince Mesa Verde to use an alternate development plan and leave Mr. Acker's home standing",
+          "grounded_ok": true
+        },
+        {
+          "text": "Stacey tells Mike she is not yet comfortable leaving Kaylee in his care.",
+          "specificity": 3,
+          "characters_named": [
+            "Stacey",
+            "Mike",
+            "Kaylee"
+          ],
+          "grounded_in": "Stacey tells Mike she does not yet feel comfortable having him babysit Kaylee",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1884,
+        "cache_read": 11111,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Dedicado a Max",
+      "candidates": [
+        {
+          "text": "Mike recuperates in a small Mexican village, walking past a stone fountain with a dedication plaque on it.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike wakes up on a ranch in Mexico which has ties to Gus, including a fountain dedicated to Max",
+          "grounded_ok": true
+        },
+        {
+          "text": "A doctor patches up Mike's wounds and tells him he should stay put until he has healed.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Dr. Barry Goodman treats him and recommends he stay and heal.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Over another conversation, Howard presses Jimmy about the job offer, and Jimmy says he is still considering it.",
+          "specificity": 4,
+          "characters_named": [
+            "Howard",
+            "Jimmy"
+          ],
+          "grounded_in": "Howard asks Jimmy to accept his offer to join HHM, and Jimmy claims he is still considering it.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim tries to get herself taken off the case by claiming a conflict of interest, but Kevin will not hear it.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim",
+            "Kevin"
+          ],
+          "grounded_in": "Kim tries to recuse herself by claiming a conflict of interest, but Kevin insists she remain.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A senior partner at Kim's firm gently tells her that her heart clearly isn't in the bank's business anymore.",
+          "specificity": 3,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Rich Schweikart suggests that Kim disengage from Mesa Verde's business, correctly deducing her heart is not in it",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Avoided naming the doctor, the private investigator and the fountain's dedicatee, none of whom appear in earlier summaries.",
+      "usage": {
+        "in": 43,
+        "out": 1605,
+        "cache_read": 11111,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Wexler v. Goodman",
+      "candidates": [
+        {
+          "text": "Both sides sit down around a conference table to finalize a settlement between the bank and the stubborn homeowner.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "at the meeting to finalize the settlement",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gus, Mike and Victor meet quietly with Nacho for an update on what Lalo has been planning.",
+          "specificity": 3,
+          "characters_named": [
+            "Gus",
+            "Mike",
+            "Victor",
+            "Nacho",
+            "Lalo"
+          ],
+          "grounded_in": "Gus, Victor, and Mike meet with Nacho, who reports Lalo's plan",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive moments (the settlement demand, the logo discovery, Kim's confrontation and proposal, Mike's tip to police) are turning points or reveals, so safe texture is limited.",
+      "usage": {
+        "in": 45,
+        "out": 1478,
+        "cache_read": 11111,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "JMM",
+      "candidates": [
+        {
+          "text": "Gus sits with other subsidiary owners in a conference room, delivering business updates to Madrigal's visiting chief executive.",
+          "specificity": 4,
+          "characters_named": [
+            "Gus"
+          ],
+          "grounded_in": "Gus and other subsidiary owners provide updates to Peter Schuler, Madrigal's CEO",
+          "grounded_ok": true
+        },
+        {
+          "text": "Away from the group, Gus quietly briefs Lydia and the Madrigal executive on where the lab construction stands.",
+          "specificity": 4,
+          "characters_named": [
+            "Gus",
+            "Lydia"
+          ],
+          "grounded_in": "Gus briefs Peter and Lydia on the meth lab's status",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike tells Stacey that he is past whatever had been making him so angry lately.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike",
+            "Stacey"
+          ],
+          "grounded_in": "Mike tells Stacey he is over the problem that caused his recent anger",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim and Rich sit down with Kevin, who says he will let them know his decision later.",
+          "specificity": 3,
+          "characters_named": [
+            "Kim",
+            "Rich",
+            "Kevin"
+          ],
+          "grounded_in": "Kevin indicates he will let them know later whether he will retain them",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1602,
+        "cache_read": 11111,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Bagman",
+      "candidates": [
+        {
+          "text": "Jimmy is paid a hundred thousand dollars up front for what he insists to Kim will be an easy job.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "pays him $100,000 to transport the cash",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim argues that her husband is a lawyer, not a courier for a drug dealer, and doesn't want him going.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim does not want him to go because he is a lawyer, not a drug dealer's \"bagman\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy drives out alone to a remote desert pickup site, where two heavy bags of cash are handed over.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "The Cousins deliver two bags of cash to Jimmy.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy spends a night camped out in the open desert, far from any road, before walking on at daybreak.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "They camp overnight, then continue their trek.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Unable to reach Jimmy, Kim goes to Lalo and asks where he is; Lalo won't tell her.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Kim",
+            "Lalo"
+          ],
+          "grounded_in": "When Jimmy fails to return, Kim asks Lalo for his location, but he refuses to tell her.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode is one continuous life-or-death sequence, so probes are limited to the setup and low-stakes desert texture.",
+      "usage": {
+        "in": 39,
+        "out": 1478,
+        "cache_read": 11111,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Bad Choice Road",
+      "candidates": [
+        {
+          "text": "Tyrus and Victor collect a filthy, exhausted Jimmy and Mike from a truck stop out on the highway.",
+          "specificity": 5,
+          "characters_named": [
+            "Tyrus",
+            "Victor",
+            "Jimmy",
+            "Mike"
+          ],
+          "grounded_in": "Tyrus and Victor pick up Jimmy and Mike at a truck stop.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike tells Jimmy that the shakiness he feels after what happened in the desert will pass with time.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Jimmy"
+          ],
+          "grounded_in": "Mike tells Jimmy his post-traumatic stress will pass with time.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy sticks to his story that his car broke down and he walked out of the desert alone.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "claims he walked alone after his car broke down",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1358,
+        "cache_read": 11111,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Something Unforgivable",
+      "candidates": [
+        {
+          "text": "Kim takes on twenty pro bono cases at once from the public defender, hauling away the stack of files.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim accepts 20 pro bono cases from the public defender.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Howard suggests Kim stop following Jimmy's lead, and she tells him she's insulted by the idea she can't decide for herself.",
+          "specificity": 4,
+          "characters_named": [
+            "Howard",
+            "Kim",
+            "Jimmy"
+          ],
+          "grounded_in": "suggests she stop following his lead. Kim says she is insulted by the notion that she cannot decide for herself",
+          "grounded_ok": true
+        },
+        {
+          "text": "Rather than staying at the apartment, Jimmy and Kim hole up in a downtown hotel room.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "Kim and Jimmy hide at a downtown hotel",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 926,
+        "cache_read": 11111,
+        "cache_write": 0
+      }
+    }
+  }
+}

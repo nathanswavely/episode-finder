@@ -1,0 +1,181 @@
+{
+  "show": "Lost",
+  "slug": "lost",
+  "season": 1,
+  "source": {
+    "title": "Lost season 1",
+    "revid": 1371874602,
+    "url": "https://en.wikipedia.org/w/index.php?title=Lost_season_1&oldid=1371874602",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": [
+    {
+      "episode": 3,
+      "overall": 3,
+      "title": "Tabula Rasa",
+      "air_date": "2004-10-06",
+      "summary": "While on the run from Mars, Kate is taken in by a farmer, but he discovers her identity and tries to turn her in. She crashes his car but stops to save him from the wreckage, getting her captured by Mars. In the present, Jack discovers her mugshot and refuses to euthanize a dying Mars. Sawyer shoots him but misses his heart, forcing Jack to kill him. Kate offers to tell Jack why she was in custody, but he rebuffs her, stating that the island can be a new start for all of them. The enigmatic John Locke befriends young Walt Lloyd, who is looking for Vincent, his dog. His father Michael Dawson looks for Vincent in the jungle and is chased by the monster, while Locke carves a whistle and uses it to call the dog. He gives it to Michael, allowing him to return Vincent to Walt himself.",
+      "words": 150
+    },
+    {
+      "episode": 4,
+      "overall": 4,
+      "title": "Walkabout",
+      "air_date": "2004-10-13",
+      "summary": "Locke plans an Australian walkabout that he believes he is destined to complete. In the present, he goes into the jungle to hunt boar as the camp's food runs low. Kate accompanies him, and when the monster attacks Locke, he later emerges from the jungle with a dead boar and denies seeing anything. Jack decides to burn the fuselage, which is being used as body storage. As the survivors burn it, a flashback reveals that Locke was paraplegic prior to the crash, preventing him from going on the walkabout, and woke up on the island with the use of his legs.",
+      "words": 101
+    },
+    {
+      "episode": 5,
+      "overall": 5,
+      "title": "White Rabbit",
+      "air_date": "2004-10-20",
+      "summary": "Jack's mother guilts him into retrieving his estranged father Christian from Australia. He goes and finds that Christian drank himself to death, loading his coffin onto the flight. In the present, Jack rescues Boone Carlyle from drowning, though a woman Boone was trying to save dies. Jack sees Christian walking through the jungle and encounters Locke while chasing him, who affirms his belief in the island's power and advises Jack to keep looking. He follows Christian to his coffin, which he finds empty. The survivors' water goes missing until Boone is caught with it, wanting to ration it himself and become a leader. Jack stops him from being beaten, insisting that \"if we can't live together, we're going to die alone.\"",
+      "words": 121
+    },
+    {
+      "episode": 6,
+      "overall": 6,
+      "title": "House of the Rising Sun",
+      "air_date": "2004-10-27",
+      "summary": "Wealthy Korean Sun-Hwa Paik and waiter Jin-Soo Kwon fall in love, and he works for her father Woo-Jung for her hand in marriage. They argue frequently as his work turns criminal, and she sets up a way to escape their relationship as she secretly learns English, only to board Flight 815 with Jin when he affirms his love for her. In the present, he attacks Michael. Sun explains that he found Woo-Jung's watch after the crash and Jin assumed he stole it, and Michael returns it. Locke recognizes Charlie's addiction and convinces him to hand over his drugs in exchange for pointing him to his lost guitar. Jack discovers a cave with a pair of skeletons inside, and the survivors debate on whether to move to the caves or stay on the beach and split in two.",
+      "words": 137
+    },
+    {
+      "episode": 7,
+      "overall": 7,
+      "title": "The Moth",
+      "air_date": "2004-11-03",
+      "summary": "Charlie's brother and band member Liam uses heroin, his unstable nature pressing Charlie into starting. Several years later, he encourages Charlie to stay with him in Sydney and get sober, but he refuses and leaves for Los Angeles. In the present, Sayid attempts to triangulate the French signal, but is attacked before he can corner it. Suffering from withdrawal, Charlie begs Locke for his drugs, who says he will return them if asked three times. He shouts at Jack and causes a cave-in. Charlie follows a moth to an opening that he digs his way out of. He asks Locke a third time for the drugs, but instead burns them as he starts to recover from his illness.",
+      "words": 118
+    },
+    {
+      "episode": 8,
+      "overall": 8,
+      "title": "Confidence Man",
+      "air_date": "2004-11-10",
+      "summary": "Sawyer cons a woman he is sleeping with, but before he can leave with the money, he realizes she has a young son and abandons the job. In the present, Boone's stepsister Shannon Rutherford cannot find an asthma inhaler, which he believes Sawyer has in his hoard of items from the crash. Sawyer tells Kate that he will give up the inhalers for a kiss, who asks about a letter she often sees him reading, which is written by a boy who blames him for his parents's murder-suicide. After Sayid tortures him, Kate kisses him and he admits he never had the inhalers. Kate realizes that the letter was written by Sawyer himself, who explains that he named himself after the con man. Shannon is saved when Sun makes a eucalyptus salve, while Sawyer considers burning the letter but decides against it.",
+      "words": 142
+    },
+    {
+      "episode": 9,
+      "overall": 9,
+      "title": "Solitary",
+      "air_date": "2004-11-17",
+      "summary": "Sayid is ordered to torture his childhood friend Nadia Jaseem, but he instead kills his superior and stages her escape. In the present, Sayid is captured by native Danielle Rousseau while following a cable, who tortures him and demands to know where \"Alex\" is, believing him to be one of \"the Others.\" He explains the crash to her and she identifies herself as the originator of the transmission. Sayid tries to escape, but she corners him and demands he stay, needing companionship. She admits she killed her companions to keep their disease from spreading, and after Sayid talks her down, she explains that Alex was her daughter.",
+      "words": 107
+    },
+    {
+      "episode": 10,
+      "overall": 10,
+      "title": "Raised by Another",
+      "air_date": "2004-12-01",
+      "summary": "Claire Littleton's boyfriend leaves her over her pregnancy and her psychic Richard Malkin warns her that the baby will be in danger if not raised properly. He gives her a ticket for Flight 815, insisting that a couple in Los Angeles can take it. In the present, she has disturbing dreams about being attacked and losing the baby. Her fear of an attack prompts Hugo \"Hurley\" Reyes to start making a census. Claire starts having contractions while Charlie moves her to the beach, telling Ethan Rom to get Jack. She tells him Malkin's story, and he suggests that he predicted the crash and this was his way of forcing her to raise the baby herself. As Sayid returns to camp warning of the Others and Hurley reports that there is one more person on the census than the flight manifest, Ethan approaches Claire and Charlie.",
+      "words": 145
+    },
+    {
+      "episode": 11,
+      "overall": 11,
+      "title": "All the Best Cowboys Have Daddy Issues",
+      "air_date": "2004-12-08",
+      "summary": "A drunken Christian botches a surgery and Jack takes over, but is unable to save the patient. Christian has Jack vouch that he was sober, but when a hospital board meeting is called about the patient, Jack is horrified to learn she was pregnant and recants his statement. In the present, the survivors go after Ethan and Jack finds Charlie hanged from a tree. Despite him not breathing, Jack performs frantic CPR, reviving him. While searching for Ethan, Boone and Locke find a metal hatch in the ground.",
+      "words": 88
+    },
+    {
+      "episode": 12,
+      "overall": 12,
+      "title": "Whatever the Case May Be",
+      "air_date": "2005-01-05",
+      "summary": "Kate helps a trio of men rob a bank, betrays them when she gets to the back, and takes an envelope from a safety deposit box. In the present, Sayid asks the French-speaking Shannon to translate Rousseau's notes, which she recognizes as lyrics from \"La Mer\". Kate and Sawyer find a locked suitcase while swimming. She tricks Jack into digging up Mars so she can take the key from his body, but he catches her and makes her open it with him. The envelope is inside, which contains a toy plane that she says belonged to a lover she killed.",
+      "words": 100
+    },
+    {
+      "episode": 13,
+      "overall": 13,
+      "title": "Hearts and Minds",
+      "air_date": "2005-01-12",
+      "summary": "Boone comes to Sydney to bribe Shannon's abusive boyfriend to leave her. Boone realizes she pocketed the bribe as she had with former boyfriends. She drunkenly accuses him of being in love with her and they have sex. In the present, Boone, jealous of Shannon's growing bond with Sayid, decides to tell her about the hatch, only for Locke to attack him before he can do so. He ties Boone up and dresses his head wound with a paste. Boone hears Shannon screaming for help and frees himself with Locke's knife, finding her tied to a tree and fleeing with her from the monster. It catches her and he later finds her dead body. He goes to kill Locke, who reveals that the paste was a hallucinogen, which he drugged Boone with to ensure his faith.",
+      "words": 136
+    },
+    {
+      "episode": 14,
+      "overall": 14,
+      "title": "Special",
+      "air_date": "2005-01-19",
+      "summary": "Shortly after Walt is born, Michael's wife Susan leaves him. She dies years later and Walt's stepfather, unsettled by an incident where a bird Walt was reading about slammed into a window, asks him to come to Sydney to take custody of him. In the present, Locke and Boone teach Walt survivalist skills, but are forcibly interrupted by Michael. As Walt rebels under his strict parenting, he chases a runaway Vincent into the jungle and is cornered by a polar bear. Locke and Michael work together to save his life, earning Walt's respect. Locke and Boone encounter Claire in the jungle.",
+      "words": 101
+    },
+    {
+      "episode": 15,
+      "overall": 15,
+      "title": "Homecoming",
+      "air_date": "2005-02-09",
+      "summary": "Needing money for drugs, Charlie courts a rich woman, but genuinely falls in love with her and finds work with her father. His withdrawal symptoms kick in on his first day and ruin the job, and she leaves him. In the present, Claire has no memory of anything after the crash and Ethan approaches Charlie, threatening to kill survivors until she is returned. Jack plans to use Claire as bait to ambush him, getting guns from Mars's suitcase. The plan works, but Charlie kills Ethan before they can interrogate him. Claire remembers a moment she and Charlie shared together and decides to put her trust in him.",
+      "words": 107
+    },
+    {
+      "episode": 16,
+      "overall": 16,
+      "title": "Outlaws",
+      "air_date": "2005-02-16",
+      "summary": "An associate tells Sawyer that the real Sawyer is in Australia under the name \"Frank Duckett\", but he cannot bring himself to kill him. At a bar he meets Christian, who laments not having the strength to reconcile with Jack and advises Sawyer to fix his problem. Sawyer shoots Duckett, realizing that he is not the real Sawyer but is in debt to Sawyer's associate. In the present, Sawyer chases a boar that invaded his tent. Kate joins him in the pursuit and they encounter Locke, who warns Sawyer that he may be projecting Duckett onto the boar. When Sawyer corners the animal, he leaves it alive. He returns Mars's gun to Jack, who uses a phrase that Christian said to him in Australia, causing him to realize their relation.",
+      "words": 130
+    },
+    {
+      "episode": 17,
+      "overall": 17,
+      "title": "...In Translation",
+      "air_date": "2005-02-23",
+      "summary": "Woo-Jung asks Jin to intimidate a government official, who fails to appease him. Woo-Jung sends a hitman, but Jin brutalizes the official instead to save his life and argues with Sun upon returning home bloodstained. Distraught, he reconciles with his estranged father, who advises him to run away with Sun upon landing in America. In the present, Sayid and Shannon begin a relationship. Michael intervenes when Jin and Sun argue over her wearing a bikini, leading to a fight between the men. The raft Michael has been building is burnt that night and he attacks Jin, which is broken up by Sun revealing her English. Locke convinces the survivors that the raft was burnt by the Others, but privately tells Walt he knows he burnt the raft because he enjoys life on the island. Jin refuses Sun's offer to reconcile and helps Michael rebuild the raft, while she goes to the beach alone in her bikini.",
+      "words": 156
+    },
+    {
+      "episode": 18,
+      "overall": 18,
+      "title": "Numbers",
+      "air_date": "2005-03-02",
+      "summary": "Hurley wins the lottery using numbers he heard in the Santa Rosa psych ward, but he and his loved ones start to suffer from bad luck. He goes to the ward to talk to the ex-Navy numbers man, who explains that he heard them while serving with a man in Australia. Hurley meets the man's wife, who explains that he committed suicide and picked up a transmission repeating the numbers during service. In the present, Hurley notices the numbers on Rousseau's documents and sets out to find her. She explains that she and her team were drawn to the island by the transmission, and after they died, she changed the transmission to her distress call. Charlie asks him why he has been so stressed and opens up about his addiction to try and get him to reciprocate. When Hurley admits he is rich, Charlie storms off, believing it to be a joke, and the numbers are shown engraved in the side of the hatch.",
+      "words": 164
+    },
+    {
+      "episode": 19,
+      "overall": 19,
+      "title": "Deus Ex Machina",
+      "air_date": "2005-03-30",
+      "summary": "Before his paralysis, Locke is approached by his long-lost father, Anthony Cooper. An ailing Cooper subtly guilts Locke into giving up his kidney, only to learn after the surgery that it was a con to keep Cooper alive. In the present, Locke has a nightmare about a Beechcraft crashing in the jungle and losing the use of his legs, the latter of which starts to happen as he takes Boone to find the Beechcraft. They discover the dead body of an armed Nigerian priest, leading them to the Beechcraft. With Locke unable to climb, Boone goes alone and finds Virgin Mary statues with heroin inside. He sends a distress call out on the radio, only for the man on the other end to also identify himself as a survivor of Flight 815 crash before the Beechcraft falls, severely wounding Boone. Locke dumps him at the camp before fleeing to the hatch, where he pounds on it in frustration until a light turns on.",
+      "words": 163
+    },
+    {
+      "episode": 20,
+      "overall": 20,
+      "title": "Do No Harm",
+      "air_date": "2005-04-06",
+      "summary": "Jack marries his former patient Sarah Wagner, and Christian gives him advice on writing his vows before the ceremony. In the present, Sayid takes Shannon on a date while Jack sends Kate to get medical supplies from Sawyer. On the way back, she discovers Claire going into labor. Jack instructs Charlie and Kate on how to deliver the baby. Unable to find matching blood donors for Boone, he gives him his O-negative blood but realizes it is seeping out of Boone's destroyed leg. Before he can amputate it, Boone asks him to let him die after revealing the hatch's existence and contradicting the story Locke told about his injury. Claire gives birth to a boy and Jack informs a returning Shannon of Boone's death, then goes to find Locke.",
+      "words": 129
+    },
+    {
+      "episode": 21,
+      "overall": 21,
+      "title": "The Greater Good",
+      "air_date": "2005-05-04",
+      "summary": "Sayid is detained by the CIA and offered Nadia's location in exchange for him infiltrating a Sydney terrorist cell. He meets his old friend Essam Tasir, who is chosen to do a suicide bombing that the CIA tells Sayid to let happen so they can find the cell's explosives. He tells Essam of his deception, who commits suicide. The CIA point him to Nadia in California, but he delays his flight by a day so he can claim and bury Essam. In the present, Locke tries to eulogize Boone at his funeral, leaving Shannon furious. She asks Sayid to kill him, and as he leads Locke into the jungle, he admits that he was the one who attacked him but convinces him of his innocence regarding Boone. Shannon steals a gun and tries to kill Locke, but he is saved by Sayid, who later demands he be taken to the hatch.",
+      "words": 151
+    },
+    {
+      "episode": 22,
+      "overall": 22,
+      "title": "Born to Run",
+      "air_date": "2005-05-11",
+      "summary": "Kate returns to her hometown to visit her ailing mother Diane Janssen and reconnects with her old boyfriend Tom Brennan. They dig up a time capsule with the toy plane inside and Kate sneaks into her mother's hospital room, who rejects her and calls for help. She and Tom flee, but he is killed by police and she abandons the plane. In the present, Locke shows Jack the hatch, and Walt, somehow aware of it, warns him not to open it. Michael is poisoned as he prepares to launch the raft. Believing Kate is setting him up to be blamed so she can take his spot, Sawyer reveals her criminal history and she admits she was Mars's prisoner. Jack realizes Sun was accidentally responsible, trying to make Jin ill instead so he would not leave. Walt admits to Michael that he burnt the raft, and Sun and Kate discuss the poisoning, implying that Kate manipulated her to do it.",
+      "words": 159
+    },
+    {
+      "episode": 23,
+      "overall": 23,
+      "title": "Exodus (Part 1)",
+      "air_date": "2005-05-18",
+      "summary": "On the day of the flight, Jack meets passenger Ana Lucia Cortez at a bar, Mars explains to customs that he lured Kate out of hiding by stashing the plane in the bank, and Sawyer's name is revealed as \"James Ford\" when he is detained. In the present, Rousseau tells the survivors that the Others are coming, explaining that they kidnapped Alex sixteen years ago. Jack posits hiding in the hatch from them, and Rousseau takes them to the Black Rock, a crashed ship, to get dynamite. They are attacked by the monster, which Rousseau explains acts as a security system for the island. Sawyer tells Jack that he met Christian and that he expressed remorse over him, Walt leaves Vincent with Shannon to help with her grief over Boone, and the Kwons reconcile. Michael, Walt, Jin and Sawyer leave on the raft.",
+      "words": 143
+    }
+  ]
+}

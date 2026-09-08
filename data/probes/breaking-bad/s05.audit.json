@@ -1,0 +1,1532 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 5,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Live Free or Die",
+      "candidates": [
+        {
+          "text": "A wrecking-yard truck fitted with an enormous electromagnet is driven up against the wall of a police evidence building.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows a scheme in progress (an unusual vehicle setup) without disclosing its target, success, or any death, arrest or revelation, so it reads as premise texture rather than an outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts a scheme in progress (an unusual setup/activity) without disclosing its success or failure, a death, arrest, or the answer to any question left open at the end of what the viewer has watched."
+                }
+              ],
+              "reason": "It shows a scheme in progress (an unusual vehicle setup) without disclosing its target, success, or any death, arrest or revelation, so it reads as premise texture rather than an outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler stands at a hospital bedside where Ted lies immobilized, barely able to turn his head toward her.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of whether Ted survived his fall, showing him alive but paralyzed/immobilized in hospital."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of whether Ted survived his broken neck, confirming he is alive but paralyzed/immobilized."
+                }
+              ],
+              "reason": "It answers the open question of whether Ted survived his fall, showing him alive but paralyzed/immobilized in hospital."
+            }
+          },
+          "rejected": "consequence (2/2): It answers the open question of whether Ted survived his fall, showing him alive but paralyzed/immobilized in hospital."
+        },
+        {
+          "text": "A ragged, bearded man eats breakfast alone at a Denny's counter in Albuquerque on his birthday.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's an unnamed man having breakfast at a diner — ordinary setting and activity with no outcome, death, discovery or answer to a pending question disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes only a mundane scene of an unnamed man eating breakfast, with no death, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "It's an unnamed man having breakfast at a diner — ordinary setting and activity with no outcome, death, discovery or answer to a pending question disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "News coverage of the three deaths at the Casa Tranquila senior center plays while Walt tidies up loose ends.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The nursing home explosion deaths are already known to the viewer, and \"tidying up loose ends\" is vague texture rather than a specific outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The news coverage merely restates Gus's, Tyrus's and Hector's deaths, which the viewer already witnessed, and Walt tidying loose ends is generic texture."
+                }
+              ],
+              "reason": "The nursing home explosion deaths are already known to the viewer, and \"tidying up loose ends\" is vague texture rather than a specific outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Rattled and agitated in his office, Saul tries to end his business arrangement with Walt for good.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a rupture in the Walt\ndashSaul alliance \nu2014 Saul attempting to sever ties with Walt, a development the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a rupture in the Walt\ndSaul partnership \ndSaul attempting to quit as Walt's lawyer \ndwhich is a relationship turning point the viewer hasn't seen coming."
+                }
+              ],
+              "reason": "It reveals a rupture in the Walt\ndashSaul alliance \nu2014 Saul attempting to sever ties with Walt, a development the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a rupture in the Walt\ndashSaul alliance \nu2014 Saul attempting to sever ties with Walt, a development the viewer has not yet seen."
+        }
+      ]
+    },
+    "2": {
+      "title": "Madrigal",
+      "candidates": [
+        {
+          "text": "Walt and Jesse sit down with Mike, trying to talk him into partnering with them on a new operation.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows an attempted pitch \not confirming whether Mike joins, and restarting the cook business is a natural, unresolved premise rather than a disclosed outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows an attempted pitch to Mike without revealing whether he agrees, so the pending question of a partnership stays open."
+                }
+              ],
+              "reason": "It only shows an attempted pitch \not confirming whether Mike joins, and restarting the cook business is a natural, unresolved premise rather than a disclosed outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A little robot vacuum trundles around the floor of Jesse's place while he hunts through the room.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A Roomba moving around Jesse's house while he searches is ambient texture with no outcome, discovery, or answer revealed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A Roomba moving around Jesse's house while he searches is ambient texture that doesn't disclose any outcome or reveal."
+                }
+              ],
+              "reason": "A Roomba moving around Jesse's house while he searches is ambient texture with no outcome, discovery, or answer revealed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the DEA, agents work through a stack of leads left over from the Fring case, hoping one pans out.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Ordinary procedural activity following the known Fring investigation, revealing no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary procedural texture showing the DEA continuing its known investigation, with no outcome, discovery, or reveal disclosed."
+                }
+              ],
+              "reason": "Ordinary procedural activity following the known Fring investigation, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler is barely functioning around the house, worn down by what Walt has gotten them into.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 2
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 2)"
+        }
+      ]
+    },
+    "3": {
+      "title": "Hazard Pay",
+      "candidates": [
+        {
+          "text": "The operation sets up inside a house sealed beneath a fumigation tent, the team posing as exterminators.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes the setting/method of the new cooking operation \\u2014 situational texture rather than an outcome, death, betrayal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes the new operation's setting and cover method, ordinary premise texture rather than a death, betrayal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It describes the setting/method of the new cooking operation \\u2014 situational texture rather than an outcome, death, betrayal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt carries his boxes back into the house and settles in again, much to Skyler's dismay.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Walt moving back in with Skyler unhappy is ordinary domestic texture consistent with their already-established tension, revealing no new outcome, death, or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt moving his belongings back home is ordinary domestic texture consistent with the established tension between him and Skyler, revealing no death, discovery, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Walt moving back in with Skyler unhappy is ordinary domestic texture consistent with their already-established tension, revealing no new outcome, death, or discovery."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt, Mike and Jesse sit down with Saul to run through possible locations for a new cooking site.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary planning/logistics texture consistent with the already-known formation of the Walt-Jesse-Mike partnership, revealing no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A logistical planning meeting; Mike's involvement with Walt and Jesse's new operation is already established by the end of the previous episode, and no outcome is disclosed."
+                }
+              ],
+              "reason": "This is ordinary planning/logistics texture consistent with the already-known formation of the Walt-Jesse-Mike partnership, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Fifty-One",
+      "candidates": [
+        {
+          "text": "Walt's fifty-first birthday is marked with a small, joyless dinner at home, nobody much in the mood.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A birthday dinner with a tense family mood is ordinary character texture consistent with the already-known strain between Walt and Skyler, revealing no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A birthday dinner with a subdued mood is ordinary character texture and reveals no outcome, death, or plot turn."
+                }
+              ],
+              "reason": "A birthday dinner with a tense family mood is ordinary character texture consistent with the already-known strain between Walt and Skyler, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse walks the aisles of a warehouse stacked with methylamine barrels alongside a jittery Lydia.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting/activity texture — Lydia is already established as their methylamine supplier, and no outcome, reveal or turning point is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture — a supply-run setting consistent with the established methylamine arrangement, revealing no outcome or twist."
+                }
+              ],
+              "reason": "This is ordinary setting/activity texture — Lydia is already established as their methylamine supplier, and no outcome, reveal or turning point is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hank is congratulated at the DEA on moving up to a more senior desk job.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Hank's career arc post-Gus, namely his promotion to a senior position (ASAC), which the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Hank's career arc post-Gus, namely his promotion to ASAC, a development the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals the outcome of Hank's career arc post-Gus, namely his promotion to a senior position (ASAC), which the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Hank's career arc post-Gus, namely his promotion to a senior position (ASAC), which the viewer has not yet seen."
+        },
+        {
+          "text": "Mike scoffs at Lydia's panic, convinced she is inventing an excuse to wriggle out of their arrangement.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — Mike's habitual distrust of Lydia — and does not disclose any outcome, discovery, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only conveys Mike's skeptical attitude toward Lydia in an ongoing arrangement the viewer already knows about, without disclosing any outcome or discovery."
+                }
+              ],
+              "reason": "This is character texture — Mike's habitual distrust of Lydia — and does not disclose any outcome, discovery, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Dead Freight",
+      "candidates": [
+        {
+          "text": "Walt Jr. drives over to the house demanding answers about what is going on, and Walt sends him away.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary family friction consistent with the already-known situation of the kids staying with Hank and Marie, and no outcome or reveal is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary family friction consistent with the already-known situation of the kids staying with Hank and Marie, and reveals no outcome or new information."
+                }
+              ],
+              "reason": "This is ordinary family friction consistent with the already-known situation of the kids staying with Hank and Marie, and no outcome or reveal is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "With every barrel in Lydia's warehouse now useless, Walt, Jesse and Mike sit around floating ideas for getting methylamine elsewhere.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the resolution of the pending tracker/Lydia conflict \\ylamine supply is cut off (barrels rendered useless) and Lydia is spared, pushing the crew to seek a new source."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending Lydia/methylamine-supply conflict \barehouse barrels become unusable and she is evidently still alive and working with them, forcing the crew to seek a new source."
+                }
+              ],
+              "reason": "It reveals the resolution of the pending tracker/Lydia conflict \\ylamine supply is cut off (barrels rendered useless) and Lydia is spared, pushing the crew to seek a new source."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the resolution of the pending tracker/Lydia conflict \\ylamine supply is cut off (barrels rendered useless) and Lydia is spared, pushing the crew to seek a new source."
+        },
+        {
+          "text": "Walt pays a visit to Hank's new office at the DEA, the two of them talking alone in there.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A visit and conversation in Hank's office is ordinary situational texture that discloses no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A visit and private conversation in Hank's office is ordinary setting/character texture and discloses no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "A visit and conversation in Hank's office is ordinary situational texture that discloses no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Buyout",
+      "candidates": [
+        {
+          "text": "Jesse endures an excruciating dinner at Walt and Skyler's house, straining to make small talk over the meal.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An awkward dinner scene is ordinary character texture and doesn't disclose any outcome, death, reveal or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An awkward dinner conversation is character texture; it discloses no death, reveal, or outcome of any pending conflict."
+                }
+              ],
+              "reason": "An awkward dinner scene is ordinary character texture and doesn't disclose any outcome, death, reveal or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Saul accompanies Mike to a face-to-face sit-down with the DEA agents who have been tailing him.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary legal confrontation/scene setup with Mike's lawyer and the DEA, without disclosing any outcome, death, arrest, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A legal meeting between Mike, Saul and the agents tailing him is ordinary procedural texture and doesn't disclose any death, arrest, betrayal or resolution of a pending conflict the viewer knows about."
+                }
+              ],
+              "reason": "It depicts an ordinary legal confrontation/scene setup with Mike's lawyer and the DEA, without disclosing any outcome, death, arrest, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt invites Jesse over to the house and talks about the company he helped found years ago.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary dinner conversation and backstory the viewer already knows about, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A dinner-table conversation about Walt's past business is character backstory and texture; it doesn't disclose any outcome, death, or resolution of the pending fallout from Drew's murder."
+                }
+              ],
+              "reason": "It describes an ordinary dinner conversation and backstory the viewer already knows about, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler comes back to the house, and Walt insists the evening be spent around the dinner table.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Skyler returning home and a family dinner is ordinary domestic texture that doesn't disclose any outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A domestic dinner-table scene is ordinary character texture and doesn't disclose any outcome, death, discovery or reveal pending from the previous episode."
+                }
+              ],
+              "reason": "Skyler returning home and a family dinner is ordinary domestic texture that doesn't disclose any outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Say My Name",
+      "candidates": [
+        {
+          "text": "Out in the desert, Walt, Jesse and Mike stand facing Declan and his men to haggle over terms.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Walt proposed striking a better deal with Declan; a meeting to haggle over terms is expected setup and reveals no outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the negotiation meeting taking place, which Walt has already proposed, without disclosing the terms or outcome."
+                }
+              ],
+              "reason": "The viewer already knows Walt proposed striking a better deal with Declan; a meeting to haggle over terms is expected setup and reveals no outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "With Jesse still talking about walking away, Walt has Todd suiting up beside him as his new lab assistant.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the pending question of whether Jesse actually leaves the operation by showing he's replaced by Todd as Walt's new lab partner."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the pending outcome of Jesse's threat to quit — he actually leaves the partnership and is replaced by Todd as Walt's cook partner."
+                }
+              ],
+              "reason": "It confirms the pending question of whether Jesse actually leaves the operation by showing he's replaced by Todd as Walt's new lab partner."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms the pending question of whether Jesse actually leaves the operation by showing he's replaced by Todd as Walt's new lab partner."
+        },
+        {
+          "text": "Ordered to drop his pursuit of Mike, Hank quietly starts tailing the man handling Mike's money instead.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Hank's surveillance of Mike is shut down and that he pivots to a new investigative lead (Mike's money courier), an outcome of the pending DEA-injunction conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Hank's surveillance of Mike is officially shut down (the outcome of the injunction storyline) and that he pivots to tailing Mike's money-man, a new investigative development."
+                }
+              ],
+              "reason": "It reveals that Hank's surveillance of Mike is shut down and that he pivots to a new investigative lead (Mike's money courier), an outcome of the pending DEA-injunction conflict."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Hank's surveillance of Mike is shut down and that he pivots to a new investigative lead (Mike's money courier), an outcome of the pending DEA-injunction conflict."
+        }
+      ]
+    },
+    "8": {
+      "title": "Gliding Over All",
+      "candidates": [
+        {
+          "text": "Walt visits Jesse's house, and the two end up reminiscing fondly about their early days cooking in the cramped RV.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A nostalgic conversation between the two is character texture and doesn't disclose any outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A nostalgic conversation between the two is character texture and doesn't disclose any outcome, death, or reveal."
+                }
+              ],
+              "reason": "A nostalgic conversation between the two is character texture and doesn't disclose any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a quiet meeting, Lydia pitches Walt on expanding his distribution overseas to buyers in the Czech Republic.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Lydia survives her precarious position and forms a new business alliance with Walt, expanding his operation internationally."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt spares/continues working with Lydia after Mike's death and that a new overseas distribution arrangement emerges, answering the pending question of how Walt proceeds with the prison names/business."
+                }
+              ],
+              "reason": "It reveals that Lydia survives her precarious position and forms a new business alliance with Walt, expanding his operation internationally."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Lydia survives her precarious position and forms a new business alliance with Walt, expanding his operation internationally."
+        },
+        {
+          "text": "Months pass in a montage of tented houses, cooks and deliveries as the operation hums along profitably.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A generic time-passing montage of the ongoing meth operation is texture, revealing no specific outcome, death, or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A generic time-passage montage of the ongoing meth operation is texture, revealing no specific outcome, death, or reveal."
+                }
+              ],
+              "reason": "A generic time-passing montage of the ongoing meth operation is texture, revealing no specific outcome, death, or discovery."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The children finally move back into the White house after their long stay with Hank and Marie.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It resolves the pending Walt\being ararrangement conflict established when Skyler forced the kids out and Walt agreed they'd stay away, signaling a major turning point in their standoff."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It resolves the pending arrangement in which Skyler insisted the children stay with Hank and Marie, signalling a change in the Walt\"A vichunk viewer has watched every episode summarised below"
+                }
+              ],
+              "reason": "It resolves the pending Walt\being ararrangement conflict established when Skyler forced the kids out and Walt agreed they'd stay away, signaling a major turning point in their standoff."
+            }
+          },
+          "rejected": "consequence (2/2): It resolves the pending Walt\being ararrangement conflict established when Skyler forced the kids out and Walt agreed they'd stay away, signaling a major turning point in their standoff."
+        }
+      ]
+    },
+    "9": {
+      "title": "Blood Money",
+      "candidates": [
+        {
+          "text": "Jesse drives slowly through a quiet residential street at night, tossing bundles of his cash out over the fences.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Jesse's turning point of giving away his drug money in guilt-driven despair, an outcome of his unresolved crisis after retiring from the business."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals Jesse's post-payoff breakdown and his decision to get rid of the drug money, a turning point following his reminiscence with Walt."
+                }
+              ],
+              "reason": "It reveals Jesse's turning point of giving away his drug money in guilt-driven despair, an outcome of his unresolved crisis after retiring from the business."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Jesse's turning point of giving away his drug money in guilt-driven despair, an outcome of his unresolved crisis after retiring from the business."
+        },
+        {
+          "text": "Lydia turns up unannounced at the car wash, nervously asking after Walt while Skyler watches from the counter.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Lydia showing up at the car wash to ask after Walt is an ordinary situational beat that doesn't disclose any outcome, reveal, or resolution of the pending Hank discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Lydia making an unannounced visit and Skyler observing, which is situational texture without revealing any outcome, and the pending Hank discovery or Walt's retirement decision remains unanswered."
+                }
+              ],
+              "reason": "Lydia showing up at the car wash to ask after Walt is an ordinary situational beat that doesn't disclose any outcome, reveal, or resolution of the pending Hank discovery."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a flashforward, a bearded Walt walks through his own house, now stripped, wrecked and fenced off.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the future outcome that Walt's identity/crimes become public and his home is abandoned and condemned, confirming the collapse of his family life just as Hank has discovered he is Heisenberg."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a major future outcome \\u2014 that Walt's home ends up abandoned and condemned, implying his exposure and the collapse of his family life following Hank's discovery."
+                }
+              ],
+              "reason": "It reveals the future outcome that Walt's identity/crimes become public and his home is abandoned and condemned, confirming the collapse of his family life just as Hank has discovered he is Heisenberg."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the future outcome that Walt's identity/crimes become public and his home is abandoned and condemned, confirming the collapse of his family life just as Hank has discovered he is Heisenberg."
+        }
+      ]
+    },
+    "10": {
+      "title": "Buried",
+      "candidates": [
+        {
+          "text": "An elderly man shuffles along a residential street, gathering up the bundles of cash left scattered across lawns and driveways.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jesse's money-throwing spree is already known to the viewer; a bystander collecting the cash is incidental texture with no outcome revealed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is incidental background texture depicting the aftermath of Jesse's already-shown money-throwing, revealing no outcome, death, or plot turn."
+                }
+              ],
+              "reason": "Jesse's money-throwing spree is already known to the viewer; a bystander collecting the cash is incidental texture with no outcome revealed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse sits alone on a playground merry-go-round, turning slowly in circles and staring at nothing.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a silent character-texture moment consistent with Jesse's already-established guilt and despair, revealing no new outcome, plot development, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only depicts Jesse's ongoing despondency, already established by his guilt and money-throwing, without revealing any outcome or new development."
+                }
+              ],
+              "reason": "This is a silent character-texture moment consistent with Jesse's already-established guilt and despair, revealing no new outcome, plot development, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Marie comes to sit with Skyler, who will not say anything to her beyond a quiet \"I'm so sorry\".",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Marie learns the truth about Walt and confronts Skyler, who effectively confesses to complicity — the outcome of Hank's just-made discovery."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Marie has learned of Skyler's complicity and that Skyler effectively confesses/apologizes, resolving the pending question of whether Hank would expose Walt's secret to the family."
+                }
+              ],
+              "reason": "It reveals that Marie learns the truth about Walt and confronts Skyler, who effectively confesses to complicity — the outcome of Hank's just-made discovery."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Marie learns the truth about Walt and confronts Skyler, who effectively confesses to complicity — the outcome of Hank's just-made discovery."
+        }
+      ]
+    },
+    "11": {
+      "title": "Confessions",
+      "candidates": [
+        {
+          "text": "Walt and Skyler sit down across from Hank and Marie in a public restaurant to try and negotiate.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A meeting between the two couples is a setting/situation with no outcome disclosed; the conflict between Walt and Hank is already known to the viewer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a meeting between the two couples, an ordinary situational beat given the viewer already knows Hank has confronted both Walt and Skyler, and discloses no outcome of that negotiation."
+                }
+              ],
+              "reason": "A meeting between the two couples is a setting/situation with no outcome disclosed; the conflict between Walt and Hank is already known to the viewer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the table, Skyler tells Hank flatly that Walt is no longer any part of his empire.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Skyler stonewalling Hank about Walt is consistent with her already-established refusal to cooperate, and the line conveys no new outcome or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only restates positions the viewer already knows \\u2014 that Walt has retired from the business and that Skyler is siding with him rather than cooperating with Hank \\u2014 without disclosing any new outcome."
+                }
+              ],
+              "reason": "Skyler stonewalling Hank about Walt is consistent with her already-established refusal to cooperate, and the line conveys no new outcome or discovery."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse sits saying nothing across from Hank in an interview room until Saul turns up.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows the expected continuation of Jesse's already-known detention and questioning, with Saul's arrival as routine texture; it doesn't reveal whether Jesse talks or flips on Walt."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It merely continues the already-known setup of Jesse being detained and questioned, showing an unremarkable stalemate with his lawyer arriving rather than any confession, deal, or new information."
+                }
+              ],
+              "reason": "It only shows the expected continuation of Jesse's already-known detention and questioning, with Saul's arrival as routine texture; it doesn't reveal whether Jesse talks or flips on Walt."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "12": {
+      "title": "Rabid Dog",
+      "candidates": [
+        {
+          "text": "Walt spins his family a story about a malfunctioning pump at the gas station soaking him in gasoline.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a cover-story lie consistent with the already-known gasoline dousing and reveals no new outcome, only character texture."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt's house was not burned down and that he covers up Jesse's gasoline attack with a lie to his family, resolving the immediate cliffhanger of Jesse dousing the house."
+                }
+              ],
+              "reason": "It reveals that Walt's house was not burned down and that he covers up Jesse's gasoline attack with a lie to his family, resolving the immediate cliffhanger of Jesse dousing the house."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Walt's house was not burned down and that he covers up Jesse's gasoline attack with a lie to his family, resolving the immediate cliffhanger of Jesse dousing the house."
+        },
+        {
+          "text": "Walt comes home to find Saul's car crashed at an angle in his driveway and nobody inside.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ambiguous, atmospheric beat that hints something happened without disclosing any outcome, confrontation result, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a scene-setting detail consistent with what the viewer already knows (Jesse took Saul's car and broke into Walt's house); it discloses no outcome, death, or new information."
+                }
+              ],
+              "reason": "This is an ambiguous, atmospheric beat that hints something happened without disclosing any outcome, confrontation result, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Marie sits with her therapist, circling around her brother-in-law without saying everything she knows about him.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A therapy session showing Marie's emotional state without disclosing any outcome or new information is ordinary character texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Marie in a therapy session withholding information is character texture and consistent with what the viewer already knows about her knowledge of Walt; no outcome or reveal is disclosed."
+                }
+              ],
+              "reason": "A therapy session showing Marie's emotional state without disclosing any outcome or new information is ordinary character texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt leaves a message on Jesse's voicemail, asking him to meet so he can explain himself.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A phone message asking to meet is ordinary character texture and doesn't disclose the outcome of Jesse's rampage or the confrontation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A phone message asking to meet is ordinary plot texture that follows directly from the known conflict and discloses no outcome, death, or new revelation."
+                }
+              ],
+              "reason": "A phone message asking to meet is ordinary character texture and doesn't disclose the outcome of Jesse's rampage or the confrontation."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "To'hajiilee",
+      "candidates": [
+        {
+          "text": "Walt walks Todd through a cook step by step in the lab, the younger man watching his every move.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 3
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "the cook actually taking place, with Walt instructing Todd through it — the summary only says Walt reluctantly agreed to the condition"
+              ]
+            }
+          },
+          "rejected": "faithful: the cook actually taking place, with Walt instructing Todd through it — the summary only says Walt reluctantly agreed to the condition"
+        },
+        {
+          "text": "Saul anxiously tells Walt that Huell has gone missing and can't be reached anywhere.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Huell"
+        },
+        {
+          "text": "Huell sits uneasily in a bare DEA interview room, being pressed with questions about Walt's money.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Huell"
+        },
+        {
+          "text": "Walt sits in Andrea's home and quietly asks her to leave Jesse a phone message.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt uses Andrea as bait/leverage against Jesse, an outcome of the pending Walt-Jesse conflict following Walt's call to Todd about a hit."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt uses Andrea to lure Jesse out, an outcome of the pending Walt-Jesse confrontation and Walt's plan to have Jesse killed."
+                }
+              ],
+              "reason": "It reveals that Walt uses Andrea as bait/leverage against Jesse, an outcome of the pending Walt-Jesse conflict following Walt's call to Todd about a hit."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Walt uses Andrea as bait/leverage against Jesse, an outcome of the pending Walt-Jesse conflict following Walt's call to Todd about a hit."
+        }
+      ]
+    },
+    "14": {
+      "title": "Ozymandias",
+      "candidates": []
+    },
+    "15": {
+      "title": "Granite State",
+      "candidates": [
+        {
+          "text": "Walt is installed in a remote New Hampshire cabin and warned that stepping outside it means capture.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Walt's escape/disappearance plan — that he successfully relocates to a New Hampshire hideout — which is an open question after he flees with the new identity."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Walt's escape/disappearance plan — that he successfully relocates to a remote New Hampshire hideout rather than being caught — answering the pending question of his fate after fleeing."
+                }
+              ],
+              "reason": "It reveals the outcome of Walt's escape/disappearance plan — that he successfully relocates to a New Hampshire hideout — which is an open question after he flees with the new identity."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Walt's escape/disappearance plan — that he successfully relocates to a New Hampshire hideout — which is an open question after he flees with the new identity."
+        },
+        {
+          "text": "Months pass before a disheveled, lonely Walt finally walks away from the cabin and down into the nearby town.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses the outcome of Walt's disappearance \"vanishing\" arrangement \\u2014 that he spends months isolated in a remote cabin and then breaks cover by leaving it, a turning point the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Walt's disappearance \\u2014 that he survives months in isolation at a remote cabin and then breaks his hiding by walking into town, a turning point the viewer hasn't seen."
+                }
+              ],
+              "reason": "It discloses the outcome of Walt's disappearance \"vanishing\" arrangement \\u2014 that he spends months isolated in a remote cabin and then breaks cover by leaving it, a turning point the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses the outcome of Walt's disappearance \"vanishing\" arrangement \\u2014 that he spends months isolated in a remote cabin and then breaks cover by leaving it, a turning point the viewer has not yet seen."
+        },
+        {
+          "text": "A ragged Walt sits alone at a small-town bar with a television interview playing above the counter.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric texture consistent with the already-known flashforward of Walt living in exile under a new identity, without disclosing any outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric texture showing Walt in hiding at a bar, without disclosing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "This is atmospheric texture consistent with the already-known flashforward of Walt living in exile under a new identity, without disclosing any outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "There is a pay phone in the bar, and Walt stands at it with the receiver in hand.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Walt at a pay phone in a bar, an ordinary setting with no indication of who he calls or what results, and the viewer already knows he has fled under a new identity."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Walt standing at a pay phone in a bar \ba mundane setting and action that discloses no outcome, call recipient, or plot development."
+                }
+              ],
+              "reason": "It only shows Walt at a pay phone in a bar, an ordinary setting with no indication of who he calls or what results, and the viewer already knows he has fled under a new identity."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "16": {
+      "title": "Felina",
+      "candidates": [
+        {
+          "text": "Walt sits in Gretchen and Elliott's expensive modern home, discussing money meant for Walt Jr.'s eighteenth birthday.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt evades the police closing in on him, makes it back to Albuquerque, and confronts Gretchen and Elliott to arrange getting his money to his son — answering the open questions of his capture and his family's inheritance."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt evades capture, returns to Albuquerque and confronts Gretchen and Elliott, and discloses his scheme to funnel his money to his son via them \rob"
+                }
+              ],
+              "reason": "It reveals that Walt evades the police closing in on him, makes it back to Albuquerque, and confronts Gretchen and Elliott to arrange getting his money to his son — answering the open questions of his capture and his family's inheritance."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Walt evades the police closing in on him, makes it back to Albuquerque, and confronts Gretchen and Elliott to arrange getting his money to his son — answering the open questions of his capture and his family's inheritance."
+        },
+        {
+          "text": "Walt turns up unannounced for a last conversation with Skyler, finally admitting he did it all for himself.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt returns to confront Skyler one last time and finally confesses his true motive ('I did it for me'), a major emotional turning point and answer to a long-running question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt returns to confront Skyler and finally confesses that his true motive was selfish, resolving a central open question about his self-justification."
+                }
+              ],
+              "reason": "It reveals that Walt returns to confront Skyler one last time and finally confesses his true motive ('I did it for me'), a major emotional turning point and answer to a long-running question."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Walt returns to confront Skyler one last time and finally confesses his true motive ('I did it for me'), a major emotional turning point and answer to a long-running question."
+        },
+        {
+          "text": "Badger and Skinny Pete, hired for the night, aim red laser pointers from outside a house.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt returns to confront Gretchen and Elliott and stages a fake sniper threat using hired accomplices, an outcome of the grudge just set up by the Charlie Rose interview."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It gives away that Walt returns to Albuquerque and stages a fake sniper threat using his old associates to coerce someone at their home, spoiling the trick and the surprise of that confrontation."
+                }
+              ],
+              "reason": "It reveals that Walt returns to confront Gretchen and Elliott and stages a fake sniper threat using hired accomplices, an outcome of the grudge just set up by the Charlie Rose interview."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Walt returns to confront Gretchen and Elliott and stages a fake sniper threat using hired accomplices, an outcome of the grudge just set up by the Charlie Rose interview."
+        }
+      ]
+    }
+  },
+  "recheck": [
+    {
+      "episode": 2,
+      "text": "Walt and Jesse sit down with Mike, trying to talk him into partnering with them on a new operation.",
+      "reason": "It reveals that Mike has returned alive and in play, and that Walt and Jesse are forming a new post-Gus operation and courting him as a partner \"\" a significant new plot direction/alliance the viewer hasn't yet seen."
+    },
+    {
+      "episode": 3,
+      "text": "The operation sets up inside a house sealed beneath a fumigation tent, the team posing as exterminators.",
+      "reason": "It reveals the formation of a new cooking operation using the Vamonos Pest fumigation-tent method, a development the viewer hasn't yet seen established."
+    },
+    {
+      "episode": 3,
+      "text": "Walt carries his boxes back into the house and settles in again, much to Skyler's dismay.",
+      "reason": "It reveals the outcome of the pending tension over Skyler's fear of Walt — he moves back into the house against her wishes."
+    },
+    {
+      "episode": 3,
+      "text": "Walt, Mike and Jesse sit down with Saul to run through possible locations for a new cooking site.",
+      "reason": "It reveals that Mike, whose status and allegiance after Gus' death is an open question, has allied with Walt and Jesse in a new partnership to restart cooking."
+    },
+    {
+      "episode": 7,
+      "text": "Out in the desert, Walt, Jesse and Mike stand facing Declan and his men to haggle over terms.",
+      "reason": "It reveals that after the heist fallout the crew moves to sell to a new outside buyer, Declan, signaling the decision to cash out the methylamine business rather than continue cooking."
+    },
+    {
+      "episode": 8,
+      "text": "Months pass in a montage of tented houses, cooks and deliveries as the operation hums along profitably.",
+      "reason": "It reveals the outcome of the pending conflict over the methylamine/Declan deal \ffi that Walt's proposed arrangement succeeds and the operation continues profitably for months, which the viewer does not yet know."
+    },
+    {
+      "episode": 10,
+      "text": "An elderly man shuffles along a residential street, gathering up the bundles of cash left scattered across lawns and driveways.",
+      "reason": "It implies a major turning point in which large amounts of cash end up strewn across a neighborhood — likely Jesse discarding his money — revealing an outcome the viewer hasn't seen."
+    },
+    {
+      "episode": 11,
+      "text": "Walt and Skyler sit down across from Hank and Marie in a public restaurant to try and negotiate.",
+      "reason": "It reveals that Marie has learned the truth and that Skyler has aligned herself with Walt against the Schraders, answering the open question of whose side she takes once Hank knows."
+    },
+    {
+      "episode": 11,
+      "text": "At the table, Skyler tells Hank flatly that Walt is no longer any part of his empire.",
+      "reason": "It reveals that Hank confronts Skyler and that she knowingly sides with Walt rather than cooperating, answering the open question of whether Skyler will turn on him after Hank's discovery."
+    },
+    {
+      "episode": 11,
+      "text": "Jesse sits saying nothing across from Hank in an interview room until Saul turns up.",
+      "reason": "It reveals that Jesse ends up in DEA custody/interrogation with Hank, an outcome of the pending Hank-versus-Walt investigation that the viewer has not yet seen."
+    }
+  ],
+  "recheck_spend": {
+    "in": 2630,
+    "out": 10590,
+    "cache_read": 430490,
+    "cache_write": 10032,
+    "calls": 62
+  }
+}

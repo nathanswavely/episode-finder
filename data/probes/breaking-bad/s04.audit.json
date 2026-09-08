@@ -1,0 +1,1011 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 4,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Box Cutter",
+      "candidates": [
+        {
+          "text": "Hank, stuck at home after his injury, snaps at Marie and buries himself in collecting and cataloging minerals.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "This is ordinary character texture about Hank's recovery and hobby at home, already established by his hospital discharge, and reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A jumpy Saul has taken on a personal bodyguard who follows him around.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Saul acquiring a bodyguard is character texture reflecting the already-known dangerous climate, and doesn't disclose any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler cannot reach Walt on the phone and fears something has happened to him.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Skyler being unable to reach Walt and worrying is ordinary character texture that discloses no outcome of the pending Gale/Gus confrontation."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt and Jesse are kept waiting in the lab for hours under Mike and Victor's watch.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": true,
+              "reason": "It confirms Walt was not executed at the lab as expected and that Jesse survives and is captured, resolving the immediate cliffhanger stakes."
+            }
+          },
+          "rejected": "consequence: It confirms Walt was not executed at the lab as expected and that Jesse survives and is captured, resolving the immediate cliffhanger stakes."
+        }
+      ]
+    },
+    "2": {
+      "title": "Thirty-Eight Snub",
+      "candidates": [
+        {
+          "text": "Jesse installs an elaborate new stereo system in his living room, and the party there simply never ends.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "This is character texture showing Jesse's coping behavior after killing Gale, without revealing any outcome, death, or plot turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Andrea stops by Jesse's place, worried about him; he presses a thick stack of cash on her for Brock.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Jesse handing Andrea money for Brock is character texture consistent with his known guilt and relationship, not a plot outcome, death, or answer to an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hank does his physical therapy sessions at home, and Marie is finding his mood harder and harder to bear.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Hank's difficult recovery and Marie's strain are already established ongoing texture, with no new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler makes her pitch to the man who owns the car wash where Walt once worked.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 3
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "The viewer already knows Skyler proposed buying the car wash; her making a pitch is a natural next step with no outcome disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Open House",
+      "candidates": [
+        {
+          "text": "Walt seethes at the new motion-detecting surveillance camera watching him from the ceiling of the lab.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A new lab camera is atmospheric texture consistent with the already-established tension between Walt and Gus, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A camera in the lab is atmospheric detail consistent with the already-established surveillance and tension between Walt and Gus, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A new lab camera is atmospheric texture consistent with the already-established tension between Walt and Gus, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse's house party runs around the clock, and he flings piles of cash into the middle of the chaos.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The ongoing party and Jesse's reckless spending are already established behaviour, so this is character texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is texture consistent with Jesse's already-established ongoing party and cash-throwing behavior, revealing no new outcome or plot turn."
+                }
+              ],
+              "reason": "The ongoing party and Jesse's reckless spending are already established behaviour, so this is character texture rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Marie spends her afternoons drifting alone through strangers' real-estate open houses.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes an ordinary solitary activity/coping habit for Marie, without disclosing any outcome, discovery, or consequence."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Marie's habit of wandering open houses is established character texture (her kleptomania/escapism) and does not disclose any outcome, death, or reveal."
+                }
+              ],
+              "reason": "It only describes an ordinary solitary activity/coping habit for Marie, without disclosing any outcome, discovery, or consequence."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Bullet Points",
+      "candidates": [
+        {
+          "text": "Skyler hands Walt a typed list of talking points and makes him rehearse his confession line by line.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Skyler coaching Walt on a cover story is a continuation of the established money-laundering/gambling-story plot and reveals no death, arrest, discovery or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt grumbles about the wording of a speech he is supposed to deliver spontaneously to Hank and Walt Jr.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Complaining about a speech's wording is ordinary character texture and reveals no outcome, death, discovery or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hank asks Walt to read aloud a passage about a chemical process from a handwritten lab notebook.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Hank consulting Walt about Gale's notebook follows directly from the notebook copy the viewer already saw him receive, and reading a passage aloud resolves no pending outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Shotgun",
+      "candidates": [
+        {
+          "text": "Jesse rides along with Mike all day, driving from stop to stop across New Mexico picking up money.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture describing the ride-along activity already set up by the previous episode's ending, without revealing any outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary activity/texture showing Jesse accompanying Mike on collection rounds, with no outcome, reveal, or resolution disclosed."
+                }
+              ],
+              "reason": "This is ordinary texture describing the ride-along activity already set up by the previous episode's ending, without revealing any outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt and Skyler sign the paperwork that officially makes them the owners of the car wash.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The owner had already agreed to sell in a previous episode, so the signing is a formality rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The owner's agreement to sell was already shown, so the signing is a routine completion of a known outcome rather than a new reveal."
+                }
+              ],
+              "reason": "The owner had already agreed to sell in a previous episode, so the signing is a formality rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt, agitated and alone at the lab, demands to know from Mike where Jesse has been taken.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Walt confronting Mike about Jesse's whereabouts is a natural continuation of the cliffhanger the viewer already saw, and it discloses no outcome, answer, or new development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt asking Mike about Jesse's whereabouts is a natural continuation of the cliffhanger without revealing where Jesse was taken or what happens to him."
+                }
+              ],
+              "reason": "Walt confronting Mike about Jesse's whereabouts is a natural continuation of the cliffhanger the viewer already saw, and it discloses no outcome, answer, or new development."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The family sits down together for dinner, and over the meal the talk turns to Gale.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A family dinner conversation about Gale is ordinary texture, since the viewer already knows Hank is investigating Gale's murder and discussing it with Walt."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A family dinner conversation touching on Gale is ordinary texture, since the viewer already knows Hank is investigating Gale's murder and discussing it with Walt."
+                }
+              ],
+              "reason": "A family dinner conversation about Gale is ordinary texture, since the viewer already knows Hank is investigating Gale's murder and discussing it with Walt."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Cornered",
+      "candidates": [
+        {
+          "text": "Walt hands cash to three workers at the industrial laundry, having them come downstairs and scrub the lab.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "This is ordinary character texture showing Walt's petulant reaction to working alone in the lab, and it does not disclose any death, discovery, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Worn down by his son's pleading for a new car, Walt buys him a Dodge Challenger.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Walt buying his son a car is ordinary family texture and doesn't disclose any pending outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Problem Dog",
+      "candidates": [
+        {
+          "text": "Walt takes his son's new Challenger out to an empty parking lot and spins it around in furious circles.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "that the Challenger belongs to Walt's son"
+              ]
+            }
+          },
+          "rejected": "faithful: that the Challenger belongs to Walt's son"
+        },
+        {
+          "text": "Skyler sits with far more cash than she expected, unsure the car wash can plausibly account for it.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "It shows an ongoing logistical worry about laundering money that flows naturally from the established car wash plan, without disclosing any outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hank has Walt Jr. drive him out to Los Pollos Hermanos for a meal.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Hank following up the Los Pollos napkin lead is the expected continuation of an investigation the viewer already knows he restarted, and a meal outing reveals no outcome, discovery or confrontation."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse turns up again at his twelve-step meeting and speaks in front of the group.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Jesse attending and speaking at his support group is ordinary character texture; no outcome, reveal, or confession content is disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Hermanos",
+      "candidates": [
+        {
+          "text": "Gus sits calmly in an interview room, fielding questions from Hank and a table of federal and local investigators.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": true,
+              "reason": "It reveals the outcome of Hank's just-presented case to the DEA \\u2014 that authorities act on his suspicion and formally bring Gus in for questioning, and that Gus is composed enough to face it."
+            }
+          },
+          "rejected": "consequence: It reveals the outcome of Hank's just-presented case to the DEA \\u2014 that authorities act on his suspicion and formally bring Gus in for questioning, and that Gus is composed enough to face it."
+        },
+        {
+          "text": "Hank, stuck in the passenger seat, hands Walt a magnetic tracking device and sends him off to attach it under a car.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": true,
+              "reason": "It reveals that Hank's Gus investigation escalates to physical surveillance and, crucially, that he enlists Walt to plant a tracker, forcing Walt into direct complicity in the hunt for his own boss."
+            }
+          },
+          "rejected": "consequence: It reveals that Hank's Gus investigation escalates to physical surveillance and, crucially, that he enlists Walt to plant a tracker, forcing Walt into direct complicity in the hunt for his own boss."
+        },
+        {
+          "text": "Gus sits at the bedside of the old man in the nursing home, speaking quietly to him about his nephews.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Gus visiting Hector Salamanca in the nursing home and talking about his nephews is texture consistent with their established antagonism, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt again presses Jesse to use the poison on Gus at the very first opportunity he gets.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "This merely restates the already-established plan for Jesse to poison Gus without revealing whether he does it or what results."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Bug",
+      "candidates": [
+        {
+          "text": "Skyler pulls open a hatch and climbs down into the crawl space beneath the house, where the cash is kept.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Skyler accessing the crawl space where money is stored is ordinary activity consistent with her known involvement in laundering, revealing no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Skyler accessing the household cash stash — a setting/activity detail that doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Skyler accessing the crawl space where money is stored is ordinary activity consistent with her known involvement in laundering, revealing no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Sitting in on a tax audit, Skyler plays the giggling, hopeless bookkeeper who knows nothing about standard accounting practices.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts Skyler putting on a ditzy act at a routine tax audit — a situational activity consistent with her known bookkeeping cover, not a death, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only depicts Skyler putting on an act during a routine audit, which is character texture and an ordinary situation rather than a death, reveal, or the outcome of any pending conflict the viewer knows about."
+                }
+              ],
+              "reason": "It depicts Skyler putting on a ditzy act at a routine tax audit — a situational activity consistent with her known bookkeeping cover, not a death, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse is put to work scrubbing a warehouse and hauling every trace of product out of it.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies the superlab is being shut down/cleared out, a plot turning point the viewer hasn't reached."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts a mundane labour task with no outcome, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "It implies the superlab is being shut down/cleared out, a plot turning point the viewer hasn't reached."
+            }
+          },
+          "rejected": "consequence (1/2): It implies the superlab is being shut down/cleared out, a plot turning point the viewer hasn't reached."
+        }
+      ]
+    },
+    "10": {
+      "title": "Salud",
+      "candidates": [
+        {
+          "text": "Walt Jr. lets himself into his father's apartment and finds him bloodied and slurring, then stays the night to look after him.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "This is character texture showing the aftermath of the already-known fight with Jesse and Walt Jr.'s concern, without revealing any new outcome, death, or plot turn."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In the morning Walt apologises to his son for the drugged state he was in the night before.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "A domestic apology between father and son is ordinary character texture and reveals no outcome, death, or plot answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt fails to show up for his son's birthday gathering at the house.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Walt's absence from a family birthday gathering is ordinary domestic texture and doesn't disclose any death, reveal, or resolution of the pending Gus/Jesse conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse works through a cook in an unfamiliar lab across the border, with cartel chemists watching him.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": true,
+              "reason": "It confirms Jesse actually goes to Mexico and successfully cooks for the cartel, resolving the pending question of whether he'd be sent and how he'd fare."
+            }
+          },
+          "rejected": "consequence: It confirms Jesse actually goes to Mexico and successfully cooks for the cartel, resolving the pending question of whether he'd be sent and how he'd fare."
+        },
+        {
+          "text": "Ted shows off a freshly leased Mercedes, talking about getting his company running again before dealing with the IRS.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": true,
+              "reason": "It implies Ted has suddenly come into money (Skyler's secret payout of Walt's cash to cover the IRS debt) and that he's spending it elsewhere, revealing the resolution/complication of the pending audit storyline."
+            }
+          },
+          "rejected": "consequence: It implies Ted has suddenly come into money (Skyler's secret payout of Walt's cash to cover the IRS debt) and that he's spending it elsewhere, revealing the resolution/complication of the pending audit storyline."
+        }
+      ]
+    },
+    "11": {
+      "title": "Crawl Space",
+      "candidates": [
+        {
+          "text": "Ted, handed a way out of his tax trouble, still won't write the check to the IRS.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 4
+            }
+          },
+          "rejected": "reverse: picked E10 (conf 4)"
+        },
+        {
+          "text": "Walt turns up to plead with Jesse face to face, and Jesse stays completely unmoved.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": true,
+              "reason": "It gives away the outcome of the pending Walt/Jesse rift \\u2014 that Walt is reduced to begging and Jesse flatly rejects him \\u2014 rather than leaving open whether their partnership is repaired."
+            }
+          },
+          "rejected": "consequence: It gives away the outcome of the pending Walt/Jesse rift \\u2014 that Walt is reduced to begging and Jesse flatly rejects him \\u2014 rather than leaving open whether their partnership is repaired."
+        },
+        {
+          "text": "Walt is behind the wheel with Hank beside him when the car ends up in a collision.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": true,
+              "reason": "It reveals a car crash involving Walt and Hank, a plot turning point (Walt's staged accident to stop Hank's investigation) that the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence: It reveals a car crash involving Walt and Hank, a plot turning point (Walt's staged accident to stop Hank's investigation) that the viewer has not yet seen."
+        }
+      ]
+    },
+    "12": {
+      "title": "End Times",
+      "candidates": [
+        {
+          "text": "Skyler, Walt Jr. and the baby move into Hank and Marie's house, with agents watching outside.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "The family relocating under DEA protection is a logistical extension of the protective detail already established at the end of the previous episode, revealing no outcome, death, discovery or answer to a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt sits alone in his shuttered, barricaded house, furniture pushed against the doors, waiting for someone to come.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Barricading himself at home is atmospheric texture consistent with the fear and threats already established, and doesn't disclose any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Stuck at home, Hank sends Gomez out with a team to search a big industrial laundry.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": true,
+              "reason": "It reveals that Hank's investigation has progressed to identifying the laundry site concealing Gus's superlab, a pending plot development the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence: It reveals that Hank's investigation has progressed to identifying the laundry site concealing Gus's superlab, a pending plot development the viewer has not yet seen."
+        }
+      ]
+    },
+    "13": {
+      "title": "Face Off",
+      "candidates": [
+        {
+          "text": "Detectives press Jesse with questions in a hospital corridor until Saul turns up and shuts the interview down.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": false,
+              "reason": "Being questioned by detectives at the hospital and having Saul intervene is procedural texture consistent with the situation the viewer already knows; it discloses no death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse stands at the lab equipment cooking a batch alone, with a gun trained on him the whole time.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "reveals": true,
+              "reason": "It implies Jesse ends up back at the lab under armed guard/coercion, revealing an outcome of the pending Gus-Jesse-Walt standoff after Jesse refused to cook."
+            }
+          },
+          "rejected": "consequence: It implies Jesse ends up back at the lab under armed guard/coercion, revealing an outcome of the pending Gus-Jesse-Walt standoff after Jesse refused to cook."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 3015,
+    "out": 928,
+    "cache_read": 40967,
+    "cache_write": 11380,
+    "calls": 12
+  },
+  "recheck": [
+    {
+      "episode": 2,
+      "text": "Jesse installs an elaborate new stereo system in his living room, and the party there simply never ends.",
+      "reason": "It shows Jesse alive, free and back at his house after killing Gale, implying he faced no immediate lethal consequences from Gus, which is the pending cliffhanger question."
+    },
+    {
+      "episode": 4,
+      "text": "Hank asks Walt to read aloud a passage about a chemical process from a handwritten lab notebook.",
+      "reason": "It reveals that Hank has re-engaged with investigative work and obtained Gale's lab notebook \", pulling Walt dangerously close to the Gale murder investigation the previous episode noted police had overlooked."
+    },
+    {
+      "episode": 5,
+      "text": "Jesse rides along with Mike all day, driving from stop to stop across New Mexico picking up money.",
+      "reason": "It reveals that Jesse gets pulled out of his party spiral and into a new working alliance with Mike, an outcome the viewer has not yet seen."
+    },
+    {
+      "episode": 5,
+      "text": "Walt, agitated and alone at the lab, demands to know from Mike where Jesse has been taken.",
+      "reason": "It discloses that Mike removes Jesse from the lab/takes him away, a plot turn separating the partners that the viewer hasn't yet seen set up."
+    },
+    {
+      "episode": 8,
+      "text": "Gus sits at the bedside of the old man in the nursing home, speaking quietly to him about his nephews.",
+      "reason": "It reveals a visit between Gus and Hector Salamanca, exposing their personal history/confrontation, a plot development not yet seen by the viewer."
+    },
+    {
+      "episode": 8,
+      "text": "Walt again presses Jesse to use the poison on Gus at the very first opportunity he gets.",
+      "reason": "It discloses that Walt has recruited Jesse into a poisoning plot against Gus \\u2014 a major new plan and shift in the Walt/Jesse/Gus conflict that the viewer has not yet seen established."
+    },
+    {
+      "episode": 10,
+      "text": "Walt Jr. lets himself into his father's apartment and finds him bloodied and slurring, then stays the night to look after him.",
+      "reason": "It reveals that Walt ends up beaten/injured and that Walt Jr. discovers him in that state, an outcome the viewer hasn't seen."
+    },
+    {
+      "episode": 12,
+      "text": "Skyler, Walt Jr. and the baby move into Hank and Marie's house, with agents watching outside.",
+      "reason": "It reveals that the threat against Walt escalates to the point his family is placed under DEA protection at Hank and Marie's, a significant turning point the viewer hasn't reached."
+    },
+    {
+      "episode": 12,
+      "text": "Walt sits alone in his shuttered, barricaded house, furniture pushed against the doors, waiting for someone to come.",
+      "reason": "It reveals that Walt ends up under direct siege/fear for his life at home, signalling a major escalation and shift in the pending Gus conflict rather than ordinary texture."
+    },
+    {
+      "episode": 13,
+      "text": "Detectives press Jesse with questions in a hospital corridor until Saul turns up and shuts the interview down.",
+      "reason": "It signals that a hospitalization/poisoning incident occurs and that Jesse becomes a police suspect in it, tipping a major turning point the viewer hasn't reached."
+    }
+  ],
+  "recheck_spend": {
+    "in": 2488,
+    "out": 8633,
+    "cache_read": 401834,
+    "cache_write": 9516,
+    "calls": 60
+  }
+}

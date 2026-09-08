@@ -1,0 +1,613 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 3,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Breaking Bad season 3",
+    "revid": 1364483503,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_3&oldid=1364483503",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "No Más",
+      "candidates": [
+        {
+          "text": "Jesse sits through sessions at a rehab facility, wrestling with self-loathing and guilt.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse is in rehab trying to overcome his drug addiction, while struggling with his own personal self-loathing and guilt over Jane's death.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt rattles around the house alone, packing up his things while Skyler stays elsewhere with the kids.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Skyler"
+          ],
+          "grounded_in": "Walt is living in his home alone after Skyler has moved out with Walt Jr. and their newborn daughter Holly to give Walt time to pack his things.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler sits across from a divorce attorney who suggests she look for money her husband may have hidden.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler"
+          ],
+          "grounded_in": "Skyler speaks to a divorce lawyer about making the split permanent, but wavers when the attorney says she should try to uncover any money Walt may have hidden.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Two silent, identically dressed brothers make their way across the border from Mexico into the United States.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "two dangerous-looking twin brothers cross into the US from Mexico",
+          "grounded_ok": true
+        },
+        {
+          "text": "The whole city is still reeling, in a daze over the mid-air collision in the skies above Albuquerque.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "All of Albuquerque is in shock in the aftermath of the mid-air plane collision.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1515,
+        "cache_read": 0,
+        "cache_write": 12304
+      }
+    },
+    "2": {
+      "title": "Caballo sin Nombre",
+      "candidates": [
+        {
+          "text": "A patrol officer stops Walt over the crack running across his car's windshield, and the roadside exchange escalates.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "He has an encounter with a police officer over a cracked windshield",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse wanders through his old house, freshly renovated and staged, with a for-sale sign out front.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse stops by his old house and discovers that his parents have had it renovated and put it up for sale.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt Jr. cannot understand why his mother still refuses to let his father come back home.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt Jr."
+          ],
+          "grounded_in": "dismaying Walt Jr., who does not understand his mother's behavior",
+          "grounded_ok": true
+        },
+        {
+          "text": "Saul, in his loud suit, sits down with Jesse's parents to talk about their newly listed property.",
+          "specificity": 4,
+          "characters_named": [
+            "Saul",
+            "Jesse"
+          ],
+          "grounded_in": "Saul visits Jesse's parents",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 45,
+        "out": 1073,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "I.F.T.",
+      "candidates": [
+        {
+          "text": "Skyler phones the police to have Walt removed from the house while he calmly settles back in.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler calls the police in an attempt to have Walt thrown out",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt Jr. is delighted to have his father back in the house and baffled by his mother's coldness.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt Jr."
+          ],
+          "grounded_in": "Walt Jr. is thrilled that his father is back, but Skyler calls the police",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse, still unable to shake Jane's death, has moved back into his old house alone.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse",
+            "Jane"
+          ],
+          "grounded_in": "Jesse is still having trouble coming to terms with Jane's death but has moved back into his house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Told he is being sent back to El Paso, Hank loses his temper in a bar.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank"
+          ],
+          "grounded_in": "After finding out that he is going to be transferred back to El Paso, Hank lashes out in a bar",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1405,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Green Light",
+      "candidates": [
+        {
+          "text": "Jesse pays for a tank of gasoline by handing the convenience store cashier a bag of meth.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse gives meth to a cashier in exchange for gasoline",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse turns up waiting for Walt outside the school, eager to show off a batch he cooked alone.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Walt"
+          ],
+          "grounded_in": "Walt is met by Jesse, who has produced a new batch of meth following Walt's recipe",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt barges into the office building where Skyler works, loudly demanding to see her boss.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Skyler"
+          ],
+          "grounded_in": "Walt makes a scene at Skyler's workplace while confronting Ted",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most beats here are outcomes (the bugged house, the principal's rebuff, Hank's new lead), so the safe options are limited.",
+      "usage": {
+        "in": 39,
+        "out": 1672,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Más",
+      "candidates": [
+        {
+          "text": "Gus tells Walt that a man provides for his family whether or not they appreciate him for it.",
+          "specificity": 4,
+          "characters_named": [
+            "Gus",
+            "Walt"
+          ],
+          "grounded_in": "Gus proclaims that a man provides for his family regardless of whether or not his family appreciates him for it",
+          "grounded_ok": true
+        },
+        {
+          "text": "Marie, worried about how Hank is doing, confides in Skyler about it.",
+          "specificity": 3,
+          "characters_named": [
+            "Marie",
+            "Hank",
+            "Skyler"
+          ],
+          "grounded_in": "Concerned for Hank's well-being, Marie confides in Skyler",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank keeps digging away at the RV lead, and it sparks an argument with Marie.",
+          "specificity": 3,
+          "characters_named": [
+            "Hank",
+            "Marie"
+          ],
+          "grounded_in": "Hank continues investigating the RV and has an argument with Marie",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (the superlab tour, Walt's decision, the signed divorce papers, the Combo's-mother link) is either a reveal or a turning point, so the safe options are limited.",
+      "usage": {
+        "in": 37,
+        "out": 1575,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Sunset",
+      "candidates": [
+        {
+          "text": "Walt takes a liking to the well-qualified new assistant brought in to help him in the lab.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "takes a liking to his new, well-qualified lab assistant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse brings Badger and Skinny Pete back in, recruiting them to work the drug trade alongside him again.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Badger",
+            "Skinny Pete"
+          ],
+          "grounded_in": "Jesse enlists Badger and Skinny Pete to enter the drug trade alongside him again",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt Jr., in the wake of the divorce, presses for straight answers about his parents' relationship.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt Jr."
+          ],
+          "grounded_in": "In the wake of the divorce, Walt Jr. wants answers about his parents' relationship.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt is settling into a new apartment of his own, living apart from the house.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt settles into a new apartment",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Gale is introduced here, so he is described rather than named; the RV's fate, the phone-call ruse and Gus's redirection of the cousins are all withheld as turning points.",
+      "usage": {
+        "in": 39,
+        "out": 1559,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "One Minute",
+      "candidates": [
+        {
+          "text": "Hank sits with Marie and tearfully talks about how much his work has changed him since the desert shootout.",
+          "specificity": 4,
+          "characters_named": [
+            "Hank",
+            "Marie"
+          ],
+          "grounded_in": "Hank tearfully reflects with Marie on how his professionalism has deteriorated since he killed Tuco",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt goes out of his way to needle his fastidious lab assistant, making the superlab an unpleasant place to work.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt engineers a fallout with Gale",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this episode is either the fallout of the previous episode's beating or direct setup for the shooting at the end, so safe, distinctive texture is scarce.",
+      "usage": {
+        "in": 39,
+        "out": 1751,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "I See You",
+      "candidates": [
+        {
+          "text": "Left alone in the underground lab, Jesse can't get a cook started and frets about hitting their quota.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse is left on his own in the lab and, unable to cook, becomes worried about meeting their quota",
+          "grounded_ok": true
+        },
+        {
+          "text": "Marie unloads on Hank's boss in the hospital after learning the agency had taken his gun away.",
+          "specificity": 4,
+          "characters_named": [
+            "Marie",
+            "Hank"
+          ],
+          "grounded_in": "Marie lashes out at Hank's boss when she hears they had taken his gun away",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse, discharged and still battered, passes through the hospital as Hank is brought in in critical condition.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse",
+            "Hank"
+          ],
+          "grounded_in": "Jesse is discharged from the hospital following Hank's attack on him and sees Hank being admitted in critical condition",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive beats (the hospital visit, the syringe, the phone call ending) are turning points, so probes are limited to peripheral texture.",
+      "usage": {
+        "in": 38,
+        "out": 1352,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Kafkaesque",
+      "candidates": [
+        {
+          "text": "Marie is frustrated to learn their insurance won't cover the kind of physical therapy Hank needs to walk again.",
+          "specificity": 4,
+          "characters_named": [
+            "Marie",
+            "Hank"
+          ],
+          "grounded_in": "Marie is frustrated when she learns that their insurance will not provide the quality of physical therapy Hank requires to walk again.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The new lab is running at full tilt, with Walt and Jesse comfortably hitting two hundred pounds a week.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "Walt and Jesse are in full production in the new lab and easily producing their target 200 pounds of meth per week",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gomez lays out a map for Hank in the hospital, marked with the states where blue meth keeps turning up.",
+          "specificity": 4,
+          "characters_named": [
+            "Gomez",
+            "Hank"
+          ],
+          "grounded_in": "Hank's work partner Gomez shows Hank a map that indicates blue meth has been sold in seven states",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats (Skyler's gambling story, Marie accepting the money, Hank's phone-call revelation, Gus extending the contract) are turning points or discoveries, so the safe pool is small.",
+      "usage": {
+        "in": 42,
+        "out": 1349,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Fly",
+      "candidates": [
+        {
+          "text": "A single housefly gets into the lab, and Walt goes to absurd lengths trying to swat it.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "he spots a small housefly in the lab, and, worried about contamination, goes to extreme lengths to kill it",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse, learning Walt has not slept in two days, quietly slips sleeping pills into his coffee.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse",
+            "Walt"
+          ],
+          "grounded_in": "when he finds out Walt has not slept in two days, slips sleeping pills into Walt's coffee",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt lies awake with insomnia, brooding over the direction his life has taken.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt is suffering from insomnia, worried about the direction his life has taken",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse, dismissive at first, ends up joining Walt's obsessive hunt around the lab equipment.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Walt"
+          ],
+          "grounded_in": "Jesse, at first dismissive, begins to help as well",
+          "grounded_ok": true
+        },
+        {
+          "text": "With Walt asleep in the lab, Jesse quietly cooks the entire batch by himself.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "While Walt sleeps, Jesse cooks the batch on his own.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 815,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Abiquiu",
+      "candidates": [
+        {
+          "text": "Gus invites Walt to his home for dinner, cooking for him and offering some fatherly advice.",
+          "specificity": 5,
+          "characters_named": [
+            "Gus",
+            "Walt"
+          ],
+          "grounded_in": "Gus invites Walt to dinner and dispenses sage advice.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Badger and Skinny Pete balk at Jesse's idea of selling to people from their rehab group.",
+          "specificity": 4,
+          "characters_named": [
+            "Badger",
+            "Skinny Pete",
+            "Jesse"
+          ],
+          "grounded_in": "fed up with Badger and Skinny Pete's reluctance to sell to their rehab group",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler, unimpressed by the investment Saul pitches her, proposes the car wash where Walt used to work.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Saul",
+            "Walt"
+          ],
+          "grounded_in": "she is unimpressed by the investment Saul has lined up and suggests a more believable business investment: the car wash where Walt previously worked",
+          "grounded_ok": true
+        },
+        {
+          "text": "Marie is excited about Hank finally coming home, but he flatly refuses to leave his hospital bed.",
+          "specificity": 3,
+          "characters_named": [
+            "Marie",
+            "Hank"
+          ],
+          "grounded_in": "Marie is thrilled at the prospect of Hank returning home, but he adamantly refuses to leave the hospital until he can walk",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler opens the first of Hank's hospital bills and starts pressing Walt about where the money comes from.",
+          "specificity": 3,
+          "characters_named": [
+            "Skyler",
+            "Hank",
+            "Walt"
+          ],
+          "grounded_in": "Skyler gets the first of Hank's hospital bills",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1311,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Half Measures",
+      "candidates": [
+        {
+          "text": "In his hospital room, Marie gives Hank a sponge bath and makes him a playful wager.",
+          "specificity": 4,
+          "characters_named": [
+            "Marie",
+            "Hank"
+          ],
+          "grounded_in": "Marie wheels Hank out of the hospital after betting she can arouse him during a sponge bath",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank's doctors have told him he can go home whenever he likes, but he stays in his bed.",
+          "specificity": 3,
+          "characters_named": [
+            "Hank"
+          ],
+          "grounded_in": "Hank is still reluctant to leave the hospital, even though his doctors have told him he is free to leave at any time",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning-point material (a killing, a child's fate, the closing confrontation), so only the hospital thread yields usable texture.",
+      "usage": {
+        "in": 40,
+        "out": 1310,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Full Measure",
+      "candidates": [
+        {
+          "text": "Walt sits with Gus and flatly claims he has no idea where Jesse is, insisting he has left the state.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Gus",
+            "Jesse"
+          ],
+          "grounded_in": "Walt professes not to know the whereabouts of Jesse, who he falsely claims has fled the state.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gus, going over the numbers with a chemist, says his overhead means he cannot lose even a week's production.",
+          "specificity": 3,
+          "characters_named": [
+            "Gus"
+          ],
+          "grounded_in": "Gus says that with his overhead he cannot afford to lose even a week's production",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gus tells Walt, in a strained face-to-face, that his patience has finally reached its limit.",
+          "specificity": 3,
+          "characters_named": [
+            "Gus",
+            "Walt"
+          ],
+          "grounded_in": "Walt has a tense meeting with Gus, who makes it clear that his patience has reached its limit",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this finale is a turning point (the assistant choice, the drive to Gale's apartment, the final phone call), so the usable material is thin and the surviving probes are conversational rather than visual.",
+      "usage": {
+        "in": 40,
+        "out": 1238,
+        "cache_read": 12304,
+        "cache_write": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 1,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Office (American TV series) season 1",
+    "revid": 1372901951,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_1&oldid=1372901951",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Pilot",
+      "candidates": [
+        {
+          "text": "A documentary crew turns up at the Scranton paper company for the first time, filming the staff at their desks.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "A documentary crew arrives at the Scranton, Pennsylvania, offices of Dunder Mifflin to observe the employees and learn about modern management.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A young temporary worker starts his first day at the branch and is shown around the office.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "The office also gets new employee Ryan Howard (B. J. Novak) as a temporary worker",
+          "grounded_ok": true
+        },
+        {
+          "text": "For the cameras, the regional manager insists everything at the branch is wonderful and morale could not be better.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "Regional manager Michael Scott (Steve Carell) tries to paint a happy picture in the face of potential downsizing from corporate.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Very sparse summary; also, every named character debuts here, so probes describe roles rather than naming people.",
+      "usage": {
+        "in": 39,
+        "out": 1028,
+        "cache_read": 0,
+        "cache_write": 3686
+      }
+    },
+    "2": {
+      "title": "Diversity Day",
+      "candidates": [
+        {
+          "text": "Michael tapes index cards with different races written on them to everyone's foreheads and makes them act out stereotypes.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "assigns each staff member an index card with a different race on it",
+          "grounded_ok": true
+        },
+        {
+          "text": "An outside consultant arrives to run a tolerance session, and Michael keeps interrupting to deliver his own version.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "A consultant named Al Brown (guest star Larry Wilmore) arrives to teach the staff about tolerance and diversity, but Michael insists on imparting his own knowledge",
+          "grounded_ok": true
+        },
+        {
+          "text": "The whole office is herded into the conference room for a mandatory seminar about race and tolerance.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "forces the staff to undergo a racial diversity seminar",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 896,
+        "cache_read": 3686,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Health Care",
+      "candidates": [
+        {
+          "text": "Jim and Pam entertain themselves filling out the medical forms Dwight has handed around the office.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam",
+            "Dwight"
+          ],
+          "grounded_in": "Jim and Pam amuse themselves with Dwight's medical forms",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight is put in charge of picking the office's new health care plan, and takes the job very seriously.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Michael puts Dwight in charge of choosing the company's new health care plan",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael promises the whole office a big surprise, then spends the day scrambling to come up with one.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael promises the entire office a surprise, and then spends the rest of the day scrambling to come through with his promise",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 783,
+        "cache_read": 3686,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "The Alliance",
+      "candidates": [
+        {
+          "text": "Michael spends the whole day agonizing over what joke to write in a coworker's birthday card.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael agonizes over writing the perfect greeting in her birthday card",
+          "grounded_ok": true
+        },
+        {
+          "text": "The office holds a morale-boosting birthday party for an employee whose birthday is over a month away.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Michael arranges a morale-boosting birthday party for Supplier Relations representative Meredith Palmer (Kate Flannery), although her birthday is more than a month away",
+          "grounded_ok": true
+        },
+        {
+          "text": "With downsizing rumors swirling, paranoia spreads through the office and Dwight starts talking in Survivor terms.",
+          "specificity": 3,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "As downsizing rumors swirl, paranoia takes over the members of the office.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode's central thread is Dwight forming an alliance with Jim and Pam, which rule 1 excludes as a new alliance; remaining material is thin.",
+      "usage": {
+        "in": 40,
+        "out": 767,
+        "cache_read": 3686,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Basketball",
+      "candidates": [
+        {
+          "text": "The office staff square off against the warehouse crew in a basketball game, losers owing a Saturday shift.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Michael and the office staff take on the workers in the warehouse in a basketball game, with the losers having to work on Saturday.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael assembles his lineup by looks and assumptions, passing over the more athletic office workers for weaker players.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Through racist and sexist ideals, Michael chooses many of the lesser skilled office workers over their more athletic peers.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael stops play mid-game to insist on a \"flagrant personal intentional foul\" against his side.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael claims a \"flagrant personal intentional foul\", stops the game",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 881,
+        "cache_read": 3686,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Hot Girl",
+      "candidates": [
+        {
+          "text": "A visiting saleswoman sets up a table of purses in the office, and the men keep drifting over.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "an attractive purse saleswoman named Katy (Amy Adams) comes to the office",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael and Dwight openly compete for the attention of the woman selling handbags out of the conference area.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Dwight"
+          ],
+          "grounded_in": "Michael and Dwight openly vie for her attention",
+          "grounded_ok": true
+        },
+        {
+          "text": "An espresso machine turns up in the office kitchen, courtesy of Michael's spending.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael spends the money on an espresso machine",
+          "grounded_ok": true
+        },
+        {
+          "text": "Corporate sets aside a thousand dollars as a prize for the branch's top salesman.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "the corporate office allocates $1,000 as a prize for the top office salesman",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 761,
+        "cache_read": 3686,
+        "cache_write": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,1455 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 2,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Seven Thirty-Seven",
+      "candidates": [
+        {
+          "text": "Skyler brings up Marie's shoplifting with Hank, and finds he already knows more about it than expected.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Marie is indeed a shoplifter (resolving her flat denial to Skyler) and reveals Hank is already aware of the problem."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It resolves the pending tiara-theft thread by confirming Marie is indeed a shoplifter and revealing that Hank is already aware of her habit, information the viewer doesn't yet have."
+                }
+              ],
+              "reason": "It confirms Marie is indeed a shoplifter (resolving her flat denial to Skyler) and reveals Hank is already aware of the problem."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Marie is indeed a shoplifter (resolving her flat denial to Skyler) and reveals Hank is already aware of the problem."
+        },
+        {
+          "text": "Hank sits going through security camera footage from the warehouse where the methylamine barrel went missing.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Hank investigating the theft the viewer already knows about, without revealing whether he identifies Walt or Jesse\the<So the mystery of "
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Hank engaged in routine investigative work without revealing what he finds or any outcome."
+                }
+              ],
+              "reason": "It shows Hank investigating the theft the viewer already knows about, without revealing whether he identifies Walt or Jesse\the<So the mystery of "
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt paces at home, quietly working out the chemistry of a poison that would leave no trace.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt decides to plot Tuco's murder by poison, a turning point following the beating that the viewer has not yet seen resolved."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt is planning to poison someone (implicitly Tuco), telegraphing an upcoming turning point in the pending Tuco conflict."
+                }
+              ],
+              "reason": "It reveals that Walt decides to plot Tuco's murder by poison, a turning point following the beating that the viewer has not yet seen resolved."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Walt decides to plot Tuco's murder by poison, a turning point following the beating that the viewer has not yet seen resolved."
+        }
+      ]
+    },
+    "2": {
+      "title": "Grilled",
+      "candidates": [
+        {
+          "text": "At the desert hideout Tuco cares for an elderly relative in a wheelchair who communicates only by ringing a bell.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture and setting detail introducing Tuco's relative, not an outcome or resolution of the pending abduction conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture/setting detail introducing Tuco's relative, not an outcome, death, or resolution of the pending kidnapping conflict."
+                }
+              ],
+              "reason": "This is character texture and setting detail introducing Tuco's relative, not an outcome or resolution of the pending abduction conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tuco talks up his idea of taking Walt south to Mexico to run a cooking operation in the jungle.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is just Tuco's talk/plan while Walt and Jesse are captive, revealing no outcome of the kidnapping or their fate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is Tuco voicing a plan/idea consistent with the kidnapping already witnessed, revealing no outcome of the standoff or resolution of the pending ricin plot."
+                }
+              ],
+              "reason": "This is just Tuco's talk/plan while Walt and Jesse are captive, revealing no outcome of the kidnapping or their fate."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hank, helping Skyler look for Walt, pays a visit to Jesse's mother at her home.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary investigative errand—Hank searching for the missing Walt—without disclosing Walt and Jesse's fate with Tuco or any discovery, since Skyler already knows of Jesse as Walt's supposed dealer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows an investigative step following naturally from Walt's abduction without disclosing any outcome, discovery, or resolution."
+                }
+              ],
+              "reason": "It shows an ordinary investigative errand—Hank searching for the missing Walt—without disclosing Walt and Jesse's fate with Tuco or any discovery, since Skyler already knows of Jesse as Walt's supposed dealer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Marie mentions to Skyler that Walt has been carrying around a second cell phone.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt's secret second phone comes to light with Skyler, a discovery that escalates her suspicions about his double life."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a discovery that advances Skyler's suspicions—that Walt has a hidden second phone tied to his secret drug life—an outcome the viewer hasn't yet seen."
+                }
+              ],
+              "reason": "It reveals that Walt's secret second phone comes to light with Skyler, a discovery that escalates her suspicions about his double life."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Walt's secret second phone comes to light with Skyler, a discovery that escalates her suspicions about his double life."
+        }
+      ]
+    },
+    "3": {
+      "title": "Bit by a Dead Bee",
+      "candidates": [
+        {
+          "text": "Walt strips off all his clothes in a supermarket and wanders the aisles looking dazed and lost.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals how Walt resolves the open cliffhanger of his disappearance \ns\" faking a fugue state to explain his absence and deflect suspicion \ns\" rather than being ordinary texture."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of how Walt escapes/explains his disappearance after fleeing the desert, showing his fake fugue-state cover story."
+                }
+              ],
+              "reason": "It reveals how Walt resolves the open cliffhanger of his disappearance \ns\" faking a fugue state to explain his absence and deflect suspicion \ns\" rather than being ordinary texture."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals how Walt resolves the open cliffhanger of his disappearance \ns\" faking a fugue state to explain his absence and deflect suspicion \ns\" rather than being ordinary texture."
+        },
+        {
+          "text": "Badger helps Jesse load all the lab equipment out of his house into the RV, which gets towed away.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary logistical texture — Jesse relocating equipment with Badger's help and a towed RV — and doesn't disclose any death, arrest, discovery, or the resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary logistical activity (moving equipment into the RV) consistent with Jesse already living in the RV and selling his house, and it doesn't disclose any outcome, death, arrest or reveal."
+                }
+              ],
+              "reason": "This is ordinary logistical texture — Jesse relocating equipment with Badger's help and a towed RV — and doesn't disclose any death, arrest, discovery, or the resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse holes up in a cheap motel room with a prostitute, telling anyone who asks he was there all weekend.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Jesse lying low after the desert escape, revealing no outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is texture showing Jesse establishing an alibi after fleeing the desert, without revealing any outcome, discovery, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture showing Jesse lying low after the desert escape, revealing no outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt sits through sessions with a hospital psychiatrist, insisting he cannot remember anything about the past several days.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt survives the desert cliffhanger, returns to civilization, and fabricates an amnesia/fugue-state cover story to explain his disappearance, resolving the pending question of how he escapes suspicion after Tuco's death."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt survives, returns and is hospitalized, and that he adopts a fugue-state amnesia cover story to explain his disappearance — the resolution of the pending question of how he escapes suspicion after fleeing into the desert."
+                }
+              ],
+              "reason": "It reveals that Walt survives the desert cliffhanger, returns to civilization, and fabricates an amnesia/fugue-state cover story to explain his disappearance, resolving the pending question of how he escapes suspicion after Tuco's death."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Walt survives the desert cliffhanger, returns to civilization, and fabricates an amnesia/fugue-state cover story to explain his disappearance, resolving the pending question of how he escapes suspicion after Tuco's death."
+        },
+        {
+          "text": "Walt and Jesse part ways in the desert and hitchhike separately back toward the city.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's ordinary logistical texture of their flight already in progress, revealing no outcome, discovery, or resolution beyond what the viewer already knows."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Their journey back from the desert is ordinary transit texture, revealing no death, capture, discovery, or turning point."
+                }
+              ],
+              "reason": "It's ordinary logistical texture of their flight already in progress, revealing no outcome, discovery, or resolution beyond what the viewer already knows."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Down",
+      "candidates": [
+        {
+          "text": "Walt takes Walt Jr. out for a driving lesson, trying to reconnect with his son.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A father-son driving lesson is ordinary domestic texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A father-son driving lesson is ordinary character texture that discloses no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A father-son driving lesson is ordinary domestic texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "With nowhere to sleep, Jesse climbs into the fenced lot where the RV sits and spends the night inside it.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jesse sleeping in the RV is ordinary situational texture consistent with his known homelessness and the RV's storage, revealing no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jesse sleeping in the impounded/stored RV is ordinary situational texture consistent with his known homelessness and the RV's known location, revealing no outcome or turning point."
+                }
+              ],
+              "reason": "Jesse sleeping in the RV is ordinary situational texture consistent with his known homelessness and the RV's storage, revealing no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler starts disappearing for entire days, and refuses to tell Walt where she has been.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes ongoing marital tension and unexplained absences without disclosing any outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes ongoing marital tension and Skyler's unexplained absences without disclosing any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It describes ongoing marital tension and unexplained absences without disclosing any outcome, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse's parents, who own the house, tell him he has to move out of it.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Jesse's parents own his house and that he is evicted from it, a plot development/outcome not yet known to the viewer."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jesse's parents own his house and evict him, an outcome/turning point of the house's sale storyline not yet known to the viewer."
+                }
+              ],
+              "reason": "It discloses that Jesse's parents own his house and that he is evicted from it, a plot development/outcome not yet known to the viewer."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses that Jesse's parents own his house and that he is evicted from it, a plot development/outcome not yet known to the viewer."
+        },
+        {
+          "text": "Jesse's motorbike is stolen, leaving him with nothing and nowhere to go.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A minor hardship beat for Jesse consistent with his already-established loss of money and home; it doesn't answer any open question or reveal a major outcome."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning-point setback for Jesse — losing his last possession and being left destitute/homeless — an outcome the viewer hasn't yet seen."
+                }
+              ],
+              "reason": "It reveals a turning-point setback for Jesse — losing his last possession and being left destitute/homeless — an outcome the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a turning-point setback for Jesse — losing his last possession and being left destitute/homeless — an outcome the viewer hasn't yet seen."
+        }
+      ]
+    },
+    "5": {
+      "title": "Breakage",
+      "candidates": [
+        {
+          "text": "Jesse, back on his feet, settles his debts and moves into a new apartment.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jesse getting an apartment after receiving his share of the money is a natural, low-stakes continuation of his living situation rather than a major outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jesse getting an apartment after receiving his share of the money is ordinary situational texture, not a plot outcome, death, reveal or betrayal."
+                }
+              ],
+              "reason": "Jesse getting an apartment after receiving his share of the money is a natural, low-stakes continuation of his living situation rather than a major outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt frets over a mounting pile of medical bills, including the charges from his hospital stay.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Financial pressure from medical bills is established character texture and motivation, revealing no new outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Financial pressure from medical bills is established, ongoing texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "Financial pressure from medical bills is established character texture and motivation, revealing no new outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse takes an interest in the young woman who lives next door and rents him his place.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture introducing a new living situation and romantic interest, without disclosing an outcome or answering a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture introducing a new living situation and potential relationship, without revealing an outcome or answering a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture introducing a new living situation and romantic interest, without disclosing an outcome or answering a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hank receives a promotion at work, though quiet panic still creeps up on him afterward.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome that Hank is promoted (a career turning point following the Tuco shooting) and discloses his emerging panic attacks/PTSD, a new development the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome that Hank is promoted (following his killing of Tuco) and that he is suffering panic attacks, a new development the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals the outcome that Hank is promoted (a career turning point following the Tuco shooting) and discloses his emerging panic attacks/PTSD, a new development the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome that Hank is promoted (a career turning point following the Tuco shooting) and discloses his emerging panic attacks/PTSD, a new development the viewer hasn't seen."
+        }
+      ]
+    },
+    "6": {
+      "title": "Peekaboo",
+      "candidates": [
+        {
+          "text": "Jesse makes food for a filthy, neglected little boy in a wrecked house and sits watching TV with him.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Jesse's pending confrontation with the addict couple who robbed Skinny Pete \ru2014 that he tracks them down and finds their neglected child, a major turning point rather than mere texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jesse in an ordinary caretaking situation at the addicts' house, without disclosing the outcome of his confrontation over the stolen drugs/money or any death, arrest or betrayal."
+                }
+              ],
+              "reason": "It reveals the outcome of Jesse's pending confrontation with the addict couple who robbed Skinny Pete \ru2014 that he tracks them down and finds their neglected child, a major turning point rather than mere texture."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the outcome of Jesse's pending confrontation with the addict couple who robbed Skinny Pete \ru2014 that he tracks them down and finds their neglected child, a major turning point rather than mere texture."
+        },
+        {
+          "text": "Gretchen turns up unannounced at the White house, where Skyler greets her with heartfelt gratitude.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It signals that Walt's lie about Gretchen and Elliott funding his treatment is about to be exposed, an open thread the viewer knows is pending."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It sets up the exposure of Walt's lie that Gretchen and Elliott are paying for his treatment, answering the pending question of whether that deception will unravel."
+                }
+              ],
+              "reason": "It signals that Walt's lie about Gretchen and Elliott funding his treatment is about to be exposed, an open thread the viewer knows is pending."
+            }
+          },
+          "rejected": "consequence (2/2): It signals that Walt's lie about Gretchen and Elliott funding his treatment is about to be exposed, an open thread the viewer knows is pending."
+        },
+        {
+          "text": "Jesse lets himself into a squalid house hunting the pair of addicts who ripped off Skinny Pete.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is setup consistent with Walt's directive that Jesse confront the thieving addicts, showing him beginning the search without revealing the confrontation's outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It merely shows Jesse acting on the confrontation Walt already urged him to make, without revealing what happens inside the house."
+                }
+              ],
+              "reason": "This is setup consistent with Walt's directive that Jesse confront the thieving addicts, showing him beginning the search without revealing the confrontation's outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt is back at school, standing in front of his chemistry class again after his time away.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Walt teaching his chemistry class is ordinary character texture and reveals no outcome, discovery, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt teaching his class is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Walt teaching his chemistry class is ordinary character texture and reveals no outcome, discovery, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Negro y Azul",
+      "candidates": [
+        {
+          "text": "Hank, transferred to the El Paso office, is the odd man out among agents who treat him as a gringo.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes a new work setting and Hank's social discomfort there, without disclosing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Hank's promotion results in a transfer to El Paso, a plot development the viewer hasn't seen yet."
+                }
+              ],
+              "reason": "It reveals that Hank's promotion results in a transfer to El Paso, a plot development the viewer hasn't seen yet."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Hank's promotion results in a transfer to El Paso, a plot development the viewer hasn't seen yet."
+        },
+        {
+          "text": "Unable to reach Jesse, Walt takes it upon himself to make the product deliveries to the street dealers.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary logistical activity — Walt covering deliveries in Jesse's absence — without disclosing any outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt covering deliveries while Jesse is unreachable is an ordinary plot activity that doesn't disclose a death, reveal, or the resolution of any pending conflict."
+                }
+              ],
+              "reason": "It describes an ordinary logistical activity — Walt covering deliveries in Jesse's absence — without disclosing any outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse holes up at home, ignoring calls, while Walt keeps trying to get hold of him.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes ordinary aftermath behavior—Jesse withdrawing and Walt phoning him—without disclosing any outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jesse's withdrawn emotional state after the traumatic scene the viewer already witnessed, with no new outcome or revelation."
+                }
+              ],
+              "reason": "This describes ordinary aftermath behavior—Jesse withdrawing and Walt phoning him—without disclosing any outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler goes job hunting and ends up back at the bookkeeping desk of her old employer.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Skyler taking a job at her former workplace is ordinary character texture and doesn't disclose any death, reveal, or the resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Skyler taking a bookkeeping job is ordinary character texture and doesn't resolve any pending conflict or open question the viewer is tracking."
+                }
+              ],
+              "reason": "Skyler taking a job at her former workplace is ordinary character texture and doesn't disclose any death, reveal, or the resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Better Call Saul",
+      "candidates": [
+        {
+          "text": "Walt sits with Hank and uses his own cancer diagnosis as a pep talk to get him moving again.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Hank survives the aftermath and is left psychologically shaken/immobilized by the El Paso bombing, requiring Walt's intervention — an outcome of the pending cliffhanger."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Hank returns from El Paso traumatized and in need of encouragement after the bombing, revealing the outcome of his PTSD arc rather than just texture."
+                }
+              ],
+              "reason": "It reveals that Hank survives the aftermath and is left psychologically shaken/immobilized by the El Paso bombing, requiring Walt's intervention — an outcome of the pending cliffhanger."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Hank survives the aftermath and is left psychologically shaken/immobilized by the El Paso bombing, requiring Walt's intervention — an outcome of the pending cliffhanger."
+        },
+        {
+          "text": "Jesse and Jane's flirtation across the courtyard has turned into a full sexual relationship.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the outcome of the pending will-they-won't-they between Jesse and Jane by revealing their bond becomes a sexual relationship."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the outcome of the pending Jesse-Jane romantic buildup by revealing they become sexually involved."
+                }
+              ],
+              "reason": "It confirms the outcome of the pending will-they-won't-they between Jesse and Jane by revealing their bond becomes a sexual relationship."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms the outcome of the pending will-they-won't-they between Jesse and Jane by revealing their bond becomes a sexual relationship."
+        },
+        {
+          "text": "Hank finally gets himself out of the house, only for another panic attack to catch him.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the outcome of Hank's El Paso trauma—that he returns home suffering ongoing panic attacks/PTSD—resolving the open question of how the bombing affects him."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Hank develops ongoing PTSD/panic attacks and becomes housebound after the El Paso bombing, an outcome of the trauma the viewer has just seen occur."
+                }
+              ],
+              "reason": "It confirms the outcome of Hank's El Paso trauma—that he returns home suffering ongoing panic attacks/PTSD—resolving the open question of how the bombing affects him."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms the outcome of Hank's El Paso trauma—that he returns home suffering ongoing panic attacks/PTSD—resolving the open question of how the bombing affects him."
+        }
+      ]
+    },
+    "9": {
+      "title": "4 Days Out",
+      "candidates": [
+        {
+          "text": "Walt and Jesse haul supplies into the RV for a marathon cook stretched across a long weekend in the desert.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary activity consistent with their established meth-cooking partnership and reveals no outcome, death, arrest, or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Setting up a routine cook in the RV is ordinary activity for the pair and reveals no outcome, death, or discovery."
+                }
+              ],
+              "reason": "This is ordinary activity consistent with their established meth-cooking partnership and reveals no outcome, death, arrest, or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt and Jesse end up sitting outside the RV in the freezing desert with no food or water left.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes a predicament/situation in the desert rather than resolving any pending conflict or revealing a death, reveal, or outcome the viewer is awaiting."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a predicament/situation in the desert rather than an outcome, reveal, or answer to any pending question the viewer is tracking."
+                }
+              ],
+              "reason": "It describes a predicament/situation in the desert rather than resolving any pending conflict or revealing a death, reveal, or outcome the viewer is awaiting."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt tells his family he is going away to visit his mother for a few days.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a cover-story lie of the sort Walt routinely tells his family, revealing no outcome, discovery, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Walt giving a routine cover story to his family, which is ordinary texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It's a cover-story lie of the sort Walt routinely tells his family, revealing no outcome, discovery, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Saul sits down and works out the numbers on exactly how much money Walt actually has.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Walt accepted Saul's pending offer and that Saul is now acting as his financial/legal adviser, resolving the open question of whether Walt takes him on."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the pending question of whether Walt accepts Saul's offer, showing Saul now working as Walt's financial/legal adviser."
+                }
+              ],
+              "reason": "It confirms Walt accepted Saul's pending offer and that Saul is now acting as his financial/legal adviser, resolving the open question of whether Walt takes him on."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Walt accepted Saul's pending offer and that Saul is now acting as his financial/legal adviser, resolving the open question of whether Walt takes him on."
+        },
+        {
+          "text": "Jesse has left the RV's keys sitting in the ignition, and the battery is drained flat.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A dead RV battery is a mundane setup/inconvenience rather than an outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It sets up/reveals a dead-battery predicament in the RV, an obstacle-plot turning point the viewer hasn't yet seen."
+                }
+              ],
+              "reason": "It sets up/reveals a dead-battery predicament in the RV, an obstacle-plot turning point the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It sets up/reveals a dead-battery predicament in the RV, an obstacle-plot turning point the viewer hasn't yet seen."
+        }
+      ]
+    },
+    "10": {
+      "title": "Over",
+      "candidates": [
+        {
+          "text": "At a backyard party for family and friends, Walt keeps refilling Walt Jr.'s glass with tequila.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A party scene with Walt encouraging his son to drink is character texture and doesn't disclose an outcome, death, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary social scene depicting Walt's behavior at a party, without disclosing any outcome, death, discovery, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A party scene with Walt encouraging his son to drink is character texture and doesn't disclose an outcome, death, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler organizes a gathering to thank everyone who supported the family through Walt's illness.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A social gathering celebrating already-known news (the remission) is ordinary character texture and reveals no new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A social gathering celebrating already-known news (the remission) is ordinary character texture and discloses no new outcome or reveal."
+                }
+              ],
+              "reason": "A social gathering celebrating already-known news (the remission) is ordinary character texture and reveals no new outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse is caught off guard when Jane's father drops by unannounced to see her.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A parent dropping by unannounced is ordinary character texture and introduces a new minor figure without disclosing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A routine visit from Jane's father is ordinary character texture and does not disclose any outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "A parent dropping by unannounced is ordinary character texture and introduces a new minor figure without disclosing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Wandering a hardware store's aisles, Walt takes a close interest in what two other shoppers are buying.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Walt browsing a store and observing shoppers — ambient setup with no outcome, reveal, or resolution of a pending conflict disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts Walt idly observing shoppers in a store, ordinary texture that discloses no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It only shows Walt browsing a store and observing shoppers — ambient setup with no outcome, reveal, or resolution of a pending conflict disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Mandala",
+      "candidates": [
+        {
+          "text": "Walt sits alone in a booth of a brightly lit fried chicken franchise, waiting to be approached by a contact.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt, who had declared himself out of the drug trade, is back in and setting up a meeting with a new distributor/contact at what is clearly a new criminal connection's front business."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It shows Walt secretly meeting a new drug contact, indicating he re-enters the trade despite declaring he was out and is forging a new distribution alliance."
+                }
+              ],
+              "reason": "It reveals that Walt, who had declared himself out of the drug trade, is back in and setting up a meeting with a new distributor/contact at what is clearly a new criminal connection's front business."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Walt, who had declared himself out of the drug trade, is back in and setting up a meeting with a new distributor/contact at what is clearly a new criminal connection's front business."
+        },
+        {
+          "text": "Saul lays out an entirely new way of moving product now that street-level dealing has stopped working.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a vague setup/texture beat about Saul proposing a distribution idea, without disclosing any specific outcome, death, reveal or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a general premise/setup beat about Saul proposing a new distribution approach, without revealing any specific outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is a vague setup/texture beat about Saul proposing a distribution idea, without disclosing any specific outcome, death, reveal or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Back at her old bookkeeping desk, Skyler works her way through stacks of Ted's company paperwork.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: picked E7 (conf 3)"
+        }
+      ]
+    },
+    "12": {
+      "title": "Phoenix",
+      "candidates": [
+        {
+          "text": "Walt Jr. sits at a computer building a donations website asking strangers to help pay his father's medical bills.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Walt Jr. building a fundraising site is character texture consistent with the family's known financial strain and doesn't disclose any pending outcome, though it hints at a later plot device it reveals no death, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt Jr. making a fundraising website is a new activity but doesn't disclose any death, betrayal, discovery or the outcome of a pending conflict the viewer is tracking."
+                }
+              ],
+              "reason": "Walt Jr. building a fundraising site is character texture consistent with the family's known financial strain and doesn't disclose any pending outcome, though it hints at a later plot device it reveals no death, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse comes demanding his share of the money, and Walt tells him he must first prove he's clean.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an expected confrontation stemming from Jesse's known relapse and the pending payout, without disclosing any outcome, death, or new revelation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It sets up a new confrontation over Jesse's drug use rather than resolving any pending question or revealing an outcome the viewer is awaiting; Jesse's relapse is already known."
+                }
+              ],
+              "reason": "It shows an expected confrontation stemming from Jesse's known relapse and the pending payout, without disclosing any outcome, death, or new revelation."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "ABQ",
+      "candidates": [
+        {
+          "text": "Walt Jr.'s donation website takes off, and local news crews take an interest in the family's story.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Media attention on the donation site is ordinary plot texture and doesn't disclose any death, reveal, betrayal, or resolution of a pending conflict beyond the fundraising scheme already established."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The donation website was already established in prior episodes; its growing success and media attention is ordinary follow-through texture rather than a pending outcome or reveal."
+                }
+              ],
+              "reason": "Media attention on the donation site is ordinary plot texture and doesn't disclose any death, reveal, betrayal, or resolution of a pending conflict beyond the fundraising scheme already established."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt lies on a hospital gurney, groggy and slurring as the anesthetic takes hold before his operation.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Walt's upcoming lung surgery was already established, and being wheeled in under anesthetic shows no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt's upcoming surgery is already established, and the sentence shows only a pre-operative moment without revealing any outcome or disclosure."
+                }
+              ],
+              "reason": "Walt's upcoming lung surgery was already established, and being wheeled in under anesthetic shows no outcome or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt drives through the roughest corners of Albuquerque at night, searching for Jesse.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Searching for Jesse at night is ordinary activity and setting, revealing no outcome beyond what the viewer already knows about Jesse's drug use."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Searching for Jesse at night is ordinary activity consistent with the aftermath already known to the viewer, revealing no outcome or new information."
+                }
+              ],
+              "reason": "Searching for Jesse at night is ordinary activity and setting, revealing no outcome beyond what the viewer already knows about Jesse's drug use."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Saul brings in a quiet, older fixer who does discreet cleanup work off the books.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Introducing a new Saul-affiliated fixer character is background texture and doesn't disclose any pending outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Introducing a new fixer character is background texture; it doesn't disclose any death, discovery or resolution beyond what the viewer already knows."
+                }
+              ],
+              "reason": "Introducing a new Saul-affiliated fixer character is background texture and doesn't disclose any pending outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "recheck": [
+    {
+      "episode": 1,
+      "text": "Hank sits going through security camera footage from the warehouse where the methylamine barrel went missing.",
+      "reason": "It reveals that Hank is investigating the methylamine theft via surveillance footage, an outcome/turning point in the pending question of whether Walt and Jesse's break-in will be traced back to them."
+    },
+    {
+      "episode": 2,
+      "text": "Tuco talks up his idea of taking Walt south to Mexico to run a cooking operation in the jungle.",
+      "reason": "It reveals a future turning point in the pending Tuco storyline\ninvolving Tuco's plan to abduct/relocate Walt to Mexico, an outcome the viewer has not yet seen."
+    },
+    {
+      "episode": 2,
+      "text": "Hank, helping Skyler look for Walt, pays a visit to Jesse's mother at her home.",
+      "reason": "It discloses that Walt goes missing following the Tuco confrontation and that Skyler enlists Hank, whose investigation begins closing in on Jesse."
+    },
+    {
+      "episode": 3,
+      "text": "Jesse holes up in a cheap motel room with a prostitute, telling anyone who asks he was there all weekend.",
+      "reason": "It reveals that Jesse escapes the Tuco abduction cliffhanger alive and free, and is constructing an alibi for something incriminating that happened during it."
+    },
+    {
+      "episode": 3,
+      "text": "Walt and Jesse part ways in the desert and hitchhike separately back toward the city.",
+      "reason": "It reveals that Walt and Jesse escape Tuco's abduction alive and free, resolving the cliffhanger conflict."
+    },
+    {
+      "episode": 5,
+      "text": "Jesse, back on his feet, settles his debts and moves into a new apartment.",
+      "reason": "It reveals the outcome of Jesse's post-DEA financial ruin and homelessness — that he recovers, pays off his debts and secures a new apartment — resolving an open thread the viewer has not yet seen play out."
+    },
+    {
+      "episode": 11,
+      "text": "Saul lays out an entirely new way of moving product now that street-level dealing has stopped working.",
+      "reason": "It reveals that the street-level dealing operation the pair built collapses and that a new distribution scheme is adopted, a plot turning point the viewer hasn't reached."
+    },
+    {
+      "episode": 12,
+      "text": "Jesse comes demanding his share of the money, and Walt tells him he must first prove he's clean.",
+      "reason": "It implies Jesse has relapsed into hard drug use (a turning point tied to Jane's recovery storyline) and sets up the money-standoff between Walt and Jesse."
+    }
+  ],
+  "recheck_spend": {
+    "in": 2412,
+    "out": 9443,
+    "cache_read": 306017,
+    "cache_write": 7311,
+    "calls": 60
+  }
+}

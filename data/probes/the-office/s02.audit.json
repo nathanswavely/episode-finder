@@ -1,0 +1,1786 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 2,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "The Dundies",
+      "candidates": [
+        {
+          "text": "Michael works the microphone as emcee, handing out the yearly joke trophies his employees have learned to dread.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes a familiar setting/activity (Michael emceeing an awards ceremony) and Michael's usual cringeworthy humor, without revealing any outcome, reveal, or resolution of pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes Michael hosting an office awards ceremony — a setting and activity, with no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "It only establishes a familiar setting/activity (Michael emceeing an awards ceremony) and Michael's usual cringeworthy humor, without revealing any outcome, reveal, or resolution of pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam sits through the awards ceremony getting steadily drunker as the evening goes on.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes Pam's ordinary behaviour at an office event without revealing any outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Pam drinking at an awards ceremony is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It only describes Pam's ordinary behaviour at an office event without revealing any outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The whole branch is dragged out for the annual awards night Michael loves and everyone else loathes.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only sets up an ordinary office event (an awards ceremony) without disclosing any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only sets up the episode's premise/setting (an office awards night) without disclosing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "It only sets up an ordinary office event (an awards ceremony) without disclosing any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Roy sits with Pam at the ceremony, restless and impatient, wanting the two of them to head home early.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Roy's disinterest at an event, without revealing any outcome, reveal, or resolution to a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows only ordinary texture \\u2014 Roy being restless at an office event \\u2014 without disclosing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture showing Roy's disinterest at an event, without revealing any outcome, reveal, or resolution to a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Sexual Harassment",
+      "candidates": [
+        {
+          "text": "Michael worries that a review of the company's harassment policies will spoil what he calls his easy-going office.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a setup premise (a harassment policy review prompting Michael's typical anxiety) rather than an outcome, reveal, or resolution of any pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a premise-level setup describing Michael's typical anxiety about a corporate seminar, akin to the earlier diversity seminar, and gives away no outcome, reveal or turning point."
+                }
+              ],
+              "reason": "This is a setup premise (a harassment policy review prompting Michael's typical anxiety) rather than an outcome, reveal, or resolution of any pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The human resources representative is ordered by corporate to run a review of the branch's sexual harassment policies.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is premise-level setup for an episode's situation (an HR policy review), not an outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a routine premise/setup (an HR policy review) without disclosing any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is premise-level setup for an episode's situation (an HR policy review), not an outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Corporate sends a lawyer down to Scranton, who spends the day sitting in on things at the branch.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A visiting corporate lawyer sitting in on the office is ordinary setup/texture that doesn't disclose any outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A corporate lawyer visiting and observing the branch is an ordinary setup/premise detail with no outcome, reveal, or resolution disclosed."
+                }
+              ],
+              "reason": "A visiting corporate lawyer sitting in on the office is ordinary setup/texture that doesn't disclose any outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Office Olympics",
+      "candidates": [
+        {
+          "text": "Bored at their desks, Jim and Pam invent competitive games out of office supplies and rope in coworkers.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Ordinary workplace texture of Jim and Pam goofing off, with no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture consistent with Jim and Pam's established goofing off, revealing no outcome, reveal, or plot turn."
+                }
+              ],
+              "reason": "Ordinary workplace texture of Jim and Pam goofing off, with no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael sits with his realtor going over condo paperwork, unsettled by how many years the payments will run.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Michael handling condo paperwork with a realtor reveals no outcome, death, discovery, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A mundane domestic scene of Michael reviewing condo paperwork is character texture and reveals no outcome, death, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture — Michael handling condo paperwork with a realtor reveals no outcome, death, discovery, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael takes Dwight along with him out of the office for the day to handle a property deal.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary situational texture—Michael and Dwight leaving the office on an errand—without disclosing any outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — a routine outing with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary situational texture—Michael and Dwight leaving the office on an errand—without disclosing any outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "The Fire",
+      "candidates": [
+        {
+          "text": "The whole staff waits outside in the parking lot after evacuating, killing time with games and questions about each other.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows the staff idling outside during an evacuation \"\" ordinary situational texture that discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the staff idling outside during an evacuation, which is ordinary situational texture rather than a death, reveal, or the resolution of any pending conflict."
+                }
+              ],
+              "reason": "It only shows the staff idling outside during an evacuation \"\" ordinary situational texture that discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael decides to take Ryan under his wing as a mentor, and Dwight sulks about the attention.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Michael favouring the new temp and Dwight's jealousy is ordinary character texture consistent with established dynamics, not an outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character dynamic — Michael favoring Ryan and Dwight being jealous — with no outcome, reveal, or resolution of a pending question."
+                }
+              ],
+              "reason": "Michael favouring the new temp and Dwight's jealousy is ordinary character texture consistent with established dynamics, not an outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Halloween",
+      "candidates": [
+        {
+          "text": "It's Halloween at the branch, and Michael has spent the whole month stalling on something corporate asked of him.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only sets up the episode's premise vaguely (a holiday setting and an unspecified pending corporate task) without disclosing what it is or how it resolves."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is setup/premise texture (Halloween setting and Michael procrastinating) without revealing any outcome, though it hints at a pending corporate task."
+                }
+              ],
+              "reason": "It only sets up the episode's premise vaguely (a holiday setting and an unspecified pending corporate task) without disclosing what it is or how it resolves."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The last day of October arrives with Michael dodging a decision headquarters handed him weeks earlier.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is vague setup texture — a Halloween setting and Michael's habitual avoidance — without disclosing the decision's nature or outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is vague setup texture — a Halloween-set episode with Michael avoiding an unspecified corporate task — and discloses no outcome, death, reveal, or resolution."
+                }
+              ],
+              "reason": "This is vague setup texture — a Halloween setting and Michael's habitual avoidance — without disclosing the decision's nature or outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "The Fight",
+      "candidates": [
+        {
+          "text": "Michael and Dwight face off on the mats of a local dojo to settle their argument.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a confrontation at a dojo without disclosing its outcome or any consequence, functioning as situational texture rather than a resolution of a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts a setting and activity (a sparring match at a dojo) without revealing the outcome of any conflict the viewer knows is pending."
+                }
+              ],
+              "reason": "It only sets up a confrontation at a dojo without disclosing its outcome or any consequence, functioning as situational texture rather than a resolution of a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael and Dwight spend the day bickering over which of them would win in a fight.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Bickering over a hypothetical fight is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ongoing comedic bickering dynamic between Michael and Dwight without revealing any outcome, injury, or resolution."
+                }
+              ],
+              "reason": "Bickering over a hypothetical fight is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "After their dojo showdown, Michael and Dwight give each other the cold shoulder for the rest of the day.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Michael and Dwight have a physical confrontation at a dojo and that it ends in a falling-out between them, revealing both a turning point and its aftermath."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Michael and Dwight have a physical showdown at a dojo and fall out, a conflict and turning point in their relationship not yet set up."
+                }
+              ],
+              "reason": "It discloses that Michael and Dwight have a physical confrontation at a dojo and that it ends in a falling-out between them, revealing both a turning point and its aftermath."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses that Michael and Dwight have a physical confrontation at a dojo and that it ends in a falling-out between them, revealing both a turning point and its aftermath."
+        }
+      ]
+    },
+    "7": {
+      "title": "The Client",
+      "candidates": [
+        {
+          "text": "With the boss out of the office, the staff gather to read aloud and act out a screenplay Michael wrote.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Staff reading Michael's screenplay aloud while he's out is comedic texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes an ordinary office activity (a group table-read of Michael's script) without revealing any outcome, relationship development, or answer to a pending question."
+                }
+              ],
+              "reason": "Staff reading Michael's screenplay aloud while he's out is comedic texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael and Jan take an important client out for a long meal away from the branch.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is premise-level setup (a business dinner with a client) and doesn't disclose the deal's outcome or any other development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes the setup of a business dinner with a client, an ordinary activity, without disclosing whether the deal closes or any personal developments."
+                }
+              ],
+              "reason": "This is premise-level setup (a business dinner with a client) and doesn't disclose the deal's outcome or any other development."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jan grows visibly irritated as Michael steers the client conversation anywhere but toward actual business.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jan's irritation during a client meeting — ordinary character texture that doesn't disclose the outcome of the deal or any reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Michael's established bumbling behavior, revealing no outcome, twist, or answer to a pending question."
+                }
+              ],
+              "reason": "It only shows Jan's irritation during a client meeting — ordinary character texture that doesn't disclose the outcome of the deal or any reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Performance Review",
+      "candidates": [
+        {
+          "text": "Michael digs through the suggestion box, treating the anonymous slips as tips for improving himself.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Michael reading the suggestion box is ordinary character-texture comedy and discloses no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Reading suggestion-box slips is ordinary workplace texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Michael reading the suggestion box is ordinary character-texture comedy and discloses no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "One by one, employees are called into Michael's office to sit through their annual performance reviews.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Performance reviews being conducted is routine workplace texture and doesn't disclose any outcome, reveal, or resolution of pending threads."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes the routine premise of performance reviews without revealing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "Performance reviews being conducted is routine workplace texture and doesn't disclose any outcome, reveal, or resolution of pending threads."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "While reviewing everyone else, Michael keeps fretting about the review Jan is about to give him.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes Michael's anxiety during a routine performance-review day, a premise/texture detail that doesn't disclose any outcome, such as how Jan responds to their night together."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setup texture about Michael's anxiety during performance reviews, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "It only describes Michael's anxiety during a routine performance-review day, a premise/texture detail that doesn't disclose any outcome, such as how Jan responds to their night together."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Email Surveillance",
+      "candidates": [
+        {
+          "text": "Michael spends part of his evening at an improvisational comedy class, trying to distract himself.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Attending an improv class is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Michael attending an improv class is ordinary character texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Attending an improv class is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim is hosting a party at his own home for people from the office.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Hosting a house party for coworkers is an ordinary social setup with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A house party hosted by Jim is ordinary social texture and doesn't disclose any outcome or reveal."
+                }
+              ],
+              "reason": "Hosting a house party for coworkers is an ordinary social setup with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael takes to reading through his employees' emails from his own desk.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Michael snooping on employee emails is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Michael snooping on employee emails is ordinary comedic character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Michael snooping on employee emails is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Christmas Party",
+      "candidates": [
+        {
+          "text": "At the office Christmas party, Michael turns Secret Santa into a game where everyone can steal each other's gifts.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary party setup and character texture typical of Michael, revealing no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This merely sets up the episode's premise—a Christmas party gift exchange—without revealing any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary party setup and character texture typical of Michael, revealing no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The gift Michael bought for Ryan is an expensive iPod, and the whole staff keeps swapping to grab it.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes the premise/setup of a gift exchange rather than any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an in-episode party activity and gift-swapping antics rather than resolving any pending conflict or open question the viewer is tracking."
+                }
+              ],
+              "reason": "This describes the premise/setup of a gift exchange rather than any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Unhappy with what he ends up holding, Michael sets off to procure himself a better gift.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic texture about Michael's dissatisfaction with a gift exchange, revealing no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary office gift-exchange dissatisfaction and errand, revealing no death, reveal, betrayal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "This is ordinary comedic texture about Michael's dissatisfaction with a gift exchange, revealing no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Booze Cruise",
+      "candidates": [
+        {
+          "text": "Michael rents a boat and takes the whole office out on the water for an annual motivational cruise.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes the setting and premise of an office outing, not any outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes an ordinary setup/activity (an office outing) without disclosing any outcome, reveal, or resolution of pending conflicts."
+                }
+              ],
+              "reason": "It only describes the setting and premise of an office outing, not any outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Aboard the chartered boat, Michael's antics steadily get on the nerves of the man captaining it.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes Michael's usual irritating behaviour toward a one-off background character during an outing, with no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Merely describes a setting and Michael's typical bumbling behavior irritating a one-off character, with no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "It only describes Michael's usual irritating behaviour toward a one-off background character during an outing, with no outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Roy has been drinking heavily by the time the party on the boat gets going.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes a setting and ordinary character behaviour (Roy drinking at a boat party) without disclosing any outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Roy drinking at a boat party is ordinary character texture and setting, revealing no outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "It only describes a setting and ordinary character behaviour (Roy drinking at a boat party) without disclosing any outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "12": {
+      "title": "The Injury",
+      "candidates": [
+        {
+          "text": "Michael, stuck at home and unable to drive himself in, phones the office demanding someone come pick him up.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary situational setup (Michael needing a ride) with no outcome, reveal, or answer to a pending question such as the Jim/Pam storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's a mundane premise setup \ntemplate: Michael needing a ride to work; no outcome, injury, or reveal is stated."
+                }
+              ],
+              "reason": "This is an ordinary situational setup (Michael needing a ride) with no outcome, reveal, or answer to a pending question such as the Jim/Pam storyline."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "The Secret",
+      "candidates": [
+        {
+          "text": "Oscar phones in sick, and a suspicious Dwight spends the day trying to catch him out.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only sets up an episode premise/activity (Dwight investigating a colleague's sick day) without disclosing any outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a subplot setup (Oscar calling in sick, Dwight investigating) with no outcome, reveal, or resolution of any pending storyline disclosed."
+                }
+              ],
+              "reason": "It only sets up an episode premise/activity (Dwight investigating a colleague's sick day) without disclosing any outcome, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight appoints himself investigator of a colleague's sick day, tailing him rather than staying at his desk.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Dwight self-appointing as an investigator of a sick day is character texture consistent with his established behavior and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Dwight character texture — self-appointed sleuthing — with no outcome, reveal, or resolution of a pending conflict disclosed."
+                }
+              ],
+              "reason": "Dwight self-appointing as an investigator of a sick day is character texture consistent with his established behavior and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "14": {
+      "title": "The Carpet",
+      "candidates": [
+        {
+          "text": "Michael won't set foot in his own office after something foul is left there, and eyes his staff suspiciously.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary comedic premise/setup texture (someone did something in Michael's office) without disclosing the culprit or any outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is situational setup/comic texture about an office incident with no outcome, death, reveal, or resolution of a pending storyline disclosed."
+                }
+              ],
+              "reason": "This is ordinary comedic premise/setup texture (someone did something in Michael's office) without disclosing the culprit or any outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael turns cold and resentful toward his employees, convinced one of them did something disgusting to him out of hate.",
+          "checks": {
+            "reverse": {
+              "picked": 14,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It signals a turning point in the next episode — an incident (implied prank/violation) targeting Michael that sours his relationship with the staff, an outcome the viewer hasn't seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes the premise of Michael's mood and suspicion without revealing what actually happened, who did it, or how the conflict resolves, and it doesn't answer any pending open question from prior episodes."
+                }
+              ],
+              "reason": "It signals a turning point in the next episode — an incident (implied prank/violation) targeting Michael that sours his relationship with the staff, an outcome the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (1/2): It signals a turning point in the next episode — an incident (implied prank/violation) targeting Michael that sours his relationship with the staff, an outcome the viewer hasn't seen."
+        }
+      ]
+    },
+    "15": {
+      "title": "Boys and Girls",
+      "candidates": [
+        {
+          "text": "Jan drives down to Scranton to run a seminar just for the women of the office.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a premise/setup detail (a workplace seminar) that discloses no outcome, reveal, or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This merely sets up an ordinary workplace situation (Jan visiting to hold a women's seminar) without disclosing any outcome, reveal, or resolution of pending conflicts."
+                }
+              ],
+              "reason": "This is a premise/setup detail (a workplace seminar) that discloses no outcome, reveal, or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Left out of the women's seminar, Michael sulks and then throws together a session of his own for the men.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Michael-being-Michael texture — a rival seminar setup — with no outcome, reveal, or resolution of any pending storyline."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes an ordinary Michael-being-Michael setup (a rival seminar) without revealing any outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "This is ordinary Michael-being-Michael texture — a rival seminar setup — with no outcome, reveal, or resolution of any pending storyline."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The office splits along gender lines for the day, women in one meeting and men stuck with Michael.",
+          "checks": {
+            "reverse": {
+              "picked": 15,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes the episode's premise/setup (a gender-split office day), which is ordinary situational texture rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes only the episode's premise/setup — a gender-split day of meetings — without revealing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "It only describes the episode's premise/setup (a gender-split office day), which is ordinary situational texture rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "16": {
+      "title": "Valentine's Day",
+      "candidates": [
+        {
+          "text": "All day, gift after gift arrives at one saleswoman's desk from her boyfriend, piling up for everyone to see.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's ordinary office texture—a romantic gift delivery—with no named outcome, and the relationship it implies was already seeded at the Christmas party."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Gifts arriving at a desk from an already-established boyfriend is ordinary office texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It's ordinary office texture—a romantic gift delivery—with no named outcome, and the relationship it implies was already seeded at the Christmas party."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael travels to New York City for a corporate meeting with the other branch managers.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes a setting/premise (a business trip to a corporate meeting) without disclosing any outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes a setting/activity — Michael attending a corporate meeting in New York — without disclosing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "It only establishes a setting/premise (a business trip to a corporate meeting) without disclosing any outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "It is Valentine's Day at the office, and Michael is away at headquarters while the staff work.",
+          "checks": {
+            "reverse": {
+              "picked": 16,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes setting and ordinary circumstances (Valentine's Day, Michael at headquarters) without disclosing any outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes the setting (Valentine's Day) and Michael's whereabouts, without revealing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "It only establishes setting and ordinary circumstances (Valentine's Day, Michael at headquarters) without disclosing any outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "17": {
+      "title": "Dwight's Speech",
+      "candidates": [
+        {
+          "text": "Dwight, jittery and pale, rehearses over and over, terrified of having to address a hall full of salesmen.",
+          "checks": {
+            "reverse": {
+              "picked": 17,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Dwight's nervousness before speaking, without disclosing any outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Dwight's nervousness before speaking; it doesn't disclose an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is character texture about Dwight's nervousness before speaking, without disclosing any outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A convention hall of paper salesmen waits while Dwight, badge on, works himself into a state backstage.",
+          "checks": {
+            "reverse": {
+              "picked": 17,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Dwight nervously waiting backstage at a sales convention \"014 a setting and character texture that doesn't disclose the outcome of the speech or any pending plot question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows a setting and Dwight's nervous state before a speech, without disclosing any outcome, reveal, or resolution of a pending storyline."
+                }
+              ],
+              "reason": "It only shows Dwight nervously waiting backstage at a sales convention \"014 a setting and character texture that doesn't disclose the outcome of the speech or any pending plot question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim offers to help with Dwight's speech, quietly sourcing his suggested lines from history's most notorious orators.",
+          "checks": {
+            "reverse": {
+              "picked": 17,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes a setup for a typical Jim prank on Dwight rather than an outcome, death, reveal, or resolution of any pending conflict the viewer knows about."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Jim-pranks-Dwight texture consistent with the established dynamic, and it doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It describes a setup for a typical Jim prank on Dwight rather than an outcome, death, reveal, or resolution of any pending conflict the viewer knows about."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "18": {
+      "title": "Take Your Daughter to Work Day",
+      "candidates": [
+        {
+          "text": "The office fills with employees' children for the day, kids wandering among the desks and cubicles.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes the episode's premise/setting (children visiting the office), revealing no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes the episode's premise/setting (a bring-your-kids-to-work day) without revealing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It only establishes the episode's premise/setting (children visiting the office), revealing no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael finds himself far happier chatting with the visiting children than with any of his adult employees.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes Michael's general mood and rapport with visiting kids, ordinary character texture rather than any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's ordinary character texture about Michael enjoying a workplace visit from children, revealing no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "It describes Michael's general mood and rapport with visiting kids, ordinary character texture rather than any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Toby's young daughter is among the visiting kids, and Michael takes a particular shine to her.",
+          "checks": {
+            "reverse": {
+              "picked": 18,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about a workplace kids-visit day and reveals no outcome, twist, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about a workplace kids' visit day, revealing no outcome, plot turn, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture about a workplace kids-visit day and reveals no outcome, twist, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "19": {
+      "title": "Michael's Birthday",
+      "candidates": [
+        {
+          "text": "Partway through the day the entire staff decamps to an ice rink and laces up skates.",
+          "checks": {
+            "reverse": {
+              "picked": 19,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An office outing to an ice rink is ordinary activity/setting texture with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A group outing to an ice rink is ordinary activity/setting texture and discloses no outcome, reveal, or resolution of any pending storyline."
+                }
+              ],
+              "reason": "An office outing to an ice rink is ordinary activity/setting texture with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael arrives buzzing about his own birthday while the rest of the office barely registers it.",
+          "checks": {
+            "reverse": {
+              "picked": 19,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Michael's established need for attention, revealing no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only sets up an ordinary situation—Michael excited about his birthday and coworkers indifferent—without revealing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "This is ordinary character texture consistent with Michael's established need for attention, revealing no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jim and Pam duck out of the office on a shopping run to cheer up Kevin.",
+          "checks": {
+            "reverse": {
+              "picked": 19,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A casual errand between two characters is ordinary texture and discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary errand/activity by Jim and Pam and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A casual errand between two characters is ordinary texture and discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "20": {
+      "title": "Drug Testing",
+      "candidates": [
+        {
+          "text": "Dwight finds a half-smoked joint in the parking lot and starts questioning employees one at a time.",
+          "checks": {
+            "reverse": {
+              "picked": 20,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a premise-setting situation (a found joint prompting Dwight's interrogations) without revealing any outcome, culprit, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a setup premise (a found joint prompting Dwight's interrogations) rather than an outcome, and it doesn't resolve any pending question the viewer has."
+                }
+              ],
+              "reason": "This is a premise-setting situation (a found joint prompting Dwight's interrogations) without revealing any outcome, culprit, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A drug test is scheduled for the whole office, and the staff spend the day waiting to give samples.",
+          "checks": {
+            "reverse": {
+              "picked": 20,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes only the episode's premise and an ordinary office activity without disclosing any outcome, reveal, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes the episode's ordinary premise and setting without disclosing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "This describes only the episode's premise and an ordinary office activity without disclosing any outcome, reveal, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight treats his parking lot find like a criminal case, invoking his authority as a volunteer sheriff's deputy.",
+          "checks": {
+            "reverse": {
+              "picked": 20,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes Dwight's characteristic behavior investigating an unspecified item, without naming any outcome, reveal, or answering a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Dwight in character investigating something he found, consistent with his established deputy persona; no outcome, reveal, or answer to a pending question is disclosed."
+                }
+              ],
+              "reason": "It only describes Dwight's characteristic behavior investigating an unspecified item, without naming any outcome, reveal, or answering a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "21": {
+      "title": "Conflict Resolution",
+      "candidates": [
+        {
+          "text": "Michael stands in front of the whole staff reading aloud from files of old complaints employees made about each other.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a texture moment of Michael's typical inappropriate antics without revealing any outcome, death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows a typical Michael-style office stunt without disclosing any outcome, secret, or answer to a pending question the viewer is tracking."
+                }
+              ],
+              "reason": "This is a texture moment of Michael's typical inappropriate antics without revealing any outcome, death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Pam is stung that somebody complained about her doing wedding planning at work, and she wants to know who.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an everyday workplace grievance and Pam's reaction without revealing who complained, any outcome, or the answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It sets up a minor office grievance without disclosing who complained or how the conflict resolves, and doesn't answer any pending question the viewer has."
+                }
+              ],
+              "reason": "It describes an everyday workplace grievance and Pam's reaction without revealing who complained, any outcome, or the answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Toby, it turns out, has quietly kept written files on every grievance employees ever brought to him.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with Toby's established HR role and doesn't disclose any outcome, death, betrayal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with Toby's established HR role and does not disclose a plot outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is character texture consistent with Toby's established HR role and doesn't disclose any outcome, death, betrayal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dwight runs a formal, by-the-book conflict resolution session in which he and Jim air their grievances.",
+          "checks": {
+            "reverse": {
+              "picked": 21,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary office texture and workplace conflict activity consistent with Dwight and Jim's established dynamic, revealing no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A conflict-resolution meeting between Jim and Dwight is ordinary office texture consistent with their established rivalry and reveals no outcome."
+                }
+              ],
+              "reason": "This is ordinary office texture and workplace conflict activity consistent with Dwight and Jim's established dynamic, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "22": {
+      "title": "Casino Night",
+      "candidates": [
+        {
+          "text": "Michael has turned the workplace into a charity casino for the evening, with gambling tables and the whole staff playing.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes the episode's setting/event (a charity casino night) without revealing any outcome, confession, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes the episode's setting (a charity casino night) without revealing any outcome, confession, or reveal."
+                }
+              ],
+              "reason": "It only describes the episode's setting/event (a charity casino night) without revealing any outcome, confession, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Michael, hosting his charity gambling evening, is fussing over being the big-shot emcee for the night.",
+          "checks": {
+            "reverse": {
+              "picked": 22,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Michael in a familiar emcee/host role at an office event, ordinary character texture with no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes Michael hosting a charity casino event and playing emcee — ordinary setting and character texture that gives away no outcome, such as the pending resolution of Jim's feelings for Pam or his job situation."
+                }
+              ],
+              "reason": "It only shows Michael in a familiar emcee/host role at an office event, ordinary character texture with no outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 2470,
+    "out": 1055,
+    "cache_read": 30937,
+    "cache_write": 4067,
+    "calls": 12
+  },
+  "recheck": [
+    {
+      "episode": 10,
+      "text": "The gift Michael bought for Ryan is an expensive iPod, and the whole staff keeps swapping to grab it.",
+      "reason": "It reveals a Secret Santa/gift-exchange plot point and the outcome that Michael's extravagant iPod gift becomes the object everyone steals, spoiling the next episode's central conflict."
+    }
+  ],
+  "recheck_spend": {
+    "in": 4480,
+    "out": 14175,
+    "cache_read": 324327,
+    "cache_write": 4353,
+    "calls": 114
+  }
+}

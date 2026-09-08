@@ -1,0 +1,754 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 1,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Pilot",
+      "candidates": [
+        {
+          "text": "Walt spends the morning of his fiftieth birthday at the kitchen table with Skyler and their teenage son.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A mundane domestic breakfast scene with family conveys only ordinary character texture, revealing no outcome, discovery, or plot turn."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A routine family breakfast scene is ordinary character texture, revealing no outcome, discovery, or turning point."
+                }
+              ],
+              "reason": "A mundane domestic breakfast scene with family conveys only ordinary character texture, revealing no outcome, discovery, or plot turn."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "After teaching all day, Walt puts in hours at his second job at a car wash.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Walt's ordinary working routine and financial strain, which is background texture rather than an outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It merely depicts Walt's mundane daily routine and financial strain, revealing no outcome, twist, or answer to an open question."
+                }
+              ],
+              "reason": "It only shows Walt's ordinary working routine and financial strain, which is background texture rather than an outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt tags along in the car while Hank and other DEA agents raid a meth lab.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an activity/setting \"Walt riding along on a DEA operation\" without disclosing any outcome, discovery, or consequence of the raid."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an activity/setting (Walt observing a DEA raid) without disclosing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "It describes an activity/setting \"Walt riding along on a DEA operation\" without disclosing any outcome, discovery, or consequence of the raid."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Cat's in the Bag...",
+      "candidates": [
+        {
+          "text": "At an ultrasound appointment, Skyler presses Walt about the late-night phone call she overheard the other night.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Skyler questioning Walt about a suspicious phone call is ordinary tension/character texture and doesn't disclose any outcome, discovery, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary domestic scene of Skyler questioning Walt's behavior without disclosing any outcome, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "Skyler questioning Walt about a suspicious phone call is ordinary tension/character texture and doesn't disclose any outcome, discovery, or resolution."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler turns up uninvited at Jesse's front door and warns him to stay away from her husband.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Skyler discovers Walt's connection to Jesse and confronts him, answering the open question of whether Walt's secret stays hidden from his family."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Skyler discovers Walt's connection to Jesse and confronts him, answering the open question of whether Walt's secret stays hidden from his family."
+                }
+              ],
+              "reason": "It reveals that Skyler discovers Walt's connection to Jesse and confronts him, answering the open question of whether Walt's secret stays hidden from his family."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Skyler discovers Walt's connection to Jesse and confronts him, answering the open question of whether Walt's secret stays hidden from his family."
+        },
+        {
+          "text": "Cornered by Skyler about his behavior, Walt claims he has been buying marijuana from a former student.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Skyler's suspicion escalates to a confrontation and that Walt responds with a specific cover story, an outcome of the pending question of how he hides his activities from his wife."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It gives away the outcome of Skyler's pending suspicion about Walt's secretive behavior, revealing the cover story he invents about buying marijuana from a former student."
+                }
+              ],
+              "reason": "It reveals that Skyler's suspicion escalates to a confrontation and that Walt responds with a specific cover story, an outcome of the pending question of how he hides his activities from his wife."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Skyler's suspicion escalates to a confrontation and that Walt responds with a specific cover story, an outcome of the pending question of how he hides his activities from his wife."
+        },
+        {
+          "text": "Walt writes out careful instructions for Jesse specifying a plastic bin, and Jesse decides he knows better.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "Walt writing out instructions in a note",
+                "Jesse deliberately deciding he knows better as his motive for using the bathtub"
+              ]
+            }
+          },
+          "rejected": "faithful: Walt writing out instructions in a note; Jesse deliberately deciding he knows better as his motive for using the bathtub"
+        }
+      ]
+    },
+    "3": {
+      "title": "...And the Bag's in the River",
+      "candidates": [
+        {
+          "text": "Hank drives Walt Jr. out to a rundown motel to lecture him about gateway drugs.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A parenting/lecture scene is ordinary character texture and doesn't disclose any death, discovery, or resolution of the pending Krazy-8 or DEA threads."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A parental lecture scene is ordinary character texture and doesn't disclose any death, discovery, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A parenting/lecture scene is ordinary character texture and doesn't disclose any death, discovery, or resolution of the pending Krazy-8 or DEA threads."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt and Jesse spend the day cleaning up what is left of Emilio in the ruined bathroom.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Cleaning up the already-shown acid mess is mundane aftermath texture, revealing no new outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is routine cleanup of an event the viewer already saw (the acid destroying the bathtub) and reveals no new outcome or turning point."
+                }
+              ],
+              "reason": "Cleaning up the already-shown acid mess is mundane aftermath texture, revealing no new outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Marie, convinced Walt Jr. has been smoking marijuana, asks Hank to scare the boy straight.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Marie"
+        },
+        {
+          "text": "Carrying food down to the basement, Walt collapses partway down the stairs.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A brief collapse on the stairs is consistent with his already-established illness and doesn't disclose any outcome, such as Krazy-8's fate or a new discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt carrying food to the restrained Krazy-8 is an established routine, and a momentary collapse reflects his already-known illness rather than disclosing any outcome, discovery, or turning point."
+                }
+              ],
+              "reason": "A brief collapse on the stairs is consistent with his already-established illness and doesn't disclose any outcome, such as Krazy-8's fate or a new discovery."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Cancer Man",
+      "candidates": [
+        {
+          "text": "Jesse turns up at his parents' immaculate suburban house, and they are dismayed at the state he's in.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jesse's family background and their disapproval, which is character texture rather than an outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Introducing Jesse's family and their disapproval is character texture, not an outcome or answer to a pending question."
+                }
+              ],
+              "reason": "It only shows Jesse's family background and their disapproval, which is character texture rather than an outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse's much younger brother is a star at both sports and music, under heavy pressure from their parents.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It introduces family background/character texture about Jesse's brother without disclosing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Introducing Jesse's family and his brother's talents is background character texture, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It introduces family background/character texture about Jesse's brother without disclosing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse grows convinced law enforcement is closing in on him and becomes increasingly paranoid.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — Jesse's paranoia — without disclosing any outcome, arrest, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — Jesse's paranoia — without disclosing any outcome, arrest, or reveal."
+                }
+              ],
+              "reason": "This is character texture — Jesse's paranoia — without disclosing any outcome, arrest, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt Jr. gets upset with his father for carrying on as though everything at home were perfectly normal.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies the outcome of Walt's pending 'we need to talk' confrontation, indicating the family (including Walt Jr.) now knows about his cancer/secret and is reacting to it."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Walt's cancer diagnosis has been disclosed to his family, resolving the pending question of whether/when he tells them and depicting their reaction."
+                }
+              ],
+              "reason": "It implies the outcome of Walt's pending 'we need to talk' confrontation, indicating the family (including Walt Jr.) now knows about his cancer/secret and is reacting to it."
+            }
+          },
+          "rejected": "consequence (2/2): It implies the outcome of Walt's pending 'we need to talk' confrontation, indicating the family (including Walt Jr.) now knows about his cancer/secret and is reacting to it."
+        },
+        {
+          "text": "The family gathers around a backyard barbecue, Hank holding forth as usual.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A family barbecue with Hank being talkative is ordinary character texture and discloses no outcome or revelation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A family barbecue with Hank being his usual talkative self is ordinary character texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "A family barbecue with Hank being talkative is ordinary character texture and discloses no outcome or revelation."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Gray Matter",
+      "candidates": [
+        {
+          "text": "Walt and Skyler attend an extravagant birthday party thrown by a wealthy former colleague from Walt's graduate school days.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes a social setting and introduces a wealthy former colleague, without disclosing any outcome, such as whether Walt gets treatment or accepts help."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a social occasion and introduces background about Walt's past; no outcome, death, reveal, or resolution of the pending cancer-treatment question is disclosed."
+                }
+              ],
+              "reason": "It only establishes a social setting and introduces a wealthy former colleague, without disclosing any outcome, such as whether Walt gets treatment or accepts help."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse and Badger try cooking a batch on their own, and what comes out is nothing like Walt's product.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Badger"
+        },
+        {
+          "text": "Caught by a cop trying to buy beer underage, Walt Jr. phones Hank instead of his own father.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture involving a minor teenage misstep and does not disclose any pending outcome, death, reveal or betrayal relevant to the established plot threads."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is minor character texture involving an ordinary teenage misstep and does not disclose any pending outcome, death, discovery, or reveal from the show's open threads."
+                }
+              ],
+              "reason": "This is ordinary character texture involving a minor teenage misstep and does not disclose any pending outcome, death, reveal or betrayal relevant to the established plot threads."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse keeps hitting walls trying to find steady, legitimate work outside the drug trade.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jesse struggling to find legitimate work is ordinary character texture rather than a plot outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jesse job-hunting is ordinary character texture that doesn't resolve any pending outcome, such as whether he and Walt resume cooking."
+                }
+              ],
+              "reason": "Jesse struggling to find legitimate work is ordinary character texture rather than a plot outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Crazy Handful of Nothin'",
+      "candidates": [
+        {
+          "text": "Walt shaves his head after discovering his hair has started falling out.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Hair loss from the chemotherapy Walt has already agreed to undergo is an expected consequence and character texture, not a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt beginning chemo was already established as his decision; hair loss and shaving his head is expected physical texture rather than a plot outcome or reveal."
+                }
+              ],
+              "reason": "Hair loss from the chemotherapy Walt has already agreed to undergo is an expected consequence and character texture, not a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt sits through his first chemotherapy session, hooked to the drip in the treatment room.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Walt already agreed to undergo chemotherapy in the prior episode, so showing him in a session is expected follow-through rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt had already agreed to undergo chemotherapy at the end of the previous episode, so seeing him in a session is expected follow-through and ordinary texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "Walt already agreed to undergo chemotherapy in the prior episode, so showing him in a session is expected follow-through rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Their first batch of product brings in only $2,600, and Walt insists on ramping up production.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary business texture following the already-established resumption of their partnership, revealing no death, arrest, or major turning point."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Walt and Jesse's renewed partnership (a completed cook and disappointing sale) and the resulting decision to expand production, which is a plot turning point beyond what the viewer knows."
+                }
+              ],
+              "reason": "It reveals the outcome of Walt and Jesse's renewed partnership (a completed cook and disappointing sale) and the resulting decision to expand production, which is a plot turning point beyond what the viewer knows."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the outcome of Walt and Jesse's renewed partnership (a completed cook and disappointing sale) and the resulting decision to expand production, which is a plot turning point beyond what the viewer knows."
+        }
+      ]
+    },
+    "7": {
+      "title": "A No-Rough-Stuff-Type Deal",
+      "candidates": [
+        {
+          "text": "Jesse, now living out of the RV, puts his house on the market.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jesse loses/gives up his house and ends up living in the RV, an outcome of his displacement rather than mere texture."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jesse loses his house and is displaced into living in the RV, an outcome stemming from his family conflict and the meth-lab damage."
+                }
+              ],
+              "reason": "It reveals that Jesse loses/gives up his house and ends up living in the RV, an outcome of his displacement rather than mere texture."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jesse loses/gives up his house and ends up living in the RV, an outcome of his displacement rather than mere texture."
+        },
+        {
+          "text": "Walt and Jesse can't get their hands on enough pseudoephedrine pills to keep production going.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary logistical obstacle of their ongoing meth operation, not an outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a routine production obstacle and ordinary plot texture, not an outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is an ordinary logistical obstacle of their ongoing meth operation, not an outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler hosts a baby shower at the house, unwrapping gifts in front of the assembled guests.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A baby shower with gift-opening is ordinary domestic texture and discloses no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A baby shower is ordinary domestic texture consistent with Skyler's known pregnancy and reveals no outcome or turning point."
+                }
+              ],
+              "reason": "A baby shower with gift-opening is ordinary domestic texture and discloses no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt and Jesse wrestle a large barrel of methylamine out of a locked warehouse at night.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an activity consistent with their established meth operation and doesn't disclose a death, arrest, betrayal, or the resolution of any pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Walt and Jesse escalate to committing a burglary to steal precursor chemicals, showing how they solve the pending problem of scaling up production for Tuco."
+                }
+              ],
+              "reason": "It reveals that Walt and Jesse escalate to committing a burglary to steal precursor chemicals, showing how they solve the pending problem of scaling up production for Tuco."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Walt and Jesse escalate to committing a burglary to steal precursor chemicals, showing how they solve the pending problem of scaling up production for Tuco."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 30267,
+    "out": 10084,
+    "cache_read": 153670,
+    "cache_write": 15456,
+    "calls": 98
+  },
+  "recheck": [
+    {
+      "episode": 3,
+      "text": "Walt and Jesse spend the day cleaning up what is left of Emilio in the ruined bathroom.",
+      "reason": "It confirms Emilio died from the gas and that his body was dissolved in a disposal gone wrong, resolving the cliffhanger of what happens after Walt drives off."
+    },
+    {
+      "episode": 3,
+      "text": "Carrying food down to the basement, Walt collapses partway down the stairs.",
+      "reason": "It implies someone survived the poisoning and is being held captive in the basement, answering the open question of whether both dealers died, and also signals Walt's deteriorating health."
+    },
+    {
+      "episode": 6,
+      "text": "Walt shaves his head after discovering his hair has started falling out.",
+      "reason": "Hair loss from chemotherapy reveals that Walt has begun treatment, answering the open question left at the end of the previous episode about whether he would pursue it."
+    },
+    {
+      "episode": 6,
+      "text": "Walt sits through his first chemotherapy session, hooked to the drip in the treatment room.",
+      "reason": "It answers the open question left at the end of episode 4 about whether Walt would pursue the costly cancer treatment, confirming he goes ahead with chemotherapy."
+    }
+  ],
+  "recheck_spend": {
+    "in": 5400,
+    "out": 4803,
+    "cache_read": 42519,
+    "cache_write": 2707,
+    "calls": 34
+  }
+}

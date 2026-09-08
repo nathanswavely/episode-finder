@@ -1,0 +1,733 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 5,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Breaking Bad season 5",
+    "revid": 1365318966,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_5&oldid=1365318966",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Live Free or Die",
+      "candidates": [
+        {
+          "text": "A wrecking-yard truck fitted with an enormous electromagnet is driven up against the wall of a police evidence building.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Walt uses a giant magnet to destroy evidence of his and Jesse's activities stored on Gus' laptop in the police evidence lockup",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler stands at a hospital bedside where Ted lies immobilized, barely able to turn his head toward her.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Ted"
+          ],
+          "grounded_in": "At the hospital, Skyler visits an intimidated Ted",
+          "grounded_ok": true
+        },
+        {
+          "text": "A ragged, bearded man eats breakfast alone at a Denny's counter in Albuquerque on his birthday.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "a ragged, bearded Walt, living under a different identity, has breakfast at a Denny's restaurant in Albuquerque on his 52nd birthday",
+          "grounded_ok": true
+        },
+        {
+          "text": "News coverage of the three deaths at the Casa Tranquila senior center plays while Walt tidies up loose ends.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "as news of the three deaths at the senior center Casa Tranquila spreads",
+          "grounded_ok": true
+        },
+        {
+          "text": "Rattled and agitated in his office, Saul tries to end his business arrangement with Walt for good.",
+          "specificity": 3,
+          "characters_named": [
+            "Saul",
+            "Walt"
+          ],
+          "grounded_in": "Saul is upset with Walt for poisoning Brock and tries to cut ties with him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1999,
+        "cache_read": 0,
+        "cache_write": 13623
+      }
+    },
+    "2": {
+      "title": "Madrigal",
+      "candidates": [
+        {
+          "text": "Walt and Jesse sit down with Mike, trying to talk him into partnering with them on a new operation.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse",
+            "Mike"
+          ],
+          "grounded_in": "Walt and Jesse decide to look to Mike as a new partner",
+          "grounded_ok": true
+        },
+        {
+          "text": "A little robot vacuum trundles around the floor of Jesse's place while he hunts through the room.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "plants it in Jesse's Roomba",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the DEA, agents work through a stack of leads left over from the Fring case, hoping one pans out.",
+          "specificity": 2,
+          "characters_named": [],
+          "grounded_in": "The DEA filters through various leads in hopes of finding something.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler is barely functioning around the house, worn down by what Walt has gotten them into.",
+          "specificity": 2,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler's mental state continues to deteriorate due to Walt's criminal activity.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive material (the executive's death, the ricin swap and its aftermath, the new executive's assassination scheme, the frozen account) falls under rule 1 or rule 4, so the usable moments are thin.",
+      "usage": {
+        "in": 40,
+        "out": 2200,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Hazard Pay",
+      "candidates": [
+        {
+          "text": "The operation sets up inside a house sealed beneath a fumigation tent, the team posing as exterminators.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Walt suggests using pest removal business Vamonos Pest as a cover, cooking in the houses that have been tented over",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt carries his boxes back into the house and settles in again, much to Skyler's dismay.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Skyler"
+          ],
+          "grounded_in": "Walt moves back into the house, to Skyler's dismay.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt, Mike and Jesse sit down with Saul to run through possible locations for a new cooking site.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt",
+            "Mike",
+            "Jesse",
+            "Saul"
+          ],
+          "grounded_in": "Walt, Mike, and Jesse meet with Saul to discuss finding a new place to cook.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Skyler's car wash breakdown and the hazard-pay argument are both framed by the summary as setups for reveals (the affair, and Walt's hint about the crew), so they were left out.",
+      "usage": {
+        "in": 42,
+        "out": 1215,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Fifty-One",
+      "candidates": [
+        {
+          "text": "Walt's fifty-first birthday is marked with a small, joyless dinner at home, nobody much in the mood.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "During a meager celebration for Walt's 51st birthday",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse walks the aisles of a warehouse stacked with methylamine barrels alongside a jittery Lydia.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Lydia"
+          ],
+          "grounded_in": "Together, she and Jesse spot a tracking device on a barrel of methylamine",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hank is congratulated at the DEA on moving up to a more senior desk job.",
+          "specificity": 3,
+          "characters_named": [
+            "Hank"
+          ],
+          "grounded_in": "Hank receives a promotion to ASAC",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike scoffs at Lydia's panic, convinced she is inventing an excuse to wriggle out of their arrangement.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike",
+            "Lydia"
+          ],
+          "grounded_in": "believes that Lydia placed the device herself to get out of their deal",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Skyler's fully-clothed walk into the pool is the episode's most memorable image but functions as its central turning point, so it is excluded.",
+      "usage": {
+        "in": 41,
+        "out": 1593,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Dead Freight",
+      "candidates": [
+        {
+          "text": "Walt Jr. drives over to the house demanding answers about what is going on, and Walt sends him away.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt Jr.",
+            "Walt"
+          ],
+          "grounded_in": "Walt Jr. arrives at the White house to demand an audience, but Walt sends him away.",
+          "grounded_ok": true
+        },
+        {
+          "text": "With every barrel in Lydia's warehouse now useless, Walt, Jesse and Mike sit around floating ideas for getting methylamine elsewhere.",
+          "specificity": 4,
+          "characters_named": [
+            "Lydia",
+            "Walt",
+            "Jesse",
+            "Mike"
+          ],
+          "grounded_in": "As all the barrels in Lydia's warehouse are now compromised, the team begins to work through several ideas to obtain methylamine from another source.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt pays a visit to Hank's new office at the DEA, the two of them talking alone in there.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt",
+            "Hank"
+          ],
+          "grounded_in": "Walt bugs Hank's new office",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1677,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Buyout",
+      "candidates": [
+        {
+          "text": "Jesse endures an excruciating dinner at Walt and Skyler's house, straining to make small talk over the meal.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse",
+            "Walt",
+            "Skyler"
+          ],
+          "grounded_in": "the three dine together at Walt's request",
+          "grounded_ok": true
+        },
+        {
+          "text": "Saul accompanies Mike to a face-to-face sit-down with the DEA agents who have been tailing him.",
+          "specificity": 4,
+          "characters_named": [
+            "Saul",
+            "Mike"
+          ],
+          "grounded_in": "Mike and Saul meet with the DEA to notify them that Mike has obtained an injunction",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt invites Jesse over to the house and talks about the company he helped found years ago.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "Walt invites Jesse to his home and confides to him his regret about selling his share of Gray Matter",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler comes back to the house, and Walt insists the evening be spent around the dinner table.",
+          "specificity": 3,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Skyler returns home; the three dine together at Walt's request",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1285,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Say My Name",
+      "candidates": [
+        {
+          "text": "Out in the desert, Walt, Jesse and Mike stand facing Declan and his men to haggle over terms.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse",
+            "Mike",
+            "Declan"
+          ],
+          "grounded_in": "Walt, Jesse, and Mike meet with Declan so Walt can negotiate a deal",
+          "grounded_ok": true
+        },
+        {
+          "text": "With Jesse still talking about walking away, Walt has Todd suiting up beside him as his new lab assistant.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Walt",
+            "Todd"
+          ],
+          "grounded_in": "Jesse still wants to quit the business, so Walt employs Todd as his assistant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ordered to drop his pursuit of Mike, Hank quietly starts tailing the man handling Mike's money instead.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike",
+            "Hank"
+          ],
+          "grounded_in": "Told to end his pursuit of Mike, Hank instead follows Dan Wachsberger, the lawyer who is laundering Mike's money",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is consequence-heavy (Mike's shooting, the riverbank, Walt refusing Jesse's cut), so only the meeting, the assistant hire and the tail are usable.",
+      "usage": {
+        "in": 40,
+        "out": 1597,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Gliding Over All",
+      "candidates": [
+        {
+          "text": "Walt visits Jesse's house, and the two end up reminiscing fondly about their early days cooking in the cramped RV.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "the two reminisce about the simpler days of cooking meth in the RV",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a quiet meeting, Lydia pitches Walt on expanding his distribution overseas to buyers in the Czech Republic.",
+          "specificity": 4,
+          "characters_named": [
+            "Lydia",
+            "Walt"
+          ],
+          "grounded_in": "Lydia partners with him to expand his distribution overseas to the Czech Republic",
+          "grounded_ok": true
+        },
+        {
+          "text": "Months pass in a montage of tented houses, cooks and deliveries as the operation hums along profitably.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "The meth production runs profitably for months.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The children finally move back into the White house after their long stay with Hank and Marie.",
+          "specificity": 3,
+          "characters_named": [
+            "Hank",
+            "Marie"
+          ],
+          "grounded_in": "The Whites' children move back in.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1928,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Blood Money",
+      "candidates": [
+        {
+          "text": "Jesse drives slowly through a quiet residential street at night, tossing bundles of his cash out over the fences.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "he throws his money away in a residential neighborhood",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lydia turns up unannounced at the car wash, nervously asking after Walt while Skyler watches from the counter.",
+          "specificity": 4,
+          "characters_named": [
+            "Lydia",
+            "Walt",
+            "Skyler"
+          ],
+          "grounded_in": "Lydia visits the car wash pleading for Walt's help",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a flashforward, a bearded Walt walks through his own house, now stripped, wrecked and fenced off.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt arrives at his dilapidated and fenced-off abandoned house",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's content is the Hank/Leaves of Grass reveal and its immediate consequences, all of which are off-limits.",
+      "usage": {
+        "in": 40,
+        "out": 1733,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Buried",
+      "candidates": [
+        {
+          "text": "An elderly man shuffles along a residential street, gathering up the bundles of cash left scattered across lawns and driveways.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "An elderly man collects the money that Jesse threw away",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse sits alone on a playground merry-go-round, turning slowly in circles and staring at nothing.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "discovers him absentmindedly spinning on a merry-go-round",
+          "grounded_ok": true
+        },
+        {
+          "text": "Marie comes to sit with Skyler, who will not say anything to her beyond a quiet \"I'm so sorry\".",
+          "specificity": 4,
+          "characters_named": [
+            "Marie",
+            "Skyler"
+          ],
+          "grounded_in": "Skyler also refuses to say anything incriminating when Marie visits, only saying \"I'm so sorry\"",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable images (the desert burial, Lydia's visit to Declan, the closing scene at the DEA office) are either plot turning points or direct setups for killings, so they are excluded.",
+      "usage": {
+        "in": 38,
+        "out": 1714,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Confessions",
+      "candidates": [
+        {
+          "text": "Walt and Skyler sit down across from Hank and Marie in a public restaurant to try and negotiate.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Skyler",
+            "Hank",
+            "Marie"
+          ],
+          "grounded_in": "Walt and Skyler arrange a public meeting with Hank and Marie to negotiate",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the table, Skyler tells Hank flatly that Walt is no longer any part of his empire.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Hank",
+            "Walt"
+          ],
+          "grounded_in": "Skyler states that Walt is no longer part of his empire",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse sits saying nothing across from Hank in an interview room until Saul turns up.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse",
+            "Hank",
+            "Saul"
+          ],
+          "grounded_in": "Jesse refuses to cut a deal with Hank, and is released after Saul shows up.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive beats (the DVD, the therapy money, the ricin cigarette, the gasoline) are reveals or turning points, so the usable texture is limited.",
+      "usage": {
+        "in": 39,
+        "out": 1523,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Rabid Dog",
+      "candidates": [
+        {
+          "text": "Walt spins his family a story about a malfunctioning pump at the gas station soaking him in gasoline.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "concocts a fabrication about a pump malfunction at the gas station",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt comes home to find Saul's car crashed at an angle in his driveway and nobody inside.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt",
+            "Saul"
+          ],
+          "grounded_in": "Walt finds Saul's car crashed in his driveway and his house unoccupied",
+          "grounded_ok": true
+        },
+        {
+          "text": "Marie sits with her therapist, circling around her brother-in-law without saying everything she knows about him.",
+          "specificity": 4,
+          "characters_named": [
+            "Marie",
+            "Walt"
+          ],
+          "grounded_in": "Marie discusses her issues with Walt with her therapist, but is hesitant to disclose the full extent of his criminality",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt leaves a message on Jesse's voicemail, asking him to meet so he can explain himself.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "he leaves a message on Jesse's voicemail to meet in order to explain himself",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 991,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "To'hajiilee",
+      "candidates": [
+        {
+          "text": "Walt walks Todd through a cook step by step in the lab, the younger man watching his every move.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Todd"
+          ],
+          "grounded_in": "Walt cooks one more time so that Todd can observe him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Saul anxiously tells Walt that Huell has gone missing and can't be reached anywhere.",
+          "specificity": 4,
+          "characters_named": [
+            "Saul",
+            "Walt",
+            "Huell"
+          ],
+          "grounded_in": "Saul reports Huell's disappearance to Walt",
+          "grounded_ok": true
+        },
+        {
+          "text": "Huell sits uneasily in a bare DEA interview room, being pressed with questions about Walt's money.",
+          "specificity": 3,
+          "characters_named": [
+            "Huell",
+            "Walt"
+          ],
+          "grounded_in": "Hank attempts to learn the whereabouts of Walt's money through Huell, whom he detains",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt sits in Andrea's home and quietly asks her to leave Jesse a phone message.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt",
+            "Andrea",
+            "Jesse"
+          ],
+          "grounded_in": "Walt attempts to lure Jesse out of hiding by having Andrea call him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1745,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "14": {
+      "title": "Ozymandias",
+      "candidates": [],
+      "note": "Every moment in this summary is either a turning point itself (Hank's execution, Jesse taken hostage and tortured, Walt Jr. learning the truth, the knife struggle, Holly at the fire station, Walt taking a new identity) or is explicitly framed as its setup or aftermath (Walt packing before the fight, the barrels being dug up, Marie's news to Skyler). There is no inconsequential texture left in this episode's summary that could be shown to someone who hasn't watched it, so I'd rather return nothing than stretch rule 1.",
+      "usage": {
+        "in": 41,
+        "out": 1621,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "15": {
+      "title": "Granite State",
+      "candidates": [
+        {
+          "text": "Walt is installed in a remote New Hampshire cabin and warned that stepping outside it means capture.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt relocates to a cabin in New Hampshire ... Ed cautions that Walt risks capture if he leaves the cabin.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Months pass before a disheveled, lonely Walt finally walks away from the cabin and down into the nearby town.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Months later, a disheveled and lonely Walt leaves the cabin and walks into town.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A ragged Walt sits alone at a small-town bar with a television interview playing above the counter.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "While sitting at the bar, Walt watches Charlie Rose interview",
+          "grounded_ok": true
+        },
+        {
+          "text": "There is a pay phone in the bar, and Walt stands at it with the receiver in hand.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "He calls Walt Jr. from a pay phone in a bar",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (the raid, the tape, Jesse's escape attempt and its punishment, the phone calls' outcomes) is turning-point content, so probes are limited to Walt's isolation texture.",
+      "usage": {
+        "in": 39,
+        "out": 2222,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    },
+    "16": {
+      "title": "Felina",
+      "candidates": [
+        {
+          "text": "Walt sits in Gretchen and Elliott's expensive modern home, discussing money meant for Walt Jr.'s eighteenth birthday.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt",
+            "Gretchen",
+            "Elliott",
+            "Walt Jr."
+          ],
+          "grounded_in": "Walt locates Gretchen and Elliott and gives them $9,720,000 to give to Walt Jr. when he turns 18",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt turns up unannounced for a last conversation with Skyler, finally admitting he did it all for himself.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Skyler"
+          ],
+          "grounded_in": "He then visits Skyler ... admitting he produced meth to gratify himself",
+          "grounded_ok": true
+        },
+        {
+          "text": "Badger and Skinny Pete, hired for the night, aim red laser pointers from outside a house.",
+          "specificity": 5,
+          "characters_named": [
+            "Badger",
+            "Skinny Pete"
+          ],
+          "grounded_in": "who turn out to be Badger and Skinny Pete with laser pointers whom Walt paid to intimidate Gretchen and Elliott",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this finale is a death or a turning point; the usable texture is very limited.",
+      "usage": {
+        "in": 38,
+        "out": 1821,
+        "cache_read": 13623,
+        "cache_write": 0
+      }
+    }
+  }
+}

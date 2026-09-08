@@ -1,0 +1,200 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 3,
+  "source": {
+    "title": "Better Call Saul season 3",
+    "revid": 1365317291,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_3&oldid=1365317291",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Mabel",
+      "probes": [
+        {
+          "text": "Jimmy helps Chuck pull the foil sheeting off his walls, reminiscing about a children's book they once read together.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In black and white, a mall employee points out to security a shoplifter crouched inside a photo booth.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike methodically strips his station wagon down to its bare parts in a garage bay, checking every piece.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Witness",
+      "probes": [
+        {
+          "text": "Jimmy reports back to Mike that he noticed nothing unusual at all during his long stakeout over lunch.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike finds his missing gas cap sitting in the middle of an empty stretch of remote road.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike tails a courier's vehicle across town, staying several cars back through the traffic.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Sunk Costs",
+      "probes": [
+        {
+          "text": "On an empty desert road, Mike takes aim at a pair of sneakers strung over the overhead cable.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike watches a stretch of border road where drivers pull over and stash their guns before crossing.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Mike works a small packet of white powder down into the toe of a sneaker.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Sabrosito",
+      "probes": [
+        {
+          "text": "Mike turns up at Chuck's house in workman's clothes with a toolbox, replacing the damaged front door.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In a flashback, Hector arrives at the cartel boss's poolside estate carrying a cash tribute in a bag.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jimmy, Kim, Howard and Chuck sit around a conference table with the prosecutor, going over paperwork together.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Chicanery",
+      "probes": [
+        {
+          "text": "In a flashback, Jimmy helps Chuck rig the house so Rebecca will not notice his condition over dinner.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At the bar association hearing, Kim frames the whole matter as a personal quarrel between two brothers.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Off Brand",
+      "probes": [
+        {
+          "text": "Howard visits Chuck at home and urges him to let go of the feud with his brother.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Expenses",
+      "probes": [
+        {
+          "text": "Mike turns up in work gloves to help build the church playground, joined by people from Stacey's support group.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy works the phones, trying to unload the television airtime he has already paid for.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "At the support group, a woman tells the circle how her husband vanished on a hiking trip years ago.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Slip",
+      "probes": [
+        {
+          "text": "In a flashback, a young Jimmy and a friend dig out his old coin collection inside the shuttered family store in Cicero.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At lunch with Kevin and Paige, Kim spots Howard and tries to hand him a check for her law school loan.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "On litter-collecting duty in an orange vest, Jimmy talks his community service supervisor into signing off on his hours.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Fall",
+      "probes": [
+        {
+          "text": "Jimmy presses Howard on why the firms won't take the settlement money now; Howard says patience will pay more.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy visits the elderly Sandpiper class representative at home, chatting with her for an update on the case.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Kim, juggling a second client on top of everything else, works herself to exhaustion at her desk.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Lantern",
+      "probes": [
+        {
+          "text": "In a childhood flashback, Chuck reads aloud to a young Jimmy by the light of a camping lantern.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

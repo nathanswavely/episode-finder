@@ -1,0 +1,479 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 1,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Better Call Saul season 1",
+    "revid": 1365317279,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_1&oldid=1365317279",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Uno",
+      "candidates": [
+        {
+          "text": "Jimmy, scraping by on public defender work, tries hard to persuade a couple accused of embezzlement to retain him.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "a struggling public defender in Albuquerque, New Mexico. He attempts to convince Craig and Betsy Kettleman, who are accused of embezzlement, to retain him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy confronts the head of a big Albuquerque law firm over a token buyout offered for his brother's partnership stake.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "when Howard attempts to buy Chuck out with a token payment, demanding that HHM pay Chuck for his partnership's full value",
+          "grounded_ok": true
+        },
+        {
+          "text": "A mall Cinnabon manager in Omaha finishes his shift and, back home, watches an old lawyer's commercial on VHS.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "manager of a Cinnabon in Omaha, Nebraska. After work, he watches a VHS tape of a 2005 Saul Goodman TV ad",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy looks after his older brother, who stays shut inside his house convinced electricity makes him ill.",
+          "specificity": 2,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy cares for his brother Chuck, who is semi-reclusive and believes he has electromagnetic hypersensitivity",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Rule 4 limits naming: every supporting character debuts here, so they are described rather than named. The Cinnabon cold open is the episode's most distinctive image but frames the whole series, so it is ranked below the safer options.",
+      "usage": {
+        "in": 38,
+        "out": 2144,
+        "cache_read": 0,
+        "cache_write": 6141
+      }
+    },
+    "2": {
+      "title": "Mijo",
+      "candidates": [
+        {
+          "text": "Out in the desert, Jimmy talks fast and nonstop at Tuco while the twins kneel in the dirt.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Tuco"
+          ],
+          "grounded_in": "take Jimmy and the twins to a remote desert site",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy keeps insisting, in a cheap suit and rising panic, that he is a lawyer, a public defender.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy informs Tuco that he is a lawyer",
+          "grounded_ok": true
+        },
+        {
+          "text": "A soft-spoken young associate hands Jimmy a phone number, telling him to call when he's \"in the game.\"",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Nacho leaves his phone number, advising Jimmy to call when he realizes that he is \"in the game\"",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1391,
+        "cache_read": 6141,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Nacho",
+      "candidates": [
+        {
+          "text": "Jimmy notices a van parked near the Kettleman house with someone inside watching the place.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "notices Nacho conducting surveillance of their home from his van",
+          "grounded_ok": true
+        },
+        {
+          "text": "At a pay phone, Jimmy cups the receiver and puts on a strange, disguised voice.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Disguising his voice, Jimmy calls from a pay phone",
+          "grounded_ok": true
+        },
+        {
+          "text": "A flashback shows Jimmy behind bars in Cicero, waiting for his brother to show up.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "In a flashback, Jimmy is jailed in Cicero, Illinois",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy lingers at the parking booth, picking the attendant's brain instead of just handing over his ticket.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "based on advice from Mike Ehrmantraut",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1262,
+        "cache_read": 6141,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Hero",
+      "candidates": [
+        {
+          "text": "In a Cicero flashback, Jimmy and a buddy work a bar patron with a fake Rolex watch.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy and his partner in crime, Marco, use a fake Rolex watch to con a bar patron",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy puts up a billboard whose logo and clean-cut lawyer look are blatant copies of HHM's.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "creating a billboard that mimics HHM's logo and Howard's signature look",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chuck steps out to help himself to his neighbor's newspaper.",
+          "specificity": 4,
+          "characters_named": [
+            "Chuck"
+          ],
+          "grounded_in": "after taking his neighbor's newspaper",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1203,
+        "cache_read": 6141,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Alpine Shepherd Boy",
+      "candidates": [
+        {
+          "text": "An elderly client dictates her will, leaving her collection of Hummel figurines to various friends and relatives.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "her bequests consisting almost entirely of leaving her Hummel figurines to various friends and family members",
+          "grounded_ok": true
+        },
+        {
+          "text": "The clients drawn in by Jimmy's recent local fame turn out to be far less promising than he hoped.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy's newfound fame attracts less than promising clients",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy works the nursing home circuit dressed like the TV lawyer Matlock, in a pale suit.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy begins promoting himself at a nursing home, wearing clothes like the fictional TV lawyer Matlock",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chuck's neighbour complains to police about him taking her newspaper from her porch.",
+          "specificity": 4,
+          "characters_named": [
+            "Chuck"
+          ],
+          "grounded_in": "Chuck's neighbor reports him for taking her newspaper",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 47,
+        "out": 719,
+        "cache_read": 6141,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Five-O",
+      "candidates": [
+        {
+          "text": "Jimmy, called in as Mike's lawyer at the police station, spills a full cup of coffee across the room.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Mike"
+          ],
+          "grounded_in": "asks him to spill coffee as a diversion so Mike can steal a detective's notebook",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike, not long arrived in Albuquerque, sits in a veterinarian's back room while the vet attends to him instead of an animal.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike arrives in Albuquerque and visits Dr. Caldera, a veterinarian",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike faces the two visiting Philadelphia officers across a table in an Albuquerque police interview room.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike is at the police station, requests Jimmy as counsel",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's content is flashback material the summary frames as the answer to who killed Matt and why Mike is wounded, so it is off-limits; the usable texture is thin.",
+      "usage": {
+        "in": 39,
+        "out": 1622,
+        "cache_read": 6141,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Bingo",
+      "candidates": [
+        {
+          "text": "Jimmy stacks boxes of legal documents in Chuck's house, hoping the cases will tempt his brother back to work.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "He stores legal documents at Chuck's house as part of a plan to pique Chuck's interest in cases",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy and Mike bring the borrowed notebook back to the two Philadelphia detectives, who are unimpressed by their explanation.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Mike"
+          ],
+          "grounded_in": "Jimmy and Mike return the detective's notebook. The two Philadelphia detectives are unsatisfied with their explanation",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy arrives to find Chuck standing outside his house, insisting he is building up a tolerance to electromagnetic waves.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "Jimmy finds Chuck standing outside his home, claiming he is building up a tolerance to electromagnetic waves",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy pitches Kim on the idea of the two of them going into a law partnership together.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "Jimmy asks Kim to join him in a law partnership",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1202,
+        "cache_read": 6141,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "RICO",
+      "candidates": [
+        {
+          "text": "In a flashback, Jimmy is working in the HHM mailroom and celebrates wildly with Kim over his bar exam results.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "Jimmy is working in the HHM mailroom and passionately celebrates with Kim over passing his bar exam results",
+          "grounded_ok": true
+        },
+        {
+          "text": "Escorted out of the retirement home, Jimmy ends up rooting around in the facility's dumpster.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "He is escorted from the facility but can hear the staff shredding documents, so he searches the dumpster",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy tells Chuck he studied law by distance learning through the University of American Samoa.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "explains that he studied law at the University of American Samoa via distance learning",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy and Chuck spend hours spreading out strips of shredded paper, fitting the pieces back together.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "Jimmy and Chuck put the pieces together",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy types up a hasty demand letter and hands it over at the retirement community's front office.",
+          "specificity": 3,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "presents a hastily written demand letter warning Sandpiper against destroying evidence",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1129,
+        "cache_read": 6141,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Pimento",
+      "candidates": [
+        {
+          "text": "Sandpiper's lawyers bury Jimmy and Chuck under an avalanche of paperwork, boxes piling up around them.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "Sandpiper Crossing buries Jimmy and Chuck in paperwork",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike hires on as bodyguard for a jittery amateur who sells stolen pharmaceutical pills to Nacho.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Nacho"
+          ],
+          "grounded_in": "Mike takes a job as a bodyguard for pharmaceutical employee Daniel Wormald, who sells Nacho stolen pills",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike looks for extra money to help Stacey and Kaylee, and takes on private security work.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike",
+            "Stacey",
+            "Kaylee"
+          ],
+          "grounded_in": "to make more money for Stacey and Kaylee, Mike takes a job as a bodyguard",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning-point material (the Chuck/Howard revelation, Jimmy's refusal of HHM's offer), so usable texture is limited.",
+      "usage": {
+        "in": 39,
+        "out": 1044,
+        "cache_read": 6141,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Marco",
+      "candidates": [
+        {
+          "text": "Jimmy is calling numbers at a bingo game in the senior center when he comes apart in front of the residents.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy has a breakdown while calling bingo at the senior center",
+          "grounded_ok": true
+        },
+        {
+          "text": "Back in Cicero, Jimmy sits in a bar with Marco, the two of them trading old stories.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Marco"
+          ],
+          "grounded_in": "returns to Cicero, where he reminisces with Marco",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy and Marco spend a solid week working one con after another around Cicero.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Marco"
+          ],
+          "grounded_in": "leads to a week of scams",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a flashback, Jimmy says goodbye to Marco, explaining he's taking a legitimate job out in Albuquerque.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Marco"
+          ],
+          "grounded_in": "Jimmy says goodbye to Marco in Cicero, explaining that ... he has agreed to take a legitimate job in Albuquerque",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1083,
+        "cache_read": 6141,
+        "cache_write": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,831 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 2,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Office (American TV series) season 2",
+    "revid": 1372899911,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_2&oldid=1372899911",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Dundies",
+      "candidates": [
+        {
+          "text": "Michael works the microphone as emcee, handing out the yearly joke trophies his employees have learned to dread.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael becomes the bumbling emcee and bestows the regularly embarrassing awards on them.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam sits through the awards ceremony getting steadily drunker as the evening goes on.",
+          "specificity": 4,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "she later gets drunk",
+          "grounded_ok": true
+        },
+        {
+          "text": "The whole branch is dragged out for the annual awards night Michael loves and everyone else loathes.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "it is time for the annual Dundie Awards that the employees loathe",
+          "grounded_ok": true
+        },
+        {
+          "text": "Roy sits with Pam at the ceremony, restless and impatient, wanting the two of them to head home early.",
+          "specificity": 3,
+          "characters_named": [
+            "Roy",
+            "Pam"
+          ],
+          "grounded_in": "when he insists they leave",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The summary for this episode is very short, so distinctive non-spoiler texture is limited to the awards ceremony itself.",
+      "usage": {
+        "in": 40,
+        "out": 956,
+        "cache_read": 0,
+        "cache_write": 7057
+      }
+    },
+    "2": {
+      "title": "Sexual Harassment",
+      "candidates": [
+        {
+          "text": "Michael worries that a review of the company's harassment policies will spoil what he calls his easy-going office.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael fears that this will hinder his ability to keep an \"easy-going office,\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "The human resources representative is ordered by corporate to run a review of the branch's sexual harassment policies.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Corporate headquarters orders Human Resources representative Toby Flenderson to conduct a review at the Scranton branch of the company's sexual harassment policies.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Corporate sends a lawyer down to Scranton, who spends the day sitting in on things at the branch.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "The company also sends a lawyer to Scranton.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This episode's summary is very short and mostly describes a single situation plus its resolution, so the pool of inconsequential concrete moments is thin. Toby is named for the first time here, so he is described rather than named.",
+      "usage": {
+        "in": 43,
+        "out": 824,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Office Olympics",
+      "candidates": [
+        {
+          "text": "Bored at their desks, Jim and Pam invent competitive games out of office supplies and rope in coworkers.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Pam"
+          ],
+          "grounded_in": "Boredom leads receptionist Pam and salesman Jim Halpert to create the office olympics, in which their co-workers compete in various games using office supplies.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael sits with his realtor going over condo paperwork, unsettled by how many years the payments will run.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael meets with his realtor Carol Stills, but becomes stressed when he realizes how long it will take to pay off his condo.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael takes Dwight along with him out of the office for the day to handle a property deal.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Dwight"
+          ],
+          "grounded_in": "Michael and salesman Dwight Schrute leave to close a deal on Michael's new condominium.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 657,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "The Fire",
+      "candidates": [
+        {
+          "text": "The whole staff waits outside in the parking lot after evacuating, killing time with games and questions about each other.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "A fire in the office leads the employees to evacuate the building. To pass the time, the employees play games and learn more about each other.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael decides to take Ryan under his wing as a mentor, and Dwight sulks about the attention.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Ryan",
+            "Dwight"
+          ],
+          "grounded_in": "Michael tries to mentor temporary worker Ryan Howard... Dwight becomes jealous of the attention that Michael is giving Ryan.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the summary is off-limits: the cause of the fire is a reveal, and Jim's girlfriend and Pam's reaction feed the season's central arc.",
+      "usage": {
+        "in": 39,
+        "out": 653,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Halloween",
+      "candidates": [
+        {
+          "text": "It's Halloween at the branch, and Michael has spent the whole month stalling on something corporate asked of him.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael procrastinates until Halloween, when he still has not decided",
+          "grounded_ok": true
+        },
+        {
+          "text": "The last day of October arrives with Michael dodging a decision headquarters handed him weeks earlier.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "order Michael to fire somebody by the end of October",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This summary is very thin and almost entirely consists of the firing storyline, whose setup and outcome are both off-limits; only the Halloween timing and Michael's procrastination could be used.",
+      "usage": {
+        "in": 39,
+        "out": 915,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "The Fight",
+      "candidates": [
+        {
+          "text": "Michael and Dwight face off on the mats of a local dojo to settle their argument.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Dwight"
+          ],
+          "grounded_in": "They decide to settle this by having a showdown at a local dojo.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael and Dwight spend the day bickering over which of them would win in a fight.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Dwight"
+          ],
+          "grounded_in": "Michael and Dwight get in an argument about which of them could beat the other in a fight.",
+          "grounded_ok": true
+        },
+        {
+          "text": "After their dojo showdown, Michael and Dwight give each other the cold shoulder for the rest of the day.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Dwight"
+          ],
+          "grounded_in": "The two are cold to each other throughout the day",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The summary is very short and its two main beats (who wins the fight, the promotion that follows) are both barred, so probes are limited to the premise and the dojo setting.",
+      "usage": {
+        "in": 39,
+        "out": 808,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "The Client",
+      "candidates": [
+        {
+          "text": "With the boss out of the office, the staff gather to read aloud and act out a screenplay Michael wrote.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "the employees find and act out a screenplay written by Michael",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael and Jan take an important client out for a long meal away from the branch.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Jan"
+          ],
+          "grounded_in": "Michael and the Vice President of Northeast Sales, Jan Levinson, meet an important client",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jan grows visibly irritated as Michael steers the client conversation anywhere but toward actual business.",
+          "specificity": 4,
+          "characters_named": [
+            "Jan",
+            "Michael"
+          ],
+          "grounded_in": "Michael angers Jan with his antics and refusal to talk business",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This summary is short and most of its content is outcome-bearing (deal closed, night spent together), so safe material is limited to the client meal setup and the office screenplay reading.",
+      "usage": {
+        "in": 38,
+        "out": 785,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Performance Review",
+      "candidates": [
+        {
+          "text": "Michael digs through the suggestion box, treating the anonymous slips as tips for improving himself.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "He takes tips from the suggestion box on ways to better himself",
+          "grounded_ok": true
+        },
+        {
+          "text": "One by one, employees are called into Michael's office to sit through their annual performance reviews.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael conferences with the employees during their annual performance reviews",
+          "grounded_ok": true
+        },
+        {
+          "text": "While reviewing everyone else, Michael keeps fretting about the review Jan is about to give him.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael",
+            "Jan"
+          ],
+          "grounded_in": "while he worries about his own upcoming performance review with Jan",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 675,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Email Surveillance",
+      "candidates": [
+        {
+          "text": "Michael spends part of his evening at an improvisational comedy class, trying to distract himself.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "unable to distract himself with an improvisational comedy class",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim is hosting a party at his own home for people from the office.",
+          "specificity": 4,
+          "characters_named": [
+            "Jim"
+          ],
+          "grounded_in": "Jim is hosting a party at his home",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael takes to reading through his employees' emails from his own desk.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "he begins spying on his employees' emails",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 778,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Christmas Party",
+      "candidates": [
+        {
+          "text": "At the office Christmas party, Michael turns Secret Santa into a game where everyone can steal each other's gifts.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael decides to give all of the employees the ability to steal each other's Secret Santa gifts",
+          "grounded_ok": true
+        },
+        {
+          "text": "The gift Michael bought for Ryan is an expensive iPod, and the whole staff keeps swapping to grab it.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael",
+            "Ryan"
+          ],
+          "grounded_in": "the rest of the staff all attempt to win the iPod that Michael originally bought for Ryan",
+          "grounded_ok": true
+        },
+        {
+          "text": "Unhappy with what he ends up holding, Michael sets off to procure himself a better gift.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "While Michael attempts to procure a better gift",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 693,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Booze Cruise",
+      "candidates": [
+        {
+          "text": "Michael rents a boat and takes the whole office out on the water for an annual motivational cruise.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael rents a boat for the annual motivational cruise",
+          "grounded_ok": true
+        },
+        {
+          "text": "Aboard the chartered boat, Michael's antics steadily get on the nerves of the man captaining it.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "where he angers the captain, Jack (Rob Riggle), with his antics",
+          "grounded_ok": true
+        },
+        {
+          "text": "Roy has been drinking heavily by the time the party on the boat gets going.",
+          "specificity": 3,
+          "characters_named": [
+            "Roy"
+          ],
+          "grounded_in": "A drunken Roy",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning-point material (the wedding date announcement, Jim's realization and breakup), so usable texture is thin.",
+      "usage": {
+        "in": 42,
+        "out": 724,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "The Injury",
+      "candidates": [
+        {
+          "text": "Michael, stuck at home and unable to drive himself in, phones the office demanding someone come pick him up.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "He requests that one of the employees of the office come to his house to pick him up.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This summary is very short and nearly everything in it is an injury, its cause, or its consequence (the burn, the car crash, the concussion-driven personality change, the hospital trip), all barred by rule 1. Only the phone call for a ride survives.",
+      "usage": {
+        "in": 39,
+        "out": 1170,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "The Secret",
+      "candidates": [
+        {
+          "text": "Oscar phones in sick, and a suspicious Dwight spends the day trying to catch him out.",
+          "specificity": 4,
+          "characters_named": [
+            "Oscar",
+            "Dwight"
+          ],
+          "grounded_in": "accountant Oscar Martinez calls in sick, prompting Dwight to spy on him to determine whether he was telling the truth",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight appoints himself investigator of a colleague's sick day, tailing him rather than staying at his desk.",
+          "specificity": 3,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "prompting Dwight to spy on him to determine whether he was telling the truth",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This episode's summary is dominated by the Jim/Pam crush confession and the outing of Oscar, both barred under rule 1, leaving only the surveillance premise as usable texture.",
+      "usage": {
+        "in": 39,
+        "out": 1054,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "14": {
+      "title": "The Carpet",
+      "candidates": [
+        {
+          "text": "Michael won't set foot in his own office after something foul is left there, and eyes his staff suspiciously.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael discovers someone has defecated in his office.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael turns cold and resentful toward his employees, convinced one of them did something disgusting to him out of hate.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "He suspects that one of his employees did it out of hate, leading him to begin resenting them.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The summary for this episode is a single premise plus its resolution (the culprit), so almost every detail is either the inciting incident or the reveal. Only two usable angles, both close to the premise.",
+      "usage": {
+        "in": 40,
+        "out": 956,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "15": {
+      "title": "Boys and Girls",
+      "candidates": [
+        {
+          "text": "Jan drives down to Scranton to run a seminar just for the women of the office.",
+          "specificity": 5,
+          "characters_named": [
+            "Jan"
+          ],
+          "grounded_in": "Jan comes to Scranton to lead a seminar for the women in the office.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Left out of the women's seminar, Michael sulks and then throws together a session of his own for the men.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael becomes upset when he is left out, and decides to host his own seminar for the men.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The office splits along gender lines for the day, women in one meeting and men stuck with Michael.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "decides to host his own seminar for the men",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 782,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "16": {
+      "title": "Valentine's Day",
+      "candidates": [
+        {
+          "text": "All day, gift after gift arrives at one saleswoman's desk from her boyfriend, piling up for everyone to see.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "saleswoman Phyllis's boyfriend sends her multiple gifts",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael travels to New York City for a corporate meeting with the other branch managers.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael leaves for New York City for a meeting between branch managers",
+          "grounded_ok": true
+        },
+        {
+          "text": "It is Valentine's Day at the office, and Michael is away at headquarters while the staff work.",
+          "specificity": 3,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "On Valentine's Day, Michael leaves for New York City",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 895,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "17": {
+      "title": "Dwight's Speech",
+      "candidates": [
+        {
+          "text": "Dwight, jittery and pale, rehearses over and over, terrified of having to address a hall full of salesmen.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "He becomes nervous",
+          "grounded_ok": true
+        },
+        {
+          "text": "A convention hall of paper salesmen waits while Dwight, badge on, works himself into a state backstage.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "At the convention, Dwight becomes nervous",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim offers to help with Dwight's speech, quietly sourcing his suggested lines from history's most notorious orators.",
+          "specificity": 5,
+          "characters_named": [
+            "Jim",
+            "Dwight"
+          ],
+          "grounded_in": "Jim \"helps\" by giving Dwight lines from speeches by controversial figures",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 947,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "18": {
+      "title": "Take Your Daughter to Work Day",
+      "candidates": [
+        {
+          "text": "The office fills with employees' children for the day, kids wandering among the desks and cubicles.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "The employees bring in their daughters for the annual Take Your Daughter to Work Day.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael finds himself far happier chatting with the visiting children than with any of his adult employees.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael finds enjoyment in talking with the children",
+          "grounded_ok": true
+        },
+        {
+          "text": "Toby's young daughter is among the visiting kids, and Michael takes a particular shine to her.",
+          "specificity": 4,
+          "characters_named": [
+            "Toby",
+            "Michael"
+          ],
+          "grounded_in": "especially Toby's daughter Sasha",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 741,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "19": {
+      "title": "Michael's Birthday",
+      "candidates": [
+        {
+          "text": "Partway through the day the entire staff decamps to an ice rink and laces up skates.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "later in the day the entire staff goes to the ice rink",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael arrives buzzing about his own birthday while the rest of the office barely registers it.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael is excited about his birthday, but the rest of the office is instead focused on",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jim and Pam duck out of the office on a shopping run to cheer up Kevin.",
+          "specificity": 4,
+          "characters_named": [
+            "Jim",
+            "Pam",
+            "Kevin"
+          ],
+          "grounded_in": "Jim and Pam leave to purchase items to comfort Kevin",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 890,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "20": {
+      "title": "Drug Testing",
+      "candidates": [
+        {
+          "text": "Dwight finds a half-smoked joint in the parking lot and starts questioning employees one at a time.",
+          "specificity": 5,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "Dwight finds a leftover joint in the parking lot, and begins an investigation to find the owner.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A drug test is scheduled for the whole office, and the staff spend the day waiting to give samples.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "After no one confesses, he schedules a drug test.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight treats his parking lot find like a criminal case, invoking his authority as a volunteer sheriff's deputy.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight"
+          ],
+          "grounded_in": "resigns as a volunteer sheriff's deputy",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Short summary; the two most memorable beats (Michael's urine request and Dwight's resignation) are the episode's turning points and excluded.",
+      "usage": {
+        "in": 41,
+        "out": 873,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "21": {
+      "title": "Conflict Resolution",
+      "candidates": [
+        {
+          "text": "Michael stands in front of the whole staff reading aloud from files of old complaints employees made about each other.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael reads them out loud, which brings up old conflicts",
+          "grounded_ok": true
+        },
+        {
+          "text": "Pam is stung that somebody complained about her doing wedding planning at work, and she wants to know who.",
+          "specificity": 5,
+          "characters_named": [
+            "Pam"
+          ],
+          "grounded_in": "Angered that someone complained about her wedding planning, Pam tries to figure out who it was.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Toby, it turns out, has quietly kept written files on every grievance employees ever brought to him.",
+          "specificity": 4,
+          "characters_named": [
+            "Toby"
+          ],
+          "grounded_in": "Toby keeps files detailing all of the complaints employees have had against each other",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dwight runs a formal, by-the-book conflict resolution session in which he and Jim air their grievances.",
+          "specificity": 4,
+          "characters_named": [
+            "Dwight",
+            "Jim"
+          ],
+          "grounded_in": "Dwight's conflict resolution meeting with Jim",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1219,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    },
+    "22": {
+      "title": "Casino Night",
+      "candidates": [
+        {
+          "text": "Michael has turned the workplace into a charity casino for the evening, with gambling tables and the whole staff playing.",
+          "specificity": 5,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael organizes a casino night for charity",
+          "grounded_ok": true
+        },
+        {
+          "text": "Michael, hosting his charity gambling evening, is fussing over being the big-shot emcee for the night.",
+          "specificity": 4,
+          "characters_named": [
+            "Michael"
+          ],
+          "grounded_in": "Michael organizes a casino night for charity",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The summary for this episode is dominated by turning points (Jim's confession and kiss, Jim's transfer request, Michael beginning a relationship with Carol, Jan's overnight bag), leaving only the casino event itself as safe material, so few distinct probes are possible.",
+      "usage": {
+        "in": 40,
+        "out": 999,
+        "cache_read": 7057,
+        "cache_write": 0
+      }
+    }
+  }
+}

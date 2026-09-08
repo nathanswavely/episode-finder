@@ -1,0 +1,1029 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 3,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Mabel",
+      "candidates": [
+        {
+          "text": "Jimmy helps Chuck pull the foil sheeting off his walls, reminiscing about a children's book they once read together.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a texture/character moment of the brothers sharing a nostalgic activity; it doesn't disclose the outcome of the tape recording or any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a quiet character/texture moment of domestic activity and shared nostalgia, without disclosing any outcome of the pending confession-recording conflict."
+                }
+              ],
+              "reason": "This is a texture/character moment of the brothers sharing a nostalgic activity; it doesn't disclose the outcome of the tape recording or any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In black and white, a mall employee points out to security a shoplifter crouched inside a photo booth.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A brief flash-forward vignette of mall security spotting a shoplifter is background texture and doesn't disclose any outcome, reveal, or answer to a pending question in the main storylines."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A black-and-white Gene-timeline vignette of a mall shoplifting incident is atmospheric texture that doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "A brief flash-forward vignette of mall security spotting a shoplifter is background texture and doesn't disclose any outcome, reveal, or answer to a pending question in the main storylines."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike methodically strips his station wagon down to its bare parts in a garage bay, checking every piece.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is texture showing Mike searching his car after the mysterious \"Don't\" note; it discloses no outcome or answer about who left it."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike searching his car is ordinary investigative activity/texture and doesn't disclose what he finds or any outcome."
+                }
+              ],
+              "reason": "This is texture showing Mike searching his car after the mysterious \"Don't\" note; it discloses no outcome or answer about who left it."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Witness",
+      "candidates": [
+        {
+          "text": "Mike posts Jimmy inside a fried-chicken restaurant for hours to sit and watch one particular customer.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Mike's pursuit of whoever tracked him and stopped the Hector hit leads to a fried-chicken restaurant stakeout, tipping the answer to the open question of who left the \"Don't\" note (the Los Pollos Hermanos/Gus connection)."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Mike's pursuit of whoever planted the trackers pays off, leading him to a specific person at a fried-chicken restaurant \ru2014 answering the open question of who is watching him and setting up that discovery."
+                }
+              ],
+              "reason": "It reveals that Mike's pursuit of whoever tracked him and stopped the Hector hit leads to a fried-chicken restaurant stakeout, tipping the answer to the open question of who left the \"Don't\" note (the Los Pollos Hermanos/Gus connection)."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Mike's pursuit of whoever tracked him and stopped the Hector hit leads to a fried-chicken restaurant stakeout, tipping the answer to the open question of who left the \"Don't\" note (the Los Pollos Hermanos/Gus connection)."
+        },
+        {
+          "text": "Jimmy reports back to Mike that he noticed nothing unusual at all during his long stakeout over lunch.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A null report of nothing observed during a stakeout is ordinary texture and resolves no pending question or outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jimmy doing a routine favor for Mike with an explicitly uneventful result, revealing no death, discovery, betrayal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "A null report of nothing observed during a stakeout is ordinary texture and resolves no pending question or outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike finds his missing gas cap sitting in the middle of an empty stretch of remote road.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric texture during Mike's ongoing search/pursuit and doesn't disclose the identity of his stalker or any outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Finding the gas cap on the road is an atmospheric beat that doesn't disclose who is tracking Mike or the outcome of his pursuit, which the viewer already knows is underway."
+                }
+              ],
+              "reason": "This is atmospheric texture during Mike's ongoing search/pursuit and doesn't disclose the identity of his stalker or any outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike tails a courier's vehicle across town, staying several cars back through the traffic.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary surveillance activity consistent with what the viewer already knows Mike is doing, revealing no outcome or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary surveillance activity consistent with what the viewer already knows Mike is doing, revealing no outcome or discovery."
+                }
+              ],
+              "reason": "This is ordinary surveillance activity consistent with what the viewer already knows Mike is doing, revealing no outcome or discovery."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Sunk Costs",
+      "candidates": [
+        {
+          "text": "On an empty desert road, Mike takes aim at a pair of sneakers strung over the overhead cable.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary action beat with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an incidental visual/action beat with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is an ordinary action beat with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike works a small packet of white powder down into the toe of a sneaker.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Mike in the middle of an ambiguous preparatory activity without disclosing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Mike preparing an unspecified scheme involving drugs, which is process/texture rather than an outcome, and it doesn't answer who called him or how the Hector conflict resolves."
+                }
+              ],
+              "reason": "It shows Mike in the middle of an ambiguous preparatory activity without disclosing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike watches a stretch of border road where drivers pull over and stash their guns before crossing.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Mike conducting routine surveillance/scouting, ordinary activity that doesn't disclose who was tracking him or any outcome of the pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts Mike conducting routine surveillance/scouting, which is ordinary activity texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It shows Mike conducting routine surveillance/scouting, ordinary activity that doesn't disclose who was tracking him or any outcome of the pending conflicts."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Sabrosito",
+      "candidates": [
+        {
+          "text": "Mike turns up at Chuck's house in workman's clothes with a toolbox, replacing the damaged front door.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary activity/texture — Mike doing repair work at Chuck's house — and does not disclose any outcome of the pending bar association fight or other pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary activity/texture — Mike doing a repair job at Chuck's house — and doesn't disclose any outcome of the pending bar-disbarment conflict or other reveal."
+                }
+              ],
+              "reason": "This is ordinary activity/texture — Mike doing repair work at Chuck's house — and does not disclose any outcome of the pending bar association fight or other pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a flashback, Hector arrives at the cartel boss's poolside estate carrying a cash tribute in a bag.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting/character texture — Hector delivering cartel tribute — with no outcome, death, or reveal disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and character texture from a flashback, with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary setting/character texture — Hector delivering cartel tribute — with no outcome, death, or reveal disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "An envelope of cash arrives for Mike from Gus as payment, and Mike hands it back.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mike receiving payment from Gus after their agreed arrangement is expected texture, and his refusal of the cash is a character beat rather than a plot outcome or open question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the Mike–Gus arrangement, showing Gus paying Mike and Mike refusing the money, a turning point in their forming alliance."
+                }
+              ],
+              "reason": "It reveals the outcome of the Mike–Gus arrangement, showing Gus paying Mike and Mike refusing the money, a turning point in their forming alliance."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the outcome of the Mike–Gus arrangement, showing Gus paying Mike and Mike refusing the money, a turning point in their forming alliance."
+        },
+        {
+          "text": "Jimmy, Kim, Howard and Chuck sit around a conference table with the prosecutor, going over paperwork together.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an expected negotiation/meeting setting between parties already known to be in conflict, without disclosing any outcome or new development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts the expected negotiation/meeting setting already set up by Chuck's proposal without disclosing any outcome, ruling, or reveal."
+                }
+              ],
+              "reason": "It depicts an expected negotiation/meeting setting between parties already known to be in conflict, without disclosing any outcome or new development."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Chicanery",
+      "candidates": [
+        {
+          "text": "In a flashback, Jimmy helps Chuck rig the house so Rebecca will not notice his condition over dinner.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A flashback showing Chuck concealing his condition from Rebecca is character texture; it doesn't disclose any outcome of the pending disbarment hearing or other open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only depicts a flashback of familiar domestic texture—Chuck concealing his known condition from Rebecca—without disclosing any outcome, reveal, or the result of the pending hearing."
+                }
+              ],
+              "reason": "A flashback showing Chuck concealing his condition from Rebecca is character texture; it doesn't disclose any outcome of the pending disbarment hearing or other open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the bar association hearing, Kim frames the whole matter as a personal quarrel between two brothers.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is expected courtroom strategy at a hearing the viewer already knows is coming, and it discloses no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is expected courtroom strategy at the anticipated hearing and reveals no outcome, verdict, or twist beyond what the viewer already knows is coming."
+                }
+              ],
+              "reason": "This is expected courtroom strategy at a hearing the viewer already knows is coming, and it discloses no outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Rebecca turns up in the hearing room just as Chuck arrives to give his testimony.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jimmy's defense strategy includes summoning Rebecca to ambush Chuck at the disciplinary hearing, a turning point in the pending Chuck-vs-Jimmy conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Rebecca appearing at the hearing is a setup/texture detail that reveals no outcome of the disciplinary proceeding or Chuck's testimony."
+                }
+              ],
+              "reason": "It reveals that Jimmy's defense strategy includes summoning Rebecca to ambush Chuck at the disciplinary hearing, a turning point in the pending Chuck-vs-Jimmy conflict."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Jimmy's defense strategy includes summoning Rebecca to ambush Chuck at the disciplinary hearing, a turning point in the pending Chuck-vs-Jimmy conflict."
+        }
+      ]
+    },
+    "6": {
+      "title": "Off Brand",
+      "candidates": [
+        {
+          "text": "Jimmy films quick, cheap TV spots for local businesses, trying not to waste commercial airtime he already paid for.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Filming cheap local ads is ordinary character texture and doesn't disclose the hearing's outcome or any other pending resolution."
+                },
+                {
+                  "reveals": true,
+                  "reason": "Showing Jimmy hustling commercial airtime for local businesses instead of practicing law signals the outcome of the pending bar hearing \\u2014 that he loses his ability to practice, at least temporarily."
+                }
+              ],
+              "reason": "Showing Jimmy hustling commercial airtime for local businesses instead of practicing law signals the outcome of the pending bar hearing \\u2014 that he loses his ability to practice, at least temporarily."
+            }
+          },
+          "rejected": "consequence (1/2): Showing Jimmy hustling commercial airtime for local businesses instead of practicing law signals the outcome of the pending bar hearing \\u2014 that he loses his ability to practice, at least temporarily."
+        },
+        {
+          "text": "Rebecca turns up looking for Jimmy's help getting in to see Chuck, who will not answer his door.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the aftermath of the hearing — that Chuck has withdrawn/isolated himself and that Rebecca has become estranged from him, an outcome following his humiliating outburst."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the aftermath of the hearing conflict\ne Chuck has been broken by his public breakdown and is now shutting himself away, with Rebecca still on the scene appealing to Jimmy."
+                }
+              ],
+              "reason": "It reveals the aftermath of the hearing — that Chuck has withdrawn/isolated himself and that Rebecca has become estranged from him, an outcome following his humiliating outburst."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the aftermath of the hearing — that Chuck has withdrawn/isolated himself and that Rebecca has become estranged from him, an outcome following his humiliating outburst."
+        },
+        {
+          "text": "Howard visits Chuck at home and urges him to let go of the feud with his brother.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary conversation between characters whose antagonism is already established, without disclosing the hearing's verdict, Jimmy's fate, or any new turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows an ordinary conversation reflecting the already-known brotherly feud, without disclosing the hearing's verdict or any new outcome."
+                }
+              ],
+              "reason": "It depicts an ordinary conversation between characters whose antagonism is already established, without disclosing the hearing's verdict, Jimmy's fate, or any new turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Expenses",
+      "candidates": [
+        {
+          "text": "Mike turns up in work gloves to help build the church playground, joined by people from Stacey's support group.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Mike doing a community activity with Stacey's group, with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Mike doing volunteer construction work with Stacey's grief-group community, revealing no outcome, death, or plot turning point."
+                }
+              ],
+              "reason": "This is ordinary character texture showing Mike doing a community activity with Stacey's group, with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy works the phones, trying to unload the television airtime he has already paid for.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This merely restates the ongoing situation already established (Jimmy trying to salvage his prepaid TV airtime) and reveals no outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary continuation of an already-established situation (Jimmy trying to salvage his prepaid TV airtime) and discloses no outcome or new development."
+                }
+              ],
+              "reason": "This merely restates the ongoing situation already established (Jimmy trying to salvage his prepaid TV airtime) and reveals no outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the support group, a woman tells the circle how her husband vanished on a hiking trip years ago.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A minor support-group anecdote from an unrelated character is ordinary background texture and does not disclose any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A background support-group anecdote from a minor character is ordinary texture and does not disclose any pending outcome or reveal in the main storylines."
+                }
+              ],
+              "reason": "A minor support-group anecdote from an unrelated character is ordinary background texture and does not disclose any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy sits across a desk from an insurance representative, pushing for a refund on his malpractice premium.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary administrative activity consistent with Jimmy's suspension and money troubles, revealing no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary activity consistent with Jimmy's known suspension and money troubles, revealing no outcome or turning point."
+                }
+              ],
+              "reason": "This is an ordinary administrative activity consistent with Jimmy's suspension and money troubles, revealing no outcome or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Slip",
+      "candidates": [
+        {
+          "text": "In a flashback, a young Jimmy and a friend dig out his old coin collection inside the shuttered family store in Cicero.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It is a texture-only flashback vignette; the store's closure was already established, and no pending outcome or open question is answered."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is a texture-only flashback vignette; the store's closure is already known to the viewer and no pending outcome or open question is answered."
+                }
+              ],
+              "reason": "It is a texture-only flashback vignette; the store's closure was already established, and no pending outcome or open question is answered."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At lunch with Kevin and Paige, Kim spots Howard and tries to hand him a check for her law school loan.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Kim repaying her law school loan at a lunch is ordinary character texture and doesn't disclose any pending outcome, such as the fallout from Jimmy's insurance sabotage."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A mundane social encounter and loan repayment gesture; it discloses no death, betrayal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "Kim repaying her law school loan at a lunch is ordinary character texture and doesn't disclose any pending outcome, such as the fallout from Jimmy's insurance sabotage."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "On litter-collecting duty in an orange vest, Jimmy talks his community service supervisor into signing off on his hours.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture consistent with Jimmy's known probation/community service, revealing no outcome, death, reveal or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy performing court-mandated community service and pulling a minor everyday hustle, which is character texture consistent with his known suspension rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "This is ordinary texture consistent with Jimmy's known probation/community service, revealing no outcome, death, reveal or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Two of the local businesses Jimmy made commercials for flatly refuse to pay him for the airtime.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is minor business texture consistent with Jimmy's already-shown struggle to sell his prepaid ad time, revealing no significant outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is minor business texture consistent with Jimmy's already-established struggle to sell his prepaid ad time, revealing no significant outcome or turning point."
+                }
+              ],
+              "reason": "This is minor business texture consistent with Jimmy's already-shown struggle to sell his prepaid ad time, revealing no significant outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy takes a theatrical tumble in a shop, then lies on the floor clutching his back.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy engaged in an apparent staged-fall scam, an in-progress activity and character texture rather than an outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A staged pratfall is ordinary Jimmy-style scheming texture without revealing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It shows Jimmy engaged in an apparent staged-fall scam, an in-progress activity and character texture rather than an outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Fall",
+      "candidates": [
+        {
+          "text": "Jimmy presses Howard on why the firms won't take the settlement money now; Howard says patience will pay more.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary negotiation texture about the Sandpiper settlement timing without disclosing any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary negotiation texture about the Sandpiper settlement timing, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary negotiation texture about the Sandpiper settlement timing without disclosing any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy visits the elderly Sandpiper class representative at home, chatting with her for an update on the case.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A casual visit and conversation with an elderly client is ordinary character texture, revealing no outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An ordinary visit and conversation with a client contact; it discloses no outcome, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "A casual visit and conversation with an elderly client is ordinary character texture, revealing no outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike, in a suit, sits through corporate paperwork and takes a salaried job as a security consultant.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Gus's pending job offer \\u2014 Mike formally accepting salaried employment as a security consultant, cementing their alliance."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the pending question of whether Mike will accept Gus's offer by showing him formally taking employment as a security consultant, cementing his alliance with Gus's organization."
+                }
+              ],
+              "reason": "It reveals the outcome of Gus's pending job offer \\u2014 Mike formally accepting salaried employment as a security consultant, cementing their alliance."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Gus's pending job offer \\u2014 Mike formally accepting salaried employment as a security consultant, cementing their alliance."
+        },
+        {
+          "text": "Kim, juggling a second client on top of everything else, works herself to exhaustion at her desk.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Shows only Kim's ordinary workload and fatigue, without revealing any outcome, twist, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Kim's workload, revealing no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Shows only Kim's ordinary workload and fatigue, without revealing any outcome, twist, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Lantern",
+      "candidates": [
+        {
+          "text": "In a childhood flashback, Chuck reads aloud to a young Jimmy by the light of a camping lantern.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A tender childhood flashback of Chuck reading to Jimmy is character texture and reveals no outcome, though it foreshadows nothing explicit."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A tender childhood flashback of the brothers is character texture that reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A tender childhood flashback of Chuck reading to Jimmy is character texture and reveals no outcome, though it foreshadows nothing explicit."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy sets about getting himself and Kim out of the lease on their shared office space.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Kim survived the crash and reveals the dissolution of their shared law-office arrangement, an outcome flowing from the cliffhanger."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Kim survived her car crash — the open cliffhanger — and reveals that the shared-office arrangement central to their partnership comes to an end."
+                }
+              ],
+              "reason": "It implies Kim survived the crash and reveals the dissolution of their shared law-office arrangement, an outcome flowing from the cliffhanger."
+            }
+          },
+          "rejected": "consequence (2/2): It implies Kim survived the crash and reveals the dissolution of their shared law-office arrangement, an outcome flowing from the cliffhanger."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 39195,
+    "out": 12937,
+    "cache_read": 530918,
+    "cache_write": 66795,
+    "calls": 140
+  },
+  "recheck": [
+    {
+      "episode": 3,
+      "text": "Mike works a small packet of white powder down into the toe of a sneaker.",
+      "reason": "It reveals a plot turning point — Mike concealing drugs, presumably to plant them (likely to frame Hector), which is a development beyond the viewer's current knowledge of Mike simply tracking his follower."
+    },
+    {
+      "episode": 4,
+      "text": "Jimmy, Kim, Howard and Chuck sit around a conference table with the prosecutor, going over paperwork together.",
+      "reason": "It confirms that Chuck followed through and Jimmy was actually charged, with the case advancing to a negotiation with the prosecutor rather than Chuck's threat fizzling."
+    }
+  ],
+  "recheck_spend": {
+    "in": 2102,
+    "out": 6689,
+    "cache_read": 279143,
+    "cache_write": 7753,
+    "calls": 50
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 5,
+  "source": {
+    "title": "Better Call Saul season 5",
+    "revid": 1365317314,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_5&oldid=1365317314",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Magic Man",
+      "probes": [
+        {
+          "text": "Saul stands on a street corner handing out the last of his free cell phones to advertise his new practice.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Saul's camera crew films him staging a fake confrontation with a deputy district attorney as a publicity stunt.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nacho passes along street rumors that the cocaine coming from Gus has been poor quality, and Lalo confirms it.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "50% Off",
+      "probes": [
+        {
+          "text": "Saul contrives to be stuck in a courthouse elevator with the assistant district attorney, charm at full blast.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Two drug users flash one of Saul's 50% off business cards and embark on a multi-day binge.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At the Salamanca drug house, bags of product get jammed inside a drainpipe.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "The Guy for This",
+      "probes": [
+        {
+          "text": "Kim is pulled away from a day of pro bono defense work to handle a homeowner refusing to sell his land.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nacho quietly arranges for someone else to make an offer on his father's upholstery shop.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy, as Saul, stages an elaborate ploy designed to pull two DEA agents into his scheme.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Namaste",
+      "probes": [
+        {
+          "text": "A vanity plate reading \"NAMAST3\" sits on the back of an expensive car in a parking spot.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Dedicado a Max",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Mike recuperates in a small Mexican village, walking past a stone fountain with a dedication plaque on it.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A doctor patches up Mike's wounds and tells him he should stay put until he has healed.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Over another conversation, Howard presses Jimmy about the job offer, and Jimmy says he is still considering it.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "6": {
+      "title": "Wexler v. Goodman",
+      "probes": [
+        {
+          "text": "Gus, Mike and Victor meet quietly with Nacho for an update on what Lalo has been planning.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "JMM",
+      "probes": [
+        {
+          "text": "Gus sits with other subsidiary owners in a conference room, delivering business updates to Madrigal's visiting chief executive.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Away from the group, Gus quietly briefs Lydia and the Madrigal executive on where the lab construction stands.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Mike tells Stacey that he is past whatever had been making him so angry lately.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "Bagman",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Jimmy drives out alone to a remote desert pickup site, where two heavy bags of cash are handed over.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "Bad Choice Road",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Mike tells Jimmy that the shakiness he feels after what happened in the desert will pass with time.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "10": {
+      "title": "Something Unforgivable",
+      "probes": [
+        {
+          "text": "Kim takes on twenty pro bono cases at once from the public defender, hauling away the stack of files.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Howard suggests Kim stop following Jimmy's lead, and she tells him she's insulted by the idea she can't decide for herself.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Rather than staying at the apartment, Jimmy and Kim hole up in a downtown hotel room.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

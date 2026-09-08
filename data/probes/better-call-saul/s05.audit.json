@@ -1,0 +1,1167 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 5,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Magic Man",
+      "candidates": [
+        {
+          "text": "Saul stands on a street corner handing out the last of his free cell phones to advertise his new practice.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture consistent with what the viewer already knows about Jimmy's phone business and his decision to practice as Saul Goodman, revealing no new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It simply shows Jimmy following through on the already-announced plan to practice as \"Saul Goodman,\" ordinary self-promotion texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "This is ordinary texture consistent with what the viewer already knows about Jimmy's phone business and his decision to practice as Saul Goodman, revealing no new outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Saul's camera crew films him staging a fake confrontation with a deputy district attorney as a publicity stunt.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This depicts ordinary Saul Goodman self-promotion antics consistent with his already-announced decision to practice under that name, revealing no new outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Staging publicity stunts with his film crew is established Saul-Goodman texture and doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This depicts ordinary Saul Goodman self-promotion antics consistent with his already-announced decision to practice under that name, revealing no new outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nacho passes along street rumors that the cocaine coming from Gus has been poor quality, and Lalo confirms it.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary business texture — Nacho relaying rumors and Lalo agreeing — with no death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary business chatter consistent with Lalo's established surveillance of Gus's operation and doesn't disclose an outcome, death, reveal or betrayal."
+                }
+              ],
+              "reason": "This is ordinary business texture — Nacho relaying rumors and Lalo agreeing — with no death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Gus explains to Lalo and Juan Bolsa that the work at the chicken farm was a chiller under Mike's supervision.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a plausible cover story Gus offers in the aftermath of events the viewer already knows (the lab construction, Werner's death), and it doesn't disclose an outcome, betrayal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a cover-story conversation consistent with Gus's ongoing concealment of the lab; it doesn't disclose a death, betrayal, or resolution of a pending conflict beyond texture already implied by Lalo's snooping."
+                }
+              ],
+              "reason": "This is a plausible cover story Gus offers in the aftermath of events the viewer already knows (the lab construction, Werner's death), and it doesn't disclose an outcome, betrayal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy tells Kim that the name he used for the phone business already comes with a ready-made client base.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the answer to the cliffhanger question of what name Jimmy will practice law under \\u2014 that he is adopting his \"Saul Goodman\" alias to leverage his phone-business customers as clients."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jimmy uses the \"Saul Goodman\" alias for his phone business and has declared he won't practice under his own name, so this is just his rationale rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "It confirms the answer to the cliffhanger question of what name Jimmy will practice law under \\u2014 that he is adopting his \"Saul Goodman\" alias to leverage his phone-business customers as clients."
+            }
+          },
+          "rejected": "consequence (1/2): It confirms the answer to the cliffhanger question of what name Jimmy will practice law under \\u2014 that he is adopting his \"Saul Goodman\" alias to leverage his phone-business customers as clients."
+        }
+      ]
+    },
+    "2": {
+      "title": "50% Off",
+      "candidates": [
+        {
+          "text": "Saul contrives to be stuck in a courthouse elevator with the assistant district attorney, charm at full blast.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Saul-style hustle and character texture, with no outcome, reveal, or answer to a pending question disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary Saul hustling texture consistent with his established publicity stunts and reveals no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary Saul-style hustle and character texture, with no outcome, reveal, or answer to a pending question disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Two drug users flash one of Saul's 50% off business cards and embark on a multi-day binge.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setup/texture showing the consequences of Saul's promotional stunt, not an outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setup texture showing the effect of Saul's discount-card promotion, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary setup/texture showing the consequences of Saul's promotional stunt, not an outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the Salamanca drug house, bags of product get jammed inside a drainpipe.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary operational detail of the drug house setting, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an incidental, ambiguous detail of drug-house activity that discloses no outcome, death, arrest or answer to a pending question."
+                }
+              ],
+              "reason": "This is an ordinary operational detail of the drug house setting, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike, drinking heavily and short-tempered, spends an evening babysitting Kaylee, who asks questions about her father.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Kaylee"
+        },
+        {
+          "text": "Nacho climbs across a row of rooftops to get inside a house before police reach the door.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an in-the-moment action beat without disclosing its outcome or answering any pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an in-the-moment action beat with no disclosed outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is an in-the-moment action beat without disclosing its outcome or answering any pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "The Guy for This",
+      "candidates": [
+        {
+          "text": "Kim is pulled away from a day of pro bono defense work to handle a homeowner refusing to sell his land.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary new work situation for Kim rather than an outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It merely sets up a new work situation for Kim without revealing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It describes an ordinary new work situation for Kim rather than an outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nacho quietly arranges for someone else to make an offer on his father's upholstery shop.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Nacho quietly making arrangements about his father's shop, a piece of character texture that doesn't resolve any pending conflict, reveal a death, betrayal, or answer an open question for the viewer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Nacho quietly pursuing his already-established desire to get his father out, without disclosing any outcome, death, discovery or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It shows Nacho quietly making arrangements about his father's shop, a piece of character texture that doesn't resolve any pending conflict, reveal a death, betrayal, or answer an open question for the viewer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy, as Saul, stages an elaborate ploy designed to pull two DEA agents into his scheme.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Saul running an elaborate con is characteristic texture; the sentence gives no outcome, no answer to the pending Nacho coercion, and no death, arrest, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is generic Saul-style scheming texture without revealing an outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Saul running an elaborate con is characteristic texture; the sentence gives no outcome, no answer to the pending Nacho coercion, and no death, arrest, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nacho drives Jimmy out to a meeting with Lalo, who has a legal favor in mind.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is texture that follows directly from the cliffhanger the viewer already saw (Nacho coercing Jimmy into his car) and reveals no outcome, only the setup of a meeting."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This only sets up the situation implied by the previous episode's cliffhanger (Nacho abducting Jimmy) without disclosing the outcome of the favor or any consequence."
+                }
+              ],
+              "reason": "This is texture that follows directly from the cliffhanger the viewer already saw (Nacho coercing Jimmy into his car) and reveals no outcome, only the setup of a meeting."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Namaste",
+      "candidates": [
+        {
+          "text": "A vanity plate reading \"NAMAST3\" sits on the back of an expensive car in a parking spot.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A vanity plate on a parked car is incidental set dressing that reveals no outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A vanity plate on a parked car is incidental set dressing that discloses no outcome, reveal or turning point."
+                }
+              ],
+              "reason": "A vanity plate on a parked car is incidental set dressing that reveals no outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy picks out three bowling balls and hauls them off, though he never sets foot in a lane.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy acquiring bowling balls for an unstated purpose without disclosing any target, outcome, or plot revelation \\u2}"
+                },
+                {
+                  "reveals": true,
+                  "reason": "It telegraphs the pending Jimmy/Howard conflict escalating into Jimmy's bowling-ball attack on Howard's car, a turning point the viewer hasn't seen."
+                }
+              ],
+              "reason": "It telegraphs the pending Jimmy/Howard conflict escalating into Jimmy's bowling-ball attack on Howard's car, a turning point the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (1/2): It telegraphs the pending Jimmy/Howard conflict escalating into Jimmy's bowling-ball attack on Howard's car, a turning point the viewer hasn't seen."
+        },
+        {
+          "text": "Kim pitches Mesa Verde an alternate development layout that would let the stubborn homeowner keep his house.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Kim's next move in the pending Acker conflict — that she shifts to advocating for the homeowner against her client's plan — an outcome/turning point the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the turn in the pending Acker conflict \")Kim shifting from enforcing the eviction to actively advocating against her client's plan on his behalf."
+                }
+              ],
+              "reason": "It reveals Kim's next move in the pending Acker conflict — that she shifts to advocating for the homeowner against her client's plan — an outcome/turning point the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Kim's next move in the pending Acker conflict — that she shifts to advocating for the homeowner against her client's plan — an outcome/turning point the viewer hasn't seen."
+        },
+        {
+          "text": "Stacey tells Mike she is not yet comfortable leaving Kaylee in his care.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome/consequence of Mike's angry outburst at Kaylee, showing Stacey has learned of it and is restricting his access to his granddaughter."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome/fallout of Mike's angry outburst at Kaylee — Stacey restricting his access to his granddaughter — a consequence the viewer has not yet seen play out."
+                }
+              ],
+              "reason": "It reveals the outcome/consequence of Mike's angry outburst at Kaylee, showing Stacey has learned of it and is restricting his access to his granddaughter."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome/consequence of Mike's angry outburst at Kaylee, showing Stacey has learned of it and is restricting his access to his granddaughter."
+        }
+      ]
+    },
+    "5": {
+      "title": "Dedicado a Max",
+      "candidates": [
+        {
+          "text": "Mike recuperates in a small Mexican village, walking past a stone fountain with a dedication plaque on it.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Mike awoke in an unknown pueblo; his recuperation and a stroll past a fountain are ordinary setting texture with no outcome revealed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Mike convalescing in the village where the previous episode already left him, with no outcome or new information revealed."
+                }
+              ],
+              "reason": "The viewer already knows Mike awoke in an unknown pueblo; his recuperation and a stroll past a fountain are ordinary setting texture with no outcome revealed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A doctor patches up Mike's wounds and tells him he should stay put until he has healed.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mike waking up injured in the pueblo is already known to the viewer; being treated by a doctor is ordinary follow-on texture that doesn't reveal who took him or why."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike waking injured in the pueblo is already known to the viewer; a doctor treating his wounds is ordinary follow-through texture that resolves no pending conflict."
+                }
+              ],
+              "reason": "Mike waking up injured in the pueblo is already known to the viewer; being treated by a doctor is ordinary follow-on texture that doesn't reveal who took him or why."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Over another conversation, Howard presses Jimmy about the job offer, and Jimmy says he is still considering it.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jimmy saying he's still considering the standing offer is non-committal texture that resolves no pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture continuing the already-known job offer thread without resolving whether Jimmy accepts or revealing any outcome."
+                }
+              ],
+              "reason": "Jimmy saying he's still considering the standing offer is non-committal texture that resolves no pending conflict or open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim tries to get herself taken off the case by claiming a conflict of interest, but Kevin will not hear it.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary procedural texture consistent with Kim's already-established conflict over the Acker case, revealing no outcome, betrayal, or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary conflict texture consistent with Kim's already-established discomfort over the Acker case, and it resolves no pending outcome."
+                }
+              ],
+              "reason": "This is ordinary procedural texture consistent with Kim's already-established conflict over the Acker case, revealing no outcome, betrayal, or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A senior partner at Kim's firm gently tells her that her heart clearly isn't in the bank's business anymore.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Kim's already-established dissatisfaction with Mesa Verde work, and doesn't disclose an outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with Kim's already-established dissatisfaction with Mesa Verde work, and reveals no outcome, death, or answer to a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture consistent with Kim's already-established dissatisfaction with Mesa Verde work, and doesn't disclose an outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Wexler v. Goodman",
+      "candidates": [
+        {
+          "text": "Both sides sit down around a conference table to finalize a settlement between the bank and the stubborn homeowner.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It gives away the outcome of the pending Acker/Mesa Verde eviction fight by revealing the parties reach a settlement rather than the eviction proceeding."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending Acker vs. Mesa Verde eviction fight \\u2014 that Kim's leverage forces the bank into a settlement rather than the case going to trial or Acker being evicted."
+                }
+              ],
+              "reason": "It gives away the outcome of the pending Acker/Mesa Verde eviction fight by revealing the parties reach a settlement rather than the eviction proceeding."
+            }
+          },
+          "rejected": "consequence (2/2): It gives away the outcome of the pending Acker/Mesa Verde eviction fight by revealing the parties reach a settlement rather than the eviction proceeding."
+        },
+        {
+          "text": "Gus, Mike and Victor meet quietly with Nacho for an update on what Lalo has been planning.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A meeting for a status update on Lalo, consistent with Nacho's already-established role as Gus' mole, revealing no new outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A routine meeting consistent with Nacho's already-established role as Gus' mole, revealing no new outcome or turning point."
+                }
+              ],
+              "reason": "A meeting for a status update on Lalo, consistent with Nacho's already-established role as Gus' mole, revealing no new outcome or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "JMM",
+      "candidates": [
+        {
+          "text": "Gus sits with other subsidiary owners in a conference room, delivering business updates to Madrigal's visiting chief executive.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary corporate texture showing Gus in his legitimate businessman role, with no outcome, reveal, or resolution of the pending Lalo arrest or other open threads."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary business-setting texture showing Gus in his legitimate corporate role, revealing no outcome, reveal, or answer to a pending question such as Lalo's fate."
+                }
+              ],
+              "reason": "This is ordinary corporate texture showing Gus in his legitimate businessman role, with no outcome, reveal, or resolution of the pending Lalo arrest or other open threads."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Away from the group, Gus quietly briefs Lydia and the Madrigal executive on where the lab construction stands.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A private status briefing about the lab is routine business texture and doesn't disclose any outcome, death, arrest, or answer to a pending question like Lalo's fate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A brief status conversation about the lab's construction is character/plot texture and doesn't disclose any outcome, such as Lalo's fate or a resolution to a pending conflict."
+                }
+              ],
+              "reason": "A private status briefing about the lab is routine business texture and doesn't disclose any outcome, death, arrest, or answer to a pending question like Lalo's fate."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike tells Stacey that he is past whatever had been making him so angry lately.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture showing Mike's emotional recovery from Werner's death, which the viewer already knows he was processing, and it doesn't disclose any plot outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is emotional texture about Mike's ongoing grief arc rather than a plot outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is character texture showing Mike's emotional recovery from Werner's death, which the viewer already knows he was processing, and it doesn't disclose any plot outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim and Rich sit down with Kevin, who says he will let them know his decision later.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A routine client meeting with an unstated decision; no outcome, reveal, or turning point is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The meeting's outcome is explicitly deferred, so it conveys only an ordinary business conversation without resolving Kim's standing with Mesa Verde or any other pending conflict."
+                }
+              ],
+              "reason": "A routine client meeting with an unstated decision; no outcome, reveal, or turning point is disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Bagman",
+      "candidates": [
+        {
+          "text": "Jimmy is paid a hundred thousand dollars up front for what he insists to Kim will be an easy job.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a new job for Jimmy without disclosing its nature, who hires him, or its outcome \ba natural next-step development rather than a resolution or reveal."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jimmy takes on and is paid $100,000 for a cartel job (tied to the pending question of how Lalo's $7 million bail gets handled), a significant new development in his entanglement with Lalo rather than mere texture."
+                }
+              ],
+              "reason": "It reveals that Jimmy takes on and is paid $100,000 for a cartel job (tied to the pending question of how Lalo's $7 million bail gets handled), a significant new development in his entanglement with Lalo rather than mere texture."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Jimmy takes on and is paid $100,000 for a cartel job (tied to the pending question of how Lalo's $7 million bail gets handled), a significant new development in his entanglement with Lalo rather than mere texture."
+        },
+        {
+          "text": "Kim argues that her husband is a lawyer, not a courier for a drug dealer, and doesn't want him going.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jimmy is being tasked to act as a courier for Lalo (presumably retrieving the $7 million bail) and that Kim learns of and objects to his cartel entanglement \r."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Lalo tasks Jimmy with a courier job (retrieving the bail money) and that Kim learns of Jimmy's cartel entanglement, a plot turn beyond the viewer's current knowledge."
+                }
+              ],
+              "reason": "It reveals that Jimmy is being tasked to act as a courier for Lalo (presumably retrieving the $7 million bail) and that Kim learns of and objects to his cartel entanglement \r."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jimmy is being tasked to act as a courier for Lalo (presumably retrieving the $7 million bail) and that Kim learns of and objects to his cartel entanglement \r."
+        },
+        {
+          "text": "Jimmy drives out alone to a remote desert pickup site, where two heavy bags of cash are handed over.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy carrying out an errand that follows naturally from the bail already set, without disclosing any outcome, betrayal, or twist."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jimmy carrying out the expected errand of collecting Lalo's bail money, a setup activity following from the bail amount already established, without disclosing any outcome, betrayal, or twist."
+                }
+              ],
+              "reason": "It shows Jimmy carrying out an errand that follows naturally from the bail already set, without disclosing any outcome, betrayal, or twist."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy spends a night camped out in the open desert, far from any road, before walking on at daybreak.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It gives away that Jimmy's pending errand for Lalo's $7 million bail goes disastrously wrong, leaving him stranded and on foot in the desert rather than completing a routine pickup."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies the pending $7 million bail money pickup goes badly wrong, leaving Jimmy stranded on foot in the desert rather than completing a routine courier run."
+                }
+              ],
+              "reason": "It gives away that Jimmy's pending errand for Lalo's $7 million bail goes disastrously wrong, leaving him stranded and on foot in the desert rather than completing a routine pickup."
+            }
+          },
+          "rejected": "consequence (2/2): It gives away that Jimmy's pending errand for Lalo's $7 million bail goes disastrously wrong, leaving him stranded and on foot in the desert rather than completing a routine pickup."
+        },
+        {
+          "text": "Unable to reach Jimmy, Kim goes to Lalo and asks where he is; Lalo won't tell her.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jimmy goes missing on an errand for Lalo (implying the bail-money pickup goes wrong) and that Kim directly confronts Lalo, exposing her to the cartel."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jimmy takes on Lalo's bail-money errand and goes missing/unreachable, tipping the outcome that the job goes badly wrong."
+                }
+              ],
+              "reason": "It reveals that Jimmy goes missing on an errand for Lalo (implying the bail-money pickup goes wrong) and that Kim directly confronts Lalo, exposing her to the cartel."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jimmy goes missing on an errand for Lalo (implying the bail-money pickup goes wrong) and that Kim directly confronts Lalo, exposing her to the cartel."
+        }
+      ]
+    },
+    "9": {
+      "title": "Bad Choice Road",
+      "candidates": [
+        {
+          "text": "Tyrus and Victor collect a filthy, exhausted Jimmy and Mike from a truck stop out on the highway.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the outcome of the pending desert trek — Jimmy and Mike survive and are safely extracted with the money."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Jimmy and Mike survive the desert trek and are extracted safely, resolving the pending survival/escape conflict."
+                }
+              ],
+              "reason": "It confirms the outcome of the pending desert trek — Jimmy and Mike survive and are safely extracted with the money."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms the outcome of the pending desert trek — Jimmy and Mike survive and are safely extracted with the money."
+        },
+        {
+          "text": "Mike tells Jimmy that the shakiness he feels after what happened in the desert will pass with time.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's a character-texture conversation about coping with stress after the already-depicted desert shootout, revealing no new outcome, death, or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is a piece of character texture — Mike offering reassurance about Jimmy's nerves — and reveals no outcome, death, discovery or betrayal beyond what the viewer already sees unfolding."
+                }
+              ],
+              "reason": "It's a character-texture conversation about coping with stress after the already-depicted desert shootout, revealing no new outcome, death, or discovery."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy sticks to his story that his car broke down and he walked out of the desert alone.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Jimmy survives the desert and returns to civilization, resolving the pending question of his escape and how he handles the aftermath."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Jimmy survives the desert trek and returns, resolving the pending question of whether he escapes with the money and how he explains it."
+                }
+              ],
+              "reason": "It confirms Jimmy survives the desert and returns to civilization, resolving the pending question of his escape and how he handles the aftermath."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Jimmy survives the desert and returns to civilization, resolving the pending question of his escape and how he handles the aftermath."
+        }
+      ]
+    },
+    "10": {
+      "title": "Something Unforgivable",
+      "candidates": [
+        {
+          "text": "Kim takes on twenty pro bono cases at once from the public defender, hauling away the stack of files.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Kim doing pro bono defense work is established character texture consistent with prior episodes and reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Kim doing pro bono defense work is established character texture consistent with her known passion and her recent resignation, revealing no outcome or turning point."
+                }
+              ],
+              "reason": "Kim doing pro bono defense work is established character texture consistent with prior episodes and reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Howard suggests Kim stop following Jimmy's lead, and she tells him she's insulted by the idea she can't decide for herself.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A confrontational conversation reflecting existing tensions between Howard, Kim and Jimmy, without disclosing any outcome, death, betrayal or plot turn."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a conversational exchange consistent with the established Howard-Kim-Jimmy tension and reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A confrontational conversation reflecting existing tensions between Howard, Kim and Jimmy, without disclosing any outcome, death, betrayal or plot turn."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Rather than staying at the apartment, Jimmy and Kim hole up in a downtown hotel room.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Their choice of lodging is ordinary situational texture and does not disclose any outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Their choice of lodging after Lalo's visit is ordinary situational texture that doesn't disclose any outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "Their choice of lodging is ordinary situational texture and does not disclose any outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 43007,
+    "out": 13774,
+    "cache_read": 609302,
+    "cache_write": 70582,
+    "calls": 156
+  },
+  "recheck": [
+    {
+      "episode": 5,
+      "text": "Mike recuperates in a small Mexican village, walking past a stone fountain with a dedication plaque on it.",
+      "reason": "It reveals that Mike will be injured and spirited away to recuperate in a Mexican village, an unforeseen turning point in his storyline of grief-drinking."
+    },
+    {
+      "episode": 5,
+      "text": "A doctor patches up Mike's wounds and tells him he should stay put until he has healed.",
+      "reason": "It reveals that Mike gets into a violent altercation and is injured, an outcome not yet known to the viewer."
+    },
+    {
+      "episode": 5,
+      "text": "Over another conversation, Howard presses Jimmy about the job offer, and Jimmy says he is still considering it.",
+      "reason": "It reveals that Howard has offered Jimmy a job (presumably at HHM), an unrevealed development following the unsettling lunch invitation the viewer has only seen teased."
+    },
+    {
+      "episode": 7,
+      "text": "Mike tells Stacey that he is past whatever had been making him so angry lately.",
+      "reason": "It resolves the open arc of Mike's grief-driven drinking and rage over Werner's death, indicating he has come to terms with it (and by implication accepted Gus' offer)."
+    },
+    {
+      "episode": 8,
+      "text": "Jimmy drives out alone to a remote desert pickup site, where two heavy bags of cash are handed over.",
+      "reason": "It gives away that the police move on Lalo pays off in his arrest and that Jimmy takes on the cartel bail-money run, an escalation the viewer has not yet seen resolved."
+    },
+    {
+      "episode": 9,
+      "text": "Mike tells Jimmy that the shakiness he feels after what happened in the desert will pass with time.",
+      "reason": "It reveals that Jimmy undergoes a traumatic ordeal in the desert (presumably tied to Lalo's $7 million bail run) and survives it, along with a subsequent alliance/aftermath with Mike."
+    },
+    {
+      "episode": 10,
+      "text": "Rather than staying at the apartment, Jimmy and Kim hole up in a downtown hotel room.",
+      "reason": "It confirms Jimmy survives the desert ordeal and makes it back to Kim, resolving the cliffhanger, and signals they are in hiding from an ongoing threat."
+    }
+  ],
+  "recheck_spend": {
+    "in": 1882,
+    "out": 6113,
+    "cache_read": 262167,
+    "cache_write": 8055,
+    "calls": 44
+  }
+}

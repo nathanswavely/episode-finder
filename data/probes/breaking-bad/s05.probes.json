@@ -1,0 +1,264 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 5,
+  "source": {
+    "title": "Breaking Bad season 5",
+    "revid": 1365318966,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_5&oldid=1365318966",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Live Free or Die",
+      "probes": [
+        {
+          "text": "A wrecking-yard truck fitted with an enormous electromagnet is driven up against the wall of a police evidence building.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A ragged, bearded man eats breakfast alone at a Denny's counter in Albuquerque on his birthday.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "News coverage of the three deaths at the Casa Tranquila senior center plays while Walt tidies up loose ends.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Madrigal",
+      "probes": [
+        {
+          "text": "A little robot vacuum trundles around the floor of Jesse's place while he hunts through the room.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At the DEA, agents work through a stack of leads left over from the Fring case, hoping one pans out.",
+          "specificity": 2,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Walt and Jesse sit down with Mike, trying to talk him into partnering with them on a new operation.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Hazard Pay",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "The operation sets up inside a house sealed beneath a fumigation tent, the team posing as exterminators.",
+          "specificity": null,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Walt carries his boxes back into the house and settles in again, much to Skyler's dismay.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt, Mike and Jesse sit down with Saul to run through possible locations for a new cooking site.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Fifty-One",
+      "probes": [
+        {
+          "text": "Walt's fifty-first birthday is marked with a small, joyless dinner at home, nobody much in the mood.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse walks the aisles of a warehouse stacked with methylamine barrels alongside a jittery Lydia.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Mike scoffs at Lydia's panic, convinced she is inventing an excuse to wriggle out of their arrangement.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Dead Freight",
+      "probes": [
+        {
+          "text": "Walt Jr. drives over to the house demanding answers about what is going on, and Walt sends him away.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt pays a visit to Hank's new office at the DEA, the two of them talking alone in there.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Buyout",
+      "probes": [
+        {
+          "text": "Jesse endures an excruciating dinner at Walt and Skyler's house, straining to make small talk over the meal.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Saul accompanies Mike to a face-to-face sit-down with the DEA agents who have been tailing him.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt invites Jesse over to the house and talks about the company he helped found years ago.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Say My Name",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Out in the desert, Walt, Jesse and Mike stand facing Declan and his men to haggle over terms.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "8": {
+      "title": "Gliding Over All",
+      "probes": [
+        {
+          "text": "Walt visits Jesse's house, and the two end up reminiscing fondly about their early days cooking in the cramped RV.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Months pass in a montage of tented houses, cooks and deliveries as the operation hums along profitably.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "9": {
+      "title": "Blood Money",
+      "probes": [
+        {
+          "text": "Lydia turns up unannounced at the car wash, nervously asking after Walt while Skyler watches from the counter.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Buried",
+      "probes": [
+        {
+          "text": "Jesse sits alone on a playground merry-go-round, turning slowly in circles and staring at nothing.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "An elderly man shuffles along a residential street, gathering up the bundles of cash left scattered across lawns and driveways.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "11": {
+      "title": "Confessions",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Walt and Skyler sit down across from Hank and Marie in a public restaurant to try and negotiate.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At the table, Skyler tells Hank flatly that Walt is no longer any part of his empire.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse sits saying nothing across from Hank in an interview room until Saul turns up.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "12": {
+      "title": "Rabid Dog",
+      "probes": [
+        {
+          "text": "Walt comes home to find Saul's car crashed at an angle in his driveway and nobody inside.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Marie sits with her therapist, circling around her brother-in-law without saying everything she knows about him.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt leaves a message on Jesse's voicemail, asking him to meet so he can explain himself.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "To'hajiilee",
+      "probes": [],
+      "fine_only": []
+    },
+    "14": {
+      "title": "Ozymandias",
+      "probes": [],
+      "fine_only": []
+    },
+    "15": {
+      "title": "Granite State",
+      "probes": [
+        {
+          "text": "A ragged Walt sits alone at a small-town bar with a television interview playing above the counter.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "There is a pay phone in the bar, and Walt stands at it with the receiver in hand.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "16": {
+      "title": "Felina",
+      "probes": [],
+      "fine_only": []
+    }
+  }
+}

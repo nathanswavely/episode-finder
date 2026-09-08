@@ -1,0 +1,431 @@
+{
+  "show": "The Office",
+  "slug": "the-office",
+  "season": 2,
+  "source": {
+    "title": "The Office (American TV series) season 2",
+    "revid": 1372899911,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Office_%28American_TV_series%29_season_2&oldid=1372899911",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Dundies",
+      "probes": [
+        {
+          "text": "Michael works the microphone as emcee, handing out the yearly joke trophies his employees have learned to dread.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam sits through the awards ceremony getting steadily drunker as the evening goes on.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The whole branch is dragged out for the annual awards night Michael loves and everyone else loathes.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Sexual Harassment",
+      "probes": [
+        {
+          "text": "Michael worries that a review of the company's harassment policies will spoil what he calls his easy-going office.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The human resources representative is ordered by corporate to run a review of the branch's sexual harassment policies.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Corporate sends a lawyer down to Scranton, who spends the day sitting in on things at the branch.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Office Olympics",
+      "probes": [
+        {
+          "text": "Bored at their desks, Jim and Pam invent competitive games out of office supplies and rope in coworkers.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael sits with his realtor going over condo paperwork, unsettled by how many years the payments will run.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael takes Dwight along with him out of the office for the day to handle a property deal.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "The Fire",
+      "probes": [
+        {
+          "text": "The whole staff waits outside in the parking lot after evacuating, killing time with games and questions about each other.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael decides to take Ryan under his wing as a mentor, and Dwight sulks about the attention.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Halloween",
+      "probes": [
+        {
+          "text": "It's Halloween at the branch, and Michael has spent the whole month stalling on something corporate asked of him.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The last day of October arrives with Michael dodging a decision headquarters handed him weeks earlier.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "The Fight",
+      "probes": [
+        {
+          "text": "Michael and Dwight face off on the mats of a local dojo to settle their argument.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael and Dwight spend the day bickering over which of them would win in a fight.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "The Client",
+      "probes": [
+        {
+          "text": "With the boss out of the office, the staff gather to read aloud and act out a screenplay Michael wrote.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael and Jan take an important client out for a long meal away from the branch.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jan grows visibly irritated as Michael steers the client conversation anywhere but toward actual business.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Performance Review",
+      "probes": [
+        {
+          "text": "Michael digs through the suggestion box, treating the anonymous slips as tips for improving himself.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "One by one, employees are called into Michael's office to sit through their annual performance reviews.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "While reviewing everyone else, Michael keeps fretting about the review Jan is about to give him.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "Email Surveillance",
+      "probes": [
+        {
+          "text": "Michael spends part of his evening at an improvisational comedy class, trying to distract himself.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim is hosting a party at his own home for people from the office.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael takes to reading through his employees' emails from his own desk.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Christmas Party",
+      "probes": [
+        {
+          "text": "At the office Christmas party, Michael turns Secret Santa into a game where everyone can steal each other's gifts.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Unhappy with what he ends up holding, Michael sets off to procure himself a better gift.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "The gift Michael bought for Ryan is an expensive iPod, and the whole staff keeps swapping to grab it.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "11": {
+      "title": "Booze Cruise",
+      "probes": [
+        {
+          "text": "Michael rents a boat and takes the whole office out on the water for an annual motivational cruise.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Aboard the chartered boat, Michael's antics steadily get on the nerves of the man captaining it.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Roy has been drinking heavily by the time the party on the boat gets going.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "The Injury",
+      "probes": [
+        {
+          "text": "Michael, stuck at home and unable to drive himself in, phones the office demanding someone come pick him up.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "The Secret",
+      "probes": [
+        {
+          "text": "Oscar phones in sick, and a suspicious Dwight spends the day trying to catch him out.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight appoints himself investigator of a colleague's sick day, tailing him rather than staying at his desk.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "14": {
+      "title": "The Carpet",
+      "probes": [
+        {
+          "text": "Michael won't set foot in his own office after something foul is left there, and eyes his staff suspiciously.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "15": {
+      "title": "Boys and Girls",
+      "probes": [
+        {
+          "text": "Jan drives down to Scranton to run a seminar just for the women of the office.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Left out of the women's seminar, Michael sulks and then throws together a session of his own for the men.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The office splits along gender lines for the day, women in one meeting and men stuck with Michael.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "16": {
+      "title": "Valentine's Day",
+      "probes": [
+        {
+          "text": "All day, gift after gift arrives at one saleswoman's desk from her boyfriend, piling up for everyone to see.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael travels to New York City for a corporate meeting with the other branch managers.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "It is Valentine's Day at the office, and Michael is away at headquarters while the staff work.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "17": {
+      "title": "Dwight's Speech",
+      "probes": [
+        {
+          "text": "Dwight, jittery and pale, rehearses over and over, terrified of having to address a hall full of salesmen.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A convention hall of paper salesmen waits while Dwight, badge on, works himself into a state backstage.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim offers to help with Dwight's speech, quietly sourcing his suggested lines from history's most notorious orators.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "18": {
+      "title": "Take Your Daughter to Work Day",
+      "probes": [
+        {
+          "text": "The office fills with employees' children for the day, kids wandering among the desks and cubicles.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael finds himself far happier chatting with the visiting children than with any of his adult employees.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Toby's young daughter is among the visiting kids, and Michael takes a particular shine to her.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "19": {
+      "title": "Michael's Birthday",
+      "probes": [
+        {
+          "text": "Partway through the day the entire staff decamps to an ice rink and laces up skates.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael arrives buzzing about his own birthday while the rest of the office barely registers it.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jim and Pam duck out of the office on a shopping run to cheer up Kevin.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "20": {
+      "title": "Drug Testing",
+      "probes": [
+        {
+          "text": "Dwight finds a half-smoked joint in the parking lot and starts questioning employees one at a time.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A drug test is scheduled for the whole office, and the staff spend the day waiting to give samples.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dwight treats his parking lot find like a criminal case, invoking his authority as a volunteer sheriff's deputy.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "21": {
+      "title": "Conflict Resolution",
+      "probes": [
+        {
+          "text": "Michael stands in front of the whole staff reading aloud from files of old complaints employees made about each other.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Pam is stung that somebody complained about her doing wedding planning at work, and she wants to know who.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Toby, it turns out, has quietly kept written files on every grievance employees ever brought to him.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "22": {
+      "title": "Casino Night",
+      "probes": [
+        {
+          "text": "Michael has turned the workplace into a charity casino for the evening, with gambling tables and the whole staff playing.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Michael, hosting his charity gambling evening, is fussing over being the big-shot emcee for the night.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

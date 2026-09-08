@@ -1,0 +1,1020 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 1,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Uno",
+      "candidates": [
+        {
+          "text": "Jimmy, scraping by on public defender work, tries hard to persuade a couple accused of embezzlement to retain him.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jimmy's ordinary struggling-lawyer routine of hustling for a client, with no outcome, reveal, or resolution disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes Jimmy's routine hustle for clients \ffan ordinary professional situation and character texture \ffwithout disclosing any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "It only shows Jimmy's ordinary struggling-lawyer routine of hustling for a client, with no outcome, reveal, or resolution disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy confronts the head of a big Albuquerque law firm over a token buyout offered for his brother's partnership stake.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Chuck is gone from HHM \\u2014 his partnership stake being bought out signals his death/departure, an outcome the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Jimmy's brother has died or exited the firm, with his partnership stake being bought out \ba major outcome the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Chuck is gone from HHM \\u2014 his partnership stake being bought out signals his death/departure, an outcome the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Chuck is gone from HHM \\u2014 his partnership stake being bought out signals his death/departure, an outcome the viewer hasn't seen."
+        },
+        {
+          "text": "A mall Cinnabon manager in Omaha finishes his shift and, back home, watches an old lawyer's commercial on VHS.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the lawyer protagonist's eventual fate \ferasing his identity to live in hiding as an anonymous Omaha mall employee, an outcome of his career's collapse."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It gives away the protagonist lawyer's eventual fate \"\" living under cover as a mall Cinnabon manager in Omaha, nostalgically watching his old ad \"\" which answers the open question of how his story ends."
+                }
+              ],
+              "reason": "It reveals the lawyer protagonist's eventual fate \ferasing his identity to live in hiding as an anonymous Omaha mall employee, an outcome of his career's collapse."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the lawyer protagonist's eventual fate \ferasing his identity to live in hiding as an anonymous Omaha mall employee, an outcome of his career's collapse."
+        },
+        {
+          "text": "Jimmy looks after his older brother, who stays shut inside his house convinced electricity makes him ill.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        }
+      ]
+    },
+    "2": {
+      "title": "Mijo",
+      "candidates": [
+        {
+          "text": "Out in the desert, Jimmy talks fast and nonstop at Tuco while the twins kneel in the dirt.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy mid-negotiation with Tuco in the desert without disclosing the outcome of the standoff or anyone's fate; it's situational texture continuing the cliffhanger."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy mid-negotiation with Tuco without disclosing the outcome of the standoff or anyone's fate, which is ongoing situational texture."
+                }
+              ],
+              "reason": "It shows Jimmy mid-negotiation with Tuco in the desert without disclosing the outcome of the standoff or anyone's fate; it's situational texture continuing the cliffhanger."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy keeps insisting, in a cheap suit and rising panic, that he is a lawyer, a public defender.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jimmy panicking and asserting his profession during the confrontation already underway, without revealing how the standoff resolves."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is just Jimmy's frantic in-character pleading during the confrontation already established at the cliffhanger, revealing no outcome."
+                }
+              ],
+              "reason": "It only shows Jimmy panicking and asserting his profession during the confrontation already underway, without revealing how the standoff resolves."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A soft-spoken young associate hands Jimmy a phone number, telling him to call when he's \"in the game.\"",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture \\u2014 a brief interaction offering a contact \\u2014 and does not disclose any outcome, such as the resolution of the Tuco standoff or the Kettleman case."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — a minor interaction with no revealed outcome, death, discovery, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture \\u2014 a brief interaction offering a contact \\u2014 and does not disclose any outcome, such as the resolution of the Tuco standoff or the Kettleman case."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Nacho",
+      "candidates": [
+        {
+          "text": "Jimmy notices a van parked near the Kettleman house with someone inside watching the place.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Surveillance outside the Kettleman house is expected setup given Nacho's stated plan; it discloses no outcome, death, arrest, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Nacho's interest in the Kettlemans' money is already established, so Jimmy spotting a surveillance van is expected setup rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Surveillance outside the Kettleman house is expected setup given Nacho's stated plan; it discloses no outcome, death, arrest, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At a pay phone, Jimmy cups the receiver and puts on a strange, disguised voice.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Jimmy makes an anonymous warning/tip-off call — likely alerting the Kettlemans about Nacho's plan — showing he acts on Nacho's proposal rather than staying out of it, which is the pending open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy making an anonymous call in disguise, an ordinary bit of scheming texture that doesn't disclose who he's calling, why, or any outcome."
+                }
+              ],
+              "reason": "It implies Jimmy makes an anonymous warning/tip-off call — likely alerting the Kettlemans about Nacho's plan — showing he acts on Nacho's proposal rather than staying out of it, which is the pending open question."
+            }
+          },
+          "rejected": "consequence (1/2): It implies Jimmy makes an anonymous warning/tip-off call — likely alerting the Kettlemans about Nacho's plan — showing he acts on Nacho's proposal rather than staying out of it, which is the pending open question."
+        },
+        {
+          "text": "A flashback shows Jimmy behind bars in Cicero, waiting for his brother to show up.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Jimmy's backstory of having been jailed in Cicero and Chuck's involvement in bailing him out, a discovery about his past not yet disclosed."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals previously unknown backstory that Jimmy was arrested and jailed in Cicero and had to rely on Chuck to rescue him, establishing his criminal past."
+                }
+              ],
+              "reason": "It reveals Jimmy's backstory of having been jailed in Cicero and Chuck's involvement in bailing him out, a discovery about his past not yet disclosed."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Jimmy's backstory of having been jailed in Cicero and Chuck's involvement in bailing him out, a discovery about his past not yet disclosed."
+        },
+        {
+          "text": "Jimmy lingers at the parking booth, picking the attendant's brain instead of just handing over his ticket.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        }
+      ]
+    },
+    "4": {
+      "title": "Hero",
+      "candidates": [
+        {
+          "text": "In a Cicero flashback, Jimmy and a buddy work a bar patron with a fake Rolex watch.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A flashback showing Jimmy's already-established con-artist past is character texture, not a plot outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A flashback showing Jimmy running a routine con is character texture consistent with what the viewer already knows about his past, and it discloses no outcome or turning point."
+                }
+              ],
+              "reason": "A flashback showing Jimmy's already-established con-artist past is character texture, not a plot outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy puts up a billboard whose logo and clean-cut lawyer look are blatant copies of HHM's.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jimmy's attempt to represent the Kettlemans/work with HHM has given way to a new phase of open rivalry with Howard, previewing the billboard scheme rather than the pending Kettleman/Nacho resolution the viewer expects."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary escalation of the ongoing Jimmy-vs-HHM rivalry and does not disclose any outcome, such as the Kettleman case's resolution or Nacho's fate."
+                }
+              ],
+              "reason": "It reveals that Jimmy's attempt to represent the Kettlemans/work with HHM has given way to a new phase of open rivalry with Howard, previewing the billboard scheme rather than the pending Kettleman/Nacho resolution the viewer expects."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Jimmy's attempt to represent the Kettlemans/work with HHM has given way to a new phase of open rivalry with Howard, previewing the billboard scheme rather than the pending Kettleman/Nacho resolution the viewer expects."
+        },
+        {
+          "text": "Chuck steps out to help himself to his neighbor's newspaper.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It gives away the episode's climactic turning point \\u2014 Chuck, established as unable to leave his house due to his supposed electromagnetic hypersensitivity, forces himself outside, undercutting the open question about the reality of his condition."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It shows Chuck breaking his self-imposed confinement and venturing outdoors despite his supposed electromagnetic hypersensitivity, a turning point that undercuts the condition the story has set up as debilitating."
+                }
+              ],
+              "reason": "It gives away the episode's climactic turning point \\u2014 Chuck, established as unable to leave his house due to his supposed electromagnetic hypersensitivity, forces himself outside, undercutting the open question about the reality of his condition."
+            }
+          },
+          "rejected": "consequence (2/2): It gives away the episode's climactic turning point \\u2014 Chuck, established as unable to leave his house due to his supposed electromagnetic hypersensitivity, forces himself outside, undercutting the open question about the reality of his condition."
+        }
+      ]
+    },
+    "5": {
+      "title": "Alpine Shepherd Boy",
+      "candidates": [
+        {
+          "text": "An elderly client dictates her will, leaving her collection of Hummel figurines to various friends and relatives.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An elderly client dictating a will about figurines is ordinary character texture consistent with Jimmy's elder-law work, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Jimmy's elder-law practice, with no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "An elderly client dictating a will about figurines is ordinary character texture consistent with Jimmy's elder-law work, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The clients drawn in by Jimmy's recent local fame turn out to be far less promising than he hoped.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary follow-up texture about the quality of Jimmy's new clients, not a death, reveal, betrayal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only conveys the mundane texture of Jimmy's low-rent client base rather than any death, reveal, betrayal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary follow-up texture about the quality of Jimmy's new clients, not a death, reveal, betrayal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy works the nursing home circuit dressed like the TV lawyer Matlock, in a pale suit.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Shows Jimmy's client-hunting hustle among the elderly, which is ordinary character texture rather than an outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Jimmy hustling for clients in his usual showman style, with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Shows Jimmy's client-hunting hustle among the elderly, which is ordinary character texture rather than an outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Chuck's neighbour complains to police about him taking her newspaper from her porch.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Chuck took the neighbour's newspaper; a complaint about it is minor situational texture rather than a major outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Chuck took the neighbour's newspaper; a complaint to police is a minor follow-on detail rather than a death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "The viewer already knows Chuck took the neighbour's newspaper; a complaint about it is minor situational texture rather than a major outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Five-O",
+      "candidates": [
+        {
+          "text": "Jimmy, called in as Mike's lawyer at the police station, spills a full cup of coffee across the room.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jimmy acting as Mike's lawyer at the station and spilling coffee — an activity that doesn't disclose the outcome of the Philadelphia police storyline or any reveal about Mike's past."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jimmy acting as Mike's lawyer and clumsily spilling coffee is ordinary situational texture; it discloses no outcome of the Philadelphia police inquiry, no reveal about Mike's past, and no resolution to any pending conflict."
+                }
+              ],
+              "reason": "It only shows Jimmy acting as Mike's lawyer at the station and spilling coffee — an activity that doesn't disclose the outcome of the Philadelphia police storyline or any reveal about Mike's past."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike, not long arrived in Albuquerque, sits in a veterinarian's back room while the vet attends to him instead of an animal.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Mike arrived in Albuquerque wounded and secretly seeking off-the-books medical treatment, foreshadowing the violent Philadelphia backstory the police visit has just raised as an open question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Mike arrived in Albuquerque injured and needing covert medical treatment, hinting at the violent Philadelphia backstory the show has just opened up with the visiting cops."
+                }
+              ],
+              "reason": "It reveals that Mike arrived in Albuquerque wounded and secretly seeking off-the-books medical treatment, foreshadowing the violent Philadelphia backstory the police visit has just raised as an open question."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Mike arrived in Albuquerque wounded and secretly seeking off-the-books medical treatment, foreshadowing the violent Philadelphia backstory the police visit has just raised as an open question."
+        },
+        {
+          "text": "Mike faces the two visiting Philadelphia officers across a table in an Albuquerque police interview room.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        }
+      ]
+    },
+    "7": {
+      "title": "Bingo",
+      "candidates": [
+        {
+          "text": "Jimmy stacks boxes of legal documents in Chuck's house, hoping the cases will tempt his brother back to work.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Jimmy caring for Chuck and trying to re-engage him with work — without revealing any outcome, reveal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about Jimmy caring for Chuck, revealing no outcome, death, betrayal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture — Jimmy caring for Chuck and trying to re-engage him with work — without revealing any outcome, reveal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy and Mike bring the borrowed notebook back to the two Philadelphia detectives, who are unimpressed by their explanation.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary follow-up texture from the already-seen notebook theft, revealing no new outcome or answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows a follow-up interaction returning the already-stolen notebook, ordinary texture that discloses no new outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "This is ordinary follow-up texture from the already-seen notebook theft, revealing no new outcome or answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy arrives to find Chuck standing outside his house, insisting he is building up a tolerance to electromagnetic waves.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point in Chuck's condition — that he has left the house and is attempting to overcome his hypersensitivity — following his hospitalization and the doctor's psychosomatic diagnosis."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Chuck stepping outside and claiming he's building tolerance is character texture consistent with his known condition, not a plot outcome, reveal or turning point."
+                }
+              ],
+              "reason": "It reveals a turning point in Chuck's condition — that he has left the house and is attempting to overcome his hypersensitivity — following his hospitalization and the doctor's psychosomatic diagnosis."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals a turning point in Chuck's condition — that he has left the house and is attempting to overcome his hypersensitivity — following his hospitalization and the doctor's psychosomatic diagnosis."
+        },
+        {
+          "text": "Jimmy pitches Kim on the idea of the two of them going into a law partnership together.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A pitch or proposal is character texture and doesn't disclose the outcome of any pending conflict or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy making a proposal rather than its outcome, and a partnership pitch to Kim is character texture consistent with their established working rapport, leaving the pending questions unanswered."
+                }
+              ],
+              "reason": "A pitch or proposal is character texture and doesn't disclose the outcome of any pending conflict or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "RICO",
+      "candidates": [
+        {
+          "text": "In a flashback, Jimmy is working in the HHM mailroom and celebrates wildly with Kim over his bar exam results.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "That Jimmy passed the bar and works as a lawyer is already established, so this flashback only adds backstory texture about his early days at HHM and friendship with Kim."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jimmy is already a practicing lawyer in the timeline the viewer knows, so a flashback to him passing the bar and celebrating with Kim is backstory texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "That Jimmy passed the bar and works as a lawyer is already established, so this flashback only adds backstory texture about his early days at HHM and friendship with Kim."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Escorted out of the retirement home, Jimmy ends up rooting around in the facility's dumpster.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jimmy's nursing-home client-recruitment effort ends with him being thrown out, and points toward his dumpster search uncovering something at the facility \\u2014 an outcome/discovery the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jimmy's elder-law hustle at the nursing home goes wrong enough to get him thrown out, and points to him digging up discarded documents (the Sandpiper lead) as a consequence."
+                }
+              ],
+              "reason": "It reveals that Jimmy's nursing-home client-recruitment effort ends with him being thrown out, and points toward his dumpster search uncovering something at the facility \\u2014 an outcome/discovery the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jimmy's nursing-home client-recruitment effort ends with him being thrown out, and points toward his dumpster search uncovering something at the facility \\u2014 an outcome/discovery the viewer hasn't seen."
+        },
+        {
+          "text": "Jimmy tells Chuck he studied law by distance learning through the University of American Samoa.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It's backstory texture about how Jimmy got his degree; the viewer already knows he is a practicing lawyer, and no pending conflict's outcome is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's minor backstory texture about how Jimmy earned his law degree, not an outcome, betrayal, or answer to a pending question the viewer is tracking."
+                }
+              ],
+              "reason": "It's backstory texture about how Jimmy got his degree; the viewer already knows he is a practicing lawyer, and no pending conflict's outcome is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy and Chuck spend hours spreading out strips of shredded paper, fitting the pieces back together.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It shows Chuck actively working a case alongside Jimmy, answering the open question of whether Jimmy's plan to lure his brother back into practicing law succeeds, and implies they've uncovered discarded evidence."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open thread of whether Jimmy's scheme to lure Chuck back into lawyering works, showing Chuck actively engaged in casework with him, and hints at the document-based discovery driving Jimmy's big elder-law case."
+                }
+              ],
+              "reason": "It shows Chuck actively working a case alongside Jimmy, answering the open question of whether Jimmy's plan to lure his brother back into practicing law succeeds, and implies they've uncovered discarded evidence."
+            }
+          },
+          "rejected": "consequence (2/2): It shows Chuck actively working a case alongside Jimmy, answering the open question of whether Jimmy's plan to lure his brother back into practicing law succeeds, and implies they've uncovered discarded evidence."
+        },
+        {
+          "text": "Jimmy types up a hasty demand letter and hands it over at the retirement community's front office.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy performing an ordinary lawyerly task at a nursing home he already frequents for elder-law clients, without disclosing any outcome, discovery, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy doing routine lawyerly work in the elder-law setting already established, without revealing any outcome, discovery, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It shows Jimmy performing an ordinary lawyerly task at a nursing home he already frequents for elder-law clients, without disclosing any outcome, discovery, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Pimento",
+      "candidates": [
+        {
+          "text": "Sandpiper's lawyers bury Jimmy and Chuck under an avalanche of paperwork, boxes piling up around them.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Standard litigation tactic and case texture that doesn't disclose an outcome, death, betrayal or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary litigation texture, an expected tactic in the class action case that reveals no outcome, death, betrayal, or answer to an open question."
+                }
+              ],
+              "reason": "Standard litigation tactic and case texture that doesn't disclose an outcome, death, betrayal or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike hires on as bodyguard for a jittery amateur who sells stolen pharmaceutical pills to Nacho.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses a turning point in Mike's arc \\u2014 taking his first criminal bodyguard job \\u2014 and a new alliance/connection with Nacho via a pill-dealing client, which the viewer has not yet seen established."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a new job/setting for Mike at the start of a subplot rather than resolving any pending conflict or open question the viewer has."
+                }
+              ],
+              "reason": "It discloses a turning point in Mike's arc \\u2014 taking his first criminal bodyguard job \\u2014 and a new alliance/connection with Nacho via a pill-dealing client, which the viewer has not yet seen established."
+            }
+          },
+          "rejected": "consequence (1/2): It discloses a turning point in Mike's arc \\u2014 taking his first criminal bodyguard job \\u2014 and a new alliance/connection with Nacho via a pill-dealing client, which the viewer has not yet seen established."
+        },
+        {
+          "text": "Mike looks for extra money to help Stacey and Kaylee, and takes on private security work.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Kaylee"
+        }
+      ]
+    },
+    "10": {
+      "title": "Marco",
+      "candidates": [
+        {
+          "text": "Jimmy is calling numbers at a bingo game in the senior center when he comes apart in front of the residents.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an emotional breakdown during an ordinary senior-center activity, which is character texture consistent with Jimmy's known fallout with Chuck rather than a plot outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy's emotional state during an ordinary activity at the senior center, a natural extension of the fallout from Chuck's already-revealed betrayal, without disclosing any new outcome, reveal, or plot turn."
+                }
+              ],
+              "reason": "It shows an emotional breakdown during an ordinary senior-center activity, which is character texture consistent with Jimmy's known fallout with Chuck rather than a plot outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Back in Cicero, Jimmy sits in a bar with Marco, the two of them trading old stories.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary scene of Jimmy reminiscing with Marco in a bar, a setting and relationship already established in earlier flashbacks, without disclosing any outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jimmy reminiscing with his old friend in a bar is ordinary character texture, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "It shows an ordinary scene of Jimmy reminiscing with Marco in a bar, a setting and relationship already established in earlier flashbacks, without disclosing any outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy and Marco spend a solid week working one con after another around Cicero.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jimmy reconnecting with Marco for cons in Cicero is character texture consistent with their established dynamic and reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jimmy and Marco running cons in Cicero is established character texture consistent with prior flashbacks, and reveals no outcome or turning point."
+                }
+              ],
+              "reason": "Jimmy reconnecting with Marco for cons in Cicero is character texture consistent with their established dynamic and reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a flashback, Jimmy says goodbye to Marco, explaining he's taking a legitimate job out in Albuquerque.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jimmy left Cicero for a legitimate job in Albuquerque per Chuck's deal, so this flashback goodbye is established texture rather than a new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jimmy left Cicero for a legitimate job in Albuquerque as Chuck's condition, so this flashback goodbye adds only texture and no new outcome."
+                }
+              ],
+              "reason": "The viewer already knows Jimmy left Cicero for a legitimate job in Albuquerque per Chuck's deal, so this flashback goodbye is established texture rather than a new outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 2274,
+    "out": 781,
+    "cache_read": 13882,
+    "cache_write": 7302,
+    "calls": 8
+  },
+  "recheck": [
+    {
+      "episode": 7,
+      "text": "Jimmy and Mike bring the borrowed notebook back to the two Philadelphia detectives, who are unimpressed by their explanation.",
+      "reason": "It reveals that Mike enlists Jimmy as an ally in a con against the Philadelphia detectives who have just shown up at his door, indicating Mike is actively deceiving them rather than merely being questioned."
+    },
+    {
+      "episode": 8,
+      "text": "In a flashback, Jimmy is working in the HHM mailroom and celebrates wildly with Kim over his bar exam results.",
+      "reason": "It answers the open question of Jimmy's path to becoming a lawyer by revealing he passed the bar exam while working in HHM's mailroom, and confirms a close early relationship with Kim."
+    },
+    {
+      "episode": 8,
+      "text": "Jimmy types up a hasty demand letter and hands it over at the retirement community's front office.",
+      "reason": "It reveals that Jimmy uncovers wrongdoing at the retirement home and escalates it into a legal claim against them, a turning point not yet foreshadowed."
+    },
+    {
+      "episode": 9,
+      "text": "Sandpiper's lawyers bury Jimmy and Chuck under an avalanche of paperwork, boxes piling up around them.",
+      "reason": "It reveals that Jimmy uncovers/pursues a major class-action case against Sandpiper and, crucially, that Chuck is drawn back into practicing law alongside him \\u2014 answering the pending question of Jimmy's efforts to re-engage his brother."
+    }
+  ],
+  "recheck_spend": {
+    "in": 4520,
+    "out": 8091,
+    "cache_read": 61758,
+    "cache_write": 3346,
+    "calls": 34
+  }
+}

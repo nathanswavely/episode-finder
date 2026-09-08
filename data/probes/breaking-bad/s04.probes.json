@@ -1,0 +1,244 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 4,
+  "source": {
+    "title": "Breaking Bad season 4",
+    "revid": 1365318951,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_4&oldid=1365318951",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Box Cutter",
+      "probes": [
+        {
+          "text": "Hank, stuck at home after his injury, snaps at Marie and buries himself in collecting and cataloging minerals.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A jumpy Saul has taken on a personal bodyguard who follows him around.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Skyler cannot reach Walt on the phone and fears something has happened to him.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Thirty-Eight Snub",
+      "probes": [
+        {
+          "text": "Andrea stops by Jesse's place, worried about him; he presses a thick stack of cash on her for Brock.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hank does his physical therapy sessions at home, and Marie is finding his mood harder and harder to bear.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jesse installs an elaborate new stereo system in his living room, and the party there simply never ends.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "3": {
+      "title": "Open House",
+      "probes": [
+        {
+          "text": "Walt seethes at the new motion-detecting surveillance camera watching him from the ceiling of the lab.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse's house party runs around the clock, and he flings piles of cash into the middle of the chaos.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Marie spends her afternoons drifting alone through strangers' real-estate open houses.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Bullet Points",
+      "probes": [
+        {
+          "text": "Skyler hands Walt a typed list of talking points and makes him rehearse his confession line by line.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt grumbles about the wording of a speech he is supposed to deliver spontaneously to Hank and Walt Jr.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Hank asks Walt to read aloud a passage about a chemical process from a handwritten lab notebook.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Shotgun",
+      "probes": [
+        {
+          "text": "Walt and Skyler sign the paperwork that officially makes them the owners of the car wash.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jesse rides along with Mike all day, driving from stop to stop across New Mexico picking up money.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt, agitated and alone at the lab, demands to know from Mike where Jesse has been taken.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "6": {
+      "title": "Cornered",
+      "probes": [
+        {
+          "text": "Walt hands cash to three workers at the industrial laundry, having them come downstairs and scrub the lab.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Worn down by his son's pleading for a new car, Walt buys him a Dodge Challenger.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Problem Dog",
+      "probes": [
+        {
+          "text": "Skyler sits with far more cash than she expected, unsure the car wash can plausibly account for it.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Hank has Walt Jr. drive him out to Los Pollos Hermanos for a meal.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse turns up again at his twelve-step meeting and speaks in front of the group.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Hermanos",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Gus sits at the bedside of the old man in the nursing home, speaking quietly to him about his nephews.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt again presses Jesse to use the poison on Gus at the very first opportunity he gets.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "9": {
+      "title": "Bug",
+      "probes": [
+        {
+          "text": "Skyler pulls open a hatch and climbs down into the crawl space beneath the house, where the cash is kept.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Sitting in on a tax audit, Skyler plays the giggling, hopeless bookkeeper who knows nothing about standard accounting practices.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Salud",
+      "probes": [
+        {
+          "text": "In the morning Walt apologises to his son for the drugged state he was in the night before.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt fails to show up for his son's birthday gathering at the house.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Walt Jr. lets himself into his father's apartment and finds him bloodied and slurring, then stays the night to look after him.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "11": {
+      "title": "Crawl Space",
+      "probes": [],
+      "fine_only": []
+    },
+    "12": {
+      "title": "End Times",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Skyler, Walt Jr. and the baby move into Hank and Marie's house, with agents watching outside.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt sits alone in his shuttered, barricaded house, furniture pushed against the doors, waiting for someone to come.",
+          "specificity": null,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "13": {
+      "title": "Face Off",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Detectives press Jesse with questions in a hospital corridor until Saul turns up and shuts the interview down.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

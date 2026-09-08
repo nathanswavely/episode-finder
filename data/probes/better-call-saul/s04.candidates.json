@@ -1,0 +1,510 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 4,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Better Call Saul season 4",
+    "revid": 1365317301,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_4&oldid=1365317301",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Smoke",
+      "candidates": [
+        {
+          "text": "Gene, riding in a taxi back to the mall, notices an Albuquerque Isotopes air freshener and gets out early.",
+          "specificity": 5,
+          "characters_named": [
+            "Gene"
+          ],
+          "grounded_in": "he spots an Albuquerque Isotopes air freshener; he exits before reaching the mall",
+          "grounded_ok": true
+        },
+        {
+          "text": "A hospital clerk presses Gene for his personal information so she can complete the billing paperwork.",
+          "specificity": 4,
+          "characters_named": [
+            "Gene"
+          ],
+          "grounded_in": "a worrying encounter with a hospital clerk who needs his personal information for billing purposes",
+          "grounded_ok": true
+        },
+        {
+          "text": "After his first Madrigal site visit, Mike hands over a detailed list of the safety violations he found.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "details a list of violations he uncovered on his first site visit",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 932,
+        "cache_read": 0,
+        "cache_write": 11299
+      }
+    },
+    "2": {
+      "title": "Breathe",
+      "candidates": [
+        {
+          "text": "Jimmy sits through a job interview at a copier showroom, pitching himself hard as a salesman.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy interviews for a job as a salesman at Neff Copiers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lydia is exasperated to learn Mike is actually walking Madrigal sites instead of just collecting paychecks.",
+          "specificity": 4,
+          "characters_named": [
+            "Lydia",
+            "Mike"
+          ],
+          "grounded_in": "Lydia informs Mike that his security consulting is meant to be a paper transaction",
+          "grounded_ok": true
+        },
+        {
+          "text": "Rebecca and Kim sit down in Howard's office to go through the paperwork of Chuck's estate.",
+          "specificity": 4,
+          "characters_named": [
+            "Rebecca",
+            "Kim",
+            "Howard",
+            "Chuck"
+          ],
+          "grounded_in": "Rebecca and Kim meet with Howard to review the disposition of Chuck's estate",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1283,
+        "cache_read": 11299,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Something Beautiful",
+      "candidates": [
+        {
+          "text": "Jimmy sounds Mike out about lifting a collectible figurine from the copier showroom where he interviewed.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Mike"
+          ],
+          "grounded_in": "Jimmy approaches Mike to steal the Hummel",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim is back at her desk on Mesa Verde business, uneasy about how fast the bank wants to expand.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim returns to working with Mesa Verde but is concerned about their planned rapid expansion",
+          "grounded_ok": true
+        },
+        {
+          "text": "An after-hours job at the copier store nearly falls apart when it turns out the owner sleeps on the premises.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "The crime is nearly a bust due to the unexpected development of the owner living at the Copiers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Gus stops by a university chemistry lab to look over test results on meth samples he left there.",
+          "specificity": 4,
+          "characters_named": [
+            "Gus"
+          ],
+          "grounded_in": "Gus visits the university to check on the quality of meth samples he gave to Gale Boetticher for testing",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the episode's other beats (the staged attack, Nacho's wounds, the letter from Chuck) are injuries, deaths or emotional reveals and are excluded.",
+      "usage": {
+        "in": 42,
+        "out": 1409,
+        "cache_read": 11299,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Talk",
+      "candidates": [
+        {
+          "text": "Bored behind the counter of a nearly empty cell phone store, Jimmy tries to drum up business himself.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy is quickly bored with managing a cellular phone store and tries to boost business.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim sits at the back of a courtroom, watching a judge work through a day of small cases.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim observes Judge Munsinger's courtroom, hoping to rekindle her interest in the law by taking on pro bono defense counsel work.",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the support group, Mike loses patience with another member's story about a wife who died.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike confronts Henry in their support group for falsely claiming to have a wife who died.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike walks another Madrigal warehouse with a clipboard, handing over a written list of things to fix.",
+          "specificity": 2,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Later, he inspects another Madrigal site and provides a list of items to fix.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1255,
+        "cache_read": 11299,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Quite a Ride",
+      "candidates": [
+        {
+          "text": "Mike quietly escorts a group of foreign engineers through an industrial laundry so they can survey the space beneath it.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike discreetly escorts foreign structural engineers through the industrial laundry so they can evaluate the space below",
+          "grounded_ok": true
+        },
+        {
+          "text": "Behind the counter, Jimmy talks a wary customer into buying several prepaid phones at once to protect his privacy.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy convinces a customer to buy several prepaid cellular phones as a way to maintain his privacy",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a flash-forward, Francesca hurriedly feeds documents into a shredder while Saul empties cash and mementos from his office.",
+          "specificity": 5,
+          "characters_named": [
+            "Francesca",
+            "Saul"
+          ],
+          "grounded_in": "Francesca quickly shreds documents and Saul frantically collects cash, mementos, and paperwork from his office",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim, newly handed several pro bono defendants, stays with a courtroom case while Mesa Verde paperwork sits waiting.",
+          "specificity": 3,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim is assigned as pro bono counsel for several defendants",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1497,
+        "cache_read": 11299,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Piñata",
+      "candidates": [
+        {
+          "text": "In a flashback, Kim and Jimmy sort and deliver mail in the HHM mailroom, where she is still a law student.",
+          "specificity": 5,
+          "characters_named": [
+            "Kim",
+            "Jimmy"
+          ],
+          "grounded_in": "In a flashback, Kim and Jimmy work in HHM's mailroom. Third-year law student Kim demonstrates her legal knowledge",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike quietly outfits hidden living quarters and recreation space underground for Werner's crew as they begin digging.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike",
+            "Werner"
+          ],
+          "grounded_in": "Mike creates secret living and recreation facilities for Werner's crew, who begin constructing Gus' meth \"superlab\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "At Hector's hospital bedside, Gus recounts a childhood story about a lúcuma tree he nursed back to health.",
+          "specificity": 5,
+          "characters_named": [
+            "Hector",
+            "Gus"
+          ],
+          "grounded_in": "Gus visits a hospitalized, unconscious Hector and previews their future by relating a childhood story about trapping a coati that ate the fruit from a lúcuma tree Gus nursed to health",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy tries to snap a slumping, listless Howard out of it with a blunt \"tough love\" speech.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Howard"
+          ],
+          "grounded_in": "Jimmy tries to rouse a depressed Howard with a \"tough love\" speech.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1499,
+        "cache_read": 11299,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Something Stupid",
+      "candidates": [
+        {
+          "text": "A long split-screen montage carries Jimmy and Kim through months of parallel daily routines as time slides forward.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy",
+            "Kim"
+          ],
+          "grounded_in": "In a time jump sequence of several months that advances to early 2004, Jimmy and Kim are shown to be drifting further apart.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Deep underground, the digging drags slower than expected, tempers fray, and Mike steps in to pull two workers apart.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "work proceeds more slowly than expected, frustrating the crew, and Mike has to step in to break up a fight",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy walks through empty office spaces, sizing them up for the practice he plans to reopen.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy plans his return to practicing law, including searching for an office.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim's arm is out of its cast at last, and she is flourishing at her new firm.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim's arm has healed, and to Jimmy's chagrin, she thrives at Schweikart & Cokely",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim splits her days between Mesa Verde's expansion paperwork and the pro bono defence cases she actually enjoys.",
+          "specificity": 3,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "with Mesa Verde's expansion continuing on schedule and Kim finding time to work on the pro bono criminal defense cases that give her satisfaction",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1325,
+        "cache_read": 11299,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Coushatta",
+      "candidates": [
+        {
+          "text": "Mike takes the German construction crew out to a strip club for a night off.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike arranges a strip club outing for Werner and his crew.",
+          "grounded_ok": true
+        },
+        {
+          "text": "On a long bus ride, Jimmy writes stacks of letters, switching pens, paper and handwriting, recruiting fellow passengers.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy takes a bus ride, uses a variety of pens and paper to write supportive mail for Huell, and enlists other passengers to help.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy's TV commercial film crew sit around answering a pile of pay-as-you-go phones in assorted voices.",
+          "specificity": 5,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "pay-as-you-go cellular phones that Jimmy and his TV ad film crew answer",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim rounds up staff at her new firm and promises to bury the prosecutor in paperwork.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim"
+          ],
+          "grounded_in": "Kim enlists S&C employees in Huell's defense and indicates she'll bury prosecutor Suzanne Ericsen in paperwork.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1278,
+        "cache_read": 11299,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Wiedersehen",
+      "candidates": [
+        {
+          "text": "Deep in the excavation, Werner's crew detonate the rock blocking the elevator shaft and cheer as the dust settles.",
+          "specificity": 4,
+          "characters_named": [
+            "Werner"
+          ],
+          "grounded_in": "Werner's crew blow up the rock preventing construction of the elevator and celebrates that their work is almost done.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy sits before a panel, eloquently answering their questions about why he should have his law license back.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy answers the questions eloquently at his reinstatement hearing",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lalo visits Hector's room carrying a small brass concierge bell he kept as a souvenir.",
+          "specificity": 5,
+          "characters_named": [
+            "Lalo",
+            "Hector"
+          ],
+          "grounded_in": "Lalo visits Hector and improves his communication ability with a concierge bell Lalo kept as a souvenir",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim and Jimmy quietly swap out the approved building plans for Mesa Verde's new branch in Lubbock, Texas.",
+          "specificity": 4,
+          "characters_named": [
+            "Kim",
+            "Jimmy"
+          ],
+          "grounded_in": "Jimmy and Kim surreptitiously replace approved plans for Mesa Verde's Lubbock, Texas branch with plans for a bigger building",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lalo asks Nacho to show him where the Salamancas take delivery of the drugs coming up from Mexico.",
+          "specificity": 4,
+          "characters_named": [
+            "Lalo",
+            "Nacho"
+          ],
+          "grounded_in": "He then asks Nacho to show him where the Salamancas receive their drugs after Gus' trucks bring them from Mexico.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 2006,
+        "cache_read": 11299,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Winner",
+      "candidates": [
+        {
+          "text": "Jimmy sits on the panel interviewing applicants for the scholarship established in Chuck's name, chatting with the candidates.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Chuck"
+          ],
+          "grounded_in": "Jimmy participates in interviewing Chuck's scholarship candidates",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lalo quietly watches Gus' operation from a distance, learning the routines and regular activities of the business.",
+          "specificity": 4,
+          "characters_named": [
+            "Lalo",
+            "Gus"
+          ],
+          "grounded_in": "Lalo surveils Gus' drug operation and learns about its regular activities",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a flashback, Chuck puts on a show of celebration on the day Jimmy becomes a licensed attorney.",
+          "specificity": 4,
+          "characters_named": [
+            "Chuck",
+            "Jimmy"
+          ],
+          "grounded_in": "In a flashback, Chuck feigns enthusiasm on the day Jimmy becomes an attorney",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kim organizes public occasions where Jimmy makes a visible display of mourning his brother in front of onlookers.",
+          "specificity": 3,
+          "characters_named": [
+            "Kim",
+            "Jimmy"
+          ],
+          "grounded_in": "Kim helps Jimmy's appeal by arranging public displays where he feigns grief for Chuck",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1592,
+        "cache_read": 11299,
+        "cache_write": 0
+      }
+    }
+  }
+}

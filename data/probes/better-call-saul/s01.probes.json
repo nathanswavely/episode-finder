@@ -1,0 +1,177 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 1,
+  "source": {
+    "title": "Better Call Saul season 1",
+    "revid": 1365317279,
+    "url": "https://en.wikipedia.org/w/index.php?title=Better_Call_Saul_season_1&oldid=1365317279",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Uno",
+      "probes": [
+        {
+          "text": "Jimmy, scraping by on public defender work, tries hard to persuade a couple accused of embezzlement to retain him.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Mijo",
+      "probes": [
+        {
+          "text": "Out in the desert, Jimmy talks fast and nonstop at Tuco while the twins kneel in the dirt.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy keeps insisting, in a cheap suit and rising panic, that he is a lawyer, a public defender.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "A soft-spoken young associate hands Jimmy a phone number, telling him to call when he's \"in the game.\"",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Nacho",
+      "probes": [
+        {
+          "text": "Jimmy notices a van parked near the Kettleman house with someone inside watching the place.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Hero",
+      "probes": [
+        {
+          "text": "In a Cicero flashback, Jimmy and a buddy work a bar patron with a fake Rolex watch.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Alpine Shepherd Boy",
+      "probes": [
+        {
+          "text": "An elderly client dictates her will, leaving her collection of Hummel figurines to various friends and relatives.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy works the nursing home circuit dressed like the TV lawyer Matlock, in a pale suit.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "The clients drawn in by Jimmy's recent local fame turn out to be far less promising than he hoped.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Five-O",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Jimmy, called in as Mike's lawyer at the police station, spills a full cup of coffee across the room.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "Bingo",
+      "probes": [
+        {
+          "text": "Jimmy stacks boxes of legal documents in Chuck's house, hoping the cases will tempt his brother back to work.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy pitches Kim on the idea of the two of them going into a law partnership together.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jimmy and Mike bring the borrowed notebook back to the two Philadelphia detectives, who are unimpressed by their explanation.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "RICO",
+      "probes": [
+        {
+          "text": "Jimmy tells Chuck he studied law by distance learning through the University of American Samoa.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "In a flashback, Jimmy is working in the HHM mailroom and celebrates wildly with Kim over his bar exam results.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy types up a hasty demand letter and hands it over at the retirement community's front office.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "Pimento",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Sandpiper's lawyers bury Jimmy and Chuck under an avalanche of paperwork, boxes piling up around them.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "10": {
+      "title": "Marco",
+      "probes": [
+        {
+          "text": "Jimmy is calling numbers at a bingo game in the senior center when he comes apart in front of the residents.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Back in Cicero, Jimmy sits in a bar with Marco, the two of them trading old stories.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Jimmy and Marco spend a solid week working one con after another around Cicero.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

@@ -1,0 +1,1124 @@
+{
+  "show": "Better Call Saul",
+  "slug": "better-call-saul",
+  "season": 4,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Smoke",
+      "candidates": [
+        {
+          "text": "Gene, riding in a taxi back to the mall, notices an Albuquerque Isotopes air freshener and gets out early.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric texture from the Gene flash-forward — a taxi ride and a moment of unease — without revealing any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is atmospheric flash-forward texture showing Gene's paranoia in a cab, without revealing any outcome, death, or discovery."
+                }
+              ],
+              "reason": "This is atmospheric texture from the Gene flash-forward — a taxi ride and a moment of unease — without revealing any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A hospital clerk presses Gene for his personal information so she can complete the billing paperwork.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A routine hospital admissions/billing exchange is ordinary texture; it discloses no outcome, reveal or turning point beyond the already-shown collapse."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary follow-on texture from Gene's collapse—an administrative hospital interaction that doesn't disclose any discovery, exposure, or outcome."
+                }
+              ],
+              "reason": "A routine hospital admissions/billing exchange is ordinary texture; it discloses no outcome, reveal or turning point beyond the already-shown collapse."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "After his first Madrigal site visit, Mike hands over a detailed list of the safety violations he found.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mike performing routine security-consultant work at Madrigal is ordinary character texture, already established, and reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike performing routine security-consultant duties at Madrigal is ordinary character texture already established, revealing no outcome or turning point."
+                }
+              ],
+              "reason": "Mike performing routine security-consultant work at Madrigal is ordinary character texture, already established, and reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Breathe",
+      "candidates": [
+        {
+          "text": "Jimmy sits through a job interview at a copier showroom, pitching himself hard as a salesman.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an ordinary job-hunting activity during Jimmy's suspension without disclosing any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jimmy interviewing for a sales job during his suspension is ordinary character texture with no outcome, death, or reveal disclosed."
+                }
+              ],
+              "reason": "It shows an ordinary job-hunting activity during Jimmy's suspension without disclosing any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Lydia is exasperated to learn Mike is actually walking Madrigal sites instead of just collecting paychecks.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Mike began doing genuine security consulting at Madrigal; Lydia's exasperation is character texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Mike began doing genuine security consulting at Madrigal; Lydia's exasperation is character texture with no new outcome revealed."
+                }
+              ],
+              "reason": "The viewer already knows Mike began doing genuine security consulting at Madrigal; Lydia's exasperation is character texture rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Rebecca and Kim sit down in Howard's office to go through the paperwork of Chuck's estate.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Handling Chuck's estate paperwork is an ordinary post-funeral activity already implied by his known death, and the sentence discloses no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows an ordinary administrative meeting after Chuck's already-known death, without disclosing the will's contents or any outcome."
+                }
+              ],
+              "reason": "Handling Chuck's estate paperwork is an ordinary post-funeral activity already implied by his known death, and the sentence discloses no outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Something Beautiful",
+      "candidates": [
+        {
+          "text": "Jimmy sounds Mike out about lifting a collectible figurine from the copier showroom where he interviewed.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "that Jimmy had interviewed at the copier store"
+              ]
+            }
+          },
+          "rejected": "faithful: that Jimmy had interviewed at the copier store"
+        },
+        {
+          "text": "Kim is back at her desk on Mesa Verde business, uneasy about how fast the bank wants to expand.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary professional texture showing Kim at routine client work, with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary professional texture showing Kim continuing routine client work, with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary professional texture showing Kim at routine client work, with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "An after-hours job at the copier store nearly falls apart when it turns out the owner sleeps on the premises.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes an obstacle arising during Jimmy's already-telegraphed Hummel scheme without disclosing whether the theft succeeds or any outcome."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Jimmy actually goes through with the Hummel heist he was seen scoping out and implies it ultimately succeeds despite the complication, answering a pending question."
+                }
+              ],
+              "reason": "It confirms Jimmy actually goes through with the Hummel heist he was seen scoping out and implies it ultimately succeeds despite the complication, answering a pending question."
+            }
+          },
+          "rejected": "consequence (1/2): It confirms Jimmy actually goes through with the Hummel heist he was seen scoping out and implies it ultimately succeeds despite the complication, answering a pending question."
+        },
+        {
+          "text": "Gus stops by a university chemistry lab to look over test results on meth samples he left there.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Gus visiting a chemistry lab to review meth sample results is ordinary business texture consistent with his established operation and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture showing Gus's business operations, revealing no outcome, death, betrayal, or answer to a pending question."
+                }
+              ],
+              "reason": "Gus visiting a chemistry lab to review meth sample results is ordinary business texture consistent with his established operation and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Talk",
+      "candidates": [
+        {
+          "text": "Bored behind the counter of a nearly empty cell phone store, Jimmy tries to drum up business himself.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jimmy passing time at a mundane sales job, which is ordinary character texture rather than a plot outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Shows Jimmy idling at a retail job — ordinary character texture and setting, with no outcome, reveal or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It only shows Jimmy passing time at a mundane sales job, which is ordinary character texture rather than a plot outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim sits at the back of a courtroom, watching a judge work through a day of small cases.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Kim observing routine courtroom proceedings is ordinary character texture with no outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Merely shows Kim observing routine court proceedings, ordinary character texture with no outcome or reveal."
+                }
+              ],
+              "reason": "Kim observing routine courtroom proceedings is ordinary character texture with no outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At the support group, Mike loses patience with another member's story about a wife who died.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mike snapping at a support-group member is character texture and doesn't disclose any plot outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike attending the support group and reacting irritably is ordinary character texture, not an outcome or reveal."
+                }
+              ],
+              "reason": "Mike snapping at a support-group member is character texture and doesn't disclose any plot outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike walks another Madrigal warehouse with a clipboard, handing over a written list of things to fix.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is routine texture consistent with Mike's already-established security consulting inspections and reveals no new outcome or plot development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Mike conducting a Madrigal security inspection is an already-established routine activity with no new outcome or reveal."
+                }
+              ],
+              "reason": "This is routine texture consistent with Mike's already-established security consulting inspections and reveals no new outcome or plot development."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Quite a Ride",
+      "candidates": [
+        {
+          "text": "Mike quietly escorts a group of foreign engineers through an industrial laundry so they can survey the space beneath it.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the answer to the open question of what Gus's \"job\" for Mike is \\u2014 the secret construction of the superlab beneath the laundry \\u2014 and the arrival of the German engineering crew."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the answer to the open question of what \"the job\" Gus wants Mike to do is \\u2014 vetting/overseeing engineers to build the underground superlab beneath the laundry \\u2014 and confirms Mike accepts the assignment."
+                }
+              ],
+              "reason": "It reveals the answer to the open question of what Gus's \"job\" for Mike is \\u2014 the secret construction of the superlab beneath the laundry \\u2014 and the arrival of the German engineering crew."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the answer to the open question of what Gus's \"job\" for Mike is \\u2014 the secret construction of the superlab beneath the laundry \\u2014 and the arrival of the German engineering crew."
+        },
+        {
+          "text": "Behind the counter, Jimmy talks a wary customer into buying several prepaid phones at once to protect his privacy.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy doing the sales work at the phone store the viewer already knows he runs, with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary business texture consistent with what the viewer already knows (Jimmy running the phone store and trying to boost sales), revealing no outcome, twist, or answer to a pending question."
+                }
+              ],
+              "reason": "It shows Jimmy doing the sales work at the phone store the viewer already knows he runs, with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a flash-forward, Francesca hurriedly feeds documents into a shredder while Saul empties cash and mementos from his office.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows from the Gene flash-forwards that Saul eventually flees and goes into hiding, so this glimpse of the office being cleared out adds atmosphere rather than a new outcome or answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The eventual collapse of Saul's practice and his flight into hiding is already established by the Gene/Omaha flash-forwards, so this is atmospheric detail rather than a new outcome."
+                }
+              ],
+              "reason": "The viewer already knows from the Gene flash-forwards that Saul eventually flees and goes into hiding, so this glimpse of the office being cleared out adds atmosphere rather than a new outcome or answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim, newly handed several pro bono defendants, stays with a courtroom case while Mesa Verde paperwork sits waiting.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a continuation of Kim's already-established interest in pro bono defense work and reveals no outcome, only character texture about her divided priorities."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary continuation of Kim's already-established interest in pro bono work, revealing no outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "This is a continuation of Kim's already-established interest in pro bono defense work and reveals no outcome, only character texture about her divided priorities."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Piñata",
+      "candidates": [
+        {
+          "text": "In a flashback, Kim and Jimmy sort and deliver mail in the HHM mailroom, where she is still a law student.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture/backstory showing an already-established early working relationship, revealing no outcome, twist, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a character-texture flashback showing their early working relationship at HHM, revealing no outcome, death, betrayal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture/backstory showing an already-established early working relationship, revealing no outcome, twist, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike quietly outfits hidden living quarters and recreation space underground for Werner's crew as they begin digging.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary logistical texture consistent with the already-known superlab construction plan and reveals no outcome, twist, or answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary logistical texture consistent with the already-known superlab construction plan, revealing no outcome, twist, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary logistical texture consistent with the already-known superlab construction plan and reveals no outcome, twist, or answer to an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At Hector's hospital bedside, Gus recounts a childhood story about a lúcuma tree he nursed back to health.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a character-texture scene of Gus telling a story at Hector's bedside, consistent with the already-known fact that Gus is keeping Hector alive, and it discloses no new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — a bedside monologue that conveys Gus's cruelty toward Hector, already established, without disclosing any outcome, death, or plot turn."
+                }
+              ],
+              "reason": "This is a character-texture scene of Gus telling a story at Hector's bedside, consistent with the already-known fact that Gus is keeping Hector alive, and it discloses no new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy tries to snap a slumping, listless Howard out of it with a blunt \"tough love\" speech.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Howard's guilt over Chuck's death and Jimmy's callousness are already established, so a tough-love conversation is character texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Howard's continuing grief-driven low state and an ordinary confrontation with Jimmy, which is character texture rather than a plot outcome or revelation."
+                }
+              ],
+              "reason": "Howard's guilt over Chuck's death and Jimmy's callousness are already established, so a tough-love conversation is character texture rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Something Stupid",
+      "candidates": [
+        {
+          "text": "A long split-screen montage carries Jimmy and Kim through months of parallel daily routines as time slides forward.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A montage of daily routines is ordinary character texture and conveys only a passage of time, not any outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A time-passage montage of daily routines is ordinary texture and discloses no outcome, reveal, or turning point."
+                }
+              ],
+              "reason": "A montage of daily routines is ordinary character texture and conveys only a passage of time, not any outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Deep underground, the digging drags slower than expected, tempers fray, and Mike steps in to pull two workers apart.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts routine construction friction and Mike's supervisory role, with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture — construction delays and crew friction on the superlab project the viewer already knows is underway, with no outcome, reveal, or turning point disclosed."
+                }
+              ],
+              "reason": "It depicts routine construction friction and Mike's supervisory role, with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy walks through empty office spaces, sizing them up for the practice he plans to reopen.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Scouting office space is ordinary character texture consistent with his known desire to restart his practice, and reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Scouting office space is ordinary character texture consistent with Jimmy's known ambition to restart his practice, revealing no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Scouting office space is ordinary character texture consistent with his known desire to restart his practice, and reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim's arm is out of its cast at last, and she is flourishing at her new firm.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Her arm healing and thriving at the firm she already joined is ordinary character texture, not an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Kim's cast coming off and her doing well at the firm she has already joined is ordinary character texture, not an outcome or reveal."
+                }
+              ],
+              "reason": "Her arm healing and thriving at the firm she already joined is ordinary character texture, not an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim splits her days between Mesa Verde's expansion paperwork and the pro bono defence cases she actually enjoys.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 2
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 2)"
+        }
+      ]
+    },
+    "8": {
+      "title": "Coushatta",
+      "candidates": [
+        {
+          "text": "Mike takes the German construction crew out to a strip club for a night off.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A night out for the crew is ordinary character texture and does not disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A night off at a strip club is ordinary character texture and doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A night out for the crew is ordinary character texture and does not disclose any outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "On a long bus ride, Jimmy writes stacks of letters, switching pens, paper and handwriting, recruiting fellow passengers.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy engaged in one of his typical con activities without revealing the target, outcome, or resolution of Huell's pending case."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It exposes the scheme Kim teased as her \"better way\" to save Huell \"– Jimmy forging mass letters of support \" answering an open question about their plan."
+                }
+              ],
+              "reason": "It exposes the scheme Kim teased as her \"better way\" to save Huell \"– Jimmy forging mass letters of support \" answering an open question about their plan."
+            }
+          },
+          "rejected": "consequence (1/2): It exposes the scheme Kim teased as her \"better way\" to save Huell \"– Jimmy forging mass letters of support \" answering an open question about their plan."
+        },
+        {
+          "text": "Jimmy's TV commercial film crew sit around answering a pile of pay-as-you-go phones in assorted voices.",
+          "checks": {},
+          "rejected": "form: second person"
+        },
+        {
+          "text": "Kim rounds up staff at her new firm and promises to bury the prosecutor in paperwork.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary legal-work texture consistent with Kim already stating she has a better way to defend Huell; it doesn't reveal the outcome of the case."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is texture showing Kim's legal tactics in the pending Huell case; her intent to fight it another way was already stated, and no outcome is revealed."
+                }
+              ],
+              "reason": "This is ordinary legal-work texture consistent with Kim already stating she has a better way to defend Huell; it doesn't reveal the outcome of the case."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "9": {
+      "title": "Wiedersehen",
+      "candidates": [
+        {
+          "text": "Deep in the excavation, Werner's crew detonate the rock blocking the elevator shaft and cheer as the dust settles.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A routine construction progress beat in the superlab build that resolves no pending conflict and reveals no outcome the viewer is waiting on."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows routine construction progress on the lab, a low-stakes milestone rather than a death, betrayal, discovery or resolution of any pending conflict."
+                }
+              ],
+              "reason": "A routine construction progress beat in the superlab build that resolves no pending conflict and reveals no outcome the viewer is waiting on."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jimmy sits before a panel, eloquently answering their questions about why he should have his law license back.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jimmy's return to law after his one-year suspension is already signposted, and the sentence shows only the hearing in progress without revealing its outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Jimmy attending an expected reinstatement hearing without disclosing the panel's decision or any outcome."
+                }
+              ],
+              "reason": "Jimmy's return to law after his one-year suspension is already signposted, and the sentence shows only the hearing in progress without revealing its outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Lalo visits Hector's room carrying a small brass concierge bell he kept as a souvenir.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A visit to Hector with a memento is character texture and doesn't resolve any pending conflict or reveal an outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A visit with a souvenir bell is character texture; it discloses no death, betrayal, discovery, or resolution of any pending conflict the viewer is tracking."
+                }
+              ],
+              "reason": "A visit to Hector with a memento is character texture and doesn't resolve any pending conflict or reveal an outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim and Jimmy quietly swap out the approved building plans for Mesa Verde's new branch in Lubbock, Texas.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Kim follows through on her stated desire to run cons by actively committing fraud against her own client Mesa Verde alongside Jimmy, a turning point in her arc that the viewer has only seen hinted at."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Kim actively crosses the line into criminal conning of her own client Mesa Verde with Jimmy—a major turning point in her arc that the previous episode only hinted at."
+                }
+              ],
+              "reason": "It reveals that Kim follows through on her stated desire to run cons by actively committing fraud against her own client Mesa Verde alongside Jimmy, a turning point in her arc that the viewer has only seen hinted at."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Kim follows through on her stated desire to run cons by actively committing fraud against her own client Mesa Verde alongside Jimmy, a turning point in her arc that the viewer has only seen hinted at."
+        },
+        {
+          "text": "Lalo asks Nacho to show him where the Salamancas take delivery of the drugs coming up from Mexico.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Lalo touring the operation's logistics is ordinary character/setting texture consistent with his established interest in business details, and reveals no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Lalo asking to be shown the delivery site is ordinary character texture consistent with his already-established interest in operational details, and reveals no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "Lalo touring the operation's logistics is ordinary character/setting texture consistent with his established interest in business details, and reveals no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "10": {
+      "title": "Winner",
+      "candidates": [
+        {
+          "text": "Jimmy sits on the panel interviewing applicants for the scholarship established in Chuck's name, chatting with the candidates.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary activity/setting scene consistent with Jimmy's known efforts to address his relationship with Chuck, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jimmy serving on the Chuck memorial scholarship panel is ordinary texture consistent with the already-known plan to rehabilitate his image for reinstatement, and it doesn't disclose the hearing's outcome or resolve Werner's escape."
+                }
+              ],
+              "reason": "This is an ordinary activity/setting scene consistent with Jimmy's known efforts to address his relationship with Chuck, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Lalo quietly watches Gus' operation from a distance, learning the routines and regular activities of the business.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Lalo observing Gus' operation is consistent with his already-established interest in the business details and reveals no outcome, discovery, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Lalo observing Gus' operation is consistent with his already-established curiosity about the business and reveals no outcome or new information."
+                }
+              ],
+              "reason": "Lalo observing Gus' operation is consistent with his already-established interest in the business details and reveals no outcome, discovery, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In a flashback, Chuck puts on a show of celebration on the day Jimmy becomes a licensed attorney.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A flashback showing Chuck feigning happiness at Jimmy's licensing only restates Chuck's already well-established resentment and sabotage of Jimmy's legal career, revealing no new outcome or open answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Chuck's insincere support of Jimmy's law career is already well established for the viewer, and this flashback discloses no new outcome or turning point."
+                }
+              ],
+              "reason": "A flashback showing Chuck feigning happiness at Jimmy's licensing only restates Chuck's already well-established resentment and sabotage of Jimmy's legal career, revealing no new outcome or open answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Kim organizes public occasions where Jimmy makes a visible display of mourning his brother in front of onlookers.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows the tactic Kim already promised to help with (Jimmy addressing Chuck for reinstatement) without disclosing whether the reinstatement succeeds or any other outcome."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Kim's promised plan to win Jimmy's reinstatement — staging public grief over Chuck — answering the open question of how they address the panel's objection."
+                }
+              ],
+              "reason": "It reveals the outcome of Kim's promised plan to win Jimmy's reinstatement — staging public grief over Chuck — answering the open question of how they address the panel's objection."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the outcome of Kim's promised plan to win Jimmy's reinstatement — staging public grief over Chuck — answering the open question of how they address the panel's objection."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 43623,
+    "out": 13411,
+    "cache_read": 617552,
+    "cache_write": 71085,
+    "calls": 151
+  },
+  "recheck": [
+    {
+      "episode": 1,
+      "text": "Gene, riding in a taxi back to the mall, notices an Albuquerque Isotopes air freshener and gets out early.",
+      "reason": "It reveals that Gene survives his collapse and is back at work, and sets up the turning point that his Albuquerque identity is at risk of being recognized in his hiding place."
+    },
+    {
+      "episode": 5,
+      "text": "Behind the counter, Jimmy talks a wary customer into buying several prepaid phones at once to protect his privacy.",
+      "reason": "It reveals that Jimmy takes up selling prepaid burner phones \"Saul Goodman\"-style, a new career/identity turn not yet established after his copier-sales interview."
+    },
+    {
+      "episode": 5,
+      "text": "In a flash-forward, Francesca hurriedly feeds documents into a shredder while Saul empties cash and mementos from his office.",
+      "reason": "It reveals that Jimmy will return to practising law with a full office as Saul Goodman (with Francesca as secretary) and depicts the eventual collapse/flight from that practice, answering the open question of his post-suspension future."
+    },
+    {
+      "episode": 6,
+      "text": "Mike quietly outfits hidden living quarters and recreation space underground for Werner's crew as they begin digging.",
+      "reason": "It reveals that the job Gus wants Mike to oversee is a secret underground excavation with a confined imported crew (Werner's), answering the open question of what Gus's plan and Mike's assignment are."
+    }
+  ],
+  "recheck_spend": {
+    "in": 2424,
+    "out": 6851,
+    "cache_read": 343262,
+    "cache_write": 8214,
+    "calls": 56
+  }
+}

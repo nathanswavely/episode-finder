@@ -1,0 +1,358 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 1,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Breaking Bad season 1",
+    "revid": 1367662595,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_1&oldid=1367662595",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Pilot",
+      "candidates": [
+        {
+          "text": "Walt spends the morning of his fiftieth birthday at the kitchen table with Skyler and their teenage son.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt",
+            "Skyler"
+          ],
+          "grounded_in": "celebrates his 50th birthday breakfast with his wife, Skyler, and their teenage son, Walter Jr.",
+          "grounded_ok": true
+        },
+        {
+          "text": "After teaching all day, Walt puts in hours at his second job at a car wash.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Later at his second job at a car wash",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt tags along in the car while Hank and other DEA agents raid a meth lab.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Hank"
+          ],
+          "grounded_in": "Walt does a ride-along on a methamphetamine lab raid with his brother-in-law, DEA Agent Hank Schrader",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1128,
+        "cache_read": 0,
+        "cache_write": 5452
+      }
+    },
+    "2": {
+      "title": "Cat's in the Bag...",
+      "candidates": [
+        {
+          "text": "At an ultrasound appointment, Skyler presses Walt about the late-night phone call she overheard the other night.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "at an ultrasound appointment, questions him about his recent phone call with Jesse",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler turns up uninvited at Jesse's front door and warns him to stay away from her husband.",
+          "specificity": 4,
+          "characters_named": [
+            "Skyler",
+            "Jesse"
+          ],
+          "grounded_in": "Skyler visits Jesse and threatens to call Hank if Jesse contacts Walt again",
+          "grounded_ok": false
+        },
+        {
+          "text": "Cornered by Skyler about his behavior, Walt claims he has been buying marijuana from a former student.",
+          "specificity": 3,
+          "characters_named": [
+            "Skyler",
+            "Walt"
+          ],
+          "grounded_in": "Walt covers by telling her that Jesse sells him marijuana",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt writes out careful instructions for Jesse specifying a plastic bin, and Jesse decides he knows better.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "but he uses his bathtub instead of Walt's suggestion of a plastic bin",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 45,
+        "out": 1563,
+        "cache_read": 5452,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "...And the Bag's in the River",
+      "candidates": [
+        {
+          "text": "Hank drives Walt Jr. out to a rundown motel to lecture him about gateway drugs.",
+          "specificity": 5,
+          "characters_named": [
+            "Hank",
+            "Walt Jr."
+          ],
+          "grounded_in": "Hank takes Walt Jr. to a rundown motel to tell him about \"gateway drugs\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt and Jesse spend the day cleaning up what is left of Emilio in the ruined bathroom.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse",
+            "Emilio"
+          ],
+          "grounded_in": "Walt and Jesse clean up the remains of Emilio",
+          "grounded_ok": true
+        },
+        {
+          "text": "Marie, convinced Walt Jr. has been smoking marijuana, asks Hank to scare the boy straight.",
+          "specificity": 4,
+          "characters_named": [
+            "Marie",
+            "Walt Jr.",
+            "Hank"
+          ],
+          "grounded_in": "Skyler's sister, Marie, mistakenly believes that Walter Jr. is smoking marijuana and asks Hank to scare him straight",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carrying food down to the basement, Walt collapses partway down the stairs.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "While bringing Krazy-8 food, Walt collapses while descending the stairs",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 45,
+        "out": 1078,
+        "cache_read": 5452,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Cancer Man",
+      "candidates": [
+        {
+          "text": "Jesse turns up at his parents' immaculate suburban house, and they are dismayed at the state he's in.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "he visits his family's house; Jesse's parents are disappointed and worried to see him in such a state",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse's much younger brother is a star at both sports and music, under heavy pressure from their parents.",
+          "specificity": 5,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "his younger brother, who is very successful in sports and music, is smoking marijuana to deal with the intense pressure from their parents",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse grows convinced law enforcement is closing in on him and becomes increasingly paranoid.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse becomes paranoid that law enforcement is after him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt Jr. gets upset with his father for carrying on as though everything at home were perfectly normal.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt Jr."
+          ],
+          "grounded_in": "Walt Jr. becomes upset that Walt is acting like everything is normal",
+          "grounded_ok": true
+        },
+        {
+          "text": "The family gathers around a backyard barbecue, Hank holding forth as usual.",
+          "specificity": 3,
+          "characters_named": [
+            "Hank"
+          ],
+          "grounded_in": "At a family barbecue",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1303,
+        "cache_read": 5452,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Gray Matter",
+      "candidates": [
+        {
+          "text": "Walt and Skyler attend an extravagant birthday party thrown by a wealthy former colleague from Walt's graduate school days.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Skyler"
+          ],
+          "grounded_in": "Walt and Skyler attend the birthday party of Elliott Schwartz, Walt's former colleague and current CEO of Gray Matter Technologies.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse and Badger try cooking a batch on their own, and what comes out is nothing like Walt's product.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse",
+            "Badger",
+            "Walt"
+          ],
+          "grounded_in": "he unsuccessfully attempts to replicate Walt's meth recipe with his friend Badger",
+          "grounded_ok": true
+        },
+        {
+          "text": "Caught by a cop trying to buy beer underage, Walt Jr. phones Hank instead of his own father.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt Jr.",
+            "Hank"
+          ],
+          "grounded_in": "Walt Jr. is busted by a cop for trying to purchase beer as a minor and calls Hank to pick him up",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jesse keeps hitting walls trying to find steady, legitimate work outside the drug trade.",
+          "specificity": 3,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse becomes frustrated that he cannot secure stable employment outside of the drug world",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1116,
+        "cache_read": 5452,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Crazy Handful of Nothin'",
+      "candidates": [
+        {
+          "text": "Walt shaves his head after discovering his hair has started falling out.",
+          "specificity": 5,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt shaves his head when he discovers that his hair is falling out.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt sits through his first chemotherapy session, hooked to the drip in the treatment room.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "Walt undergoes his first chemotherapy session.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Their first batch of product brings in only $2,600, and Walt insists on ramping up production.",
+          "specificity": 3,
+          "characters_named": [
+            "Walt"
+          ],
+          "grounded_in": "When their initial batch of meth only yields $2,600, Walt insists they need to ramp up production.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 930,
+        "cache_read": 5452,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "A No-Rough-Stuff-Type Deal",
+      "candidates": [
+        {
+          "text": "Jesse, now living out of the RV, puts his house on the market.",
+          "specificity": 4,
+          "characters_named": [
+            "Jesse"
+          ],
+          "grounded_in": "Jesse, who is now living in the RV, puts his house on the market.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt and Jesse can't get their hands on enough pseudoephedrine pills to keep production going.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "Walt and Jesse face production difficulties when they are not able to procure enough pseudoephedrine pills.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Skyler hosts a baby shower at the house, unwrapping gifts in front of the assembled guests.",
+          "specificity": 3,
+          "characters_named": [
+            "Skyler"
+          ],
+          "grounded_in": "Skyler throws a baby shower",
+          "grounded_ok": true
+        },
+        {
+          "text": "Walt and Jesse wrestle a large barrel of methylamine out of a locked warehouse at night.",
+          "specificity": 4,
+          "characters_named": [
+            "Walt",
+            "Jesse"
+          ],
+          "grounded_in": "Walt and Jesse break into a warehouse and steal a large barrel of methylamine",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Avoided the tiara storyline and the meth delivery scene, since the summary frames both as leading directly to the episode's reveals.",
+      "usage": {
+        "in": 52,
+        "out": 1112,
+        "cache_read": 5452,
+        "cache_write": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 2,
+  "source": {
+    "title": "Breaking Bad season 2",
+    "revid": 1362313043,
+    "url": "https://en.wikipedia.org/w/index.php?title=Breaking_Bad_season_2&oldid=1362313043",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Seven Thirty-Seven",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Hank sits going through security camera footage from the warehouse where the methylamine barrel went missing.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "Grilled",
+      "probes": [
+        {
+          "text": "At the desert hideout Tuco cares for an elderly relative in a wheelchair who communicates only by ringing a bell.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Tuco talks up his idea of taking Walt south to Mexico to run a cooking operation in the jungle.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hank, helping Skyler look for Walt, pays a visit to Jesse's mother at her home.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Bit by a Dead Bee",
+      "probes": [
+        {
+          "text": "Badger helps Jesse load all the lab equipment out of his house into the RV, which gets towed away.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jesse holes up in a cheap motel room with a prostitute, telling anyone who asks he was there all weekend.",
+          "specificity": null,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt and Jesse part ways in the desert and hitchhike separately back toward the city.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Down",
+      "probes": [
+        {
+          "text": "Walt takes Walt Jr. out for a driving lesson, trying to reconnect with his son.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "With nowhere to sleep, Jesse climbs into the fenced lot where the RV sits and spends the night inside it.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Skyler starts disappearing for entire days, and refuses to tell Walt where she has been.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Breakage",
+      "probes": [
+        {
+          "text": "Walt frets over a mounting pile of medical bills, including the charges from his hospital stay.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse takes an interest in the young woman who lives next door and rents him his place.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jesse, back on his feet, settles his debts and moves into a new apartment.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Peekaboo",
+      "probes": [
+        {
+          "text": "Jesse lets himself into a squalid house hunting the pair of addicts who ripped off Skinny Pete.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt is back at school, standing in front of his chemistry class again after his time away.",
+          "specificity": 2,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Negro y Azul",
+      "probes": [
+        {
+          "text": "Unable to reach Jesse, Walt takes it upon himself to make the product deliveries to the street dealers.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse holes up at home, ignoring calls, while Walt keeps trying to get hold of him.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Skyler goes job hunting and ends up back at the bookkeeping desk of her old employer.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Better Call Saul",
+      "probes": [],
+      "fine_only": []
+    },
+    "9": {
+      "title": "4 Days Out",
+      "probes": [
+        {
+          "text": "Walt and Jesse haul supplies into the RV for a marathon cook stretched across a long weekend in the desert.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt and Jesse end up sitting outside the RV in the freezing desert with no food or water left.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt tells his family he is going away to visit his mother for a few days.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Over",
+      "probes": [
+        {
+          "text": "At a backyard party for family and friends, Walt keeps refilling Walt Jr.'s glass with tequila.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Skyler organizes a gathering to thank everyone who supported the family through Walt's illness.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jesse is caught off guard when Jane's father drops by unannounced to see her.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "11": {
+      "title": "Mandala",
+      "probes": [],
+      "fine_only": [
+        {
+          "text": "Saul lays out an entirely new way of moving product now that street-level dealing has stopped working.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "12": {
+      "title": "Phoenix",
+      "probes": [
+        {
+          "text": "Walt Jr. sits at a computer building a donations website asking strangers to help pay his father's medical bills.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Jesse comes demanding his share of the money, and Walt tells him he must first prove he's clean.",
+          "specificity": null,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "13": {
+      "title": "ABQ",
+      "probes": [
+        {
+          "text": "Walt Jr.'s donation website takes off, and local news crews take an interest in the family's story.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Walt lies on a hospital gurney, groggy and slurring as the anesthetic takes hold before his operation.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Walt drives through the roughest corners of Albuquerque at night, searching for Jesse.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

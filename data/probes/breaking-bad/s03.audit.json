@@ -1,0 +1,1337 @@
+{
+  "show": "Breaking Bad",
+  "slug": "breaking-bad",
+  "season": 3,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "No Más",
+      "candidates": [
+        {
+          "text": "Jesse sits through sessions at a rehab facility, wrestling with self-loathing and guilt.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Walt took Jesse to rehab; his continued sessions and guilt are ordinary character texture with no new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Walt brought Jesse to rehab; his attending sessions and feeling guilt is expected character texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "The viewer already knows Walt took Jesse to rehab; his continued sessions and guilt are ordinary character texture with no new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt rattles around the house alone, packing up his things while Skyler stays elsewhere with the kids.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows the already-established separation continuing as ordinary domestic texture, without disclosing any new outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The separation is already known from the previous episode; Walt alone in the house packing is ordinary aftermath texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "It shows the already-established separation continuing as ordinary domestic texture, without disclosing any new outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler sits across from a divorce attorney who suggests she look for money her husband may have hidden.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Skyler is actively pursuing a divorce following her decision to leave Walt, answering the open question of how she'll act on his exposed lies."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Skyler follows through on leaving Walt by pursuing a divorce and begins investigating his hidden money, resolving the pending question of how she acts on discovering his lies."
+                }
+              ],
+              "reason": "It reveals that Skyler is actively pursuing a divorce following her decision to leave Walt, answering the open question of how she'll act on his exposed lies."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Skyler is actively pursuing a divorce following her decision to leave Walt, answering the open question of how she'll act on his exposed lies."
+        },
+        {
+          "text": "Two silent, identically dressed brothers make their way across the border from Mexico into the United States.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It introduces new characters arriving in the country \\u2014 setting and texture rather than an outcome, death, or answer to any pending question the viewer has."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It introduces the arrival of the Salamanca cousins as new antagonists crossing into the US, a plot development the viewer has not yet seen."
+                }
+              ],
+              "reason": "It introduces the arrival of the Salamanca cousins as new antagonists crossing into the US, a plot development the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It introduces the arrival of the Salamanca cousins as new antagonists crossing into the US, a plot development the viewer has not yet seen."
+        },
+        {
+          "text": "The whole city is still reeling, in a daze over the mid-air collision in the skies above Albuquerque.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows about the mid-air collision from the previous episode; this is only aftermath texture with no new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer has already seen the mid-air collision occur in the previous episode, so this is aftermath texture rather than new information."
+                }
+              ],
+              "reason": "The viewer already knows about the mid-air collision from the previous episode; this is only aftermath texture with no new outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Caballo sin Nombre",
+      "candidates": [
+        {
+          "text": "A patrol officer stops Walt over the crack running across his car's windshield, and the roadside exchange escalates.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A traffic stop and a tense roadside exchange are ordinary situational texture; no outcome, arrest, or revelation is stated, and it doesn't answer any pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A routine traffic stop that gets heated is ordinary situational texture; it names no outcome, arrest, or answer to any pending question the viewer has."
+                }
+              ],
+              "reason": "A traffic stop and a tense roadside exchange are ordinary situational texture; no outcome, arrest, or revelation is stated, and it doesn't answer any pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse wanders through his old house, freshly renovated and staged, with a for-sale sign out front.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jesse visiting his former house, now renovated and for sale, is setting/character texture and doesn't disclose any outcome, reveal or turning point pending in the story."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jesse visiting his old, now-staged house is setting/texture; it doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Jesse visiting his former house, now renovated and for sale, is setting/character texture and doesn't disclose any outcome, reveal or turning point pending in the story."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt Jr. cannot understand why his mother still refuses to let his father come back home.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary family texture consistent with the already-known separation, revealing no new outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary family texture consistent with the already-known separation, revealing no new outcome or development."
+                }
+              ],
+              "reason": "This is ordinary family texture consistent with the already-known separation, revealing no new outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Saul, in his loud suit, sits down with Jesse's parents to talk about their newly listed property.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Saul in a negotiation setting over a property listing, an ordinary scheme-in-progress with no stated outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Saul beginning a negotiation over the property without revealing its outcome or any death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It only shows Saul in a negotiation setting over a property listing, an ordinary scheme-in-progress with no stated outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "I.F.T.",
+      "candidates": [
+        {
+          "text": "Skyler phones the police to have Walt removed from the house while he calmly settles back in.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of whether Walt's break-in sticks \\u2014 showing him successfully re-installing himself in the house despite Skyler's attempt to have him removed, a turning point in their separation conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending standoff over Walt's return home \\u2014 he reoccupies the house despite Skyler calling the police, escalating their separation conflict."
+                }
+              ],
+              "reason": "It answers the open question of whether Walt's break-in sticks \\u2014 showing him successfully re-installing himself in the house despite Skyler's attempt to have him removed, a turning point in their separation conflict."
+            }
+          },
+          "rejected": "consequence (2/2): It answers the open question of whether Walt's break-in sticks \\u2014 showing him successfully re-installing himself in the house despite Skyler's attempt to have him removed, a turning point in their separation conflict."
+        },
+        {
+          "text": "Walt Jr. is delighted to have his father back in the house and baffled by his mother's coldness.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Walt has already forced his way back into the house in the previous episode, and Walt Jr.'s ignorance of his parents' conflict is established character texture rather than a new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only continues the already-established situation of Walt having moved back into the house and Walt Jr.'s ongoing confusion about his parents' split, revealing no new outcome."
+                }
+              ],
+              "reason": "Walt has already forced his way back into the house in the previous episode, and Walt Jr.'s ignorance of his parents' conflict is established character texture rather than a new outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse, still unable to shake Jane's death, has moved back into his old house alone.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jesse bought back his old house and is grieving Jane, so this is established texture rather than a new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jesse arranged to buy back his old house and is grieving Jane, so his moving in is expected texture rather than a new outcome."
+                }
+              ],
+              "reason": "The viewer already knows Jesse bought back his old house and is grieving Jane, so this is established texture rather than a new outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Told he is being sent back to El Paso, Hank loses his temper in a bar.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Hank's reassignment and bar outburst is character texture consistent with his known PTSD, and doesn't disclose any pending outcome such as the cousins' hunt for Walt."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Hank's temper and anxiety about El Paso are already established character texture, and a bar outburst reveals no outcome or new plot information."
+                }
+              ],
+              "reason": "Hank's reassignment and bar outburst is character texture consistent with his known PTSD, and doesn't disclose any pending outcome such as the cousins' hunt for Walt."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Green Light",
+      "candidates": [
+        {
+          "text": "Jesse pays for a tank of gasoline by handing the convenience store cashier a bag of meth.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jesse has returned to cooking/dealing meth after rehab and his refusal, answering the open question of whether he re-enters the drug trade."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jesse has relapsed back into cooking/dealing meth, an outcome of his post-rehab arc the viewer has seen left open."
+                }
+              ],
+              "reason": "It reveals that Jesse has returned to cooking/dealing meth after rehab and his refusal, answering the open question of whether he re-enters the drug trade."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jesse has returned to cooking/dealing meth after rehab and his refusal, answering the open question of whether he re-enters the drug trade."
+        },
+        {
+          "text": "Jesse turns up waiting for Walt outside the school, eager to show off a batch he cooked alone.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jesse showing up at the school with a solo batch is character texture and a setup beat, not an outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jesse showing up at the school wanting to demonstrate his solo cook is ordinary character texture and doesn't disclose an outcome or reveal."
+                }
+              ],
+              "reason": "Jesse showing up at the school with a solo batch is character texture and a setup beat, not an outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt barges into the office building where Skyler works, loudly demanding to see her boss.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Walt reacting angrily by going to Skyler's workplace, an expected in-the-moment response that discloses no outcome of the confrontation or any new plot information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows Walt reacting angrily to the affair he already knows about, without revealing any outcome of the confrontation, so it's ordinary escalation rather than a new plot reveal."
+                }
+              ],
+              "reason": "It only shows Walt reacting angrily by going to Skyler's workplace, an expected in-the-moment response that discloses no outcome of the confrontation or any new plot information."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Más",
+      "candidates": [
+        {
+          "text": "Gus tells Walt that a man provides for his family whether or not they appreciate him for it.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It signals Gus's successful pitch persuading Walt back into cooking, resolving the open question of whether Walt will accept the drug business offer he has been refusing."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is just a line of Gus's persuasion rhetoric in an approach the viewer already knows is coming; it doesn't disclose whether Walt accepts or any other outcome."
+                }
+              ],
+              "reason": "It signals Gus's successful pitch persuading Walt back into cooking, resolving the open question of whether Walt will accept the drug business offer he has been refusing."
+            }
+          },
+          "rejected": "consequence (1/2): It signals Gus's successful pitch persuading Walt back into cooking, resolving the open question of whether Walt will accept the drug business offer he has been refusing."
+        },
+        {
+          "text": "Marie, worried about how Hank is doing, confides in Skyler about it.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Marie voicing worry about Hank to Skyler is ordinary character texture and doesn't disclose any outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A private conversation between Marie and Skyler expressing concern about Hank is ordinary character texture and reveals no outcome or new information."
+                }
+              ],
+              "reason": "Marie voicing worry about Hank to Skyler is ordinary character texture and doesn't disclose any outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hank keeps digging away at the RV lead, and it sparks an argument with Marie.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Hank continuing an investigation the viewer already knows he's pursuing plus ordinary marital friction, with no outcome or discovery disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Hank continuing an investigation the viewer already knows he's pursuing plus generic marital friction, without disclosing any discovery or outcome."
+                }
+              ],
+              "reason": "It only shows Hank continuing an investigation the viewer already knows he's pursuing plus ordinary marital friction, with no outcome or discovery disclosed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Sunset",
+      "candidates": [
+        {
+          "text": "Walt takes a liking to the well-qualified new assistant brought in to help him in the lab.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Introducing a new lab assistant is ordinary character/setting texture following Walt's already-known decision to cook again, and it discloses no death, betrayal, or resolution of the pending Hank investigation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It introduces a new lab assistant and Walt's positive impression of him \\u2014 ordinary character texture that follows naturally from Walt's already-known decision to cook for Gus, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Introducing a new lab assistant is ordinary character/setting texture following Walt's already-known decision to cook again, and it discloses no death, betrayal, or resolution of the pending Hank investigation."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse brings Badger and Skinny Pete back in, recruiting them to work the drug trade alongside him again.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jesse re-recruiting his old dealer friends is ordinary character texture and doesn't resolve any pending conflict like Hank's RV investigation."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jesse re-recruiting his old dealer friends is routine business texture consistent with his established pattern, not a pending outcome or reveal."
+                }
+              ],
+              "reason": "Jesse re-recruiting his old dealer friends is ordinary character texture and doesn't resolve any pending conflict like Hank's RV investigation."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt Jr., in the wake of the divorce, presses for straight answers about his parents' relationship.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Walt Jr. seeking answers about his parents' already-known separation is ordinary family texture and discloses no new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The divorce and family tension are already known to the viewer; Walt Jr. asking about his parents' relationship is ordinary character texture that discloses no new outcome."
+                }
+              ],
+              "reason": "Walt Jr. seeking answers about his parents' already-known separation is ordinary family texture and discloses no new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt is settling into a new apartment of his own, living apart from the house.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Walt having moved out into his own place is ordinary living-situation texture already implied by the signed divorce papers and his removed belongings, and reveals no outcome, death, or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt's departure from the house was already established at the end of the prior episode; his new apartment is setting/texture, not an outcome."
+                }
+              ],
+              "reason": "Walt having moved out into his own place is ordinary living-situation texture already implied by the signed divorce papers and his removed belongings, and reveals no outcome, death, or discovery."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "One Minute",
+      "candidates": [
+        {
+          "text": "Hank sits with Marie and tearfully talks about how much his work has changed him since the desert shootout.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A quiet emotional scene between Hank and Marie about his established PTSD reveals no new outcome, only character texture the viewer already knows."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows emotional character texture about Hank's known PTSD from the Tuco shootout without disclosing any new outcome, conflict resolution, or plot event."
+                }
+              ],
+              "reason": "A quiet emotional scene between Hank and Marie about his established PTSD reveals no new outcome, only character texture the viewer already knows."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Walt goes out of his way to needle his fastidious lab assistant, making the superlab an unpleasant place to work.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Walt's petty behavior in the lab, not an outcome or reveal; it doesn't disclose any pending conflict's resolution such as the Cousins' attack on Hank."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Walt's petty behavior in the lab, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is character texture about Walt's petty behavior in the lab, not an outcome or reveal; it doesn't disclose any pending conflict's resolution such as the Cousins' attack on Hank."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "I See You",
+      "candidates": [
+        {
+          "text": "Left alone in the underground lab, Jesse can't get a cook started and frets about hitting their quota.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture showing Jesse struggling alone in the lab, with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture consistent with the established partnership, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary workplace texture showing Jesse struggling alone in the lab, with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Marie unloads on Hank's boss in the hospital after learning the agency had taken his gun away.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Hank survived the shooting and is hospitalized, resolving the cliffhanger about whether he lived after being shot several times."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Hank survived the shooting and is hospitalized, resolving the cliffhanger of whether he lived or died."
+                }
+              ],
+              "reason": "It confirms Hank survived the shooting and is hospitalized, resolving the cliffhanger about whether he lived after being shot several times."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Hank survived the shooting and is hospitalized, resolving the cliffhanger about whether he lived after being shot several times."
+        },
+        {
+          "text": "Jesse, discharged and still battered, passes through the hospital as Hank is brought in in critical condition.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Hank survived the shooting and is hospitalized in critical condition, resolving the cliffhanger outcome of the Salamanca cousins' attack."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the cliffhanger question of whether Hank survived the Salamanca cousins' ambush by showing him alive and being brought in in critical condition."
+                }
+              ],
+              "reason": "It confirms Hank survived the shooting and is hospitalized in critical condition, resolving the cliffhanger outcome of the Salamanca cousins' attack."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Hank survived the shooting and is hospitalized in critical condition, resolving the cliffhanger outcome of the Salamanca cousins' attack."
+        }
+      ]
+    },
+    "9": {
+      "title": "Kafkaesque",
+      "candidates": [
+        {
+          "text": "Marie is frustrated to learn their insurance won't cover the kind of physical therapy Hank needs to walk again.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Hank survives his critical condition but is left unable to walk, resolving the pending question of his shooting's outcome."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Hank survives his critical injuries but is left unable to walk, resolving the open question of his condition after the shooting."
+                }
+              ],
+              "reason": "It confirms Hank survives his critical condition but is left unable to walk, resolving the pending question of his shooting's outcome."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Hank survives his critical condition but is left unable to walk, resolving the pending question of his shooting's outcome."
+        },
+        {
+          "text": "The new lab is running at full tilt, with Walt and Jesse comfortably hitting two hundred pounds a week.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary operational texture showing the lab running as expected, with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is routine operational texture about the lab's ongoing production, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary operational texture showing the lab running as expected, with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Gomez lays out a map for Hank in the hospital, marked with the states where blue meth keeps turning up.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Gomez"
+        }
+      ]
+    },
+    "10": {
+      "title": "Fly",
+      "candidates": [
+        {
+          "text": "A single housefly gets into the lab, and Walt goes to absurd lengths trying to swat it.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes only an ordinary, self-contained situation in the lab and gives away no outcome, death, reveal or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary, self-contained situation (Walt obsessing over a fly in the lab) without disclosing any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This describes only an ordinary, self-contained situation in the lab and gives away no outcome, death, reveal or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse, learning Walt has not slept in two days, quietly slips sleeping pills into his coffee.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jesse secretly dosing Walt's coffee is a small in-the-moment action consistent with the skimming deception the viewer already knows about, and it discloses no outcome, death, discovery or resolution of a pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Jesse covertly drugs Walt \ta deliberate act of deception against his partner \tan event the viewer would otherwise encounter unspoiled."
+                }
+              ],
+              "reason": "It discloses that Jesse covertly drugs Walt \ta deliberate act of deception against his partner \tan event the viewer would otherwise encounter unspoiled."
+            }
+          },
+          "rejected": "consequence (1/2): It discloses that Jesse covertly drugs Walt \ta deliberate act of deception against his partner \tan event the viewer would otherwise encounter unspoiled."
+        },
+        {
+          "text": "Walt lies awake with insomnia, brooding over the direction his life has taken.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Insomnia and brooding are ordinary character texture that reveal no outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Walt lying awake brooding is ordinary character texture and discloses no outcome, reveal, or plot turn."
+                }
+              ],
+              "reason": "Insomnia and brooding are ordinary character texture that reveal no outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jesse, dismissive at first, ends up joining Walt's obsessive hunt around the lab equipment.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes an ordinary lab activity between Walt and Jesse, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Describes an ordinary in-lab activity and character dynamic (Jesse humoring Walt's fixation) without disclosing any outcome, death, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "It only describes an ordinary lab activity between Walt and Jesse, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "With Walt asleep in the lab, Jesse quietly cooks the entire batch by himself.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jesse cooking a batch alone in the lab is ordinary workplace texture consistent with their established production routine and reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jesse cooking a batch alone in the lab is routine activity consistent with their established production arrangement and reveals no outcome or turning point."
+                }
+              ],
+              "reason": "Jesse cooking a batch alone in the lab is ordinary workplace texture consistent with their established production routine and reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "11": {
+      "title": "Abiquiu",
+      "candidates": [
+        {
+          "text": "Gus invites Walt to his home for dinner, cooking for him and offering some fatherly advice.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A dinner invitation and conversation is character texture, revealing no outcome, death, discovery, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A dinner invitation and mentorly conversation is character texture that doesn't disclose any outcome, betrayal, or plot turn."
+                }
+              ],
+              "reason": "A dinner invitation and conversation is character texture, revealing no outcome, death, discovery, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Badger and Skinny Pete balk at Jesse's idea of selling to people from their rehab group.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Jesse's already-established side-dealing scheme and reveals no outcome, death, or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary scheming conversation among Jesse's crew about a sales idea, without revealing any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture consistent with Jesse's already-established side-dealing scheme and reveals no outcome, death, or discovery."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Skyler, unimpressed by the investment Saul pitches her, proposes the car wash where Walt used to work.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Skyler becomes actively involved in laundering Walt's money and that the car wash is chosen as the vehicle for it, an outcome the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Skyler has become an active participant in laundering Walt's money and identifies the car wash as their chosen money-laundering front, resolving the pending question of how the money will be handled."
+                }
+              ],
+              "reason": "It reveals that Skyler becomes actively involved in laundering Walt's money and that the car wash is chosen as the vehicle for it, an outcome the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Skyler becomes actively involved in laundering Walt's money and that the car wash is chosen as the vehicle for it, an outcome the viewer hasn't seen."
+        },
+        {
+          "text": "Marie is excited about Hank finally coming home, but he flatly refuses to leave his hospital bed.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Hank's recovery arc — that he survives and is medically cleared to go home — while also disclosing his psychological refusal, a turning point the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Hank's recovery arc — that he survives and is medically ready for discharge, while also disclosing his refusal/psychological turn."
+                }
+              ],
+              "reason": "It reveals the outcome of Hank's recovery arc — that he survives and is medically cleared to go home — while also disclosing his psychological refusal, a turning point the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Hank's recovery arc — that he survives and is medically cleared to go home — while also disclosing his psychological refusal, a turning point the viewer hasn't seen."
+        },
+        {
+          "text": "Skyler opens the first of Hank's hospital bills and starts pressing Walt about where the money comes from.",
+          "checks": {
+            "reverse": {
+              "picked": 11,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Skyler already knows Walt's money is from meth and has already agreed to cover Hank's bills, so this is a continuation of established tension rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Skyler already knows Walt cooks meth and has agreed to fund Hank's bills with his money, so an argument about the money's origins is established texture rather than a new outcome."
+                }
+              ],
+              "reason": "Skyler already knows Walt's money is from meth and has already agreed to cover Hank's bills, so this is a continuation of established tension rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "12": {
+      "title": "Half Measures",
+      "candidates": [
+        {
+          "text": "In his hospital room, Marie gives Hank a sponge bath and makes him a playful wager.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary domestic/character texture consistent with Hank's known hospital recovery, revealing no outcome or plot turn."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary domestic character texture consistent with Hank's known hospital stay and reveals no outcome or turning point."
+                }
+              ],
+              "reason": "This is ordinary domestic/character texture consistent with Hank's known hospital recovery, revealing no outcome or plot turn."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hank's doctors have told him he can go home whenever he likes, but he stays in his bed.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Hank's refusal to leave the hospital until he can walk was already established in the prior episode, so this is continuity/texture rather than a new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Hank's refusal to leave the hospital until he can walk was already established in the prior episode, so this is continuation of a known situation rather than a new outcome."
+                }
+              ],
+              "reason": "Hank's refusal to leave the hospital until he can walk was already established in the prior episode, so this is continuity/texture rather than a new outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "Full Measure",
+      "candidates": [
+        {
+          "text": "Walt sits with Gus and flatly claims he has no idea where Jesse is, insisting he has left the state.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Walt's confrontation with Gus over killing the dealers — that Jesse has fled/gone into hiding and Walt is covering for him — answering the open question of what happens after Walt tells Jesse to run."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jesse survived and fled/went into hiding after the shooting, and that Walt is now covering for him in a confrontation with Gus, answering the open question of the immediate fallout from Walt killing Gus's dealers."
+                }
+              ],
+              "reason": "It reveals the outcome of Walt's confrontation with Gus over killing the dealers — that Jesse has fled/gone into hiding and Walt is covering for him — answering the open question of what happens after Walt tells Jesse to run."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Walt's confrontation with Gus over killing the dealers — that Jesse has fled/gone into hiding and Walt is covering for him — answering the open question of what happens after Walt tells Jesse to run."
+        },
+        {
+          "text": "Gus, going over the numbers with a chemist, says his overhead means he cannot lose even a week's production.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary business texture about Gus's operational concerns and does not disclose any outcome, death, betrayal or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary business texture about Gus's operation and does not disclose any outcome, death, reveal, or resolution of the pending conflict over Walt and Jesse killing the dealers."
+                }
+              ],
+              "reason": "This is ordinary business texture about Gus's operational concerns and does not disclose any outcome, death, betrayal or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Gus tells Walt, in a strained face-to-face, that his patience has finally reached its limit.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending fallout from Walt killing Gus's dealers — that Gus confronts Walt directly and their arrangement is breaking down."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending confrontation with Gus after Walt killed his dealers — that Gus has turned against Walt — a turning point in their alliance."
+                }
+              ],
+              "reason": "It reveals the outcome of the pending fallout from Walt killing Gus's dealers — that Gus confronts Walt directly and their arrangement is breaking down."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of the pending fallout from Walt killing Gus's dealers — that Gus confronts Walt directly and their arrangement is breaking down."
+        }
+      ]
+    }
+  },
+  "recheck": [
+    {
+      "episode": 3,
+      "text": "Walt Jr. is delighted to have his father back in the house and baffled by his mother's coldness.",
+      "reason": "It gives away that Walt refuses to move out and returns to the family home despite Skyler's demand for separation, resolving the pending conflict over the divorce/his departure."
+    },
+    {
+      "episode": 4,
+      "text": "Jesse turns up waiting for Walt outside the school, eager to show off a batch he cooked alone.",
+      "reason": "It reveals that Jesse has left rehab and returned to cooking meth on his own, resolving the open question of whether he stays clean and out of the business after Jane's death."
+    },
+    {
+      "episode": 6,
+      "text": "Walt takes a liking to the well-qualified new assistant brought in to help him in the lab.",
+      "reason": "It confirms Walt accepts Gus's business proposition and returns to cooking in a lab setting with a new assistant, resolving the pending question of whether Walt will take the deal (and sidelining Jesse)."
+    },
+    {
+      "episode": 6,
+      "text": "Jesse brings Badger and Skinny Pete back in, recruiting them to work the drug trade alongside him again.",
+      "reason": "It reveals that Jesse re-forms his dealing crew, a new alliance/outcome following his decision to sell independently."
+    },
+    {
+      "episode": 7,
+      "text": "Walt goes out of his way to needle his fastidious lab assistant, making the superlab an unpleasant place to work.",
+      "reason": "It reveals that Walt has entered the superlab and been assigned a partner/assistant, an outcome following his decision to cook again, and hints at friction that resolves the pending question of who works with him."
+    },
+    {
+      "episode": 8,
+      "text": "Left alone in the underground lab, Jesse can't get a cook started and frets about hitting their quota.",
+      "reason": "It reveals that Jesse has replaced Gale as Walt's superlab partner, a change in the operation the viewer hasn't yet seen happen."
+    },
+    {
+      "episode": 9,
+      "text": "The new lab is running at full tilt, with Walt and Jesse comfortably hitting two hundred pounds a week.",
+      "reason": "It confirms the outcome of the pending Hank shooting aftermath only implicitly, but more directly reveals that Walt and Jesse's renewed partnership succeeds and the superlab operation is fully productive, resolving the open question of whether Jesse would work out as Walt's new lab partner."
+    }
+  ],
+  "recheck_spend": {
+    "in": 2330,
+    "out": 7704,
+    "cache_read": 384659,
+    "cache_write": 9287,
+    "calls": 58
+  }
+}
