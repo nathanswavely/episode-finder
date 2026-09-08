@@ -1,0 +1,33 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 3,
+  "source": {
+    "title": "Stranger Things season 3",
+    "revid": 1371524327,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_3&oldid=1371524327",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: Suzie, Do You Copy?",
+      "probes": [
+        {
+          "text": "Dustin gets back from summer camp and drags the others up a hill to assemble a huge homemade radio tower.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nancy and Jonathan are spending the summer as interns at the local newspaper, where the older men there belittle her.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The shiny new mall has drawn everyone away, shuttering shops downtown, and locals are furious about it.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

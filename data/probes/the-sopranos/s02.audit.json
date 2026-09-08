@@ -1185,6 +1185,92 @@
           "rejected": null
         }
       ]
+    },
+    "12": {
+      "title": "The Knight in White Satin Armor",
+      "candidates": [
+        {
+          "text": "Tony trips on his way out of his mother's house, and her crying turns to quiet laughter.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Livia's feigned distress and manipulative streak are already well established for the viewer, and a stumble on the way out is minor texture rather than a plot outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's a small character beat showing Livia's manipulative streak, already well established, and doesn't disclose any outcome, death, reveal or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Livia's feigned distress and manipulative streak are already well established for the viewer, and a stumble on the way out is minor texture rather than a plot outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Carmela announces she is planning three weeks in Rome with Rosalie Aprile.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A trip plan with a friend is ordinary character texture and does not disclose any outcome, reveal or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A travel plan with a friend is ordinary character texture and does not disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A trip plan with a friend is ordinary character texture and does not disclose any outcome, reveal or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony sits down with his mother for the first time in ages, and they argue about her parenting.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony, who has refused all contact with Livia since learning she plotted his murder, finally reunites and confronts her, resolving a pending estrangement."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tony and Livia finally reconcile enough to meet face-to-face, resolving the estrangement left open since he tried to kill her."
+                }
+              ],
+              "reason": "It reveals that Tony, who has refused all contact with Livia since learning she plotted his murder, finally reunites and confronts her, resolving a pending estrangement."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tony, who has refused all contact with Livia since learning she plotted his murder, finally reunites and confronts her, resolving a pending estrangement."
+        }
+      ]
     }
   }
 }

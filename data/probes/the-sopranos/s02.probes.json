@@ -208,6 +208,21 @@
           "reverse_confidence": 5
         }
       ]
+    },
+    "12": {
+      "title": "The Knight in White Satin Armor",
+      "probes": [
+        {
+          "text": "Tony trips on his way out of his mother's house, and her crying turns to quiet laughter.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Carmela announces she is planning three weeks in Rome with Rosalie Aprile.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
     }
   }
 }

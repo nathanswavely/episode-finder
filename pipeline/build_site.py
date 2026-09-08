@@ -52,6 +52,15 @@ def main():
             ],
         })
 
+    # a show ships only when every season fetched into data/raw has a completed, rechecked probes file;
+    # otherwise it would be listed with a partial season count while the rest are still generating
+    for slug, show in list(shows.items()):
+        raw_seasons = {int(p.stem[1:]) for p in (ROOT / f"data/raw/{slug}").glob("s*.json")}
+        have = {s["season"] for s in show["seasons"]}
+        if raw_seasons - have:
+            print(f"hold {show['title']}: seasons {sorted(raw_seasons - have)} not finished yet")
+            del shows[slug]
+
     (OUT / "shows").mkdir(parents=True, exist_ok=True)
     index = []
     for slug, show in sorted(shows.items()):

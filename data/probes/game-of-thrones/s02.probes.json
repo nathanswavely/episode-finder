@@ -145,13 +145,15 @@
       "title": "The Prince of Winterfell",
       "probes": [
         {
-          "text": "Yara turns up at Winterfell and mocks her brother for seizing a castle he has no men to hold.",
-          "specificity": 5,
-          "reverse_confidence": 5
-        },
-        {
           "text": "Joffrey berates Varys for knowing so little about where the Stark armies actually are.",
           "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Yara turns up at Winterfell and mocks her brother for seizing a castle he has no men to hold.",
+          "specificity": 5,
           "reverse_confidence": 5
         },
         {
@@ -168,7 +170,9 @@
           "text": "Sansa, standing beside Joffrey before the fighting starts, urges him to ride out and lead his men himself.",
           "specificity": 4,
           "reverse_confidence": 5
-        },
+        }
+      ],
+      "fine_only": [
         {
           "text": "Tyrion, out in the streets beyond the gate, fights on foot among the Gold Cloaks.",
           "specificity": 3,

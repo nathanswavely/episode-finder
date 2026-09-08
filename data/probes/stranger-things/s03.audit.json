@@ -1,0 +1,121 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 3,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Chapter One: Suzie, Do You Copy?",
+      "candidates": [
+        {
+          "text": "Dustin gets back from summer camp and drags the others up a hill to assemble a huge homemade radio tower.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture and activity — Dustin returning from camp and building a radio with friends — without revealing any outcome, death, discovery or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Dustin returning from camp and building a radio antenna with friends is ordinary character texture and setup, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture and activity — Dustin returning from camp and building a radio with friends — without revealing any outcome, death, discovery or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nancy and Jonathan are spending the summer as interns at the local newspaper, where the older men there belittle her.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and character texture establishing the characters' summer jobs, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and character texture establishing the characters' summer jobs, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary setting and character texture establishing the characters' summer jobs, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The shiny new mall has drawn everyone away, shuttering shops downtown, and locals are furious about it.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting/world texture establishing the new mall and town economics, not an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and community texture about the mall's economic impact, revealing no outcome, death, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary setting/world texture establishing the new mall and town economics, not an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dustin sits alone at his transmitter after his friends wander off, and picks up a broadcast in Russian.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the discovery of a secret Russian presence/transmission in Hawkins, a major plot turning point the viewer has no knowledge of."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a major plot discovery \\u2014 that Russians are secretly operating in Hawkins \\u2014 opening the new season's central threat, which the viewer has no knowledge of."
+                }
+              ],
+              "reason": "It reveals the discovery of a secret Russian presence/transmission in Hawkins, a major plot turning point the viewer has no knowledge of."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the discovery of a secret Russian presence/transmission in Hawkins, a major plot turning point the viewer has no knowledge of."
+        }
+      ]
+    }
+  }
+}
