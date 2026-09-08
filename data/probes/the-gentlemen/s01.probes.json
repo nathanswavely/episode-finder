@@ -13,18 +13,13 @@
       "title": "Refined Aggression",
       "probes": [
         {
-          "text": "A British army officer in a UN beret stands watch at a dusty border post between Turkey and Syria.",
+          "text": "A British officer serving with UN peacekeepers on the Turkey–Syria border is abruptly summoned home to England.",
           "specificity": 5,
           "reverse_confidence": 5
         },
         {
-          "text": "Dusty bottles line the racks of a grand old wine cellar beneath a sprawling English country estate.",
+          "text": "A wealthy outside investor tours the grand country estate, taking a keen interest in its cellar of vintage wine.",
           "specificity": 4,
-          "reverse_confidence": 4
-        },
-        {
-          "text": "A deceptive bookmaker lounges behind a cluttered counter stacked with betting slips and cash.",
-          "specificity": 3,
           "reverse_confidence": 4
         }
       ],
@@ -34,8 +29,13 @@
       "title": "Tackle Tommy Woo Woo",
       "probes": [
         {
-          "text": "Eddie attends a formal gala hosted by Johnston, standing in a suit among elegant guests in a crowded hall.",
+          "text": "Eddie is driven out to visit Susie's father, held in an oddly luxurious open-air prison.",
           "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Eddie, in black tie and clearly not enjoying himself, attends a lavish gala hosted by Johnston.",
+          "specificity": 4,
           "reverse_confidence": 5
         }
       ],
@@ -45,8 +45,18 @@
       "title": "Where's My Weed At?",
       "probes": [
         {
-          "text": "Eddie's mother worries about the growing criminality surrounding the family at the estate.",
-          "specificity": 2,
+          "text": "Eddie sneaks into a chop shop at night, tasked with stealing a Lamborghini Huracan from among the dismantled cars.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Susie takes on a favour for an Albanian gang boss annoyed that his weed shipment has not arrived.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Eddie's mother frets about the family's slide into criminality, while Susie remarks how calm he stays under fire.",
+          "specificity": 4,
           "reverse_confidence": 5
         }
       ],
@@ -56,8 +66,8 @@
       "title": "An Unsympathetic Gentleman",
       "probes": [
         {
-          "text": "Lady Sabrina asks the estate gamekeeper to introduce her to a local sheep farmer.",
-          "specificity": 5,
+          "text": "Jimmy, thoroughly smitten, gives Gabrielle a proud personal tour around the underground farm.",
+          "specificity": 4,
           "reverse_confidence": 5
         }
       ],
@@ -65,15 +75,36 @@
     },
     "5": {
       "title": "I've Hundreds of Cousins",
-      "probes": [],
+      "probes": [
+        {
+          "text": "Eddie and Susie drive out to a Travellers' camp to speak with the family's leader about two missing generators.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Two generators vanish from the weed farm, and Susie needs Eddie's help sorting out who took them.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The Belgian who runs the shipping side of the Glass distribution starts pushing for a bigger cut.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
       "fine_only": []
     },
     "6": {
       "title": "All Eventualities",
       "probes": [
         {
-          "text": "Eddie attends a crowded boxing party, chatting ringside among promoters and fighters.",
-          "specificity": 5,
+          "text": "At a glitzy boxing party, Eddie falls into conversation with a smooth ex-army officer who promotes fighters.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Susie tells Eddie the money still needs another three months of laundering before it counts as clean profit.",
+          "specificity": 3,
           "reverse_confidence": 5
         }
       ],
@@ -81,13 +112,31 @@
     },
     "7": {
       "title": "Not Without Danger",
-      "probes": [],
+      "probes": [
+        {
+          "text": "Eddie and Freddy pay a call on an ageing lord, a former associate of the Glasses, at his crumbling pile.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
       "fine_only": []
     },
     "8": {
       "title": "The Gospel According to Bobby Glass",
-      "probes": [],
-      "fine_only": []
+      "probes": [
+        {
+          "text": "Lady Sabrina adds her own quiet encouragement when Susie is hesitating, pressing her gently rather than arguing.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Armed Glass men arrive in numbers at Halstead Manor and take up positions around the house and grounds.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ]
     }
   }
 }

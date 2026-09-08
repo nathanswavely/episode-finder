@@ -321,6 +321,22 @@ middle of a show is worse for the viewer than a conservative answer, and S8 is
 where many people stopped watching. Regenerating S8 from a richer source is
 the fix if it matters.
 
+## The Gentlemen S1–S2 — first requested show, 2026-09-08
+
+Requested by a friend of the reviewer, who typed it into the search and took
+that for a request; the GitHub-issue link read as prose and needed a login.
+Replaced with two Tally forms created through Tally's API (free plan), with
+hidden fields carrying the typed title or the walk's result. Verified end to
+end with a test submission.
+
+Muse Spark was too sparing on this show: 9 candidates for 8 episodes in S1,
+three episodes probeless. Opus regenerated both seasons for about $1: S1 15
+coarse-safe (median 2, min 1), S2 19 (median 3, min 1), no probeless episodes.
+For plot-dense serialized shows, Opus generation is worth the extra cents; the
+Muse-generates split still holds for sitcoms. Also fixed: multi-season
+Wikipedia pages (both seasons listed on one page) are now split by episode
+table.
+
 ## Cost
 
 ~75 episodes × (1 generation + ~5 audit calls). Pennies to a few dollars.

@@ -1,0 +1,354 @@
+{
+  "show": "The Gentlemen",
+  "slug": "the-gentlemen",
+  "season": 1,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Gentlemen (2024 TV series)",
+    "revid": 1373879856,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Gentlemen_%282024_TV_series%29&oldid=1373879856",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Refined Aggression",
+      "candidates": [
+        {
+          "text": "A British officer serving with UN peacekeepers on the Turkey–Syria border is abruptly summoned home to England.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "an army officer of the United Nations stationed at the border between Turkey and Syria, returns home to England",
+          "grounded_ok": true
+        },
+        {
+          "text": "A wealthy outside investor tours the grand country estate, taking a keen interest in its cellar of vintage wine.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "selling the estate wine collection to Johnston",
+          "grounded_ok": true
+        },
+        {
+          "text": "A shifty bookmaker is tracked down and confronted over an enormous wager taken from the reckless elder brother.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "a major bet placed by Freddy with Sticky Pete, a deceptive bookmaker",
+          "grounded_ok": true
+        }
+      ],
+      "note": "As the season premiere, no character has appeared in an earlier summary, so every probe describes people rather than naming them. Most memorable beats here (the inheritance, the debt, the ending) are turning points and excluded.",
+      "usage": {
+        "in": 42,
+        "out": 1898,
+        "cache_read": 0,
+        "cache_write": 6309
+      }
+    },
+    "2": {
+      "title": "Tackle Tommy Woo Woo",
+      "candidates": [
+        {
+          "text": "Susie calls in an underground crime scene cleaner, a specialist who arrives to tidy up after the previous night.",
+          "specificity": 4,
+          "characters_named": [
+            "Susie"
+          ],
+          "grounded_in": "Susie hires Felix, an underground crime scene \"cleaner\"-",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie is driven out to visit Susie's father, held in an oddly luxurious open-air prison.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie",
+            "Susie"
+          ],
+          "grounded_in": "who is imprisoned in a luxury, open-air prison due to his wealth and influence",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie, in black tie and clearly not enjoying himself, attends a lavish gala hosted by Johnston.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Johnston"
+          ],
+          "grounded_in": "Eddie is forced to attend a gala hosted by Johnston",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie searches through Jethro's flat, hunting for the man's passport among his belongings.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Jethro"
+          ],
+          "grounded_in": "whilst retrieving Jethro's passport from his flat",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's set pieces (the fight in the flat, the framing plan, the ending) are outcome-revealing; probes stick to settings and errands.",
+      "usage": {
+        "in": 49,
+        "out": 1319,
+        "cache_read": 6309,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Where's My Weed At?",
+      "candidates": [
+        {
+          "text": "Eddie sneaks into a chop shop at night, tasked with stealing a Lamborghini Huracan from among the dismantled cars.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "When Eddie infiltrates the garage at night to steal the car",
+          "grounded_ok": true
+        },
+        {
+          "text": "Susie takes on a favour for an Albanian gang boss annoyed that his weed shipment has not arrived.",
+          "specificity": 4,
+          "characters_named": [
+            "Susie"
+          ],
+          "grounded_in": "Susie agrees to undertake a favour for the inconvenienced customer – 'Tony Blair', the leader of a Kosovan-Albanian gang",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie's mother frets about the family's slide into criminality, while Susie remarks how calm he stays under fire.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Susie"
+          ],
+          "grounded_in": "Susie is impressed by Eddie's calmness under fire, although Eddie's mother, Lady Sabrina, worries about the impact of growing criminality on the family",
+          "grounded_ok": true
+        },
+        {
+          "text": "The cannabis farm's chief grower is smitten with a mysterious woman who keeps getting back in touch with him.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "Gabrielle contacts Jimmy again to continue the con",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 44,
+        "out": 1970,
+        "cache_read": 6309,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "An Unsympathetic Gentleman",
+      "candidates": [
+        {
+          "text": "Lady Sabrina has Geoff bring her to meet a local sheep farmer about hosting an operation on his land.",
+          "specificity": 4,
+          "characters_named": [
+            "Geoff"
+          ],
+          "grounded_in": "Lady Sabrina has gamekeeper Geoff introduce her to an alternative host for the cannabis farm – a local sheep farmer",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie calls on a newly installed young lord, pitching the idea of a grow built beneath his estate.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "Eddie approaches Max, the newly installed Lord Bassington, offering to construct a cannabis farm underneath his estate",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie's first face-to-face with a blackmailing ex-journalist goes badly, and the man slips away from him.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "meets the blackmailer, Frank, an ex-journalist, who swiftly escapes",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy, thoroughly smitten, gives Gabrielle a proud personal tour around the underground farm.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy",
+            "Gabrielle"
+          ],
+          "grounded_in": "smitten by Gabrielle and unaware of her role in stealing the previous shipment, Jimmy shows her the farm",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Max and Frank are introduced here, so both are described rather than named; the episode's big set pieces (the Nazi reveal, the shootout, the forced land deal) are all barred under rule 1.",
+      "usage": {
+        "in": 48,
+        "out": 1428,
+        "cache_read": 6309,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "I've Hundreds of Cousins",
+      "candidates": [
+        {
+          "text": "Eddie and Susie drive out to a Travellers' camp to speak with the family's leader about two missing generators.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie",
+            "Susie"
+          ],
+          "grounded_in": "two generators are stolen from the farm by the Ward family, a notorious group of Travellers. Eddie and Susie visit their leader, JP Ward",
+          "grounded_ok": true
+        },
+        {
+          "text": "Two generators vanish from the weed farm, and Susie needs Eddie's help sorting out who took them.",
+          "specificity": 4,
+          "characters_named": [
+            "Susie",
+            "Eddie"
+          ],
+          "grounded_in": "two generators are stolen from the farm by the Ward family",
+          "grounded_ok": true
+        },
+        {
+          "text": "The Belgian who runs the shipping side of the Glass distribution starts pushing for a bigger cut.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "the manager of Glass distributions through Belgium, attempts to leverage a bigger financial cut",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats (the robbery's culprit, Keith, the Sabrina/Geoff conversation) are reveals or executions and had to be excluded.",
+      "usage": {
+        "in": 47,
+        "out": 866,
+        "cache_read": 6309,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "All Eventualities",
+      "candidates": [
+        {
+          "text": "Susie's money launderer turns up unannounced and catches her younger brother in bed with his girlfriend.",
+          "specificity": 4,
+          "characters_named": [
+            "Susie"
+          ],
+          "grounded_in": "Susie's money launderer, discovers her brother Jack having sex with his girlfriend",
+          "grounded_ok": true
+        },
+        {
+          "text": "At a glitzy boxing party, Eddie falls into conversation with a smooth ex-army officer who promotes fighters.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "At a boxing party, Eddie meets Henry Collins, an ex-army officer and Jack's promoter",
+          "grounded_ok": true
+        },
+        {
+          "text": "Susie tells Eddie the money still needs another three months of laundering before it counts as clean profit.",
+          "specificity": 3,
+          "characters_named": [
+            "Susie",
+            "Eddie"
+          ],
+          "grounded_in": "it will take another three months for the money to be properly laundered and considered profit",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Freddy's 'cocaine-weed' pitch is the episode's most distinctive scene but the summary ties it directly to him condoning Eddie's murder, so it's excluded under rule 1; likewise the fight night, which the summary frames as ending in the hospitalisation.",
+      "usage": {
+        "in": 41,
+        "out": 1763,
+        "cache_read": 6309,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Not Without Danger",
+      "candidates": [
+        {
+          "text": "Eddie and Freddy pay a call on an ageing lord, a former associate of the Glasses, at his crumbling pile.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Freddy"
+          ],
+          "grounded_in": "Eddie and Freddy obtain them from Lord 'Tibsy' Whitecroft, a former Glass associate",
+          "grounded_ok": true
+        },
+        {
+          "text": "Susie sits at a hospital bedside where her brother Jack lies comatose, and she turns her anger on Eddie.",
+          "specificity": 3,
+          "characters_named": [
+            "Susie",
+            "Jack",
+            "Eddie"
+          ],
+          "grounded_in": "As Jack lies comatose in hospital, Susie blames Eddie.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bobby reins his daughter in from behind bars, telling her he will deal with the matter himself.",
+          "specificity": 2,
+          "characters_named": [
+            "Bobby"
+          ],
+          "grounded_in": "but Bobby reins her in, stating he will handle Collins himself",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's content is reveals, confessions, deaths and a family surprise, all barred by rule 1; usable texture was scarce.",
+      "usage": {
+        "in": 42,
+        "out": 1413,
+        "cache_read": 6309,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Gospel According to Bobby Glass",
+      "candidates": [
+        {
+          "text": "Armed Glass men arrive in numbers at Halstead Manor and take up positions around the house and grounds.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Susie sends reinforcements to help the Hornimans protect the estate",
+          "grounded_ok": true
+        },
+        {
+          "text": "Geoff and Charlotte find a quiet moment alone together on the estate for a long, serious talk.",
+          "specificity": 3,
+          "characters_named": [
+            "Geoff",
+            "Charlotte"
+          ],
+          "grounded_in": "Charlotte and Geoff have a heart to heart",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lady Sabrina adds her own quiet encouragement when Susie is hesitating, pressing her gently rather than arguing.",
+          "specificity": 3,
+          "characters_named": [
+            "Lady Sabrina",
+            "Susie"
+          ],
+          "grounded_in": "Lady Sabrina's encouragement and Eddie's persuasion convince her",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This finale is almost entirely turning points: the coma outcome, the retirement, the bidding war, the arrests and killings. Very little inconsequential texture remains, so only three cautious probes.",
+      "usage": {
+        "in": 49,
+        "out": 1698,
+        "cache_read": 6309,
+        "cache_write": 0
+      }
+    }
+  }
+}

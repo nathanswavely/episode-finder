@@ -1,0 +1,414 @@
+{
+  "show": "The Gentlemen",
+  "slug": "the-gentlemen",
+  "season": 2,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Gentlemen (2024 TV series)",
+    "revid": 1373879856,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Gentlemen_%282024_TV_series%29&oldid=1373879856",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Road to Kingdom",
+      "candidates": [
+        {
+          "text": "Susie sees off rival bidders in a drawn-out auction house battle over a Renaissance painting.",
+          "specificity": 4,
+          "characters_named": [
+            "Susie"
+          ],
+          "grounded_in": "buys the painting after a bidding war",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bobby insists a visiting spirit told him to buy the painting, and Eddie quietly worries about his state of mind.",
+          "specificity": 5,
+          "characters_named": [
+            "Bobby",
+            "Eddie"
+          ],
+          "grounded_in": "claiming a visit from the spirit Bannik told him so",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie hosts a country shoot where the guests include an Italian countess and a politically connected peer.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "At a shoot where guests include Cico, his girlfriend Countess Isabella \"Bella\" Soranza de Parme and the politically connected Lord Hawthorne",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie hands over thirty thousand pounds to a peer and throws in a night out with Jack.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Jack"
+          ],
+          "grounded_in": "Eddie bribes Hawthorne with £30,000 and a night with Jack",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 44,
+        "out": 1931,
+        "cache_read": 0,
+        "cache_write": 9817
+      }
+    },
+    "2": {
+      "title": "There's a Rat in the Kitchen",
+      "candidates": [
+        {
+          "text": "Geoff and Eddie quietly put up one of Moretti's men at the estate, keeping him well out of Susie's sight.",
+          "specificity": 4,
+          "characters_named": [
+            "Geoff",
+            "Eddie",
+            "Moretti",
+            "Susie"
+          ],
+          "grounded_in": "Geoff and Eddie host Takashi, Moretti's psychopathic hitman, and hiding his presence from Susie arouses her suspicions",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hawthorne grumbles that Jack paid him hardly any attention during their night out together.",
+          "specificity": 4,
+          "characters_named": [
+            "Hawthorne",
+            "Jack"
+          ],
+          "grounded_in": "Hawthorne, dissatisfied with Jack's lack of attention on their night out",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie and Geoff go out hunting for a bookkeeper who has been skimming money from Moretti's accounts.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Geoff",
+            "Moretti"
+          ],
+          "grounded_in": "Geoff and Eddie track down the accountant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lady Sabrina and Charly pay Freddy a visit at the rehabilitation facility where he is staying.",
+          "specificity": 3,
+          "characters_named": [
+            "Lady Sabrina",
+            "Charly",
+            "Freddy"
+          ],
+          "grounded_in": "Visiting Freddy in rehab, Lady Sabrina and Charly",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1553,
+        "cache_read": 9817,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Do You Reject Satan?",
+      "candidates": [
+        {
+          "text": "Workers at the weed farm down tools and go on strike, complaining about their working conditions.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Glass farm workers go on strike over working conditions.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The family gathers at church for the christening of Charly and Nanny's baby son.",
+          "specificity": 4,
+          "characters_named": [
+            "Charly",
+            "Nanny"
+          ],
+          "grounded_in": "At the christening of Charly and Nanny's son Tarquin",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jimmy has been growing an experimental batch of weed that leaves people in a state of mania.",
+          "specificity": 4,
+          "characters_named": [
+            "Jimmy"
+          ],
+          "grounded_in": "an experimental batch of Jimmy's that causes mania",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie is fixated on buying back the acres the Horniman family lost generations ago, starting with a neighbour's estate.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "as part of Eddie's desire to reclaim land the Horniman family lost generations before",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 45,
+        "out": 1243,
+        "cache_read": 9817,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "The Bigger Picture",
+      "candidates": [
+        {
+          "text": "Eddie, Susie, Bella and Joe spend an awkward evening out together, the four of them on a joint date.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Susie",
+            "Bella",
+            "Joe"
+          ],
+          "grounded_in": "Eddie, Susie, Bella, and Joe go on a joint date",
+          "grounded_ok": true
+        },
+        {
+          "text": "The scheme depends on tracking down a valuable breeding Saker falcon, and Bella turns out to know falconry.",
+          "specificity": 5,
+          "characters_named": [
+            "Bella"
+          ],
+          "grounded_in": "Bella helps retrieve the falcon due to her falconry knowledge",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie courts a bishop's vote by sorting out her son's debts to an Irish mobster.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "Eddie plans to bribe the Bishop of Sussex by aiding her son Oscar. Oscar, in debt to an Irish mobster",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie watches uneasily as Joe is mocked and humiliated by people who knew him before.",
+          "specificity": 3,
+          "characters_named": [
+            "Eddie",
+            "Joe"
+          ],
+          "grounded_in": "Joe is humiliated by former acquaintances, worrying Eddie",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's back half (Hawthorne's guilt, the vote, Bobby's reaction, the ending) is off-limits under rule 1, so probes come from the falcon caper and the double date.",
+      "usage": {
+        "in": 43,
+        "out": 1480,
+        "cache_read": 9817,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "A Suburban A-Road on the Outskirts of Basingstoke",
+      "candidates": [
+        {
+          "text": "Johnston tells Eddie he can trace his own bloodline all the way back to Priam, king of Troy.",
+          "specificity": 5,
+          "characters_named": [
+            "Johnston",
+            "Eddie"
+          ],
+          "grounded_in": "inspires Eddie by claiming he has heritage dating back to Trojan King Priam",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Peru, Susie and Joe get cocaine production running in the back rooms of a restaurant.",
+          "specificity": 5,
+          "characters_named": [
+            "Susie",
+            "Joe"
+          ],
+          "grounded_in": "Susie and Joe start production inside a restaurant",
+          "grounded_ok": true
+        },
+        {
+          "text": "Susie and Joe fly out to Peru to talk to a cocaine producer about expanding into the UK.",
+          "specificity": 4,
+          "characters_named": [
+            "Susie",
+            "Joe"
+          ],
+          "grounded_in": "Susie and Joe visit cocaine producer Carlos Vargas in Peru to negotiate a UK expansion",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bella arrives as Moretti's messenger, relaying his demand for the sixty million he put into legalisation.",
+          "specificity": 4,
+          "characters_named": [
+            "Bella",
+            "Moretti"
+          ],
+          "grounded_in": "Using Bella as a messenger, Moretti demands that Eddie return his €60 million investment in legalisation by the end of the month",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode's most memorable imagery (Eddie's injuries and crawl across the fields) is the outcome of the previous episode's cliffhanger, so it is excluded under rule 1.",
+      "usage": {
+        "in": 58,
+        "out": 1800,
+        "cache_read": 9817,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "The Bells of San Domenico",
+      "candidates": [
+        {
+          "text": "Eddie visits Freddy at the rehab facility to ask him to stand as his best man.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Freddy"
+          ],
+          "grounded_in": "Eddie visits Freddy to ask him to be the best man at his wedding at Lake Maggiore",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bella marches Eddie into a church to confess to a priest, and he picks apart the whole process.",
+          "specificity": 5,
+          "characters_named": [
+            "Bella",
+            "Eddie"
+          ],
+          "grounded_in": "Bella makes Eddie confess his sins to a priest, where he confesses his murders without remorse and scrutinises the process of confession",
+          "grounded_ok": true
+        },
+        {
+          "text": "Moretti's consigliere pitches Eddie alternative money laundering methods, and he is thoroughly irked by her.",
+          "specificity": 4,
+          "characters_named": [
+            "Moretti",
+            "Eddie"
+          ],
+          "grounded_in": "Eddie is irked by Moretti's consigliere Angelica, who suggests alternative money laundering measures",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie and Moretti sit down to hammer out a new distribution deal ahead of the Italian wedding.",
+          "specificity": 3,
+          "characters_named": [
+            "Eddie",
+            "Moretti"
+          ],
+          "grounded_in": "Moretti and Eddie negotiate a new distribution deal",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the lakeside pre-wedding party, a former pursuer of Bella's corners her and won't leave her alone.",
+          "specificity": 3,
+          "characters_named": [
+            "Bella"
+          ],
+          "grounded_in": "At the pre-wedding party, Bella is harassed by former pursuer Tancredi",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats (the seaplane, Tancredi's death, Nanny's find under the villa) are turning points or discoveries, so probes lean on texture around the wedding.",
+      "usage": {
+        "in": 45,
+        "out": 1539,
+        "cache_read": 9817,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "This Mad Circus",
+      "candidates": [
+        {
+          "text": "Sabrina, Geoff, Charly and Nanny travel back to the estate from Italy with baby Tarquin the day after the wedding.",
+          "specificity": 4,
+          "characters_named": [
+            "Sabrina",
+            "Geoff",
+            "Charly",
+            "Nanny",
+            "Tarquin"
+          ],
+          "grounded_in": "Sabrina, Geoff, Charly, Nanny, and Tarquin return to the estate from Italy the day after the wedding",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nanny is cool and dismissive towards Geoff, treating him with an offhandedness that clearly stings the old gamekeeper.",
+          "specificity": 3,
+          "characters_named": [
+            "Nanny",
+            "Geoff"
+          ],
+          "grounded_in": "Nanny acts dismissive towards Geoff",
+          "grounded_ok": true
+        },
+        {
+          "text": "In the middle of the night the big house loses its power, and the internet goes down with it.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "the house experiences power and internet loss",
+          "grounded_ok": true
+        },
+        {
+          "text": "Geoff walks the dark woods of the estate alongside the gamekeeper from the neighbouring land.",
+          "specificity": 3,
+          "characters_named": [
+            "Geoff"
+          ],
+          "grounded_in": "Geoff and the neighbouring gamekeeper George notice mercenaries in the woods of the estate",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode is one continuous violent set piece plus a major parentage reveal, so nearly every concrete image is off-limits; the safe material is limited to the homecoming and the night-time build-up.",
+      "usage": {
+        "in": 42,
+        "out": 1808,
+        "cache_read": 9817,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Bring Me the Head",
+      "candidates": [
+        {
+          "text": "Johnston talks to Eddie about turning his hardships into motivation, urging him towards something like king-like status.",
+          "specificity": 4,
+          "characters_named": [
+            "Johnston",
+            "Eddie"
+          ],
+          "grounded_in": "Johnston encourages Eddie to use his hardships as motivation to build towards king-like status",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie questions one of the mercenaries who survived the attack, working on him without any patience at all.",
+          "specificity": 3,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "He tortures and kills a surviving mercenary",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This finale is almost entirely reveals, deaths and outcomes; nearly every scene in the summary is framed as a turning point, so only two candidates survive the rules.",
+      "usage": {
+        "in": 43,
+        "out": 1484,
+        "cache_read": 9817,
+        "cache_write": 0
+      }
+    }
+  }
+}

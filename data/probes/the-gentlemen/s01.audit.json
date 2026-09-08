@@ -8,7 +8,7 @@
       "title": "Refined Aggression",
       "candidates": [
         {
-          "text": "A British army officer in a UN beret stands watch at a dusty border post between Turkey and Syria.",
+          "text": "A British officer serving with UN peacekeepers on the Turkey–Syria border is abruptly summoned home to England.",
           "checks": {
             "reverse": {
               "picked": 1,
@@ -22,20 +22,20 @@
               "votes": [
                 {
                   "reveals": false,
-                  "reason": "It merely establishes a setting and a character's role at a border post, with no outcome, reveal, or answer to an open question."
+                  "reason": "This is premise-setting texture for a viewer with no prior episodes \"summoned home\" establishes the setup rather than revealing any outcome, death, or answer to an open question."
                 },
                 {
                   "reveals": false,
-                  "reason": "It merely establishes a setting and a character's role at a border post, with no outcome, reveal, or answer to an open question."
+                  "reason": "This is premise-level setup introducing the protagonist and his return home, not an outcome or answer to any pending question."
                 }
               ],
-              "reason": "It merely establishes a setting and a character's role at a border post, with no outcome, reveal, or answer to an open question."
+              "reason": "This is premise-setting texture for a viewer with no prior episodes \"summoned home\" establishes the setup rather than revealing any outcome, death, or answer to an open question."
             }
           },
           "rejected": null
         },
         {
-          "text": "Dusty bottles line the racks of a grand old wine cellar beneath a sprawling English country estate.",
+          "text": "A wealthy outside investor tours the grand country estate, taking a keen interest in its cellar of vintage wine.",
           "checks": {
             "reverse": {
               "picked": 1,
@@ -49,24 +49,24 @@
               "votes": [
                 {
                   "reveals": false,
-                  "reason": "It merely describes a setting — a wine cellar under a country estate — with no outcome, reveal, or character information."
+                  "reason": "It depicts an ordinary visit and character texture with no outcome, revelation, or resolution of any open question, especially as the viewer has no prior plot context."
                 },
                 {
                   "reveals": false,
-                  "reason": "It only describes a setting — a wine cellar beneath a country estate — with no outcome, reveal, or character information."
+                  "reason": "It depicts an ordinary visit and a character's interest in wine, introducing setting and texture without disclosing any outcome, reveal, or resolution."
                 }
               ],
-              "reason": "It merely describes a setting — a wine cellar under a country estate — with no outcome, reveal, or character information."
+              "reason": "It depicts an ordinary visit and character texture with no outcome, revelation, or resolution of any open question, especially as the viewer has no prior plot context."
             }
           },
           "rejected": null
         },
         {
-          "text": "A deceptive bookmaker lounges behind a cluttered counter stacked with betting slips and cash.",
+          "text": "A shifty bookmaker is tracked down and confronted over an enormous wager taken from the reckless elder brother.",
           "checks": {
             "reverse": {
               "picked": 1,
-              "confidence": 4
+              "confidence": 5
             },
             "faithful": {
               "faithful": true,
@@ -76,17 +76,17 @@
               "votes": [
                 {
                   "reveals": false,
-                  "reason": "It depicts a generic setting and character texture \"a bookmaker at his counter\" without disclosing any outcome, twist, or answer to an open question."
+                  "reason": "It sketches a situation—confronting a bookmaker about a big bet—without disclosing any outcome, and the viewer has no prior context or pending question it would answer."
                 },
                 {
-                  "reveals": false,
-                  "reason": "It only depicts a minor character in his usual setting, conveying atmosphere and character texture without disclosing any outcome, reveal, or plot turn."
+                  "reveals": true,
+                  "reason": "It discloses that the elder brother has placed a huge, reckless bet and that the bookmaker is successfully tracked down and confronted, revealing a plot development and its outcome."
                 }
               ],
-              "reason": "It depicts a generic setting and character texture \"a bookmaker at his counter\" without disclosing any outcome, twist, or answer to an open question."
+              "reason": "It discloses that the elder brother has placed a huge, reckless bet and that the bookmaker is successfully tracked down and confronted, revealing a plot development and its outcome."
             }
           },
-          "rejected": null
+          "rejected": "consequence (1/2): It discloses that the elder brother has placed a huge, reckless bet and that the bookmaker is successfully tracked down and confronted, revealing a plot development and its outcome."
         }
       ]
     },
@@ -94,7 +94,61 @@
       "title": "Tackle Tommy Woo Woo",
       "candidates": [
         {
-          "text": "Eddie attends a formal gala hosted by Johnston, standing in a suit among elegant guests in a crowded hall.",
+          "text": "Susie calls in an underground crime scene cleaner, a specialist who arrives to tidy up after the previous night.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies a violent or fatal incident occurred the night before, requiring covert cleanup, which points to an off-screen death or crime the viewer would otherwise learn about in the episode."
+                },
+                {
+                  "reveals": false,
+                  "reason": "With no prior episodes established, this reads as premise-level texture about a character's world rather than resolving any pending conflict or open question, and no specific outcome, death or reveal is named."
+                }
+              ],
+              "reason": "It implies a violent or fatal incident occurred the night before, requiring covert cleanup, which points to an off-screen death or crime the viewer would otherwise learn about in the episode."
+            }
+          },
+          "rejected": "consequence (1/2): It implies a violent or fatal incident occurred the night before, requiring covert cleanup, which points to an off-screen death or crime the viewer would otherwise learn about in the episode."
+        },
+        {
+          "text": "Eddie is driven out to visit Susie's father, held in an oddly luxurious open-air prison.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "With no prior episodes seen, this is merely a setting and activity \ba visit to a prison \bwith no outcome, twist, or resolution of any pending question disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a visit and an unusual setting rather than any outcome, and with no prior episodes seen there is no pending question it answers."
+                }
+              ],
+              "reason": "With no prior episodes seen, this is merely a setting and activity \ba visit to a prison \bwith no outcome, twist, or resolution of any pending question disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eddie, in black tie and clearly not enjoying himself, attends a lavish gala hosted by Johnston.",
           "checks": {
             "reverse": {
               "picked": 2,
@@ -108,17 +162,22 @@
               "votes": [
                 {
                   "reveals": false,
-                  "reason": "Attending a formal gala in a suit is ordinary setting and character texture, revealing no outcome, death, or discovery."
+                  "reason": "It only shows a character attending a social event in formal wear and being uncomfortable, which is setting and character texture rather than an outcome, reveal, or turning point."
                 },
                 {
                   "reveals": false,
-                  "reason": "It only shows Eddie attending a formal gala in a suit among guests, which is ordinary setting and character texture with no outcome or reveal."
+                  "reason": "It only shows a character attending a social event in a setting, with no outcome, reveal, or resolution of any pending conflict."
                 }
               ],
-              "reason": "Attending a formal gala in a suit is ordinary setting and character texture, revealing no outcome, death, or discovery."
+              "reason": "It only shows a character attending a social event in formal wear and being uncomfortable, which is setting and character texture rather than an outcome, reveal, or turning point."
             }
           },
           "rejected": null
+        },
+        {
+          "text": "Eddie searches through Jethro's flat, hunting for the man's passport among his belongings.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Jethro"
         }
       ]
     },
@@ -126,7 +185,7 @@
       "title": "Where's My Weed At?",
       "candidates": [
         {
-          "text": "Eddie's mother worries about the growing criminality surrounding the family at the estate.",
+          "text": "Eddie sneaks into a chop shop at night, tasked with stealing a Lamborghini Huracan from among the dismantled cars.",
           "checks": {
             "reverse": {
               "picked": 3,
@@ -140,17 +199,81 @@
               "votes": [
                 {
                   "reveals": false,
-                  "reason": "General character texture — a mother's worry about criminality, with no outcome, reveal or resolution of the pending Tommy killing."
+                  "reason": "A new task/setting for Eddie that doesn't disclose the outcome of Tommy's death or any pending conflict; it reads as ordinary plot texture."
                 },
                 {
                   "reveals": false,
-                  "reason": "A vague expression of maternal concern about criminality already established in episode 1; no outcome or new information."
+                  "reason": "It shows Eddie undertaking a job at a chop shop, an activity/setting detail that doesn't resolve the pending fallout from Tommy's shooting or answer any open question."
                 }
               ],
-              "reason": "General character texture — a mother's worry about criminality, with no outcome, reveal or resolution of the pending Tommy killing."
+              "reason": "A new task/setting for Eddie that doesn't disclose the outcome of Tommy's death or any pending conflict; it reads as ordinary plot texture."
             }
           },
           "rejected": null
+        },
+        {
+          "text": "Susie takes on a favour for an Albanian gang boss annoyed that his weed shipment has not arrived.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes a new task/situation for Susie rather than resolving the pending fallout of Tommy's death or answering an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It sets up a new side plot involving an unrelated gang boss, which is ordinary situational setup rather than an outcome or answer to a pending question."
+                }
+              ],
+              "reason": "It describes a new task/situation for Susie rather than resolving the pending fallout of Tommy's death or answering an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eddie's mother frets about the family's slide into criminality, while Susie remarks how calm he stays under fire.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — a mother's worry and a compliment about composure — with no outcome, reveal, or resolution of the pending fallout from Tommy's death."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — a mother's worry and a compliment about Eddie's composure — without disclosing any outcome, death, or reveal from the next episode."
+                }
+              ],
+              "reason": "This is character texture — a mother's worry and a compliment about composure — with no outcome, reveal, or resolution of the pending fallout from Tommy's death."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The cannabis farm's chief grower is smitten with a mysterious woman who keeps getting back in touch with him.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: picked E4 (conf 3)"
         }
       ]
     },
@@ -158,7 +281,66 @@
       "title": "An Unsympathetic Gentleman",
       "candidates": [
         {
-          "text": "Lady Sabrina asks the estate gamekeeper to introduce her to a local sheep farmer.",
+          "text": "Lady Sabrina has Geoff bring her to meet a local sheep farmer about hosting an operation on his land.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Geoff"
+        },
+        {
+          "text": "Eddie calls on a newly installed young lord, pitching the idea of a grow built beneath his estate.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bobby accepted Eddie's proposal, with Eddie now actively expanding the operation by recruiting other estates."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It shows Eddie actively recruiting other estates for grows, implying Bobby Glass accepted his proposal \ntheir pending deal being the open question left at the end of episode 2."
+                }
+              ],
+              "reason": "It reveals that Bobby accepted Eddie's proposal, with Eddie now actively expanding the operation by recruiting other estates."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Bobby accepted Eddie's proposal, with Eddie now actively expanding the operation by recruiting other estates."
+        },
+        {
+          "text": "Eddie's first face-to-face with a blackmailing ex-journalist goes badly, and the man slips away from him.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It introduces a new blackmail threat and reveals the outcome of that confrontation (Eddie fails and the man escapes), which the viewer hasn't seen yet."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a new antagonist/plot development (a blackmailing ex-journalist) and the outcome of their confrontation, which the viewer has no knowledge of yet."
+                }
+              ],
+              "reason": "It introduces a new blackmail threat and reveals the outcome of that confrontation (Eddie fails and the man escapes), which the viewer hasn't seen yet."
+            }
+          },
+          "rejected": "consequence (2/2): It introduces a new blackmail threat and reveals the outcome of that confrontation (Eddie fails and the man escapes), which the viewer hasn't seen yet."
+        },
+        {
+          "text": "Jimmy, thoroughly smitten, gives Gabrielle a proud personal tour around the underground farm.",
           "checks": {
             "reverse": {
               "picked": 4,
@@ -172,14 +354,14 @@
               "votes": [
                 {
                   "reveals": false,
-                  "reason": "This is ordinary character texture involving an everyday estate errand and reveals no outcome, death, or answer to a pending question."
+                  "reason": "This is ordinary character texture — a romantic infatuation and a tour of an already-known location — without revealing any outcome, though it is mildly suggestive of a future security lapse."
                 },
                 {
                   "reveals": false,
-                  "reason": "A mundane social request that involves no outcome, reveal, or resolution of any pending conflict."
+                  "reason": "It shows a character romance and a tour of an already-known location, without disclosing any outcome, betrayal or consequence."
                 }
               ],
-              "reason": "This is ordinary character texture involving an everyday estate errand and reveals no outcome, death, or answer to a pending question."
+              "reason": "This is ordinary character texture — a romantic infatuation and a tour of an already-known location — without revealing any outcome, though it is mildly suggestive of a future security lapse."
             }
           },
           "rejected": null
@@ -190,7 +372,7 @@
       "title": "I've Hundreds of Cousins",
       "candidates": [
         {
-          "text": "Bobby tells Susie he has no intention of letting Eddie walk away from the empire.",
+          "text": "Eddie and Susie drive out to a Travellers' camp to speak with the family's leader about two missing generators.",
           "checks": {
             "reverse": {
               "picked": 5,
@@ -203,18 +385,72 @@
             "consequence": {
               "votes": [
                 {
-                  "reveals": true,
-                  "reason": "It answers the pending question of how Bobby responds to Eddie's offer to end the cannabis operation, revealing Bobby intends to keep Eddie tied to the criminal empire."
+                  "reveals": false,
+                  "reason": "This is a setup/premise detail — a location and errand — with no outcome, reveal or resolution of any pending conflict."
                 },
                 {
-                  "reveals": true,
-                  "reason": "It answers the open question of how Bobby will respond to Eddie's pending offer to wind down the operation, revealing Bobby intends to keep Eddie tied to the empire."
+                  "reveals": false,
+                  "reason": "This is a routine setup/setting detail — a visit to make inquiries — with no outcome, death, or reveal disclosed."
                 }
               ],
-              "reason": "It answers the pending question of how Bobby responds to Eddie's offer to end the cannabis operation, revealing Bobby intends to keep Eddie tied to the criminal empire."
+              "reason": "This is a setup/premise detail — a location and errand — with no outcome, reveal or resolution of any pending conflict."
             }
           },
-          "rejected": "consequence (2/2): It answers the pending question of how Bobby responds to Eddie's offer to end the cannabis operation, revealing Bobby intends to keep Eddie tied to the criminal empire."
+          "rejected": null
+        },
+        {
+          "text": "Two generators vanish from the weed farm, and Susie needs Eddie's help sorting out who took them.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only sets up an ordinary new problem (missing generators) without resolving any pending conflict or open question like the Gabrielle con."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a new minor problem (missing generators) as a premise, without resolving any pending conflict or open question like the Gabrielle con."
+                }
+              ],
+              "reason": "It only sets up an ordinary new problem (missing generators) without resolving any pending conflict or open question like the Gabrielle con."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The Belgian who runs the shipping side of the Glass distribution starts pushing for a bigger cut.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It introduces a new minor conflict as setup rather than resolving any pending question or outcome the viewer knows about."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes a new business friction/setup rather than resolving any pending conflict or answering open questions like Gabrielle's con or Bobby's decision."
+                }
+              ],
+              "reason": "It introduces a new minor conflict as setup rather than resolving any pending question or outcome the viewer knows about."
+            }
+          },
+          "rejected": null
         }
       ]
     },
@@ -222,7 +458,34 @@
       "title": "All Eventualities",
       "candidates": [
         {
-          "text": "Eddie attends a crowded boxing party, chatting ringside among promoters and fighters.",
+          "text": "Susie's money launderer turns up unannounced and catches her younger brother in bed with his girlfriend.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses a betrayal and its discovery \\in in bed with the launderer's girlfriend and the launderer catching them \\in which is a plot turning point the viewer hasn't yet been set up for."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It introduces a new side situation and characters not tied to any pending question from the episodes watched, functioning as setup rather than resolving an established conflict."
+                }
+              ],
+              "reason": "It discloses a betrayal and its discovery \\in in bed with the launderer's girlfriend and the launderer catching them \\in which is a plot turning point the viewer hasn't yet been set up for."
+            }
+          },
+          "rejected": "consequence (1/2): It discloses a betrayal and its discovery \\in in bed with the launderer's girlfriend and the launderer catching them \\in which is a plot turning point the viewer hasn't yet been set up for."
+        },
+        {
+          "text": "At a glitzy boxing party, Eddie falls into conversation with a smooth ex-army officer who promotes fighters.",
           "checks": {
             "reverse": {
               "picked": 6,
@@ -236,14 +499,41 @@
               "votes": [
                 {
                   "reveals": false,
-                  "reason": "Attending a boxing party ringside is ordinary setting and social texture, revealing no outcome, reveal, or resolution of a pending conflict."
+                  "reason": "Introducing a new character at a social event is ordinary setting and character texture, revealing no outcome or answer to a pending question."
                 },
                 {
                   "reveals": false,
-                  "reason": "A social setting with ringside mingling is ordinary texture and discloses no outcome, reveal or turning point."
+                  "reason": "Meeting a new character in conversation at a party is ordinary setting and character texture, with no outcome, reveal, or answer to a pending question."
                 }
               ],
-              "reason": "Attending a boxing party ringside is ordinary setting and social texture, revealing no outcome, reveal, or resolution of a pending conflict."
+              "reason": "Introducing a new character at a social event is ordinary setting and character texture, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Susie tells Eddie the money still needs another three months of laundering before it counts as clean profit.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A mundane logistical detail about laundering timelines that doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A logistical status update about laundering timelines is ordinary operational texture that doesn't disclose any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "A mundane logistical detail about laundering timelines that doesn't disclose any outcome, reveal, or resolution of a pending conflict."
             }
           },
           "rejected": null
@@ -254,7 +544,7 @@
       "title": "Not Without Danger",
       "candidates": [
         {
-          "text": "A pregnant Charlotte arrives back from university and surprises her family at the estate.",
+          "text": "Eddie and Freddy pay a call on an ageing lord, a former associate of the Glasses, at his crumbling pile.",
           "checks": {
             "reverse": {
               "picked": 7,
@@ -267,38 +557,164 @@
             "consequence": {
               "votes": [
                 {
+                  "reveals": false,
+                  "reason": "A visit to a new peripheral character at his estate is ordinary setup and texture, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It describes only a visit to a new peripheral character's estate, ordinary setup without revealing any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A visit to a new peripheral character at his estate is ordinary setup and texture, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Susie sits at a hospital bedside where her brother Jack lies comatose, and she turns her anger on Eddie.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
                   "reveals": true,
-                  "reason": "It discloses a significant new development \\u2014 that Charlotte returns home pregnant \\u2014 which is a reveal the viewer has had no hint of."
+                  "reason": "It discloses that Susie's brother Jack has been gravely injured and left comatose, plus a resulting rift between Susie and Eddie."
                 },
                 {
                   "reveals": true,
-                  "reason": "It discloses that Charlotte is pregnant, a significant new development not yet hinted at, along with her return to the estate."
+                  "reason": "It reveals that Susie's brother Jack has been gravely injured and left comatose, and that this triggers a rupture between Susie and Eddie \b outcomes the viewer has not yet seen."
                 }
               ],
-              "reason": "It discloses a significant new development \\u2014 that Charlotte returns home pregnant \\u2014 which is a reveal the viewer has had no hint of."
+              "reason": "It discloses that Susie's brother Jack has been gravely injured and left comatose, plus a resulting rift between Susie and Eddie."
             }
           },
-          "rejected": "consequence (2/2): It discloses a significant new development \\u2014 that Charlotte returns home pregnant \\u2014 which is a reveal the viewer has had no hint of."
+          "rejected": "consequence (2/2): It discloses that Susie's brother Jack has been gravely injured and left comatose, plus a resulting rift between Susie and Eddie."
+        },
+        {
+          "text": "Bobby reins his daughter in from behind bars, telling her he will deal with the matter himself.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows a father-daughter conversation about handling an unspecified matter, without disclosing any outcome, death, betrayal, or answer to a pending question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bobby overrules Susie and takes control of the pending conflict himself, an outcome/turning point in the power struggle."
+                }
+              ],
+              "reason": "It reveals that Bobby overrules Susie and takes control of the pending conflict himself, an outcome/turning point in the power struggle."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Bobby overrules Susie and takes control of the pending conflict himself, an outcome/turning point in the power struggle."
         }
       ]
     },
     "8": {
       "title": "The Gospel According to Bobby Glass",
-      "candidates": []
+      "candidates": [
+        {
+          "text": "Armed Glass men arrive in numbers at Halstead Manor and take up positions around the house and grounds.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an escalation of a conflict the viewer already knows is brewing without disclosing any outcome, death, or reveal — armed men positioning is situational texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Armed men taking defensive positions is an expected escalation after Collins' declaration of war and reveals no outcome, death, or answer to an open question."
+                }
+              ],
+              "reason": "It shows an escalation of a conflict the viewer already knows is brewing without disclosing any outcome, death, or reveal — armed men positioning is situational texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Geoff and Charlotte find a quiet moment alone together on the estate for a long, serious talk.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        },
+        {
+          "text": "Lady Sabrina adds her own quiet encouragement when Susie is hesitating, pressing her gently rather than arguing.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows a gentle interpersonal exchange without disclosing any decision, outcome, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — Sabrina gently encouraging a hesitant Susie — without disclosing any outcome, reveal, or resolution of the pending Collins conflict."
+                }
+              ],
+              "reason": "It only shows a gentle interpersonal exchange without disclosing any decision, outcome, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
     }
   },
   "spend": {
-    "in": 14438,
-    "out": 2437,
-    "cache_read": 49708,
-    "cache_write": 6978,
-    "calls": 36
+    "in": 33214,
+    "out": 9614,
+    "cache_read": 167442,
+    "cache_write": 7428,
+    "calls": 94
   },
   "recheck_spend": {
-    "in": 4606,
-    "out": 1116,
-    "cache_read": 9700,
+    "in": 5476,
+    "out": 3794,
+    "cache_read": 49000,
     "cache_write": 0,
-    "calls": 14
-  }
+    "calls": 32
+  },
+  "recheck": [
+    {
+      "episode": 8,
+      "text": "Armed Glass men arrive in numbers at Halstead Manor and take up positions around the house and grounds.",
+      "reason": "It reveals that the Collins conflict escalates into armed confrontation staged at Halstead Manor, showing the Glasses' pending war moves into open hostilities."
+    }
+  ]
 }
