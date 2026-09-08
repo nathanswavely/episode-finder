@@ -1,0 +1,182 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 3,
+  "source": {
+    "title": "The Sopranos season 3",
+    "revid": 1371363631,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_3&oldid=1371363631",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Mr. Ruggerio's Neighborhood",
+      "probes": [
+        {
+          "text": "Water floods the Soprano basement, the room where Tony likes to sit and talk business.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A drunken man in Tony's crew stumbles into the Soprano backyard at night and urinates in the swimming pool.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "Proshai, Livushka",
+      "probes": [
+        {
+          "text": "Late at night, Tony sits alone in front of the television watching the old black-and-white gangster picture The Public Enemy.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Fortunate Son",
+      "probes": [
+        {
+          "text": "Tony turns up at Svetlana's apartment to broker peace over his mother's records, and finds Irina staying there.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Svetlana keeps refusing to hand over Livia's old record collection, which Janice insists belongs to her.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chris gets a tip about a benefit concert worth robbing from the eager teenage son of his late boss.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Employee of the Month",
+      "probes": [
+        {
+          "text": "Jackie Aprile Jr. gets taken along on a collection run from a debtor by one of the older guys.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Another Toothpick",
+      "probes": [
+        {
+          "text": "Adriana decides she has had enough of hostessing at Artie's restaurant and gives up the job.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Driving home from a therapy appointment, Tony is pulled over and ticketed by a cop he cannot charm.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Artie, within Tony's earshot, lets slip just how attracted he has become to Adriana.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "University",
+      "probes": [
+        {
+          "text": "Meadow's Columbia roommate is miserable at college, and Noah invites her along to spend time with the two of them.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Meadow's unhappy roommate keeps attaching herself to her and Noah in the dorm, getting in the way of his studying.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "One of the young dancers at the Bada Bing has struck up a friendly, chatty rapport with Tony.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "7": {
+      "title": "Second Opinion",
+      "probes": [
+        {
+          "text": "A singing Big Mouth Billy Bass is brought into the Bada Bing and mounted on the wall.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Angie says money is tight, but Tony notices a brand new Cadillac sitting in her driveway.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Carmela sits down with a different psychiatrist, an older colleague Melfi has referred her to.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "He Is Risen",
+      "probes": [
+        {
+          "text": "Tony takes a test drive with a saleswoman, sizing up a new car with her in the passenger seat.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "9": {
+      "title": "The Telltale Moozadell",
+      "probes": []
+    },
+    "10": {
+      "title": "...To Save Us All from Satan's Power",
+      "probes": [
+        {
+          "text": "Bobby squeezes into the Santa suit for the Christmas party and makes an awkward, unconvincing job of it.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Meadow's Christmas gift to Tony is a singing rubber fish, and he fakes delight while the family laughs.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In a flashback to a Christmas years earlier, Pussy is oddly touchy about anyone handling his Santa costume.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "11": {
+      "title": "Pine Barrens",
+      "probes": [
+        {
+          "text": "Paulie and Chris spend a freezing night sheltering inside an abandoned van deep in the woods.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Out among the pines, Paulie fires his gun into the air out of sheer frustration.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony drives out with Bobby to go looking for his two men, following a phone call for help.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}

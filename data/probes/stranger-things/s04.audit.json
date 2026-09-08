@@ -1,0 +1,888 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 4,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Hellfire Club",
+      "candidates": [
+        {
+          "text": "Mike and Dustin sit in a school-basement Dungeons & Dragons club led by a long-haired senior metalhead.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Introducing a school D&D club and a new senior character is ordinary setting and character texture, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Introducing a new club setting and a new character is ordinary texture, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "Introducing a school D&D club and a new senior character is ordinary setting and character texture, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A 1979 flashback shows Brenner, dressed in white, overseeing children with strange abilities inside his laboratory.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Brenner"
+        },
+        {
+          "text": "Lucas plays in his high school team's championship basketball game while Mike and Dustin are elsewhere.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes an ordinary school activity and characters' locations, without revealing any outcome, death, discovery or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Lucas participating in a basketball game and the group being split up — with no outcome, reveal, or resolution of a pending question."
+                }
+              ],
+              "reason": "It only describes an ordinary school activity and characters' locations, without revealing any outcome, death, discovery or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Max keeps her distance from her old friends, still unable to grieve her stepbrother's death.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Billy's death is already known from the previous finale, and Max's emotional withdrawal is aftermath character texture rather than a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Billy's death is already known to the viewer, and Max's grief and withdrawal from friends is character texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "Billy's death is already known from the previous finale, and Max's emotional withdrawal is aftermath character texture rather than a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In California, Eleven endures daily teasing and bullying from classmates at her new school.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary situational texture establishing Eleven's new life in California, already set up by her move at the end of the previous season, and reveals no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting and character texture establishing Eleven's new life in California after the known move, revealing no outcome or answer to an open question."
+                }
+              ],
+              "reason": "This is ordinary situational texture establishing Eleven's new life in California, already set up by her move at the end of the previous season, and reveals no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Chapter Two: Vecna's Curse",
+      "candidates": [
+        {
+          "text": "Steve, Robin, Dustin and Max track down a shaken, hiding Eddie and try to explain the Upside Down to him.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It introduces an unknown new character and a group conversation, answering no question the viewer currently has and revealing no pending outcome from what they've seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It introduces an unfamiliar character and a group conversation about the Upside Down, but the viewer has no pending question about Eddie, so it functions as character/setup texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "It introduces an unknown new character and a group conversation, answering no question the viewer currently has and revealing no pending outcome from what they've seen."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Mike flies out to California for a visit, spending the day with Eleven and Will at her school.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "that the visit/bullying takes place at Eleven's school"
+              ]
+            }
+          },
+          "rejected": "faithful: that the visit/bullying takes place at Eleven's school"
+        },
+        {
+          "text": "Joyce and Murray place a long-distance call and end up haggling over money with a Russian prison guard.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It signals that Joyce and Murray have learned of the Russian prisoner and are pursuing him, effectively answering the cliffhanger question of whether Hopper survived and is 'the American' held in Kamchatka."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It implies Joyce and Murray have learned about the American prisoner in Russia, effectively answering the open question of whether Hopper survived the explosion."
+                }
+              ],
+              "reason": "It signals that Joyce and Murray have learned of the Russian prisoner and are pursuing him, effectively answering the cliffhanger question of whether Hopper survived and is 'the American' held in Kamchatka."
+            }
+          },
+          "rejected": "consequence (2/2): It signals that Joyce and Murray have learned of the Russian prisoner and are pursuing him, effectively answering the cliffhanger question of whether Hopper survived and is 'the American' held in Kamchatka."
+        },
+        {
+          "text": "Hopper appears in the snow at a Soviet prison camp in Kamchatka, in a labour gang.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        },
+        {
+          "text": "Nancy and another young reporter from the Hawkins Post do their own digging into the cheerleader's death.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that a cheerleader dies in the upcoming episode, disclosing a death the viewer has no knowledge of."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that a cheerleader dies in the next episode, a new death the viewer does not yet know about, and that Nancy is investigating it with a new ally."
+                }
+              ],
+              "reason": "It reveals that a cheerleader dies in the upcoming episode, disclosing a death the viewer has no knowledge of."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that a cheerleader dies in the upcoming episode, disclosing a death the viewer has no knowledge of."
+        }
+      ]
+    },
+    "3": {
+      "title": "Chapter Three: The Monster and the Superhero",
+      "candidates": [
+        {
+          "text": "Hopper bribes a fellow prisoner to smash the shackles off his legs with a sledgehammer.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Hopper is alive and imprisoned in a Russian labor camp, and shows him actively attempting escape, resolving the open question of his fate teased by the doll note."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Hopper is alive and imprisoned (in a Russian camp), answering the open question raised by the doll's hidden note and revealing his escape attempt storyline."
+                }
+              ],
+              "reason": "It confirms Hopper is alive and imprisoned in a Russian labor camp, and shows him actively attempting escape, resolving the open question of his fate teased by the doll note."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms Hopper is alive and imprisoned in a Russian labor camp, and shows him actively attempting escape, resolving the open question of his fate teased by the doll note."
+        },
+        {
+          "text": "Joyce and Murray board a plane to Alaska with the bundled ransom money in hand.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Joyce and Murray successfully pursue the Hopper-is-alive lead by paying a ransom and traveling abroad, answering the open question of what Joyce does with the note."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Joyce and Murray act on the Hopper-is-alive note by making a ransom deal and traveling toward him, answering the pending open question of whether/how they pursue his rescue."
+                }
+              ],
+              "reason": "It reveals that Joyce and Murray successfully pursue the Hopper-is-alive lead by paying a ransom and traveling abroad, answering the open question of what Joyce does with the note."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Joyce and Murray successfully pursue the Hopper-is-alive lead by paying a ransom and traveling abroad, answering the open question of what Joyce does with the note."
+        },
+        {
+          "text": "Nancy and Robin spend the afternoon at the library, digging through old records on Victor Creel.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes an ordinary research activity and setting without revealing any discovery, outcome, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes an ordinary investigative activity (research at a library) without disclosing any discovery, outcome, or reveal."
+                }
+              ],
+              "reason": "This describes an ordinary research activity and setting without revealing any discovery, outcome, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Max slips into the school counselor's office and quietly lifts files out of the cabinet.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary investigative activity with no outcome, reveal, or answer to a pending question disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary investigative activity that does not disclose an outcome, death, or reveal in itself."
+                }
+              ],
+              "reason": "This is an ordinary investigative activity with no outcome, reveal, or answer to a pending question disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Chrissy's boyfriend rounds up the basketball team and sends them out across town searching for Eddie.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows an expected escalation \\u2014 townspeople blaming Eddie after Chrissy's death \\u2014 without disclosing any outcome, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows an expected aftermath reaction \ninhabitants suspecting Eddie after Chrissy's death \nwithout revealing any outcome, discovery, or resolution of the pending mystery."
+                }
+              ],
+              "reason": "It shows an expected escalation \\u2014 townspeople blaming Eddie after Chrissy's death \\u2014 without disclosing any outcome, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Chapter Four: Dear Billy",
+      "candidates": [
+        {
+          "text": "Nancy and Robin sit down face to face with Victor Creel inside the psychiatric hospital where he is locked up.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The interview itself is a natural next step already set up by Nancy's investigation lead, and the sentence discloses no revelation, outcome, or content of what Creel says."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows an expected investigative next step—interviewing the lead Nancy already identified—without disclosing what Creel reveals or any outcome."
+                }
+              ],
+              "reason": "The interview itself is a natural next step already set up by Nancy's investigation lead, and the sentence discloses no revelation, outcome, or content of what Creel says."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Max sits writing letters, one for each of her friends and for her family, sealing them up one by one.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "Writing sealed farewell letters to each friend and family member signals that Max believes she is about to die, revealing she has become Vecna's next cursed target — an unopened development at this point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Max writing letters is character texture consistent with her known grief over Billy and reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Writing sealed farewell letters to each friend and family member signals that Max believes she is about to die, revealing she has become Vecna's next cursed target — an unopened development at this point."
+            }
+          },
+          "rejected": "consequence (1/2): Writing sealed farewell letters to each friend and family member signals that Max believes she is about to die, revealing she has become Vecna's next cursed target — an unopened development at this point."
+        },
+        {
+          "text": "In Alaska, Joyce and Murray hand over the bag of ransom money to the contact they were told to meet.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It simply shows them carrying out the already-announced plan to deliver the ransom in Alaska, without revealing whether the handover succeeds, betrays them, or frees Hopper."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It simply shows Joyce and Murray carrying out the delivery plan the viewer already knows about, without revealing its outcome or any twist."
+                }
+              ],
+              "reason": "It simply shows them carrying out the already-announced plan to deliver the ransom in Alaska, without revealing whether the handover succeeds, betrays them, or frees Hopper."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Chapter Five: The Nina Project",
+      "candidates": [
+        {
+          "text": "Eleven is driven out to an abandoned missile silo in the Nevada desert, hidden deep underground.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows the setting/destination of a journey the viewer already knows Eleven agreed to take, without revealing any outcome of her treatment."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the destination/outcome of Owens taking Eleven away — the secret underground facility where her powers-restoration program will take place."
+                }
+              ],
+              "reason": "It reveals the destination/outcome of Owens taking Eleven away — the secret underground facility where her powers-restoration program will take place."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the destination/outcome of Owens taking Eleven away — the secret underground facility where her powers-restoration program will take place."
+        },
+        {
+          "text": "Mike suggests reaching out to Dustin's girlfriend Suzie, all the way over in Salt Lake City.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A character floating the idea of contacting an established off-screen friend is a plan/texture, not an outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Merely a suggestion to contact an existing known character; it doesn't disclose any outcome, death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A character floating the idea of contacting an established off-screen friend is a plan/texture, not an outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The teenagers finally get inside the derelict Creel house and watch the lights flicker in the dark rooms.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Entering the Creel house and seeing lights flicker is atmospheric setting and activity, not an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Entering the Creel house and seeing lights flicker is atmospheric setting and activity, not an outcome or reveal in itself."
+                }
+              ],
+              "reason": "Entering the Creel house and seeing lights flicker is atmospheric setting and activity, not an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joyce and Murray are aboard a small plane heading for Russia, wrestling with the smuggler flying it.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the Alaska ransom handoff goes wrong and Joyce and Murray end up en route to Russia in a violent confrontation with the smuggler, resolving the pending question of how the Hopper rescue plot turns out."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the Alaska ransom handoff goes wrong/turns violent and that Joyce and Murray end up en route to Russia themselves, resolving the pending Hopper-rescue plotline's next turn."
+                }
+              ],
+              "reason": "It reveals that the Alaska ransom handoff goes wrong and Joyce and Murray end up en route to Russia in a violent confrontation with the smuggler, resolving the pending question of how the Hopper rescue plot turns out."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the Alaska ransom handoff goes wrong and Joyce and Murray end up en route to Russia in a violent confrontation with the smuggler, resolving the pending question of how the Hopper rescue plot turns out."
+        },
+        {
+          "text": "Jason and his basketball teammates track Eddie down to a boat out on Lover's Lake.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending manhunt \\u2014 that Jason's mob successfully locates Eddie's hiding place at Lover's Lake."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jason's manhunt succeeds in locating Eddie's hiding place, resolving the pending pursuit the viewer knows is underway."
+                }
+              ],
+              "reason": "It reveals the outcome of the pending manhunt \\u2014 that Jason's mob successfully locates Eddie's hiding place at Lover's Lake."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of the pending manhunt \\u2014 that Jason's mob successfully locates Eddie's hiding place at Lover's Lake."
+        }
+      ]
+    },
+    "6": {
+      "title": "Chapter Six: The Dive",
+      "candidates": [
+        {
+          "text": "In the prison camp, the inmates are unexpectedly served an enormous feast, more food than they have seen in months.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A meal in the prison camp is ordinary texture; it discloses no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary (if ominous) prison-camp situation without disclosing any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A meal in the prison camp is ordinary texture; it discloses no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jason stands up at a packed town hall meeting and rallies Hawkins residents against an alleged Satanic cult.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jason publicly stirring up the town against the \"cult\" is a continuation of his already-established crusade against Eddie and Hellfire, revealing no death, discovery, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jason's crusade against Eddie and belief in a Satanic cult is already established, so him rallying townspeople is an expected escalation rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "Jason publicly stirring up the town against the \"cult\" is a continuation of his already-established crusade against Eddie and Hellfire, revealing no death, discovery, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joyce and Murray make Yuri drive them to a nearby town where he keeps his stashed belongings.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Joyce and Murray survive Yuri's betrayal and turn the tables to gain the upper hand over him, resolving the pending cliffhanger of their capture."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Joyce and Murray survive their drugging and turn the tables on Yuri, gaining control over him \ba pending outcome from the cliffhanger of his betrayal."
+                }
+              ],
+              "reason": "It reveals that Joyce and Murray survive Yuri's betrayal and turn the tables to gain the upper hand over him, resolving the pending cliffhanger of their capture."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Joyce and Murray survive Yuri's betrayal and turn the tables to gain the upper hand over him, resolving the pending cliffhanger of their capture."
+        },
+        {
+          "text": "Suzie, back home in Salt Lake City, helps the California group work out a set of coordinates.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Suzie assisting with coordinates is routine plot activity and character texture, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Suzie helping with coordinates is ordinary plot texture consistent with her established role as a tech-savvy contact, and reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Suzie assisting with coordinates is routine plot activity and character texture, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hopper quietly palms a lighter while the guards are not watching him.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A small, ambiguous preparatory action in captivity that doesn't disclose any outcome, escape, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Hopper acquiring a lighter in the prison camp is minor texture consistent with his ongoing captivity and escape attempts, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "A small, ambiguous preparatory action in captivity that doesn't disclose any outcome, escape, or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Chapter Seven: The Massacre at Hawkins Lab",
+      "candidates": [
+        {
+          "text": "The kids in Hawkins and the ones stranded in the Upside Down talk to each other through the gate in Eddie's trailer.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the discovery of a gate at Eddie's trailer and that some of the group ends up stranded in the Upside Down, a plot turn the viewer hasn't reached."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that a gate exists in Eddie's trailer and that some of the kids end up stranded in the Upside Down, a major plot development the viewer has not reached."
+                }
+              ],
+              "reason": "It reveals the discovery of a gate at Eddie's trailer and that some of the group ends up stranded in the Upside Down, a plot turn the viewer hasn't reached."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the discovery of a gate at Eddie's trailer and that some of the group ends up stranded in the Upside Down, a plot turn the viewer hasn't reached."
+        },
+        {
+          "text": "Murray, dressed up in Yuri's clothes and doing his voice, rolls up to the snowbound Soviet prison with Joyce.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "Murray disguised in Yuri's clothes and imitating his voice — the summary has Joyce, Murray, and Yuri all entering, with no impersonation ruse"
+              ]
+            }
+          },
+          "rejected": "faithful: Murray disguised in Yuri's clothes and imitating his voice — the summary has Joyce, Murray, and Yuri all entering, with no impersonation ruse"
+        },
+        {
+          "text": "Dustin, Lucas and Erica work over the locations where each of Vecna's victims was found, mapping them out together.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Mapping victim locations is ordinary investigative activity that doesn't disclose any finding or outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows the characters engaged in ordinary investigative work without disclosing any finding, outcome, or answer."
+                }
+              ],
+              "reason": "Mapping victim locations is ordinary investigative activity that doesn't disclose any finding or outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Chapter Eight: Papa",
+      "candidates": [
+        {
+          "text": "Eleven, submerged in the makeshift tank, reaches out with her powers to see what her friends in Hawkins are up to.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 3
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 3)"
+        },
+        {
+          "text": "Eleven pushes Owens to arrange a way of getting her back to Hawkins as fast as possible.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It signals the outcome of the NINA storyline \ntisan Eleven completing/abandoning the program and returning to Hawkins, resolving the pending question of whether she regains her powers and rejoins the fight."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It signals the resolution of the NINA storyline \ru2014 Eleven completing/abandoning the memory experiments and being ready to leave Nevada for Hawkins, answering the pending question of whether she recovers and rejoins the fight."
+                }
+              ],
+              "reason": "It signals the outcome of the NINA storyline \ntisan Eleven completing/abandoning the program and returning to Hawkins, resolving the pending question of whether she regains her powers and rejoins the fight."
+            }
+          },
+          "rejected": "consequence (2/2): It signals the outcome of the NINA storyline \ntisan Eleven completing/abandoning the program and returning to Hawkins, resolving the pending question of whether she regains her powers and rejoins the fight."
+        },
+        {
+          "text": "Hopper, Joyce and Murray move through the Russian base with Yuri and Antonov still tagging along.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the pending rescue succeeds \\u2014 Joyce and Murray reach Hopper and are reunited with him (and Antonov survives), resolving the infiltration cliffhanger."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Murray and Joyce's infiltration succeeds and that they reunite with Hopper (and that Antonov and Yuri survive as allies), answering the pending question of the rescue attempt's outcome."
+                }
+              ],
+              "reason": "It confirms the pending rescue succeeds \\u2014 Joyce and Murray reach Hopper and are reunited with him (and Antonov survives), resolving the infiltration cliffhanger."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms the pending rescue succeeds \\u2014 Joyce and Murray reach Hopper and are reunited with him (and Antonov survives), resolving the infiltration cliffhanger."
+        }
+      ]
+    }
+  }
+}

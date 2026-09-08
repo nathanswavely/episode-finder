@@ -1365,5 +1365,12 @@
     "cache_read": 695345,
     "cache_write": 11536,
     "calls": 188
+  },
+  "recheck_spend": {
+    "in": 2770,
+    "out": 8535,
+    "cache_read": 368578,
+    "cache_write": 0,
+    "calls": 68
   }
 }

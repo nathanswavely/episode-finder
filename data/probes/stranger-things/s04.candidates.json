@@ -1,0 +1,498 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 4,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Stranger Things season 4",
+    "revid": 1371374530,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_4&oldid=1371374530",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Hellfire Club",
+      "candidates": [
+        {
+          "text": "Mike and Dustin sit in a school-basement Dungeons & Dragons club led by a long-haired senior metalhead.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Dustin"
+          ],
+          "grounded_in": "Mike and Dustin have joined their high school's \"Hellfire Club,\" a Dungeons & Dragons club run by the iconoclastic Eddie Munson",
+          "grounded_ok": true
+        },
+        {
+          "text": "A 1979 flashback shows Brenner, dressed in white, overseeing children with strange abilities inside his laboratory.",
+          "specificity": 4,
+          "characters_named": [
+            "Brenner"
+          ],
+          "grounded_in": "In a flashback to 1979, Dr. Brenner is experimenting on children with supernatural abilities",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lucas plays in his high school team's championship basketball game while Mike and Dustin are elsewhere.",
+          "specificity": 4,
+          "characters_named": [
+            "Lucas",
+            "Mike",
+            "Dustin"
+          ],
+          "grounded_in": "they miss seeing Lucas win the basketball team's championship",
+          "grounded_ok": true
+        },
+        {
+          "text": "Max keeps her distance from her old friends, still unable to grieve her stepbrother's death.",
+          "specificity": 3,
+          "characters_named": [
+            "Max"
+          ],
+          "grounded_in": "Max, who broke up with Lucas, struggles to grieve Billy's death",
+          "grounded_ok": true
+        },
+        {
+          "text": "In California, Eleven endures daily teasing and bullying from classmates at her new school.",
+          "specificity": 2,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Eleven struggles with the loss of her powers and is routinely bullied by other students",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Avoided the porcelain doll from Russia, since the summary frames it as containing the note about Hopper.",
+      "usage": {
+        "in": 49,
+        "out": 2112,
+        "cache_read": 0,
+        "cache_write": 9933
+      }
+    },
+    "2": {
+      "title": "Chapter Two: Vecna's Curse",
+      "candidates": [
+        {
+          "text": "Steve, Robin, Dustin and Max track down a shaken, hiding Eddie and try to explain the Upside Down to him.",
+          "specificity": 4,
+          "characters_named": [
+            "Steve",
+            "Robin",
+            "Dustin",
+            "Max",
+            "Eddie"
+          ],
+          "grounded_in": "Along with Robin and Steve, they track down the traumatized Eddie and explain the Upside Down to him.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike flies out to California for a visit, spending the day with Eleven and Will at her school.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike",
+            "Eleven",
+            "Will"
+          ],
+          "grounded_in": "Mike flies to California to visit Eleven, where he and Will witness her classmate Angela bullying her",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce and Murray place a long-distance call and end up haggling over money with a Russian prison guard.",
+          "specificity": 4,
+          "characters_named": [
+            "Joyce",
+            "Murray"
+          ],
+          "grounded_in": "Joyce and Murray call the phone number listed on the note they sent him and speak to Dmitri Antonov, a prison guard Hopper has bribed.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper appears in the snow at a Soviet prison camp in Kamchatka, in a labour gang.",
+          "specificity": 3,
+          "characters_named": [
+            "Hopper"
+          ],
+          "grounded_in": "Hopper survived the explosion beneath the Starcourt Mall, but was captured by Soviet soldiers and sent to a prison camp in Kamchatka.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy and another young reporter from the Hawkins Post do their own digging into the cheerleader's death.",
+          "specificity": 3,
+          "characters_named": [
+            "Nancy"
+          ],
+          "grounded_in": "Nancy and her fellow journalist Fred investigate Chrissy's death",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Angela, Fred, Wayne and Dmitri are all introduced in this episode, so they are described rather than named; the episode's biggest beats (the skate, Fred's fate) are excluded.",
+      "usage": {
+        "in": 50,
+        "out": 2184,
+        "cache_read": 9933,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Chapter Three: The Monster and the Superhero",
+      "candidates": [
+        {
+          "text": "Hopper bribes a fellow prisoner to smash the shackles off his legs with a sledgehammer.",
+          "specificity": 5,
+          "characters_named": [
+            "Hopper"
+          ],
+          "grounded_in": "Hopper bribes a fellow inmate to break his shackles with a sledgehammer",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce and Murray board a plane to Alaska with the bundled ransom money in hand.",
+          "specificity": 4,
+          "characters_named": [
+            "Joyce",
+            "Murray"
+          ],
+          "grounded_in": "Joyce and Murray fly to Alaska to deliver Hopper's ransom.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy and Robin spend the afternoon at the library, digging through old records on Victor Creel.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy",
+            "Robin",
+            "Victor Creel"
+          ],
+          "grounded_in": "Nancy and Robin go to the library to research Victor Creel",
+          "grounded_ok": true
+        },
+        {
+          "text": "Max slips into the school counselor's office and quietly lifts files out of the cabinet.",
+          "specificity": 4,
+          "characters_named": [
+            "Max"
+          ],
+          "grounded_in": "She steals Chrissy and Fred's files from the counselor's office",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chrissy's boyfriend rounds up the basketball team and sends them out across town searching for Eddie.",
+          "specificity": 3,
+          "characters_named": [
+            "Chrissy",
+            "Eddie"
+          ],
+          "grounded_in": "Jason leads the basketball team to hunt for Eddie",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 52,
+        "out": 1953,
+        "cache_read": 9933,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Chapter Four: Dear Billy",
+      "candidates": [
+        {
+          "text": "Nancy and Robin sit down face to face with Victor Creel inside the psychiatric hospital where he is locked up.",
+          "specificity": 5,
+          "characters_named": [
+            "Nancy",
+            "Robin",
+            "Victor Creel"
+          ],
+          "grounded_in": "Nancy and Robin interview the imprisoned Victor Creel",
+          "grounded_ok": true
+        },
+        {
+          "text": "Max sits writing letters, one for each of her friends and for her family, sealing them up one by one.",
+          "specificity": 4,
+          "characters_named": [
+            "Max"
+          ],
+          "grounded_in": "writes letters to her friends and family",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Alaska, Joyce and Murray hand over the bag of ransom money to the contact they were told to meet.",
+          "specificity": 3,
+          "characters_named": [
+            "Joyce",
+            "Murray"
+          ],
+          "grounded_in": "Joyce and Murray deliver the ransom payment to Antonov's contact",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats (the graveyard, the cassette tape, the attack on the California house, Hopper's escape attempt) are either turning points or direct setups for them, so I kept to three safer moments.",
+      "usage": {
+        "in": 48,
+        "out": 2203,
+        "cache_read": 9933,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Chapter Five: The Nina Project",
+      "candidates": [
+        {
+          "text": "Eleven is driven out to an abandoned missile silo in the Nevada desert, hidden deep underground.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Owens takes Eleven to an abandoned ICBM silo in Nevada",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike suggests reaching out to Dustin's girlfriend Suzie, all the way over in Salt Lake City.",
+          "specificity": 5,
+          "characters_named": [
+            "Mike",
+            "Dustin",
+            "Suzie"
+          ],
+          "grounded_in": "Mike decides to enlist the help of Dustin's girlfriend, Suzie, in Salt Lake City",
+          "grounded_ok": true
+        },
+        {
+          "text": "The teenagers finally get inside the derelict Creel house and watch the lights flicker in the dark rooms.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "investigate the Creel house. Inside, they encounter flickering lights",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce and Murray are aboard a small plane heading for Russia, wrestling with the smuggler flying it.",
+          "specificity": 4,
+          "characters_named": [
+            "Joyce",
+            "Murray"
+          ],
+          "grounded_in": "While flying to Russia, Joyce and Murray subdue Yuri and crash in the taiga",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jason and his basketball teammates track Eddie down to a boat out on Lover's Lake.",
+          "specificity": 4,
+          "characters_named": [
+            "Jason",
+            "Eddie"
+          ],
+          "grounded_in": "Jason and his teammates locate Eddie attempting to escape in a boat on Lover's Lake",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1294,
+        "cache_read": 9933,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Chapter Six: The Dive",
+      "candidates": [
+        {
+          "text": "In the prison camp, the inmates are unexpectedly served an enormous feast, more food than they have seen in months.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Hopper and the other inmates are given a large feast",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jason stands up at a packed town hall meeting and rallies Hawkins residents against an alleged Satanic cult.",
+          "specificity": 5,
+          "characters_named": [
+            "Jason"
+          ],
+          "grounded_in": "Jason galvanizes the residents of Hawkins at a town hall meeting against Eddie's alleged Satanic cult",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce and Murray make Yuri drive them to a nearby town where he keeps his stashed belongings.",
+          "specificity": 4,
+          "characters_named": [
+            "Joyce",
+            "Murray",
+            "Yuri"
+          ],
+          "grounded_in": "Joyce and Murray force Yuri to take them to a nearby town where he stores his belongings",
+          "grounded_ok": true
+        },
+        {
+          "text": "Suzie, back home in Salt Lake City, helps the California group work out a set of coordinates.",
+          "specificity": 4,
+          "characters_named": [
+            "Suzie"
+          ],
+          "grounded_in": "Suzie helps Mike's group locate the coordinates for Project NINA",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper quietly palms a lighter while the guards are not watching him.",
+          "specificity": 3,
+          "characters_named": [
+            "Hopper"
+          ],
+          "grounded_in": "He later manages to steal a lighter",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 46,
+        "out": 1090,
+        "cache_read": 9933,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Chapter Seven: The Massacre at Hawkins Lab",
+      "candidates": [
+        {
+          "text": "The kids in Hawkins and the ones stranded in the Upside Down talk to each other through the gate in Eddie's trailer.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "Both groups meet inside Eddie's trailer at the gate where Chrissy died.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Murray, dressed up in Yuri's clothes and doing his voice, rolls up to the snowbound Soviet prison with Joyce.",
+          "specificity": 4,
+          "characters_named": [
+            "Murray",
+            "Yuri",
+            "Joyce"
+          ],
+          "grounded_in": "Joyce, Murray, and Yuri enter Kamchatka",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dustin, Lucas and Erica work over the locations where each of Vecna's victims was found, mapping them out together.",
+          "specificity": 3,
+          "characters_named": [
+            "Dustin",
+            "Lucas",
+            "Erica"
+          ],
+          "grounded_in": "Dustin, Lucas, and Erica theorize that Vecna has created a portal at the site of each murder",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning points (the prison fight's outcome, the reunion, the Vecna/Henry revelations), so usable texture is thin.",
+      "usage": {
+        "in": 57,
+        "out": 1902,
+        "cache_read": 9933,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Chapter Eight: Papa",
+      "candidates": [
+        {
+          "text": "Eleven, submerged in the makeshift tank, reaches out with her powers to see what her friends in Hawkins are up to.",
+          "specificity": 3,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Eleven, using her powers, learns of this plan",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven pushes Owens to arrange a way of getting her back to Hawkins as fast as possible.",
+          "specificity": 3,
+          "characters_named": [
+            "Eleven",
+            "Owens"
+          ],
+          "grounded_in": "gets Owens to arrange transit to Hawkins",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper, Joyce and Murray move through the Russian base with Yuri and Antonov still tagging along.",
+          "specificity": 3,
+          "characters_named": [
+            "Hopper",
+            "Joyce",
+            "Murray",
+            "Yuri",
+            "Antonov"
+          ],
+          "grounded_in": "Hopper, Joyce, Murray, Yuri, and Antonov escape the base",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly everything in this episode is a betrayal, death, discovery or plan-setup for the finale, so the safe material is thin.",
+      "usage": {
+        "in": 46,
+        "out": 1849,
+        "cache_read": 9933,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Chapter Nine: The Piggyback",
+      "candidates": [
+        {
+          "text": "Steve, Nancy, and Robin cross into the Upside Down version of the Creel house while the others take the real one.",
+          "specificity": 4,
+          "characters_named": [
+            "Steve",
+            "Nancy",
+            "Robin"
+          ],
+          "grounded_in": "Steve, Nancy, and Robin go to its Upside Down counterpart",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven's group rigs up a makeshift isolation tank so she can reach another person's mind from far away.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Eleven's group creates an isolation tank so she can enter Max's mind",
+          "grounded_ok": true
+        },
+        {
+          "text": "Max, Lucas, and Erica make their way to the Creel house together as the groups split up.",
+          "specificity": 4,
+          "characters_named": [
+            "Max",
+            "Lucas",
+            "Erica"
+          ],
+          "grounded_in": "Max, Lucas, and Erica go to the Creel House",
+          "grounded_ok": true
+        },
+        {
+          "text": "Instead of fleeing Russia, Hopper, Joyce, and Murray turn around and head back inside the prison.",
+          "specificity": 4,
+          "characters_named": [
+            "Hopper",
+            "Joyce",
+            "Murray"
+          ],
+          "grounded_in": "Hopper, Joyce, and Murray re-enter the prison",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Season finale: nearly every beat in the summary is a death, a reveal, or an outcome, so the usable material is limited to how the groups split up and the improvised equipment.",
+      "usage": {
+        "in": 49,
+        "out": 1256,
+        "cache_read": 9933,
+        "cache_write": 0
+      }
+    }
+  }
+}

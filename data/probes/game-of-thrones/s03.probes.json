@@ -1,0 +1,177 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 3,
+  "source": {
+    "title": "Game of Thrones season 3",
+    "revid": 1365331607,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_3&oldid=1365331607",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Valar Dohaeris",
+      "probes": [
+        {
+          "text": "Margaery leaves her escort behind to walk into a poor district of King's Landing and hand food to orphans.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Ros takes Shae aside for a quiet word, warning her that Littlefinger is not to be trusted.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A scarred Tyrion sits across from his father in his chambers, pressing his claim to Casterly Rock.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Dark Wings, Dark Words",
+      "probes": [
+        {
+          "text": "In a garden, Margaery and her sharp-tongued grandmother press Sansa with questions about Joffrey and invite her to Highgarden.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Trudging through the woods with Osha and Hodor, Bran's party comes across a strange brother and sister travelling alone.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Still on foot in open country, Arya, Gendry and Hot Pie are making their way toward Riverrun.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Walk of Punishment",
+      "probes": [
+        {
+          "text": "The surviving Night's Watch men trudge back to Craster's Keep, where Gilly is giving birth.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "And Now His Watch Is Ended",
+      "probes": [
+        {
+          "text": "Arya and Gendry are brought into the Brotherhood's hidden cave and led before the outlaws' leader.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Brienne, still bound alongside a despairing Jaime, urges him to keep hoping rather than give up.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Kissed by Fire",
+      "probes": [
+        {
+          "text": "Stannis's young daughter sneaks down to the cells with a book and begins teaching Davos his letters.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tyrion, buried in the crown's accounts, haggles with Olenna over who should pay for half the royal wedding.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At Harrenhal, a disgraced former maester unwraps and tends the bandaged stump at the end of Jaime's arm.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "The Climb",
+      "probes": [
+        {
+          "text": "Jon and Ygritte inch up the sheer ice face of the Wall on ropes with Tormund's climbing party.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Travelling north through the woods, Osha and Meera needle each other, and the tension in the camp grows.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "The Bear and the Maiden Fair",
+      "probes": [
+        {
+          "text": "Tywin climbs the steps to Joffrey in the throne room, brushing aside talk of the Targaryen girl overseas.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Osha, agitated, warns Bran's companions about what she has seen walking beyond the Wall.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Orell watches Jon and Ygritte together as the wildling party travels south, his resentment plain.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Second Sons",
+      "probes": [
+        {
+          "text": "At a wedding feast in King's Landing, Tyrion drinks himself loud and sloppy and makes a scene before the hall.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Cersei makes her contempt for Margaery and Loras plain during the wedding celebrations, all icy courtesy and open threat.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Outside Yunkai, Daenerys learns the city has hired a company of sellswords to fight in its defence.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "The Rains of Castamere",
+      "probes": [
+        {
+          "text": "Bran's group takes shelter inside an abandoned tower while a thunderstorm breaks overhead, and Hodor grows agitated.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Mhysa",
+      "probes": [],
+      "fine_only": []
+    }
+  }
+}

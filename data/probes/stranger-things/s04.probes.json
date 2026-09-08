@@ -1,0 +1,127 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 4,
+  "source": {
+    "title": "Stranger Things season 4",
+    "revid": 1371374530,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_4&oldid=1371374530",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Hellfire Club",
+      "probes": [
+        {
+          "text": "Mike and Dustin sit in a school-basement Dungeons & Dragons club led by a long-haired senior metalhead.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Lucas plays in his high school team's championship basketball game while Mike and Dustin are elsewhere.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Max keeps her distance from her old friends, still unable to grieve her stepbrother's death.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "2": {
+      "title": "Chapter Two: Vecna's Curse",
+      "probes": [
+        {
+          "text": "Steve, Robin, Dustin and Max track down a shaken, hiding Eddie and try to explain the Upside Down to him.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Chapter Three: The Monster and the Superhero",
+      "probes": [
+        {
+          "text": "Nancy and Robin spend the afternoon at the library, digging through old records on Victor Creel.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Max slips into the school counselor's office and quietly lifts files out of the cabinet.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Chrissy's boyfriend rounds up the basketball team and sends them out across town searching for Eddie.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "4": {
+      "title": "Chapter Four: Dear Billy",
+      "probes": [
+        {
+          "text": "Nancy and Robin sit down face to face with Victor Creel inside the psychiatric hospital where he is locked up.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "In Alaska, Joyce and Murray hand over the bag of ransom money to the contact they were told to meet.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "5": {
+      "title": "Chapter Five: The Nina Project",
+      "probes": [
+        {
+          "text": "Mike suggests reaching out to Dustin's girlfriend Suzie, all the way over in Salt Lake City.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "The teenagers finally get inside the derelict Creel house and watch the lights flicker in the dark rooms.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Chapter Six: The Dive",
+      "probes": [
+        {
+          "text": "In the prison camp, the inmates are unexpectedly served an enormous feast, more food than they have seen in months.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jason stands up at a packed town hall meeting and rallies Hawkins residents against an alleged Satanic cult.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Suzie, back home in Salt Lake City, helps the California group work out a set of coordinates.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "7": {
+      "title": "Chapter Seven: The Massacre at Hawkins Lab",
+      "probes": [
+        {
+          "text": "Dustin, Lucas and Erica work over the locations where each of Vecna's victims was found, mapping them out together.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "8": {
+      "title": "Chapter Eight: Papa",
+      "probes": []
+    }
+  }
+}

@@ -278,6 +278,275 @@
         "cache_read": 11977,
         "cache_write": 0
       }
+    },
+    "6": {
+      "title": "The Climb",
+      "candidates": [
+        {
+          "text": "Jon and Ygritte inch up the sheer ice face of the Wall on ropes with Tormund's climbing party.",
+          "specificity": 5,
+          "characters_named": [
+            "Jon",
+            "Ygritte",
+            "Tormund"
+          ],
+          "grounded_in": "Jon and Ygritte scale the Wall with the wildlings Tormund and Orell",
+          "grounded_ok": true
+        },
+        {
+          "text": "The red priestess rides into the outlaws' riverland camp, and Arya finds herself face to face with her.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "In the Riverlands, Melisandre purchases Gendry from the Brotherhood",
+          "grounded_ok": true
+        },
+        {
+          "text": "Travelling north through the woods, Osha and Meera needle each other, and the tension in the camp grows.",
+          "specificity": 4,
+          "characters_named": [
+            "Osha",
+            "Meera"
+          ],
+          "grounded_in": "In the North, tension arises between Osha and Meera",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion has to break the news of the arranged wedding twice, first to Shae, then to Sansa.",
+          "specificity": 3,
+          "characters_named": [
+            "Tyrion",
+            "Shae",
+            "Sansa"
+          ],
+          "grounded_in": "Tyrion informs Shae and Sansa about his and Sansa's upcoming wedding",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats are reveals or deals with consequences (Ros, the Frey pact, Melisandre's prophecy), so texture options were limited.",
+      "usage": {
+        "in": 39,
+        "out": 1675,
+        "cache_read": 11977,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "The Bear and the Maiden Fair",
+      "candidates": [
+        {
+          "text": "Tywin climbs the steps to Joffrey in the throne room, brushing aside talk of the Targaryen girl overseas.",
+          "specificity": 4,
+          "characters_named": [
+            "Tywin",
+            "Joffrey"
+          ],
+          "grounded_in": "Tywin and Joffrey discuss Daenerys; Tywin dismisses her as a potential threat.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Osha, agitated, warns Bran's companions about what she has seen walking beyond the Wall.",
+          "specificity": 4,
+          "characters_named": [
+            "Osha",
+            "Bran"
+          ],
+          "grounded_in": "Osha warns them about the White Walkers",
+          "grounded_ok": true
+        },
+        {
+          "text": "Orell watches Jon and Ygritte together as the wildling party travels south, his resentment plain.",
+          "specificity": 4,
+          "characters_named": [
+            "Orell",
+            "Jon",
+            "Ygritte"
+          ],
+          "grounded_in": "Jon and Ygritte's relationship deepens, angering jealous Wildling, Orell.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Shae tells Tyrion exactly how she expects their arrangement to end once he is a married man.",
+          "specificity": 3,
+          "characters_named": [
+            "Shae",
+            "Tyrion"
+          ],
+          "grounded_in": "Shae warns Tyrion that their relationship will end once he marries Sansa.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys and her host arrive before the walls of a new slaver city and camp outside it.",
+          "specificity": 3,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Daenerys reaches Yunkai and declares war on the city.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1761,
+        "cache_read": 11977,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Second Sons",
+      "candidates": [
+        {
+          "text": "At a wedding feast in King's Landing, Tyrion drinks himself loud and sloppy and makes a scene before the hall.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "At the wedding feast, Tyrion causes a drunken scene.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cersei makes her contempt for Margaery and Loras plain during the wedding celebrations, all icy courtesy and open threat.",
+          "specificity": 4,
+          "characters_named": [
+            "Cersei",
+            "Margaery",
+            "Loras"
+          ],
+          "grounded_in": "Cersei shows her displeasure towards Margaery and Loras.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tywin corners Tyrion after the ceremony and demands he produce a Lannister heir without delay.",
+          "specificity": 4,
+          "characters_named": [
+            "Tywin",
+            "Tyrion"
+          ],
+          "grounded_in": "Tywin demands that Tyrion quickly produce a Lannister heir",
+          "grounded_ok": true
+        },
+        {
+          "text": "Outside Yunkai, Daenerys learns the city has hired a company of sellswords to fight in its defence.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Daenerys learns that Yunkai has employed mercenaries called the \"Second Sons\" to defend the city.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Riding through the countryside, the Hound tells Arya plainly what he intends to do with her.",
+          "specificity": 3,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "Sandor tells Arya that he is taking her to the Twins to ransom her to Robb.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1904,
+        "cache_read": 11977,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "The Rains of Castamere",
+      "candidates": [
+        {
+          "text": "Sam and Gilly, carrying her newborn son, finally reach the Wall after their long journey through the snow.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam",
+            "Gilly"
+          ],
+          "grounded_in": "Sam, Gilly, and her son arrive at the Wall.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bran's group takes shelter inside an abandoned tower while a thunderstorm breaks overhead, and Hodor grows agitated.",
+          "specificity": 4,
+          "characters_named": [
+            "Bran",
+            "Hodor"
+          ],
+          "grounded_in": "While hiding in a tower during a thunderstorm, Bran enters a panicked Hodor's mind",
+          "grounded_ok": true
+        },
+        {
+          "text": "Rickon's black direwolf Shaggydog stays close beside him as Osha talks about seeking shelter with northern bannermen.",
+          "specificity": 3,
+          "characters_named": [
+            "Rickon",
+            "Shaggydog",
+            "Osha"
+          ],
+          "grounded_in": "Osha, Rickon, and his direwolf, Shaggydog, depart for the Last Hearth, to seek shelter from Stark bannermen House Umber",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This episode's centrepiece is a major turning point, so most memorable material is off-limits; probes are limited to peripheral texture.",
+      "usage": {
+        "in": 44,
+        "out": 1574,
+        "cache_read": 11977,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Mhysa",
+      "candidates": [
+        {
+          "text": "Sam and Gilly, carrying her baby, stumble upon Bran's group sheltering in a ruined castle beyond the Wall.",
+          "specificity": 5,
+          "characters_named": [
+            "Sam",
+            "Gilly",
+            "Bran"
+          ],
+          "grounded_in": "Sam and Gilly encounter Bran's party in the Night Fort",
+          "grounded_ok": true
+        },
+        {
+          "text": "At Castle Black, Maester Aemon has Sam writing out letter after letter to be sent by raven.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam",
+            "Maester Aemon"
+          ],
+          "grounded_in": "Maester Aemon has him send ravens to warn the Seven Kingdoms",
+          "grounded_ok": true
+        },
+        {
+          "text": "At Dragonstone, Davos slowly reads aloud a letter that has arrived by raven, sounding out the words.",
+          "specificity": 4,
+          "characters_named": [
+            "Davos"
+          ],
+          "grounded_in": "He persuades Stannis to respond to the Night's Watch's letter",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys steps down among the freed slaves of Yunkai, who crowd around her and lift her overhead.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "the freed Yunkai slaves hail Daenerys as \"Mhysa\" (mother)",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this finale's material is reveals, deaths or mutilations; the safe texture is limited.",
+      "usage": {
+        "in": 40,
+        "out": 1959,
+        "cache_read": 11977,
+        "cache_write": 0
+      }
     }
   }
 }

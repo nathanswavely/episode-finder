@@ -1,0 +1,1162 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 3,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Valar Dohaeris",
+      "candidates": [
+        {
+          "text": "Margaery leaves her escort behind to walk into a poor district of King's Landing and hand food to orphans.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture showing Margaery's public charm and charity, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture showing Margaery's public-relations charm, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is character texture showing Margaery's public charm and charity, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Ros takes Shae aside for a quiet word, warning her that Littlefinger is not to be trusted.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A cautionary conversation between two side characters conveys no outcome, death, or reveal beyond ordinary character texture and already-established distrust of Littlefinger."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It is a private conversation conveying a warning and character texture, with no death, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "A cautionary conversation between two side characters conveys no outcome, death, or reveal beyond ordinary character texture and already-established distrust of Littlefinger."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A scarred Tyrion sits across from his father in his chambers, pressing his claim to Casterly Rock.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows a conversation the viewer would expect after Tyrion's wounding, without disclosing its outcome or any new plot development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows a conversation the viewer would expect given Tyrion's known wound and family tensions, without disclosing its outcome or any new revelation."
+                }
+              ],
+              "reason": "It only shows a conversation the viewer would expect after Tyrion's wounding, without disclosing its outcome or any new plot development."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Daenerys arrives by ship at Astapor, where ranks of slave soldiers stand motionless while a slaver talks terms.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Daenerys arriving at Astapor and viewing the Unsullied is a new setting and situation rather than an outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Daenerys arriving at a new location and beginning negotiations, which is setting/situation texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Daenerys arriving at Astapor and viewing the Unsullied is a new setting and situation rather than an outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jon is marched through the sprawling wildling camp and brought before Mance Rayder inside his tent.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jon being taken to Mance's camp is the already-established trajectory from the prior episodes; the sentence shows only setting and no outcome of whether his deception succeeds."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jon being taken to Mance Rayder's camp is the already-established continuation of his infiltration plan, revealing no new outcome."
+                }
+              ],
+              "reason": "Jon being taken to Mance's camp is the already-established trajectory from the prior episodes; the sentence shows only setting and no outcome of whether his deception succeeds."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Dark Wings, Dark Words",
+      "candidates": [
+        {
+          "text": "In a garden, Margaery and her sharp-tongued grandmother press Sansa with questions about Joffrey and invite her to Highgarden.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ordinary conversational scene and character introduction without disclosing any outcome, death, betrayal, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary conversation scene and introduction of a new character's manner, without disclosing any outcome, revelation, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It describes an ordinary conversational scene and character introduction without disclosing any outcome, death, betrayal, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Trudging through the woods with Osha and Hodor, Bran's party comes across a strange brother and sister travelling alone.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Bran's party encountering unnamed new travellers, which is character/setting texture rather than an outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It merely shows Bran's party continuing their journey and encountering two unnamed new characters, which is setup/texture rather than an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It only shows Bran's party encountering unnamed new travellers, which is character/setting texture rather than an outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Still on foot in open country, Arya, Gendry and Hot Pie are making their way toward Riverrun.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely shows the trio continuing the journey already established by their escape, with no outcome, encounter or reveal disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the trio continuing their already-established flight on foot with no new outcome, discovery or reversal."
+                }
+              ],
+              "reason": "It merely shows the trio continuing the journey already established by their escape, with no outcome, encounter or reveal disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "One of Robb's northern bannermen rages at him openly over the freeing of Jaime Lannister.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Robb's men already knew of Catelyn freeing Jaime and sought retribution, so a bannerman's anger is ordinary continuation rather than a new outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary fallout from events the viewer already knows (Catelyn freeing Jaime), and reveals no new outcome or turning point."
+                }
+              ],
+              "reason": "Robb's men already knew of Catelyn freeing Jaime and sought retribution, so a bannerman's anger is ordinary continuation rather than a new outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Walk of Punishment",
+      "candidates": [
+        {
+          "text": "Hot Pie is left behind at the inn to work there, while the others are taken onward.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Arya's group being taken by a new party and Hot Pie's departure from the traveling group, a turning point not yet seen by the viewer."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Arya's group being taken by the Brotherhood and Hot Pie's departure from the traveling party, a plot development not yet seen by the viewer."
+                }
+              ],
+              "reason": "It reveals the outcome of Arya's group being taken by a new party and Hot Pie's departure from the traveling group, a turning point not yet seen by the viewer."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Arya's group being taken by a new party and Hot Pie's departure from the traveling group, a turning point not yet seen by the viewer."
+        },
+        {
+          "text": "Tywin hands Tyrion the crown's purse, naming his son the new Master of Coin.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses the outcome of Tyrion's pending bid for a position from Tywin, revealing his new appointment as Master of Coin."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Tyrion's pending negotiation with Tywin over his reward/position, namely his appointment as Master of Coin."
+                }
+              ],
+              "reason": "It discloses the outcome of Tyrion's pending bid for a position from Tywin, revealing his new appointment as Master of Coin."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses the outcome of Tyrion's pending bid for a position from Tywin, revealing his new appointment as Master of Coin."
+        },
+        {
+          "text": "Tywin instructs Littlefinger to travel to the Eyrie and win Lysa Arryn's hand and allegiance.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Lysa Arryn"
+        },
+        {
+          "text": "Mance orders Jon to join a wildling band climbing the Wall to strike Castle Black from behind.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Mance's military plan to scale the Wall and attack Castle Black from the rear, plus Jon's new assignment within the wildling host \\u2014 a plot turning point the viewer hasn't yet learned."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses Mance's secret war plan \\u2014 a splinter force scaling the Wall to attack Castle Black from the rear \\u2014 and Jon's new assignment within it, a plot turn the viewer hasn't yet learned."
+                }
+              ],
+              "reason": "It reveals Mance's military plan to scale the Wall and attack Castle Black from the rear, plus Jon's new assignment within the wildling host \\u2014 a plot turning point the viewer hasn't yet learned."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals Mance's military plan to scale the Wall and attack Castle Black from the rear, plus Jon's new assignment within the wildling host \\u2014 a plot turning point the viewer hasn't yet learned."
+        },
+        {
+          "text": "The surviving Night's Watch men trudge back to Craster's Keep, where Gilly is giving birth.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only establishes a setting and situation already implied by the Watch's pledge to return to the Wall, revealing no outcome beyond ordinary plot texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only establishes a location and an ongoing situation (the men's retreat and Gilly's labour) without revealing any outcome, such as the child's sex or anyone's fate."
+                }
+              ],
+              "reason": "It only establishes a setting and situation already implied by the Watch's pledge to return to the Wall, revealing no outcome beyond ordinary plot texture."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "And Now His Watch Is Ended",
+      "candidates": [
+        {
+          "text": "Varys tells Tyrion the story of how he was cut as a boy, then shows him a crated captive in his chambers.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It is backstory and character texture about Varys with no bearing on any pending conflict or open question the viewer is tracking."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses Varys's hidden backstory of castration and the reveal that he has secretly captured and caged the man responsible, a significant revelation not yet known to the viewer."
+                }
+              ],
+              "reason": "It discloses Varys's hidden backstory of castration and the reveal that he has secretly captured and caged the man responsible, a significant revelation not yet known to the viewer."
+            }
+          },
+          "rejected": "consequence (1/2): It discloses Varys's hidden backstory of castration and the reveal that he has secretly captured and caged the man responsible, a significant revelation not yet known to the viewer."
+        },
+        {
+          "text": "Arya and Gendry are brought into the Brotherhood's hidden cave and led before the outlaws' leader.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Being taken to meet the Brotherhood's leader is an ordinary continuation of the capture the viewer already knows about, revealing no outcome, death, or twist."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Being brought before the Brotherhood's leader is a natural continuation of their capture already established, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Being taken to meet the Brotherhood's leader is an ordinary continuation of the capture the viewer already knows about, revealing no outcome, death, or twist."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Brienne, still bound alongside a despairing Jaime, urges him to keep hoping rather than give up.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture between two captives whose imprisonment the viewer already knows about, revealing no outcome, escape, or new development."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the pair still captive and exchanging encouragement, which is a natural continuation of their known capture and reveals no outcome or new development."
+                }
+              ],
+              "reason": "This is character texture between two captives whose imprisonment the viewer already knows about, revealing no outcome, escape, or new development."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Kissed by Fire",
+      "candidates": [
+        {
+          "text": "Stannis's young daughter sneaks down to the cells with a book and begins teaching Davos his letters.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Davos is already known to be imprisoned at Dragonstone, and Shireen visiting him to teach reading is ordinary character texture rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Davos is already known to be imprisoned at Dragonstone, and a quiet reading lesson from Shireen is character texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Davos is already known to be imprisoned at Dragonstone, and Shireen visiting him to teach reading is ordinary character texture rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tyrion, buried in the crown's accounts, haggles with Olenna over who should pay for half the royal wedding.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary texture consistent with Tyrion's known role as Master of Coin and the already-announced Joffrey\ndash Margaery marriage, revealing no outcome or new information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows ordinary administrative/political texture consistent with Tyrion's known role as Master of Coin and the already-established Joffrey–Margaery wedding, without disclosing any outcome or reveal."
+                }
+              ],
+              "reason": "This is ordinary texture consistent with Tyrion's known role as Master of Coin and the already-announced Joffrey\ndash Margaery marriage, revealing no outcome or new information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Daenerys tells the assembled Unsullied to pick a commander from among their own ranks rather than have one appointed.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending Astapor bargain — that Daenerys ends up in command of the freed Unsullied army rather than losing her dragon to the slavers."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending Astapor bargain \\u2014 that Daenerys ends up in command of the Unsullied and frees/empowers them as her own soldiers rather than losing them or her dragon."
+                }
+              ],
+              "reason": "It reveals the outcome of the pending Astapor bargain — that Daenerys ends up in command of the freed Unsullied army rather than losing her dragon to the slavers."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of the pending Astapor bargain — that Daenerys ends up in command of the freed Unsullied army rather than losing her dragon to the slavers."
+        },
+        {
+          "text": "At Harrenhal, a disgraced former maester unwraps and tends the bandaged stump at the end of Jaime's arm.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows aftermath care of an injury the viewer already witnessed, with no new outcome beyond ordinary medical texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows ordinary aftermath care for an injury the viewer already knows about, introducing a caretaker character without disclosing any new outcome, twist, or answer to a pending question."
+                }
+              ],
+              "reason": "It only shows aftermath care of an injury the viewer already witnessed, with no new outcome beyond ordinary medical texture."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "The Climb",
+      "candidates": [
+        {
+          "text": "Jon and Ygritte inch up the sheer ice face of the Wall on ropes with Tormund's climbing party.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The climb was already established as Mance's plan in a prior episode; showing them ascending is expected setting/activity with no outcome revealed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Jon was sent with Tormund's party to climb the Wall, and the sentence shows only the expected activity in progress without revealing any outcome."
+                }
+              ],
+              "reason": "The climb was already established as Mance's plan in a prior episode; showing them ascending is expected setting/activity with no outcome revealed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The red priestess rides into the outlaws' riverland camp, and Arya finds herself face to face with her.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Melisandre's mysterious \"blood of a king\" quest brings her to the Brotherhood's camp, converging her storyline with Arya's and foreshadowing her interest in Gendry."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Melisandre's mysterious departure in search of \"the blood of a king\" leads her to the Brotherhood's camp and an encounter with Arya, a plot convergence the viewer hasn't seen."
+                }
+              ],
+              "reason": "It discloses that Melisandre's mysterious \"blood of a king\" quest brings her to the Brotherhood's camp, converging her storyline with Arya's and foreshadowing her interest in Gendry."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses that Melisandre's mysterious \"blood of a king\" quest brings her to the Brotherhood's camp, converging her storyline with Arya's and foreshadowing her interest in Gendry."
+        },
+        {
+          "text": "Travelling north through the woods, Osha and Meera needle each other, and the tension in the camp grows.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary travel and interpersonal friction among characters already established as a group, revealing no outcome or plot answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary travel texture and interpersonal friction, revealing no outcome, death, or plot answer."
+                }
+              ],
+              "reason": "This is ordinary travel and interpersonal friction among characters already established as a group, revealing no outcome or plot answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tyrion has to break the news of the arranged wedding twice, first to Shae, then to Sansa.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Tyrion is to be married to Sansa, overturning the pending Sansa-Loras betrothal plan the viewer knows about."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that a marriage between Tyrion and Sansa is arranged, a major plot turn not yet known to the viewer, who last saw Sansa expecting to marry Loras."
+                }
+              ],
+              "reason": "It reveals that Tyrion is to be married to Sansa, overturning the pending Sansa-Loras betrothal plan the viewer knows about."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Tyrion is to be married to Sansa, overturning the pending Sansa-Loras betrothal plan the viewer knows about."
+        }
+      ]
+    },
+    "7": {
+      "title": "The Bear and the Maiden Fair",
+      "candidates": [
+        {
+          "text": "Tywin climbs the steps to Joffrey in the throne room, brushing aside talk of the Targaryen girl overseas.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This depicts an ordinary power-dynamic exchange between Tywin and Joffrey in the throne room with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary court texture \\u2014 a Tywin\\u2013Joffrey conversation about Daenerys with no outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This depicts an ordinary power-dynamic exchange between Tywin and Joffrey in the throne room with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Osha, agitated, warns Bran's companions about what she has seen walking beyond the Wall.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Osha voicing fear about the wights beyond the Wall is character texture that confirms nothing new to a viewer who has already seen the White Walker army, and it settles no pending question or outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Osha voicing fear/backstory about wights beyond the Wall is character texture and reiterates already-known dangers, revealing no outcome, death, or answer to an open question."
+                }
+              ],
+              "reason": "Osha voicing fear about the wights beyond the Wall is character texture that confirms nothing new to a viewer who has already seen the White Walker army, and it settles no pending question or outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Orell watches Jon and Ygritte together as the wildling party travels south, his resentment plain.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture—Orell's jealousy over Jon and Ygritte's already-established relationship—without disclosing any outcome, betrayal, or plot turn."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — Orell's jealousy over Jon and Ygritte's already-established relationship during ordinary travel, with no outcome, reveal, or turning point disclosed."
+                }
+              ],
+              "reason": "This is character texture—Orell's jealousy over Jon and Ygritte's already-established relationship—without disclosing any outcome, betrayal, or plot turn."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Shae tells Tyrion exactly how she expects their arrangement to end once he is a married man.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Tywin has ordered Tyrion to marry Sansa; Shae voicing her expectations about their affair is emotional texture rather than a confirmed outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Tyrion is being forced to marry Sansa; Shae voicing her feelings about it is character texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "The viewer already knows Tywin has ordered Tyrion to marry Sansa; Shae voicing her expectations about their affair is emotional texture rather than a confirmed outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Daenerys and her host arrive before the walls of a new slaver city and camp outside it.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Arriving and camping outside a new city is ordinary travel/setting texture with no outcome revealed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Arriving and camping outside a new city is ordinary plot movement and setting texture, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Arriving and camping outside a new city is ordinary travel/setting texture with no outcome revealed."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Second Sons",
+      "candidates": [
+        {
+          "text": "At a wedding feast in King's Landing, Tyrion drinks himself loud and sloppy and makes a scene before the hall.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The wedding was already announced to the viewer, and Tyrion's drunken behaviour at the feast is character texture rather than an outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The Tyrion–Sansa wedding is already announced to the viewer, and Tyrion's drunken behaviour at the feast is character texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "The wedding was already announced to the viewer, and Tyrion's drunken behaviour at the feast is character texture rather than an outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Cersei makes her contempt for Margaery and Loras plain during the wedding celebrations, all icy courtesy and open threat.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Cersei's hostility toward the Tyrells over the forced marriage is established character texture, not a new outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with Cersei's already-known resentment of the forced Tyrell marriages, revealing no new outcome."
+                }
+              ],
+              "reason": "Cersei's hostility toward the Tyrells over the forced marriage is established character texture, not a new outcome or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tywin corners Tyrion after the ceremony and demands he produce a Lannister heir without delay.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms that the pending Tyrion–Sansa wedding actually goes through, resolving the open question of whether Sansa escapes or the match is derailed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The Tyrion\ndSansa marriage has already been announced and accepted in prior episodes, so a post-ceremony scolding from Tywin about heirs is expected character texture rather than a new outcome or reveal."
+                }
+              ],
+              "reason": "It confirms that the pending Tyrion–Sansa wedding actually goes through, resolving the open question of whether Sansa escapes or the match is derailed."
+            }
+          },
+          "rejected": "consequence (1/2): It confirms that the pending Tyrion–Sansa wedding actually goes through, resolving the open question of whether Sansa escapes or the match is derailed."
+        },
+        {
+          "text": "Outside Yunkai, Daenerys learns the city has hired a company of sellswords to fight in its defence.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It sets up a new campaign situation (an obstacle at Yunkai) without disclosing any outcome, death, reveal, or answer to a question the viewer has pending."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only sets up a new obstacle for Daenerys's campaign in Essos rather than resolving any pending conflict or answering an open question."
+                }
+              ],
+              "reason": "It sets up a new campaign situation (an obstacle at Yunkai) without disclosing any outcome, death, reveal, or answer to a question the viewer has pending."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Riding through the countryside, the Hound tells Arya plainly what he intends to do with her.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Arya ends up in the Hound's custody travelling with him and discloses his plans for her, resolving her pending situation with the Brotherhood who intended to ransom her to Robb."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The Hound taking Arya captive and traveling with her is already established, and the sentence withholds the specific content of his plan, so it reads as character texture rather than an outcome."
+                }
+              ],
+              "reason": "It reveals that Arya ends up in the Hound's custody travelling with him and discloses his plans for her, resolving her pending situation with the Brotherhood who intended to ransom her to Robb."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Arya ends up in the Hound's custody travelling with him and discloses his plans for her, resolving her pending situation with the Brotherhood who intended to ransom her to Robb."
+        }
+      ]
+    },
+    "9": {
+      "title": "The Rains of Castamere",
+      "candidates": [
+        {
+          "text": "Sam and Gilly, carrying her newborn son, finally reach the Wall after their long journey through the snow.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms the outcome of Sam and Gilly's pending flight—that they survive and successfully reach the Wall with the baby—resolving suspense left open in the previous episodes."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms the outcome of Sam and Gilly's pending flight south, revealing they survive the journey and reach the Wall safely with the baby."
+                }
+              ],
+              "reason": "It confirms the outcome of Sam and Gilly's pending flight—that they survive and successfully reach the Wall with the baby—resolving suspense left open in the previous episodes."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms the outcome of Sam and Gilly's pending flight—that they survive and successfully reach the Wall with the baby—resolving suspense left open in the previous episodes."
+        },
+        {
+          "text": "Bran's group takes shelter inside an abandoned tower while a thunderstorm breaks overhead, and Hodor grows agitated.",
+          "checks": {
+            "reverse": {
+              "picked": 9,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Sheltering from a storm and Hodor's agitation is ordinary situational texture, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Sheltering from a storm in a tower and Hodor's agitation are ordinary setting and character texture, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "Sheltering from a storm and Hodor's agitation is ordinary situational texture, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Rickon's black direwolf Shaggydog stays close beside him as Osha talks about seeking shelter with northern bannermen.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Shaggydog"
+        }
+      ]
+    },
+    "10": {
+      "title": "Mhysa",
+      "candidates": [
+        {
+          "text": "Sam and Gilly, carrying her baby, stumble upon Bran's group sheltering in a ruined castle beyond the Wall.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Sam and Gilly's flight converges with Bran's party beyond the Wall, a plot turning point uniting two separate storylines the viewer has no reason to expect to meet."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Sam and Gilly survive their flight and that two separate storylines converge, with Bran's group reaching a ruined castle beyond the Wall and meeting them \\u2014 a plot turning point the viewer hasn't seen coming."
+                }
+              ],
+              "reason": "It discloses that Sam and Gilly's flight converges with Bran's party beyond the Wall, a plot turning point uniting two separate storylines the viewer has no reason to expect to meet."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses that Sam and Gilly's flight converges with Bran's party beyond the Wall, a plot turning point uniting two separate storylines the viewer has no reason to expect to meet."
+        },
+        {
+          "text": "At Castle Black, Maester Aemon has Sam writing out letter after letter to be sent by raven.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Sam successfully reaches Castle Black after fleeing Craster's Keep with Gilly, and that he is warning the realm — an open outcome of his flight."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Sam survives his flight beyond the Wall and reaches Castle Black, where his warning about the White Walkers is being dispatched \"\" resolving the pending question of his and Gilly's escape."
+                }
+              ],
+              "reason": "It reveals that Sam successfully reaches Castle Black after fleeing Craster's Keep with Gilly, and that he is warning the realm — an open outcome of his flight."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Sam successfully reaches Castle Black after fleeing Craster's Keep with Gilly, and that he is warning the realm — an open outcome of his flight."
+        },
+        {
+          "text": "At Dragonstone, Davos slowly reads aloud a letter that has arrived by raven, sounding out the words.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "Davos reading a raven's letter aloud signals the arrival of significant news (the Night's Watch plea about the White Walker threat), a plot development the viewer hasn't yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It signals that a significant message reaches Dragonstone (in this stretch, the Night's Watch plea about the White Walkers), an incoming plot development the viewer hasn't yet learned of, though the reading itself is mostly texture tied to Davos's literacy lessons."
+                }
+              ],
+              "reason": "Davos reading a raven's letter aloud signals the arrival of significant news (the Night's Watch plea about the White Walker threat), a plot development the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): Davos reading a raven's letter aloud signals the arrival of significant news (the Night's Watch plea about the White Walker threat), a plot development the viewer hasn't yet seen."
+        },
+        {
+          "text": "Daenerys steps down among the freed slaves of Yunkai, who crowd around her and lift her overhead.",
+          "checks": {
+            "reverse": {
+              "picked": 10,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Daenerys's pending war on Yunkai \\u2014 the city falls and its slaves are freed \\u2014 and shows them hailing her as liberator."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Daenerys's pending campaign against Yunkai \\u2014 the city falls and its slaves are freed, and she is hailed by them."
+                }
+              ],
+              "reason": "It reveals the outcome of Daenerys's pending war on Yunkai \\u2014 the city falls and its slaves are freed \\u2014 and shows them hailing her as liberator."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Daenerys's pending war on Yunkai \\u2014 the city falls and its slaves are freed \\u2014 and shows them hailing her as liberator."
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 46978,
+    "out": 16209,
+    "cache_read": 720016,
+    "cache_write": 13742,
+    "calls": 160
+  },
+  "recheck_spend": {
+    "in": 1926,
+    "out": 5856,
+    "cache_read": 267568,
+    "cache_write": 0,
+    "calls": 42
+  }
+}

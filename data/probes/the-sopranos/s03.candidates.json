@@ -1,0 +1,617 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 3,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Sopranos season 3",
+    "revid": 1371363631,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_3&oldid=1371363631",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Mr. Ruggerio's Neighborhood",
+      "candidates": [
+        {
+          "text": "FBI agents in a surveillance van study the Soprano house, having worked out Tony holds his conversations down in the basement.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "The agents bug Tony's basement after learning that he tends to have his conversations there",
+          "grounded_ok": true
+        },
+        {
+          "text": "Water floods the Soprano basement, the room where Tony likes to sit and talk business.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "but this fails when the basement floods",
+          "grounded_ok": true
+        },
+        {
+          "text": "A drunken man in Tony's crew stumbles into the Soprano backyard at night and urinates in the swimming pool.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "they spot a drunken Patsy stumbling into his backyard",
+          "grounded_ok": true
+        },
+        {
+          "text": "One of Tony's soldiers spends a thoroughly miserable birthday, still grieving for his twin brother.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Patsy Parisi is depressed on his birthday due to the murder of his twin brother",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode is almost entirely about the FBI surveillance operation and Patsy's aborted attempt on Tony, so most concrete moments sit close to rule 1; probes are drawn from surrounding texture.",
+      "usage": {
+        "in": 52,
+        "out": 1617,
+        "cache_read": 0,
+        "cache_write": 10889
+      }
+    },
+    "2": {
+      "title": "Proshai, Livushka",
+      "candidates": [
+        {
+          "text": "Late at night, Tony sits alone in front of the television watching the old black-and-white gangster picture The Public Enemy.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Later that night, Tony watches The Public Enemy",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meadow brings a new college boyfriend around to meet her parents, and his introduction to Tony goes badly.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow",
+            "Tony"
+          ],
+          "grounded_in": "Tony meets Meadow's mixed race boyfriend, Noah Tannenbaum, and has a panic attack after arguing with him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (Livia's death, the wake, the caretaker being pushed out of the house) is either the season's turning point or direct consequence of it, and the boyfriend and Carmela's father are new characters who can't be named.",
+      "usage": {
+        "in": 44,
+        "out": 1536,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Fortunate Son",
+      "candidates": [
+        {
+          "text": "Tony turns up at Svetlana's apartment to broker peace over his mother's records, and finds Irina staying there.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Svetlana",
+            "Irina"
+          ],
+          "grounded_in": "Tony goes to Svetlana's house to try and broker peace, encountering her cousin Irina Peltsin",
+          "grounded_ok": true
+        },
+        {
+          "text": "Svetlana keeps refusing to hand over Livia's old record collection, which Janice insists belongs to her.",
+          "specificity": 4,
+          "characters_named": [
+            "Svetlana",
+            "Livia",
+            "Janice"
+          ],
+          "grounded_in": "When Svetlana continues to refuse Janice her mother's record collection",
+          "grounded_ok": true
+        },
+        {
+          "text": "A.J. is named defensive captain of his high school football team, and his teammates make a fuss of him.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "A.J. is made defensive captain of his school's football team",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris gets a tip about a benefit concert worth robbing from the eager teenage son of his late boss.",
+          "specificity": 3,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "tips Chris off to a benefit concert he can rob",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Avoided the meat/panic-attack connection, the childhood flashback and the prosthetic leg theft, since the summary frames each as setup for or answer to a turning point.",
+      "usage": {
+        "in": 42,
+        "out": 1702,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Employee of the Month",
+      "candidates": [
+        {
+          "text": "Rosalie Aprile has started seeing one of the crew, a loud newcomer recently arrived in Tony's orbit.",
+          "specificity": 3,
+          "characters_named": [
+            "Rosalie",
+            "Tony"
+          ],
+          "grounded_in": "begins dating Rosalie",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jackie Aprile Jr. gets taken along on a collection run from a debtor by one of the older guys.",
+          "specificity": 3,
+          "characters_named": [
+            "Jackie Aprile Jr."
+          ],
+          "grounded_in": "takes Jackie out to collect from a debtor",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's distinctive material (Melfi's assault and its aftermath, the fast-food recognition, the Rottweiler dream, the break-in at Janice's house, the capo promotion) consists of turning points, injuries or outcomes that rule 1 forbids. Ralphie Cifaretto and Gigi Cestone are both introduced here, so they cannot be named.",
+      "usage": {
+        "in": 42,
+        "out": 1822,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Another Toothpick",
+      "candidates": [
+        {
+          "text": "Adriana decides she has had enough of hostessing at Artie's restaurant and gives up the job.",
+          "specificity": 4,
+          "characters_named": [
+            "Adriana",
+            "Artie"
+          ],
+          "grounded_in": "Adriana quits as a hostess at Nuovo Vesuvio",
+          "grounded_ok": true
+        },
+        {
+          "text": "Driving home from a therapy appointment, Tony is pulled over and ticketed by a cop he cannot charm.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "As they drive home, Tony is ticketed by a cop that he fails to bribe.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Artie, within Tony's earshot, lets slip just how attracted he has become to Adriana.",
+          "specificity": 4,
+          "characters_named": [
+            "Artie",
+            "Tony",
+            "Adriana"
+          ],
+          "grounded_in": "leading Artie to angrily express his attraction to her around Tony",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony and Carmela sit together in Melfi's office for a joint session, airing grievances and getting nowhere.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "Carmela",
+            "Melfi"
+          ],
+          "grounded_in": "Carmela and Tony attend a session with Melfi together, where they are unable to resolve their issues.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Artie and Charmaine bicker at home about how close he keeps himself to Tony.",
+          "specificity": 3,
+          "characters_named": [
+            "Artie",
+            "Charmaine",
+            "Tony"
+          ],
+          "grounded_in": "He and his wife Charmaine argue about his friendship with Tony",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Avoided Meadow taking the bugged lamp (halts the FBI plot), Junior's diagnosis, and the hitman storyline, all of which are consequential.",
+      "usage": {
+        "in": 42,
+        "out": 2464,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "University",
+      "candidates": [
+        {
+          "text": "Meadow's Columbia roommate is miserable at college, and Noah invites her along to spend time with the two of them.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow",
+            "Noah"
+          ],
+          "grounded_in": "Noah attempts to cheer her up by inviting her to spend time with him and Meadow",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meadow's unhappy roommate keeps attaching herself to her and Noah in the dorm, getting in the way of his studying.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow",
+            "Noah"
+          ],
+          "grounded_in": "she soon attaches herself to them and interferes with his studying",
+          "grounded_ok": true
+        },
+        {
+          "text": "One of the young dancers at the Bada Bing has struck up a friendly, chatty rapport with Tony.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "has formed a friendly relationship with Tony",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the Bada Bing material in this episode is inseparable from the killing and its aftermath, so probes there are limited; the college storyline ends in a breakup, so probes stick to the roommate's presence rather than its consequences.",
+      "usage": {
+        "in": 36,
+        "out": 1352,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Second Opinion",
+      "candidates": [
+        {
+          "text": "A singing Big Mouth Billy Bass is brought into the Bada Bing and mounted on the wall.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "Georgie Santorelli buys a Big Mouth Billy Bass for the Bada Bing.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior, worn down by chemotherapy, cannot get his surgeon to return any of his phone calls.",
+          "specificity": 4,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "necessitating subsequent chemotherapy. Junior begins to suffer from the effects. His surgeon does not return his calls",
+          "grounded_ok": true
+        },
+        {
+          "text": "Angie says money is tight, but Tony notices a brand new Cadillac sitting in her driveway.",
+          "specificity": 4,
+          "characters_named": [
+            "Angie",
+            "Tony"
+          ],
+          "grounded_in": "Tony learns that Angie is supposedly struggling for money but observes a new Cadillac in her driveway.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela sits down with a different psychiatrist, an older colleague Melfi has referred her to.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "Melfi"
+          ],
+          "grounded_in": "Melfi passes Carmela along to a colleague",
+          "grounded_ok": true
+        },
+        {
+          "text": "Paulie lets himself into Chris's apartment and goes rummaging through the place while Chris is out.",
+          "specificity": 3,
+          "characters_named": [
+            "Paulie",
+            "Chris"
+          ],
+          "grounded_in": "during a search of Chris's apartment",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1564,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "He Is Risen",
+      "candidates": [
+        {
+          "text": "Tony strikes up a conversation with another of Melfi's patients in the waiting room, then turns up at her car dealership.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "He meets one of Melfi's patients, car saleswoman Gloria Trillo, and goes to her place of work to test drive a car with her.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony offers Ralphie a drink; Ralphie waves it off, and later manages only a shrugging, half-hearted apology.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "Ralphie"
+          ],
+          "grounded_in": "When Ralphie refuses Tony's offer of a drink",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony takes a test drive with a saleswoman, sizing up a new car with her in the passenger seat.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "goes to her place of work to test drive a car with her",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning points (a death, a promotion, a new romance), leaving little inconsequential texture.",
+      "usage": {
+        "in": 41,
+        "out": 1671,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "The Telltale Moozadell",
+      "candidates": [
+        {
+          "text": "Chris hands Adriana a nightclub of her own to run, and she renames the place \"Crazy Horse.\"",
+          "specificity": 5,
+          "characters_named": [
+            "Chris",
+            "Adriana"
+          ],
+          "grounded_in": "Chris takes over a club and gives it to Adriana to run, and she renames it \"Crazy Horse.\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "A.J. and his friends spend a night trashing their school, wrecking whatever they can get at.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "A.J. and his friends vandalize their school",
+          "grounded_ok": true
+        },
+        {
+          "text": "In separate sessions, Tony and Gloria each dodge Melfi's questions about why they seem so unusually happy lately.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Gloria",
+            "Melfi"
+          ],
+          "grounded_in": "they both lie to Melfi about their recent bouts of happiness, although she is suspicious",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony finds Jackie inside an illegal casino and takes him aside with a warning about Meadow.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Jackie",
+            "Meadow"
+          ],
+          "grounded_in": "Tony catches Jackie in an illegal casino and warns him to be on his best behavior if he wants to date Meadow.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 45,
+        "out": 1100,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "...To Save Us All from Satan's Power",
+      "candidates": [
+        {
+          "text": "Bobby squeezes into the Santa suit for the Christmas party and makes an awkward, unconvincing job of it.",
+          "specificity": 5,
+          "characters_named": [
+            "Bobby"
+          ],
+          "grounded_in": "Bobby takes the role, but is awkward and unappealing as Santa",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meadow's Christmas gift to Tony is a singing rubber fish, and he fakes delight while the family laughs.",
+          "specificity": 5,
+          "characters_named": [
+            "Meadow",
+            "Tony"
+          ],
+          "grounded_in": "Meadow gives Tony a Billy Bass as a gift, which he fakes enjoyment of while his family laughs at it",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a flashback to a Christmas years earlier, Pussy is oddly touchy about anyone handling his Santa costume.",
+          "specificity": 5,
+          "characters_named": [
+            "Pussy"
+          ],
+          "grounded_in": "Christmas of 1995, where Pussy was sensitive about people touching his Santa costume",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony sits watching a Santa Claus hand out presents to the neighborhood kids and thinks back to earlier years.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "which prompts Tony's memories of Pussy in the role",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 49,
+        "out": 1339,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "Pine Barrens",
+      "candidates": [
+        {
+          "text": "Paulie and Chris spend a freezing night sheltering inside an abandoned van deep in the woods.",
+          "specificity": 5,
+          "characters_named": [
+            "Paulie",
+            "Chris"
+          ],
+          "grounded_in": "They take shelter in an abandoned truck for the night",
+          "grounded_ok": true
+        },
+        {
+          "text": "During an argument at Gloria's, she hurls a slab of beef steak at Tony's head.",
+          "specificity": 5,
+          "characters_named": [
+            "Gloria",
+            "Tony"
+          ],
+          "grounded_in": "leading to a fight with Gloria where she throws a beef steak at Tony's head",
+          "grounded_ok": true
+        },
+        {
+          "text": "Out among the pines, Paulie fires his gun into the air out of sheer frustration.",
+          "specificity": 4,
+          "characters_named": [
+            "Paulie"
+          ],
+          "grounded_in": "Lured by Paulie firing his gun in frustration",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony drives out with Bobby to go looking for his two men, following a phone call for help.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Bobby"
+          ],
+          "grounded_in": "Paulie calls Tony for help, leading to a fight with Gloria ... before he leaves with Bobby to find them",
+          "grounded_ok": true
+        },
+        {
+          "text": "With Silvio laid up by the flu, Paulie handles a collection himself and brings Chris along.",
+          "specificity": 4,
+          "characters_named": [
+            "Silvio",
+            "Paulie",
+            "Chris"
+          ],
+          "grounded_in": "With Silvio out with the flu, Tony has Paulie collect from a Russian debtor, and he brings Chris along.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 963,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Amour Fou",
+      "candidates": [
+        {
+          "text": "Carmela, quietly frightened about her health, keeps welling up at the most ordinary, unexpected things.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela"
+          ],
+          "grounded_in": "she becomes emotional at seemingly random things",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela unburdens herself to a priest, who tells her she may live with the money her husband brings home.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela"
+          ],
+          "grounded_in": "She confesses her situation to a priest, who advises her to ignore Tony's immoral actions and live with the money he earns for her.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (the card game robbery and its fallout, Gloria's collision with Carmela, the Tony/Ralphie disagreement over Jackie, Carmela's diagnosis) is either a turning point or setup framed as leading to one, so only the Carmela texture is usable.",
+      "usage": {
+        "in": 41,
+        "out": 1180,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "Army of One",
+      "candidates": [
+        {
+          "text": "At the restaurant, Junior stands and sings \"Core 'ngrato\" while a drunken Meadow heckles him from the crowd.",
+          "specificity": 5,
+          "characters_named": [
+            "Junior",
+            "Meadow"
+          ],
+          "grounded_in": "Junior, having been released from house arrest, sings \"Core 'ngrato\". Drunk, Meadow heckles him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony pushes the idea of military school for A.J., and Carmela wants nothing to do with it.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "A.J.",
+            "Carmela"
+          ],
+          "grounded_in": "Tony posits sending him to military school, which Carmela is against",
+          "grounded_ok": true
+        },
+        {
+          "text": "In session with Melfi, Tony bitterly rails about the \"putrid gene\" he believes runs in his family.",
+          "specificity": 4,
+          "characters_named": [
+            "Melfi",
+            "Tony"
+          ],
+          "grounded_in": "bitterly espousing his hatred of his \"putrid gene\" to Melfi",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material is turning-point plot (a killing, an FBI infiltration, a mob approach to New York), so usable texture is thin.",
+      "usage": {
+        "in": 39,
+        "out": 2034,
+        "cache_read": 10889,
+        "cache_write": 0
+      }
+    }
+  }
+}

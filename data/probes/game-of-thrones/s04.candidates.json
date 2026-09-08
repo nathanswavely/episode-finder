@@ -1,0 +1,235 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 4,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Game of Thrones season 4",
+    "revid": 1369352962,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_4&oldid=1369352962",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Two Swords",
+      "candidates": [
+        {
+          "text": "Tywin watches a smith melt down a great Valyrian steel blade and reforge the metal into two new swords.",
+          "specificity": 5,
+          "characters_named": [
+            "Tywin"
+          ],
+          "grounded_in": "Tywin oversees the reforging of Ice, House Stark's ancestral Valyrian steel sword, into two new ones",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion rides out to greet a visiting Dornish prince and his paramour, arriving in King's Landing for the royal wedding.",
+          "specificity": 5,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "He and his paramour, Ellaria Sand, are greeted by Tyrion",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys watches her dragons squabble over food on a clifftop, now grown to the size of horses.",
+          "specificity": 5,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "she fears she is losing control over her growing dragons, now horse-sized",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joffrey, given a sword as a wedding present, decides on a name for it in front of the court.",
+          "specificity": 4,
+          "characters_named": [
+            "Joffrey"
+          ],
+          "grounded_in": "a wedding present for King Joffrey, which Joffrey names Widow's Wail",
+          "grounded_ok": true
+        },
+        {
+          "text": "Maester Aemon listens as Jon explains himself over his time living among the Wildlings.",
+          "specificity": 4,
+          "characters_named": [
+            "Aemon",
+            "Jon"
+          ],
+          "grounded_in": "Maester Aemon absolves Jon after he justifies his actions while with the Wildlings",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1308,
+        "cache_read": 0,
+        "cache_write": 12292
+      }
+    },
+    "2": {
+      "title": "The Lion and the Rose",
+      "candidates": [
+        {
+          "text": "In a quiet courtyard, Bronn secretly drills Jaime, forcing him to learn to hold a sword left-handed.",
+          "specificity": 5,
+          "characters_named": [
+            "Bronn",
+            "Jaime"
+          ],
+          "grounded_in": "Bronn secretly trains Jaime to be able to fight with his left hand",
+          "grounded_ok": true
+        },
+        {
+          "text": "Roose Bolton rides home to the Dreadfort with his new bride, one of Walder Frey's daughters.",
+          "specificity": 4,
+          "characters_named": [
+            "Roose Bolton",
+            "Walder Frey"
+          ],
+          "grounded_in": "Roose Bolton returns to the Dreadfort with his bride, one of Walder Frey's daughters.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Theon, hollowed out and flinching, now answers only to the name Reek and serves without protest.",
+          "specificity": 4,
+          "characters_named": [
+            "Theon"
+          ],
+          "grounded_in": "Theon, who has degenerated into a subservient persona called 'Reek'",
+          "grounded_ok": true
+        },
+        {
+          "text": "The court gathers in King's Landing as Joffrey and Margaery Tyrell are married with great ceremony.",
+          "specificity": 4,
+          "characters_named": [
+            "Joffrey",
+            "Margaery Tyrell"
+          ],
+          "grounded_in": "King Joffrey and Margaery Tyrell are wed.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable material (the feast's outcome, the arrest, the burnings at Dragonstone, Theon's disclosure) is off-limits under rule 1, so candidates are limited to peripheral texture.",
+      "usage": {
+        "in": 44,
+        "out": 1855,
+        "cache_read": 12292,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Breaker of Chains",
+      "candidates": [
+        {
+          "text": "Arya and the Hound are taken in for the night by a peasant farmer and his daughter.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya",
+            "the Hound"
+          ],
+          "grounded_in": "Arya and the Hound are offered hospitality by a peasant farmer and his daughter",
+          "grounded_ok": true
+        },
+        {
+          "text": "Sam walks Gilly and her baby down to Mole's Town, convinced she will be safer away from Castle Black.",
+          "specificity": 4,
+          "characters_named": [
+            "Sam",
+            "Gilly"
+          ],
+          "grounded_in": "Sam fears for Gilly's safety and moves her and Little Sam to nearby Mole's Town",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys stands before the closed gates of Meereen and addresses the slaves inside the walls.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Daenerys arrives at Meereen and gives a rousing speech before the gates, offering the city's slaves their freedom",
+          "grounded_ok": true
+        },
+        {
+          "text": "Davos raises the idea of borrowing from the Iron Bank of Braavos to pay for a mercenary army.",
+          "specificity": 4,
+          "characters_named": [
+            "Davos"
+          ],
+          "grounded_in": "Davos wants to request a loan from the Iron Bank of Braavos to hire a mercenary army from Essos",
+          "grounded_ok": true
+        },
+        {
+          "text": "At Castle Black, word comes that the mutineers are camped at Craster's Keep, and Jon argues for attacking them.",
+          "specificity": 3,
+          "characters_named": [
+            "Jon"
+          ],
+          "grounded_in": "The Night's Watch learns that the mutineers are camped at Craster's Keep. Jon proposes an attack on them",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1606,
+        "cache_read": 12292,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Oathkeeper",
+      "candidates": [
+        {
+          "text": "Sansa stands on the deck of a ship at sea, out of sight of King's Landing, beside Littlefinger.",
+          "specificity": 3,
+          "characters_named": [
+            "Sansa",
+            "Littlefinger"
+          ],
+          "grounded_in": "At sea, Littlefinger tells Sansa",
+          "grounded_ok": true
+        },
+        {
+          "text": "Olenna and Margaery talk in the gardens as the old woman makes ready to leave the capital.",
+          "specificity": 3,
+          "characters_named": [
+            "Olenna",
+            "Margaery"
+          ],
+          "grounded_in": "Before leaving King's Landing, Olenna reveals her guilt to Margaery",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jaime hands Brienne a fitted suit of new armour, horses and a fine sword before she departs.",
+          "specificity": 4,
+          "characters_named": [
+            "Jaime",
+            "Brienne"
+          ],
+          "grounded_in": "presenting her with new armor, his Valyrian Steel sword, which she names Oathkeeper, horses",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cersei, wine in hand, insists to Jaime that Tyrion is guilty while he argues otherwise.",
+          "specificity": 2,
+          "characters_named": [
+            "Cersei",
+            "Jaime",
+            "Tyrion"
+          ],
+          "grounded_in": "Jaime believes Tyrion is innocent, but Cersei is adamant he is guilty",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning points (the ritual site beyond the Wall, Littlefinger's and Olenna's admissions, the fall of Meereen), so the usable texture is thin.",
+      "usage": {
+        "in": 42,
+        "out": 2373,
+        "cache_read": 12292,
+        "cache_write": 0
+      }
+    }
+  }
+}

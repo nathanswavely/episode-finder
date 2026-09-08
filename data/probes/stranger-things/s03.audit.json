@@ -427,6 +427,441 @@
           "rejected": null
         }
       ]
+    },
+    "5": {
+      "title": "Chapter Five: The Flayed",
+      "candidates": [
+        {
+          "text": "Dustin, Steve, Robin, and Erica keep out of sight while soldiers unload crates from the elevator underground.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the group discovers/enters the secret underground Russian base and that Erica joins their team, answering the open question of what the Starcourt shipments lead to."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the discovery of a secret Russian base underground beneath Starcourt (accessed by elevator) and that Erica has joined Dustin, Steve and Robin's group, resolving the pending question of what the Russians' mall shipment was about."
+                }
+              ],
+              "reason": "It reveals that the group discovers/enters the secret underground Russian base and that Erica joins their team, answering the open question of what the Starcourt shipments lead to."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the group discovers/enters the secret underground Russian base and that Erica joins their team, answering the open question of what the Starcourt shipments lead to."
+        },
+        {
+          "text": "Hopper and Joyce turn up at Murray's door because he is the only Russian speaker they know.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Seeking out Murray as a translator is ordinary plot logistics and setting, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Seeking out Murray as a translator is a plot-mechanical, texture-level step that doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Seeking out Murray as a translator is ordinary plot logistics and setting, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hopper and Joyce search through one of the town's abandoned properties together.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Hopper and Joyce investigating locations together is consistent with their established ongoing investigation and reveals no outcome or answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Hopper and Joyce investigating locations together is an ongoing activity already established, and the sentence gives no outcome or discovery."
+                }
+              ],
+              "reason": "Hopper and Joyce investigating locations together is consistent with their established ongoing investigation and reveals no outcome or answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nancy and Jonathan rejoin the younger kids, and the whole group heads for the hospital together.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Nancy and Jonathan's separate investigation converges with the kids' storyline into a single group, confirming the two plotlines merge and implying a hospital-related development."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Nancy and Jonathan's separate investigation converges with the kids' storyline into a single group alliance, and signals a hospital-set turning point involving the infected Mrs. Driscoll, which the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals that Nancy and Jonathan's separate investigation converges with the kids' storyline into a single group, confirming the two plotlines merge and implying a hospital-related development."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Nancy and Jonathan's separate investigation converges with the kids' storyline into a single group, confirming the two plotlines merge and implying a hospital-related development."
+        }
+      ]
+    },
+    "6": {
+      "title": "Chapter Six: E Pluribus Unum",
+      "candidates": [
+        {
+          "text": "At Murray's place, Hopper and Joyce question their Russian captive with Murray reluctantly translating back and forth.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Hopper and Joyce will capture a Russian (implying they survive/win that pending confrontation) and that they reunite with Murray as an ally-translator, which is a new alliance and outcome not yet known to the viewer."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Hopper and Joyce successfully capture a Russian (an outcome of their pending confrontation with the Russians) and that they reunite with Murray as an ally-translator, information the viewer hasn't yet seen."
+                }
+              ],
+              "reason": "It reveals that Hopper and Joyce will capture a Russian (implying they survive/win that pending confrontation) and that they reunite with Murray as an ally-translator, which is a new alliance and outcome not yet known to the viewer."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Hopper and Joyce will capture a Russian (implying they survive/win that pending confrontation) and that they reunite with Murray as an ally-translator, which is a new alliance and outcome not yet known to the viewer."
+        },
+        {
+          "text": "Mayor Kline is cornered by the Russian enforcer amid the crowds and rides of Hawkins' Independence Day fair.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows a tense encounter in a public setting but discloses no outcome \ba death, capture, or revelation \bthat the viewer couldn't already anticipate from Kline's known entanglement with the Russians."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the Russians turn on Mayor Kline after his forced cooperation with Hopper, signalling a confrontation/consequence the viewer hasn't yet seen."
+                }
+              ],
+              "reason": "It reveals that the Russians turn on Mayor Kline after his forced cooperation with Hopper, signalling a confrontation/consequence the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that the Russians turn on Mayor Kline after his forced cooperation with Hopper, signalling a confrontation/consequence the viewer hasn't yet seen."
+        },
+        {
+          "text": "Joyce insists they drive straight back to Hawkins, afraid their kids are already caught up in this.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Joyce's protective worry and a travel decision — without disclosing any outcome, discovery, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Joyce's protective urgency and a travel decision — without disclosing any outcome, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture — Joyce's protective worry and a travel decision — without disclosing any outcome, discovery, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hopper gets on a phone to Owens, trying to pass a warning up to the American government.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Hopper attempting to phone Owens about the Russian threat is a plausible next step given what the viewer already knows, and the sentence discloses no outcome, discovery, or resolution."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Hopper contacting Owens to report the Russian presence is an expected procedural step consistent with what the viewer already knows, revealing no outcome or new information."
+                }
+              ],
+              "reason": "Hopper attempting to phone Owens about the Russian threat is a plausible next step given what the viewer already knows, and the sentence discloses no outcome, discovery, or resolution."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Chapter Seven: The Bite",
+      "candidates": [
+        {
+          "text": "Dustin and Erica park a woozy Steve and Robin in the seats of the mall's movie theater.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Steve and Robin end up drugged/injured (woozy) yet escape the Russian base with Dustin and Erica, resolving the pending peril of their capture beneath the mall."
+                },
+                {
+                  "reveals": true,
+                  "reason": "Steve and Robin being \"woozy\" implies they were captured and drugged by the Russians and then rescued, revealing the outcome of the pending infiltration plot the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Steve and Robin end up drugged/injured (woozy) yet escape the Russian base with Dustin and Erica, resolving the pending peril of their capture beneath the mall."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Steve and Robin end up drugged/injured (woozy) yet escape the Russian base with Dustin and Erica, resolving the pending peril of their capture beneath the mall."
+        },
+        {
+          "text": "The kids break into a closed supermarket after hours, raiding the aisles for supplies.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Raiding a store for supplies is ordinary activity/texture and doesn't disclose any outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A supply run in an empty supermarket is ordinary activity and doesn't disclose any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Raiding a store for supplies is ordinary activity/texture and doesn't disclose any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dustin tries to explain everything over the walkie-talkie, but his batteries die mid-conversation.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is minor logistical texture about a failed radio communication and does not disclose any outcome, death, discovery, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A failed walkie-talkie call is ordinary texture and doesn't disclose any outcome, death, or reveal."
+                }
+              ],
+              "reason": "This is minor logistical texture about a failed radio communication and does not disclose any outcome, death, discovery, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hopper, Joyce and Murray push through the crowds at the Hawkins Fourth of July fairgrounds hunting for the kids.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting/activity texture \"\" adults searching a fair \"\" and does not disclose any outcome, death, discovery or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary movement/setting texture at the fair; it doesn't disclose any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "This is ordinary setting/activity texture \"\" adults searching a fair \"\" and does not disclose any outcome, death, discovery or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "8": {
+      "title": "Chapter Eight: The Battle of Starcourt",
+      "candidates": [
+        {
+          "text": "Dustin and Erica perch at the hilltop radio tower, relaying directions over the airwaves to the adults far below.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Dustin and Erica escape the Russian base and reunite/coordinate with the adult group, resolving the pending peril of the underground capture plotline."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms that Dustin and Erica escape the Russian base and reunite/coordinate with the adult group, resolving the pending peril of their capture-and-rescue arc."
+                }
+              ],
+              "reason": "It confirms that Dustin and Erica escape the Russian base and reunite/coordinate with the adult group, resolving the pending peril of the underground capture plotline."
+            }
+          },
+          "rejected": "consequence (2/2): It confirms that Dustin and Erica escape the Russian base and reunite/coordinate with the adult group, resolving the pending peril of the underground capture plotline."
+        },
+        {
+          "text": "The kids haul out their stockpile of fireworks and set them off one after another inside the darkened mall.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the story converges on a climactic battle inside Starcourt Mall where the kids improvise fireworks as weapons, disclosing the setting and tactic of a confrontation the viewer has not yet reached."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the story converges on a climactic battle inside Starcourt Mall where the kids use fireworks as a weapon, disclosing the setting and tactic of the pending confrontation with the Mind Flayer."
+                }
+              ],
+              "reason": "It reveals that the story converges on a climactic battle inside Starcourt Mall where the kids improvise fireworks as weapons, disclosing the setting and tactic of a confrontation the viewer has not yet reached."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the story converges on a climactic battle inside Starcourt Mall where the kids improvise fireworks as weapons, disclosing the setting and tactic of a confrontation the viewer has not yet reached."
+        },
+        {
+          "text": "The adults' car finally catches up with the kids at the mall, and plans are made to get everyone somewhere safe.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "that the groups meet up at the mall — the summary places the arrival before the group is later trapped at the mall"
+              ]
+            }
+          },
+          "rejected": "faithful: that the groups meet up at the mall — the summary places the arrival before the group is later trapped at the mall"
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 33899,
+    "out": 9174,
+    "cache_read": 408496,
+    "cache_write": 10744,
+    "calls": 117
+  },
+  "recheck": [
+    {
+      "episode": 4,
+      "text": "Dustin, Steve and Robin creep around the mall's loading dock, with Lucas's little sister tagging along behind them.",
+      "reason": "It implies the trio trace the Russian transmission to Starcourt Mall itself, answering the open question of where the coded signal originates."
+    }
+  ],
+  "recheck_spend": {
+    "in": 1624,
+    "out": 5010,
+    "cache_read": 196060,
+    "cache_write": 0,
+    "calls": 38
   }
 }

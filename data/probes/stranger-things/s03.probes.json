@@ -27,7 +27,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "Chapter Two: The Mall Rats",
@@ -47,7 +48,8 @@
           "specificity": 5,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "3": {
       "title": "Chapter Three: The Case of the Missing Lifeguard",
@@ -67,16 +69,12 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "4": {
       "title": "Chapter Four: The Sauna Test",
       "probes": [
-        {
-          "text": "Dustin, Steve and Robin creep around the mall's loading dock, with Lucas's little sister tagging along behind them.",
-          "specificity": 4,
-          "reverse_confidence": 4
-        },
         {
           "text": "Will, Eleven, Mike, Lucas and Max huddle together at the deserted town pool after hours, working out a plan.",
           "specificity": 4,
@@ -87,7 +85,72 @@
           "specificity": 3,
           "reverse_confidence": 4
         }
+      ],
+      "fine_only": [
+        {
+          "text": "Dustin, Steve and Robin creep around the mall's loading dock, with Lucas's little sister tagging along behind them.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
       ]
+    },
+    "5": {
+      "title": "Chapter Five: The Flayed",
+      "probes": [
+        {
+          "text": "Hopper and Joyce turn up at Murray's door because he is the only Russian speaker they know.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hopper and Joyce search through one of the town's abandoned properties together.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Chapter Six: E Pluribus Unum",
+      "probes": [
+        {
+          "text": "Joyce insists they drive straight back to Hawkins, afraid their kids are already caught up in this.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hopper gets on a phone to Owens, trying to pass a warning up to the American government.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Chapter Seven: The Bite",
+      "probes": [
+        {
+          "text": "The kids break into a closed supermarket after hours, raiding the aisles for supplies.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dustin tries to explain everything over the walkie-talkie, but his batteries die mid-conversation.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hopper, Joyce and Murray push through the crowds at the Hawkins Fourth of July fairgrounds hunting for the kids.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Chapter Eight: The Battle of Starcourt",
+      "probes": [],
+      "fine_only": []
     }
   }
 }

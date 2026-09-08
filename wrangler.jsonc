@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "where-did-i-stop",
+  "account_id": "98521ca2e365abe021315e836c0a31ed",
+  "compatibility_date": "2026-09-08",
+  // Assets-only Worker: no `main`. Cloudflare serves site/ from its edge; nothing runs server-side.
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "single-page-application"
+  }
+}
