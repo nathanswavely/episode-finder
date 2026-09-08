@@ -1271,6 +1271,99 @@
           "rejected": "consequence (2/2): It reveals that Tony, who has refused all contact with Livia since learning she plotted his murder, finally reunites and confronts her, resolving a pending estrangement."
         }
       ]
+    },
+    "13": {
+      "title": "Funhouse",
+      "candidates": [
+        {
+          "text": "Tony comes down with food poisoning and lies sweating through a series of vivid, delirious fever dreams.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only describes Tony being ill and dreaming, an ordinary situation that doesn't disclose any outcome, discovery or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Food poisoning and dream imagery is atmospheric character texture that does not disclose any outcome, death, or reveal from the pending conflicts."
+                }
+              ],
+              "reason": "It only describes Tony being ill and dreaming, an ordinary situation that doesn't disclose any outcome, discovery or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At his daughter's graduation party, Tony sits by himself smoking a cigar while the celebration goes on around him.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A party scene with Tony sitting alone smoking is ordinary character texture and does not disclose any outcome, though the graduation itself is a minor unrevealing milestone."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Tony sitting alone at a family celebration is ordinary character texture and reveals no outcome to any pending conflict."
+                }
+              ],
+              "reason": "A party scene with Tony sitting alone smoking is ordinary character texture and does not disclose any outcome, though the graduation itself is a minor unrevealing milestone."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Meadow's high school graduation ceremony, where Tony notices Junior in the crowd chatting with her.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A graduation ceremony and a casual family interaction are ordinary texture, resolving no pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A family graduation gathering with Junior present is ordinary character/setting texture and doesn't disclose any outcome, death, or resolution of the pending Richie/Junior plot against Tony."
+                }
+              ],
+              "reason": "A graduation ceremony and a casual family interaction are ordinary texture, resolving no pending conflict or open question."
+            }
+          },
+          "rejected": null
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 46293,
+    "out": 14419,
+    "cache_read": 695345,
+    "cache_write": 11536,
+    "calls": 188
   }
 }

@@ -27,7 +27,8 @@
           "specificity": 3,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "Do Not Resuscitate",
@@ -42,7 +43,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "3": {
       "title": "Toodle-Fucking-Oo",
@@ -62,7 +64,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "4": {
       "title": "Commendatori",
@@ -82,7 +85,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "5": {
       "title": "Big Girls Don't Cry",
@@ -102,7 +106,8 @@
           "specificity": 4,
           "reverse_confidence": 4
         }
-      ]
+      ],
+      "fine_only": []
     },
     "6": {
       "title": "The Happy Wanderer",
@@ -219,6 +224,26 @@
         },
         {
           "text": "Carmela announces she is planning three weeks in Rome with Rosalie Aprile.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "13": {
+      "title": "Funhouse",
+      "probes": [
+        {
+          "text": "Tony comes down with food poisoning and lies sweating through a series of vivid, delirious fever dreams.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "At his daughter's graduation party, Tony sits by himself smoking a cigar while the celebration goes on around him.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Meadow's high school graduation ceremony, where Tony notices Junior in the crowd chatting with her.",
           "specificity": 4,
           "reverse_confidence": 5
         }

@@ -1,0 +1,283 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 3,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Game of Thrones season 3",
+    "revid": 1365331607,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_3&oldid=1365331607",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Valar Dohaeris",
+      "candidates": [
+        {
+          "text": "Margaery leaves her escort behind to walk into a poor district of King's Landing and hand food to orphans.",
+          "specificity": 5,
+          "characters_named": [
+            "Margaery"
+          ],
+          "grounded_in": "Margaery Tyrell engages in charitable acts with King's Landing orphans.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ros takes Shae aside for a quiet word, warning her that Littlefinger is not to be trusted.",
+          "specificity": 4,
+          "characters_named": [
+            "Ros",
+            "Shae",
+            "Littlefinger"
+          ],
+          "grounded_in": "Ros warns Shae to distrust Littlefinger.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A scarred Tyrion sits across from his father in his chambers, pressing his claim to Casterly Rock.",
+          "specificity": 5,
+          "characters_named": [
+            "Tyrion"
+          ],
+          "grounded_in": "A scarred Tyrion Lannister attempts to negotiate Casterly Rock from Tywin",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys arrives by ship at Astapor, where ranks of slave soldiers stand motionless while a slaver talks terms.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Daenerys Targaryen arrives in Astapor to buy an army of brutally-trained mercenary soldiers called the \"Unsullied\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon is marched through the sprawling wildling camp and brought before Mance Rayder inside his tent.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Mance Rayder"
+          ],
+          "grounded_in": "Jon is brought before Mance Rayder, the \"King beyond the Wall\"",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 44,
+        "out": 1739,
+        "cache_read": 0,
+        "cache_write": 11977
+      }
+    },
+    "2": {
+      "title": "Dark Wings, Dark Words",
+      "candidates": [
+        {
+          "text": "In a garden, Margaery and her sharp-tongued grandmother press Sansa with questions about Joffrey and invite her to Highgarden.",
+          "specificity": 5,
+          "characters_named": [
+            "Margaery",
+            "Sansa",
+            "Joffrey"
+          ],
+          "grounded_in": "Margaery and her grandmother Olenna, the \"Queen of Thorns\", question Sansa about Joffrey's troubling personality and suggest that she visit Highgarden.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Trudging through the woods with Osha and Hodor, Bran's party comes across a strange brother and sister travelling alone.",
+          "specificity": 4,
+          "characters_named": [
+            "Osha",
+            "Hodor",
+            "Bran"
+          ],
+          "grounded_in": "Bran, Rickon, Osha, and Hodor encounter siblings Jojen and Meera Reed",
+          "grounded_ok": true
+        },
+        {
+          "text": "Still on foot in open country, Arya, Gendry and Hot Pie are making their way toward Riverrun.",
+          "specificity": 3,
+          "characters_named": [
+            "Arya",
+            "Gendry",
+            "Hot Pie"
+          ],
+          "grounded_in": "Arya Stark, Gendry and Hot Pie also make for Riverrun",
+          "grounded_ok": true
+        },
+        {
+          "text": "One of Robb's northern bannermen rages at him openly over the freeing of Jaime Lannister.",
+          "specificity": 3,
+          "characters_named": [
+            "Robb",
+            "Jaime"
+          ],
+          "grounded_in": "his bannerman Lord Rickard Karstark is furious at the release of Jaime",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode's strongest images (the Jaime–Brienne roadside fight, the inn) are framed in the summary as leading directly to captures and an identity reveal, so I left them out.",
+      "usage": {
+        "in": 47,
+        "out": 2014,
+        "cache_read": 11977,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Walk of Punishment",
+      "candidates": [
+        {
+          "text": "Hot Pie is left behind at the inn to work there, while the others are taken onward.",
+          "specificity": 4,
+          "characters_named": [
+            "Hot Pie"
+          ],
+          "grounded_in": "Hot Pie is allowed to remain behind to work at the inn",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tywin hands Tyrion the crown's purse, naming his son the new Master of Coin.",
+          "specificity": 4,
+          "characters_named": [
+            "Tywin",
+            "Tyrion"
+          ],
+          "grounded_in": "appoints Tyrion as the new Master of Coin",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tywin instructs Littlefinger to travel to the Eyrie and win Lysa Arryn's hand and allegiance.",
+          "specificity": 4,
+          "characters_named": [
+            "Tywin",
+            "Littlefinger",
+            "Lysa Arryn"
+          ],
+          "grounded_in": "Tywin Lannister sends Littlefinger to the Eyrie to marry Lysa Arryn to secure her allegiance",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mance orders Jon to join a wildling band climbing the Wall to strike Castle Black from behind.",
+          "specificity": 4,
+          "characters_named": [
+            "Mance",
+            "Jon"
+          ],
+          "grounded_in": "Mance Rayder sends Jon and a band of Wildlings led by Tormund Giantsbane to scale the Wall",
+          "grounded_ok": true
+        },
+        {
+          "text": "The surviving Night's Watch men trudge back to Craster's Keep, where Gilly is giving birth.",
+          "specificity": 4,
+          "characters_named": [
+            "Gilly",
+            "Craster"
+          ],
+          "grounded_in": "The surviving Night's Watch men return to Craster's Keep, where Gilly gives birth to a son",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Avoided the Riverrun funeral (a death), Jaime's hand, and the dragon-for-Unsullied bargain, which the summary frames as setup for the next episode's turn.",
+      "usage": {
+        "in": 43,
+        "out": 2224,
+        "cache_read": 11977,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "And Now His Watch Is Ended",
+      "candidates": [
+        {
+          "text": "Varys tells Tyrion the story of how he was cut as a boy, then shows him a crated captive in his chambers.",
+          "specificity": 5,
+          "characters_named": [
+            "Varys",
+            "Tyrion"
+          ],
+          "grounded_in": "Varys tells Tyrion how he became a eunuch, then shows him the sorcerer who castrated him, who is now his captive",
+          "grounded_ok": true
+        },
+        {
+          "text": "Arya and Gendry are brought into the Brotherhood's hidden cave and led before the outlaws' leader.",
+          "specificity": 4,
+          "characters_named": [
+            "Arya",
+            "Gendry"
+          ],
+          "grounded_in": "Arya and Gendry are taken to the Brotherhood's secret cave, meeting their leader",
+          "grounded_ok": true
+        },
+        {
+          "text": "Brienne, still bound alongside a despairing Jaime, urges him to keep hoping rather than give up.",
+          "specificity": 4,
+          "characters_named": [
+            "Brienne",
+            "Jaime"
+          ],
+          "grounded_in": "Brienne urges him to remain hopeful",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material is turning-point stuff (Craster's Keep, Astapor, Theon), so the safe texture is limited.",
+      "usage": {
+        "in": 47,
+        "out": 2036,
+        "cache_read": 11977,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Kissed by Fire",
+      "candidates": [
+        {
+          "text": "Stannis's young daughter sneaks down to the cells with a book and begins teaching Davos his letters.",
+          "specificity": 5,
+          "characters_named": [
+            "Stannis",
+            "Davos"
+          ],
+          "grounded_in": "Their daughter, Princess Shireen, sneaks into the dungeon to visit Davos and teaches him to read.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion, buried in the crown's accounts, haggles with Olenna over who should pay for half the royal wedding.",
+          "specificity": 5,
+          "characters_named": [
+            "Tyrion",
+            "Olenna"
+          ],
+          "grounded_in": "Tyrion, knowing the Crown is deeply in debt to the Iron Bank, persuades Olenna to pay for half of the royal wedding.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys tells the assembled Unsullied to pick a commander from among their own ranks rather than have one appointed.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Daenerys encourages the Unsullied to choose a leader among them",
+          "grounded_ok": true
+        },
+        {
+          "text": "At Harrenhal, a disgraced former maester unwraps and tends the bandaged stump at the end of Jaime's arm.",
+          "specificity": 4,
+          "characters_named": [
+            "Jaime"
+          ],
+          "grounded_in": "having his stump treated by the disgraced former maester Qyburn",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 43,
+        "out": 1512,
+        "cache_read": 11977,
+        "cache_write": 0
+      }
+    }
+  }
+}

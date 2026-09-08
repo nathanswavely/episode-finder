@@ -4,12 +4,17 @@
 const REPO = "https://github.com/nathanswavely/episode-finder";
 const REQUEST_FORM = "https://tally.so/r/gDlO9J";   // Tally: hidden field `show`
 const RESULT_FORM = "https://tally.so/r/yPQ7Jd";    // Tally: hidden fields show, season, result, answers
+const TIP_URL = "";                                   // e.g. a Ko-fi or GitHub Sponsors page; empty hides the footer link
 const K = 3; // probes per episode, max
 
 const $app = document.getElementById("app");
 document.getElementById("source-link").href = REPO;
 const requestUrl = (show = "") => `${REQUEST_FORM}?show=${encodeURIComponent(show)}`;
 document.getElementById("request-link").href = requestUrl();
+if (TIP_URL) {
+  const tip = document.getElementById("tip-link");
+  if (tip) { tip.href = TIP_URL; tip.hidden = false; tip.previousSibling && (tip.previousSibling.textContent = " · "); }
+}
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const h = (html) => { $app.innerHTML = html; window.scrollTo(0, 0); };
@@ -259,6 +264,12 @@ async function runFindSeason(show) {
 }
 
 // ---------- result ----------
+function watchButton(w) {
+  const rel = w.affiliate ? "noopener sponsored" : "noopener";
+  return `<a class="btn primary" href="${esc(w.url)}" rel="${rel}"><span>Watch on ${esc(w.service)}</span></a>`
+    + (w.affiliate ? `<p class="muted small" style="margin:-0.2rem 0 0.2rem 0.2rem">Affiliate link: it costs you nothing and may pay us a little if you sign up.</p>` : "");
+}
+
 function screenResult(walker, r) {
   const { show } = r;
   const t = (e) => { const ep = r.eps?.get(e); return `episode ${ep?.number ?? e}${ep ? `, <span class="ep">${esc(ep.title)}</span>` : ""}`; };
@@ -273,12 +284,12 @@ function screenResult(walker, r) {
     if (r.budgetHit) lines.push(`<span class="muted">That was the 25-question limit, so treat this as a best guess.</span>`);
     if (r.unchecked) lines.push(`<span class="muted">We have no questions for ${t(r.unchecked)}, so we're assuming you haven't seen it.</span>`);
     body = lines.map((l) => `<p>${l}</p>`).join("");
-    if (show.watch) actions += `<a class="btn primary" href="${esc(show.watch.url)}" rel="noopener"><span>Watch on ${esc(show.watch.service)}</span></a>`;
+    if (show.watch) actions += watchButton(show.watch);
     if (r.resume < r.n) actions += `<button class="btn" data-further="${r.resume}"><span>I got further than that</span></button>`;
   } else if (r.outcome === "finished") {
     headline = `Looks like you finished season ${r.seasonNum}.`;
     body = r.nextSeason ? `<p>Start at season ${r.nextSeason}, episode 1.</p>` : `<p>That's the last season here.</p>`;
-    if (show.watch) actions += `<a class="btn primary" href="${esc(show.watch.url)}" rel="noopener"><span>Watch on ${esc(show.watch.service)}</span></a>`;
+    if (show.watch) actions += watchButton(show.watch);
     if (r.nextSeason) actions += `<button class="btn" data-next="${r.nextSeason}"><span>Keep going into season ${r.nextSeason}</span></button>`;
   } else if (r.outcome === "back_up") {
     headline = `It doesn't look like you finished season ${r.prevSeason}.`;

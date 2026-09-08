@@ -28,6 +28,66 @@
           "reverse_confidence": 5
         }
       ]
+    },
+    "2": {
+      "title": "Chapter Two: The Mall Rats",
+      "probes": [
+        {
+          "text": "Dustin finds Steve working behind the counter of the ice cream parlour at the new mall.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Eleven and Max spend the day shopping together at Starcourt Mall, trying on clothes to cheer themselves up.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nancy and Jonathan visit an elderly woman's house, where she complains about rabid rats eating her fertilizer.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "3": {
+      "title": "Chapter Three: The Case of the Missing Lifeguard",
+      "probes": [
+        {
+          "text": "At a sleepover, Eleven playfully uses her powers to spy on Mike, Lucas, and Will from a distance.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Will tries to get the boys to sit down for a Dungeons and Dragons campaign like old times.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Upset with his friends, Will bikes off alone and retreats to Castle Byers in the woods.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Chapter Four: The Sauna Test",
+      "probes": [
+        {
+          "text": "Dustin, Steve and Robin creep around the mall's loading dock, with Lucas's little sister tagging along behind them.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Will, Eleven, Mike, Lucas and Max huddle together at the deserted town pool after hours, working out a plan.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Hopper and Joyce turn up in the town mayor's office together and lean on him for answers.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
     }
   }
 }

@@ -1161,5 +1161,29 @@
     "cache_read": 653381,
     "cache_write": 12707,
     "calls": 162
+  },
+  "recheck": [
+    {
+      "episode": 8,
+      "text": "Yara turns up at Winterfell and mocks her brother for seizing a castle he has no men to hold.",
+      "reason": "It reveals that Yara arrives at Winterfell in the next episode, a plot development beyond Theon's isolated occupation the viewer currently knows, and signals the outcome/untenability of his hold on the castle."
+    },
+    {
+      "episode": 8,
+      "text": "Jorah agrees to go with Daenerys into the House of the Undying rather than let her enter alone.",
+      "reason": "It reveals that Daenerys's stolen dragons lead her to the House of the Undying, disclosing a plot development following the theft cliffhanger."
+    },
+    {
+      "episode": 9,
+      "text": "Tyrion, out in the streets beyond the gate, fights on foot among the Gold Cloaks.",
+      "reason": "It reveals that Stannis's anticipated siege of King's Landing actually erupts into battle and that Tyrion personally leads the city's defenders into the fighting, a turning point in the pending conflict."
+    }
+  ],
+  "recheck_spend": {
+    "in": 2188,
+    "out": 6726,
+    "cache_read": 271348,
+    "cache_write": 0,
+    "calls": 48
   }
 }

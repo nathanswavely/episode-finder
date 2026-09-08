@@ -116,6 +116,317 @@
           "rejected": "consequence (2/2): It reveals the discovery of a secret Russian presence/transmission in Hawkins, a major plot turning point the viewer has no knowledge of."
         }
       ]
+    },
+    "2": {
+      "title": "Chapter Two: The Mall Rats",
+      "candidates": [
+        {
+          "text": "Dustin finds Steve working behind the counter of the ice cream parlour at the new mall.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Steve having a summer job at the mall's ice cream parlour is ordinary setting/character texture, not an outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Steve having a summer job at a mall ice cream shop is ordinary character texture and setting, not an outcome or reveal tied to any pending question."
+                }
+              ],
+              "reason": "Steve having a summer job at the mall's ice cream parlour is ordinary setting/character texture, not an outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eleven and Max spend the day shopping together at Starcourt Mall, trying on clothes to cheer themselves up.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A friendly shopping outing is ordinary character texture and doesn't disclose any outcome, though the mild implication that the girls need cheering up is too vague to spoil anything."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Two girls shopping at a mall is ordinary character texture; it discloses no death, reveal, or resolution of a pending conflict, and the vague 'cheer themselves up' doesn't specify any outcome."
+                }
+              ],
+              "reason": "A friendly shopping outing is ordinary character texture and doesn't disclose any outcome, though the mild implication that the girls need cheering up is too vague to spoil anything."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nancy and Jonathan visit an elderly woman's house, where she complains about rabid rats eating her fertilizer.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary investigative errand with no outcome, reveal, or resolution disclosed \", "
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary investigative visit and mundane setup detail, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is an ordinary investigative errand with no outcome, reveal, or resolution disclosed \", "
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joyce notices magnets no longer stick at home or at work, and turns up at the science teacher's house.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is early investigative texture — Joyce noticing an odd household detail and consulting the science teacher — without disclosing any outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Joyce noticing an odd household anomaly and seeking an explanation \\u2014 an investigative beat with no outcome, death, or confirmation of what's causing it."
+                }
+              ],
+              "reason": "This is early investigative texture — Joyce noticing an odd household detail and consulting the science teacher — without disclosing any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Chapter Three: The Case of the Missing Lifeguard",
+      "candidates": [
+        {
+          "text": "At a sleepover, Eleven playfully uses her powers to spy on Mike, Lucas, and Will from a distance.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Eleven using her powers casually at a sleepover — and does not disclose any outcome, death, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is light character texture — Eleven using her powers casually at a sleepover — and doesn't disclose any outcome, death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture — Eleven using her powers casually at a sleepover — and does not disclose any outcome, death, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Will tries to get the boys to sit down for a Dungeons and Dragons campaign like old times.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — Will proposing a D&D session — and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Will's nostalgia for the group's dynamic and reveals no outcome or plot development."
+                }
+              ],
+              "reason": "This is ordinary character texture — Will proposing a D&D session — and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Upset with his friends, Will bikes off alone and retreats to Castle Byers in the woods.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Will retreating to Castle Byers after friction with friends is ordinary character texture and doesn't disclose any outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary emotional beat\ncharacter texture (Will feeling left out and going off alone) without disclosing any outcome, death, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "Will retreating to Castle Byers after friction with friends is ordinary character texture and doesn't disclose any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In the back room of the ice cream parlor, Robin works through the Russian message with Steve and Dustin.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            }
+          },
+          "rejected": "reverse: picked E2 (conf 4)"
+        },
+        {
+          "text": "Eleven and Max drive around town trying to track down Heather, the lifeguard nobody has seen lately.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": false,
+              "unsupported": [
+                "Eleven and Max driving around town — the summary gives no indication they travel by car; Eleven locates people using her powers"
+              ]
+            }
+          },
+          "rejected": "faithful: Eleven and Max driving around town — the summary gives no indication they travel by car; Eleven locates people using her powers"
+        }
+      ]
+    },
+    "4": {
+      "title": "Chapter Four: The Sauna Test",
+      "candidates": [
+        {
+          "text": "Dustin, Steve and Robin creep around the mall's loading dock, with Lucas's little sister tagging along behind them.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows the trio investigating at the mall with Erica in tow \"ordinary sneaking-around activity that follows naturally from their known interest in the Russian signal, without confirming any discovery or outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows the trio snooping around the mall with Erica in tow \\u2014 ordinary activity and character texture that doesn't disclose any outcome, discovery, or answer to the code mystery."
+                }
+              ],
+              "reason": "It only shows the trio investigating at the mall with Erica in tow \"ordinary sneaking-around activity that follows naturally from their known interest in the Russian signal, without confirming any discovery or outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Will, Eleven, Mike, Lucas and Max huddle together at the deserted town pool after hours, working out a plan.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows the friends gathered at a location making a plan, which is ordinary group activity and texture rather than an outcome, discovery or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is a generic group-scene description at a location with no outcome, discovery, or resolution disclosed; the only mild implication is that the kids are together, which is ordinary texture."
+                }
+              ],
+              "reason": "It shows the friends gathered at a location making a plan, which is ordinary group activity and texture rather than an outcome, discovery or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hopper and Joyce turn up in the town mayor's office together and lean on him for answers.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Hopper and Joyce pursuing their ongoing investigation together, without disclosing what they learn or any outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Hopper and Joyce investigating together at the mayor's office is ordinary plot activity that doesn't disclose an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It only shows Hopper and Joyce pursuing their ongoing investigation together, without disclosing what they learn or any outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
     }
   }
 }

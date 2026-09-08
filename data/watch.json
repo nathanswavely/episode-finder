@@ -1,11 +1,35 @@
 {
-  "_note": "Hand-maintained. US only. Show-level links. Checked 2026-09-08. Add `affiliate: true` when a link carries an affiliate tag and say so in the footer.",
-  "breaking-bad":      {"service": "Netflix",  "url": "https://www.netflix.com/title/70143836"},
-  "better-call-saul":  {"service": "Netflix",  "url": "https://www.netflix.com/title/80021955"},
-  "stranger-things":   {"service": "Netflix",  "url": "https://www.netflix.com/title/80057281"},
-  "the-gentlemen":     {"service": "Netflix",  "url": "https://www.netflix.com/title/81437051"},
-  "game-of-thrones":   {"service": "HBO Max",  "url": "https://www.hbomax.com/shows/game-of-thrones"},
-  "the-sopranos":      {"service": "HBO Max",  "url": "https://www.hbomax.com/shows/the-sopranos"},
-  "severance":         {"service": "Apple TV", "url": "https://tv.apple.com/us/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx"},
-  "the-office":        {"service": "Peacock",  "url": "https://www.peacocktv.com/stream-tv/the-office"}
+  "_note": "Hand-maintained. US only. Show-level links. Checked 2026-09-08. Once enrolled, replace `url` with the tagged link and set `affiliate: true`; the result screen then shows the disclosure. Apple TV -> Apple Services Performance Partners; Prime Video -> Amazon Associates. Netflix and HBO Max have no programme.",
+  "breaking-bad": {
+    "service": "Netflix",
+    "url": "https://www.netflix.com/title/70143836"
+  },
+  "better-call-saul": {
+    "service": "Netflix",
+    "url": "https://www.netflix.com/title/80021955"
+  },
+  "stranger-things": {
+    "service": "Netflix",
+    "url": "https://www.netflix.com/title/80057281"
+  },
+  "the-gentlemen": {
+    "service": "Netflix",
+    "url": "https://www.netflix.com/title/81437051"
+  },
+  "game-of-thrones": {
+    "service": "HBO Max",
+    "url": "https://www.hbomax.com/shows/game-of-thrones"
+  },
+  "the-sopranos": {
+    "service": "HBO Max",
+    "url": "https://www.hbomax.com/shows/the-sopranos"
+  },
+  "severance": {
+    "service": "Apple TV",
+    "url": "https://tv.apple.com/us/show/severance/umc.cmc.1srk2goyh2q2zdxcx605w8vtx"
+  },
+  "the-office": {
+    "service": "Peacock",
+    "url": "https://www.peacocktv.com/stream-tv/the-office"
+  }
 }
