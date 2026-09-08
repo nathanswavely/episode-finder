@@ -26,7 +26,7 @@ async function loadShow(slug) {
 async function screenHome() {
   const intro = `
     <h1>Where did I stop?</h1>
-    <p class="lede">You stopped watching a show a while back and can't remember where. I'll show you a few moments from it; say which ones you remember, and I'll work out the episode to restart from. I won't mention anything past it.</p>`;
+    <p class="lede">Forgot where you stopped watching? Answer a few questions and we'll suggest where to pick it back up.</p>`;
   let shows;
   try {
     if (!index) h(`${intro}<div class="skeleton" aria-hidden="true"></div>`);
