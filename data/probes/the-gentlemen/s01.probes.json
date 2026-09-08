@@ -1,0 +1,93 @@
+{
+  "show": "The Gentlemen",
+  "slug": "the-gentlemen",
+  "season": 1,
+  "source": {
+    "title": "The Gentlemen (2024 TV series)",
+    "revid": 1373879856,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Gentlemen_%282024_TV_series%29&oldid=1373879856",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Refined Aggression",
+      "probes": [
+        {
+          "text": "A British army officer in a UN beret stands watch at a dusty border post between Turkey and Syria.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Dusty bottles line the racks of a grand old wine cellar beneath a sprawling English country estate.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "A deceptive bookmaker lounges behind a cluttered counter stacked with betting slips and cash.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Tackle Tommy Woo Woo",
+      "probes": [
+        {
+          "text": "Eddie attends a formal gala hosted by Johnston, standing in a suit among elegant guests in a crowded hall.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Where's My Weed At?",
+      "probes": [
+        {
+          "text": "Eddie's mother worries about the growing criminality surrounding the family at the estate.",
+          "specificity": 2,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "An Unsympathetic Gentleman",
+      "probes": [
+        {
+          "text": "Lady Sabrina asks the estate gamekeeper to introduce her to a local sheep farmer.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "I've Hundreds of Cousins",
+      "probes": [],
+      "fine_only": []
+    },
+    "6": {
+      "title": "All Eventualities",
+      "probes": [
+        {
+          "text": "Eddie attends a crowded boxing party, chatting ringside among promoters and fighters.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Not Without Danger",
+      "probes": [],
+      "fine_only": []
+    },
+    "8": {
+      "title": "The Gospel According to Bobby Glass",
+      "probes": [],
+      "fine_only": []
+    }
+  }
+}

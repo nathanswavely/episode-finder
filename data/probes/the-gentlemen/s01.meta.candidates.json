@@ -1,0 +1,187 @@
+{
+  "show": "The Gentlemen",
+  "slug": "the-gentlemen",
+  "season": 1,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Gentlemen (2024 TV series)",
+    "revid": 1373879856,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Gentlemen_%282024_TV_series%29&oldid=1373879856",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Refined Aggression",
+      "candidates": [
+        {
+          "text": "A British army officer in a UN beret stands watch at a dusty border post between Turkey and Syria.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "stationed at the border between Turkey and Syria",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dusty bottles line the racks of a grand old wine cellar beneath a sprawling English country estate.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "selling the estate wine collection",
+          "grounded_ok": true
+        },
+        {
+          "text": "A deceptive bookmaker lounges behind a cluttered counter stacked with betting slips and cash.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "a deceptive bookmaker",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 3692,
+        "out": 6129,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "Tackle Tommy Woo Woo",
+      "candidates": [
+        {
+          "text": "Eddie attends a formal gala hosted by Johnston, standing in a suit among elegant guests in a crowded hall.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie",
+            "Johnston"
+          ],
+          "grounded_in": "forced to attend a gala hosted by Johnston",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 3694,
+        "out": 6704,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Where's My Weed At?",
+      "candidates": [
+        {
+          "text": "Eddie's mother worries about the growing criminality surrounding the family at the estate.",
+          "specificity": 2,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "worries about the impact of growing criminality on the family",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 3695,
+        "out": 5542,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "An Unsympathetic Gentleman",
+      "candidates": [
+        {
+          "text": "Lady Sabrina asks the estate gamekeeper to introduce her to a local sheep farmer.",
+          "specificity": 5,
+          "characters_named": [
+            "Lady Sabrina"
+          ],
+          "grounded_in": "Lady Sabrina has gamekeeper Geoff introduce her to an alternative host for the cannabis farm – a local sheep farmer.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the summary is a blackmail reveal, shootout with injuries, and forced land deal; setup and outcome are both forbidden, leaving only the sheep-farmer side story.",
+      "usage": {
+        "in": 3695,
+        "out": 5080,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "I've Hundreds of Cousins",
+      "candidates": [
+        {
+          "text": "Bobby tells Susie he has no intention of letting Eddie walk away from the empire.",
+          "specificity": 2,
+          "characters_named": [
+            "Bobby",
+            "Susie",
+            "Eddie"
+          ],
+          "grounded_in": "Bobby tells Susie he has no intention of letting Eddie walk away",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 3694,
+        "out": 7930,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "All Eventualities",
+      "candidates": [
+        {
+          "text": "Eddie attends a crowded boxing party, chatting ringside among promoters and fighters.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "At a boxing party, Eddie meets Henry Collins",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 123,
+        "out": 7125,
+        "cache_read": 3569,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Not Without Danger",
+      "candidates": [
+        {
+          "text": "A pregnant Charlotte arrives back from university and surprises her family at the estate.",
+          "specificity": 5,
+          "characters_named": [
+            "Charlotte"
+          ],
+          "grounded_in": "a pregnant Charlotte returns from university",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode is assassinations, wounds, confessions and reveals, so only the family arrival is safe texture.",
+      "usage": {
+        "in": 3691,
+        "out": 9409,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "The Gospel According to Bobby Glass",
+      "candidates": [],
+      "note": "Episode 8 summary is entirely climax resolutions - waking, fake-names reveal, Dixon deal, reconciliations, father admission, retirement, bids, consortium, arrest, murders, execution and ruse reveal. Every concrete moment leads to or results from a forbidden turning point, so no inconsequential probe is available.",
+      "usage": {
+        "in": 3694,
+        "out": 3808,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

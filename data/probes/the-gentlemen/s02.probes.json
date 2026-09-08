@@ -1,0 +1,92 @@
+{
+  "show": "The Gentlemen",
+  "slug": "the-gentlemen",
+  "season": 2,
+  "source": {
+    "title": "The Gentlemen (2024 TV series)",
+    "revid": 1373879856,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Gentlemen_%282024_TV_series%29&oldid=1373879856",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Road to Kingdom",
+      "probes": [
+        {
+          "text": "Bobby talks about a visit from a spirit that told him what to do.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Eddie and Susie host a shooting party at the estate with their new Italian visitors in attendance.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "There's a Rat in the Kitchen",
+      "probes": []
+    },
+    "3": {
+      "title": "Do You Reject Satan?",
+      "probes": [
+        {
+          "text": "Charly hosts a christening ceremony for her baby son, with Geoff named as godfather.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Eddie pressures a neighbouring landowner to sell his estate to reclaim land lost generations ago.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Bobby warns Susie about spending time with an old friend who deals cocaine.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "The Bigger Picture",
+      "probes": [
+        {
+          "text": "Eddie, Susie, Bella and Joe spend an evening together out on a joint date.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Bella calmly handles a hooded Saker falcon, showing off her expert falconry knowledge.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Joe suffers humiliating mockery from former acquaintances during an evening out with friends.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "A Suburban A-Road on the Outskirts of Basingstoke",
+      "probes": [
+        {
+          "text": "Johnston tells Eddie he descends from Trojan King Priam while they talk.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "The Bells of San Domenico",
+      "probes": [
+        {
+          "text": "Freddy remains openly bitter over the inheritance when Eddie comes to visit him.",
+          "specificity": 2,
+          "reverse_confidence": 4
+        }
+      ]
+    }
+  }
+}

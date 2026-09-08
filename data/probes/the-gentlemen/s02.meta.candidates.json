@@ -1,0 +1,306 @@
+{
+  "show": "The Gentlemen",
+  "slug": "the-gentlemen",
+  "season": 2,
+  "model": "muse-spark-1.3-contributor",
+  "source": {
+    "title": "The Gentlemen (2024 TV series)",
+    "revid": 1373879856,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Gentlemen_%282024_TV_series%29&oldid=1373879856",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Road to Kingdom",
+      "candidates": [
+        {
+          "text": "Bobby talks about a visit from a spirit that told him what to do.",
+          "specificity": 5,
+          "characters_named": [
+            "Bobby"
+          ],
+          "grounded_in": "claiming a visit from the spirit Bannik told him so",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie and Susie host a shooting party at the estate with their new Italian visitors in attendance.",
+          "specificity": 4,
+          "characters_named": [
+            "Eddie",
+            "Susie"
+          ],
+          "grounded_in": "At a shoot where guests include Cico, his girlfriend Countess Isabella \"Bella\" Soranza de Parme and the politically connected Lord Hawthorne",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie worries about Bobby's failing health, but Susie dismisses his concerns outright.",
+          "specificity": 2,
+          "characters_named": [
+            "Eddie",
+            "Bobby",
+            "Susie"
+          ],
+          "grounded_in": "Eddie worries about Bobby's health, but Susie dismisses his concerns",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5709,
+        "out": 5355,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "There's a Rat in the Kitchen",
+      "candidates": [
+        {
+          "text": "Lady Sabrina visits Freddy in rehab and finds him newly devout as a born again Christian.",
+          "specificity": 5,
+          "characters_named": [
+            "Lady Sabrina",
+            "Freddy"
+          ],
+          "grounded_in": "he's become a born again Christian",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie and Geoff have a psychopathic hitman staying as a houseguest they keep hidden from Susie.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie",
+            "Geoff",
+            "Susie"
+          ],
+          "grounded_in": "Geoff and Eddie host Takashi, Moretti's psychopathic hitman, and hiding his presence from Susie arouses her suspicions.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5711,
+        "out": 6957,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Do You Reject Satan?",
+      "candidates": [
+        {
+          "text": "Charly hosts a christening ceremony for her baby son, with Geoff named as godfather.",
+          "specificity": 5,
+          "characters_named": [
+            "Charly",
+            "Geoff"
+          ],
+          "grounded_in": "At the christening of Charly and Nanny's son Tarquin, Charly has Nanny renege on a plan to make the King one of Tarquin's godfathers, in favour of Geoff.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eddie pressures a neighbouring landowner to sell his estate to reclaim land lost generations ago.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie"
+          ],
+          "grounded_in": "Eddie threatens neighbouring landowner McDougall into selling his estate to him, as part of Eddie's desire to reclaim land the Horniman family lost generations before.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bobby warns Susie about spending time with an old friend who deals cocaine.",
+          "specificity": 4,
+          "characters_named": [
+            "Bobby",
+            "Susie"
+          ],
+          "grounded_in": "Bobby warns Susie about her relationship with Joe Green, an old friend and cocaine dealer.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5710,
+        "out": 7060,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "The Bigger Picture",
+      "candidates": [
+        {
+          "text": "Eddie, Susie, Bella and Joe spend an evening together out on a joint date.",
+          "specificity": 5,
+          "characters_named": [
+            "Eddie",
+            "Susie",
+            "Bella",
+            "Joe"
+          ],
+          "grounded_in": "Eddie, Susie, Bella, and Joe go on a joint date",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bella calmly handles a hooded Saker falcon, showing off her expert falconry knowledge.",
+          "specificity": 5,
+          "characters_named": [
+            "Bella"
+          ],
+          "grounded_in": "Bella helps retrieve the falcon due to her falconry knowledge",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joe suffers humiliating mockery from former acquaintances during an evening out with friends.",
+          "specificity": 4,
+          "characters_named": [
+            "Joe"
+          ],
+          "grounded_in": "Joe is humiliated by former acquaintances",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5709,
+        "out": 7199,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "A Suburban A-Road on the Outskirts of Basingstoke",
+      "candidates": [
+        {
+          "text": "Johnston tells Eddie he descends from Trojan King Priam while they talk.",
+          "specificity": 5,
+          "characters_named": [
+            "Johnston",
+            "Eddie"
+          ],
+          "grounded_in": "claiming he has heritage dating back to Trojan King Priam",
+          "grounded_ok": true
+        },
+        {
+          "text": "Bella sits with Eddie to pass along Moretti's demand for his investment money back.",
+          "specificity": 4,
+          "characters_named": [
+            "Bella",
+            "Eddie",
+            "Moretti"
+          ],
+          "grounded_in": "Using Bella as a messenger, Moretti demands that Eddie return his €60 million investment in legalisation by the end of the month",
+          "grounded_ok": true
+        },
+        {
+          "text": "Geoff urges Eddie not to go after Bobby for fear of angering Susie.",
+          "specificity": 3,
+          "characters_named": [
+            "Geoff",
+            "Eddie",
+            "Bobby",
+            "Susie"
+          ],
+          "grounded_in": "when Geoff urges him not to pursue Bobby to avoid angering Susie",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 5721,
+        "out": 6498,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "The Bells of San Domenico",
+      "candidates": [
+        {
+          "text": "Moretti's female adviser keeps suggesting different money-laundering approaches that visibly irritate Eddie.",
+          "specificity": 4,
+          "characters_named": [
+            "Moretti",
+            "Eddie"
+          ],
+          "grounded_in": "although Eddie is irked by Moretti's consigliere Angelica, who suggests alternative money laundering measures",
+          "grounded_ok": true
+        },
+        {
+          "text": "Freddy remains openly bitter over the inheritance when Eddie comes to visit him.",
+          "specificity": 2,
+          "characters_named": [
+            "Freddy",
+            "Eddie"
+          ],
+          "grounded_in": "but Freddy rejects him and reiterates his bitterness over the inheritance",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most distinctive beats in this episode are a death, a discovery, a confession, a wedding, and setup to an explosion, so only non-spoiling attitudes remain.",
+      "usage": {
+        "in": 5712,
+        "out": 7143,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "This Mad Circus",
+      "candidates": [
+        {
+          "text": "Sabrina, Geoff, Charly, Nanny and Tarquin arrive back at the estate from Italy.",
+          "specificity": 5,
+          "characters_named": [
+            "Sabrina",
+            "Geoff",
+            "Charly",
+            "Nanny",
+            "Tarquin"
+          ],
+          "grounded_in": "Sabrina, Geoff, Charly, Nanny, and Tarquin return to the estate from Italy the day after the wedding.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nanny is acting cold and dismissive toward Geoff back at the estate.",
+          "specificity": 3,
+          "characters_named": [
+            "Nanny",
+            "Geoff"
+          ],
+          "grounded_in": "Nanny acts dismissive towards Geoff and reveals his knowledge of the farms.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode is mercenary attacks, killings, injuries, kidnapping and reveals, leaving very little inconsequential texture.",
+      "usage": {
+        "in": 5708,
+        "out": 6716,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Bring Me the Head",
+      "candidates": [
+        {
+          "text": "Johnston encourages Eddie to use his hardships as motivation to build toward king-like status.",
+          "specificity": 5,
+          "characters_named": [
+            "Johnston",
+            "Eddie"
+          ],
+          "grounded_in": "Johnston encourages Eddie to use his hardships as motivation to build towards king-like status.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of the summary is torture, killings, beatings, admissions and reveals, leaving almost no inconsequential texture.",
+      "usage": {
+        "in": 5709,
+        "out": 4284,
+        "cache_read": 0,
+        "cache_write": 0
+      }
+    }
+  }
+}

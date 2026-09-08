@@ -2,12 +2,14 @@
 "use strict";
 
 const REPO = "https://github.com/nathanswavely/episode-finder";
+const REQUEST_FORM = "https://tally.so/r/gDlO9J";   // Tally: hidden field `show`
+const RESULT_FORM = "https://tally.so/r/yPQ7Jd";    // Tally: hidden fields show, season, result, answers
 const K = 3; // probes per episode, max
 
 const $app = document.getElementById("app");
 document.getElementById("source-link").href = REPO;
-document.getElementById("request-link").href =
-  `${REPO}/issues/new?title=${encodeURIComponent("Show request: ")}&body=${encodeURIComponent("Show:\nWhy it's a good fit (serialized, popular, on streaming):\n")}`;
+const requestUrl = (show = "") => `${REQUEST_FORM}?show=${encodeURIComponent(show)}`;
+document.getElementById("request-link").href = requestUrl();
 
 const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const h = (html) => { $app.innerHTML = html; window.scrollTo(0, 0); };
@@ -55,7 +57,7 @@ async function screenHome() {
     const hits = shows.filter((s) => s.title.toLowerCase().includes(q)).slice(0, 8);
     $r.innerHTML = hits.length
       ? hits.map((s) => `<li><button data-slug="${s.slug}"><span>${esc(s.title)}</span><span class="muted small">${s.seasons.length} season${s.seasons.length > 1 ? "s" : ""}</span></button></li>`).join("")
-      : `<li class="none">Not here yet. <a href="${document.getElementById("request-link").href}" rel="noopener">Request it</a>.</li>`;
+      : `<li class="none">Not here yet.<br><a class="btn" style="margin-top:.6rem" href="${requestUrl($q.value.trim())}" rel="noopener"><span>Request “${esc($q.value.trim())}”</span></a><span class="muted small" style="display:block;margin-top:.5rem">A short form, no account needed.</span></li>`;
   };
   $q.addEventListener("input", render);
   const pick = async (e) => {
@@ -287,8 +289,10 @@ function screenResult(walker, r) {
 
   const seasonsUsed = [...new Set(r.log.map((l) => l.season))].map((n) => show.seasons.find((s) => s.season === n)).filter(Boolean);
   const answers = r.log.map((l) => `S${l.season}E${l.episode}: ${l.answer}`).join("\n");
-  const feedback = `${REPO}/issues/new?title=${encodeURIComponent(`Result check: ${show.title} S${r.seasonNum ?? "?"}`)}&body=${encodeURIComponent(
-    `Result: ${headline.replace(/<[^>]+>/g, "")}\n\nWas it right? (what's the real answer, if you know)\n\n\nAnswers:\n${answers}\n`)}`;
+  const feedback = `${RESULT_FORM}?${new URLSearchParams({
+    show: show.title, season: String(r.seasonNum ?? "?"),
+    result: headline.replace(/<[^>]+>/g, ""), answers,
+  })}`;
 
   h(`
     <div class="result">

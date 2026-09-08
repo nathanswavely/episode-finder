@@ -1,0 +1,304 @@
+{
+  "show": "The Gentlemen",
+  "slug": "the-gentlemen",
+  "season": 1,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Refined Aggression",
+      "candidates": [
+        {
+          "text": "A British army officer in a UN beret stands watch at a dusty border post between Turkey and Syria.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely establishes a setting and a character's role at a border post, with no outcome, reveal, or answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It merely establishes a setting and a character's role at a border post, with no outcome, reveal, or answer to an open question."
+                }
+              ],
+              "reason": "It merely establishes a setting and a character's role at a border post, with no outcome, reveal, or answer to an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Dusty bottles line the racks of a grand old wine cellar beneath a sprawling English country estate.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It merely describes a setting — a wine cellar under a country estate — with no outcome, reveal, or character information."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes a setting — a wine cellar beneath a country estate — with no outcome, reveal, or character information."
+                }
+              ],
+              "reason": "It merely describes a setting — a wine cellar under a country estate — with no outcome, reveal, or character information."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A deceptive bookmaker lounges behind a cluttered counter stacked with betting slips and cash.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts a generic setting and character texture \"a bookmaker at his counter\" without disclosing any outcome, twist, or answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only depicts a minor character in his usual setting, conveying atmosphere and character texture without disclosing any outcome, reveal, or plot turn."
+                }
+              ],
+              "reason": "It depicts a generic setting and character texture \"a bookmaker at his counter\" without disclosing any outcome, twist, or answer to an open question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Tackle Tommy Woo Woo",
+      "candidates": [
+        {
+          "text": "Eddie attends a formal gala hosted by Johnston, standing in a suit among elegant guests in a crowded hall.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Attending a formal gala in a suit is ordinary setting and character texture, revealing no outcome, death, or discovery."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Eddie attending a formal gala in a suit among guests, which is ordinary setting and character texture with no outcome or reveal."
+                }
+              ],
+              "reason": "Attending a formal gala in a suit is ordinary setting and character texture, revealing no outcome, death, or discovery."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Where's My Weed At?",
+      "candidates": [
+        {
+          "text": "Eddie's mother worries about the growing criminality surrounding the family at the estate.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "General character texture — a mother's worry about criminality, with no outcome, reveal or resolution of the pending Tommy killing."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A vague expression of maternal concern about criminality already established in episode 1; no outcome or new information."
+                }
+              ],
+              "reason": "General character texture — a mother's worry about criminality, with no outcome, reveal or resolution of the pending Tommy killing."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "An Unsympathetic Gentleman",
+      "candidates": [
+        {
+          "text": "Lady Sabrina asks the estate gamekeeper to introduce her to a local sheep farmer.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture involving an everyday estate errand and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A mundane social request that involves no outcome, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "This is ordinary character texture involving an everyday estate errand and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "I've Hundreds of Cousins",
+      "candidates": [
+        {
+          "text": "Bobby tells Susie he has no intention of letting Eddie walk away from the empire.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It answers the pending question of how Bobby responds to Eddie's offer to end the cannabis operation, revealing Bobby intends to keep Eddie tied to the criminal empire."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of how Bobby will respond to Eddie's pending offer to wind down the operation, revealing Bobby intends to keep Eddie tied to the empire."
+                }
+              ],
+              "reason": "It answers the pending question of how Bobby responds to Eddie's offer to end the cannabis operation, revealing Bobby intends to keep Eddie tied to the criminal empire."
+            }
+          },
+          "rejected": "consequence (2/2): It answers the pending question of how Bobby responds to Eddie's offer to end the cannabis operation, revealing Bobby intends to keep Eddie tied to the criminal empire."
+        }
+      ]
+    },
+    "6": {
+      "title": "All Eventualities",
+      "candidates": [
+        {
+          "text": "Eddie attends a crowded boxing party, chatting ringside among promoters and fighters.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Attending a boxing party ringside is ordinary setting and social texture, revealing no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A social setting with ringside mingling is ordinary texture and discloses no outcome, reveal or turning point."
+                }
+              ],
+              "reason": "Attending a boxing party ringside is ordinary setting and social texture, revealing no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "7": {
+      "title": "Not Without Danger",
+      "candidates": [
+        {
+          "text": "A pregnant Charlotte arrives back from university and surprises her family at the estate.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses a significant new development \\u2014 that Charlotte returns home pregnant \\u2014 which is a reveal the viewer has had no hint of."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Charlotte is pregnant, a significant new development not yet hinted at, along with her return to the estate."
+                }
+              ],
+              "reason": "It discloses a significant new development \\u2014 that Charlotte returns home pregnant \\u2014 which is a reveal the viewer has had no hint of."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses a significant new development \\u2014 that Charlotte returns home pregnant \\u2014 which is a reveal the viewer has had no hint of."
+        }
+      ]
+    },
+    "8": {
+      "title": "The Gospel According to Bobby Glass",
+      "candidates": []
+    }
+  },
+  "spend": {
+    "in": 14438,
+    "out": 2437,
+    "cache_read": 49708,
+    "cache_write": 6978,
+    "calls": 36
+  },
+  "recheck_spend": {
+    "in": 4606,
+    "out": 1116,
+    "cache_read": 9700,
+    "cache_write": 0,
+    "calls": 14
+  }
+}

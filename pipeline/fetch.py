@@ -122,6 +122,18 @@ def strip_markup(s: str) -> str:
     return s.strip()
 
 
+def season_chunk(wikitext: str, season: int) -> str:
+    """A page that lists several seasons has one {{Episode table ...}} per season (or one
+    == Season N == heading). Return the chunk for the requested season; the whole text if the
+    page has a single table."""
+    parts = re.split(r"(?=\{\{\s*Episode table)", wikitext, flags=re.I)
+    tables = [c for c in parts if re.match(r"\{\{\s*Episode table", c, re.I)]
+    if len(tables) <= 1:
+        return wikitext
+    # a table's rows may carry NumParts etc.; assume tables appear in season order
+    return tables[season - 1] if season - 1 < len(tables) else ""
+
+
 def parse_episodes(wikitext: str) -> list[dict]:
     """One entry per Wikipedia row. `episode` is the row's position in the season (1..N), which is
     what the walk does arithmetic on; `number` is Wikipedia's label ("9", or "1–2" for a
@@ -197,6 +209,13 @@ def main():
 
     page = a.page or f"{a.show} season {a.season}"
     title, wikitext, revid = fetch_wikitext(page)
+    if a.page:
+        chunk = season_chunk(wikitext, a.season)
+        if chunk != wikitext:
+            print(f"(multi-season page: using episode table {a.season})")
+        wikitext_eps = chunk
+    else:
+        wikitext_eps = wikitext
     if a.update_cast:
         dest = Path(a.out) / slugify(a.show) / f"s{a.season:02d}.json"
         d = json.loads(dest.read_text())
@@ -204,7 +223,7 @@ def main():
         dest.write_text(json.dumps(d, indent=2, ensure_ascii=False))
         print(f"{title}: cast main {len(d['cast']['main'])}, recurring {len(d['cast']['recurring'])} -> {dest}")
         return
-    eps = parse_episodes(wikitext)
+    eps = parse_episodes(wikitext_eps)
     if not eps:
         sys.exit(f"No Episode list templates with summaries found on {title!r}. "
                  "Try --page with the exact title, or the show's 'List of ... episodes' page.")

@@ -1,0 +1,470 @@
+{
+  "show": "The Gentlemen",
+  "slug": "the-gentlemen",
+  "season": 2,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "The Road to Kingdom",
+      "candidates": [
+        {
+          "text": "Bobby talks about a visit from a spirit that told him what to do.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A character describing a spiritual/mystical experience is character texture and doesn't disclose any outcome, death, betrayal or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A character recounting a spiritual/mystical experience is atmospheric texture and doesn't disclose any outcome, death, reveal or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A character describing a spiritual/mystical experience is character texture and doesn't disclose any outcome, death, betrayal or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eddie and Susie host a shooting party at the estate with their new Italian visitors in attendance.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Hosting a shooting party with visiting guests is ordinary setting and activity texture, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes a social setting and the presence of new guests, without revealing any outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "Hosting a shooting party with visiting guests is ordinary setting and activity texture, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eddie worries about Bobby's failing health, but Susie dismisses his concerns outright.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Bobby Glass's health is failing in the next episode, a new plot development about the empire's patriarch that the viewer hasn't seen set up."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Bobby Glass's health is failing in the next episode, an outcome/development not established in the prior seasons where Bobby was a healthy, scheming kingpin."
+                }
+              ],
+              "reason": "It discloses that Bobby Glass's health is failing in the next episode, a new plot development about the empire's patriarch that the viewer hasn't seen set up."
+            }
+          },
+          "rejected": "consequence (2/2): It discloses that Bobby Glass's health is failing in the next episode, a new plot development about the empire's patriarch that the viewer hasn't seen set up."
+        }
+      ]
+    },
+    "2": {
+      "title": "There's a Rat in the Kitchen",
+      "candidates": [
+        {
+          "text": "Lady Sabrina visits Freddy in rehab and finds him newly devout as a born again Christian.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Freddy has entered rehab and undergone a religious conversion, a character turning point the viewer hasn't yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Freddy has entered rehab and undergone a religious conversion, a character turning point the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals that Freddy has entered rehab and undergone a religious conversion, a character turning point the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Freddy has entered rehab and undergone a religious conversion, a character turning point the viewer hasn't yet seen."
+        },
+        {
+          "text": "Eddie and Geoff have a psychopathic hitman staying as a houseguest they keep hidden from Susie.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It describes an ongoing situation/premise (a hidden houseguest) rather than an outcome, death, reveal, or the resolution of any pending conflict the viewer knows about."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eddie and Geoff have secretly taken in a hitman and are concealing him from Susie, a new alliance/deception not yet established at the end of the previous season."
+                }
+              ],
+              "reason": "It reveals that Eddie and Geoff have secretly taken in a hitman and are concealing him from Susie, a new alliance/deception not yet established at the end of the previous season."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Eddie and Geoff have secretly taken in a hitman and are concealing him from Susie, a new alliance/deception not yet established at the end of the previous season."
+        }
+      ]
+    },
+    "3": {
+      "title": "Do You Reject Satan?",
+      "candidates": [
+        {
+          "text": "Charly hosts a christening ceremony for her baby son, with Geoff named as godfather.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A christening with Geoff as godfather is family texture consistent with what the viewer already knows (Geoff is Charly's biological father), and resolves no pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A christening gathering with Geoff as godfather is ordinary family texture, consistent with the already-revealed pregnancy and paternity, and resolves no pending conflict."
+                }
+              ],
+              "reason": "A christening with Geoff as godfather is family texture consistent with what the viewer already knows (Geoff is Charly's biological father), and resolves no pending conflict or open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eddie pressures a neighbouring landowner to sell his estate to reclaim land lost generations ago.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a routine business/estate manoeuvre that doesn't disclose any outcome, death, betrayal or answer to a pending question from episode 1."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary plot activity and character texture consistent with Eddie's established scheming, revealing no outcome, death, betrayal or answer to a pending question."
+                }
+              ],
+              "reason": "This is a routine business/estate manoeuvre that doesn't disclose any outcome, death, betrayal or answer to a pending question from episode 1."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Bobby warns Susie about spending time with an old friend who deals cocaine.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A parental warning about an associate is character texture and sets up a thread rather than revealing any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A parental warning about an associate is character texture and sets up a storyline rather than revealing any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A parental warning about an associate is character texture and sets up a thread rather than revealing any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "The Bigger Picture",
+      "candidates": [
+        {
+          "text": "Eddie, Susie, Bella and Joe spend an evening together out on a joint date.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A social evening out is ordinary character texture; it doesn't disclose any outcome, though it hints at pairings already foreshadowed by the Eddie/Bella attraction."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A social evening out is ordinary character texture; it doesn't disclose any outcome, though it hints at ongoing romantic pairings already set up."
+                }
+              ],
+              "reason": "A social evening out is ordinary character texture; it doesn't disclose any outcome, though it hints at pairings already foreshadowed by the Eddie/Bella attraction."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Bella calmly handles a hooded Saker falcon, showing off her expert falconry knowledge.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — Bella displaying a hobby/skill — with no outcome, reveal or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — a display of a hobby and skill — that discloses no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is character texture — Bella displaying a hobby/skill — with no outcome, reveal or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joe suffers humiliating mockery from former acquaintances during an evening out with friends.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary social texture involving an unfamiliar minor character, with no outcome, reveal, or resolution of any pending conflict the viewer knows about."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary social texture involving an unfamiliar character, with no outcome, death, reveal or resolution of any pending conflict the viewer is tracking."
+                }
+              ],
+              "reason": "This is ordinary social texture involving an unfamiliar minor character, with no outcome, reveal, or resolution of any pending conflict the viewer knows about."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "A Suburban A-Road on the Outskirts of Basingstoke",
+      "candidates": [
+        {
+          "text": "Johnston tells Eddie he descends from Trojan King Priam while they talk.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A conversational flourish about ancestry with an established character; it discloses no outcome, turning point, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A conversational aside about Johnston's claimed ancestry is character texture and doesn't reveal any outcome, though it does imply Johnston is present and talking with Eddie, which is unsurprising given his established situation."
+                }
+              ],
+              "reason": "A conversational flourish about ancestry with an established character; it discloses no outcome, turning point, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Bella sits with Eddie to pass along Moretti's demand for his investment money back.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point in the pending Moretti–Eddie business alliance, showing Moretti pulling out and demanding his investment back, a conflict the viewer has not yet seen arise."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point in the Eddie\ninvestment/legalisation storyline \\u2014 that Moretti pulls out and demands his money back, souring the alliance the viewer has only seen forming."
+                }
+              ],
+              "reason": "It reveals a turning point in the pending Moretti–Eddie business alliance, showing Moretti pulling out and demanding his investment back, a conflict the viewer has not yet seen arise."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a turning point in the pending Moretti–Eddie business alliance, showing Moretti pulling out and demanding his investment back, a conflict the viewer has not yet seen arise."
+        },
+        {
+          "text": "Geoff urges Eddie not to go after Bobby for fear of angering Susie.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eddie's simmering friction with Bobby escalates into Eddie actually moving against him, a turning point in the Glass power struggle that also flags a coming rift with Susie."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eddie's simmering clashes with Bobby escalate to the point of Eddie moving against him, a turning point in the Glass power struggle that risks his alliance with Susie."
+                }
+              ],
+              "reason": "It reveals that Eddie's simmering friction with Bobby escalates into Eddie actually moving against him, a turning point in the Glass power struggle that also flags a coming rift with Susie."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eddie's simmering friction with Bobby escalates into Eddie actually moving against him, a turning point in the Glass power struggle that also flags a coming rift with Susie."
+        }
+      ]
+    },
+    "6": {
+      "title": "The Bells of San Domenico",
+      "candidates": [
+        {
+          "text": "Moretti's female adviser keeps suggesting different money-laundering approaches that visibly irritate Eddie.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals Eddie survives the kidnapping and beating in the shallow grave and is back conducting business, answering the cliffhanger left open."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — a business discussion and mild interpersonal friction — with no outcome, reveal or resolution of the pending conflicts."
+                }
+              ],
+              "reason": "It reveals Eddie survives the kidnapping and beating in the shallow grave and is back conducting business, answering the cliffhanger left open."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals Eddie survives the kidnapping and beating in the shallow grave and is back conducting business, answering the cliffhanger left open."
+        },
+        {
+          "text": "Freddy remains openly bitter over the inheritance when Eddie comes to visit him.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Freddy's resentment over the inheritance is long-established character texture and reveals no new outcome, though it lightly implies Eddie survives his beating — an expectation for the protagonist."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Freddy's bitterness over the inheritance is long-established character texture and reveals no new outcome or turning point."
+                }
+              ],
+              "reason": "Freddy's resentment over the inheritance is long-established character texture and reveals no new outcome, though it lightly implies Eddie survives his beating — an expectation for the protagonist."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  }
+}
