@@ -1121,6 +1121,65 @@
           "rejected": null
         }
       ]
+    },
+    "12": {
+      "title": "Amour Fou",
+      "candidates": [
+        {
+          "text": "Carmela, quietly frightened about her health, keeps welling up at the most ordinary, unexpected things.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It conveys an emotional state and hints at an unresolved worry rather than disclosing any diagnosis, outcome, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This describes emotional texture and an unspecified worry rather than any outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "It conveys an emotional state and hints at an unresolved worry rather than disclosing any diagnosis, outcome, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Carmela unburdens herself to a priest, who tells her she may live with the money her husband brings home.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It resolves Carmela's ongoing moral crisis over Tony's \"blood money\" \" raised when Melfi's colleague told her to leave him \" by revealing she obtains clerical permission to keep living off it."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Carmela seeking spiritual counsel is character texture consistent with her ongoing moral unease, and the priest's absolution resolves no pending plot conflict."
+                }
+              ],
+              "reason": "It resolves Carmela's ongoing moral crisis over Tony's \"blood money\" \" raised when Melfi's colleague told her to leave him \" by revealing she obtains clerical permission to keep living off it."
+            }
+          },
+          "rejected": "consequence (1/2): It resolves Carmela's ongoing moral crisis over Tony's \"blood money\" \" raised when Melfi's colleague told her to leave him \" by revealing she obtains clerical permission to keep living off it."
+        }
+      ]
     }
   }
 }

@@ -177,6 +177,16 @@
           "reverse_confidence": 5
         }
       ]
+    },
+    "12": {
+      "title": "Amour Fou",
+      "probes": [
+        {
+          "text": "Carmela, quietly frightened about her health, keeps welling up at the most ordinary, unexpected things.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
     }
   }
 }

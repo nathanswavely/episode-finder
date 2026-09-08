@@ -230,6 +230,46 @@
         "cache_read": 12292,
         "cache_write": 0
       }
+    },
+    "5": {
+      "title": "First of His Name",
+      "candidates": [
+        {
+          "text": "The Hound watches Arya practising her water dancing and sneers at everything her old sword teacher taught her.",
+          "specificity": 5,
+          "characters_named": [
+            "The Hound",
+            "Arya"
+          ],
+          "grounded_in": "The Hound mocks Arya practicing her water dancing and disparages Syrio Forel's fighting style.",
+          "grounded_ok": true
+        },
+        {
+          "text": "On the road, Brienne finds that her new squire has no idea how to do basic squire's work.",
+          "specificity": 4,
+          "characters_named": [
+            "Brienne"
+          ],
+          "grounded_in": "Brienne learns that Podrick lacks practical squiring skills",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the Eyrie, Sansa's aunt talks of matching her with her own son, a sulky, emotionally immature boy.",
+          "specificity": 4,
+          "characters_named": [
+            "Sansa"
+          ],
+          "grounded_in": "Lysa plans for Sansa to marry her son, Robin, an emotionally immature prepubescent boy.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's summary is turning points (crowning, the fight at Craster's Keep, Littlefinger's revelation, Daenerys's decision), so only travel-texture moments were usable.",
+      "usage": {
+        "in": 40,
+        "out": 1626,
+        "cache_read": 12292,
+        "cache_write": 0
+      }
     }
   }
 }

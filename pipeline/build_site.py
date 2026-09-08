@@ -71,6 +71,10 @@ def main():
         probes = sum(len(e["probes"]) for s in show["seasons"] for e in s["episodes"])
         fine = sum(len(e["fine"]) for s in show["seasons"] for e in s["episodes"])
         print(f"{show['title']}: seasons {[s['season'] for s in show['seasons']]}, {eps} episodes, {probes} coarse-safe + {fine} fine-only probes")
+    for stale in (OUT / "shows").glob("*.json"):
+        if stale.stem not in shows:
+            stale.unlink()
+            print(f"removed stale {stale.name}")
     (OUT / "index.json").write_text(json.dumps(index, ensure_ascii=False))
     print(f"-> {OUT}")
 
