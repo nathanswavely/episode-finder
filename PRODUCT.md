@@ -31,9 +31,9 @@ adr/) and the vocabulary in CONTEXT.md.
 
 Warm, curious, conversational. It feels like a friend walking you backwards
 through your own memory: interested in what you remember, unbothered by what
-you don't, never quizzing you. It talks in full sentences and says what it is
-doing ("I'll skip ahead as we go, so the most I'll ever mention is one episode
-past where you stopped"). It is honest about uncertainty ("you weren't sure
+you don't, never quizzing you. It speaks as "we", in full sentences, and says what it is doing ("We'll only
+show you moments from episodes you've seen, or at most one past where you
+stopped"). It is honest about uncertainty ("you weren't sure
 from around here on") rather than confident by default.
 
 ## Anti-references

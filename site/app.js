@@ -117,7 +117,7 @@ class Walker {
       const dots = Array.from({ length: est }, (_, i) => `<i class="${i < n ? "on" : ""}"></i>`).join("");
       h(`
         <p class="note">${n === 1
-          ? `${esc(this.show.title)}, ${label}. I'll only show you moments from episodes you've seen, or at most one past where you stopped.`
+          ? `${esc(this.show.title)}, ${label}. We'll only show you moments from episodes you've seen, or at most one past where you stopped.`
           : `${esc(this.show.title)}, ${label}`}</p>
         <div class="dots" aria-hidden="true">${dots}</div>
         <div class="card">${esc(probe)}</div>
@@ -142,7 +142,7 @@ class Walker {
     return new Promise((resolve) => {
       h(`
         <p class="note">${esc(this.show.title)}</p>
-        <div class="card consent">You weren't sure about that one. I can keep going, but then I might mention something from more than one episode past where you stopped.</div>
+        <div class="card consent">You weren't sure about that one. We can keep going, but then we might mention something from more than one episode past where you stopped.</div>
         <div class="answers">
           <button class="btn primary" data-c="1"><span>Keep going</span><kbd>1</kbd></button>
           <button class="btn" data-c="0"><span>Stop here</span><kbd>2</kbd></button>
@@ -269,7 +269,7 @@ function screenResult(walker, r) {
     else if (r.resume < r.n) lines.push(`If it's all familiar, skip to ${t(r.resume + 1)}.`);
     if (r.fallback < r.resume) lines.push(`If you think you stopped partway through ${t(r.fallback)}, start there.`);
     if (r.budgetHit) lines.push(`<span class="muted">That was the 25-question limit, so treat this as a best guess.</span>`);
-    if (r.unchecked) lines.push(`<span class="muted">I have no questions for ${t(r.unchecked)}, so I'm assuming you haven't seen it.</span>`);
+    if (r.unchecked) lines.push(`<span class="muted">We have no questions for ${t(r.unchecked)}, so we're assuming you haven't seen it.</span>`);
     body = lines.map((l) => `<p>${l}</p>`).join("");
     if (r.resume < r.n) actions += `<button class="btn" data-further="${r.resume}"><span>I got further than that</span></button>`;
   } else if (r.outcome === "finished") {
@@ -297,7 +297,7 @@ function screenResult(walker, r) {
     </div>
     <div class="stack">
       ${actions}
-      <a class="btn" href="${feedback}" rel="noopener"><span>Tell me if this was right</span></a>
+      <a class="btn" href="${feedback}" rel="noopener"><span>Tell us if this was right</span></a>
       <button class="btn quiet" data-again>Start over</button>
     </div>
     <div class="attr">
