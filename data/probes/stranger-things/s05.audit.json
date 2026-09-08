@@ -1,0 +1,148 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 5,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Crawl",
+      "candidates": [
+        {
+          "text": "Steve, Robin, Jonathan, and Nancy work shifts at a small local radio station, slipping coded messages into their broadcasts.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This describes an ordinary activity/setting for known-surviving characters and doesn't disclose any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary setting/activity texture showing the group's day-to-day routine, without revealing any outcome, death, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "This describes an ordinary activity/setting for known-surviving characters and doesn't disclose any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The group has a nickname for their sneaking trips into the Upside Down: they call them \"crawls.\"",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is just terminology/texture about the group's routine activities, revealing no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is just terminology/character texture about an activity, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "This is just terminology/texture about the group's routine activities, revealing no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Hawkins sits under military quarantine, with soldiers having set up a base camp inside the Upside Down itself.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is premise-level setting and status quo (a quarantined town, military presence) rather than a plot outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is premise-level setting for the new episode — a military quarantine and encampment following the already-seen rift opening — and discloses no death, betrayal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is premise-level setting and status quo (a quarantined town, military presence) rather than a plot outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eleven trains in hiding, kept out of sight with Hopper and Joyce while the search for her continues.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary situational texture consistent with the established status quo, revealing no outcome, death, or answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is status-quo setup consistent with where the previous season left off (Eleven hunted by the military, allied with Hopper and Joyce) and discloses no new outcome, death, or reveal."
+                }
+              ],
+              "reason": "This is ordinary situational texture consistent with the established status quo, revealing no outcome, death, or answer to an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "An opening flashback goes back to 1983, with Will hiding alone in the Upside Down.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A flashback to Will's already-known 1983 disappearance is established backstory and setting, revealing no new outcome or answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A flashback to already-known season-one events (Will hiding in the Upside Down) is setting/texture and discloses no new outcome."
+                }
+              ],
+              "reason": "A flashback to Will's already-known 1983 disappearance is established backstory and setting, revealing no new outcome or answer."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  }
+}

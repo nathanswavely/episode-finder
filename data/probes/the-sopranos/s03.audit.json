@@ -1252,5 +1252,24 @@
     "cache_read": 691214,
     "cache_write": 12423,
     "calls": 172
+  },
+  "recheck": [
+    {
+      "episode": 3,
+      "text": "Tony turns up at Svetlana's apartment to broker peace over his mother's records, and finds Irina staying there.",
+      "reason": "The dispute over dividing up Livia's record collection signals that Livia has died in the coming episode, revealing a major character's death."
+    },
+    {
+      "episode": 3,
+      "text": "Svetlana keeps refusing to hand over Livia's old record collection, which Janice insists belongs to her.",
+      "reason": "The squabble over dividing up Livia's belongings signals that Livia has died/her estate is being distributed, an outcome the viewer hasn't yet seen."
+    }
+  ],
+  "recheck_spend": {
+    "in": 2254,
+    "out": 7968,
+    "cache_read": 304592,
+    "cache_write": 0,
+    "calls": 52
   }
 }

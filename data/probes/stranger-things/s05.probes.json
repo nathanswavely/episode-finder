@@ -1,0 +1,33 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 5,
+  "source": {
+    "title": "Stranger Things season 5",
+    "revid": 1373675387,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_5&oldid=1373675387",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Crawl",
+      "probes": [
+        {
+          "text": "Steve, Robin, Jonathan, and Nancy work shifts at a small local radio station, slipping coded messages into their broadcasts.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The group has a nickname for their sneaking trips into the Upside Down: they call them \"crawls.\"",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Hawkins sits under military quarantine, with soldiers having set up a base camp inside the Upside Down itself.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    }
+  }
+}

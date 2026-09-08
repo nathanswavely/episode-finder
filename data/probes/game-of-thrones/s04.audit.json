@@ -1,0 +1,583 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 4,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Two Swords",
+      "candidates": [
+        {
+          "text": "Tywin watches a smith melt down a great Valyrian steel blade and reforge the metal into two new swords.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The sentence describes an activity (reforging a Valyrian steel sword) without naming its origin or revealing any outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows an atmospheric, symbolic scene of Tywin reforging a sword; no death, betrayal, or pending conflict outcome is disclosed."
+                }
+              ],
+              "reason": "The sentence describes an activity (reforging a Valyrian steel sword) without naming its origin or revealing any outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tyrion rides out to greet a visiting Dornish prince and his paramour, arriving in King's Landing for the royal wedding.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The arrival of a new guest for the already-announced royal wedding is ordinary setup and character introduction, revealing no outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The arrival of a new guest for the already-announced royal wedding is ordinary setup and character introduction, revealing no outcome or answer to a pending question."
+                }
+              ],
+              "reason": "The arrival of a new guest for the already-announced royal wedding is ordinary setup and character introduction, revealing no outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Daenerys watches her dragons squabble over food on a clifftop, now grown to the size of horses.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Showing the dragons grown larger is character/setting texture with the passage of time, not an outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Shows only the passage of time and the dragons' growth, ordinary texture with no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "Showing the dragons grown larger is character/setting texture with the passage of time, not an outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joffrey, given a sword as a wedding present, decides on a name for it in front of the court.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Naming a gift sword at court is ordinary character texture and reveals no outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Naming a gifted sword at court is ordinary character texture and does not disclose any death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "Naming a gift sword at court is ordinary character texture and reveals no outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Maester Aemon listens as Jon explains himself over his time living among the Wildlings.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jon has already returned wounded to Castle Black, so his recounting his time with the Wildlings to Aemon is expected character texture and reveals no outcome or verdict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jon reporting on his time with the wildlings to Aemon is expected follow-up conversation after his return to Castle Black, revealing no new outcome."
+                }
+              ],
+              "reason": "Jon has already returned wounded to Castle Black, so his recounting his time with the Wildlings to Aemon is expected character texture and reveals no outcome or verdict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "The Lion and the Rose",
+      "candidates": [
+        {
+          "text": "In a quiet courtyard, Bronn secretly drills Jaime, forcing him to learn to hold a sword left-handed.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Jaime training left-handed with Bronn is character texture and a natural extension of his known loss, revealing no death, betrayal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Jaime training left-handed with Bronn is character texture and an expected step after his hand loss; it resolves no pending conflict, death, or hidden truth."
+                }
+              ],
+              "reason": "Jaime training left-handed with Bronn is character texture and a natural extension of his known loss, revealing no death, betrayal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Roose Bolton rides home to the Dreadfort with his new bride, one of Walder Frey's daughters.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Roose's marriage to a Frey is ordinary texture that follows naturally from the already-revealed Bolton-Frey alliance, and discloses no pending outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Roose's arrival home with a Frey bride is ordinary character texture consistent with the already-known Bolton\ndash Frey alliance, revealing no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Roose's marriage to a Frey is ordinary texture that follows naturally from the already-revealed Bolton-Frey alliance, and discloses no pending outcome."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Theon, hollowed out and flinching, now answers only to the name Reek and serves without protest.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 2
+            }
+          },
+          "rejected": "reverse: correct but not distinctive (conf 2)"
+        },
+        {
+          "text": "The court gathers in King's Landing as Joffrey and Margaery Tyrell are married with great ceremony.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The Joffrey\ninMargaery betrothal was long established, so the wedding ceremony taking place is expected setup rather than an outcome or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The Joffrey–Margaery betrothal has been established for seasons, so the wedding taking place is an expected, already-signposted event and the sentence discloses no outcome, death, or twist."
+                }
+              ],
+              "reason": "The Joffrey\ninMargaery betrothal was long established, so the wedding ceremony taking place is expected setup rather than an outcome or reveal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Breaker of Chains",
+      "candidates": [
+        {
+          "text": "Arya and the Hound are taken in for the night by a peasant farmer and his daughter.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Being given shelter by a farmer is ordinary travel texture and doesn't disclose any outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Being given shelter overnight by a farmer is ordinary travel texture and reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Being given shelter by a farmer is ordinary travel texture and doesn't disclose any outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Sam walks Gilly and her baby down to Mole's Town, convinced she will be safer away from Castle Black.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Sam relocating Gilly to Mole's Town is ordinary character texture and doesn't resolve any pending conflict or open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Sam relocating Gilly to Mole's Town is an ordinary character decision that doesn't resolve any pending conflict or reveal an outcome the viewer is awaiting."
+                }
+              ],
+              "reason": "Sam relocating Gilly to Mole's Town is ordinary character texture and doesn't resolve any pending conflict or open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Daenerys stands before the closed gates of Meereen and addresses the slaves inside the walls.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Daenerys marching on Meereen was already established, and addressing the slaves at the gates is expected setup rather than an outcome of the siege."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Her march on Meereen is already established, and addressing the slaves outside the gates is expected setup rather than an outcome or reveal."
+                }
+              ],
+              "reason": "Daenerys marching on Meereen was already established, and addressing the slaves at the gates is expected setup rather than an outcome of the siege."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Davos raises the idea of borrowing from the Iron Bank of Braavos to pay for a mercenary army.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is an ordinary strategic suggestion that sets up future plot rather than revealing an outcome, death, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A strategic suggestion in conversation, not an outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is an ordinary strategic suggestion that sets up future plot rather than revealing an outcome, death, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "At Castle Black, word comes that the mutineers are camped at Craster's Keep, and Jon argues for attacking them.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the discovery of the mutineers' location at Craster's Keep and Jon's push for a new offensive, a plot development the viewer hasn't yet learned."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Jon proposing a plan based on information the viewer already broadly knows (the mutiny at Craster's Keep), without resolving any pending conflict or revealing an outcome."
+                }
+              ],
+              "reason": "It reveals the discovery of the mutineers' location at Craster's Keep and Jon's push for a new offensive, a plot development the viewer hasn't yet learned."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the discovery of the mutineers' location at Craster's Keep and Jon's push for a new offensive, a plot development the viewer hasn't yet learned."
+        }
+      ]
+    },
+    "4": {
+      "title": "Oathkeeper",
+      "candidates": [
+        {
+          "text": "Sansa stands on the deck of a ship at sea, out of sight of King's Landing, beside Littlefinger.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Sansa successfully escapes King's Landing by sea and that Littlefinger is the one behind her rescue, answering the open question raised by Dontos leading her away from the feast."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Sansa successfully escapes King's Landing and that Littlefinger is behind Dontos's rescue, answering the open question of her fate and the plot's architect."
+                }
+              ],
+              "reason": "It reveals that Sansa successfully escapes King's Landing by sea and that Littlefinger is the one behind her rescue, answering the open question raised by Dontos leading her away from the feast."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Sansa successfully escapes King's Landing by sea and that Littlefinger is the one behind her rescue, answering the open question raised by Dontos leading her away from the feast."
+        },
+        {
+          "text": "Olenna and Margaery talk in the gardens as the old woman makes ready to leave the capital.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A garden conversation and Olenna's departure preparations are ordinary character texture that don't disclose any outcome, such as who poisoned Joffrey or Tyrion's fate."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A conversation in the gardens ahead of Olenna's departure is ordinary character texture and does not disclose any outcome, such as who poisoned Joffrey or Tyrion's fate."
+                }
+              ],
+              "reason": "A garden conversation and Olenna's departure preparations are ordinary character texture that don't disclose any outcome, such as who poisoned Joffrey or Tyrion's fate."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Jaime hands Brienne a fitted suit of new armour, horses and a fine sword before she departs.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Jaime equips Brienne and sends her away on a mission, giving up his new Valyrian sword \\u2014 a turning point in his arc and a new pact between them that the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a turning point in Jaime's arc \ru2014 he gives away the newly reforged Valyrian sword and equips Brienne to depart on a mission, signalling their new alliance and Brienne's exit from King's Landing."
+                }
+              ],
+              "reason": "It reveals that Jaime equips Brienne and sends her away on a mission, giving up his new Valyrian sword \\u2014 a turning point in his arc and a new pact between them that the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Jaime equips Brienne and sends her away on a mission, giving up his new Valyrian sword \\u2014 a turning point in his arc and a new pact between them that the viewer has not yet seen."
+        },
+        {
+          "text": "Cersei, wine in hand, insists to Jaime that Tyrion is guilty while he argues otherwise.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture consistent with what the viewer already knows (Cersei accused Tyrion and had him arrested), revealing no new outcome or answer about the poisoning."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows the siblings restating already-established positions about Tyrion's arrest without resolving whether he is guilty or what happens to him."
+                }
+              ],
+              "reason": "This is character texture consistent with what the viewer already knows (Cersei accused Tyrion and had him arrested), revealing no new outcome or answer about the poisoning."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "First of His Name",
+      "candidates": [
+        {
+          "text": "The Hound watches Arya practising her water dancing and sneers at everything her old sword teacher taught her.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture between two traveling companions, with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture — banter about Arya's sword training — with no outcome, reveal, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture between two traveling companions, with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "On the road, Brienne finds that her new squire has no idea how to do basic squire's work.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows ordinary travel texture and light comedy about a squire's incompetence, without revealing any outcome, death, discovery or resolution of a pending conflict."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Brienne has left King's Landing on a journey with a newly assigned squire (Podrick), a new pairing/alliance the viewer has not yet seen formed."
+                }
+              ],
+              "reason": "It reveals that Brienne has left King's Landing on a journey with a newly assigned squire (Podrick), a new pairing/alliance the viewer has not yet seen formed."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Brienne has left King's Landing on a journey with a newly assigned squire (Podrick), a new pairing/alliance the viewer has not yet seen formed."
+        },
+        {
+          "text": "At the Eyrie, Sansa's aunt talks of matching her with her own son, a sulky, emotionally immature boy.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Sansa arriving at the Eyrie is an expected destination after Littlefinger smuggled her out, and Lysa musing about a match with Robin is character texture rather than an outcome, death, or answer to an open question."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of where Littlefinger has taken Sansa (the Eyrie, to Lysa) and reveals a new marriage plan for her with Robin Arryn."
+                }
+              ],
+              "reason": "It answers the open question of where Littlefinger has taken Sansa (the Eyrie, to Lysa) and reveals a new marriage plan for her with Robin Arryn."
+            }
+          },
+          "rejected": "consequence (1/2): It answers the open question of where Littlefinger has taken Sansa (the Eyrie, to Lysa) and reveals a new marriage plan for her with Robin Arryn."
+        }
+      ]
+    }
+  }
+}

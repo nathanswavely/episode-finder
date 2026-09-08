@@ -1004,5 +1004,44 @@
     "cache_read": 476287,
     "cache_write": 10880,
     "calls": 138
+  },
+  "recheck": [
+    {
+      "episode": 2,
+      "text": "Steve, Robin, Dustin and Max track down a shaken, hiding Eddie and try to explain the Upside Down to him.",
+      "reason": "It reveals that a hunted/hiding character (Eddie) is found alive by the group and brought into the fold as a new ally, an outcome the viewer has no knowledge of."
+    },
+    {
+      "episode": 3,
+      "text": "Chrissy's boyfriend rounds up the basketball team and sends them out across town searching for Eddie.",
+      "reason": "It reveals the pending fallout of Chrissy's death — that suspicion falls on Eddie and a manhunt by the basketball team forms, a plot turn the viewer hasn't seen."
+    },
+    {
+      "episode": 4,
+      "text": "Nancy and Robin sit down face to face with Victor Creel inside the psychiatric hospital where he is locked up.",
+      "reason": "It reveals that Nancy and Robin successfully gain access to the institutionalized Victor Creel, answering the pending question of whether the lead Wayne gave Nancy can be pursued and setting up his account of the killings."
+    },
+    {
+      "episode": 6,
+      "text": "Jason stands up at a packed town hall meeting and rallies Hawkins residents against an alleged Satanic cult.",
+      "reason": "It reveals that Jason's private manhunt escalates into a town-wide Satanic panic mob, a turning point in the pending Jason-vs-Eddie conflict the viewer has seen only in its early stages."
+    },
+    {
+      "episode": 6,
+      "text": "Suzie, back home in Salt Lake City, helps the California group work out a set of coordinates.",
+      "reason": "It reveals that Jonathan, Mike, Will and Argyle succeed in tracking down Eleven's secret location, resolving the open question of whether they can find her after fleeing the attack."
+    },
+    {
+      "episode": 9,
+      "text": "Steve, Nancy, and Robin cross into the Upside Down version of the Creel house while the others take the real one.",
+      "reason": "It reveals that Nancy survives and is freed from Vecna's possession \\u2014 the cliffhanger left pending at the end of the previous episode \\u2014 and that she and the others return to the Upside Down."
+    }
+  ],
+  "recheck_spend": {
+    "in": 1476,
+    "out": 4883,
+    "cache_read": 168094,
+    "cache_write": 0,
+    "calls": 34
   }
 }

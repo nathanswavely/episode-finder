@@ -129,7 +129,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "8": {
       "title": "He Is Risen",
@@ -139,11 +140,13 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "9": {
       "title": "The Telltale Moozadell",
-      "probes": []
+      "probes": [],
+      "fine_only": []
     },
     "10": {
       "title": "...To Save Us All from Satan's Power",
@@ -163,7 +166,8 @@
           "specificity": 5,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "11": {
       "title": "Pine Barrens",
@@ -183,7 +187,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "12": {
       "title": "Amour Fou",
@@ -193,7 +198,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "13": {
       "title": "Army of One",
@@ -208,7 +214,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     }
   }
 }

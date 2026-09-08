@@ -1,0 +1,416 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 5,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Stranger Things season 5",
+    "revid": 1373675387,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_5&oldid=1373675387",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Crawl",
+      "candidates": [
+        {
+          "text": "Steve, Robin, Jonathan, and Nancy work shifts at a small local radio station, slipping coded messages into their broadcasts.",
+          "specificity": 4,
+          "characters_named": [
+            "Steve",
+            "Robin",
+            "Jonathan",
+            "Nancy"
+          ],
+          "grounded_in": "Steve, Robin, Jonathan, and Nancy work at WSQK, a local radio station, where they relay coded messages to the group",
+          "grounded_ok": true
+        },
+        {
+          "text": "The group has a nickname for their sneaking trips into the Upside Down: they call them \"crawls.\"",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "opportunities to sneak Hopper into the Upside Down, which they call \"crawls\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hawkins sits under military quarantine, with soldiers having set up a base camp inside the Upside Down itself.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "a contingent of the US military... have placed Hawkins under quarantine and created a base camp within the Upside Down",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven trains in hiding, kept out of sight with Hopper and Joyce while the search for her continues.",
+          "specificity": 3,
+          "characters_named": [
+            "Eleven",
+            "Hopper",
+            "Joyce"
+          ],
+          "grounded_in": "still on the hunt for Eleven, who trains in hiding with Hopper and Joyce",
+          "grounded_ok": true
+        },
+        {
+          "text": "An opening flashback goes back to 1983, with Will hiding alone in the Upside Down.",
+          "specificity": 3,
+          "characters_named": [
+            "Will"
+          ],
+          "grounded_in": "While hiding in the Upside Down in 1983",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Dustin's beating at Eddie's grave, the Demogorgon caravan attack and the gate in Holly's bedroom are all excluded as injuries/turning points; Dustin provoking the basketball team is the direct setup for the beating, so it was left out too.",
+      "usage": {
+        "in": 46,
+        "out": 1403,
+        "cache_read": 0,
+        "cache_write": 9754
+      }
+    },
+    "2": {
+      "title": "Chapter Two: The Vanishing of Holly Wheeler",
+      "candidates": [
+        {
+          "text": "Tension boils over as Jonathan accuses Steve of quietly competing with him for Nancy's attention.",
+          "specificity": 4,
+          "characters_named": [
+            "Jonathan",
+            "Steve",
+            "Nancy"
+          ],
+          "grounded_in": "Jonathan accuses Steve of competing for Nancy's attention",
+          "grounded_ok": true
+        },
+        {
+          "text": "Lucas keeps up his bedside vigil beside the comatose Max, still hoping that she will wake up.",
+          "specificity": 3,
+          "characters_named": [
+            "Lucas",
+            "Max"
+          ],
+          "grounded_in": "Lucas continues tending to a comatose Max in hopes she will wake up",
+          "grounded_ok": true
+        },
+        {
+          "text": "Robin floats the idea of putting Will's telepathic link to the hive mind to practical use.",
+          "specificity": 3,
+          "characters_named": [
+            "Robin",
+            "Will"
+          ],
+          "grounded_in": "Robin proposes using Will's telepathic link to Vecna's hive mind",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven and Hopper pick their way through the Upside Down side by side, searching as they go.",
+          "specificity": 2,
+          "characters_named": [
+            "Eleven",
+            "Hopper"
+          ],
+          "grounded_in": "The two then search for Holly",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 57,
+        "out": 1908,
+        "cache_read": 9754,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Chapter Three: The Turnbow Trap",
+      "candidates": [
+        {
+          "text": "Erica is enlisted to drug a bullying classmate and his entire family at their home.",
+          "specificity": 4,
+          "characters_named": [
+            "Erica"
+          ],
+          "grounded_in": "enlists Erica to drug Derek and his family",
+          "grounded_ok": true
+        },
+        {
+          "text": "The group hauls an unconscious family out to an abandoned barn and lays them out there.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "transporting the unconscious family to an abandoned barn",
+          "grounded_ok": true
+        },
+        {
+          "text": "The teenagers unpack a stash of weapons that Murray smuggled past the quarantine into Hawkins.",
+          "specificity": 4,
+          "characters_named": [
+            "Murray"
+          ],
+          "grounded_in": "The group arms themselves using weapons smuggled in by Murray",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper and Eleven work at the enormous wall ringing Hawkins, trying to find a way through it.",
+          "specificity": 4,
+          "characters_named": [
+            "Hopper",
+            "Eleven"
+          ],
+          "grounded_in": "Hopper and Eleven fail to break through the massive wall",
+          "grounded_ok": true
+        },
+        {
+          "text": "A suburban house is rigged and rearranged into a trap, with the kids waiting inside for the Demogorgon.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "converting Derek's house into a trap for the Demogorgon",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Holly's arrival in Henry's childhood home and who she meets there is the episode's reveal, so it is excluded.",
+      "usage": {
+        "in": 51,
+        "out": 1086,
+        "cache_read": 9754,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Chapter Four: Sorcerer",
+      "candidates": [
+        {
+          "text": "Soldiers move through Hawkins rounding up children who might be next, holding them at the base camp.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "the military detains children in Hawkins who could be potential victims",
+          "grounded_ok": true
+        },
+        {
+          "text": "Holly has invented a name for the strange memory-world she and Max are stuck inside: \"Camazotz.\"",
+          "specificity": 5,
+          "characters_named": [
+            "Holly",
+            "Max"
+          ],
+          "grounded_in": "a psychic realm made of Henry's memories, nicknamed \"Camazotz\" by Holly",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper and Eleven slip inside the military's base camp within the Upside Down, looking for who is being held there.",
+          "specificity": 4,
+          "characters_named": [
+            "Hopper",
+            "Eleven"
+          ],
+          "grounded_in": "Hopper and Eleven infiltrate the military base",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dustin, Steve, Nancy, and Jonathan chase a Demogorgon away from the others and through a gate into the Upside Down.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin",
+            "Steve",
+            "Nancy",
+            "Jonathan"
+          ],
+          "grounded_in": "Dustin, Steve, Nancy, and Jonathan chase it into the Upside Down",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1716,
+        "cache_read": 9754,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Chapter Five: Shock Jock",
+      "candidates": [
+        {
+          "text": "The group runs voltage from the radio tower through a dead Demogorgon's body, trying to jolt it back to life.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "Will's group reanimates a dead Demogorgon using the radio tower's voltage so Will can reconnect to the hive mind",
+          "grounded_ok": true
+        },
+        {
+          "text": "Max and Holly move through Henry's memories of Holly herself, hunting for a way out while Derek keeps him talking.",
+          "specificity": 5,
+          "characters_named": [
+            "Max",
+            "Holly",
+            "Henry",
+            "Derek"
+          ],
+          "grounded_in": "Max and Holly traverse Henry's memories of Holly to search for an escape as Derek distracts him",
+          "grounded_ok": true
+        },
+        {
+          "text": "The kidnapped children wake up together, and most of them accept Henry's story that he rescued them.",
+          "specificity": 4,
+          "characters_named": [
+            "Henry"
+          ],
+          "grounded_in": "the kidnapped children awaken, and while most believe Henry's claim that he saved them, Holly and Derek do not",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy and Jonathan climb up onto the roof of Hawkins Lab and find something strange sitting there.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy",
+            "Jonathan"
+          ],
+          "grounded_in": "Nancy and Jonathan find a mysterious sphere on the roof of the lab",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 48,
+        "out": 1601,
+        "cache_read": 9754,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Chapter Six: Escape from Camazotz",
+      "candidates": [
+        {
+          "text": "Erica and Murray turn up at their old science teacher's door, hoping he can help pinpoint where Dustin's group is.",
+          "specificity": 5,
+          "characters_named": [
+            "Erica",
+            "Murray",
+            "Dustin"
+          ],
+          "grounded_in": "Erica and Murray recruit Mr. Clarke to help locate Dustin's group.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Dustin tries to walk a baffled Steve through his theory about what the Upside Down actually is.",
+          "specificity": 4,
+          "characters_named": [
+            "Dustin",
+            "Steve"
+          ],
+          "grounded_in": "Dustin explains to Steve that the Upside Down is not an alternate dimension",
+          "grounded_ok": true
+        },
+        {
+          "text": "At the hospital, Lucas and Robin keep watch over Max's bed, with Robin's girlfriend there too.",
+          "specificity": 4,
+          "characters_named": [
+            "Lucas",
+            "Robin",
+            "Max"
+          ],
+          "grounded_in": "Lucas, Robin, and her girlfriend Vickie protect Max from the Demodogs",
+          "grounded_ok": true
+        },
+        {
+          "text": "Max and Holly wander into one of Henry's old memories, a dark cave, while searching for a way out.",
+          "specificity": 4,
+          "characters_named": [
+            "Max",
+            "Holly",
+            "Henry"
+          ],
+          "grounded_in": "Max and Holly find a memory of a young Henry killing a man in self-defense in a cave.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats (the sphere detonation aftermath, the breakup, Karen's rescue, the escapes) are explicit turning points or outcomes, so the usable texture is limited.",
+      "usage": {
+        "in": 51,
+        "out": 1777,
+        "cache_read": 9754,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Chapter Seven: The Bridge",
+      "candidates": [
+        {
+          "text": "Erica, Murray, and Mr. Clarke hunch over overlaid maps, pinpointing where Dustin's group sits on the other side.",
+          "specificity": 4,
+          "characters_named": [
+            "Erica",
+            "Murray",
+            "Mr. Clarke",
+            "Dustin"
+          ],
+          "grounded_in": "Erica, Murray, and Mr. Clarke map Dustin's location in the Upside Down to the lab",
+          "grounded_ok": true
+        },
+        {
+          "text": "The group studies the radio station's tower, planning a climb, and readies a timer-rigged bomb to carry with them.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "climb the WSQK radio tower into the Abyss, rescue the children, and then destroy the Upside Down by detonating a time bomb near the exotic matter",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven strains and forces open a rift in the air so the separated groups can regroup at last.",
+          "specificity": 3,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Eleven opens a rift so the group can reunite",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats are outcomes, reveals, or a confession, so safe material was thin.",
+      "usage": {
+        "in": 48,
+        "out": 1444,
+        "cache_read": 9754,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Chapter Eight: The Rightside Up",
+      "candidates": [
+        {
+          "text": "Eleven, Max and Kali go in together, travelling into Henry's mind side by side.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven",
+            "Max",
+            "Kali",
+            "Henry"
+          ],
+          "grounded_in": "Eleven, Kali, and Max enter Henry's mind",
+          "grounded_ok": true
+        },
+        {
+          "text": "Will finds himself watching scenes from Henry's childhood past unfold around him.",
+          "specificity": 4,
+          "characters_named": [
+            "Will",
+            "Henry"
+          ],
+          "grounded_in": "Will witnesses Henry's past",
+          "grounded_ok": true
+        },
+        {
+          "text": "The rest of the group makes its way up and across toward the Abyss.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "As the others make their way to the Abyss",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Finale: nearly every moment in the summary is a death, rescue, reveal, arrest, engagement or epilogue, so safe texture is very limited.",
+      "usage": {
+        "in": 50,
+        "out": 1477,
+        "cache_read": 9754,
+        "cache_write": 0
+      }
+    }
+  }
+}

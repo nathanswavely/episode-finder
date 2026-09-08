@@ -103,7 +103,9 @@
           "text": "In the prison camp, the inmates are unexpectedly served an enormous feast, more food than they have seen in months.",
           "specificity": 4,
           "reverse_confidence": 5
-        },
+        }
+      ],
+      "fine_only": [
         {
           "text": "Jason stands up at a packed town hall meeting and rallies Hawkins residents against an alleged Satanic cult.",
           "specificity": 5,
@@ -124,22 +126,26 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "8": {
       "title": "Chapter Eight: Papa",
-      "probes": []
+      "probes": [],
+      "fine_only": []
     },
     "9": {
       "title": "Chapter Nine: The Piggyback",
       "probes": [
         {
-          "text": "Steve, Nancy, and Robin cross into the Upside Down version of the Creel house while the others take the real one.",
+          "text": "Max, Lucas, and Erica make their way to the Creel house together as the groups split up.",
           "specificity": 4,
           "reverse_confidence": 5
-        },
+        }
+      ],
+      "fine_only": [
         {
-          "text": "Max, Lucas, and Erica make their way to the Creel house together as the groups split up.",
+          "text": "Steve, Nancy, and Robin cross into the Upside Down version of the Creel house while the others take the real one.",
           "specificity": 4,
           "reverse_confidence": 5
         }

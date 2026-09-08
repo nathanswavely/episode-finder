@@ -37,6 +37,7 @@ possible stopping point against the shipped probes).
 python3 -m http.server 8765 --directory site
 ```
 
-The GitHub Pages workflow publishes `site/` on push to `main`. Set `REPO` in
-`site/app.js` so the "request a show" and "was this right?" links point at
-this repository's issues.
+Live at https://episode-finder.nathan-985.workers.dev, deployed by Cloudflare
+Workers Builds on every push to `main` (`wrangler.jsonc`: assets-only Worker
+serving `site/`). The GitHub Pages workflow still runs in parallel until a
+custom domain replaces the old URL.

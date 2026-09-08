@@ -1,0 +1,434 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 4,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Sopranos season 4",
+    "revid": 1355206797,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_4&oldid=1355206797",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "For All Debts Public and Private",
+      "candidates": [
+        {
+          "text": "In session, Tony says the only ways out of his line of work are dead or in the can.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony admits to Melfi that he feels the only ways out of his business are \"dead or the can\"the can\"\"dead or the can\"\"dead or the can\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Paulie works a prison payphone, grumbling to Johnny that Tony has shown him barely any concern.",
+          "specificity": 4,
+          "characters_named": [
+            "Paulie",
+            "Johnny",
+            "Tony"
+          ],
+          "grounded_in": "Paulie calls Johnny from prison, having been arrested on a gun charge, and complains about Tony's lack of concern.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris sits with his mother in her kitchen, the talk turning to his long-dead father.",
+          "specificity": 3,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "later pinning it to his mother's fridge after a conversation about his father",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ralphie and Rosalie are among the guests at a dinner in the Soprano house.",
+          "specificity": 2,
+          "characters_named": [
+            "Ralphie",
+            "Rosalie"
+          ],
+          "grounded_in": "Ralphie cheats on Rosalie with Janice while having dinner at Tony's house.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's content is a murder, an affair and a succession plan, all barred; the remaining candidates are thin.",
+      "usage": {
+        "in": 45,
+        "out": 1869,
+        "cache_read": 0,
+        "cache_write": 10956
+      }
+    },
+    "2": {
+      "title": "No Show",
+      "candidates": [
+        {
+          "text": "Meadow drifts around the house with no motivation, and Melfi recommends a therapist for her to Tony.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow",
+            "Melfi",
+            "Tony"
+          ],
+          "grounded_in": "Meadow has shown a lack of motivation since Jackie Aprile Jr.'s murder, so Melfi recommends a therapist for her to Tony",
+          "grounded_ok": true
+        },
+        {
+          "text": "Meadow's new therapist encourages her talk of taking a year off college and travelling in Europe.",
+          "specificity": 4,
+          "characters_named": [
+            "Meadow"
+          ],
+          "grounded_in": "The therapist encourages Meadow's plans to take a year off of college and go to Europe",
+          "grounded_ok": true
+        },
+        {
+          "text": "Paulie, still inside, receives a visit from his nephew, who repeats gossip he heard on the outside.",
+          "specificity": 3,
+          "characters_named": [
+            "Paulie"
+          ],
+          "grounded_in": "which Paulie's nephew repeats while visiting Paulie in prison",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 38,
+        "out": 1073,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Christopher",
+      "candidates": [
+        {
+          "text": "At a pro-Italian luncheon, the guest speaker's jabs at mobbed-up Italians leave the wives at the table insulted.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "At a pro-Italian luncheon, the guest speaker makes a point of deriding Italians involved in mafia activity, leaving the mob wives insulted.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A Native American group picketing the local Columbus Day parade has Tony's crew taking the whole thing personally.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "A Native American group protests against the local Columbus Day parade to the ire of Tony's men.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Silvio keeps grousing about disrespect toward Italians until Tony snaps at the whole idea of victimized groups.",
+          "specificity": 4,
+          "characters_named": [
+            "Silvio",
+            "Tony"
+          ],
+          "grounded_in": "As Silvio continues to complain, Tony annoyedly disparages the notion that everyone belongs to a victimized group.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ralphie tries leaning on the man organizing the protest, hoping threats will get the demonstration called off.",
+          "specificity": 4,
+          "characters_named": [
+            "Ralphie"
+          ],
+          "grounded_in": "The leader of the group is not moved by Ralphie's threats",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony sits down with a supposed chief who turns out to be a white man with barely any Native blood.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony is unable to convince a chief (actually a white man with a small amount of Native American blood) to stop the protest",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Karen's death, Ralphie leaving Rosalie, Janice's breakup, and Paulie repeating the joke are all consequential and excluded.",
+      "usage": {
+        "in": 39,
+        "out": 1281,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "The Weight",
+      "candidates": [
+        {
+          "text": "Furio throws a housewarming party at his newly bought house, with guests dancing to Italian music.",
+          "specificity": 4,
+          "characters_named": [
+            "Furio"
+          ],
+          "grounded_in": "helping him buy a house and dancing with him at his housewarming party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela goes along to look at houses with Furio, offering opinions on what he should buy.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "Furio"
+          ],
+          "grounded_in": "helping him buy a house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Elliot Kupferberg crosses paths with Tony outside the office, with no idea who the man is.",
+          "specificity": 4,
+          "characters_named": [
+            "Elliot Kupferberg",
+            "Tony"
+          ],
+          "grounded_in": "He later bumps into Tony without knowing who he is.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melfi tells Kupferberg that her son has started acting out while away at college.",
+          "specificity": 3,
+          "characters_named": [
+            "Melfi",
+            "Kupferberg"
+          ],
+          "grounded_in": "Melfi's son begins acting out while at college",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony and Carmela have another round of arguing about money in the house.",
+          "specificity": 2,
+          "characters_named": [
+            "Tony",
+            "Carmela"
+          ],
+          "grounded_in": "As Carmela and Tony argue about money",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1289,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Pie-O-My",
+      "candidates": [
+        {
+          "text": "Janice keeps turning up at Bobby's house, pressing him to finally eat the ziti his wife left behind.",
+          "specificity": 4,
+          "characters_named": [
+            "Janice",
+            "Bobby"
+          ],
+          "grounded_in": "trying to get him to eat Karen's last baked ziti that he has been saving to honor her memory",
+          "grounded_ok": true
+        },
+        {
+          "text": "Late at night Tony sits alone in the stall with the ailing racehorse, murmuring to keep her calm.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony goes to the stables, pays the vet, and sits with Pie-O-My to try and calm her",
+          "grounded_ok": true
+        },
+        {
+          "text": "Ralphie's racehorse keeps crossing the line first, and Tony keeps asking for a bigger share of the winnings.",
+          "specificity": 4,
+          "characters_named": [
+            "Ralphie",
+            "Tony"
+          ],
+          "grounded_in": "Ralphie's racehorse Pie-O-My wins all of her races. Tony begins demanding more and more of the winnings",
+          "grounded_ok": true
+        },
+        {
+          "text": "Janice inserts herself into Bobby's household, warning that Junior will drop him if he stays lost in grief.",
+          "specificity": 4,
+          "characters_named": [
+            "Janice",
+            "Bobby",
+            "Junior"
+          ],
+          "grounded_in": "Janice begins inserting herself into Bobby's home life, trying to pull him out of his grief lest Junior abandon him",
+          "grounded_ok": true
+        },
+        {
+          "text": "With the horse sick and Ralphie short of cash, the vet ends up handed Tony's phone number instead.",
+          "specificity": 4,
+          "characters_named": [
+            "Ralphie",
+            "Tony"
+          ],
+          "grounded_in": "when the horse falls ill and Ralphie cannot pay, he gives the vet Tony's number",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1211,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Everybody Hurts",
+      "candidates": [
+        {
+          "text": "A.J. visits his new girlfriend's house for the first time and takes in how wealthy her family is.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "A.J. visits the home of his new girlfriend and realizes how wealthy she is",
+          "grounded_ok": true
+        },
+        {
+          "text": "A.J.'s friends ask why his family doesn't have \"Don Corleone money,\" and he can only shrug it off.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J."
+          ],
+          "grounded_in": "When his friends ask him why he does not have \"Don Corleone money,\" he responds with \"I don't know.\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony spends the week doing uncharacteristically generous favors and kindnesses for various people in his life.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony does several kind things for people in his life",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's material (the suicide, Artie's loan and its aftermath) is either a death reveal or explicit setup for one, so safe options are limited to the A.J. subplot.",
+      "usage": {
+        "in": 43,
+        "out": 1393,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Watching Too Much Television",
+      "candidates": [
+        {
+          "text": "Paulie walks out of prison sore that Tony never once reached out to him while he was inside.",
+          "specificity": 4,
+          "characters_named": [
+            "Paulie",
+            "Tony"
+          ],
+          "grounded_in": "Paulie is released from prison, resentful that Tony never contacted him.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A group of armed teenagers is sent to frighten the occupants out of a run-down house.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "sending a group of armed teenagers to scare the occupants away",
+          "grounded_ok": true
+        },
+        {
+          "text": "A relative of Carmela's pitches Tony on a real estate scheme he could get a piece of.",
+          "specificity": 3,
+          "characters_named": [
+            "Carmela",
+            "Tony"
+          ],
+          "grounded_in": "Carmela's cousin tips Tony off to a mortgage fraud scheme he can get in on",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's beats (the proposal, the spousal-privilege misunderstanding, the beating of the assemblyman) are reveals or outcomes and had to be left out.",
+      "usage": {
+        "in": 44,
+        "out": 1708,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Mergers and Acquisitions",
+      "candidates": [
+        {
+          "text": "Paulie's mother moves into a retirement community, where a clique of the other residents gives her the cold shoulder.",
+          "specificity": 4,
+          "characters_named": [
+            "Paulie"
+          ],
+          "grounded_in": "Paulie's mother Nucci moves into a retirement community, where she is ostracized by a group that one of her friends is in.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A portrait of Tony posing with the racehorse Pie-O-My is commissioned from a painter.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Pie-O-My"
+          ],
+          "grounded_in": "helps commission a portrait of Tony and Pie-O-My",
+          "grounded_ok": true
+        },
+        {
+          "text": "Furio flies back to Naples for his father's funeral and spends time with his uncle there.",
+          "specificity": 4,
+          "characters_named": [
+            "Furio"
+          ],
+          "grounded_in": "Furio goes to Naples for his father's funeral, where he confesses to his uncle",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 46,
+        "out": 1056,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Whoever Did This",
+      "candidates": [
+        {
+          "text": "Junior starts playing up a memory problem, shuffling and acting vague and forgetful ahead of his court dates.",
+          "specificity": 4,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "Tony gets the idea to begin feigning memory loss and force a mistrial",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony floats an idea about pretending to be forgetful, and Junior passes it along to his trial investigator.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Junior"
+          ],
+          "grounded_in": "which Junior passes off to an investigator",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every concrete moment in this episode's summary is either a death, an injury, or direct setup for one, so only the courtroom-strategy material was usable.",
+      "usage": {
+        "in": 42,
+        "out": 1049,
+        "cache_read": 10956,
+        "cache_write": 0
+      }
+    }
+  }
+}

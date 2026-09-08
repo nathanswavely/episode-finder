@@ -1,0 +1,98 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 4,
+  "source": {
+    "title": "Game of Thrones season 4",
+    "revid": 1369352962,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_4&oldid=1369352962",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Two Swords",
+      "probes": [
+        {
+          "text": "Tywin watches a smith melt down a great Valyrian steel blade and reforge the metal into two new swords.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tyrion rides out to greet a visiting Dornish prince and his paramour, arriving in King's Landing for the royal wedding.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Daenerys watches her dragons squabble over food on a clifftop, now grown to the size of horses.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "2": {
+      "title": "The Lion and the Rose",
+      "probes": [
+        {
+          "text": "In a quiet courtyard, Bronn secretly drills Jaime, forcing him to learn to hold a sword left-handed.",
+          "specificity": 5,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Roose Bolton rides home to the Dreadfort with his new bride, one of Walder Frey's daughters.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The court gathers in King's Landing as Joffrey and Margaery Tyrell are married with great ceremony.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Breaker of Chains",
+      "probes": [
+        {
+          "text": "Arya and the Hound are taken in for the night by a peasant farmer and his daughter.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Sam walks Gilly and her baby down to Mole's Town, convinced she will be safer away from Castle Black.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Daenerys stands before the closed gates of Meereen and addresses the slaves inside the walls.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Oathkeeper",
+      "probes": [
+        {
+          "text": "Olenna and Margaery talk in the gardens as the old woman makes ready to leave the capital.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Cersei, wine in hand, insists to Jaime that Tyrion is guilty while he argues otherwise.",
+          "specificity": 2,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "5": {
+      "title": "First of His Name",
+      "probes": [
+        {
+          "text": "The Hound watches Arya practising her water dancing and sneers at everything her old sword teacher taught her.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    }
+  }
+}
