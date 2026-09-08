@@ -328,6 +328,186 @@
         "cache_read": 11769,
         "cache_write": 0
       }
+    },
+    "7": {
+      "title": "The Gift",
+      "candidates": [
+        {
+          "text": "Daenerys and her consort walk the empty sands of the great fighting pit, inspecting it ahead of the games.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "Daenerys and her consort, Hizdahr, inspect the pit in preparation for the upcoming games",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion and Jorah stand chained at a slave market, bought by a wealthy buyer and hauled off toward the pits.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Jorah"
+          ],
+          "grounded_in": "Jorah and Tyrion are sold to slaver, Yezzan, and are taken to Daznak's fighting pit",
+          "grounded_ok": true
+        },
+        {
+          "text": "Olenna sits opposite the barefoot High Sparrow, demanding that her imprisoned grandchildren be released from the Faith's custody.",
+          "specificity": 4,
+          "characters_named": [
+            "Olenna",
+            "High Sparrow"
+          ],
+          "grounded_in": "The High Sparrow denies Olenna's demand that Loras and Margaery be released",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 39,
+        "out": 1632,
+        "cache_read": 11769,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Hardhome",
+      "candidates": [
+        {
+          "text": "Disguised as a peddler wheeling a cart of shellfish through Braavos, Arya watches a man who sells insurance to shipowners.",
+          "specificity": 5,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "Disguised as a shellfish peddler, she is to first learn about the insurer",
+          "grounded_ok": true
+        },
+        {
+          "text": "Cersei, held in a bare cell, still refuses to confess anything to those pressing her.",
+          "specificity": 3,
+          "characters_named": [
+            "Cersei"
+          ],
+          "grounded_in": "Cersei refuses to confess her crimes.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jon and Tormund stand before a crowd of Wildlings in a bleak seaside settlement, arguing for passage south.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon",
+            "Tormund"
+          ],
+          "grounded_in": "Arriving in Hardhome, Jon and Tormund recruit five thousand Wildlings",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion, brought before Daenerys in the Meereenese throne room, argues over wine about who deserves her mercy.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Daenerys"
+          ],
+          "grounded_in": "In Meereen, Tyrion convinces Daenerys to spare Jorah's life",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1596,
+        "cache_read": 11769,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "The Dance of Dragons",
+      "candidates": [
+        {
+          "text": "Mace Tyrell has come to Braavos to negotiate with the Iron Bank on the crown's behalf.",
+          "specificity": 5,
+          "characters_named": [
+            "Mace Tyrell"
+          ],
+          "grounded_in": "Mace Tyrell, the Master of Coin, who has arrived in Braavos to negotiate with the Iron Bank",
+          "grounded_ok": true
+        },
+        {
+          "text": "Daenerys takes her seat above Daznak's pit as the fighting resumes before a packed crowd.",
+          "specificity": 4,
+          "characters_named": [
+            "Daenerys"
+          ],
+          "grounded_in": "In Meereen, combat at Daznak's fighting pit resume.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Wildlings stream south through the gate at Castle Black after Jon and the survivors return.",
+          "specificity": 4,
+          "characters_named": [
+            "Jon"
+          ],
+          "grounded_in": "Jon and the other survivors return to the Wall, allowing the Wildlings to pass South.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Stannis dispatches Davos back to Castle Black to request more supplies for the snowbound camp.",
+          "specificity": 3,
+          "characters_named": [
+            "Stannis",
+            "Davos"
+          ],
+          "grounded_in": "After dispatching Davos to Castle Black to request more supplies",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 44,
+        "out": 2239,
+        "cache_read": 11769,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Mother's Mercy",
+      "candidates": [
+        {
+          "text": "Samwell asks to be sent south to Oldtown to train as a maester, taking Gilly and the baby with him.",
+          "specificity": 4,
+          "characters_named": [
+            "Samwell",
+            "Gilly"
+          ],
+          "grounded_in": "Samwell, Gilly, and Little Sam leave Castle Black for Oldtown where Samwell will train as a Maester",
+          "grounded_ok": true
+        },
+        {
+          "text": "Melisandre rides up to the gates of Castle Black alone and is let inside without a word.",
+          "specificity": 3,
+          "characters_named": [
+            "Melisandre"
+          ],
+          "grounded_in": "Melisandre flees to Castle Black",
+          "grounded_ok": true
+        },
+        {
+          "text": "In Braavos, Arya moves through the crowded streets in disguise, watching a knight of the Kingsguard from a distance.",
+          "specificity": 3,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "killing Ser Meryn Trant for personal revenge",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every beat in this finale is a death, a punishment, or a reveal, so the pool of usable texture is very small; the third probe is included only cautiously.",
+      "usage": {
+        "in": 43,
+        "out": 1786,
+        "cache_read": 11769,
+        "cache_write": 0
+      }
     }
   }
 }

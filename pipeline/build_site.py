@@ -22,8 +22,8 @@ def main():
     watch = json.loads((ROOT / "data/watch.json").read_text()) if (ROOT / "data/watch.json").exists() else {}
     shows = {}
     for probes_path in sorted((ROOT / "data/probes").glob("*/s*.probes.json")):
-        if ".meta." in probes_path.name:
-            continue   # provider-comparison output, never shipped
+        if not re.fullmatch(r"s\d{2}\.probes\.json", probes_path.name):
+            continue   # tagged files (.meta., .v2., ...) are experiments, never shipped
         p = json.loads(probes_path.read_text())
         raw = json.loads((ROOT / f"data/raw/{p['slug']}/s{p['season']:02d}.json").read_text())
         titles = {e["episode"]: e["title"] for e in raw["episodes"]}

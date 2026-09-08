@@ -1,0 +1,512 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 5,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Two Tonys",
+      "candidates": [
+        {
+          "text": "A black bear wanders into the Sopranos' backyard, and Tony ends up out there himself, standing guard.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The bear in the backyard is a situational/setting detail and Tony's presence there is character texture rather than a plot outcome or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The bear in the yard and Tony standing guard is atmospheric character texture; it doesn't resolve the separation or any pending conflict."
+                }
+              ],
+              "reason": "The bear in the backyard is a situational/setting detail and Tony's presence there is character texture rather than a plot outcome or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony is living on his own in his late mother's house, ten months after moving out.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of the pending marital rupture \\u2014 that the separation held and Tony has been living apart from Carmela for ten months \\u2014 along with a significant time jump."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question left by the marital blow-up by confirming the separation has held for ten months, with Tony still out of the house and living at Livia's."
+                }
+              ],
+              "reason": "It reveals the outcome of the pending marital rupture \\u2014 that the separation held and Tony has been living apart from Carmela for ten months \\u2014 along with a significant time jump."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of the pending marital rupture \\u2014 that the separation held and Tony has been living apart from Carmela for ten months \\u2014 along with a significant time jump."
+        },
+        {
+          "text": "Four men who have spent two decades behind bars walk out on parole.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A prison release is a neutral setup detail introducing new characters, not an outcome or answer to any pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The release of parolees is a new premise/setting element, not the outcome of any conflict the viewer is currently tracking."
+                }
+              ],
+              "reason": "A prison release is a neutral setup detail introducing new characters, not an outcome or answer to any pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A therapy session ends with Tony storming out of Melfi's office mid-conversation.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Tony arguing with and walking out on Melfi is routine texture for their relationship and discloses no outcome, though it implies therapy sessions continue."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Tony angrily leaving a therapy session is established character texture consistent with his ongoing volatile relationship with Melfi, and reveals no specific outcome or plot turn."
+                }
+              ],
+              "reason": "Tony arguing with and walking out on Melfi is routine texture for their relationship and discloses no outcome, though it implies therapy sessions continue."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "2": {
+      "title": "Rat Pack",
+      "candidates": [
+        {
+          "text": "Tony's newly released cousin says he isn't interested in the family business — he wants to train as a massage therapist.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It introduces a new character and his stated career ambition, which is ordinary character texture rather than the outcome of any conflict or open question the viewer is tracking."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It introduces a new character's situation and stated intentions, which is character texture rather than the outcome of any conflict or open question the viewer is tracking."
+                }
+              ],
+              "reason": "It introduces a new character and his stated career ambition, which is ordinary character texture rather than the outcome of any conflict or open question the viewer is tracking."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony catches his recently released cousin giving massages to some of his own men, and is not pleased about it.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only introduces a new character in an ordinary, low-stakes situation and does not resolve any pending conflict or open question from what the viewer has seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It introduces a new character and a minor friction between them, but reveals no outcome, death, betrayal, or answer to any question the viewer has pending."
+                }
+              ],
+              "reason": "It only introduces a new character in an ordinary, low-stakes situation and does not resolve any pending conflict or open question from what the viewer has seen."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony's cousin, home after two decades away, greets him with a crack about his weight.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the introduction of Tony's cousin, newly released after two decades in prison, a plot development not yet known to the viewer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It merely introduces a new character's arrival with light banter, not resolving any pending conflict or open question from prior episodes."
+                }
+              ],
+              "reason": "It reveals the introduction of Tony's cousin, newly released after two decades in prison, a plot development not yet known to the viewer."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the introduction of Tony's cousin, newly released after two decades in prison, a plot development not yet known to the viewer."
+        },
+        {
+          "text": "Out with the other mob wives, Adriana notices one of them never comes around anymore and asks Rosalie why.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary social texture among the mob wives, with no outcome, reveal, or answer to a pending question disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary social texture among the mob wives, with no outcome, reveal, or resolution of a pending conflict disclosed."
+                }
+              ],
+              "reason": "This is ordinary social texture among the mob wives, with no outcome, reveal, or answer to a pending question disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A friend of Tony's presents him with a painting of the Rat Pack as a gift.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A gift of a Rat Pack painting is ordinary character texture and does not disclose any outcome, death, reveal or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A gift of a Rat Pack painting is incidental character texture and reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "A gift of a Rat Pack painting is ordinary character texture and does not disclose any outcome, death, reveal or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "3": {
+      "title": "Where's Johnny?",
+      "candidates": [
+        {
+          "text": "Junior keeps needling Tony with the line that he never had the makings of a varsity athlete.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is recurring character texture — Junior's familiar taunt — and discloses no outcome, death, or plot reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Junior's recurring taunt about Tony not having \"the makings of a varsity athlete\" is established character texture rather than an outcome or reveal."
+                }
+              ],
+              "reason": "This is recurring character texture — Junior's familiar taunt — and discloses no outcome, death, or plot reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A local gardener ends up mowing Tony's and Johnny's lawns for free as part of a settlement.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A minor comedic detail about a gardener's settlement is ordinary character texture and doesn't disclose any pending outcome, death, or reveal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A minor comedic subplot about a gardener working off a debt; it involves no death, reveal, or resolution of any conflict the viewer is currently aware of."
+                }
+              ],
+              "reason": "A minor comedic detail about a gardener's settlement is ordinary character texture and doesn't disclose any pending outcome, death, or reveal."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony brings Chris along to a sit-down with the New York people, and Chris speaks out of turn.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A sit-down meeting and Chris behaving impulsively is ordinary character texture consistent with what the viewer already knows, revealing no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A sit-down meeting with Chris overstepping is ordinary character texture and business-as-usual friction, not an outcome, death, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "A sit-down meeting and Chris behaving impulsively is ordinary character texture consistent with what the viewer already knows, revealing no outcome or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "All Happy Families...",
+      "candidates": [
+        {
+          "text": "Told his men only laugh out of obligation, Tony tries a joke on them to see whether it lands.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about Tony's insecurity over his men's deference, with no outcome, reveal, or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — Tony testing a joke on his crew — with no outcome, death, reveal or resolution of any pending conflict."
+                }
+              ],
+              "reason": "This is character texture about Tony's insecurity over his men's deference, with no outcome, reveal, or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Over lunch, A.J.'s guidance counselor recommends Carmela a novel, saying she reminds him of its heroine.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "Tony and Carmela bicker about how to handle A.J. as his school grades keep sliding.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        }
+      ]
+    },
+    "5": {
+      "title": "Irregular Around the Margins",
+      "candidates": [
+        {
+          "text": "Tony sits in a doctor's office having a small mole removed from his head.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A minor medical/personal detail with no bearing on pending conflicts or open questions, just character texture."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A mundane medical errand with no bearing on any pending conflict or open question; pure character texture."
+                }
+              ],
+              "reason": "A minor medical/personal detail with no bearing on pending conflicts or open questions, just character texture."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony and Adriana end up alone together at the Crazy Horse late at night, talking easily.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Two established characters simply talking alone at a familiar location is ordinary situational texture, revealing no outcome, discovery or betrayal."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only describes an ordinary late-night conversation in a familiar setting, without disclosing any outcome, reveal or turning point."
+                }
+              ],
+              "reason": "Two established characters simply talking alone at a familiar location is ordinary situational texture, revealing no outcome, discovery or betrayal."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "6": {
+      "title": "Sentimental Education",
+      "candidates": [
+        {
+          "text": "Blundetto and his Korean boss can barely stand each other, sniping back and forth while he works his shifts.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture about Blundetto's legitimate job, already established as his path, and reveals no outcome or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary workplace texture consistent with Blundetto's already-established legitimate job, revealing no outcome, reveal, or resolution."
+                }
+              ],
+              "reason": "This is ordinary character texture about Blundetto's legitimate job, already established as his path, and reveals no outcome or turning point."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A.J. is sent back to Carmela's house after he and his father do nothing but argue.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: A.J."
+        },
+        {
+          "text": "Between studying massage therapy and his day job, Blundetto is visibly worn down by the workload.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Blundetto's established legitimate-work path, revealing no outcome, reveal, or turning point."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture consistent with Blundetto's already-established legitimate job and massage therapy studies, revealing no outcome or turning point."
+                }
+              ],
+              "reason": "This is ordinary character texture consistent with Blundetto's established legitimate-work path, revealing no outcome, reveal, or turning point."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  }
+}

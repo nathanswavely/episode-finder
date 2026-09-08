@@ -1,0 +1,607 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 5,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "The Sopranos season 5",
+    "revid": 1370297647,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_5&oldid=1370297647",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Two Tonys",
+      "candidates": [
+        {
+          "text": "A black bear wanders into the Sopranos' backyard, and Tony ends up out there himself, standing guard.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "A black bear wanders into the Sopranos' backyard, and Tony goes there and takes over guard duty.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony is living on his own in his late mother's house, ten months after moving out.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony, now living in Livia's house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Four men who have spent two decades behind bars walk out on parole.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "four men imprisoned for two decades are released on parole",
+          "grounded_ok": true
+        },
+        {
+          "text": "A therapy session ends with Tony storming out of Melfi's office mid-conversation.",
+          "specificity": 2,
+          "characters_named": [
+            "Tony",
+            "Melfi"
+          ],
+          "grounded_in": "but storms out when she brings up his morals",
+          "grounded_ok": true
+        }
+      ],
+      "note": "The episode's memorable set pieces (the waiter's killing, Carmine's stroke, Tony's pass at Melfi) are all consequential, so the safe pool is small.",
+      "usage": {
+        "in": 41,
+        "out": 1424,
+        "cache_read": 0,
+        "cache_write": 11288
+      }
+    },
+    "2": {
+      "title": "Rat Pack",
+      "candidates": [
+        {
+          "text": "Tony's newly released cousin says he isn't interested in the family business — he wants to train as a massage therapist.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Blundetto is happy with getting a legitimate job and wants to become a massage therapist",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony catches his recently released cousin giving massages to some of his own men, and is not pleased about it.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "When Tony catches him giving his men massages",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony's cousin, home after two decades away, greets him with a crack about his weight.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony's released cousin Tony Blundetto makes a joke about Tony's weight upon his return",
+          "grounded_ok": true
+        },
+        {
+          "text": "Out with the other mob wives, Adriana notices one of them never comes around anymore and asks Rosalie why.",
+          "specificity": 3,
+          "characters_named": [
+            "Adriana",
+            "Rosalie"
+          ],
+          "grounded_in": "Spending time with the other mob wives, Adriana notices that Angie never comes around.",
+          "grounded_ok": true
+        },
+        {
+          "text": "A friend of Tony's presents him with a painting of the Rat Pack as a gift.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "gifts Tony a painting of the Rat Pack",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1793,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Where's Johnny?",
+      "candidates": [
+        {
+          "text": "Junior keeps needling Tony with the line that he never had the makings of a varsity athlete.",
+          "specificity": 5,
+          "characters_named": [
+            "Junior",
+            "Tony"
+          ],
+          "grounded_in": "he repeatedly insists that Tony \"never had the makings of a varsity athlete.\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "A local gardener ends up mowing Tony's and Johnny's lawns for free as part of a settlement.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Johnny"
+          ],
+          "grounded_in": "give the gardener a meager payout, provided he mows his and Johnny's lawns for free",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony brings Chris along to a sit-down with the New York people, and Chris speaks out of turn.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Chris"
+          ],
+          "grounded_in": "Tony brings Chris along to a meeting, who tanks it when he speaks out of turn",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Junior's Newark wandering and the neurologist's findings are framed as the episode's discovery, so they're excluded; the newly released capo and the loan shark are introduced here and can't be named.",
+      "usage": {
+        "in": 43,
+        "out": 1544,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "All Happy Families...",
+      "candidates": [
+        {
+          "text": "Told his men only laugh out of obligation, Tony tries a joke on them to see whether it lands.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "his men laugh at his jokes out of obligation, which he tests by telling a joke",
+          "grounded_ok": true
+        },
+        {
+          "text": "Over lunch, A.J.'s guidance counselor recommends Carmela a novel, saying she reminds him of its heroine.",
+          "specificity": 4,
+          "characters_named": [
+            "A.J.",
+            "Carmela"
+          ],
+          "grounded_in": "She goes to lunch with A.J.'s guidance counselor, Robert Wegler, who recommends the novel Madame Bovary on the grounds that she resembles the main character.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony and Carmela bicker about how to handle A.J. as his school grades keep sliding.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "Carmela",
+            "A.J."
+          ],
+          "grounded_in": "As A.J.'s grades begin to slip, Tony and Carmela argue about how to deal with him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most concrete moments here (the wedding car thefts, the concert trip, the empty house) are framed as setup or payoff for the episode's turning points, so they were excluded.",
+      "usage": {
+        "in": 42,
+        "out": 1515,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Irregular Around the Margins",
+      "candidates": [
+        {
+          "text": "Tony sits in a doctor's office having a small mole removed from his head.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony has a mole removed",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony and Adriana end up alone together at the Crazy Horse late at night, talking easily.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "Adriana"
+          ],
+          "grounded_in": "He has a sexually tense moment with Adriana at the Crazy Horse, but he does not act",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable images (the car crash, the rumor, the confrontation at the Bing) are either causes or consequences of the central conflict, so safe material is thin.",
+      "usage": {
+        "in": 45,
+        "out": 1333,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Sentimental Education",
+      "candidates": [
+        {
+          "text": "Blundetto and his Korean boss can barely stand each other, sniping back and forth while he works his shifts.",
+          "specificity": 4,
+          "characters_named": [
+            "Blundetto"
+          ],
+          "grounded_in": "Blundetto and his Korean employer start off hostile, but they grow to respect each other",
+          "grounded_ok": true
+        },
+        {
+          "text": "A.J. is sent back to Carmela's house after he and his father do nothing but argue.",
+          "specificity": 3,
+          "characters_named": [
+            "A.J.",
+            "Carmela"
+          ],
+          "grounded_in": "A.J. is sent back to Carmela after he and Tony frequently argue.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Between studying massage therapy and his day job, Blundetto is visibly worn down by the workload.",
+          "specificity": 3,
+          "characters_named": [
+            "Blundetto"
+          ],
+          "grounded_in": "the stress of his jobs gets to him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's content is the Carmela–Wegler affair and its collapse, plus Blundetto's turn back toward crime — all excluded under rule 1, so the usable texture is thin.",
+      "usage": {
+        "in": 42,
+        "out": 1959,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "In Camelot",
+      "candidates": [
+        {
+          "text": "Junior, still confined to the house, starts turning up at funerals for people he barely knew just to get out.",
+          "specificity": 5,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "Junior, still on house arrest, begins going to the funerals of anyone he vaguely knows to get out of the house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Chris brings a screenwriter he got to know in rehab along to one of the card games.",
+          "specificity": 4,
+          "characters_named": [
+            "Chris"
+          ],
+          "grounded_in": "Chris invites J.T. Dolan, a screenwriter he met in rehab, to a gambling game",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony leans on Hesh over money owed to an older woman who knew his father years ago.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "Hesh"
+          ],
+          "grounded_in": "collects money that Hesh Rabkin and Phil owe her",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior tells his physician that having nothing to do with his days has left him depressed.",
+          "specificity": 3,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "admits to his physician that the lack of purpose in his life depresses him",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 40,
+        "out": 1323,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Marco Polo",
+      "candidates": [
+        {
+          "text": "Tony's gift at the seventy-fifth birthday party is a Beretta shotgun, which one well-heeled guest cheerfully calls second-rate.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony gifts him a Beretta shotgun, but an upper-class guest devalues it by pointing out the best Berettas are not exported",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela's mother quietly asks her to leave Tony off the guest list for Hugh's surprise birthday party.",
+          "specificity": 5,
+          "characters_named": [
+            "Carmela",
+            "Tony",
+            "Hugh"
+          ],
+          "grounded_in": "Carmela's mother asks her not to invite Tony to Hugh's seventy-fifth surprise birthday",
+          "grounded_ok": true
+        },
+        {
+          "text": "Junior deliberately lets the details of the surprise party slip before the guest of honour is meant to know.",
+          "specificity": 4,
+          "characters_named": [
+            "Junior"
+          ],
+          "grounded_in": "Junior intentionally ruins the surprise",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony spends the whole backyard party on his best behaviour among his in-laws' guests.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "despite his good behavior throughout",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1106,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "9": {
+      "title": "Unidentified Black Males",
+      "candidates": [
+        {
+          "text": "Tony pulls strings to get Meadow's boyfriend a spot on a construction site crew.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Meadow"
+          ],
+          "grounded_in": "Tony gets Meadow's boyfriend Finn DeTrolio a job at a construction site",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela makes the rounds of local divorce attorneys, determined to secure a fair share of their assets.",
+          "specificity": 3,
+          "characters_named": [
+            "Carmela"
+          ],
+          "grounded_in": "Carmela still plans to divorce Tony and obtain a fair share of their assets",
+          "grounded_ok": true
+        },
+        {
+          "text": "Carmela comes home to find Tony lounging in the pool as though nothing has happened.",
+          "specificity": 3,
+          "characters_named": [
+            "Carmela",
+            "Tony"
+          ],
+          "grounded_in": "She returns home to find him relaxing in the pool",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This episode's summary is almost entirely turning points (a discovery about Vito, a proposal, a backstory revelation, a blocked divorce), so safe texture is thin; the pool and lawyer probes are adjacent to reveals and included only with the outcomes withheld.",
+      "usage": {
+        "in": 44,
+        "out": 1653,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "10": {
+      "title": "Cold Cuts",
+      "candidates": [
+        {
+          "text": "Chris and Blundetto spend days out at their uncle's overgrown farm with shovels, digging and swapping old family stories.",
+          "specificity": 5,
+          "characters_named": [
+            "Chris",
+            "Blundetto"
+          ],
+          "grounded_in": "He and Blundetto are sent to their uncle's farm to dispose of bodies buried there, and the two bond",
+          "grounded_ok": true
+        },
+        {
+          "text": "Janice sits through anger management sessions, and the small annoyances that once set her off no longer seem to.",
+          "specificity": 4,
+          "characters_named": [
+            "Janice"
+          ],
+          "grounded_in": "She takes the classes and makes significant progress",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony drives out to the farm himself to oversee the tail end of the job the younger men have been doing.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "Tony shows up to oversee the last of the job",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony sits down to a family dinner at the Baccalieri house and grows irritated at how placid Janice has become.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony",
+            "Janice"
+          ],
+          "grounded_in": "He has dinner with the Baccalieris and becomes irritated when Janice no longer gets angry at minor annoyances",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 42,
+        "out": 1742,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "11": {
+      "title": "The Test Dream",
+      "candidates": [
+        {
+          "text": "In a dream, Tony rides a racehorse through the rooms of his own house while Carmela objects.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Carmela"
+          ],
+          "grounded_in": "is then riding Pie-O-My through his house, Carmela allowing him to move back in on the condition of \"you can't bring your horse in here!\"3",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a dream, Artie cheers Tony on while Tony has sex with Artie's wife.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Artie"
+          ],
+          "grounded_in": "He has sex with Charmaine while Artie cheers him on",
+          "grounded_ok": true
+        },
+        {
+          "text": "Alone for the night, Tony checks into a suite at the Plaza Hotel in Manhattan.",
+          "specificity": 4,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "he goes to stay at the Plaza Hotel for the night",
+          "grounded_ok": true
+        },
+        {
+          "text": "In a dream, Tony sits through a therapy session with Gloria Trillo and is driven around by his father.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Gloria Trillo"
+          ],
+          "grounded_in": "He has therapy with Gloria Trillo and is driven by his father to \"the job.\"",
+          "grounded_ok": true
+        },
+        {
+          "text": "A dream deposits Tony in his old high school football coach's office, where the coach lectures him.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "He arrives in the office of his high school football coach, who criticizes Tony for taking the easy way out",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's non-dream material (a killing, a hospitalization, the closing news about Blundetto) is off-limits, so probes lean on dream imagery.",
+      "usage": {
+        "in": 41,
+        "out": 1918,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "12": {
+      "title": "Long Term Parking",
+      "candidates": [
+        {
+          "text": "Carmela walks Tony around an empty patch of land, describing the spec house she wants to build there.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "Tony"
+          ],
+          "grounded_in": "Carmela takes him to the spot where she plans to build",
+          "grounded_ok": true
+        },
+        {
+          "text": "Standing at the site of her planned building project, Carmela notices Tony seems preoccupied, but he brushes her off.",
+          "specificity": 4,
+          "characters_named": [
+            "Carmela",
+            "Tony"
+          ],
+          "grounded_in": "notices that he looks troubled, but he brushes her off",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly everything in this episode's summary is a turning point (surveillance footage, the woods, the beating, the traced phone call). Only the closing building-lot scene survives the rules, so both probes come from the same moment.",
+      "usage": {
+        "in": 42,
+        "out": 1072,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    },
+    "13": {
+      "title": "All Due Respect",
+      "candidates": [
+        {
+          "text": "Visiting Paulie's place, Tony finds the repainted portrait of himself with the horse hanging on the wall.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony",
+            "Paulie"
+          ],
+          "grounded_in": "he discovers the painting of him and Pie-O-My that Paulie had redone when he goes to visit him",
+          "grounded_ok": true
+        },
+        {
+          "text": "Paulie insists the uniformed portrait was commissioned out of genuine respect, while Tony stands there baffled and irritated.",
+          "specificity": 5,
+          "characters_named": [
+            "Paulie",
+            "Tony"
+          ],
+          "grounded_in": "Tony is perplexed and annoyed by it, but Paulie insists he had it made out of genuine respect",
+          "grounded_ok": true
+        },
+        {
+          "text": "After dumping the framed picture in a dumpster, Tony lingers, staring forlornly at his own painted face.",
+          "specificity": 5,
+          "characters_named": [
+            "Tony"
+          ],
+          "grounded_in": "stares forlornly at his painted face after he throws it in a dumpster",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tony sits with Junior hoping for advice, but the old man is too dazed to offer any.",
+          "specificity": 3,
+          "characters_named": [
+            "Tony",
+            "Junior"
+          ],
+          "grounded_in": "Tony goes to Junior for help, but he is too dazed to give him advice",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 41,
+        "out": 1185,
+        "cache_read": 11288,
+        "cache_write": 0
+      }
+    }
+  }
+}

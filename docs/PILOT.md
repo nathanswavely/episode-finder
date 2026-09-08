@@ -379,6 +379,16 @@ tested on another show's labels (every audited season is a labelled set).
 The eval is reusable: any future model or prompt for the consequence check
 can be scored the same way before it touches shipped data.
 
+## Does a "generate generously" prompt raise yield on Opus? 2026-09-08
+
+Stranger Things S1, same audit, only the generator prompt changed: 31
+candidates vs 33, 13 coarse-safe vs 11. Noise. The audit rejected 15 on
+consequence, correctly. Opus already generates freely; on plot-heavy shows the
+constraint is the safety check, by design. Thin seasons (Stranger Things S1,
+S2, S4; Breaking Bad S5; The Office S8) stay thin, covered by the fine-only
+tier and the walk's conservatism. The pre-registered Tier B relaxation is the
+only remaining lever and it trades safety; not taken.
+
 ## Cost
 
 ~75 episodes × (1 generation + ~5 audit calls). Pennies to a few dollars.

@@ -1,0 +1,125 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 1,
+  "source": {
+    "title": "Stranger Things season 1",
+    "revid": 1373540657,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_1&oldid=1373540657",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Vanishing of Will Byers",
+      "probes": [
+        {
+          "text": "The boys wrap up a long Dungeons & Dragons campaign in Mike's basement, then bike home in the dark.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A frightened girl in a hospital gown wanders into a roadside diner, and the owner takes her in.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The lab's director inspects a strange organic substance oozing from a wall down in the building's basement.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "Chapter Two: The Weirdo on Maple Street",
+      "probes": [],
+      "fine_only": []
+    },
+    "3": {
+      "title": "Chapter Three: Holly, Jolly",
+      "probes": [
+        {
+          "text": "Staff at the lab sit Hopper down in front of a monitor to watch security footage from the night of the disappearance.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "4": {
+      "title": "Chapter Four: The Body",
+      "probes": [
+        {
+          "text": "The boys smuggle Eleven into their school, planning to use the ham radio in the AV room.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nancy argues with Steve, who cares less about her missing friend than about staying out of trouble with his father.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The boys wonder aloud whether a ham radio could be powerful enough to reach someone far away.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Chapter Five: The Flea and the Acrobat",
+      "probes": [
+        {
+          "text": "The boys pedal through Hawkins holding compasses out in front of them, watching the needles behave strangely.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The boys corner their science teacher with hypothetical questions about whether a person could travel to another dimension.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Chapter Six: The Monster",
+      "probes": [
+        {
+          "text": "Eleven wanders into a grocery store alone and walks out with several boxes of Eggo waffles.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Nancy, too frightened to be alone that night, asks Jonathan to stay in her bedroom.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "Chapter Seven: The Bathtub",
+      "probes": [
+        {
+          "text": "The kids take refuge in a junkyard, huddled among the wrecked cars while the search for them goes on.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Chapter Eight: The Upside Down",
+      "probes": [
+        {
+          "text": "Inside the Byers' house, Nancy and Jonathan each draw a blade across their palm.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    }
+  }
+}

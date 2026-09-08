@@ -1,0 +1,833 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 1,
+  "model": "claude-opus-5",
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Vanishing of Will Byers",
+      "candidates": [
+        {
+          "text": "The boys wrap up a long Dungeons & Dragons campaign in Mike's basement, then bike home in the dark.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an ordinary activity and setting establishing the characters, with no outcome, reveal, or answer to an open question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It depicts ordinary activity and setting — friends finishing a game and biking home — with no outcome, reveal, or answer to any open question."
+                }
+              ],
+              "reason": "It depicts an ordinary activity and setting establishing the characters, with no outcome, reveal, or answer to an open question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "A frightened girl in a hospital gown wanders into a roadside diner, and the owner takes her in.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is premise-level setup introducing a character and situation, with no death, reveal, or resolution of any question the viewer is already holding."
+                },
+                {
+                  "reveals": false,
+                  "reason": "With no prior episodes seen, this is premise-setting texture — a girl arriving at a diner and being taken in — rather than the resolution of any established question or conflict."
+                }
+              ],
+              "reason": "This is premise-level setup introducing a character and situation, with no death, reveal, or resolution of any question the viewer is already holding."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The lab's director inspects a strange organic substance oozing from a wall down in the building's basement.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It depicts an atmospheric, premise-setting situation—a character examining an odd substance—without disclosing any outcome, explanation, or answer to a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows a character examining something odd early on, without disclosing what the substance is or any outcome, so it reads as premise-setting texture rather than a reveal."
+                }
+              ],
+              "reason": "It depicts an atmospheric, premise-setting situation—a character examining an odd substance—without disclosing any outcome, explanation, or answer to a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "On the girl's forearm there is a small tattoo of the number 011.",
+          "checks": {
+            "reverse": {
+              "picked": 1,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "The 011 tattoo is a key identity clue revealing the mysterious girl is a numbered lab experiment subject, a discovery the series stages as a reveal."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It discloses the mysterious girl's identity marker \\u2014 the 011 tattoo revealing she is a numbered lab subject \\u2014 which is a key discovery about who she is."
+                }
+              ],
+              "reason": "The 011 tattoo is a key identity clue revealing the mysterious girl is a numbered lab experiment subject, a discovery the series stages as a reveal."
+            }
+          },
+          "rejected": "consequence (2/2): The 011 tattoo is a key identity clue revealing the mysterious girl is a numbered lab experiment subject, a discovery the series stages as a reveal."
+        }
+      ]
+    },
+    "2": {
+      "title": "Chapter Two: The Weirdo on Maple Street",
+      "candidates": [
+        {
+          "text": "Jonathan drives out to Indianapolis to his estranged father's place, hoping for help searching for his brother.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Jonathan"
+        },
+        {
+          "text": "Mike coaches the girl in his basement to pass herself off as a runaway and ask his mother for help.",
+          "checks": {
+            "reverse": {
+              "picked": 2,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It discloses that Mike is secretly harbouring a mysterious girl in his basement and is actively deceiving his family with a fabricated cover story \"a concealed-character reveal and plot turn the viewer hasn't reached yet.\""
+                },
+                {
+                  "reveals": true,
+                  "reason": "It exposes that Mike is holding a girl captive in his basement and is orchestrating a deception involving his mother, revealing both a hidden situation and a scheme's setup that the viewer would otherwise discover in the episode."
+                }
+              ],
+              "reason": "It discloses that Mike is secretly harbouring a mysterious girl in his basement and is actively deceiving his family with a fabricated cover story \"a concealed-character reveal and plot turn the viewer hasn't reached yet.\""
+            }
+          },
+          "rejected": "consequence (2/2): It discloses that Mike is secretly harbouring a mysterious girl in his basement and is actively deceiving his family with a fabricated cover story \"a concealed-character reveal and plot turn the viewer hasn't reached yet.\""
+        },
+        {
+          "text": "Jonathan crouches in the dark trees outside a house party, quietly taking photographs of the teenagers.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Jonathan"
+        },
+        {
+          "text": "Nancy gets talked into a party at her boyfriend's house, with a swimming pool out back.",
+          "checks": {},
+          "rejected": "names: not in prior episodes: Nancy"
+        }
+      ]
+    },
+    "3": {
+      "title": "Chapter Three: Holly, Jolly",
+      "candidates": [
+        {
+          "text": "Joyce paints letters of the alphabet across her living room wall and hangs a Christmas light beside each one.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Joyce discovers Will is alive and communicating with her through the lights, answering the open question of his fate and establishing a supernatural contact method."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Joyce establishes a working means of communicating with the missing Will through the lights, confirming he is alive and reachable \"the other side\" \" an outcome the viewer has not yet seen."
+                }
+              ],
+              "reason": "It reveals that Joyce discovers Will is alive and communicating with her through the lights, answering the open question of his fate and establishing a supernatural contact method."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Joyce discovers Will is alive and communicating with her through the lights, answering the open question of his fate and establishing a supernatural contact method."
+        },
+        {
+          "text": "Eleven remembers being punished by the man she calls \"Papa\" after refusing to use her powers on a caged cat.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a flashback answering open questions about Eleven's backstory and her abusive relationship with Brenner, including the nature/extent of her powers."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It confirms Eleven's origin as a lab test subject controlled and abused by Brenner (\"Papa\"), answering the open question of who she is and where she escaped from."
+                }
+              ],
+              "reason": "It reveals a flashback answering open questions about Eleven's backstory and her abusive relationship with Brenner, including the nature/extent of her powers."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a flashback answering open questions about Eleven's backstory and her abusive relationship with Brenner, including the nature/extent of her powers."
+        },
+        {
+          "text": "Eleven leads the boys on their bikes across town and stops, to their frustration, outside Will's own house.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It shows the boys following Eleven to a dead-end destination without answering where Will is or what happened to him; it deepens rather than resolves the mystery."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It answers the open question of whether Eleven knows something about Will's disappearance by showing her deliberately leading the boys to his house, a key plot turn."
+                }
+              ],
+              "reason": "It answers the open question of whether Eleven knows something about Will's disappearance by showing her deliberately leading the boys to his house, a key plot turn."
+            }
+          },
+          "rejected": "consequence (1/2): It answers the open question of whether Eleven knows something about Will's disappearance by showing her deliberately leading the boys to his house, a key plot turn."
+        },
+        {
+          "text": "Staff at the lab sit Hopper down in front of a monitor to watch security footage from the night of the disappearance.",
+          "checks": {
+            "reverse": {
+              "picked": 3,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Hopper being shown footage as part of his ongoing investigation, without revealing what the footage contains or any conclusion he draws."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only shows Hopper pursuing his investigation at the lab without revealing what the footage contains or any outcome."
+                }
+              ],
+              "reason": "It only shows Hopper being shown footage as part of his ongoing investigation, without revealing what the footage contains or any conclusion he draws."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "4": {
+      "title": "Chapter Four: The Body",
+      "candidates": [
+        {
+          "text": "The boys smuggle Eleven into their school, planning to use the ham radio in the AV room.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is a logistical setup activity with no outcome, reveal, or resolution of a pending question."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Sneaking Eleven into school and using the AV room is ordinary setup and activity, revealing no outcome of the search for Will."
+                }
+              ],
+              "reason": "This is a logistical setup activity with no outcome, reveal, or resolution of a pending question."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nancy argues with Steve, who cares less about her missing friend than about staying out of trouble with his father.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture and relationship friction; the viewer already knows Barb has vanished, and no outcome, discovery or reveal is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture — a friction between Nancy and Steve over Barb's disappearance, which the viewer already knows about — without revealing any outcome, discovery or breakup."
+                }
+              ],
+              "reason": "This is character texture and relationship friction; the viewer already knows Barb has vanished, and no outcome, discovery or reveal is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Nancy finally sits down with the police to report that her friend Barb has disappeared.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It confirms Barb does not return after the Demogorgon attack and that Nancy discovers her disappearance and brings it to the police, an escalation the viewer has not yet seen."
+                },
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Barb vanished; Nancy reporting it to police is an expected procedural step that discloses no new outcome or answer."
+                }
+              ],
+              "reason": "It confirms Barb does not return after the Demogorgon attack and that Nancy discovers her disappearance and brings it to the police, an escalation the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (1/2): It confirms Barb does not return after the Demogorgon attack and that Nancy discovers her disappearance and brings it to the police, an escalation the viewer has not yet seen."
+        },
+        {
+          "text": "Mike feels betrayed by Eleven and can barely look at her after what happened at the quarry.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven deceives the boys about Will's fate at the quarry, a turning point and betrayal the viewer has not yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven deceives the boys about Will's whereabouts and that a body/incident occurs at the quarry, plus the resulting rift with Mike, all outcomes the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals that Eleven deceives the boys about Will's fate at the quarry, a turning point and betrayal the viewer has not yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Eleven deceives the boys about Will's fate at the quarry, a turning point and betrayal the viewer has not yet seen."
+        },
+        {
+          "text": "The boys wonder aloud whether a ham radio could be powerful enough to reach someone far away.",
+          "checks": {
+            "reverse": {
+              "picked": 4,
+              "confidence": 4
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The boys speculating about ham radio range is ordinary problem-solving texture and doesn't disclose any outcome, discovery, or answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It's a speculative discussion about equipment, revealing no outcome, discovery, or answer\ntou any pending question."
+                }
+              ],
+              "reason": "The boys speculating about ham radio range is ordinary problem-solving texture and doesn't disclose any outcome, discovery, or answer."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "5": {
+      "title": "Chapter Five: The Flea and the Acrobat",
+      "candidates": [
+        {
+          "text": "The boys pedal through Hawkins holding compasses out in front of them, watching the needles behave strangely.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Shows the boys engaged in an investigative activity without revealing what they find or resolving whether Will is truly dead."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It shows the boys engaged in an investigative activity without disclosing any outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "Shows the boys engaged in an investigative activity without revealing what they find or resolving whether Will is truly dead."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The boys corner their science teacher with hypothetical questions about whether a person could travel to another dimension.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary investigative texture consistent with what the viewer already knows about the Upside Down, revealing no outcome or answer."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character activity — the boys seeking scientific explanations for the alternate dimension they already know about — and reveals no outcome, death, or answer to an open question."
+                }
+              ],
+              "reason": "This is ordinary investigative texture consistent with what the viewer already knows about the Upside Down, revealing no outcome or answer."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Eleven remembers floating in a tank of water, headset on, listening to a man speaking Russian.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals a key discovery about Eleven's past experiments at the lab — the sensory deprivation tank used for Russian surveillance — which is a plot reveal the viewer hasn't yet seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals a key plot point about Eleven's past as a lab test subject used for remote spying on Russians, a backstory element the viewer has not yet learned."
+                }
+              ],
+              "reason": "It reveals a key discovery about Eleven's past experiments at the lab — the sensory deprivation tank used for Russian surveillance — which is a plot reveal the viewer hasn't yet seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals a key discovery about Eleven's past experiments at the lab — the sensory deprivation tank used for Russian surveillance — which is a plot reveal the viewer hasn't yet seen."
+        },
+        {
+          "text": "Hopper wakes up back at his own house with no memory of how he got home.",
+          "checks": {
+            "reverse": {
+              "picked": 5,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals the outcome of Hopper's pending covert investigation of Hawkins Lab \ba he is caught and drugged/returned home by the agents."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Hopper's covert investigation ends with him being caught and drugged/memory-wiped by the lab's people, an outcome of the pending conflict between him and Brenner."
+                }
+              ],
+              "reason": "It reveals the outcome of Hopper's pending covert investigation of Hawkins Lab \ba he is caught and drugged/returned home by the agents."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals the outcome of Hopper's pending covert investigation of Hawkins Lab \ba he is caught and drugged/returned home by the agents."
+        }
+      ]
+    },
+    "6": {
+      "title": "Chapter Six: The Monster",
+      "candidates": [
+        {
+          "text": "Eleven wanders into a grocery store alone and walks out with several boxes of Eggo waffles.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is ordinary character texture \\u2014 Eleven taking food \\u2014 consistent with her established situation as a runaway with powers, and it discloses no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Eleven taking Eggos from a store is ordinary character texture and doesn't disclose any outcome, discovery, or answer to a pending question."
+                }
+              ],
+              "reason": "This is ordinary character texture \\u2014 Eleven taking food \\u2014 consistent with her established situation as a runaway with powers, and it discloses no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Joyce and Hopper drive out to a house where a catatonic woman sits unresponsive, cared for by her sister.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Joyce and Hopper join forces and track down Terry Ives (Eleven's mother), answering the open thread of Hopper's investigation into Brenner's abduction claim."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Joyce and Hopper have joined forces and locate Terry Ives, Eleven's mother, answering the open thread about Hopper's investigation into Brenner's abduction of her daughter."
+                }
+              ],
+              "reason": "It reveals that Joyce and Hopper join forces and track down Terry Ives (Eleven's mother), answering the open thread of Hopper's investigation into Brenner's abduction claim."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Joyce and Hopper join forces and track down Terry Ives (Eleven's mother), answering the open thread of Hopper's investigation into Brenner's abduction claim."
+        },
+        {
+          "text": "Nancy, too frightened to be alone that night, asks Jonathan to stay in her bedroom.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "This is character texture continuing the already-established Nancy–Jonathan investigative partnership; no outcome, death, discovery, or romantic resolution is disclosed."
+                },
+                {
+                  "reveals": false,
+                  "reason": "This is character texture about their growing closeness, not an outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "This is character texture continuing the already-established Nancy–Jonathan investigative partnership; no outcome, death, discovery, or romantic resolution is disclosed."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Steve stands outside in the dark, looking up through Nancy's bedroom window at the two of them inside.",
+          "checks": {
+            "reverse": {
+              "picked": 6,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Nancy and Jonathan have paired up alone in her bedroom and that Steve witnesses it, setting up the love-triangle betrayal fallout the viewer hasn't seen."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Nancy and Jonathan have paired up in her bedroom and that Steve discovers them, foreshadowing the collapse of Nancy and Steve's relationship."
+                }
+              ],
+              "reason": "It reveals that Nancy and Jonathan have paired up alone in her bedroom and that Steve witnesses it, setting up the love-triangle betrayal fallout the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that Nancy and Jonathan have paired up alone in her bedroom and that Steve witnesses it, setting up the love-triangle betrayal fallout the viewer hasn't seen."
+        }
+      ]
+    },
+    "7": {
+      "title": "Chapter Seven: The Bathtub",
+      "candidates": [
+        {
+          "text": "The kids take refuge in a junkyard, huddled among the wrecked cars while the search for them goes on.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "Hiding in a junkyard during the ongoing pursuit is setting/texture and doesn't resolve any pending question like Nancy's fate or the search for Will."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Hiding in a junkyard is ordinary setting/situation texture; it discloses no death, discovery, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "Hiding in a junkyard during the ongoing pursuit is setting/texture and doesn't resolve any pending question like Nancy's fate or the search for Will."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "In the middle school, the group rigs up a makeshift tank of heavily salted water in the gym.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It implies Eleven (who ran off after the fight) is back with the boys and that they successfully build a sensory-deprivation tank to search for Will, resolving the pending rift and their search plan."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven rejoins the boys after fleeing and that they build a sensory-deprivation tank to use her powers to search, resolving the open rift and plan."
+                }
+              ],
+              "reason": "It implies Eleven (who ran off after the fight) is back with the boys and that they successfully build a sensory-deprivation tank to search for Will, resolving the pending rift and their search plan."
+            }
+          },
+          "rejected": "consequence (2/2): It implies Eleven (who ran off after the fight) is back with the boys and that they successfully build a sensory-deprivation tank to search for Will, resolving the pending rift and their search plan."
+        },
+        {
+          "text": "Kids, teenagers and adults all end up crowded together in the Byers' living room at the same time.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the three separate storylines converge into one alliance at the Byers' house, implying Nancy escapes the Upside Down and the kids/adults survive to join forces."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals that the three separate storylines converge into one group alliance at the Byers' house, implying the survival and reunion of characters currently in peril (Nancy in the Upside Down, the runaway Eleven, the estranged boys)."
+                }
+              ],
+              "reason": "It reveals that the three separate storylines converge into one alliance at the Byers' house, implying Nancy escapes the Upside Down and the kids/adults survive to join forces."
+            }
+          },
+          "rejected": "consequence (2/2): It reveals that the three separate storylines converge into one alliance at the Byers' house, implying Nancy escapes the Upside Down and the kids/adults survive to join forces."
+        },
+        {
+          "text": "Eleven is too drained from her earlier efforts when the group asks her to search telepathically.",
+          "checks": {
+            "reverse": {
+              "picked": 7,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": true,
+                  "reason": "It reveals that Eleven, who ran off after the fight, reunites with the boys and is with the group again."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It only conveys Eleven's exhaustion during an attempted search, which is character texture rather than an outcome, death, discovery or resolution of a pending conflict."
+                }
+              ],
+              "reason": "It reveals that Eleven, who ran off after the fight, reunites with the boys and is with the group again."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals that Eleven, who ran off after the fight, reunites with the boys and is with the group again."
+        }
+      ]
+    },
+    "8": {
+      "title": "Chapter Eight: The Upside Down",
+      "candidates": [
+        {
+          "text": "Steve turns up at the Byers' house, meaning to apologize to Jonathan for the fight between them.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "It only shows Steve's intention to apologize, a bit of character texture and a scene setup, without revealing any outcome, death, discovery, or the resolution of the pending Demogorgon or Eleven storylines."
+                },
+                {
+                  "reveals": true,
+                  "reason": "It reveals the resolution of the Steve\\u2013Jonathan/Nancy conflict via Steve's change of heart and attempted reconciliation, a turning point in his arc the viewer hasn't seen."
+                }
+              ],
+              "reason": "It reveals the resolution of the Steve\\u2013Jonathan/Nancy conflict via Steve's change of heart and attempted reconciliation, a turning point in his arc the viewer hasn't seen."
+            }
+          },
+          "rejected": "consequence (1/2): It reveals the resolution of the Steve\\u2013Jonathan/Nancy conflict via Steve's change of heart and attempted reconciliation, a turning point in his arc the viewer hasn't seen."
+        },
+        {
+          "text": "Inside the Byers' house, Nancy and Jonathan each draw a blade across their palm.",
+          "checks": {
+            "reverse": {
+              "picked": 8,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "The viewer already knows Nancy and Jonathan plan to lure the Demogorgon with blood, so seeing them cut their palms is just enacting a known plan without revealing its outcome."
+                },
+                {
+                  "reveals": false,
+                  "reason": "It simply shows them enacting the blood-lure plan the viewer already knows they devised; no outcome, death, or reveal is disclosed."
+                }
+              ],
+              "reason": "The viewer already knows Nancy and Jonathan plan to lure the Demogorgon with blood, so seeing them cut their palms is just enacting a known plan without revealing its outcome."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    }
+  },
+  "spend": {
+    "in": 37521,
+    "out": 12526,
+    "cache_read": 196464,
+    "cache_write": 7418,
+    "calls": 112
+  },
+  "recheck_spend": {
+    "in": 4094,
+    "out": 4221,
+    "cache_read": 37700,
+    "cache_write": 0,
+    "calls": 26
+  }
+}

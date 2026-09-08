@@ -1,0 +1,380 @@
+{
+  "show": "Stranger Things",
+  "slug": "stranger-things",
+  "season": 1,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Stranger Things season 1",
+    "revid": 1373540657,
+    "url": "https://en.wikipedia.org/w/index.php?title=Stranger_Things_season_1&oldid=1373540657",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Chapter One: The Vanishing of Will Byers",
+      "candidates": [
+        {
+          "text": "The boys wrap up a long Dungeons & Dragons campaign in Mike's basement, then bike home in the dark.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "vanishes while cycling home from a Dungeons & Dragons session with his friends Mike Wheeler, Dustin Henderson and Lucas Sinclair",
+          "grounded_ok": true
+        },
+        {
+          "text": "A frightened girl in a hospital gown wanders into a roadside diner, and the owner takes her in.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "A nervous young girl wearing a hospital gown wanders into a local diner.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The lab's director inspects a strange organic substance oozing from a wall down in the building's basement.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "investigates an organic substance oozing from the lab's basement",
+          "grounded_ok": true
+        },
+        {
+          "text": "On the girl's forearm there is a small tattoo of the number 011.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "finds a tattoo of \"011\" on her arm",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Nearly every named character in this episode's summary is introduced here, so probes had to describe people rather than name them.",
+      "usage": {
+        "in": 53,
+        "out": 1724,
+        "cache_read": 6368,
+        "cache_write": 0
+      }
+    },
+    "2": {
+      "title": "Chapter Two: The Weirdo on Maple Street",
+      "candidates": [
+        {
+          "text": "Jonathan drives out to Indianapolis to his estranged father's place, hoping for help searching for his brother.",
+          "specificity": 4,
+          "characters_named": [
+            "Jonathan"
+          ],
+          "grounded_in": "Will's brother Jonathan visits his estranged father Lonnie in Indianapolis to search for Will",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike coaches the girl in his basement to pass herself off as a runaway and ask his mother for help.",
+          "specificity": 4,
+          "characters_named": [
+            "Mike"
+          ],
+          "grounded_in": "Mike formulates a plan for Eleven to pretend to be a runaway and seek help from his mother, Karen",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jonathan crouches in the dark trees outside a house party, quietly taking photographs of the teenagers.",
+          "specificity": 4,
+          "characters_named": [
+            "Jonathan"
+          ],
+          "grounded_in": "Jonathan secretly photographs the party",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy gets talked into a party at her boyfriend's house, with a swimming pool out back.",
+          "specificity": 3,
+          "characters_named": [
+            "Nancy"
+          ],
+          "grounded_in": "Nancy's sister Nancy and her friend Barbara 'Barb' Holland go to a party with Nancy's boyfriend Steve Harrington",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 54,
+        "out": 1371,
+        "cache_read": 6368,
+        "cache_write": 0
+      }
+    },
+    "3": {
+      "title": "Chapter Three: Holly, Jolly",
+      "candidates": [
+        {
+          "text": "Joyce paints letters of the alphabet across her living room wall and hangs a Christmas light beside each one.",
+          "specificity": 5,
+          "characters_named": [
+            "Joyce"
+          ],
+          "grounded_in": "Joyce paints an alphabetic board on her wall with Christmas lights",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven remembers being punished by the man she calls \"Papa\" after refusing to use her powers on a caged cat.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Eleven recalls Brenner, whom she calls \"Papa,\" punishing her for refusing to hurt a cat telekinetically",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven leads the boys on their bikes across town and stops, to their frustration, outside Will's own house.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven",
+            "Will"
+          ],
+          "grounded_in": "Eleven leads them, to their frustration, to Will's house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Staff at the lab sit Hopper down in front of a monitor to watch security footage from the night of the disappearance.",
+          "specificity": 3,
+          "characters_named": [
+            "Hopper"
+          ],
+          "grounded_in": "the staff permits him to view doctored security footage from the night Will vanished",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 50,
+        "out": 1390,
+        "cache_read": 6368,
+        "cache_write": 0
+      }
+    },
+    "4": {
+      "title": "Chapter Four: The Body",
+      "candidates": [
+        {
+          "text": "The boys smuggle Eleven into their school, planning to use the ham radio in the AV room.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "The boys sneak Eleven into their school to use the radio",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy argues with Steve, who cares less about her missing friend than about staying out of trouble with his father.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy",
+            "Steve"
+          ],
+          "grounded_in": "She later fights with Steve, who not only does not care about Barb but only cares about not getting in trouble with his father.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy finally sits down with the police to report that her friend Barb has disappeared.",
+          "specificity": 3,
+          "characters_named": [
+            "Nancy",
+            "Barb"
+          ],
+          "grounded_in": "Nancy tells the police about Barb's disappearance.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Mike feels betrayed by Eleven and can barely look at her after what happened at the quarry.",
+          "specificity": 3,
+          "characters_named": [
+            "Mike",
+            "Eleven"
+          ],
+          "grounded_in": "Mike feels betrayed by Eleven",
+          "grounded_ok": true
+        },
+        {
+          "text": "The boys wonder aloud whether a ham radio could be powerful enough to reach someone far away.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "The boys theorize that Eleven could use a ham radio at their school to communicate with Will.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Most of this episode's memorable beats (the wallpaper, the walkie-talkie voice, the morgue) are reveals and had to be excluded.",
+      "usage": {
+        "in": 45,
+        "out": 1306,
+        "cache_read": 6368,
+        "cache_write": 0
+      }
+    },
+    "5": {
+      "title": "Chapter Five: The Flea and the Acrobat",
+      "candidates": [
+        {
+          "text": "The boys pedal through Hawkins holding compasses out in front of them, watching the needles behave strangely.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "The boys follow their compasses, searching for a gate that could disrupt the Earth's electromagnetic field.",
+          "grounded_ok": true
+        },
+        {
+          "text": "The boys corner their science teacher with hypothetical questions about whether a person could travel to another dimension.",
+          "specificity": 5,
+          "characters_named": [],
+          "grounded_in": "The boys ask their science teacher, Mr. Clarke, if it would be possible to travel between alternate dimensions",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven remembers floating in a tank of water, headset on, listening to a man speaking Russian.",
+          "specificity": 4,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Eleven recalls memories of being placed in a sensory-deprivation tank to telepathically eavesdrop on a Soviet man speaking Russian",
+          "grounded_ok": true
+        },
+        {
+          "text": "Hopper wakes up back at his own house with no memory of how he got home.",
+          "specificity": 4,
+          "characters_named": [
+            "Hopper"
+          ],
+          "grounded_in": "Hopper awakens at his house",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 53,
+        "out": 1081,
+        "cache_read": 6368,
+        "cache_write": 0
+      }
+    },
+    "6": {
+      "title": "Chapter Six: The Monster",
+      "candidates": [
+        {
+          "text": "Eleven wanders into a grocery store alone and walks out with several boxes of Eggo waffles.",
+          "specificity": 5,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "Eleven walks into a grocery store and shoplifts several boxes of Eggo waffles.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Joyce and Hopper drive out to a house where a catatonic woman sits unresponsive, cared for by her sister.",
+          "specificity": 4,
+          "characters_named": [
+            "Joyce",
+            "Hopper"
+          ],
+          "grounded_in": "Joyce and Hopper track down Terry Ives, who is catatonic and tended by her sister Becky.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Nancy, too frightened to be alone that night, asks Jonathan to stay in her bedroom.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy",
+            "Jonathan"
+          ],
+          "grounded_in": "That night, Nancy is afraid to be alone and asks Jonathan to stay in her bedroom.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Steve stands outside in the dark, looking up through Nancy's bedroom window at the two of them inside.",
+          "specificity": 4,
+          "characters_named": [
+            "Steve",
+            "Nancy"
+          ],
+          "grounded_in": "Steve, attempting to reconcile with Nancy, sees them together through her bedroom window",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 46,
+        "out": 1256,
+        "cache_read": 6368,
+        "cache_write": 0
+      }
+    },
+    "7": {
+      "title": "Chapter Seven: The Bathtub",
+      "candidates": [
+        {
+          "text": "The kids take refuge in a junkyard, huddled among the wrecked cars while the search for them goes on.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "the kids hide in the junkyard",
+          "grounded_ok": true
+        },
+        {
+          "text": "In the middle school, the group rigs up a makeshift tank of heavily salted water in the gym.",
+          "specificity": 4,
+          "characters_named": [],
+          "grounded_in": "They break into the middle school and build a makeshift sensory deprivation tank",
+          "grounded_ok": true
+        },
+        {
+          "text": "Kids, teenagers and adults all end up crowded together in the Byers' living room at the same time.",
+          "specificity": 3,
+          "characters_named": [],
+          "grounded_in": "The kids, teens, and adults all meet at the Byers' house",
+          "grounded_ok": true
+        },
+        {
+          "text": "Eleven is too drained from her earlier efforts when the group asks her to search telepathically.",
+          "specificity": 3,
+          "characters_named": [
+            "Eleven"
+          ],
+          "grounded_in": "her earlier feats have weakened her",
+          "grounded_ok": true
+        }
+      ],
+      "note": "",
+      "usage": {
+        "in": 49,
+        "out": 1496,
+        "cache_read": 6368,
+        "cache_write": 0
+      }
+    },
+    "8": {
+      "title": "Chapter Eight: The Upside Down",
+      "candidates": [
+        {
+          "text": "Steve turns up at the Byers' house, meaning to apologize to Jonathan for the fight between them.",
+          "specificity": 4,
+          "characters_named": [
+            "Steve",
+            "Jonathan"
+          ],
+          "grounded_in": "Steve, intending to apologize to Jonathan about their fight, arrives",
+          "grounded_ok": true
+        },
+        {
+          "text": "Inside the Byers' house, Nancy and Jonathan each draw a blade across their palm.",
+          "specificity": 4,
+          "characters_named": [
+            "Nancy",
+            "Jonathan"
+          ],
+          "grounded_in": "Nancy and Jonathan cut their hands to attract the Demogorgon at the Byers' house",
+          "grounded_ok": true
+        }
+      ],
+      "note": "This is the finale and almost every beat in the summary is a death, rescue, reveal or resolution, so safe material is very thin.",
+      "usage": {
+        "in": 49,
+        "out": 1188,
+        "cache_read": 6368,
+        "cache_write": 0
+      }
+    }
+  }
+}

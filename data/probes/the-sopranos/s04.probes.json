@@ -22,7 +22,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "2": {
       "title": "No Show",
@@ -32,7 +33,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "3": {
       "title": "Christopher",
@@ -52,7 +54,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "4": {
       "title": "The Weight",
@@ -72,7 +75,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "5": {
       "title": "Pie-O-My",
@@ -92,7 +96,8 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "6": {
       "title": "Everybody Hurts",
@@ -102,7 +107,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "7": {
       "title": "Watching Too Much Television",
@@ -117,7 +123,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "8": {
       "title": "Mergers and Acquisitions",
@@ -137,11 +144,13 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "9": {
       "title": "Whoever Did This",
-      "probes": []
+      "probes": [],
+      "fine_only": []
     },
     "10": {
       "title": "The Strong, Silent Type",
@@ -161,7 +170,8 @@
           "specificity": 3,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
     },
     "11": {
       "title": "Calling All Cars",
@@ -181,7 +191,50 @@
           "specificity": 4,
           "reverse_confidence": 5
         }
-      ]
+      ],
+      "fine_only": []
+    },
+    "12": {
+      "title": "Eloise",
+      "probes": [
+        {
+          "text": "Carmela and Meadow get into a heated argument about the homosexual themes in Billy Budd.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Meadow's birthday dinner turns tense as the same literary argument with her mother carries on at the table.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony asks Carmela whether she is happy about Meadow becoming an independent woman; she pauses before answering.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "13": {
+      "title": "Whitecaps",
+      "probes": [
+        {
+          "text": "Tony walks a waterfront Jersey Shore property with the family, taken with the view, and decides to buy the place.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "The shore house sale is handled directly with its owner, a lawyer who has Tony sign a contract with a fee attached.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony has an enormous set of speakers installed on his boat.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
     }
   }
 }

@@ -1,0 +1,75 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 6,
+  "model": "claude-opus-5",
+  "source": {
+    "title": "Game of Thrones season 6",
+    "revid": 1365331650,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_6&oldid=1365331650",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Red Woman",
+      "candidates": [
+        {
+          "text": "In Braavos, blinded Arya begs on the street; each day a young woman beats her with a staff.",
+          "specificity": 5,
+          "characters_named": [
+            "Arya"
+          ],
+          "grounded_in": "In Braavos, a blinded Arya begs on the street. Each day, the Waif beats her with a staff and forces her to fight.",
+          "grounded_ok": true
+        },
+        {
+          "text": "Davos and a handful of loyalists bolt themselves inside a room at Castle Black with Jon's body.",
+          "specificity": 4,
+          "characters_named": [
+            "Davos",
+            "Jon"
+          ],
+          "grounded_in": "Ser Davos and several loyalists bolt themselves inside a room with Jon's body",
+          "grounded_ok": true
+        },
+        {
+          "text": "Edd slips away from Castle Black alone to look for help.",
+          "specificity": 4,
+          "characters_named": [
+            "Edd"
+          ],
+          "grounded_in": "Edd leaves Castle Black to seek help",
+          "grounded_ok": true
+        },
+        {
+          "text": "Jorah and Daario are still out in the grasslands, following the trail left behind by Daenerys.",
+          "specificity": 3,
+          "characters_named": [
+            "Jorah",
+            "Daario",
+            "Daenerys"
+          ],
+          "grounded_in": "Jorah and Daario Naharis continue tracking Daenerys",
+          "grounded_ok": true
+        },
+        {
+          "text": "Tyrion and Varys walk together through Meereen and look out over the harbour, where ships are burning.",
+          "specificity": 4,
+          "characters_named": [
+            "Tyrion",
+            "Varys"
+          ],
+          "grounded_in": "In Meereen, Tyrion and Varys discover ships are burning in the harbor.",
+          "grounded_ok": true
+        }
+      ],
+      "note": "Melisandre's necklace scene, the Dornish killings, and Brienne's rescue of Sansa are all excluded as reveals/turning points.",
+      "usage": {
+        "in": 41,
+        "out": 1408,
+        "cache_read": 0,
+        "cache_write": 10985
+      }
+    }
+  }
+}

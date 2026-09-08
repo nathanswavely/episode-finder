@@ -1,0 +1,113 @@
+{
+  "show": "The Sopranos",
+  "slug": "the-sopranos",
+  "season": 5,
+  "source": {
+    "title": "The Sopranos season 5",
+    "revid": 1370297647,
+    "url": "https://en.wikipedia.org/w/index.php?title=The_Sopranos_season_5&oldid=1370297647",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "Two Tonys",
+      "probes": [
+        {
+          "text": "A black bear wanders into the Sopranos' backyard, and Tony ends up out there himself, standing guard.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Four men who have spent two decades behind bars walk out on parole.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A therapy session ends with Tony storming out of Melfi's office mid-conversation.",
+          "specificity": 2,
+          "reverse_confidence": 4
+        }
+      ]
+    },
+    "2": {
+      "title": "Rat Pack",
+      "probes": [
+        {
+          "text": "Tony's newly released cousin says he isn't interested in the family business — he wants to train as a massage therapist.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony catches his recently released cousin giving massages to some of his own men, and is not pleased about it.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Out with the other mob wives, Adriana notices one of them never comes around anymore and asks Rosalie why.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "3": {
+      "title": "Where's Johnny?",
+      "probes": [
+        {
+          "text": "Junior keeps needling Tony with the line that he never had the makings of a varsity athlete.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "A local gardener ends up mowing Tony's and Johnny's lawns for free as part of a settlement.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony brings Chris along to a sit-down with the New York people, and Chris speaks out of turn.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "All Happy Families...",
+      "probes": [
+        {
+          "text": "Told his men only laugh out of obligation, Tony tries a joke on them to see whether it lands.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "5": {
+      "title": "Irregular Around the Margins",
+      "probes": [
+        {
+          "text": "Tony sits in a doctor's office having a small mole removed from his head.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tony and Adriana end up alone together at the Crazy Horse late at night, talking easily.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "6": {
+      "title": "Sentimental Education",
+      "probes": [
+        {
+          "text": "Blundetto and his Korean boss can barely stand each other, sniping back and forth while he works his shifts.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Between studying massage therapy and his day job, Blundetto is visibly worn down by the workload.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ]
+    }
+  }
+}

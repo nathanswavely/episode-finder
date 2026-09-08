@@ -1,0 +1,183 @@
+{
+  "show": "Game of Thrones",
+  "slug": "game-of-thrones",
+  "season": 5,
+  "source": {
+    "title": "Game of Thrones season 5",
+    "revid": 1371777340,
+    "url": "https://en.wikipedia.org/w/index.php?title=Game_of_Thrones_season_5&oldid=1371777340",
+    "license": "CC BY-SA 4.0"
+  },
+  "episodes": {
+    "1": {
+      "title": "The Wars to Come",
+      "probes": [
+        {
+          "text": "Missandei asks Grey Worm why some of the Unsullied still pay visits to brothels.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Tyrion, drunk and miserable, is cooped up in a Pentos manse with Varys before they set out east.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Littlefinger leaves young Robin in the keeping of a Vale lord before he and Sansa ride away.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "2": {
+      "title": "The House of Black and White",
+      "probes": [
+        {
+          "text": "Newly arrived in Braavos, Arya makes her way to a building the locals call the House of Black and White.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Littlefinger and Sansa break their journey at a crowded roadside tavern, where other travellers are eating and drinking.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Brienne and Podrick ride off on their own again, keeping their distance behind another party on the road.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "3": {
+      "title": "High Sparrow",
+      "probes": [
+        {
+          "text": "Brienne puts Podrick through sword drills, correcting his grip and stance as they travel.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": [
+        {
+          "text": "Arya throws her clothes and belongings into the Braavosi harbour, but slips Needle into a hiding place among rocks.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        }
+      ]
+    },
+    "4": {
+      "title": "Sons of the Harpy",
+      "probes": [
+        {
+          "text": "Melisandre comes to Jon at Castle Black and tries to seduce him into riding south with Stannis.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jaime and Bronn come ashore secretly on the Dornish coast, there to retrieve Myrcella without anyone's knowledge.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Hizdahr zo Loraq presses Daenerys once again to reopen Meereen's fighting pits as an old local tradition.",
+          "specificity": 3,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "5": {
+      "title": "Kill the Boy",
+      "probes": [
+        {
+          "text": "Tyrion and Jorah sail in a small boat through the drowned ruins of Valyria, a dragon passing overhead.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Brienne and Podrick take a room at an inn within sight of Winterfell and quietly get word inside.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Stannis breaks camp at the Wall, his army marching out with his family and the red priestess in tow.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "6": {
+      "title": "Unbowed, Unbent, Unbroken",
+      "probes": [
+        {
+          "text": "Jaime and Bronn move quietly through the pools and terraces of the Dornish Water Gardens.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Olenna arrives in King's Landing and sits down with Cersei to talk bluntly about the Tyrell alliance.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "7": {
+      "title": "The Gift",
+      "probes": [
+        {
+          "text": "Daenerys and her consort walk the empty sands of the great fighting pit, inspecting it ahead of the games.",
+          "specificity": 4,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "8": {
+      "title": "Hardhome",
+      "probes": [
+        {
+          "text": "Disguised as a peddler wheeling a cart of shellfish through Braavos, Arya watches a man who sells insurance to shipowners.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Jon and Tormund stand before a crowd of Wildlings in a bleak seaside settlement, arguing for passage south.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        }
+      ],
+      "fine_only": []
+    },
+    "9": {
+      "title": "The Dance of Dragons",
+      "probes": [
+        {
+          "text": "Mace Tyrell has come to Braavos to negotiate with the Iron Bank on the crown's behalf.",
+          "specificity": 5,
+          "reverse_confidence": 5
+        },
+        {
+          "text": "Daenerys takes her seat above Daznak's pit as the fighting resumes before a packed crowd.",
+          "specificity": 4,
+          "reverse_confidence": 4
+        },
+        {
+          "text": "Stannis dispatches Davos back to Castle Black to request more supplies for the snowbound camp.",
+          "specificity": 3,
+          "reverse_confidence": 5
+        }
+      ],
+      "fine_only": []
+    },
+    "10": {
+      "title": "Mother's Mercy",
+      "probes": [],
+      "fine_only": []
+    }
+  }
+}

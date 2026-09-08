@@ -1060,6 +1060,192 @@
           "rejected": null
         }
       ]
+    },
+    "12": {
+      "title": "Eloise",
+      "candidates": [
+        {
+          "text": "Carmela and Meadow get into a heated argument about the homosexual themes in Billy Budd.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A domestic literary spat between mother and daughter is ordinary character texture and reveals no pending outcome or plot turn."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A domestic argument over a literary interpretation is ordinary character texture and resolves no pending plot question."
+                }
+              ],
+              "reason": "A domestic literary spat between mother and daughter is ordinary character texture and reveals no pending outcome or plot turn."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Meadow's birthday dinner turns tense as the same literary argument with her mother carries on at the table.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A family dinner with an ongoing argument is ordinary character texture and discloses no outcome, death, reveal or resolution of a pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A tense family dinner argument is ordinary character texture and does not disclose any outcome, death, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A family dinner with an ongoing argument is ordinary character texture and discloses no outcome, death, reveal or resolution of a pending conflict."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony asks Carmela whether she is happy about Meadow becoming an independent woman; she pauses before answering.",
+          "checks": {
+            "reverse": {
+              "picked": 12,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A casual domestic exchange about their daughter with no outcome, reveal, or resolution of any pending conflict."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A brief domestic exchange about Meadow's independence with no outcome, reveal, or resolution of any pending conflict."
+                }
+              ],
+              "reason": "A casual domestic exchange about their daughter with no outcome, reveal, or resolution of any pending conflict."
+            }
+          },
+          "rejected": null
+        }
+      ]
+    },
+    "13": {
+      "title": "Whitecaps",
+      "candidates": [
+        {
+          "text": "Tony walks a waterfront Jersey Shore property with the family, taken with the view, and decides to buy the place.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A real-estate purchase is ordinary character texture and does not resolve any pending conflict or open question from the series so far."
+                },
+                {
+                  "reveals": false,
+                  "reason": "Buying a shore property is ordinary character texture and doesn't resolve any pending conflict or open question the viewer is tracking."
+                }
+              ],
+              "reason": "A real-estate purchase is ordinary character texture and does not resolve any pending conflict or open question from the series so far."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "The shore house sale is handled directly with its owner, a lawyer who has Tony sign a contract with a fee attached.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "A routine property transaction detail with an unnamed third party; it discloses no outcome, reveal or turning point in the pending conflicts."
+                },
+                {
+                  "reveals": false,
+                  "reason": "A mundane real-estate transaction detail that doesn't disclose any outcome, reveal, or resolution of a pending conflict."
+                }
+              ],
+              "reason": "A routine property transaction detail with an unnamed third party; it discloses no outcome, reveal or turning point in the pending conflicts."
+            }
+          },
+          "rejected": null
+        },
+        {
+          "text": "Tony has an enormous set of speakers installed on his boat.",
+          "checks": {
+            "reverse": {
+              "picked": 13,
+              "confidence": 5
+            },
+            "faithful": {
+              "faithful": true,
+              "unsupported": []
+            },
+            "consequence": {
+              "votes": [
+                {
+                  "reveals": false,
+                  "reason": "An installation of speakers on his boat is ordinary character texture with no outcome, reveal or resolution attached."
+                },
+                {
+                  "reveals": false,
+                  "reason": "An installation of speakers on Tony's boat is ordinary character texture and reveals no outcome, death, or answer to a pending question."
+                }
+              ],
+              "reason": "An installation of speakers on his boat is ordinary character texture with no outcome, reveal or resolution attached."
+            }
+          },
+          "rejected": null
+        }
+      ]
     }
+  },
+  "spend": {
+    "in": 42985,
+    "out": 13304,
+    "cache_read": 674962,
+    "cache_write": 12306,
+    "calls": 169
+  },
+  "recheck_spend": {
+    "in": 2480,
+    "out": 6266,
+    "cache_read": 372200,
+    "cache_write": 0,
+    "calls": 60
   }
 }

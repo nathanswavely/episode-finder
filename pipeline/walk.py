@@ -36,8 +36,8 @@ def load_show(slug: str) -> dict:
     """{season_number: {episode_number: {title, probes, fine_only}}}"""
     seasons = {}
     for p in sorted((ROOT / f"data/probes/{slug}").glob("s*.probes.json")):
-        if ".meta." in p.name:
-            continue   # provider-comparison output
+        if not re.fullmatch(r"s\d{2}\.probes\.json", p.name):
+            continue   # tagged files are experiments
         d = json.loads(p.read_text())
         seasons[d["season"]] = {int(k): v for k, v in d["episodes"].items()}
     return seasons

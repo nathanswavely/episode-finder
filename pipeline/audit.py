@@ -263,9 +263,11 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--model", default=None, help="default: claude-opus-5, or muse-spark-1.3-contributor with --provider meta")
     ap.add_argument("--provider", default="anthropic", choices=["anthropic", "meta"])
-    ap.add_argument("--candidates", default=None, choices=["anthropic", "meta"],
-                    help="Which provider's candidates file to audit (default: same as --provider). "
-                         "'--provider anthropic --candidates meta' = Muse generates, Opus audits; output goes to the standard files.")
+    ap.add_argument("--candidates", default=None,
+                    help="Tag of the candidates file to audit: 'anthropic' (untagged), 'meta', or any --tag used by generate.py. "
+                         "Default: same as --provider.")
+    ap.add_argument("--out-tag", default=None,
+                    help="Write audit/probes files with this tag instead of the standard ones (for experiments; never shipped).")
     ap.add_argument("--effort", default="medium", choices=["low", "medium", "high", "xhigh", "max"])
     ap.add_argument("--votes", type=int, default=2, help="Consequence check runs this many times; any 'reveals' rejects")
     ap.add_argument("--recheck", action="store_true",
@@ -276,8 +278,8 @@ def main():
     cur = load(ROOT / f"data/raw/{slug}/s{a.season:02d}.json")
     prev = load(ROOT / f"data/raw/{slug}/s{a.season-1:02d}.json") if a.season > 1 else None
     a.model = a.model or ("muse-spark-1.3-contributor" if a.provider == "meta" else "claude-opus-5")
-    tag = "" if a.provider == "anthropic" else f".{a.provider}"
-    ctag = tag if a.candidates is None else ("" if a.candidates == "anthropic" else f".{a.candidates}")
+    ctag = ("" if a.provider == "anthropic" else f".{a.provider}") if a.candidates is None else ("" if a.candidates == "anthropic" else f".{a.candidates}")
+    tag = f".{a.out_tag}" if a.out_tag else ("" if a.provider == "anthropic" else f".{a.provider}")
     cands = load(ROOT / f"data/probes/{slug}/s{a.season:02d}{ctag}.candidates.json")
     if not cur or (not cands and not a.recheck):
         sys.exit("need data/raw season file and candidates file — run fetch.py and generate.py first")
