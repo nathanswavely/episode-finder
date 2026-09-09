@@ -1,4 +1,4 @@
-# Publishes site/ to GitHub Pages on every push to main. No build step, no secrets, no LLM calls.
+# The old GitHub Pages URL now redirects to jumpbackin.show. Publishes redirect/ on every push to main.
 name: pages
 on:
   push:
@@ -18,6 +18,6 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: redirect
       - id: deployment
         uses: actions/deploy-pages@v4
