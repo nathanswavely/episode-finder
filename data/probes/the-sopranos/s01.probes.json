@@ -23,7 +23,14 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Newly pointed toward a psychiatrist, Tony sits in her office and admits his line of work leaves him depressed.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses the turning point of Tony entering therapy and confessing that his criminal work depresses him \ns\n a personal admission the viewer hasn't yet earne"
+        }
+      ]
     },
     "2": {
       "title": "46 Long",
@@ -108,7 +115,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Melfi discovers her car has been taken away and repaired for her without her ever asking.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Tony has again secretly intruded into Melfi's private life, a discovery that escalates their doctor-patient dynamic beyond what the viewer has s"
+        }
+      ]
     },
     "7": {
       "title": "Down Neck",
@@ -198,7 +212,14 @@
     "11": {
       "title": "Nobody Knows Anything",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Paulie takes Pussy to a bath house, but Pussy stays fully dressed, blaming his high blood pressure.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "Pussy's refusal to undress at the bath house is the clue that he's wearing a wire, hinting at his role as an FBI informant\ba betrayal the viewer hasn't yet lear"
+        }
+      ]
     },
     "12": {
       "title": "Isabella",

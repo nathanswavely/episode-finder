@@ -28,7 +28,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jimmy tells Kim that the name he used for the phone business already comes with a ready-made client base.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It confirms the answer to the cliffhanger question of what name Jimmy will practice law under \\u2014 that he is adopting his \"Saul Goodman\" alias to leverage hi"
+        }
+      ]
     },
     "2": {
       "title": "50% Off",
@@ -81,7 +88,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jimmy picks out three bowling balls and hauls them off, though he never sets foot in a lane.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It telegraphs the pending Jimmy/Howard conflict escalating into Jimmy's bowling-ball attack on Howard's car, a turning point the viewer hasn't seen."
+        }
+      ]
     },
     "5": {
       "title": "Dedicado a Max",
@@ -145,6 +159,12 @@
           "text": "Jimmy drives out alone to a remote desert pickup site, where two heavy bags of cash are handed over.",
           "specificity": null,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy is paid a hundred thousand dollars up front for what he insists to Kim will be an easy job.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Jimmy takes on and is paid $100,000 for a cartel job (tied to the pending question of how Lalo's $7 million bail gets handled), a significant ne"
         }
       ]
     },

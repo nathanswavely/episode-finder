@@ -220,7 +220,20 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Michael sneaks out early to work a late-night telemarketing shift that keeps him up until 1 a.m.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses that Michael has secretly taken a second job, revealing his hidden financial trouble \"a key plot development the viewer hasn't encountered.\""
+        },
+        {
+          "text": "Jim gives Dwight a pep talk and looks pleased to see his annoying old self back.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the resolution of Dwight's grief/breakup slump over killing Angela's cat, confirming he recovers and returns to his old self with Jim's help."
+        }
+      ]
     },
     "14": {
       "title": "Goodbye, Toby",

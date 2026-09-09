@@ -61,7 +61,20 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jimmy and Kim enlist a pickpocket to lift Howard's car key long enough to copy it and the remote unlock button.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the next escalation of the Howard sabotage scheme — recruiting a pickpocket to duplicate Howard's car key — advancing the pending plot the viewer has"
+        },
+        {
+          "text": "A prosecutor sits Kim down and asks her to get Jimmy to share what he knows about Lalo.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that law enforcement has uncovered Lalo's true identity and Jimmy's connection to him, and that they are now pressuring Kim to turn Jimmy into a coop"
+        }
+      ]
     },
     "4": {
       "title": "Hit and Run",
@@ -134,6 +147,12 @@
           "text": "Jimmy sits bound to a chair in his own living room while Lalo heads back out into the night.",
           "specificity": null,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Mike intercepts an unexpected late-night visitor at the front door of Gus' quiet suburban house.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It gives away that Lalo's plan involves sending someone to Gus' house and that Mike stops them at the door, pre-empting the outcome of the attack the viewer kno"
         }
       ]
     },
@@ -157,7 +176,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "In Omaha, Gene sets about befriending the elderly mother of the cab driver who recognized him, playing the helpful neighbor.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It answers the open question of how Gene intends to \"handle it himself\" after Jeff recognized him, revealing his manipulative approach through Jeff's mother."
+        }
+      ]
     },
     "11": {
       "title": "Breaking Bad",

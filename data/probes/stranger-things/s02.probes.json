@@ -77,7 +77,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Will sits scribbling furiously across sheet after sheet of paper, and insists the house be kept cold.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It signals a turning point in Will's arc \"\" his visions escalating into the Mind Flayer's influence over him (the compulsive drawings and craving for cold), whi"
+        }
+      ]
     },
     "5": {
       "title": "Chapter Five: Dig Dug",
@@ -88,7 +95,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Lucas and Max sit together on a hillside overlooking Hawkins while he talks at length about last year.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies Lucas tells Max the truth about the previous year's events, revealing the pending outcome of whether the group lets the new girl in on their secret, "
+        }
+      ]
     },
     "6": {
       "title": "Chapter Six: The Spy",
@@ -104,6 +118,12 @@
           "text": "Steve leads the kids out to a junkyard, setting up a trap to lure Dart there.",
           "specificity": 4,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Nancy and Jonathan spend the night at Murray's cluttered place rather than driving back to Hawkins.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Nancy and Jonathan take their secret recording to conspiracy theorist Murray Bauman, forming a new alliance and answering the pending question o"
         }
       ]
     },
@@ -137,7 +157,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Billy turns up at the Byers house looking for Max, and Steve steps into his way.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a pending confrontation between Billy and Steve at the Byers house, a plot turning point the viewer has not yet seen set up."
+        }
+      ]
     }
   }
 }

@@ -76,7 +76,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Varys tells Tyrion the story of how he was cut as a boy, then shows him a crated captive in his chambers.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses Varys's hidden backstory of castration and the reveal that he has secretly captured and caged the man responsible, a significant revelation not yet"
+        }
+      ]
     },
     "5": {
       "title": "Kissed by Fire",
@@ -155,7 +162,20 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Tywin corners Tyrion after the ceremony and demands he produce a Lannister heir without delay.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It confirms that the pending Tyrion–Sansa wedding actually goes through, resolving the open question of whether Sansa escapes or the match is derailed."
+        },
+        {
+          "text": "Riding through the countryside, the Hound tells Arya plainly what he intends to do with her.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Arya ends up in the Hound's custody travelling with him and discloses his plans for her, resolving her pending situation with the Brotherhood wh"
+        }
+      ]
     },
     "9": {
       "title": "The Rains of Castamere",

@@ -160,6 +160,12 @@
           "text": "Jorah agrees to go with Daenerys into the House of the Undying rather than let her enter alone.",
           "specificity": 4,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Aboard ship as the fleet nears King's Landing, Stannis tells Davos he means to make him Hand of the King.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Stannis's fleet actually reaches King's Landing to begin the pending siege, and Davos survives to be offered the Hand position, pre-empting the "
         }
       ]
     },
@@ -177,6 +183,12 @@
           "text": "Tyrion, out in the streets beyond the gate, fights on foot among the Gold Cloaks.",
           "specificity": 3,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Stannis's ships sail by night into the bay below King's Landing while the city's defenders wait on the walls.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It confirms that Stannis's long-anticipated naval assault on King's Landing actually begins, resolving the pending question of whether/when the siege occurs."
         }
       ]
     },

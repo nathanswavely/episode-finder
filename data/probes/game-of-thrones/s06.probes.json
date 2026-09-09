@@ -23,7 +23,14 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Davos and a handful of loyalists bolt themselves inside a room at Castle Black with Jon's body.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Jon's body is recovered by Davos and loyalists who barricade themselves, indicating the immediate aftermath and standoff following the mutiny — "
+        }
+      ]
     },
     "2": {
       "title": "Home",
@@ -34,7 +41,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Tommen comes to his mother and admits he needs her help to be strong.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a reconciliation between Tommen and Cersei after her walk of atonement, resolving the pending question of whether Tommen would remain estranged/ineff"
+        }
+      ]
     },
     "3": {
       "title": "Oathbreaker",
@@ -100,7 +114,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Meera hauls Bran through the snow on a sled while he lies lost in a flood of visions.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "Showing Meera dragging Bran across open snow reveals that the safety of the Three-Eyed Raven's cave has been lost and the group forced to flee, giving away a ma"
+        }
+      ]
     },
     "7": {
       "title": "The Broken Man",
@@ -148,7 +169,20 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "In Meereen, Daenerys and Tyrion sit across from three masters of the slaving cities, trying to talk terms.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Daenerys returns to Meereen and reunites with Tyrion, and that the masters' pending campaign against the city comes to a negotiation, resolving "
+        },
+        {
+          "text": "Theon and Yara stand before Daenerys and Tyrion in Meereen, asking that the Iron Islands be left independent.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It confirms Theon and Yara successfully reach Daenerys and begin negotiating the alliance the viewer only knows was intended, previewing a new political pact."
+        }
+      ]
     },
     "10": {
       "title": "The Winds of Winter",
@@ -159,7 +193,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Bran and Meera travel with Benjen as far as the Wall, where he stops and goes no further.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Bran and Meera survive their flight and reach the Wall, and that Benjen parts from them there, resolving the pending question of their escape."
+        }
+      ]
     }
   }
 }

@@ -184,7 +184,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jesse is put to work scrubbing a warehouse and hauling every trace of product out of it.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies the superlab is being shut down/cleared out, a plot turning point the viewer hasn't reached."
+        }
+      ]
     },
     "10": {
       "title": "Salud",

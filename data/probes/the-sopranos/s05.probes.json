@@ -49,7 +49,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Tony's cousin, home after two decades away, greets him with a crack about his weight.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the introduction of Tony's cousin, newly released after two decades in prison, a plot development not yet known to the viewer."
+        }
+      ]
     },
     "3": {
       "title": "Where's Johnny?",

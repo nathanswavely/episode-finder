@@ -29,7 +29,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Dwight and Toby team up to look into Darryl's worker's compensation claim at the office.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Darryl gets injured and files a worker's compensation claim, an event the viewer hasn't yet seen."
+        }
+      ]
     },
     "3": {
       "title": "The Promotion",
@@ -273,7 +280,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Michael lingers around the sales meeting with Donna, confidently misreading the signals she keeps putting out.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a new romantic interest/prospect for Michael (Donna) that the viewer hasn't yet met, hinting at a developing flirtation storyline."
+        }
+      ]
     },
     "22": {
       "title": "The Cover-Up",

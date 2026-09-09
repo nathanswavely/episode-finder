@@ -83,7 +83,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jesse's motorbike is stolen, leaving him with nothing and nowhere to go.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a turning-point setback for Jesse — losing his last possession and being left destitute/homeless — an outcome the viewer hasn't yet seen."
+        }
+      ]
     },
     "5": {
       "title": "Breakage",
@@ -121,7 +128,14 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jesse makes food for a filthy, neglected little boy in a wrecked house and sits watching TV with him.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the outcome of Jesse's pending confrontation with the addict couple who robbed Skinny Pete \ru2014 that he tracks them down and finds their neglected "
+        }
+      ]
     },
     "7": {
       "title": "Negro y Azul",
@@ -142,7 +156,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Hank, transferred to the El Paso office, is the odd man out among agents who treat him as a gringo.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Hank's promotion results in a transfer to El Paso, a plot development the viewer hasn't seen yet."
+        }
+      ]
     },
     "8": {
       "title": "Better Call Saul",
@@ -168,7 +189,14 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jesse has left the RV's keys sitting in the ignition, and the battery is drained flat.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It sets up/reveals a dead-battery predicament in the RV, an obstacle-plot turning point the viewer hasn't yet seen."
+        }
+      ]
     },
     "10": {
       "title": "Over",

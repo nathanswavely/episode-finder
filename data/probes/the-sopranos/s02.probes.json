@@ -197,7 +197,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Tony's crew works a scheme on Scatino's store, and comes away with a batch of scalped airline tickets.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the outcome of David Scatino's pending gambling debt \"\" that Tony's crew moves in to bust out his store."
+        }
+      ]
     },
     "11": {
       "title": "House Arrest",

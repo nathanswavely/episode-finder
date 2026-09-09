@@ -39,7 +39,20 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Daenerys presses Varys about the many masters he has served, and he answers her before the whole room.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It shows Varys has joined Daenerys's court and survives her interrogation of his loyalties, revealing the outcome of his secret mission and the new alliance."
+        },
+        {
+          "text": "Daenerys and her assembled allies plan their campaign standing around the great carved map table at Dragonstone.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Daenerys successfully lands and takes Dragonstone as her seat and has assembled her alliance there, answering the pending question of her arriva"
+        }
+      ]
     },
     "3": {
       "title": "The Queen's Justice",
@@ -60,7 +73,20 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Deep in a dragonglass cave, Jon lifts a torch to show Daenerys ancient spiral carvings left by the Children of the Forest.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the discovery of proof of the Children of the Forest/White Walkers in the Dragonstone dragonglass cave and shows Jon and Daenerys reaching a point of"
+        },
+        {
+          "text": "Meera prepares for the journey home, and Bran's farewell to her is flat and strangely unfeeling.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Meera departs and, more importantly, that Bran has been emotionally transformed by the Three-Eyed Raven visions, resolving the open question of "
+        }
+      ]
     },
     "5": {
       "title": "Eastwatch",

@@ -23,7 +23,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Oscar is seriously considering adopting Angela's cat and talks through the idea around the office.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies Angela is giving up her cat, signalling an upheaval in her personal/domestic situation (a change the viewer hasn't seen yet)."
+        }
+      ]
     },
     "2": {
       "title": "Roy's Wedding",
@@ -210,7 +217,20 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Pam keeps asking around the office to learn who her new desk mate will be.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies Jim's desk beside Pam is now permanently vacant, confirming that his move to Philadelphia has actually gone through and someone else is replacing him"
+        },
+        {
+          "text": "David Wallace asks Dwight to find a part-time replacement to cover for Jim.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It confirms the outcome of Jim's unresolved Philadelphia situation \ruby he's officially going part-time in Scranton with corporate approval and a replacement be"
+        }
+      ]
     },
     "14": {
       "title": "Vandalism",
@@ -226,7 +246,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Dwight and Nellie eagerly join Pam to track down whoever vandalized her mural.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses that Pam's newly begun mural gets vandalized, an event the viewer hasn't yet seen."
+        }
+      ]
     },
     "15": {
       "title": "Couples Discount",
@@ -253,7 +280,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Andy hovers around Pete and Erin in the office trying to make them feel uncomfortable.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Andy has returned to the office and has learned about Erin's new relationship with Pete, resolving the pending question of how he reacts to bein"
+        }
+      ]
     },
     "17": {
       "title": "The Farm",
@@ -328,7 +362,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Dwight and Jim hold tryouts in the office to pick an assistant to the assistant to the regional manager.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "The existence of an \"assistant to the assistant to the regional manager\" role reveals that Dwight has been promoted to regional manager with Jim as his assistan"
+        }
+      ]
     },
     "23": {
       "title": "Finale",

@@ -46,7 +46,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Andy and Darryl are scrambling to interview replacement workers for the warehouse.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that the entire warehouse crew has departed, a plot development the viewer hasn't yet learned."
+        }
+      ]
     },
     "4": {
       "title": "Garden Party",
@@ -253,7 +260,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Dwight is trying hard to impress his new boss from Sabre's special projects.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Dwight has been moved/assigned under a new Sabre special projects boss, answering the pending question of his thwarted ambition for advancement "
+        }
+      ]
     },
     "16": {
       "title": "After Hours",

@@ -28,7 +28,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Two silent, identically dressed brothers make their way across the border from Mexico into the United States.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It introduces the arrival of the Salamanca cousins as new antagonists crossing into the US, a plot development the viewer has not yet seen."
+        }
+      ]
     },
     "2": {
       "title": "Caballo sin Nombre",
@@ -104,7 +111,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Gus tells Walt that a man provides for his family whether or not they appreciate him for it.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It signals Gus's successful pitch persuading Walt back into cooking, resolving the open question of whether Walt will accept the drug business offer he has been"
+        }
+      ]
     },
     "6": {
       "title": "Sunset",
@@ -186,7 +200,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jesse, learning Walt has not slept in two days, quietly slips sleeping pills into his coffee.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses that Jesse covertly drugs Walt \ta deliberate act of deception against his partner \tan event the viewer would otherwise encounter unspoiled."
+        }
+      ]
     },
     "11": {
       "title": "Abiquiu",

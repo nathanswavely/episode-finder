@@ -51,7 +51,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "At a pay phone, Jimmy cups the receiver and puts on a strange, disguised voice.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies Jimmy makes an anonymous warning/tip-off call — likely alerting the Kettlemans about Nacho's plan — showing he acts on Nacho's proposal rather than s"
+        }
+      ]
     },
     "4": {
       "title": "Hero",
@@ -62,7 +69,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jimmy puts up a billboard whose logo and clean-cut lawyer look are blatant copies of HHM's.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Jimmy's attempt to represent the Kettlemans/work with HHM has given way to a new phase of open rivalry with Howard, previewing the billboard sch"
+        }
+      ]
     },
     "5": {
       "title": "Alpine Shepherd Boy",
@@ -116,6 +130,12 @@
           "text": "Jimmy and Mike bring the borrowed notebook back to the two Philadelphia detectives, who are unimpressed by their explanation.",
           "specificity": 4,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Jimmy arrives to find Chuck standing outside his house, insisting he is building up a tolerance to electromagnetic waves.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a turning point in Chuck's condition — that he has left the house and is attempting to overcome his hypersensitivity — following his hospitalization "
         }
       ]
     },
@@ -149,6 +169,12 @@
           "text": "Sandpiper's lawyers bury Jimmy and Chuck under an avalanche of paperwork, boxes piling up around them.",
           "specificity": 4,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Mike hires on as bodyguard for a jittery amateur who sells stolen pharmaceutical pills to Nacho.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses a turning point in Mike's arc \\u2014 taking his first criminal bodyguard job \\u2014 and a new alliance/connection with Nacho via a pill-dealing cli"
         }
       ]
     },

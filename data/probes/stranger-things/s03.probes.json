@@ -124,7 +124,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Mayor Kline is cornered by the Russian enforcer amid the crowds and rides of Hawkins' Independence Day fair.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that the Russians turn on Mayor Kline after his forced cooperation with Hopper, signalling a confrontation/consequence the viewer hasn't yet seen."
+        }
+      ]
     },
     "7": {
       "title": "Chapter Seven: The Bite",

@@ -34,7 +34,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Meadow's new therapist encourages her talk of taking a year off college and travelling in Europe.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Meadow enters therapy and is planning to drop out/travel, an outcome stemming from her unresolved grief over Jackie's death."
+        }
+      ]
     },
     "3": {
       "title": "Christopher",
@@ -150,7 +157,14 @@
     "9": {
       "title": "Whoever Did This",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Tony floats an idea about pretending to be forgetful, and Junior passes it along to his trial investigator.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a turning point in Junior's pending RICO trial \\u2014 the adoption of a feigned-dementia defense strategy \\u2014 which the viewer has not yet seen."
+        }
+      ]
     },
     "10": {
       "title": "The Strong, Silent Type",

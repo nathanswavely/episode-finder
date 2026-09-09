@@ -156,7 +156,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Michael hosts a Mexican-themed party in the office to mark Oscar's return from vacation.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Oscar returns to the office after his three-month paid vacation, an outcome still pending for the viewer."
+        }
+      ]
     },
     "14": {
       "title": "Ben Franklin",
@@ -177,7 +184,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Dwight hires a stripper to entertain at the men's bachelor party for Phyllis's fiance.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Phyllis has become engaged to her boyfriend, a relationship development the viewer has not yet seen."
+        }
+      ]
     },
     "15": {
       "title": "Phyllis' Wedding",

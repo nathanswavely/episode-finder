@@ -183,7 +183,14 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Andy develops an instant crush on a client who is visiting Stanley at work.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a new romantic development for Andy following his breakup with Angela, introducing a plot point the viewer hasn't seen."
+        }
+      ]
     },
     "15": {
       "title": "Lecture Circuit: Part 2",
@@ -199,7 +206,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Michael and Pam arrive at the Nashua branch to find Holly is off work for a few days.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses that Michael travels to Nashua seeking Holly and that the anticipated reunion is thwarted by her absence, answering the open question of whether he"
+        }
+      ]
     },
     "16": {
       "title": "Blood Drive",
@@ -247,7 +261,14 @@
     "19": {
       "title": "Two Weeks",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Pam sits at the new office photocopier, working through its programming menus with quiet success.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "The photocopier was the losing faction's request in the surplus episode (the office bought chairs instead), so its presence reveals an outcome/change the viewer"
+        }
+      ]
     },
     "20": {
       "title": "Dream Team",
@@ -332,7 +353,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Michael turns the empty downstairs office into a makeshift cafe-disco with music and dancing.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies the Michael Scott Paper Company office is now vacant and Michael is back at Dunder Mifflin, revealing the outcome of the pending standoff between his"
+        }
+      ]
     },
     "26": {
       "title": "Company Picnic",

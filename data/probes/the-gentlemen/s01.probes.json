@@ -23,7 +23,14 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "A shifty bookmaker is tracked down and confronted over an enormous wager taken from the reckless elder brother.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses that the elder brother has placed a huge, reckless bet and that the bookmaker is successfully tracked down and confronted, revealing a plot develop"
+        }
+      ]
     },
     "2": {
       "title": "Tackle Tommy Woo Woo",
@@ -39,7 +46,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Susie calls in an underground crime scene cleaner, a specialist who arrives to tidy up after the previous night.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies a violent or fatal incident occurred the night before, requiring covert cleanup, which points to an off-screen death or crime the viewer would otherw"
+        }
+      ]
     },
     "3": {
       "title": "Where's My Weed At?",
@@ -108,7 +122,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Susie's money launderer turns up unannounced and catches her younger brother in bed with his girlfriend.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses a betrayal and its discovery \\in in bed with the launderer's girlfriend and the launderer catching them \\in which is a plot turning point the viewe"
+        }
+      ]
     },
     "7": {
       "title": "Not Without Danger",
@@ -119,7 +140,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Bobby reins his daughter in from behind bars, telling her he will deal with the matter himself.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Bobby overrules Susie and takes control of the pending conflict himself, an outcome/turning point in the power struggle."
+        }
+      ]
     },
     "8": {
       "title": "The Gospel According to Bobby Glass",

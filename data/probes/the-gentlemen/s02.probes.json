@@ -70,7 +70,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "The family gathers at church for the christening of Charly and Nanny's baby son.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Charlotte and Nanny are a couple with a child together, a relationship/parentage outcome the viewer has not yet learned."
+        }
+      ]
     },
     "4": {
       "title": "The Bigger Picture",
@@ -91,7 +98,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Eddie, Susie, Bella and Joe spend an awkward evening out together, the four of them on a joint date.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Bella and Joe have become romantic partners of Eddie and Susie respectively, answering the open question of whether Eddie's attraction to Bella "
+        }
+      ]
     },
     "5": {
       "title": "A Suburban A-Road on the Outskirts of Basingstoke",
@@ -107,6 +121,12 @@
           "text": "In Peru, Susie and Joe get cocaine production running in the back rooms of a restaurant.",
           "specificity": 5,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Johnston tells Eddie he can trace his own bloodline all the way back to Priam, king of Troy.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Johnston re-enters the story with a conversation with Eddie, though the boast itself is mere character texture."
         }
       ]
     },
@@ -151,7 +171,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Sabrina, Geoff, Charly and Nanny travel back to the estate from Italy with baby Tarquin the day after the wedding.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It confirms that Eddie and Bella's wedding actually took place (and went ahead in Italy), resolving the pending engagement the viewer last saw proposed."
+        }
+      ]
     },
     "8": {
       "title": "Bring Me the Head",

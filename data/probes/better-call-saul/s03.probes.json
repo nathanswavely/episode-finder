@@ -92,6 +92,12 @@
           "text": "Jimmy, Kim, Howard and Chuck sit around a conference table with the prosecutor, going over paperwork together.",
           "specificity": null,
           "reverse_confidence": 5
+        },
+        {
+          "text": "An envelope of cash arrives for Mike from Gus as payment, and Mike hands it back.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the outcome of the Mike–Gus arrangement, showing Gus paying Mike and Mike refusing the money, a turning point in their forming alliance."
         }
       ]
     },
@@ -109,7 +115,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Rebecca turns up in the hearing room just as Chuck arrives to give his testimony.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Jimmy's defense strategy includes summoning Rebecca to ambush Chuck at the disciplinary hearing, a turning point in the pending Chuck-vs-Jimmy c"
+        }
+      ]
     },
     "6": {
       "title": "Off Brand",
@@ -120,7 +133,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Jimmy films quick, cheap TV spots for local businesses, trying not to waste commercial airtime he already paid for.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "Showing Jimmy hustling commercial airtime for local businesses instead of practicing law signals the outcome of the pending bar hearing \\u2014 that he loses his"
+        }
+      ]
     },
     "7": {
       "title": "Expenses",

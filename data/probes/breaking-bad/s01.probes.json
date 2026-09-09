@@ -118,6 +118,12 @@
           "text": "Walt sits through his first chemotherapy session, hooked to the drip in the treatment room.",
           "specificity": null,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Their first batch of product brings in only $2,600, and Walt insists on ramping up production.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the outcome of Walt and Jesse's renewed partnership (a completed cook and disappointing sale) and the resulting decision to expand production, which "
         }
       ]
     },
@@ -135,7 +141,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Walt and Jesse wrestle a large barrel of methylamine out of a locked warehouse at night.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Walt and Jesse escalate to committing a burglary to steal precursor chemicals, showing how they solve the pending problem of scaling up producti"
+        }
+      ]
     }
   }
 }

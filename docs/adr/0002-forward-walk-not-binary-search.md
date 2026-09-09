@@ -84,3 +84,7 @@ is structurally bounded rather than probabilistic.
   audit rejected outright (deaths, arrests, reveals) stay out. The Walk's
   structure and reach bound are unchanged; what changed is which probes may
   be shown by the Coarse Pass.
+- Same decision, second step: split-vote consequence rejections (one "reveals",
+  one "safe") are restored as borderline probes, appended after the audited
+  ones so the Walk reaches for them last. Unanimous rejections stay out.
+  `pipeline/restore_borderline.py`, idempotent.

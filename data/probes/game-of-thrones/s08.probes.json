@@ -65,7 +65,14 @@
     "4": {
       "title": "The Last of the Starks",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "During the feast Daenerys rises and grants Gendry a lordship and the seat of Storm's End.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Gendry (and Daenerys) survive the imminent battle with the Army of the Dead and that Gendry is legitimized as a Baratheon lord of Storm's End, r"
+        }
+      ]
     },
     "5": {
       "title": "The Bells",

@@ -70,7 +70,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "At Castle Black, word comes that the mutineers are camped at Craster's Keep, and Jon argues for attacking them.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the discovery of the mutineers' location at Craster's Keep and Jon's push for a new offensive, a plot development the viewer hasn't yet learned."
+        }
+      ]
     },
     "4": {
       "title": "Oathkeeper",
@@ -97,7 +104,20 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "On the road, Brienne finds that her new squire has no idea how to do basic squire's work.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Brienne has left King's Landing on a journey with a newly assigned squire (Podrick), a new pairing/alliance the viewer has not yet seen formed."
+        },
+        {
+          "text": "At the Eyrie, Sansa's aunt talks of matching her with her own son, a sulky, emotionally immature boy.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It answers the open question of where Littlefinger has taken Sansa (the Eyrie, to Lysa) and reveals a new marriage plan for her with Robin Arryn."
+        }
+      ]
     },
     "6": {
       "title": "The Laws of Gods and Men",
@@ -139,7 +159,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Melisandre and Selyse make preparations to sail away from Dragonstone, intending to bring Shireen with them.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It signals that Stannis's forces are leaving Dragonstone, implying Davos's pending Iron Bank plan succeeded in funding a new campaign."
+        }
+      ]
     },
     "8": {
       "title": "The Mountain and the Viper",

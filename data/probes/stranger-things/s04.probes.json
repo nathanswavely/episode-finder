@@ -77,6 +77,12 @@
           "text": "Nancy and Robin sit down face to face with Victor Creel inside the psychiatric hospital where he is locked up.",
           "specificity": 5,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Max sits writing letters, one for each of her friends and for her family, sealing them up one by one.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "Writing sealed farewell letters to each friend and family member signals that Max believes she is about to die, revealing she has become Vecna's next cursed tar"
         }
       ]
     },
@@ -94,7 +100,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Eleven is driven out to an abandoned missile silo in the Nevada desert, hidden deep underground.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the destination/outcome of Owens taking Eleven away — the secret underground facility where her powers-restoration program will take place."
+        }
+      ]
     },
     "6": {
       "title": "Chapter Six: The Dive",

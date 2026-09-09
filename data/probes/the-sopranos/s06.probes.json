@@ -12,7 +12,14 @@
     "1": {
       "title": "Members Only",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Unable to get Phil on the phone, Tony has to sit across from an imprisoned Johnny just to arrange a meeting.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Phil has become the effective power/obstacle and that Tony is negotiating through an incarcerated Johnny, resolving the open question of Johnny'"
+        }
+      ]
     },
     "2": {
       "title": "Join the Club",
@@ -87,7 +94,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "In session, Tony tells Melfi his religion condemns homosexuality, yet insists people close to him deserve second chances.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies Vito's secret homosexuality \\u2014 known only to Finn so far \\u2014 has become known to Tony and is now a matter he must adjudicate, answering an ope"
+        }
+      ]
     },
     "7": {
       "title": "Luxury Lounge",
@@ -188,7 +202,14 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Carmela raises the idea of hiring a private investigator to track down Adriana.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Adriana's disappearance becomes an active plot thread Carmela pursues, a development beyond where the viewer's knowledge ends."
+        }
+      ]
     },
     "13": {
       "title": "Soprano Home Movies",
@@ -225,7 +246,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "At the baptism of Chris's baby daughter, he and Tony embrace, both of their expressions completely blank.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the outcome of Chris's pregnancy plotline (a healthy baby girl born and baptized) and signals a coldness in the Tony–Chris relationship the viewer ha"
+        }
+      ]
     },
     "15": {
       "title": "Remember When",
@@ -283,7 +311,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Paulie drives his car back and forth across Chris's front lawn, tearing the grass to shreds.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a new open conflict/falling-out between Paulie and Chris that hasn't occurred yet in the episodes watched."
+        }
+      ]
     },
     "18": {
       "title": "Kennedy and Heidi",
@@ -304,7 +339,14 @@
     "19": {
       "title": "The Second Coming",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "In session with Melfi, Tony brings up a moment in Las Vegas when he sensed something beyond ordinary life, then drops it.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Tony takes a trip to Las Vegas and has a peyote/epiphany-type experience there, an upcoming plot development the viewer hasn't seen."
+        }
+      ]
     },
     "20": {
       "title": "The Blue Comet",
@@ -331,7 +373,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Janice makes a visit to the state facility where Junior is now living.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Junior has been moved from the private psychiatric facility to a state institution, indicating a downturn in his circumstances not yet known to "
+        }
+      ]
     }
   }
 }

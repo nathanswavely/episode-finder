@@ -177,7 +177,14 @@
     "10": {
       "title": "Mother's Mercy",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Samwell asks to be sent south to Oldtown to train as a maester, taking Gilly and the baby with him.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a major plot turning point — Sam's departure from Castle Black for Oldtown with Gilly — a development the viewer has not yet seen."
+        }
+      ]
     }
   }
 }

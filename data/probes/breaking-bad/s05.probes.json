@@ -227,7 +227,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Walt spins his family a story about a malfunctioning pump at the gas station soaking him in gasoline.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Walt's house was not burned down and that he covers up Jesse's gasoline attack with a lie to his family, resolving the immediate cliffhanger of "
+        }
+      ]
     },
     "13": {
       "title": "To'hajiilee",

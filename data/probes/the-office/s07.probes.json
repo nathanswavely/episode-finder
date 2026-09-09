@@ -309,7 +309,14 @@
     "20": {
       "title": "Michael's Last Dundies",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Erin is openly annoyed with her boyfriend Gabe and is struggling to hide her dislike.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It signals a turn in the pending Erin\\u2013Gabe\\u2013Andy triangle by revealing Erin's feelings toward Gabe have soured, foreshadowing the breakup the viewer is"
+        }
+      ]
     },
     "21": {
       "title": "Goodbye, Michael",
@@ -325,7 +332,14 @@
     "22": {
       "title": "The Inner Circle",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Deangelo, now managing the office, openly groups certain staff members together as his favorites.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It confirms that Michael has departed/handed over and Deangelo has fully taken over as manager, resolving the pending transition the viewer knows is underway."
+        }
+      ]
     },
     "23": {
       "title": "Dwight K. Schrute, (Acting) Manager",

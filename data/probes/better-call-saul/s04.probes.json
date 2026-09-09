@@ -66,7 +66,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "An after-hours job at the copier store nearly falls apart when it turns out the owner sleeps on the premises.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It confirms Jimmy actually goes through with the Hummel heist he was seen scoping out and implies it ultimately succeeds despite the complication, answering a p"
+        }
+      ]
     },
     "4": {
       "title": "Talk",
@@ -168,7 +175,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "On a long bus ride, Jimmy writes stacks of letters, switching pens, paper and handwriting, recruiting fellow passengers.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It exposes the scheme Kim teased as her \"better way\" to save Huell \"– Jimmy forging mass letters of support \" answering an open question about their plan."
+        }
+      ]
     },
     "9": {
       "title": "Wiedersehen",
@@ -210,7 +224,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Kim organizes public occasions where Jimmy makes a visible display of mourning his brother in front of onlookers.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the outcome of Kim's promised plan to win Jimmy's reinstatement — staging public grief over Chuck — answering the open question of how they address t"
+        }
+      ]
     }
   }
 }

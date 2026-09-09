@@ -17,6 +17,18 @@
           "text": "In Omaha, Gene finds himself locked inside the mall's dumpster room, staring at an emergency exit he dares not push.",
           "specificity": null,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Someone scratches the letters \"SG WAS HERE\" into the wall before finally being let out of the locked room.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Gene/Saul ends up trapped in a locked room (a dumpster enclosure/escape situation) and, by scratching his real initials, marks a turning point i"
+        },
+        {
+          "text": "Daniel reports a burglary to the police, insisting the thieves took his valuable baseball card collection.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Daniel's home is burglarized (a new plot event) and that he escalates by involving the police with a cover story about baseball cards, a turning"
         }
       ]
     },
@@ -93,6 +105,12 @@
           "text": "Jimmy finds Kim among the boxes in the document review room and floats the idea of suing the firm.",
           "specificity": null,
           "reverse_confidence": 5
+        },
+        {
+          "text": "In a flashback soon after moving to Albuquerque, Jimmy charms Chuck's wife with easy patter while Chuck sits uncomfortably by.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Chuck has a wife (a relationship not yet established in the episodes watched) and hints at the origins of Chuck's resentment toward Jimmy, thoug"
         }
       ]
     },
@@ -110,7 +128,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Back at her old desk at HHM, Kim is handed menial busywork, including a hopeless motion to argue in court.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the resolution of Kim's pending demotion—she is restored to her old desk at HHM yet still punished with menial work rather than credited for landing "
+        }
+      ]
     },
     "7": {
       "title": "Inflatable",

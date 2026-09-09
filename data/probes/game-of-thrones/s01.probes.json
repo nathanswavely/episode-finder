@@ -33,7 +33,14 @@
     "2": {
       "title": "The Kingsroad",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Daenerys, newly wed, devotes herself to learning how to please Drogo in the marriage bed.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It discloses that Daenerys is married to Drogo, an outcome the viewer has not yet seen occur."
+        }
+      ]
     },
     "3": {
       "title": "Lord Snow",
@@ -96,7 +103,14 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Ned tells Arya and Sansa they are being sent back north to Winterfell for their own safety.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a turning point \" that Ned's investigation leads him to conclude King's Landing has become too dangerous, prompting him to break off the arrangement "
+        }
+      ]
     },
     "7": {
       "title": "You Win or You Die",
@@ -144,7 +158,14 @@
     "10": {
       "title": "Fire and Blood",
       "probes": [],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "A Night's Watch recruiter shears Arya's hair short so she can pass as a boy among his recruits.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that the fugitive Arya evades capture in King's Landing and escapes the city disguised as a boy with a Night's Watch recruiting party, resolving her "
+        }
+      ]
     }
   }
 }

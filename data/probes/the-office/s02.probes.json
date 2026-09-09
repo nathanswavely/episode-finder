@@ -262,7 +262,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Michael turns cold and resentful toward his employees, convinced one of them did something disgusting to him out of hate.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It signals a turning point in the next episode — an incident (implied prank/violation) targeting Michael that sours his relationship with the staff, an outcome "
+        }
+      ]
     },
     "15": {
       "title": "Boys and Girls",

@@ -49,7 +49,14 @@
           "reverse_confidence": 4
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Tension boils over as Jonathan accuses Steve of quietly competing with him for Nancy's attention.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals a pending romantic conflict/love triangle coming to a head between Jonathan and Steve over Nancy, a turning point in their relationships that the vie"
+        }
+      ]
     },
     "3": {
       "title": "Chapter Three: The Turnbow Trap",
@@ -70,7 +77,20 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "The group hauls an unconscious family out to an abandoned barn and lays them out there.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies the outcome of the cliffhanger attack on the Wheeler home\ni.e. that a family is found incapacitated and then moved/hidden, resolving the pending thre"
+        },
+        {
+          "text": "Hopper and Eleven work at the enormous wall ringing Hawkins, trying to find a way through it.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It implies Hopper safely gets out of the Upside Down after the failed crawl and rejoins Eleven, resolving the cliffhanger of him being trapped there."
+        }
+      ]
     },
     "4": {
       "title": "Chapter Four: Sorcerer",

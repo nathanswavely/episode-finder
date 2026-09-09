@@ -38,6 +38,12 @@
           "text": "The boys argue in Mike's basement about what to do with the girl they brought home.",
           "specificity": 4,
           "reverse_confidence": 5
+        },
+        {
+          "text": "Mike coaches the girl to say she is a runaway so his mother will help her.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Mike has taken in a mysterious girl and is actively conspiring with her to deceive his family with a cover story, a turning point and new allian"
         }
       ]
     },
@@ -50,7 +56,20 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Joyce fixates on the light bulbs around her house, convinced the way they pulse and flicker means something.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals the discovery that Will is communicating through the electrical lights, answering the open question of whether the mysterious phone call was really h"
+        },
+        {
+          "text": "In a memory, Eleven is pressed to hurt a cat using only her mind, and she refuses.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals Eleven's backstory in the lab \\u2014 that Brenner forced her to use her powers to harm living things \\u2014 answering the open question of her origin"
+        }
+      ]
     },
     "4": {
       "title": "Chapter Four: The Body",
@@ -71,7 +90,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Nancy sits in the police station reporting her missing friend, while nobody seems especially concerned.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It confirms Barb remains missing/unfound after her attack, resolving the open question of her immediate fate following the poolside abduction."
+        }
+      ]
     },
     "5": {
       "title": "Chapter Five: The Flea and the Acrobat",
@@ -93,7 +119,14 @@
           "reverse_confidence": 5
         }
       ],
-      "fine_only": []
+      "fine_only": [
+        {
+          "text": "Nancy and Jonathan pool their money and quietly assemble a stockpile of weapons and supplies together.",
+          "specificity": 1,
+          "borderline": true,
+          "reason": "It reveals that Nancy and Jonathan form an alliance and decide to hunt the creature themselves, a new partnership not yet established at the end of episode 4."
+        }
+      ]
     },
     "7": {
       "title": "Chapter Seven: The Bathtub",
