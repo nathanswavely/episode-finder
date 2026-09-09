@@ -124,7 +124,7 @@ class Walker {
       const dots = Array.from({ length: est }, (_, i) => `<i class="${i < n ? "on" : ""}"></i>`).join("");
       h(`
         <p class="note">${n === 1
-          ? `${esc(this.show.title)}, ${label}. We'll only show you moments from episodes you've seen, or at most one past where you stopped.`
+          ? `${esc(this.show.title)}, ${label}. Most moments are from episodes you've seen; a few may be from just past where you stopped, so expect minor spoilers.`
           : `${esc(this.show.title)}, ${label}`}</p>
         <div class="dots" aria-hidden="true">${dots}</div>
         <div class="card">${esc(probe)}</div>
@@ -149,7 +149,7 @@ class Walker {
     return new Promise((resolve) => {
       h(`
         <p class="note">${esc(this.show.title)}</p>
-        <div class="card consent">You weren't sure about that one. We can keep going, but then we might mention something from more than one episode past where you stopped.</div>
+        <div class="card consent">You weren't sure about that one. We can keep going, but the further we go, the more likely a spoiler.</div>
         <div class="answers">
           <button class="btn primary" data-c="1"><span>Keep going</span><kbd>1</kbd></button>
           <button class="btn" data-c="0"><span>Stop here</span><kbd>2</kbd></button>

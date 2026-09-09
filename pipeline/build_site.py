@@ -45,9 +45,11 @@ def main():
             "season": p["season"],
             "source": {"title": raw["source"]["title"], "url": raw["source"]["url"], "revid": raw["source"]["revid"]},
             "episodes": [
+                # Product decision 2026-09-08: the fine-only tier (audited safe for a viewer one episode
+                # behind) is merged into the main pool. Minor spoilers accepted; the site says so.
                 {"episode": int(k), "title": titles.get(int(k), v["title"]), "number": labels.get(int(k), k),
-                 "probes": [x["text"] for x in v["probes"]],
-                 "fine": [x["text"] for x in v.get("fine_only", [])]}
+                 "probes": [x["text"] for x in v["probes"]] + [x["text"] for x in v.get("fine_only", [])],
+                 "fine": []}
                 for k, v in sorted(p["episodes"].items(), key=lambda kv: int(kv[0]))
             ],
         })
@@ -70,7 +72,7 @@ def main():
         eps = sum(len(s["episodes"]) for s in show["seasons"])
         probes = sum(len(e["probes"]) for s in show["seasons"] for e in s["episodes"])
         fine = sum(len(e["fine"]) for s in show["seasons"] for e in s["episodes"])
-        print(f"{show['title']}: seasons {[s['season'] for s in show['seasons']]}, {eps} episodes, {probes} coarse-safe + {fine} fine-only probes")
+        print(f"{show['title']}: seasons {[s['season'] for s in show['seasons']]}, {eps} episodes, {probes} probes")
     for stale in (OUT / "shows").glob("*.json"):
         if stale.stem not in shows:
             stale.unlink()

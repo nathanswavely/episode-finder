@@ -23,8 +23,8 @@ moment at a time ("Hank has taken up collecting minerals" · I clearly
 remember this / Not sure / No) and reports the episode to start from, with a
 one-episode fallback for mid-episode stops. Precomputed probes from Wikipedia
 episode summaries, audited so that nothing shown reveals a turning point.
-Success is a result the viewer believes, reached in under a minute, with
-nothing spoiled. The full design record lives in docs/ (PROPOSAL.md, FLOW.md,
+Success is a result the viewer believes, reached in under a minute, with at
+most minor spoilers, and the site says so up front. The full design record lives in docs/ (PROPOSAL.md, FLOW.md,
 adr/) and the vocabulary in CONTEXT.md.
 
 ## Brand Personality

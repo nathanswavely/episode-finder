@@ -77,3 +77,10 @@ is structurally bounded rather than probabilistic.
 - The result screen offers "I think I got further" (continue the Walk from the
   result episode, consent implied) and, after a finished season, "keep going
   into the next season". Probes already shown are never repeated.
+- Product decision, 2026-09-08: minor spoilers are accepted and disclosed on
+  the first card. The fine-only tier is merged into the shipped pool (those
+  probes were audited safe for a viewer one episode behind, so the worst case
+  is a moment from the episode after the one they stopped on). Probes the
+  audit rejected outright (deaths, arrests, reveals) stay out. The Walk's
+  structure and reach bound are unchanged; what changed is which probes may
+  be shown by the Coarse Pass.
