@@ -27,8 +27,9 @@ either. Revisit only if the site passes ~50k visits/month.
 The result screen is the one moment a viewer is about to press play. A
 "Watch on <service>" link there is useful regardless of revenue.
 
-- Apple TV+ (Severance, Ted Lasso, The Morning Show): Apple Services
-  Performance Partners pays on subscriptions started from a link.
+- Apple TV+: **not available.** Apple Services Performance Partners is open
+  only to partners with content on Apple's stores, and by invitation. Checked
+  2026-09-09. Apple TV links stay plain.
 - Prime Video (The Boys, Fallout, Reacher): Amazon Associates pays a bounty on
   Prime and channel sign-ups from a link.
 - Netflix, Max, Disney+, Paramount+, Peacock: no affiliate programme. Plain
@@ -38,10 +39,10 @@ The result screen is the one moment a viewer is about to press play. A
   JSON; no provider API (TMDB's is off the table; JustWatch has no public one).
 - Copy stays honest: mark affiliate links as such in the footer line.
 
-## Tip link: yes
+## Tip link: live
 
-Ko-fi or GitHub Sponsors in the footer. Costs nothing, asks nothing, fits the
-"cheap free utility" framing from the original plan.
+Buy Me a Coffee (buymeacoffee.com/nathanswavely) in the footer as "Buy us a
+coffee". A plain link: no script, no tracking. Live 2026-09-09.
 
 ## The rule from the original plan still holds
 

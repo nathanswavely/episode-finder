@@ -4,7 +4,7 @@
 const REPO = "https://github.com/nathanswavely/episode-finder";
 const REQUEST_FORM = "https://tally.so/r/gDlO9J";   // Tally: hidden field `show`
 const RESULT_FORM = "https://tally.so/r/yPQ7Jd";    // Tally: hidden fields show, season, result, answers
-const TIP_URL = "";                                   // e.g. a Ko-fi or GitHub Sponsors page; empty hides the footer link
+const TIP_URL = "https://buymeacoffee.com/nathanswavely";   // empty hides the footer link
 const K = 3; // probes per episode, max
 
 const $app = document.getElementById("app");
