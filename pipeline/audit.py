@@ -251,7 +251,8 @@ CONSEQUENCE_SYSTEM = (
     "that sentence reveals anything that matters: a death, injury, arrest, discovery, reveal, betrayal, "
     "confession, breakup, new alliance, the outcome of a conflict the viewer knows is pending, or the "
     "answer to a question the story has left open. Ordinary situations, settings, activities and character "
-    "texture are safe. Be strict about outcomes and lenient about texture.\n\n"
+    "texture are safe, and so is setup: a plan being made, tension building, a character's mood or situation. "
+    "Only an outcome the sentence states or plainly implies counts.\n\n"
 )
 
 
@@ -403,15 +404,19 @@ def main():
                         votes = [ask(cons_system, f"Moment: {c['text']}", Consequence) for _ in range(a.votes)]
                         rec["checks"]["consequence"] = {"votes": [v.model_dump() for v in votes],
                                                         "reason": next((v.reason for v in votes if v.reveals), votes[0].reason)}
-                        if any(v.reveals for v in votes):
-                            n = sum(v.reveals for v in votes)
+                        n = sum(v.reveals for v in votes)
+                        if n == len(votes):
                             rec["rejected"] = f"consequence ({n}/{len(votes)}): " + rec["checks"]["consequence"]["reason"]
+                        elif n:
+                            rec["borderline"] = rec["checks"]["consequence"]["reason"]   # split vote: kept, shown last
                 except Filtered:
                     rec["rejected"] = "filtered: provider refused to evaluate this probe (content policy); cannot verify, so rejected"
             results.append(rec)
-            if not rec["rejected"] and len(survivors) < KEEP:
+            if not rec["rejected"] and len(survivors) < KEEP + 2:
                 survivors.append({"text": c["text"], "specificity": c["specificity"],
-                                  "reverse_confidence": rec["checks"]["reverse"]["confidence"]})
+                                  "reverse_confidence": rec["checks"]["reverse"]["confidence"],
+                                  **({"borderline": True, "reason": rec["borderline"][:160]} if rec.get("borderline") else {})})
+        survivors.sort(key=lambda s: s.get("borderline", False))
         audit["episodes"][str(ep)] = {"title": title, "candidates": results}
         probes["episodes"][str(ep)] = {"title": title, "probes": survivors}
         audit_path.write_text(json.dumps(audit, indent=2, ensure_ascii=False))

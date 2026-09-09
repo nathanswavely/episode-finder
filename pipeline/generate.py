@@ -33,7 +33,7 @@ def load_env():
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)
                 os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
-PROMPT = (ROOT / "pipeline/prompts/generate.md").read_text()   # overridden by --prompt
+PROMPT = (ROOT / "pipeline/prompts/generate-v2.md").read_text()   # generous by default (2026-09-08); --prompt overrides
 
 
 class Probe(BaseModel):

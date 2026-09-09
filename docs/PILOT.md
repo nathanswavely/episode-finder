@@ -389,6 +389,15 @@ S2, S4; Breaking Bad S5; The Office S8) stay thin, covered by the fine-only
 tier and the walk's conservatism. The pre-registered Tier B relaxation is the
 only remaining lever and it trades safety; not taken.
 
+## Looser defaults for future shows, 2026-09-08
+
+After the minor-spoilers decision: the generous generator prompt is the
+default; a split consequence vote keeps the probe as borderline (shown last)
+instead of rejecting it; the consequence prompt treats setup as texture and
+counts only outcomes the sentence states or plainly implies. Unanimous
+rejections still go. Existing shows were brought to the same place by
+merging the fine tier and restoring split votes; nothing was re-audited.
+
 ## Cost
 
 ~75 episodes × (1 generation + ~5 audit calls). Pennies to a few dollars.
