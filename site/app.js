@@ -32,7 +32,7 @@ async function loadShow(slug) {
 // ---------- screens ----------
 async function screenHome() {
   const intro = `
-    <h1>Where did I stop?</h1>
+    <h1>Jump back in.</h1>
     <p class="lede">Forgot where you stopped watching? Answer a few questions and we'll suggest where to pick it back up.</p>`;
   let shows;
   try {

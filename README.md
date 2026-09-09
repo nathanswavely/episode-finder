@@ -1,4 +1,4 @@
-# Where did I stop?
+# Jump Back In
 
 You watched a show years ago, got partway in, and can't remember where. This
 asks you a few questions about moments from the show and tells you which
@@ -37,7 +37,7 @@ possible stopping point against the shipped probes).
 python3 -m http.server 8765 --directory site
 ```
 
-Live at https://episode-finder.nathan-985.workers.dev, deployed by Cloudflare
+Live at https://jumpbackin.show (Worker: episode-finder), deployed by Cloudflare
 Workers Builds on every push to `main` (`wrangler.jsonc`: assets-only Worker
 serving `site/`). The GitHub Pages workflow still runs in parallel until a
 custom domain replaces the old URL.

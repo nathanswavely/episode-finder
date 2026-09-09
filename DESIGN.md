@@ -1,6 +1,6 @@
 # Design
 
-Visual system for "Where did I stop?". Product register, restrained color.
+Visual system for Jump Back In (jumpbackin.show). Product register, restrained color.
 Source of truth is `site/style.css`; this file describes it.
 
 ## Visual Theme & Atmosphere

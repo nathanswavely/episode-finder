@@ -1,5 +1,7 @@
 # Product
 
+Brand: **Jump Back In** (jumpbackin.show). Internal name: episode-finder.
+
 ## Register
 
 product
