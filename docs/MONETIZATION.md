@@ -32,6 +32,8 @@ The result screen is the one moment a viewer is about to press play. A
   2026-09-09. Apple TV links stay plain.
 - Prime Video (The Boys, Fallout, Reacher): Amazon Associates pays a bounty on
   Prime and channel sign-ups from a link.
+- Peacock (The Office): programme runs on Impact, listed as paused in
+  September 2026. Sign-up steps for both are in AFFILIATES.md.
 - Netflix, Max, Disney+, Paramount+, Peacock: no affiliate programme. Plain
   links, still worth having.
 - Where a show streams changes by region and over time. Keep a small,
