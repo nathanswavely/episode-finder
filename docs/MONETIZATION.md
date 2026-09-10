@@ -44,6 +44,13 @@ The result screen is the one moment a viewer is about to press play. A
 Buy Me a Coffee (buymeacoffee.com/nathanswavely) in the footer as "Buy us a
 coffee". A plain link: no script, no tracking. Live 2026-09-09.
 
+Also on the request form's thank-you page (Tally gDlO9J, added 2026-09-10):
+"Adding a show costs us a few dollars in model time and an evening of
+checking. If you'd like to cover that, you can buy us a coffee." That is the
+one moment a visitor is asking us to spend money, so it is the honest place
+for the ask. Paid show requests were considered and rejected: nobody pays to
+request a show.
+
 ## The rule from the original plan still holds
 
 "If the grilling surfaces a version that only works with recurring cost or a
